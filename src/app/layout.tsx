@@ -4,7 +4,13 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Analytics } from "@/components/Analytics";
 import { JsonLd } from "@/components/JsonLd";
-import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
+import {
+  SITE_DESCRIPTION,
+  SITE_NAME,
+  SITE_TAGLINE,
+  SITE_TITLE,
+  SITE_URL,
+} from "@/lib/site";
 import "./globals.css";
 
 const display = DM_Sans({
@@ -22,19 +28,20 @@ const data = JetBrains_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${SITE_NAME} — LoL patch analysis`,
+    default: SITE_TITLE,
     template: `%s · ${SITE_NAME}`,
   },
   description: SITE_DESCRIPTION,
   applicationName: SITE_NAME,
   keywords: [
     "League of Legends",
-    "patch notes",
+    "patch notes explained",
+    "LoL balance intelligence",
     "buffs nerfs",
     "damage calculator",
-    "LoL balance",
-    "RiftIntel",
     "champion history",
+    "RiftIntel",
+    "patch day",
   ],
   authors: [{ name: SITE_NAME }],
   creator: SITE_NAME,
@@ -43,22 +50,17 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: `${SITE_NAME} — LoL patch analysis`,
-    description:
-      "Buffs, nerfs, numbers, and build damage — intel for the Rift.",
+    title: SITE_TITLE,
+    description: SITE_DESCRIPTION,
     type: "website",
     locale: "en_US",
     siteName: SITE_NAME,
     url: SITE_URL,
   },
   twitter: {
-    card: "summary",
-    title: `${SITE_NAME} — LoL patch analysis`,
-    description:
-      "Buffs, nerfs, numbers, and build damage for League of Legends.",
-  },
-  icons: {
-    icon: [{ url: "/brand-mark.svg", type: "image/svg+xml" }],
+    card: "summary_large_image",
+    title: SITE_TITLE,
+    description: `${SITE_TAGLINE}. ${SITE_DESCRIPTION}`,
   },
   other: {
     "theme-color": "#05070c",

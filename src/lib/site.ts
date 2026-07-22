@@ -9,8 +9,18 @@ export const SITE_URL = (
 
 export const SITE_NAME = "RiftIntel";
 
+/** Share / Google snippet title (not an in-app H1). */
+export const SITE_TITLE =
+  "RiftIntel — What Riot's patch notes actually mean";
+
+/**
+ * Share / Google description.
+ * Positioning: intelligence layer on top of Riot updates — not "another LoL tool."
+ */
 export const SITE_DESCRIPTION =
-  "League of Legends balance intelligence — buffs, nerfs, real numbers, champion history, and build damage. Free unofficial fan tool.";
+  "Riot publishes the raw notes. RiftIntel shows what they actually mean — real numbers, champion history, and build damage for every League of Legends patch.";
+
+export const SITE_TAGLINE = "The intelligence layer on Riot's updates";
 
 /** Google Analytics 4 measurement ID (G-XXXXXXXX). Empty = disabled. Free. */
 export const GA_MEASUREMENT_ID =

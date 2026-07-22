@@ -5,7 +5,7 @@ import { FEEDBACK_URL } from "@/lib/site";
 export const metadata = {
   title: "About",
   description:
-    "About RiftIntel — free League of Legends patch analysis, champion history, and damage calculator. Unofficial fan tool.",
+    "RiftIntel is the intelligence layer on Riot's League of Legends updates — what the patch notes actually mean, with real numbers and build damage.",
 };
 
 export default function AboutPage() {
@@ -17,10 +17,11 @@ export default function AboutPage() {
           about
         </h1>
         <p className="mt-2 text-[13px] leading-relaxed text-muted">
-          <span className="text-fg">RiftIntel</span> is balance intelligence for
-          League of Legends — patch notes you can scan, real numbers, champion
-          history, and a live-patch damage calculator. Built for everyday
-          players, not walls of fluff.
+          <span className="text-fg">Riot publishes the raw patch notes.</span>{" "}
+          <span className="text-accent">RiftIntel</span> tells you what they
+          actually mean — real numbers, champion history, and build damage.
+          The intelligence layer on top of League updates, for patch day and
+          every day after.
         </p>
       </div>
 

@@ -11,7 +11,7 @@ export const revalidate = 3600;
 export const metadata = {
   title: "Damage calculator",
   description:
-    "League of Legends build damage calculator — same build compare vs an older patch where this champion was changed.",
+    "See what a balance change actually does to your kit — live damage with items, ranks, runes, and compare vs a prior patch.",
 };
 
 export default async function CalculatorPage() {

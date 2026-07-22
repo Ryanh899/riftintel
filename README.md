@@ -1,9 +1,9 @@
 # RiftIntel
 
-**Balance intelligence for League of Legends.**
+**What Riot's patch notes actually mean.**
 
-Free unofficial tool: scan patches, real numbers, champion history, and a
-live-patch damage calculator.
+The intelligence layer on League of Legends updates — real numbers, champion
+history, and build damage. Free unofficial fan tool.
 
 ## Brand
 
