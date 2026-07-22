@@ -78,12 +78,14 @@ export default async function ChampionHistoryPage({
             <span className="text-[var(--fg-faint)]"> / </span>
             <span className="text-adjust tabular-nums">{adjusts}</span>
           </p>
-          <Link
-            href="/calculator"
-            className="mt-1.5 inline-block font-data text-[11px] text-accent hover:underline"
-          >
-            dmg calc →
-          </Link>
+          <div className="mt-1.5 flex flex-wrap gap-2">
+            <Link
+              href={`/calculator?champ=${encodeURIComponent(history.assetKey || history.name)}&compare=last`}
+              className="inline-flex border border-accent/30 bg-accent/10 px-2 py-1 font-data text-[11px] text-accent hover:bg-accent/15"
+            >
+              dmg · last adj →
+            </Link>
+          </div>
         </div>
       </header>
 

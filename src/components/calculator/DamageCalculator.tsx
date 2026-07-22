@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import type {
   AbilityResult,
   ChampionData,
@@ -101,13 +102,32 @@ export function DamageCalculator({
   /** @deprecated compare patches come from champ history */
   patches?: { id: string; version: string }[];
 }) {
-  const [champId, setChampId] = useState("Ahri");
+  const searchParams = useSearchParams();
+  const urlChamp = searchParams.get("champ") || searchParams.get("id");
+  const urlCompare = searchParams.get("compare"); // last | before | patchId
+  const urlFrom = searchParams.get("from"); // patch id when compare=before
+
+  const initialChampId = useMemo(() => {
+    if (!urlChamp) return "Ahri";
+    const q = urlChamp.trim().toLowerCase();
+    const match = champions.find(
+      (c) =>
+        c.id.toLowerCase() === q ||
+        c.name.toLowerCase() === q ||
+        c.name.toLowerCase().replace(/[^a-z0-9]/g, "") ===
+          q.replace(/[^a-z0-9]/g, ""),
+    );
+    return match?.id ?? urlChamp;
+  }, [urlChamp, champions]);
+
+  const [champId, setChampId] = useState(initialChampId);
   const [kit, setKit] = useState<ChampionData | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [history, setHistory] = useState<ChampionHistory | null>(null);
   const [historyLoading, setHistoryLoading] = useState(false);
   const [comparePatchId, setComparePatchId] = useState<string | null>(null);
+  const urlCompareApplied = useRef(false);
   const [level, setLevel] = useState(3);
   const [ranks, setRanks] = useState<Record<string, number>>({
     Q: 1,
@@ -185,6 +205,15 @@ export function DamageCalculator({
 
   /* Data loading + rank clamping: setState in effects is intentional here */
   /* eslint-disable react-hooks/set-state-in-effect */
+  // Deep-link: ?champ=Corki
+  useEffect(() => {
+    if (initialChampId && initialChampId !== champId) {
+      setChampId(initialChampId);
+      urlCompareApplied.current = false;
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- only when URL champ changes
+  }, [initialChampId]);
+
   useEffect(() => {
     void loadKit(champId);
     // eslint-disable-next-line react-hooks/exhaustive-deps -- champ change only
@@ -194,7 +223,7 @@ export function DamageCalculator({
   useEffect(() => {
     let cancelled = false;
     setHistoryLoading(true);
-    setComparePatchId(null);
+    if (!urlCompare) setComparePatchId(null);
     setHistory(null);
     const name =
       champions.find((c) => c.id === champId)?.name ?? champId;
@@ -214,7 +243,45 @@ export function DamageCalculator({
     return () => {
       cancelled = true;
     };
-  }, [champId, champions]);
+  }, [champId, champions, urlCompare]);
+
+  // Deep-link compare: ?compare=last | before&from=26.14 | 26.01
+  useEffect(() => {
+    if (!urlCompare || !history?.entries?.length) return;
+    if (urlCompareApplied.current) return;
+
+    const entries = history.entries; // oldest → newest
+    const newest = entries[entries.length - 1];
+    let targetId: string | null = null;
+
+    if (urlCompare === "last") {
+      targetId = newest?.patchId ?? null;
+    } else if (urlCompare === "before") {
+      const from = urlFrom || newest?.patchId;
+      const idx = entries.findIndex(
+        (e) => e.patchId === from || e.version === from,
+      );
+      if (idx > 0) {
+        targetId = entries[idx - 1]!.patchId;
+      } else if (entries.length >= 2) {
+        // from is newest or missing — use second-newest
+        targetId = entries[entries.length - 2]!.patchId;
+      } else {
+        targetId = newest?.patchId ?? null;
+      }
+    } else {
+      // raw patch id
+      const hit = entries.find(
+        (e) => e.patchId === urlCompare || e.version === urlCompare,
+      );
+      targetId = hit?.patchId ?? urlCompare;
+    }
+
+    if (targetId) {
+      setComparePatchId(targetId);
+      urlCompareApplied.current = true;
+    }
+  }, [urlCompare, urlFrom, history]);
 
   useEffect(() => {
     setRanks((r) => clampRanksToLevel(r, level, abilityMaxByKey));

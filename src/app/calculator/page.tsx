@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { DamageCalculator } from "@/components/calculator/DamageCalculator";
 import {
   fetchChampionList,
@@ -21,6 +22,14 @@ export default async function CalculatorPage() {
   ]);
 
   return (
-    <DamageCalculator version={version} champions={champions} items={items} />
+    <Suspense
+      fallback={
+        <p className="py-12 text-center font-data text-[13px] text-muted">
+          loading calculator…
+        </p>
+      }
+    >
+      <DamageCalculator version={version} champions={champions} items={items} />
+    </Suspense>
   );
 }

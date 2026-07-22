@@ -8,7 +8,7 @@ import { cleanTldr } from "@/lib/text";
 
 /**
  * Change row — numbers first, prose second.
- * Scan the ability + before→after block; read text only if you want context.
+ * Clear action links: history + dmg compare (champs).
  */
 export function ChangeCard({
   entity,
@@ -20,12 +20,22 @@ export function ChangeCard({
   showHistoryLink?: boolean;
   compact?: boolean;
 }) {
+  const slug = slugify(entity.name);
   const historyHref =
     entity.type === "champion"
-      ? `/champions/${slugify(entity.name)}`
+      ? `/champions/${slug}`
       : entity.type === "item"
-        ? `/items/${slugify(entity.name)}`
+        ? `/items/${slug}`
         : null;
+
+  // DDragon / Meraki id for calculator
+  const champParam = entity.assetKey || entity.name;
+  const dmgHref =
+    entity.type === "champion"
+      ? patchId
+        ? `/calculator?champ=${encodeURIComponent(champParam)}&compare=before&from=${encodeURIComponent(patchId)}`
+        : `/calculator?champ=${encodeURIComponent(champParam)}&compare=last`
+      : null;
 
   const tldr = cleanTldr(entity.tldr, 200);
   const impact = cleanTldr(entity.gameplayImpact, 160);
@@ -34,7 +44,6 @@ export function ChangeCard({
     impact.toLowerCase() !== tldr.toLowerCase() &&
     !tldr.toLowerCase().includes(impact.slice(0, 40).toLowerCase());
 
-  // If tldr just restates the number lines, keep prose even quieter / shorter.
   const proseSecondary = entity.changes.length > 0;
 
   return (
@@ -52,53 +61,77 @@ export function ChangeCard({
         </div>
 
         <div className="min-w-0 flex-1 space-y-2.5">
-          {/* Identity */}
-          <div className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
-            <h3 className="text-[14px] font-semibold tracking-tight text-fg">
-              {entity.name}
-            </h3>
-            <span
-              className={cn(
-                "font-data text-[11px] font-medium uppercase tracking-wide",
-                entity.direction === "buff" && "text-buff",
-                entity.direction === "nerf" && "text-nerf",
-                entity.direction === "adjust" && "text-adjust",
-                entity.direction === "rework" && "text-rework",
-                !["buff", "nerf", "adjust", "rework"].includes(
-                  entity.direction,
-                ) && "text-muted",
+          {/* Identity + actions */}
+          <div className="flex flex-wrap items-start justify-between gap-x-3 gap-y-1.5">
+            <div className="min-w-0">
+              <div className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
+                <h3 className="text-[14px] font-semibold tracking-tight text-fg">
+                  {entity.name}
+                </h3>
+                <span
+                  className={cn(
+                    "font-data text-[11px] font-medium uppercase tracking-wide",
+                    entity.direction === "buff" && "text-buff",
+                    entity.direction === "nerf" && "text-nerf",
+                    entity.direction === "adjust" && "text-adjust",
+                    entity.direction === "rework" && "text-rework",
+                    !["buff", "nerf", "adjust", "rework"].includes(
+                      entity.direction,
+                    ) && "text-muted",
+                  )}
+                >
+                  {entity.direction}
+                </span>
+              </div>
+              {patchId && (
+                <p className="mt-0.5 font-data text-[10px] text-[var(--fg-faint)]">
+                  in this patch ·{" "}
+                  <span className="tabular-nums text-muted">{patchId}</span>
+                </p>
               )}
-            >
-              {entity.direction}
-            </span>
-            {showHistoryLink && historyHref && (
-              <Link
-                href={historyHref}
-                className="font-data text-[11px] text-muted hover:text-accent"
-              >
-                hist
-              </Link>
-            )}
-            {patchId && (
-              <span className="font-data text-[11px] text-muted/80">
-                {patchId}
-              </span>
-            )}
+            </div>
+
+            <div className="flex flex-wrap items-center gap-1.5">
+              {showHistoryLink && historyHref && (
+                <Link
+                  href={historyHref}
+                  className="inline-flex items-center border border-border bg-[var(--ink)]/60 px-2 py-1 font-data text-[11px] text-muted transition hover:border-accent/40 hover:text-accent"
+                  title={
+                    entity.type === "champion"
+                      ? `Open ${entity.name} balance history`
+                      : `Open ${entity.name} item history`
+                  }
+                >
+                  history →
+                </Link>
+              )}
+              {dmgHref && (
+                <Link
+                  href={dmgHref}
+                  className="inline-flex items-center border border-accent/30 bg-accent/10 px-2 py-1 font-data text-[11px] text-accent transition hover:border-accent/50 hover:bg-accent/15"
+                  title={`Open damage calc for ${entity.name}, compare vs kit before this patch`}
+                >
+                  dmg · prior →
+                </Link>
+              )}
+            </div>
           </div>
 
           {/* DATA FIRST — ability blocks with numbers */}
           {entity.changes.length > 0 ? (
             <div className="space-y-2">
               {entity.changes.map((ability, i) => (
-                <AbilityBlock key={`${ability.ability}-${i}`} ability={ability} />
+                <AbilityBlock
+                  key={`${ability.ability}-${i}`}
+                  ability={ability}
+                />
               ))}
             </div>
           ) : tldr ? (
-            /* No structured lines — fall back to tldr as primary */
             <p className="text-[13px] leading-snug text-fg/90">{tldr}</p>
           ) : null}
 
-          {/* PROSE SECOND — optional context under the numbers */}
+          {/* PROSE SECOND */}
           {entity.changes.length > 0 && tldr && (
             <div
               className={cn(
@@ -126,7 +159,6 @@ export function ChangeCard({
 function AbilityBlock({ ability }: { ability: AbilityChange }) {
   return (
     <div className="rounded-[var(--radius)] border border-border/80 bg-[var(--ink)]/40">
-      {/* Ability header */}
       <div className="flex items-center gap-2 border-b border-border/60 px-2.5 py-1.5">
         <AbilityMark
           ability={ability.ability}
@@ -134,8 +166,6 @@ function AbilityBlock({ ability }: { ability: AbilityChange }) {
           className="min-w-0"
         />
       </div>
-
-      {/* Number rows */}
       <ul className="divide-y divide-border/50">
         {ability.lines.map((line, j) => (
           <StatRow key={j} line={line} ability={ability} />
@@ -165,7 +195,6 @@ function StatRow({
       <span className="min-w-0 flex-1 text-[12px] leading-snug text-muted">
         {label || (hasValues ? "" : "Change")}
       </span>
-
       <span className="shrink-0 font-data text-[12px] leading-snug">
         {!hasValues && line.note ? (
           <span className="font-sans text-[12px] text-fg/85">
