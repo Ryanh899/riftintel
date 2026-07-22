@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import { DM_Sans, JetBrains_Mono } from "next/font/google";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { Analytics } from "@/components/Analytics";
+import { JsonLd } from "@/components/JsonLd";
+import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
 import "./globals.css";
 
 const display = DM_Sans({
@@ -17,13 +20,13 @@ const data = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: {
-    default: "RiftIntel — LoL patch analysis",
-    template: "%s · RiftIntel",
+    default: `${SITE_NAME} — LoL patch analysis`,
+    template: `%s · ${SITE_NAME}`,
   },
-  description:
-    "RiftIntel: League of Legends balance intelligence — buffs, nerfs, real numbers, champion history, and build damage. Free unofficial fan tool.",
-  applicationName: "RiftIntel",
+  description: SITE_DESCRIPTION,
+  applicationName: SITE_NAME,
   keywords: [
     "League of Legends",
     "patch notes",
@@ -31,20 +34,26 @@ export const metadata: Metadata = {
     "damage calculator",
     "LoL balance",
     "RiftIntel",
+    "champion history",
   ],
-  authors: [{ name: "RiftIntel" }],
+  authors: [{ name: SITE_NAME }],
+  creator: SITE_NAME,
   robots: { index: true, follow: true },
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
-    title: "RiftIntel — LoL patch analysis",
+    title: `${SITE_NAME} — LoL patch analysis`,
     description:
       "Buffs, nerfs, numbers, and build damage — intel for the Rift.",
     type: "website",
     locale: "en_US",
-    siteName: "RiftIntel",
+    siteName: SITE_NAME,
+    url: SITE_URL,
   },
   twitter: {
     card: "summary",
-    title: "RiftIntel — LoL patch analysis",
+    title: `${SITE_NAME} — LoL patch analysis`,
     description:
       "Buffs, nerfs, numbers, and build damage for League of Legends.",
   },
@@ -67,11 +76,13 @@ export default function RootLayout({
       className={`${display.variable} ${data.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col">
+        <JsonLd />
         <Header />
         <main className="mx-auto w-full max-w-[1200px] flex-1 px-3 py-4 sm:px-5 sm:py-5">
           {children}
         </main>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );

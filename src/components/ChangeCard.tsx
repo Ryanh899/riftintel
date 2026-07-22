@@ -95,7 +95,7 @@ export function ChangeCard({
               {showHistoryLink && historyHref && (
                 <Link
                   href={historyHref}
-                  className="inline-flex items-center border border-border bg-[var(--ink)]/60 px-2 py-1 font-data text-[11px] text-muted transition hover:border-accent/40 hover:text-accent"
+                  className="inline-flex items-center border border-[var(--brand-signal)]/40 bg-[var(--brand-signal)]/10 px-2 py-1 font-data text-[11px] font-medium text-[var(--brand-signal)] transition hover:border-[var(--brand-signal)]/60 hover:bg-[var(--brand-signal)]/15"
                   title={
                     entity.type === "champion"
                       ? `Open ${entity.name} balance history`
@@ -108,7 +108,7 @@ export function ChangeCard({
               {dmgHref && (
                 <Link
                   href={dmgHref}
-                  className="inline-flex items-center border border-accent/30 bg-accent/10 px-2 py-1 font-data text-[11px] text-accent transition hover:border-accent/50 hover:bg-accent/15"
+                  className="inline-flex items-center border border-accent/40 bg-accent/10 px-2 py-1 font-data text-[11px] font-medium text-accent transition hover:border-accent/60 hover:bg-accent/15"
                   title={`Open damage calc for ${entity.name}, compare vs kit before this patch`}
                 >
                   dmg · prior →

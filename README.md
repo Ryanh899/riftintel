@@ -49,6 +49,15 @@ Details: [`docs/AUTO_UPDATE.md`](docs/AUTO_UPDATE.md).
 
 No paid APIs required. Static data + free CDNs. Optional local Ollama for ingest summaries (never per visitor).
 
+**Stay free:** keep Vercel on **Hobby** and set **Spend Management → $0** so traffic cannot bill you without your action. See [`docs/COST_SECURITY_MARKETING.md`](docs/COST_SECURITY_MARKETING.md).
+
+## Analytics & SEO
+
+- Vercel Web Analytics (built-in after deploy)
+- Optional GA4: `NEXT_PUBLIC_GA_MEASUREMENT_ID`
+- Sitemap `/sitemap.xml`, robots, Open Graph, JSON-LD
+- When you add a domain: set `NEXT_PUBLIC_SITE_URL=https://your.domain`
+
 ## Legal
 
 Not affiliated with Riot Games. League of Legends and related marks belong to Riot Games, Inc.

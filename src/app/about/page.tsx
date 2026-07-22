@@ -1,8 +1,11 @@
 import Link from "next/link";
 import { BrandMark } from "@/components/BrandMark";
+import { FEEDBACK_URL } from "@/lib/site";
 
 export const metadata = {
   title: "About",
+  description:
+    "About RiftIntel — free League of Legends patch analysis, champion history, and damage calculator. Unofficial fan tool.",
 };
 
 export default function AboutPage() {
@@ -77,6 +80,21 @@ export default function AboutPage() {
             — ability damage by build, ranks, pen
           </li>
         </ul>
+      </section>
+
+      <section className="space-y-2">
+        <h2 className="label-micro">feedback</h2>
+        <p className="text-[12px] leading-relaxed text-muted">
+          Found a wrong number, broken UI, or have an idea?{" "}
+          <a
+            href={FEEDBACK_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent hover:underline"
+          >
+            Open a GitHub issue →
+          </a>
+        </p>
       </section>
 
       <section className="space-y-2">

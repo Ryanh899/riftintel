@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { BrandWordmark } from "./BrandMark";
+import { FEEDBACK_URL } from "@/lib/site";
 
 export function Footer() {
   return (
@@ -8,10 +9,26 @@ export function Footer() {
         <p className="font-data text-[10px] text-[var(--fg-faint)]">
           <BrandWordmark className="text-[10px]" /> · unofficial · not riot
         </p>
-        <div className="flex gap-3 font-data text-[10px] text-[var(--fg-faint)]">
+        <div className="flex flex-wrap gap-3 font-data text-[10px] text-[var(--fg-faint)]">
           <Link href="/about" className="hover:text-muted">
             about
           </Link>
+          <a
+            href={FEEDBACK_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-muted"
+          >
+            feedback
+          </a>
+          <a
+            href="https://github.com/Ryanh899/riftintel"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-muted"
+          >
+            github
+          </a>
         </div>
       </div>
     </footer>
