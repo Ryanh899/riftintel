@@ -1,26 +1,155 @@
 @import "tailwindcss";
 
+/*
+  RiftIntel brand system
+  — Rift: the map. Intel: signal, analysis, clarity.
+  Sharp geometry, mono metrics, color only for meaning.
+*/
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Surfaces — deep void with cool blue undertone */
+  --bg: #05070c;
+  --ink: #0a0e16;
+  --panel: #0c111c;
+  --line: #1a2233;
+  --line-strong: #2a3548;
+
+  /* Type */
+  --fg: #e8edf7;
+  --fg-dim: #9aa8c0;
+  --fg-faint: #6b7a94;
+
+  /* Brand */
+  --brand-ring: #3d5a80;
+  --brand-signal: #5eead4; /* teal signal */
+  --accent: #4f8cff; /* intel blue */
+
+  /* Semantic (game meaning — keep distinct from brand blue) */
+  --buff: #2ee59d;
+  --nerf: #ff5c6a;
+  --adjust: #f0b429;
+  --rework: #b57bff;
+  --new: #5eead4;
+
+  --radius: 2px;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-bg: var(--bg);
+  --color-surface: var(--panel);
+  --color-surface-2: var(--ink);
+  --color-border: var(--line);
+  --color-fg: var(--fg);
+  --color-muted: var(--fg-dim);
+  --color-buff: var(--buff);
+  --color-nerf: var(--nerf);
+  --color-adjust: var(--adjust);
+  --color-rework: var(--rework);
+  --color-new: var(--new);
+  --color-accent: var(--accent);
+  --font-sans: var(--font-display);
+  --font-mono: var(--font-data);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
+}
+
+/* Fallback for native hash jumps; JS scroll measures [data-scroll-sticky] */
+:root {
+  --scroll-offset: 4.5rem; /* header + pad */
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-display), system-ui, sans-serif;
+  min-height: 100%;
+  font-feature-settings: "ss01" on, "cv11" on;
+  letter-spacing: -0.01em;
 }
+
+/* Subtle radial intel glow + grid */
+body::before {
+  content: "";
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  opacity: 1;
+  background:
+    radial-gradient(
+      ellipse 70% 45% at 50% -5%,
+      color-mix(in srgb, var(--accent) 12%, transparent),
+      transparent 65%
+    ),
+    linear-gradient(var(--line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--line) 1px, transparent 1px);
+  background-size: auto, 48px 48px, 48px 48px;
+  mask-image: radial-gradient(ellipse 85% 60% at 50% 0%, black 20%, transparent 75%);
+  opacity: 0.4;
+  z-index: 0;
+}
+
+body > * {
+  position: relative;
+  z-index: 1;
+}
+
+.font-data,
+.tabular {
+  font-family: var(--font-data), ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.015em;
+}
+
+.label-micro {
+  font-family: var(--font-data), ui-monospace, monospace;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--fg-dim);
+  line-height: 1.4;
+}
+
+.label-hint {
+  font-family: var(--font-data), ui-monospace, monospace;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  color: var(--fg-faint);
+}
+
+.rule {
+  border: 0;
+  border-top: 1px solid var(--line);
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--line-strong);
+}
+
+::selection {
+  background: color-mix(in srgb, var(--accent) 40%, transparent);
+  color: var(--fg);
+}
+
+input,
+select,
+button {
+  font: inherit;
+}
+
+input[type="range"] {
+  accent-color: var(--accent);
+}
+
+.text-dir-buff { color: var(--buff); }
+.text-dir-nerf { color: var(--nerf); }
+.text-dir-adjust { color: var(--adjust); }
+.text-dir-rework { color: var(--rework); }

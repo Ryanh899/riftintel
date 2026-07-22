@@ -1,0 +1,378 @@
+{
+  "slug": "zaahen",
+  "name": "Zaahen",
+  "assetKey": "Zaahen",
+  "entries": [
+    {
+      "patchId": "25.23",
+      "version": "25.23",
+      "releaseDate": "2025-11-19",
+      "change": {
+        "id": "zaahen",
+        "name": "Zaahen",
+        "type": "champion",
+        "assetKey": "Zaahen",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Innate: Zaahen generates a stack of Determination for each enemy champion damaged by his basic attacks and abilities, lasting for 5 seconds, refreshing on subsequent triggers, and stacking up to 12 times. After the du…",
+        "gameplayImpact": "Zaahen was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": "New champion",
+        "changes": [
+          {
+            "ability": "General",
+            "title": null,
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Innate: Zaahen generates a stack of Determination for each enemy champion damaged by his basic attacks and abilities, lasting for 5 seconds, refreshing on subsequent triggers, and stacking up to 12 times. After the duration, the stacks expire by 1–5 (lv 0–2) every 0.5 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Determination: For each stack, Zaahen gains bonus attack damage equal to 1.5–3.3% AD. At maximum stacks, this is doubled to 1.5*12*2–3.3*12*2% AD."
+              },
+              {
+                "label": "Change",
+                "note": "Periodically, if Zaahen would take death while at maximum stacks of Determination, he enters resurrection for 4 seconds: becoming invulnerable, untargetable, and lockout. Additionally, he over the duration."
+              },
+              {
+                "label": "Change",
+                "note": "Static Cooldown: 300–120 (lv 1–16) seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Active: Zaahen empowers his next basic attack within 5 seconds to have an uncancellable windup and gain 25 bonus range. On-attack, he strikes the target twice and heal himself for 5–9% of his maximum health. The strikes deal 15–75 (+ 100% AD) (+ 30–70% bonus AD) modified physical damage and the heal is reduced to 50% against non-champions."
+              },
+              {
+                "label": "Change",
+                "note": "Each strike applies on-hit effects and can critically strike forAD bonus physical damage."
+              },
+              {
+                "label": "Change",
+                "note": "After 1.5 seconds of using the empowered attack, The Darkin Glaive can be recast within the next 5 seconds at no additional cost, modifying it with a new effect."
+              },
+              {
+                "label": "Change",
+                "note": "Recast: Zaahen empowers his next basic attack within 5 seconds to have an uncancellable windup, gain 25 bonus range, deal 30–150 (+ 30–70% AD) bonus physical damage and airborne the target for 0.75 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "The Darkin Glaive deals 150% damage against monsters."
+              },
+              {
+                "label": "Change",
+                "note": "Both casts of The Darkin Glaive basic attack reset Zaahen's basic attack timer."
+              },
+              {
+                "label": "Change",
+                "note": "Cost: 25 mana."
+              },
+              {
+                "label": "Change",
+                "note": "Cooldown: 9–5 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Cast Time: None."
+              },
+              {
+                "label": "Change",
+                "note": "Active: Zaahen extends his glaive in the target direction, dealing 40–120 (+ 50% bonus AD) physical damage to enemies hit. Upon reaching maximum range, all enemies hit are dealt the same physical damage, stun for 0.25 seconds, and airborne 225 units toward Zaahen."
+              },
+              {
+                "label": "Change",
+                "note": "Cost: 50 mana."
+              },
+              {
+                "label": "Change",
+                "note": "Cooldown: 16–12 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Cast Time: 0.5 seconds, Target Range: 850, Width: 70, Speed: / ."
+              },
+              {
+                "label": "Change",
+                "note": "Active: Zaahen dashes to the target location. Upon arrival, he flourishes his glaive to deal 40–120 (+ 50% bonus AD) physical damage to nearby enemies."
+              },
+              {
+                "label": "Change",
+                "note": "Enemies hit by the outer edge are dealt 60–180 (+ 100% bonus AD) and 4–8% of the target's maximum health , with the latter capped at 400 against monsters."
+              },
+              {
+                "label": "Change",
+                "note": "Aureate Rush deals 50 bonus physical damage against monsters."
+              },
+              {
+                "label": "Change",
+                "note": "Cost: 40 mana."
+              },
+              {
+                "label": "Change",
+                "note": "Cooldown: 10–8 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Cast Time: None, Target Range: , Effect Radius: cr / cr / , Speed: ."
+              },
+              {
+                "label": "Change",
+                "note": "Passive: Zaahen gains 10–30 (3 ranks)% armor penetration."
+              },
+              {
+                "label": "Change",
+                "note": "Active: Zaahen dash into the air to the target location. He then slams his glaive down after a 0.6-second delay, unleashing a shockwave that deals 250–550 (3 ranks) (+ 200% bonus AD) physical damage to nearby enemies and heal himself for 33% of the dealt to champions."
+              },
+              {
+                "label": "Change",
+                "note": "Zaahen is lockout and gains cc-immune and 50% damage reduction from the start of the cast time. He retains these effects until after the dash."
+              },
+              {
+                "label": "Change",
+                "note": "Cost: 100 mana."
+              },
+              {
+                "label": "Change",
+                "note": "Cooldown: 110–80 (3 ranks) seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Cast Time: 0.5 seconds, Target Range: / , Effect Radius: 550, Speed: ."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust",
+          "New champion"
+        ]
+      }
+    },
+    {
+      "patchId": "25.24",
+      "version": "25.24",
+      "releaseDate": "2025-12-03",
+      "change": {
+        "id": "zaahen",
+        "name": "Zaahen",
+        "type": "champion",
+        "assetKey": "Zaahen",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 2,
+        "tldr": "Cooldown increased to 10–6 seconds from 9–5.; Monster damage increased to 175% from 150%.",
+        "gameplayImpact": "Zaahen was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Cultivation of War",
+            "title": "Cultivation of War",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: Amended multiple issues during the resurrection."
+              }
+            ]
+          },
+          {
+            "ability": "The Darkin Glaive",
+            "title": "The Darkin Glaive",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Cooldown",
+                "before": "9–5",
+                "after": "10–6 seconds",
+                "note": "Cooldown increased to 10–6 seconds from 9–5."
+              },
+              {
+                "label": "Monster damage",
+                "before": "150%",
+                "after": "175%",
+                "note": "Monster damage increased to 175% from 150%."
+              },
+              {
+                "label": "Change",
+                "note": "Undocumented / Bug Fix: Cooldown is now affected by basic ability haste."
+              }
+            ]
+          },
+          {
+            "ability": "Aureate Rush",
+            "title": "Aureate Rush",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Sweet spot magic damage",
+                "before": "4–8%|health",
+                "after": "4–6% of target's maximum health",
+                "note": "Sweet spot magic damage reduced to 4–6% of target's maximum health from 4–8%|health."
+              }
+            ]
+          },
+          {
+            "ability": "Grim Deliverance",
+            "title": "Grim Deliverance",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Undocumented / Removed: No longer retains the cc-immune during the dash and the slam delay once the cast time completes."
+              },
+              {
+                "label": "Change",
+                "note": "Undocumented / New Effect: Now grants displacement immunity during the dash and the slam delay."
+              },
+              {
+                "label": "Change",
+                "note": "Note: Zaahen transitions from having cc-immune during the cast time to displacement immunity for the remainder of the ability's animation."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "26.03",
+      "version": "26.03",
+      "releaseDate": "2026-02-04",
+      "change": {
+        "id": "zaahen",
+        "name": "Zaahen",
+        "type": "champion",
+        "assetKey": "Zaahen",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "Monster damage increased to 200% from 175%.; Bonus monster damage increased to 75 from 50.",
+        "gameplayImpact": "Zaahen is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "The Darkin Glaive",
+            "title": "The Darkin Glaive",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Monster damage",
+                "before": "175%",
+                "after": "200%",
+                "note": "Monster damage increased to 200% from 175%."
+              }
+            ]
+          },
+          {
+            "ability": "Aureate Rush",
+            "title": "Aureate Rush",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Bonus monster damage",
+                "before": "50",
+                "after": "75",
+                "note": "Bonus monster damage increased to 75 from 50."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "26.06",
+      "version": "26.06",
+      "releaseDate": "2026-03-18",
+      "change": {
+        "id": "zaahen",
+        "name": "Zaahen",
+        "type": "champion",
+        "assetKey": "Zaahen",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 2,
+        "tldr": "Second hit base damage reduced to 30–110 from 40–120.; Second hit bonus AD ratio reduced to 30% bonus AD from 50%|AD.",
+        "gameplayImpact": "Zaahen loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Dreaded Return",
+            "title": "Dreaded Return",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Second hit base damage",
+                "before": "40–120",
+                "after": "30–110",
+                "note": "Second hit base damage reduced to 30–110 from 40–120."
+              },
+              {
+                "label": "Second hit bonus AD ratio",
+                "before": "50%|AD",
+                "after": "30% bonus AD",
+                "note": "Second hit bonus AD ratio reduced to 30% bonus AD from 50%|AD."
+              }
+            ]
+          },
+          {
+            "ability": "Aureate Rush",
+            "title": "Aureate Rush",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Bonus monster damage",
+                "before": "75",
+                "after": "50",
+                "note": "Bonus monster damage reduced to 50 from 75."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "26.13",
+      "version": "26.13",
+      "releaseDate": "2026-06-24",
+      "change": {
+        "id": "zaahen",
+        "name": "Zaahen",
+        "type": "champion",
+        "assetKey": "Zaahen",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "Cooldown reduced to 14–12 seconds from 16–12.",
+        "gameplayImpact": "Zaahen is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Dreaded Return",
+            "title": "Dreaded Return",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Cooldown",
+                "before": "16–12",
+                "after": "14–12 seconds",
+                "note": "Cooldown reduced to 14–12 seconds from 16–12."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    }
+  ]
+}

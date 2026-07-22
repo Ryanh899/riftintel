@@ -1,0 +1,787 @@
+{
+  "slug": "akali",
+  "name": "Akali",
+  "assetKey": "Akali",
+  "entries": [
+    {
+      "patchId": "11.1",
+      "version": "11.1",
+      "releaseDate": "2021-01-06",
+      "change": {
+        "id": "akali",
+        "name": "Akali",
+        "type": "champion",
+        "assetKey": "Akali",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Base attack damage reduced to 62 from 62.4.",
+        "gameplayImpact": "Akali loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base attack damage",
+                "before": "62",
+                "after": "62",
+                "note": "Base attack damage reduced to 62 from 62.4."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "11.2",
+      "version": "11.2",
+      "releaseDate": "2021-01-21",
+      "change": {
+        "id": "akali",
+        "name": "Akali",
+        "type": "champion",
+        "assetKey": "Akali",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Energy cost increased to 120–100 from 120–80.",
+        "gameplayImpact": "Akali loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Five Point Strike",
+            "title": "Five Point Strike",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Energy cost",
+                "before": "120–80",
+                "after": "120–100",
+                "note": "Energy cost increased to 120–100 from 120–80."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "11.6",
+      "version": "11.6",
+      "releaseDate": "2021-03-17",
+      "change": {
+        "id": "akali",
+        "name": "Akali",
+        "type": "champion",
+        "assetKey": "Akali",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Base health reduced to 500 from 575.; Health growth increased to 105 from 95.",
+        "gameplayImpact": "Akali was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Base health",
+                "before": "575",
+                "after": "500",
+                "note": "Base health reduced to 500 from 575."
+              },
+              {
+                "label": "Health growth",
+                "before": "95",
+                "after": "105",
+                "note": "Health growth increased to 105 from 95."
+              }
+            ]
+          },
+          {
+            "ability": "Assassin's Mark",
+            "title": "Assassin's Mark",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Removed: No longer restores 10–20 energy."
+              }
+            ]
+          },
+          {
+            "ability": "Five Point Strike",
+            "title": "Five Point Strike",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Energy cost",
+                "before": "120–100",
+                "after": "130–70",
+                "note": "Energy cost changed to 130–70 from 120–100."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: No longer deals 25% bonus damage against minions and monsters at max rank."
+              }
+            ]
+          },
+          {
+            "ability": "Twilight Shroud",
+            "title": "Twilight Shroud",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Now increases her maximum energy by 80 while the shroud is active."
+              },
+              {
+                "label": "Change",
+                "note": "Undocumented: Energy restore is now gained over 0.4 seconds, rather than instantly."
+              }
+            ]
+          },
+          {
+            "ability": "Shuriken Flip",
+            "title": "Shuriken Flip",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Shuriken base damage",
+                "before": "50–190",
+                "after": "30–135",
+                "note": "Shuriken base damage reduced to 30–135 from 50–190."
+              },
+              {
+                "label": "Dash base damage",
+                "before": "50–190",
+                "after": "70–315",
+                "note": "Dash base damage increased to 70–315 from 50–190."
+              },
+              {
+                "label": "Total base damage",
+                "before": "100–380",
+                "after": "100–450",
+                "note": "Total base damage increased to 100–450 from 100–380."
+              },
+              {
+                "label": "Shuriken AP ratio",
+                "before": "50% AP",
+                "after": "36% AP",
+                "note": "Shuriken AP ratio reduced to 36% AP from 50% AP."
+              },
+              {
+                "label": "Dash AP ratio",
+                "before": "50% AP",
+                "after": "84% AP",
+                "note": "Dash AP ratio increased to 84% AP from 50% AP."
+              },
+              {
+                "label": "Total AP ratio",
+                "before": "100% AP",
+                "after": "120% AP",
+                "note": "Total AP ratio increased to 120% AP from 100% AP."
+              },
+              {
+                "label": "Shuriken AD ratio",
+                "before": "35% AD",
+                "after": "25.5% AD",
+                "note": "Shuriken AD ratio reduced to 25.5% AD from 35% AD."
+              },
+              {
+                "label": "Dash AD ratio",
+                "before": "35% AD",
+                "after": "59.5% AD",
+                "note": "Dash AD ratio increased to 59.5% AD from 35% AD."
+              },
+              {
+                "label": "Total AD ratio",
+                "before": "70% AD",
+                "after": "85% AD",
+                "note": "Total AD ratio increased to 85% AD from 70% AD."
+              }
+            ]
+          },
+          {
+            "ability": "Perfect Execution",
+            "title": "Perfect Execution",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "First cast base damage",
+                "before": "125–325 (3 ranks)",
+                "after": "80–360 (3 ranks)",
+                "note": "First cast base damage changed to 80–360 (3 ranks) from 125–325 (3 ranks)."
+              },
+              {
+                "label": "First cast damage type",
+                "before": "physical",
+                "after": "magic",
+                "note": "First cast damage type changed to magic from physical."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: First cast now scales with 30% AP."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "11.14",
+      "version": "11.14",
+      "releaseDate": "2021-07-08",
+      "change": {
+        "id": "akali",
+        "name": "Akali",
+        "type": "champion",
+        "assetKey": "Akali",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 2,
+        "tldr": "Removed: Can no longer be cast during recast.; Attempting to cast the ability during either dash will buffer it to cast as soon as the dash ends.",
+        "gameplayImpact": "Akali loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Five Point Strike",
+            "title": "Five Point Strike",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Removed: Can no longer be cast during recast."
+              },
+              {
+                "label": "Change",
+                "note": "Attempting to cast the ability during either dash will buffer it to cast as soon as the dash ends."
+              }
+            ]
+          },
+          {
+            "ability": "Perfect Execution",
+            "title": "Perfect Execution",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Second cast minimum base damage",
+                "before": "75–215 (3 ranks)",
+                "after": "60–200 (3 ranks)",
+                "note": "Second cast minimum base damage reduced to 60–200 (3 ranks) from 75–215 (3 ranks)."
+              },
+              {
+                "label": "Second cast maximum base damage",
+                "before": "225–645 (3 ranks)",
+                "after": "180–600 (3 ranks)",
+                "note": "Second cast maximum base damage reduced to 180–600 (3 ranks) from 225–645 (3 ranks)."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "11.19",
+      "version": "11.19",
+      "releaseDate": "2021-09-22",
+      "change": {
+        "id": "akali",
+        "name": "Akali",
+        "type": "champion",
+        "assetKey": "Akali",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "Base health regeneration increased to 9 from 8.; Health regeneration growth increased to 0.9 from 0.5.",
+        "gameplayImpact": "Akali is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base health regeneration",
+                "before": "8",
+                "after": "9",
+                "note": "Base health regeneration increased to 9 from 8."
+              },
+              {
+                "label": "Health regeneration growth",
+                "before": "0",
+                "after": "0.9",
+                "note": "Health regeneration growth increased to 0.9 from 0.5."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "11.22",
+      "version": "11.22",
+      "releaseDate": "2021-11-03",
+      "change": {
+        "id": "akali",
+        "name": "Akali",
+        "type": "champion",
+        "assetKey": "Akali",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "Base damage increased to 35–182 from 29–15.; AP ratio increased to 55% AP from 40% AP.",
+        "gameplayImpact": "Akali is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Assassin's Mark",
+            "title": "Assassin's Mark",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "29–15",
+                "after": "35–182",
+                "note": "Base damage increased to 35–182 from 29–15."
+              },
+              {
+                "label": "AP ratio",
+                "before": "40% AP",
+                "after": "55% AP",
+                "note": "AP ratio increased to 55% AP from 40% AP."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "12.10",
+      "version": "12.10",
+      "releaseDate": "2022-05-25",
+      "change": {
+        "id": "akali",
+        "name": "Akali",
+        "type": "champion",
+        "assetKey": "Akali",
+        "roles": [],
+        "direction": "buff",
+        "severity": 2,
+        "tldr": "Base health increased to 570 from 500.; Health growth increased to 119 from 105.",
+        "gameplayImpact": "Akali is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base health",
+                "before": "500",
+                "after": "570",
+                "note": "Base health increased to 570 from 500."
+              },
+              {
+                "label": "Health growth",
+                "before": "105",
+                "after": "119",
+                "note": "Health growth increased to 119 from 105."
+              },
+              {
+                "label": "Armor growth",
+                "before": "3",
+                "after": "4.7",
+                "note": "Armor growth increased to 4.7 from 3.5."
+              },
+              {
+                "label": "Magic resistance growth",
+                "before": "1",
+                "after": "2.05",
+                "note": "Magic resistance growth increased to 2.05 from 1.25."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "12.15",
+      "version": "12.15",
+      "releaseDate": "2022-08-10",
+      "change": {
+        "id": "akali",
+        "name": "Akali",
+        "type": "champion",
+        "assetKey": "Akali",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "Bonus maximum energy increased to 100 from 80.; Energy restore increased to 100 from 80.",
+        "gameplayImpact": "Akali is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Twilight Shroud",
+            "title": "Twilight Shroud",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Bonus maximum energy",
+                "before": "80",
+                "after": "100",
+                "note": "Bonus maximum energy increased to 100 from 80."
+              },
+              {
+                "label": "Energy restore",
+                "before": "80",
+                "after": "100",
+                "note": "Energy restore increased to 100 from 80."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "12.18",
+      "version": "12.18",
+      "releaseDate": "2022-09-21",
+      "change": {
+        "id": "akali",
+        "name": "Akali",
+        "type": "champion",
+        "assetKey": "Akali",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "New Effect: Now applies true sight instead of a standard reveal.",
+        "gameplayImpact": "Akali is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Shuriken Flip",
+            "title": "Shuriken Flip",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Now applies true sight instead of a standard reveal."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "13.11",
+      "version": "13.11",
+      "releaseDate": "2023-06-01",
+      "change": {
+        "id": "akali",
+        "name": "Akali",
+        "type": "champion",
+        "assetKey": "Akali",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "Base damage increased to 40–140 from 30–130.",
+        "gameplayImpact": "Akali is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Five Point Strike",
+            "title": "Five Point Strike",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "30–130",
+                "after": "40–140",
+                "note": "Base damage increased to 40–140 from 30–130."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "13.16",
+      "version": "13.16",
+      "releaseDate": "2023-08-16",
+      "change": {
+        "id": "akali",
+        "name": "Akali",
+        "type": "champion",
+        "assetKey": "Akali",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "Base damage increased to 45–145 from 40–140.; Energy cost reduced to 110–70 from 130–70.",
+        "gameplayImpact": "Akali is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Five Point Strike",
+            "title": "Five Point Strike",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "40–140",
+                "after": "45–145",
+                "note": "Base damage increased to 45–145 from 40–140."
+              },
+              {
+                "label": "Energy cost",
+                "before": "130–70",
+                "after": "110–70",
+                "note": "Energy cost reduced to 110–70 from 130–70."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "14.8",
+      "version": "14.8",
+      "releaseDate": "2024-04-17",
+      "change": {
+        "id": "akali",
+        "name": "Akali",
+        "type": "champion",
+        "assetKey": "Akali",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "Base health increased to 600 from 570.",
+        "gameplayImpact": "Akali is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base health",
+                "before": "570",
+                "after": "600",
+                "note": "Base health increased to 600 from 570."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "14.12",
+      "version": "14.12",
+      "releaseDate": "2024-06-12",
+      "change": {
+        "id": "akali",
+        "name": "Akali",
+        "type": "champion",
+        "assetKey": "Akali",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Shuriken base damage reduced to 21–105 from 30–135.; Shuriken AD ratio increased to 30% AD from 25.5% AD.",
+        "gameplayImpact": "Akali was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Shuriken Flip",
+            "title": "Shuriken Flip",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Shuriken base damage",
+                "before": "30–135",
+                "after": "21–105",
+                "note": "Shuriken base damage reduced to 21–105 from 30–135."
+              },
+              {
+                "label": "Shuriken AD ratio",
+                "before": "25",
+                "after": "30% AD",
+                "note": "Shuriken AD ratio increased to 30% AD from 25.5% AD."
+              },
+              {
+                "label": "Shuriken AP ratio",
+                "before": "36% AP",
+                "after": "33% AP",
+                "note": "Shuriken AP ratio reduced to 33% AP from 36% AP."
+              },
+              {
+                "label": "Dash base damage",
+                "before": "70–315",
+                "after": "49–245",
+                "note": "Dash base damage reduced to 49–245 from 70–315."
+              },
+              {
+                "label": "Dash AD ratio",
+                "before": "59",
+                "after": "70% AD",
+                "note": "Dash AD ratio increased to 70% AD from 59.5% AD."
+              },
+              {
+                "label": "Dash AP ratio",
+                "before": "84% AP",
+                "after": "77% AP",
+                "note": "Dash AP ratio reduced to 77% AP from 84% AP."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "14.15",
+      "version": "14.15",
+      "releaseDate": "2024-07-31",
+      "change": {
+        "id": "akali",
+        "name": "Akali",
+        "type": "champion",
+        "assetKey": "Akali",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 2,
+        "tldr": "Cooldown reduced to 20–16 seconds from 20 at all ranks.; First cast base damage changed to 110–330 (3 ranks) from 80–360 (3 ranks).",
+        "gameplayImpact": "Akali was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Twilight Shroud",
+            "title": "Twilight Shroud",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Cooldown",
+                "before": "20 at all ranks",
+                "after": "20–16 seconds",
+                "note": "Cooldown reduced to 20–16 seconds from 20 at all ranks."
+              }
+            ]
+          },
+          {
+            "ability": "Perfect Execution",
+            "title": "Perfect Execution",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "First cast base damage",
+                "before": "80–360 (3 ranks)",
+                "after": "110–330 (3 ranks)",
+                "note": "First cast base damage changed to 110–330 (3 ranks) from 80–360 (3 ranks)."
+              },
+              {
+                "label": "Second cast minimum base damage",
+                "before": "60–200 (3 ranks)",
+                "after": "70–210 (3 ranks)",
+                "note": "Second cast minimum base damage increased to 70–210 (3 ranks) from 60–200 (3 ranks)."
+              },
+              {
+                "label": "Second cast maximum base damage",
+                "before": "180–600 (3 ranks)",
+                "after": "210–630 (3 ranks)",
+                "note": "Second cast maximum base damage increased to 210–630 (3 ranks) from 180–600 (3 ranks)."
+              },
+              {
+                "label": "Cooldown",
+                "before": "100–60 (3 ranks)",
+                "after": "120–60 (3 ranks) seconds",
+                "note": "Cooldown increased to 120–60 (3 ranks) seconds from 100–60 (3 ranks)."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "26.05",
+      "version": "26.05",
+      "releaseDate": "2026-03-04",
+      "change": {
+        "id": "akali",
+        "name": "Akali",
+        "type": "champion",
+        "assetKey": "Akali",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 1,
+        "tldr": "Restealth timer changed to 1–0.625 from 1–0.625. Formula changed.",
+        "gameplayImpact": "Akali was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Twilight Shroud",
+            "title": "Twilight Shroud",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Restealth timer",
+                "before": "1–0",
+                "after": "1–0.625",
+                "note": "Restealth timer changed to 1–0.625 from 1–0.625. Formula changed."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    }
+  ]
+}

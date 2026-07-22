@@ -1,0 +1,852 @@
+{
+  "id": "11.22",
+  "version": "11.22",
+  "title": "Oh, the misery, everybody wants to be my enemy!",
+  "releaseDate": "2021-11-03",
+  "season": "11",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "Oh, the misery, everybody wants to be my enemy!"
+    },
+    {
+      "title": "Champion balance",
+      "description": "7 champion buffs, 5 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "Oh, the misery, everybody wants to be my enemy! Structured changes across 17 entities this patch.",
+  "champions": [
+    {
+      "id": "akali",
+      "name": "Akali",
+      "type": "champion",
+      "assetKey": "Akali",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base damage increased to 35–182 from 29–15.; AP ratio increased to 55% AP from 40% AP.",
+      "gameplayImpact": "Akali is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Assassin's Mark",
+          "title": "Assassin's Mark",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "29–15",
+              "after": "35–182",
+              "note": "Base damage increased to 35–182 from 29–15."
+            },
+            {
+              "label": "AP ratio",
+              "before": "40% AP",
+              "after": "55% AP",
+              "note": "AP ratio increased to 55% AP from 40% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "graves",
+      "name": "Graves",
+      "type": "champion",
+      "assetKey": "Graves",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Critical strike bonus pellet damage reduced to 20% from 30%.; Crit attacks where all pellets hit now deal 59.98% of the basic attacks where all pellets hit, reduced from 73.33%.",
+      "gameplayImpact": "Graves loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "New Destiny",
+          "title": "New Destiny",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Critical strike bonus pellet damage",
+              "before": "30%",
+              "after": "20%",
+              "note": "Critical strike bonus pellet damage reduced to 20% from 30%."
+            },
+            {
+              "label": "Change",
+              "note": "Crit attacks where all pellets hit now deal 59.98% of the basic attacks where all pellets hit, reduced from 73.33%."
+            },
+            {
+              "label": "Critical damage amp",
+              "before": "+0",
+              "after": "+0.3555% per percent bonus critical damage",
+              "note": "Critical damage amp reduced to +0.3555% per percent bonus critical damage from +0.5333% per percent bonus critical damage."
+            },
+            {
+              "label": "Change",
+              "note": "Reduction to the bonus critical damage (now 66.%) is stronger than the base crit damage change (now 81.8%) due to having the same factor but different influence on the final damage."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "jayce",
+      "name": "Jayce",
+      "type": "champion",
+      "assetKey": "Jayce",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 3,
+      "tldr": "Updated sound and visual effects.; Base Jayce's voice lines have been remastered for clarity and quality.",
+      "gameplayImpact": "Jayce loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Updated sound and visual effects."
+            },
+            {
+              "label": "Change",
+              "note": "Base Jayce's voice lines have been remastered for clarity and quality."
+            },
+            {
+              "label": "Change",
+              "note": "Basic attack missiles and hits are now unique between ranged and melee stances. Added new critical hit VFX."
+            },
+            {
+              "label": "Change",
+              "note": "New SFX."
+            }
+          ]
+        },
+        {
+          "ability": "Hextech Capacitor",
+          "title": "Hextech Capacitor",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Modernized visuals for reduced noise and clarity."
+            }
+          ]
+        },
+        {
+          "ability": "To the Skies!",
+          "title": "To the Skies!",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Modernized visuals. Added clarity to match AoE size."
+            }
+          ]
+        },
+        {
+          "ability": "Shock Blast",
+          "title": "Shock Blast",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New projectiles and explosions. Added burst when projectile supercharges."
+            }
+          ]
+        },
+        {
+          "ability": "Lightning Field",
+          "title": "Lightning Field",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Modernized visuals with better defined AoE edge. Reduced noise to match damage level."
+            }
+          ]
+        },
+        {
+          "ability": "Hyper Charge",
+          "title": "Hyper Charge",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Removed noise."
+            }
+          ]
+        },
+        {
+          "ability": "Thundering Blow",
+          "title": "Thundering Blow",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Modernized visuals; added directionality on knockback"
+            }
+          ]
+        },
+        {
+          "ability": "Acceleration Gate",
+          "title": "Acceleration Gate",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Modernized visuals."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "jinx",
+      "name": "Jinx",
+      "type": "champion",
+      "assetKey": "Jinx",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Updated sound and visual effects.; Basic attack added glows to machine gun missiles. New rocket trails and explosions.",
+      "gameplayImpact": "Jinx was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Updated sound and visual effects."
+            },
+            {
+              "label": "Change",
+              "note": "Basic attack added glows to machine gun missiles. New rocket trails and explosions."
+            },
+            {
+              "label": "Change",
+              "note": "New SFX."
+            }
+          ]
+        },
+        {
+          "ability": "Zap!",
+          "title": "Zap!",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Modernized ground telegraph, missile, and hit VFX"
+            }
+          ]
+        },
+        {
+          "ability": "Flame Chompers!",
+          "title": "Flame Chompers!",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Modernized telegraph visuals."
+            }
+          ]
+        },
+        {
+          "ability": "Super Mega Death Rocket!",
+          "title": "Super Mega Death Rocket!",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New missile and explosion. Modernized rocket animations to emphasize its movement boost."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "kalista",
+      "name": "Kalista",
+      "type": "champion",
+      "assetKey": "Kalista",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Active AD ratio increased to 70% AD from from 60% AD.; Subsequent spear AD ratio increased to 23.2–40.6% AD from 20–35% AD.",
+      "gameplayImpact": "Kalista is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Rend",
+          "title": "Rend",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Active AD ratio",
+              "before": "from 60% AD",
+              "after": "70% AD",
+              "note": "Active AD ratio increased to 70% AD from from 60% AD."
+            },
+            {
+              "label": "Subsequent spear AD ratio",
+              "before": "20–35% AD",
+              "after": "23.2–40.6% AD",
+              "note": "Subsequent spear AD ratio increased to 23.2–40.6% AD from 20–35% AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "kayn",
+      "name": "Kayn",
+      "type": "champion",
+      "assetKey": "Kayn",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Darkin bonus AD ratio increased to 5.5% per 100 bonus AD from 4%|AD.; Darkin base damage increased to 15% of target's maximum health from 10%|health.",
+      "gameplayImpact": "Kayn is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Reaping Slash",
+          "title": "Reaping Slash",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Darkin bonus AD ratio",
+              "before": "4%|AD",
+              "after": "5.5% per 100 bonus AD",
+              "note": "Darkin bonus AD ratio increased to 5.5% per 100 bonus AD from 4%|AD."
+            }
+          ]
+        },
+        {
+          "ability": "Umbral Trespass",
+          "title": "Umbral Trespass",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Darkin base damage",
+              "before": "10%|health",
+              "after": "15% of target's maximum health",
+              "note": "Darkin base damage increased to 15% of target's maximum health from 10%|health."
+            },
+            {
+              "label": "Darkin base heal",
+              "before": "7%|health",
+              "after": "10.5% of target's maximum health",
+              "note": "Darkin base heal increased to 10.5% of target's maximum health from 7%|health."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "khazix",
+      "name": "Kha'Zix",
+      "type": "champion",
+      "assetKey": "Khazix",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Bonus AD ratio reduced to 115% bonus AD from 130%|AD.; Isolated bonus AD ratio reduced to 241.5% bonus AD from 273%|AD.",
+      "gameplayImpact": "Kha'Zix loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Taste Their Fear",
+          "title": "Taste Their Fear",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Bonus AD ratio",
+              "before": "130%|AD",
+              "after": "115% bonus AD",
+              "note": "Bonus AD ratio reduced to 115% bonus AD from 130%|AD."
+            },
+            {
+              "label": "Isolated bonus AD ratio",
+              "before": "273%|AD",
+              "after": "241.5% bonus AD",
+              "note": "Isolated bonus AD ratio reduced to 241.5% bonus AD from 273%|AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "maokai",
+      "name": "Maokai",
+      "type": "champion",
+      "assetKey": "Maokai",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Heal health ratio reduced to 5–15% maximum health from 7–15%|health.; Base damage reduced to 60–160 from 70–170.",
+      "gameplayImpact": "Maokai loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Sap Magic",
+          "title": "Sap Magic",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Heal health ratio",
+              "before": "7–15%|health",
+              "after": "5–15% maximum health",
+              "note": "Heal health ratio reduced to 5–15% maximum health from 7–15%|health."
+            }
+          ]
+        },
+        {
+          "ability": "Twisted Advance",
+          "title": "Twisted Advance",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "70–170",
+              "after": "60–160",
+              "note": "Base damage reduced to 60–160 from 70–170."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "miss-fortune",
+      "name": "Miss Fortune",
+      "type": "champion",
+      "assetKey": "MissFortune",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Base voice lines have been remastered to sound clearer, cleaner, and smoother.",
+      "gameplayImpact": "Miss Fortune was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Base voice lines have been remastered to sound clearer, cleaner, and smoother."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "qiyana",
+      "name": "Qiyana",
+      "type": "champion",
+      "assetKey": "Qiyana",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Base health reduced to 520 from 590.; Health growth increased to 110 from 90.",
+      "gameplayImpact": "Qiyana was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base health",
+              "before": "590",
+              "after": "520",
+              "note": "Base health reduced to 520 from 590."
+            },
+            {
+              "label": "Health growth",
+              "before": "90",
+              "after": "110",
+              "note": "Health growth increased to 110 from 90."
+            }
+          ]
+        },
+        {
+          "ability": "Edge of Ixtal",
+          "title": "Edge of Ixtal",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "60–160",
+              "after": "50–170",
+              "note": "Base damage changed to 50–170 from 60–160."
+            },
+            {
+              "label": "Bonus AD ratio",
+              "before": "90%|AD",
+              "after": "75% bonus AD",
+              "note": "Bonus AD ratio reduced to 75% bonus AD from 90%|AD."
+            }
+          ]
+        },
+        {
+          "ability": "Audacity",
+          "title": "Audacity",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "50–170",
+              "after": "50–210",
+              "note": "Base damage increased to 50–210 from 50–170."
+            },
+            {
+              "label": "Bonus AD ratio",
+              "before": "70%|AD",
+              "after": "50% bonus AD",
+              "note": "Bonus AD ratio reduced to 50% bonus AD from 70%|AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "renekton",
+      "name": "Renekton",
+      "type": "champion",
+      "assetKey": "Renekton",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Empowered stun duration increased to 1.5 seconds from 1.; Empowered self-lock out duration increased to 0.525 seconds from 0.375.",
+      "gameplayImpact": "Renekton is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Ruthless Predator",
+          "title": "Ruthless Predator",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Empowered stun duration",
+              "before": "1",
+              "after": "1.5 seconds",
+              "note": "Empowered stun duration increased to 1.5 seconds from 1."
+            },
+            {
+              "label": "Empowered self-lock out duration",
+              "before": "0",
+              "after": "0.525 seconds",
+              "note": "Empowered self-lock out duration increased to 0.525 seconds from 0.375."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "riven",
+      "name": "Riven",
+      "type": "champion",
+      "assetKey": "Riven",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base damage increased to 65–185 from 55–175.; Bonus AD ratio increased to 120% bonus AD from 100%|AD.",
+      "gameplayImpact": "Riven is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Ki Burst",
+          "title": "Ki Burst",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "55–175",
+              "after": "65–185",
+              "note": "Base damage increased to 65–185 from 55–175."
+            }
+          ]
+        },
+        {
+          "ability": "Valor",
+          "title": "Valor",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus AD ratio",
+              "before": "100%|AD",
+              "after": "120% bonus AD",
+              "note": "Bonus AD ratio increased to 120% bonus AD from 100%|AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "varus",
+      "name": "Varus",
+      "type": "champion",
+      "assetKey": "Varus",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Bonus AD ratio increased to 90% bonus AD from 60%|AD.",
+      "gameplayImpact": "Varus is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Hail of Arrows",
+          "title": "Hail of Arrows",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus AD ratio",
+              "before": "60%|AD",
+              "after": "90% bonus AD",
+              "note": "Bonus AD ratio increased to 90% bonus AD from 60%|AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "vi",
+      "name": "Vi",
+      "type": "champion",
+      "assetKey": "Vi",
+      "roles": [],
+      "direction": "buff",
+      "severity": 3,
+      "tldr": "Knock back duration increased to 0.75 seconds from 0.7.; New Effect: Dash range now extends up to 50 units when going through a wall.",
+      "gameplayImpact": "Vi is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Vault Breaker",
+          "title": "Vault Breaker",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Knock back duration",
+              "before": "0",
+              "after": "0.75 seconds",
+              "note": "Knock back duration increased to 0.75 seconds from 0.7."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Dash range now extends up to 50 units when going through a wall."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Damage and dash distance are now based on exact channeling time instead of every 0.25 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Targets are now knock backed immediately upon contact with her."
+            }
+          ]
+        },
+        {
+          "ability": "Cease and Desist",
+          "title": "Cease and Desist",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Knock up duration",
+              "before": "varying between 1",
+              "after": "1.4 seconds",
+              "note": "Knock up duration changed to 1.4 seconds from varying between 1.25 to 1.49."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Self stun duration is now consistent instead of varying between casts."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Now consistently knocks up her target when she is 300 units away instead of between knocking them up between 0 to 300 units, based on 0.25 second intervals."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Enemies are now knocked back immediately upon contact with her."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "yuumi",
+      "name": "Yuumi",
+      "type": "champion",
+      "assetKey": "Yuumi",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Bonus movement speed AP ratio reduced to 6% per 100 AP from 10%|AP.; Base heal reduced to 70–190 from 70–210.",
+      "gameplayImpact": "Yuumi loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Zoomies",
+          "title": "Zoomies",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Bonus movement speed AP ratio",
+              "before": "10%|AP",
+              "after": "6% per 100 AP",
+              "note": "Bonus movement speed AP ratio reduced to 6% per 100 AP from 10%|AP."
+            },
+            {
+              "label": "Base heal",
+              "before": "70–210",
+              "after": "70–190",
+              "note": "Base heal reduced to 70–190 from 70–210."
+            },
+            {
+              "label": "Heal AP ratio",
+              "before": "40% AP",
+              "after": "35% AP",
+              "note": "Heal AP ratio reduced to 35% AP from 40% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "zilean",
+      "name": "Zilean",
+      "type": "champion",
+      "assetKey": "Zilean",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Base voice lines have been remastered to sound clearer, cleaner, and smoother.",
+      "gameplayImpact": "Zilean was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Base voice lines have been remastered to sound clearer, cleaner, and smoother."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "goredrinker",
+      "name": "Goredrinker",
+      "type": "item",
+      "assetKey": "6630",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Health increased to 450 from 400.; Omnivamp increased to 10% from 8%.",
+      "gameplayImpact": "Goredrinker is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Health",
+              "before": "400",
+              "after": "450",
+              "note": "Health increased to 450 from 400."
+            },
+            {
+              "label": "Omnivamp",
+              "before": "8%",
+              "after": "10%",
+              "note": "Omnivamp increased to 10% from 8%."
+            },
+            {
+              "label": "Ceaseless Hunger}} health",
+              "before": "550",
+              "after": "600",
+              "note": "Ceaseless Hunger}} health increased to 600 from 550."
+            },
+            {
+              "label": "Ceaseless Hunger}} omnivamp",
+              "before": "13%",
+              "after": "15%",
+              "note": "Ceaseless Hunger}} omnivamp increased to 15% from 13%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "systems": [],
+  "sourceUrl": "https://na.leagueoflegends.com/en-us/news/game-updates/patch-11-22-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V11.22"
+}

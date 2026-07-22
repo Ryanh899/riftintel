@@ -1,14 +1,27 @@
 {
-  "name": "patchlens",
+  "name": "riftintel",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "verify": "node scripts/verify-accuracy.mjs",
+    "prod:check": "npm run verify && npm run lint && npm run build",
+    "ingest": "python scripts/ingest/run_ingest.py --years 5.5",
+    "ingest:ai": "python scripts/ingest/run_ingest.py --years 5.5 --ai",
+    "ingest:test": "python scripts/ingest/run_ingest.py --patches \"26.14,14.10\" --ai",
+    "ingest:refresh": "python scripts/ingest/run_ingest.py --years 0.5 --ai",
+    "ingest:new": "python scripts/ingest/run_ingest.py --years 0.5 --only-new",
+    "ingest:enrich": "python scripts/ingest/enrich_ai.py",
+    "update:local": "python scripts/auto/local_update.py",
+    "update:local:push": "python scripts/auto/local_update.py --push",
+    "assets:maps": "python scripts/build-asset-maps.py ; python scripts/build-ability-map.py"
   },
   "dependencies": {
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.25.0",
     "next": "16.2.11",
     "react": "19.2.4",
     "react-dom": "19.2.4"
@@ -21,6 +34,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.2.11",
     "tailwindcss": "^4",
+    "tsx": "^4.23.1",
     "typescript": "^5"
   }
 }

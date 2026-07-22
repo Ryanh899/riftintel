@@ -1,0 +1,1871 @@
+{
+  "id": "11.6",
+  "version": "11.6",
+  "title": "Battle Academia Season 2: Rival School Arc",
+  "releaseDate": "2021-03-17",
+  "season": "11",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "Battle Academia Season 2: Rival School Arc"
+    },
+    {
+      "title": "Champion balance",
+      "description": "6 champion buffs, 6 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "Battle Academia Season 2: Rival School Arc Structured changes across 25 entities this patch.",
+  "champions": [
+    {
+      "id": "akali",
+      "name": "Akali",
+      "type": "champion",
+      "assetKey": "Akali",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Base health reduced to 500 from 575.; Health growth increased to 105 from 95.",
+      "gameplayImpact": "Akali was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base health",
+              "before": "575",
+              "after": "500",
+              "note": "Base health reduced to 500 from 575."
+            },
+            {
+              "label": "Health growth",
+              "before": "95",
+              "after": "105",
+              "note": "Health growth increased to 105 from 95."
+            }
+          ]
+        },
+        {
+          "ability": "Assassin's Mark",
+          "title": "Assassin's Mark",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Removed: No longer restores 10–20 energy."
+            }
+          ]
+        },
+        {
+          "ability": "Five Point Strike",
+          "title": "Five Point Strike",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Energy cost",
+              "before": "120–100",
+              "after": "130–70",
+              "note": "Energy cost changed to 130–70 from 120–100."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: No longer deals 25% bonus damage against minions and monsters at max rank."
+            }
+          ]
+        },
+        {
+          "ability": "Twilight Shroud",
+          "title": "Twilight Shroud",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Now increases her maximum energy by 80 while the shroud is active."
+            },
+            {
+              "label": "Change",
+              "note": "Undocumented: Energy restore is now gained over 0.4 seconds, rather than instantly."
+            }
+          ]
+        },
+        {
+          "ability": "Shuriken Flip",
+          "title": "Shuriken Flip",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Shuriken base damage",
+              "before": "50–190",
+              "after": "30–135",
+              "note": "Shuriken base damage reduced to 30–135 from 50–190."
+            },
+            {
+              "label": "Dash base damage",
+              "before": "50–190",
+              "after": "70–315",
+              "note": "Dash base damage increased to 70–315 from 50–190."
+            },
+            {
+              "label": "Total base damage",
+              "before": "100–380",
+              "after": "100–450",
+              "note": "Total base damage increased to 100–450 from 100–380."
+            },
+            {
+              "label": "Shuriken AP ratio",
+              "before": "50% AP",
+              "after": "36% AP",
+              "note": "Shuriken AP ratio reduced to 36% AP from 50% AP."
+            },
+            {
+              "label": "Dash AP ratio",
+              "before": "50% AP",
+              "after": "84% AP",
+              "note": "Dash AP ratio increased to 84% AP from 50% AP."
+            },
+            {
+              "label": "Total AP ratio",
+              "before": "100% AP",
+              "after": "120% AP",
+              "note": "Total AP ratio increased to 120% AP from 100% AP."
+            },
+            {
+              "label": "Shuriken AD ratio",
+              "before": "35% AD",
+              "after": "25.5% AD",
+              "note": "Shuriken AD ratio reduced to 25.5% AD from 35% AD."
+            },
+            {
+              "label": "Dash AD ratio",
+              "before": "35% AD",
+              "after": "59.5% AD",
+              "note": "Dash AD ratio increased to 59.5% AD from 35% AD."
+            },
+            {
+              "label": "Total AD ratio",
+              "before": "70% AD",
+              "after": "85% AD",
+              "note": "Total AD ratio increased to 85% AD from 70% AD."
+            }
+          ]
+        },
+        {
+          "ability": "Perfect Execution",
+          "title": "Perfect Execution",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "First cast base damage",
+              "before": "125–325 (3 ranks)",
+              "after": "80–360 (3 ranks)",
+              "note": "First cast base damage changed to 80–360 (3 ranks) from 125–325 (3 ranks)."
+            },
+            {
+              "label": "First cast damage type",
+              "before": "physical",
+              "after": "magic",
+              "note": "First cast damage type changed to magic from physical."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: First cast now scales with 30% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "gnar",
+      "name": "Gnar",
+      "type": "champion",
+      "assetKey": "Gnar",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base damage reduced to 0–40 from 10–50.",
+      "gameplayImpact": "Gnar loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Hyper",
+          "title": "Hyper",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "10–50",
+              "after": "0–40",
+              "note": "Base damage reduced to 0–40 from 10–50."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "hecarim",
+      "name": "Hecarim",
+      "type": "champion",
+      "assetKey": "Hecarim",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base damage reduced to 60–208 from 60–228.",
+      "gameplayImpact": "Hecarim loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Rampage",
+          "title": "Rampage",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "60–228",
+              "after": "60–208",
+              "note": "Base damage reduced to 60–208 from 60–228."
+            }
+          ]
+        },
+        {
+          "ability": "Daisy!",
+          "title": "Daisy!",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Daisy's empowered AoE attack now properly scales on her AD, rather than on the caster's AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "karthus",
+      "name": "Karthus",
+      "type": "champion",
+      "assetKey": "Karthus",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base damage reduced to 45–115 from 45–125.; Single-target damage reduced to 90–230 from 90–250.",
+      "gameplayImpact": "Karthus loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Lay Waste",
+          "title": "Lay Waste",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "45–125",
+              "after": "45–115",
+              "note": "Base damage reduced to 45–115 from 45–125."
+            },
+            {
+              "label": "Single-target damage",
+              "before": "90–250",
+              "after": "90–230",
+              "note": "Single-target damage reduced to 90–230 from 90–250."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "katarina",
+      "name": "Katarina",
+      "type": "champion",
+      "assetKey": "Katarina",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Each instance of damage dealt now counts as a separate hit for effects such as Conqueror}}, Electrocute}}, and Eclipse}}.",
+      "gameplayImpact": "Katarina is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Death Lotus",
+          "title": "Death Lotus",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Each instance of damage dealt now counts as a separate hit for effects such as Conqueror}}, Electrocute}}, and Eclipse}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "leblanc",
+      "name": "LeBlanc",
+      "type": "champion",
+      "assetKey": "Leblanc",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Mana cost reduced to 60–100 from 60–120.",
+      "gameplayImpact": "LeBlanc is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Distortion",
+          "title": "Distortion",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Mana cost",
+              "before": "60–120",
+              "after": "60–100",
+              "note": "Mana cost reduced to 60–100 from 60–120."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "lillia",
+      "name": "Lillia",
+      "type": "champion",
+      "assetKey": "Lillia",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Cooldown increased to 150–110 (3 ranks) seconds from 130–90 (3 ranks).",
+      "gameplayImpact": "Lillia loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Lilting Lullaby",
+          "title": "Lilting Lullaby",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "130–90 (3 ranks)",
+              "after": "150–110 (3 ranks) seconds",
+              "note": "Cooldown increased to 150–110 (3 ranks) seconds from 130–90 (3 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "pyke",
+      "name": "Pyke",
+      "type": "champion",
+      "assetKey": "Pyke",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Cooldown reduced to 15–11 seconds from 15 at all ranks.",
+      "gameplayImpact": "Pyke is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Phantom Undertow",
+          "title": "Phantom Undertow",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "15 at all ranks",
+              "after": "15–11 seconds",
+              "note": "Cooldown reduced to 15–11 seconds from 15 at all ranks."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "renekton",
+      "name": "Renekton",
+      "type": "champion",
+      "assetKey": "Renekton",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Bonus health reduced to 250–550 (3 ranks) from 250–750 (3 ranks).",
+      "gameplayImpact": "Renekton loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Dominus",
+          "title": "Dominus",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Bonus health",
+              "before": "250–750 (3 ranks)",
+              "after": "250–550 (3 ranks)",
+              "note": "Bonus health reduced to 250–550 (3 ranks) from 250–750 (3 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "shyvana",
+      "name": "Shyvana",
+      "type": "champion",
+      "assetKey": "Shyvana",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Bonus Fury regeneration from increased to 10–50% from 10–40%.",
+      "gameplayImpact": "Shyvana is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Dragon's Descent",
+          "title": "Dragon's Descent",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus Fury regeneration from",
+              "before": "10–40%",
+              "after": "10–50%",
+              "note": "Bonus Fury regeneration from increased to 10–50% from 10–40%."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Fury gain once again increased by ."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "sylas",
+      "name": "Sylas",
+      "type": "champion",
+      "assetKey": "Sylas",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Bonus attack speed increased to 125% from 80%.; Cooldown reduced to 13–6 seconds from 13–7.",
+      "gameplayImpact": "Sylas was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Petricite Burst",
+          "title": "Petricite Burst",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus attack speed",
+              "before": "80%",
+              "after": "125%",
+              "note": "Bonus attack speed increased to 125% from 80%."
+            }
+          ]
+        },
+        {
+          "ability": "Kingslayer",
+          "title": "Kingslayer",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "13–7",
+              "after": "13–6 seconds",
+              "note": "Cooldown reduced to 13–6 seconds from 13–7."
+            },
+            {
+              "label": "Mana cost",
+              "before": "70–110",
+              "after": "60–100",
+              "note": "Mana cost reduced to 60–100 from 70–110."
+            },
+            {
+              "label": "Heal AP ratio",
+              "before": "50% AP",
+              "after": "45% AP",
+              "note": "Heal AP ratio reduced to 45% AP from 50% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "urgot",
+      "name": "Urgot",
+      "type": "champion",
+      "assetKey": "Urgot",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "On-hit modifier reduced to 50% from 75%.",
+      "gameplayImpact": "Urgot loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Purge",
+          "title": "Purge",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "On-hit modifier",
+              "before": "75%",
+              "after": "50%",
+              "note": "On-hit modifier reduced to 50% from 75%."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Each instance of damage dealt now properly counts as a separate hit for effects such as Manamune}} stacking, Muramana}} on-hit, Runaan's Hurricane}}, Ravenous Hydra}}, Electrocute}} and Eclipse}}."
+            },
+            {
+              "label": "Change",
+              "note": "Undocumented: On-hit damage applied from Wind's Fury is now reduced by Purge."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "volibear",
+      "name": "Volibear",
+      "type": "champion",
+      "assetKey": "Volibear",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Healing against monsters increased to 100% from 50%.; Damage cap against non-champions increased to 750 at all ranks from 150–750.",
+      "gameplayImpact": "Volibear is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Frenzied Maul",
+          "title": "Frenzied Maul",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Healing against monsters",
+              "before": "50%",
+              "after": "100%",
+              "note": "Healing against monsters increased to 100% from 50%."
+            }
+          ]
+        },
+        {
+          "ability": "Sky Splitter",
+          "title": "Sky Splitter",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Damage cap against non-champions",
+              "before": "150–750",
+              "after": "750 at all ranks",
+              "note": "Damage cap against non-champions increased to 750 at all ranks from 150–750."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "warwick",
+      "name": "Warwick",
+      "type": "champion",
+      "assetKey": "Warwick",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Each instance of damage dealt now counts as a separate hit for effects such as Electrocute}} and Eclipse}}.",
+      "gameplayImpact": "Warwick is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Infinite Duress",
+          "title": "Infinite Duress",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Each instance of damage dealt now counts as a separate hit for effects such as Electrocute}} and Eclipse}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "xin-zhao",
+      "name": "Xin Zhao",
+      "type": "champion",
+      "assetKey": "XinZhao",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Base heal reduced to 7–92 from 10–112.; Heal AP ratio increased to 55% AP from 40% AP.",
+      "gameplayImpact": "Xin Zhao was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Determination",
+          "title": "Determination",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base heal",
+              "before": "10–112",
+              "after": "7–92",
+              "note": "Base heal reduced to 7–92 from 10–112."
+            },
+            {
+              "label": "Heal AP ratio",
+              "before": "40% AP",
+              "after": "55% AP",
+              "note": "Heal AP ratio increased to 55% AP from 40% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Basic attacking an enemy after casting Wind Becomes Lightning}} now correctly consumes all Determination stacks."
+            }
+          ]
+        },
+        {
+          "ability": "Three Talon Strike",
+          "title": "Three Talon Strike",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "20–52",
+              "after": "16–52",
+              "note": "Base damage reduced to 16–52 from 20–52."
+            }
+          ]
+        },
+        {
+          "ability": "Wind Becomes Lightning",
+          "title": "Wind Becomes Lightning",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Visual clarity updates to hitbox and indicator."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Thrust damage is now increased by 0–33.3% (0–100% crit)|critical chance."
+            },
+            {
+              "label": "Cast time",
+              "before": "0",
+              "after": "0.5 seconds at all attack speed",
+              "note": "Cast time changed to 0.5 seconds at all attack speed from 0.5–0.4|attack speed."
+            },
+            {
+              "label": "Cooldown",
+              "before": "12–8",
+              "after": "12–6 seconds",
+              "note": "Cooldown reduced to 12–6 seconds from 12–8."
+            },
+            {
+              "label": "Mana cost",
+              "before": "45",
+              "after": "60",
+              "note": "Mana cost increased to 60 from 45."
+            },
+            {
+              "label": "Thrust range",
+              "before": "900",
+              "after": "1000 units",
+              "note": "Thrust range increased to 1000 units from 900."
+            },
+            {
+              "label": "Thrust missile speed",
+              "before": "5000",
+              "after": "6250",
+              "note": "Thrust missile speed increased to 6250 from 5000."
+            },
+            {
+              "label": "Minion damage",
+              "before": "50% at all levels",
+              "after": "50–100%",
+              "note": "Minion damage increased to 50–100% from 50% at all levels."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Thrust damage now scales with 50% AP."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Thrust damage now Challenges and reveals champions and monsters for 3 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Hitbox now extends slightly behind him for visual clarity."
+            }
+          ]
+        },
+        {
+          "ability": "Audacious Charge",
+          "title": "Audacious Charge",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Dash range is now increased to 1100 units against Challenged targets."
+            },
+            {
+              "label": "Cooldown",
+              "before": "12",
+              "after": "11 seconds",
+              "note": "Cooldown reduced to 11 seconds from 12."
+            },
+            {
+              "label": "Dash speed",
+              "before": "3000",
+              "after": "2500",
+              "note": "Dash speed reduced to 2500 from 3000."
+            }
+          ]
+        },
+        {
+          "ability": "Crescent Guard",
+          "title": "Crescent Guard",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Duration",
+              "before": "3",
+              "after": "5 seconds",
+              "note": "Duration increased to 5 seconds from 3."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: Basic attacks and ability casts no longer extend the duration by 0.3 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Damage now scales with 110% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "blade-of-the-ruined-king",
+      "name": "Blade of the Ruined King",
+      "type": "item",
+      "assetKey": "3153",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Life steal reduced to 10% from 12%.; Siphon bonus damage increased to 40–150 from 40–120.",
+      "gameplayImpact": "Blade of the Ruined King was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Life steal",
+              "before": "12%",
+              "after": "10%",
+              "note": "Life steal reduced to 10% from 12%."
+            },
+            {
+              "label": "Siphon bonus damage",
+              "before": "40–120",
+              "after": "40–150",
+              "note": "Siphon bonus damage increased to 40–150 from 40–120."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "immortal-shieldbow",
+      "name": "Immortal Shieldbow",
+      "type": "item",
+      "assetKey": "6673",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Life steal reduced to 10% from 12%.; Lifeline shield increased to 300–800 from 250–700.",
+      "gameplayImpact": "Immortal Shieldbow was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Life steal",
+              "before": "12%",
+              "after": "10%",
+              "note": "Life steal reduced to 10% from 12%."
+            },
+            {
+              "label": "Lifeline shield",
+              "before": "250–700",
+              "after": "300–800",
+              "note": "Lifeline shield increased to 300–800 from 250–700."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: Lifeline no longer grants 15% life steal for 8 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Lifeline now grants 15–35 bonus attack damage for 8 seconds."
+            },
+            {
+              "label": "Bloodward}} life steal",
+              "before": "15%",
+              "after": "12%",
+              "note": "Bloodward}} life steal reduced to 12% from 15%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "ironspike-whip",
+      "name": "Ironspike Whip",
+      "type": "item",
+      "assetKey": "6029",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Total cost reduced to from .; Combine cost reduced to from .",
+      "gameplayImpact": "Ironspike Whip was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Total cost reduced to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Combine cost reduced to from ."
+            },
+            {
+              "label": "Crescent cooldown",
+              "before": "15",
+              "after": "20 seconds",
+              "note": "Crescent cooldown increased to 20 seconds from 15."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "liandrys-anguish",
+      "name": "Liandry's Anguish",
+      "type": "item",
+      "assetKey": "226653",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Removed: No longer reduces target magic resistance by 5% every second, up to a maximum of 15%.; New Unique Passive - Agony: Deal 0–12% (over 0–1250) bonus magic damage against enemy champions.",
+      "gameplayImpact": "Liandry's Anguish loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Removed: No longer reduces target magic resistance by 5% every second, up to a maximum of 15%."
+            },
+            {
+              "label": "Change",
+              "note": "New Unique Passive - Agony: Deal 0–12% (over 0–1250) bonus magic damage against enemy champions."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "ludens-tempest",
+      "name": "Luden's Tempest",
+      "type": "item",
+      "assetKey": null,
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Dealing ability damage against champions reduces the cooldown of Echo by 0.5 seconds per champion, up to a maximum of 3 seconds per cast.",
+      "gameplayImpact": "Luden's Tempest is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Dealing ability damage against champions reduces the cooldown of Echo by 0.5 seconds per champion, up to a maximum of 3 seconds per cast."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "rabadons-deathcap",
+      "name": "Rabadon's Deathcap",
+      "type": "item",
+      "assetKey": "3089",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Total cost reduced to from .; Combine cost reduced to from .",
+      "gameplayImpact": "Rabadon's Deathcap is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Total cost reduced to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Combine cost reduced to from ."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "seekers-armguard",
+      "name": "Seeker's Armguard",
+      "type": "item",
+      "assetKey": "2420",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Bonus armor per stack reduced to 0.5 from 1.; Maximum bonus armor reduced to 15 from 30.",
+      "gameplayImpact": "Seeker's Armguard loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Bonus armor per stack",
+              "before": "1",
+              "after": "0.5",
+              "note": "Bonus armor per stack reduced to 0.5 from 1."
+            },
+            {
+              "label": "Maximum bonus armor",
+              "before": "30",
+              "after": "15",
+              "note": "Maximum bonus armor reduced to 15 from 30."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "shurelyas-battlesong",
+      "name": "Shurelya's Battlesong",
+      "type": "item",
+      "assetKey": "322065",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Inspire cooldown reduced to 75 seconds from 90.",
+      "gameplayImpact": "Shurelya's Battlesong is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Inspire cooldown",
+              "before": "90",
+              "after": "75 seconds",
+              "note": "Inspire cooldown reduced to 75 seconds from 90."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "stridebreaker",
+      "name": "Stridebreaker",
+      "type": "item",
+      "assetKey": "6631",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Combine cost unchanged.; Health reduced to 200 from 300.",
+      "gameplayImpact": "Stridebreaker loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Undocumented: Total cost reduced to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Combine cost unchanged."
+            },
+            {
+              "label": "Health",
+              "before": "300",
+              "after": "200",
+              "note": "Health reduced to 200 from 300."
+            },
+            {
+              "label": "Dreamshatter}} health",
+              "before": "400",
+              "after": "300",
+              "note": "Dreamshatter}} health reduced to 300 from 400."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "sunfire-aegis",
+      "name": "Sunfire Aegis",
+      "type": "item",
+      "assetKey": "3068",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Ability haste increased to 20 from 15.; Bonus Immolate damage per stack increased to 12% from 10%.",
+      "gameplayImpact": "Sunfire Aegis is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Ability haste",
+              "before": "15",
+              "after": "20",
+              "note": "Ability haste increased to 20 from 15."
+            },
+            {
+              "label": "Bonus Immolate damage per stack",
+              "before": "10%",
+              "after": "12%",
+              "note": "Bonus Immolate damage per stack increased to 12% from 10%."
+            },
+            {
+              "label": "Forgefire Crest}} ability haste",
+              "before": "20",
+              "after": "25",
+              "note": "Forgefire Crest}} ability haste increased to 25 from 20."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "verdant-barrier",
+      "name": "Verdant Barrier",
+      "type": "item",
+      "assetKey": "4632",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Ability power reduced to 20 from 25.; Bonus magic resistance per stack reduced to 0.3 from 0.5.",
+      "gameplayImpact": "Verdant Barrier loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Ability power",
+              "before": "25",
+              "after": "20",
+              "note": "Ability power reduced to 20 from 25."
+            },
+            {
+              "label": "Bonus magic resistance per stack",
+              "before": "0",
+              "after": "0.3",
+              "note": "Bonus magic resistance per stack reduced to 0.3 from 0.5."
+            },
+            {
+              "label": "Maximum bonus magic resistance",
+              "before": "15",
+              "after": "9",
+              "note": "Maximum bonus magic resistance reduced to 9 from 15."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "void-staff",
+      "name": "Void Staff",
+      "type": "item",
+      "assetKey": "3135",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Total cost increased to from .; Combine cost increased to from .",
+      "gameplayImpact": "Void Staff was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Total cost increased to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Combine cost increased to from ."
+            },
+            {
+              "label": "Ability power",
+              "before": "65",
+              "after": "70",
+              "note": "Ability power increased to 70 from 65."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "id": "fleet-footwork",
+      "name": "Fleet Footwork",
+      "type": "rune",
+      "assetKey": null,
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "AP ratio reduced to 20% AP from 30% AP.",
+      "gameplayImpact": "Fleet Footwork loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "30% AP",
+              "after": "20% AP",
+              "note": "AP ratio reduced to 20% AP from 30% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "ravenous-hunter",
+      "name": "Ravenous Hunter",
+      "type": "rune",
+      "assetKey": null,
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Base omnivamp reduced to 0% from 1%.; Omnivamp per stack reduced to 1.5% from 1.7%.",
+      "gameplayImpact": "Ravenous Hunter loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base omnivamp",
+              "before": "1%",
+              "after": "0%",
+              "note": "Base omnivamp reduced to 0% from 1%."
+            },
+            {
+              "label": "Omnivamp per stack",
+              "before": "1",
+              "after": "1.5%",
+              "note": "Omnivamp per stack reduced to 1.5% from 1.7%."
+            },
+            {
+              "label": "Maximum omnivamp",
+              "before": "9",
+              "after": "7.5%",
+              "note": "Maximum omnivamp reduced to 7.5% from 9.5%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "monsters",
+      "name": "Monsters",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Experience increased to 135–182.25 from 125–168.75.; Heal increased to 90–243 from 60–230.",
+      "gameplayImpact": "Monsters is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Experience",
+              "before": "125–168",
+              "after": "135–182.25",
+              "note": "Experience increased to 135–182.25 from 125–168.75."
+            },
+            {
+              "label": "Heal",
+              "before": "60–230",
+              "after": "90–243",
+              "note": "Heal increased to 90–243 from 60–230."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "howling-abyss",
+      "name": "Howling Abyss",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Akali}}; Outgoing damage modifier changed to +20% from +15%.",
+      "gameplayImpact": "Howling Abyss was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Akali}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "+15%",
+              "after": "+20%",
+              "note": "Outgoing damage modifier changed to +20% from +15%."
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-15%",
+              "after": "-20%",
+              "note": "Incoming damage modifier changed to -20% from -15%."
+            },
+            {
+              "label": "Change",
+              "note": "Caitlyn}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "0%",
+              "after": "-5%",
+              "note": "Outgoing damage modifier changed to -5% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Camille}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "+5%",
+              "after": "+10%",
+              "note": "Outgoing damage modifier changed to +10% from +5%."
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-5%",
+              "after": "-10%",
+              "note": "Incoming damage modifier changed to -10% from -5%."
+            },
+            {
+              "label": "Shielding modifier",
+              "before": "0%",
+              "after": "+10%",
+              "note": "Shielding modifier changed to +10% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Jinx}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "0%",
+              "after": "+5%",
+              "note": "Incoming damage modifier changed to +5% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Karthus}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "-5%",
+              "after": "-10%",
+              "note": "Outgoing damage modifier changed to -10% from -5%."
+            },
+            {
+              "label": "Change",
+              "note": "Katarina}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "+5%",
+              "after": "+10%",
+              "note": "Outgoing damage modifier changed to +10% from +5%."
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-5%",
+              "after": "-10%",
+              "note": "Incoming damage modifier changed to -10% from -5%."
+            },
+            {
+              "label": "Change",
+              "note": "Kayn}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "0%",
+              "after": "+5%",
+              "note": "Outgoing damage modifier changed to +5% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Kha'Zix}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "+8%",
+              "after": "+10%",
+              "note": "Outgoing damage modifier changed to +10% from +8%."
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-10%",
+              "after": "-15%",
+              "note": "Incoming damage modifier changed to -15% from -10%."
+            },
+            {
+              "label": "Change",
+              "note": "Kindred}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "+5%",
+              "after": "+10%",
+              "note": "Outgoing damage modifier changed to +10% from +5%."
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-5%",
+              "after": "-10%",
+              "note": "Incoming damage modifier changed to -10% from -5%."
+            },
+            {
+              "label": "Change",
+              "note": "Kled}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "0%",
+              "after": "+5%",
+              "note": "Outgoing damage modifier changed to +5% from 0%."
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-5%",
+              "after": "-10%",
+              "note": "Incoming damage modifier changed to -10% from -5%."
+            },
+            {
+              "label": "Change",
+              "note": "Seraphine}}"
+            },
+            {
+              "label": "Healing modifier",
+              "before": "-10%",
+              "after": "-15%",
+              "note": "Healing modifier changed to -15% from -10%."
+            },
+            {
+              "label": "Shielding modifier",
+              "before": "0%",
+              "after": "-15%",
+              "note": "Shielding modifier changed to -15% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Sivir}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "-8%",
+              "after": "-15%",
+              "note": "Outgoing damage modifier changed to -15% from -8%."
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "0%",
+              "after": "+5%",
+              "note": "Incoming damage modifier changed to +5% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Syndra}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "0%",
+              "after": "+5%",
+              "note": "Outgoing damage modifier changed to +5% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Udyr}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "+8%",
+              "after": "+10%",
+              "note": "Outgoing damage modifier changed to +10% from +8%."
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-8%",
+              "after": "-10%",
+              "note": "Incoming damage modifier changed to -10% from -8%."
+            },
+            {
+              "label": "Shielding modifier",
+              "before": "0%",
+              "after": "+10%",
+              "note": "Shielding modifier changed to +10% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Viego}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "0%",
+              "after": "+5%",
+              "note": "Outgoing damage modifier changed to +5% from 0%."
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "0%",
+              "after": "-5%",
+              "note": "Incoming damage modifier changed to -5% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Zoe}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "0%",
+              "after": "-5%",
+              "note": "Incoming damage modifier changed to -5% from 0%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "howling-abyss-specific-balancing",
+      "name": "Howling Abyss specific balancing",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Akali}}; Outgoing damage modifier changed to +20% from +15%.",
+      "gameplayImpact": "Howling Abyss specific balancing was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Akali}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "+15%",
+              "after": "+20%",
+              "note": "Outgoing damage modifier changed to +20% from +15%."
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-15%",
+              "after": "-20%",
+              "note": "Incoming damage modifier changed to -20% from -15%."
+            },
+            {
+              "label": "Change",
+              "note": "Caitlyn}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "0%",
+              "after": "-5%",
+              "note": "Outgoing damage modifier changed to -5% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Camille}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "+5%",
+              "after": "+10%",
+              "note": "Outgoing damage modifier changed to +10% from +5%."
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-5%",
+              "after": "-10%",
+              "note": "Incoming damage modifier changed to -10% from -5%."
+            },
+            {
+              "label": "Shielding modifier",
+              "before": "0%",
+              "after": "+10%",
+              "note": "Shielding modifier changed to +10% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Jinx}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "0%",
+              "after": "+5%",
+              "note": "Incoming damage modifier changed to +5% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Karthus}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "-5%",
+              "after": "-10%",
+              "note": "Outgoing damage modifier changed to -10% from -5%."
+            },
+            {
+              "label": "Change",
+              "note": "Katarina}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "+5%",
+              "after": "+10%",
+              "note": "Outgoing damage modifier changed to +10% from +5%."
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-5%",
+              "after": "-10%",
+              "note": "Incoming damage modifier changed to -10% from -5%."
+            },
+            {
+              "label": "Change",
+              "note": "Kayn}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "0%",
+              "after": "+5%",
+              "note": "Outgoing damage modifier changed to +5% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Kha'Zix}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "+8%",
+              "after": "+10%",
+              "note": "Outgoing damage modifier changed to +10% from +8%."
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-10%",
+              "after": "-15%",
+              "note": "Incoming damage modifier changed to -15% from -10%."
+            },
+            {
+              "label": "Change",
+              "note": "Kindred}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "+5%",
+              "after": "+10%",
+              "note": "Outgoing damage modifier changed to +10% from +5%."
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-5%",
+              "after": "-10%",
+              "note": "Incoming damage modifier changed to -10% from -5%."
+            },
+            {
+              "label": "Change",
+              "note": "Kled}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "0%",
+              "after": "+5%",
+              "note": "Outgoing damage modifier changed to +5% from 0%."
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-5%",
+              "after": "-10%",
+              "note": "Incoming damage modifier changed to -10% from -5%."
+            },
+            {
+              "label": "Change",
+              "note": "Seraphine}}"
+            },
+            {
+              "label": "Healing modifier",
+              "before": "-10%",
+              "after": "-15%",
+              "note": "Healing modifier changed to -15% from -10%."
+            },
+            {
+              "label": "Shielding modifier",
+              "before": "0%",
+              "after": "-15%",
+              "note": "Shielding modifier changed to -15% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Sivir}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "-8%",
+              "after": "-15%",
+              "note": "Outgoing damage modifier changed to -15% from -8%."
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "0%",
+              "after": "+5%",
+              "note": "Incoming damage modifier changed to +5% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Syndra}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "0%",
+              "after": "+5%",
+              "note": "Outgoing damage modifier changed to +5% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Udyr}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "+8%",
+              "after": "+10%",
+              "note": "Outgoing damage modifier changed to +10% from +8%."
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-8%",
+              "after": "-10%",
+              "note": "Incoming damage modifier changed to -10% from -8%."
+            },
+            {
+              "label": "Shielding modifier",
+              "before": "0%",
+              "after": "+10%",
+              "note": "Shielding modifier changed to +10% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Viego}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "0%",
+              "after": "+5%",
+              "note": "Outgoing damage modifier changed to +5% from 0%."
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "0%",
+              "after": "-5%",
+              "note": "Incoming damage modifier changed to -5% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Zoe}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "0%",
+              "after": "-5%",
+              "note": "Incoming damage modifier changed to -5% from 0%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    }
+  ],
+  "sourceUrl": "https://na.leagueoflegends.com/en-us/news/game-updates/patch-11-6-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V11.6"
+}

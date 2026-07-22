@@ -1,0 +1,2866 @@
+{
+  "id": "25.S1.1",
+  "version": "25.S1.1",
+  "title": "Welcome to Noxus, you are formally invited to join the Black Rose...",
+  "releaseDate": "2025-01-09",
+  "season": "25",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "Welcome to Noxus, you are formally invited to join the Black Rose..."
+    },
+    {
+      "title": "Champion balance",
+      "description": "4 champion buffs, 3 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "Welcome to Noxus, you are formally invited to join the Black Rose... Structured changes across 25 entities this patch.",
+  "champions": [
+    {
+      "id": "annie",
+      "name": "Annie",
+      "type": "champion",
+      "assetKey": "Annie",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Now refunds the mana cost and 50% of the cooldown if the target dies while the projectile is in flight.",
+      "gameplayImpact": "Annie is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Disintegrate",
+          "title": "Disintegrate",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Now refunds the mana cost and 50% of the cooldown if the target dies while the projectile is in flight."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "ashe",
+      "name": "Ashe",
+      "type": "champion",
+      "assetKey": "Ashe",
+      "roles": [],
+      "direction": "buff",
+      "severity": 3,
+      "tldr": "New Effect: Ashe's basic attacks deal bonus damage equal to (75% + Infinity Edge|40%) critical strike chance|critical chance}}. Additionally, her basic attacks and ability hits apply Frost to enemies for 2 seconds, wh…",
+      "gameplayImpact": "Ashe is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Frost Shot",
+          "title": "Frost Shot",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Ashe's basic attacks deal bonus damage equal to (75% + Infinity Edge|40%) critical strike chance|critical chance}}. Additionally, her basic attacks and ability hits apply Frost to enemies for 2 seconds, which slow them by 20–30% for the duration."
+            },
+            {
+              "label": "Change",
+              "note": "Old Effect: Ashe's basic attack and ability hits apply Frost to enemies for 2 seconds, which slow them by 20–30% for the duration. Basic attacks against enemies affected by Frost are modified to deal 115% (+ (75% + Infinity Edge|40%) critical strike chance)|critical chance}} damage."
+            }
+          ]
+        },
+        {
+          "ability": "Ranger's Focus",
+          "title": "Ranger's Focus",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus attack speed",
+              "before": "25–55%",
+              "after": "25–65%",
+              "note": "Bonus attack speed increased to 25–65% from 25–55%."
+            },
+            {
+              "label": "Damage per flurry",
+              "before": "105–125% AD",
+              "after": "110–130% AD",
+              "note": "Damage per flurry increased to 110–130% AD from 105–125% AD."
+            }
+          ]
+        },
+        {
+          "ability": "Volley",
+          "title": "Volley",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "20–80",
+              "after": "60–200",
+              "note": "Base damage increased to 60–200 from 20–80."
+            },
+            {
+              "label": "AD ratio",
+              "before": "100% total AD",
+              "after": "100% bonus AD",
+              "note": "AD ratio changed to 100% bonus AD from 100% total AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "bard",
+      "name": "Bard",
+      "type": "champion",
+      "assetKey": "Bard",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "First Chime spawn time in Summoner's Rift reduced to 0:15 from 0:25.",
+      "gameplayImpact": "Bard loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Traveler's Call",
+          "title": "Traveler's Call",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "First Chime spawn time in Summoner's Rift",
+              "before": "0:25",
+              "after": "0:15",
+              "note": "First Chime spawn time in Summoner's Rift reduced to 0:15 from 0:25."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "cassiopeia",
+      "name": "Cassiopeia",
+      "type": "champion",
+      "assetKey": "Cassiopeia",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Now grants an additional 2–36 bonus movement speed if her team gets Blessing of Noxus.",
+      "gameplayImpact": "Cassiopeia is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Serpentine Grace",
+          "title": "Serpentine Grace",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Now grants an additional 2–36 bonus movement speed if her team gets Blessing of Noxus."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "elise",
+      "name": "Elise",
+      "type": "champion",
+      "assetKey": "Elise",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Now swaps Axiom Arcanist}} with Nimbus Cloak}}.",
+      "gameplayImpact": "Elise was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Now swaps Axiom Arcanist}} with Nimbus Cloak}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "jayce",
+      "name": "Jayce",
+      "type": "champion",
+      "assetKey": "Jayce",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Now swaps Axiom Arcanist}} with Nimbus Cloak}}.",
+      "gameplayImpact": "Jayce was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Now swaps Axiom Arcanist}} with Nimbus Cloak}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "kalista",
+      "name": "Kalista",
+      "type": "champion",
+      "assetKey": "Kalista",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Mana regeneration growth increased to 0.8 from 0.4.; Dash is still affected by slow and cripple. Has a new speed floor.",
+      "gameplayImpact": "Kalista was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Mana regeneration growth",
+              "before": "0",
+              "after": "0.8",
+              "note": "Mana regeneration growth increased to 0.8 from 0.4."
+            }
+          ]
+        },
+        {
+          "ability": "Martial Poise",
+          "title": "Martial Poise",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Dash is still affected by slow and cripple. Has a new speed floor."
+            },
+            {
+              "label": "Change",
+              "note": "New calculations for dash speed."
+            },
+            {
+              "label": "Change",
+              "note": "Base attack speed is now properly referenced. This is a buff of around 8%."
+            },
+            {
+              "label": "Change",
+              "note": "Influence of attack speed slows has been halved."
+            },
+            {
+              "label": "Change",
+              "note": "Attack speed increases still have full influence."
+            },
+            {
+              "label": "Movement speed multiplier",
+              "before": "(1 - sum of slows)",
+              "after": "(0.2% total movement speed + 0.25)",
+              "note": "Movement speed multiplier changed to (0.2% total movement speed + 0.25) from (1 - sum of slows)."
+            },
+            {
+              "label": "Change",
+              "note": "This is typically close to 100% but now benefits from bonus movement speed and is more resilient to slows. The minimum multiplier is 48%."
+            },
+            {
+              "label": "Change",
+              "note": "Restored the dash animation when basic attacking."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Using Pierce}} during her attack winddown animation no longer causes her attack and idle animations to constantly reset when repeatedly inputting movement and stop commands without allowing the winddown animation cycle to finish."
+            }
+          ]
+        },
+        {
+          "ability": "Pierce",
+          "title": "Pierce",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Mana cost",
+              "before": "50–70",
+              "after": "60–80",
+              "note": "Mana cost increased to 60–80 from 50–70."
+            },
+            {
+              "label": "Base damage",
+              "before": "20–280",
+              "after": "10–270",
+              "note": "Base damage reduced to 10–270 from 20–280."
+            }
+          ]
+        },
+        {
+          "ability": "Rend",
+          "title": "Rend",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base damage per subsequent spear",
+              "before": "8–24",
+              "after": "7–35",
+              "note": "Base damage per subsequent spear changed to 7–35 from 8–24."
+            },
+            {
+              "label": "AD ratio per subsequent spear",
+              "before": "25–45% AD",
+              "after": "20–40% AD",
+              "note": "AD ratio per subsequent spear reduced to 20–40% AD from 25–45% AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "nidalee",
+      "name": "Nidalee",
+      "type": "champion",
+      "assetKey": "Nidalee",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Now swaps Axiom Arcanist}} with Nimbus Cloak}}.",
+      "gameplayImpact": "Nidalee was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Now swaps Axiom Arcanist}} with Nimbus Cloak}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "pyke",
+      "name": "Pyke",
+      "type": "champion",
+      "assetKey": "Pyke",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Removed: Your Cut}} no longer grants an additional if it was awarded from a kill that counted as First Blood.",
+      "gameplayImpact": "Pyke loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Death from Below",
+          "title": "Death from Below",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Removed: Your Cut}} no longer grants an additional if it was awarded from a kill that counted as First Blood."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "seraphine",
+      "name": "Seraphine",
+      "type": "champion",
+      "assetKey": "Seraphine",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Removed special missions for progressively unlocking each form. Rewards are now automatically distributed after purchase.Riot Support (16 January 2025 updated) — [https://support-leagueoflegends.riotgames.com/hc/en-us…",
+      "gameplayImpact": "Seraphine loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Removed special missions for progressively unlocking each form. Rewards are now automatically distributed after purchase.Riot Support (16 January 2025 updated) — [https://support-leagueoflegends.riotgames.com/hc/en-us/articles/360058019573-K-DA-ALL-OUT-Seraphine-FAQ K/DA ALL OUT Seraphine FAQ]"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "twitch",
+      "name": "Twitch",
+      "type": "champion",
+      "assetKey": "Twitch",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Slow AP ratio increased to 6% per 100 AP from 5% per 100 AP.",
+      "gameplayImpact": "Twitch is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Venom Cask",
+          "title": "Venom Cask",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Slow AP ratio",
+              "before": "5% per 100 AP",
+              "after": "6% per 100 AP",
+              "note": "Slow AP ratio increased to 6% per 100 AP from 5% per 100 AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "varus",
+      "name": "Varus",
+      "type": "champion",
+      "assetKey": "Varus",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Base mana reduced to 320 from 360.; Mana cost reduced to 50–70 from 65–85.",
+      "gameplayImpact": "Varus was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base mana",
+              "before": "360",
+              "after": "320",
+              "note": "Base mana reduced to 320 from 360."
+            }
+          ]
+        },
+        {
+          "ability": "Piercing Arrow",
+          "title": "Piercing Arrow",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Mana cost",
+              "before": "65–85",
+              "after": "50–70",
+              "note": "Mana cost reduced to 50–70 from 65–85."
+            }
+          ]
+        },
+        {
+          "ability": "Blighted Quiver",
+          "title": "Blighted Quiver",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "On-hit base damage",
+              "before": "8–28",
+              "after": "6–30",
+              "note": "On-hit base damage changed to 6–30 from 8–28."
+            }
+          ]
+        },
+        {
+          "ability": "Hail of Arrows",
+          "title": "Hail of Arrows",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Mana cost",
+              "before": "80",
+              "after": "90",
+              "note": "Mana cost increased to 90 from 80."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "zoe",
+      "name": "Zoe",
+      "type": "champion",
+      "assetKey": "Zoe",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Now swaps Axiom Arcanist}} with Nimbus Cloak}}.",
+      "gameplayImpact": "Zoe was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Now swaps Axiom Arcanist}} with Nimbus Cloak}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "abyssal-mask",
+      "name": "Abyssal Mask",
+      "type": "item",
+      "assetKey": "8020",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Health increased to 350 from 300.; Magic resistance increased to 50 from 45.",
+      "gameplayImpact": "Abyssal Mask was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Health",
+              "before": "300",
+              "after": "350",
+              "note": "Health increased to 350 from 300."
+            },
+            {
+              "label": "Magic resistance",
+              "before": "45",
+              "after": "50",
+              "note": "Magic resistance increased to 50 from 45."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Unmake:"
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Enemy champions within of you become cursed, causing them to receive 12% increased magic damage|magic damage from all sources."
+            },
+            {
+              "label": "Change",
+              "note": "Old Effect: Enemy champions within of you become cursed, reducing their magic resistance by 30%|magic penetration."
+            },
+            {
+              "label": "Change",
+              "note": "No longer limits the user to 1 Blight item."
+            },
+            {
+              "label": "Change",
+              "note": "Now limits the user to 1 Abyssal Mask."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "aegis-of-the-legion",
+      "name": "Aegis of the Legion",
+      "type": "item",
+      "assetKey": "3105",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Total cost reduced to from .; Combine cost reduced to from .",
+      "gameplayImpact": "Aegis of the Legion was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": "Re-added",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Total cost reduced to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Combine cost reduced to from ."
+            },
+            {
+              "label": "Armor",
+              "before": "30",
+              "after": "25",
+              "note": "Armor reduced to 25 from 30."
+            },
+            {
+              "label": "Magic resistance",
+              "before": "30",
+              "after": "25",
+              "note": "Magic resistance reduced to 25 from 30."
+            },
+            {
+              "label": "Change",
+              "note": "Now builds into Unending Despair}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust",
+        "Re-added"
+      ]
+    },
+    {
+      "id": "armored-advance",
+      "name": "Armored Advance",
+      "type": "item",
+      "assetKey": "3174",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Tier 3 Boots.; Requirements: Requires Blessing of Noxus and two Legendary-tier items equipped.",
+      "gameplayImpact": "Armored Advance was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": "New item",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Tier 3 Boots."
+            },
+            {
+              "label": "Change",
+              "note": "Requirements: Requires Blessing of Noxus and two Legendary-tier items equipped."
+            },
+            {
+              "label": "Change",
+              "note": "Recipe: Plated Steelcaps}} + = ."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 40 armor, 50 movement speed."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Plating: Reduces incoming damage from all basic attacks by 12% (excluding turret attacks)."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Noxian Endurance: Taking physical damage from champions grants you a shield that absorbs 10–140 (+ 4% maximum health) physical damage for 4 seconds (12 second cooldown)."
+            },
+            {
+              "label": "Change",
+              "note": "Limited to 1 Boots item."
+            },
+            {
+              "label": "Change",
+              "note": "Caption: \"Nothin' more glorious than the single advance of a thousand soldiers. —Captain Farron\""
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust",
+        "New item"
+      ]
+    },
+    {
+      "id": "berserkers-greaves",
+      "name": "Berserker's Greaves",
+      "type": "item",
+      "assetKey": "3006",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "New Effect: Triumphant version grants +5% attack speed.; Now builds into Gunmetal Greaves}}.",
+      "gameplayImpact": "Berserker's Greaves was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Triumphant version grants +5% attack speed."
+            },
+            {
+              "label": "Change",
+              "note": "Now builds into Gunmetal Greaves}}."
+            },
+            {
+              "label": "Change",
+              "note": "No longer builds into Zephyr}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "boots-of-swiftness",
+      "name": "Boots of Swiftness",
+      "type": "item",
+      "assetKey": "3009",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Triumphant version grants +5 movement speed.; Now builds into Swiftmarch}}.",
+      "gameplayImpact": "Boots of Swiftness is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Triumphant version grants +5 movement speed."
+            },
+            {
+              "label": "Change",
+              "note": "Now builds into Swiftmarch}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "bloodletters-curse",
+      "name": "Bloodletter's Curse",
+      "type": "item",
+      "assetKey": "8010",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "New:; Recipe: Haunting Guise}} + Fiendish Codex}} + = .",
+      "gameplayImpact": "Bloodletter's Curse was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": "Re-added",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New:"
+            },
+            {
+              "label": "Change",
+              "note": "Recipe: Haunting Guise}} + Fiendish Codex}} + = ."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 60 ability power, 350 health, 15 ability haste."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Vile Decay: Dealing magic damage to an enemy champion with your innate ability or abilities applies a stack to them for 6 seconds, stacking up to 6 times and up to 1 per basic attack or ability per cast instance every 0.3 seconds. Each stack inflicts 5% magic resistance reduction, up to 30%|mr at 6 stacks."
+            },
+            {
+              "label": "Change",
+              "note": "Limited to 1 Blight item."
+            },
+            {
+              "label": "Change",
+              "note": "Old:"
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 60 ability power, 10 ability haste, 30 armor, 30 magic resistance."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Vile Decay: Dealing magic damage to an enemy champion applies a stack to them for 6 seconds, stacking up to 6 times. Each stack inflicts 5% magic resistance reduction, up to 30%|mr at 6 stacks. Damaging basic attacks and spells can only apply a stack once every 2 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Limited to 1 Bloodletter's Curse."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust",
+        "Re-added"
+      ]
+    },
+    {
+      "id": "chainlaced-crushers",
+      "name": "Chainlaced Crushers",
+      "type": "item",
+      "assetKey": "3173",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Tier 3 Boots.; Requirements: Requires Blessing of Noxus and two Legendary-tier items equipped.",
+      "gameplayImpact": "Chainlaced Crushers was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": "New item",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Tier 3 Boots."
+            },
+            {
+              "label": "Change",
+              "note": "Requirements: Requires Blessing of Noxus and two Legendary-tier items equipped."
+            },
+            {
+              "label": "Change",
+              "note": "Recipe: Mercury's Treads}} + = ."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 35 magic resistance, 50 movement speed, 30% tenacity."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Noxian Persistence: Taking magic damage from champions grants you a shield that absorbs 10–140 (+ 4% maximum health) magic damage for 4 seconds (12 second cooldown)."
+            },
+            {
+              "label": "Change",
+              "note": "Limited to 1 Boots item."
+            },
+            {
+              "label": "Change",
+              "note": "Caption: \"Noxus and magic have a vast, varied history…\""
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust",
+        "New item"
+      ]
+    },
+    {
+      "id": "chain-vest",
+      "name": "Chain Vest",
+      "type": "item",
+      "assetKey": "221031",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "No longer builds into Unending Despair}}.",
+      "gameplayImpact": "Chain Vest loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "No longer builds into Unending Despair}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "crimson-lucidity",
+      "name": "Crimson Lucidity",
+      "type": "item",
+      "assetKey": "3171",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Tier 3 Boots.; Requirements: Requires Blessing of Noxus and two Legendary-tier items equipped.",
+      "gameplayImpact": "Crimson Lucidity was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": "New item",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Tier 3 Boots."
+            },
+            {
+              "label": "Change",
+              "note": "Requirements: Requires Blessing of Noxus and two Legendary-tier items equipped."
+            },
+            {
+              "label": "Change",
+              "note": "Recipe: Ionian Boots of Lucidity}} + = ."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 25 ability haste, 50 movement speed."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Ionian Insight: Gain 10 summoner spell haste."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Noxian Haste: heal, shield or buffing an ally, damaging abilities against champions, and using summoner spells grants you for 4 seconds. This can be triggered from the same cast instance only once every 4 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Limited to 1 Boots item."
+            },
+            {
+              "label": "Change",
+              "note": "Caption: \"A little hemomancy always clears the mind… —Ophelia\""
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust",
+        "New item"
+      ]
+    },
+    {
+      "id": "fiendish-codex",
+      "name": "Fiendish Codex",
+      "type": "item",
+      "assetKey": "3108",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Now builds into Bloodletter's Curse}}.",
+      "gameplayImpact": "Fiendish Codex was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Now builds into Bloodletter's Curse}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "forever-forward",
+      "name": "Forever Forward",
+      "type": "item",
+      "assetKey": "3176",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Tier 3 Boots.; Requirements: Requires Blessing of Noxus and two Legendary-tier items equipped.",
+      "gameplayImpact": "Forever Forward was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": "New item",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Tier 3 Boots."
+            },
+            {
+              "label": "Change",
+              "note": "Requirements: Requires Blessing of Noxus and two Legendary-tier items equipped."
+            },
+            {
+              "label": "Change",
+              "note": "Recipe: Synchronized Souls}} + = ."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 55 movement speed."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Voidborn: Gain ."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Noxian Synchrony: Gain 45 (+ 10% total movement speed) bonus movement speed while out-of-combat."
+            },
+            {
+              "label": "Change",
+              "note": "Limited to 1 Boots item."
+            },
+            {
+              "label": "Change",
+              "note": "Caption: \"The Empire of Noxus shall endure… Perfected.\""
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust",
+        "New item"
+      ]
+    },
+    {
+      "id": "giants-belt",
+      "name": "Giant's Belt",
+      "type": "item",
+      "assetKey": "221011",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Now builds into Unending Despair}}.",
+      "gameplayImpact": "Giant's Belt was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Now builds into Unending Despair}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "gunmetal-greaves",
+      "name": "Gunmetal Greaves",
+      "type": "item",
+      "assetKey": "3172",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Tier 3 Boots.; Requirements: Requires Blessing of Noxus and two Legendary-tier items equipped.",
+      "gameplayImpact": "Gunmetal Greaves was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": "New item",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Tier 3 Boots."
+            },
+            {
+              "label": "Change",
+              "note": "Requirements: Requires Blessing of Noxus and two Legendary-tier items equipped."
+            },
+            {
+              "label": "Change",
+              "note": "Recipe: Berserker's Greaves}} + = ."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 40% attack speed, 50 movement speed."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Noxian Gait: Basic attacks on-hit against champions grant you decaying over 2 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Limited to 1 Boots item."
+            },
+            {
+              "label": "Change",
+              "note": "Caption: \"The empire values strength. I value style. —Samira\""
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust",
+        "New item"
+      ]
+    },
+    {
+      "id": "haunting-guise",
+      "name": "Haunting Guise",
+      "type": "item",
+      "assetKey": "3147",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Now builds into Bloodletter's Curse}}.",
+      "gameplayImpact": "Haunting Guise was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Now builds into Bloodletter's Curse}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "heartsteel",
+      "name": "Heartsteel",
+      "type": "item",
+      "assetKey": "3084",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Colossal Consumption base damage reduced to 70 from 80.; Colossal Consumption damage health ratio changed to 6% maximum health from 12% bonus health from items.",
+      "gameplayImpact": "Heartsteel loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Colossal Consumption base damage",
+              "before": "80",
+              "after": "70",
+              "note": "Colossal Consumption base damage reduced to 70 from 80."
+            },
+            {
+              "label": "Colossal Consumption damage health ratio",
+              "before": "12% bonus health from items",
+              "after": "6% maximum health",
+              "note": "Colossal Consumption damage health ratio changed to 6% maximum health from 12% bonus health from items."
+            },
+            {
+              "label": "Colossal Consumption bonus health",
+              "before": "12%",
+              "after": "10% of damage dealt",
+              "note": "Colossal Consumption bonus health reduced to 10% of damage dealt from 12%."
+            },
+            {
+              "label": "Colossal Consumption bonus health",
+              "before": "9",
+              "after": "7 (+ 0.6% maximum health)",
+              "note": "Colossal Consumption bonus health changed to 7 (+ 0.6% maximum health) from 9.6 (+ 1.44% bonus health from items)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "ionian-boots-of-lucidity",
+      "name": "Ionian Boots of Lucidity",
+      "type": "item",
+      "assetKey": "3158",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Triumphant version grants +5 ability haste.; Now builds into Crimson Lucidity}}.",
+      "gameplayImpact": "Ionian Boots of Lucidity is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Triumphant version grants +5 ability haste."
+            },
+            {
+              "label": "Change",
+              "note": "Now builds into Crimson Lucidity}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "kindlegem",
+      "name": "Kindlegem",
+      "type": "item",
+      "assetKey": "3067",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "No longer builds into Unending Despair}}.",
+      "gameplayImpact": "Kindlegem loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "No longer builds into Unending Despair}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "mercurys-treads",
+      "name": "Mercury's Treads",
+      "type": "item",
+      "assetKey": "3111",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Triumphant version grants +5 magic resistance.; Now builds into Chainlaced Crushers}}.",
+      "gameplayImpact": "Mercury's Treads is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Triumphant version grants +5 magic resistance."
+            },
+            {
+              "label": "Change",
+              "note": "Now builds into Chainlaced Crushers}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "plated-steelcaps",
+      "name": "Plated Steelcaps",
+      "type": "item",
+      "assetKey": "3047",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Triumphant version grants +5 armor.; Now builds into Armored Advance}}.",
+      "gameplayImpact": "Plated Steelcaps is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Triumphant version grants +5 armor."
+            },
+            {
+              "label": "Change",
+              "note": "Now builds into Armored Advance}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "ruby-crystal",
+      "name": "Ruby Crystal",
+      "type": "item",
+      "assetKey": "1028",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "No longer builds into Unending Despair}}.",
+      "gameplayImpact": "Ruby Crystal loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "No longer builds into Unending Despair}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "sorcerers-shoes",
+      "name": "Sorcerer's Shoes",
+      "type": "item",
+      "assetKey": "3020",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Triumphant version grants +4 magic penetration.; Now builds into Spellslinger's Shoes}}.",
+      "gameplayImpact": "Sorcerer's Shoes is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Triumphant version grants +4 magic penetration."
+            },
+            {
+              "label": "Change",
+              "note": "Now builds into Spellslinger's Shoes}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "spellslingers-shoes",
+      "name": "Spellslinger's Shoes",
+      "type": "item",
+      "assetKey": "3175",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Tier 3 Boots.; Requirements: Requires Blessing of Noxus and two Legendary-tier items equipped.",
+      "gameplayImpact": "Spellslinger's Shoes was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": "New item",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Tier 3 Boots."
+            },
+            {
+              "label": "Change",
+              "note": "Requirements: Requires Blessing of Noxus and two Legendary-tier items equipped."
+            },
+            {
+              "label": "Change",
+              "note": "Recipe: Sorcerer's Shoes}} + = ."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 19 magic penetration, 10% magic penetration, 50 movement speed."
+            },
+            {
+              "label": "Change",
+              "note": "Limited to 1 Boots item."
+            },
+            {
+              "label": "Change",
+              "note": "Caption: \"A calculated step. Infinite misdirections.\""
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust",
+        "New item"
+      ]
+    },
+    {
+      "id": "swiftmarch",
+      "name": "Swiftmarch",
+      "type": "item",
+      "assetKey": "3170",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Tier 3 Boots.; Requirements: Requires Blessing of Noxus and two Legendary-tier items equipped.",
+      "gameplayImpact": "Swiftmarch was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": "New item",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Tier 3 Boots."
+            },
+            {
+              "label": "Change",
+              "note": "Requirements: Requires Blessing of Noxus and two Legendary-tier items equipped."
+            },
+            {
+              "label": "Change",
+              "note": "Recipe: Boots of Swiftness}} + = ."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 75 movement speed."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Fleetfooted: Gain 25% slow resist."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Noxian Fervor: Gain 4% bonus total movement speed."
+            },
+            {
+              "label": "Change",
+              "note": "Limited to 1 Boots item."
+            },
+            {
+              "label": "Change",
+              "note": "Caption: \"Now this is how to move! —Draven\""
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust",
+        "New item"
+      ]
+    },
+    {
+      "id": "synchronized-souls",
+      "name": "Synchronized Souls",
+      "type": "item",
+      "assetKey": "3013",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Triumphant version grants +5 movement speed.; Now builds into Forever Forward}}.",
+      "gameplayImpact": "Synchronized Souls is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Triumphant version grants +5 movement speed."
+            },
+            {
+              "label": "Change",
+              "note": "Now builds into Forever Forward}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "unending-despair",
+      "name": "Unending Despair",
+      "type": "item",
+      "assetKey": "2502",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "New Recipe: Aegis of the Legion}} + Giant's Belt}} + = .; Old Recipe: Chain Vest}} + Kindlegem}} + Ruby Crystal}} + = .",
+      "gameplayImpact": "Unending Despair was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Recipe: Aegis of the Legion}} + Giant's Belt}} + = ."
+            },
+            {
+              "label": "Change",
+              "note": "Old Recipe: Chain Vest}} + Kindlegem}} + Ruby Crystal}} + = ."
+            },
+            {
+              "label": "Health",
+              "before": "350",
+              "after": "400",
+              "note": "Health increased to 400 from 350."
+            },
+            {
+              "label": "Armor",
+              "before": "60",
+              "after": "25",
+              "note": "Armor reduced to 25 from 60."
+            },
+            {
+              "label": "Magic resistance",
+              "before": "0",
+              "after": "25",
+              "note": "Magic resistance increased to 25 from 0."
+            },
+            {
+              "label": "Anguish cooldown",
+              "before": "5",
+              "after": "4 seconds",
+              "note": "Anguish cooldown reduced to 4 seconds from 5."
+            },
+            {
+              "label": "Anguish base damage",
+              "before": "30–50",
+              "after": "8–15",
+              "note": "Anguish base damage reduced to 8–15 from 30–50."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "warmogs-armor",
+      "name": "Warmog's Armor",
+      "type": "item",
+      "assetKey": "443083",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "New:; Recipe: Giant's Belt}} + Giant's Belt}} + Crystalline Bracer}} + = .",
+      "gameplayImpact": "Warmog's Armor was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New:"
+            },
+            {
+              "label": "Change",
+              "note": "Recipe: Giant's Belt}} + Giant's Belt}} + Crystalline Bracer}} + = ."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 1000 health, 100% base health regeneration."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Warmog's Heart: This passive activates if you have at least 2000 bonus health. if damage has not been taken in the last 8 seconds (3 seconds for damage from non-champions)."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Warmog's Vitality: Gain bonus health equal to 10% bonus health from items."
+            },
+            {
+              "label": "Change",
+              "note": "Limited to 1 Warmog's Armor."
+            },
+            {
+              "label": "Change",
+              "note": "Old:"
+            },
+            {
+              "label": "Change",
+              "note": "Recipe: Giant's Belt}} + Winged Moonplate}} + Crystalline Bracer}} + = ."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 1000 health, 100% base health regeneration, 4% movement speed."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Warmog's Heart: This passive activates if you have at least 1500 bonus health. and gain 10% bonus movement speed if damage has not been taken in the last 6 seconds (3 seconds for damage from non-champions)."
+            },
+            {
+              "label": "Change",
+              "note": "Limited to 1 Warmog's Armor."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "winged-moonplate",
+      "name": "Winged Moonplate",
+      "type": "item",
+      "assetKey": "3066",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "No longer builds into Warmog's Armor}}.",
+      "gameplayImpact": "Winged Moonplate loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "No longer builds into Warmog's Armor}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "world-atlas",
+      "name": "World Atlas",
+      "type": "item",
+      "assetKey": "3865",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "First charge timer reduced to 1:40 from 1:50.",
+      "gameplayImpact": "World Atlas loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "First charge timer",
+              "before": "1:50",
+              "after": "1:40",
+              "note": "First charge timer reduced to 1:40 from 1:50."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "zephyr",
+      "name": "Zephyr",
+      "type": "item",
+      "assetKey": "663172",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Removed from the game.; Replaced by Gunmetal Greaves}}.",
+      "gameplayImpact": "Zephyr loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": "Removed",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Removed from the game."
+            },
+            {
+              "label": "Change",
+              "note": "Replaced by Gunmetal Greaves}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf",
+        "Removed"
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "id": "axiom-arcanist",
+      "name": "Axiom Arcanist",
+      "type": "rune",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Replaces Nullifying Orb}} from slot 1.; 20px|link= Sorcery Slot 1 rune.",
+      "gameplayImpact": "Axiom Arcanist was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": "New Rune",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Replaces Nullifying Orb}} from slot 1."
+            },
+            {
+              "label": "Change",
+              "note": "20px|link= Sorcery Slot 1 rune."
+            },
+            {
+              "label": "Change",
+              "note": "Passive:"
+            },
+            {
+              "label": "Change",
+              "note": "Your ultimate has 14% increased damage (reduced to 9% for AoE damaging abilities), healing and shielding."
+            },
+            {
+              "label": "Change",
+              "note": "Scoring an enemy champion takedown reduces your ultimate's current cooldown by 7%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust",
+        "New Rune"
+      ]
+    },
+    {
+      "id": "deep-ward",
+      "name": "Deep Ward",
+      "type": "rune",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Replaces Eyeball Collection}} from slot 2.; 20px|link= Domination Slot 2 rune.",
+      "gameplayImpact": "Deep Ward was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": "New Rune",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Replaces Eyeball Collection}} from slot 2."
+            },
+            {
+              "label": "Change",
+              "note": "20px|link= Domination Slot 2 rune."
+            },
+            {
+              "label": "Change",
+              "note": "Passive:"
+            },
+            {
+              "label": "Change",
+              "note": "Stealth Ward and Totem Ward placed in the enemy jungle are considered Deep."
+            },
+            {
+              "label": "Change",
+              "note": "All Deep wards are granted 1 bonus health, Deep Stealth Ward last 30–45 seconds longer, and Deep Totem Ward last 30–120 seconds longer."
+            },
+            {
+              "label": "Change",
+              "note": "At level 9, wards placed in the river will also be considered Deep."
+            },
+            {
+              "label": "Change",
+              "note": "In modes where wards are not available, Deep Ward is swapped for Grisly Mementos}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust",
+        "New Rune"
+      ]
+    },
+    {
+      "id": "eyeball-collection",
+      "name": "Eyeball Collection",
+      "type": "rune",
+      "assetKey": null,
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Removed from the game.; Replaced by Deep Ward}}.",
+      "gameplayImpact": "Eyeball Collection loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": "Removed",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Removed from the game."
+            },
+            {
+              "label": "Change",
+              "note": "Replaced by Deep Ward}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf",
+        "Removed"
+      ]
+    },
+    {
+      "id": "ghost-poro",
+      "name": "Ghost Poro",
+      "type": "rune",
+      "assetKey": null,
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Removed from the game.; Replaced by Grisly Mementos}}.",
+      "gameplayImpact": "Ghost Poro loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": "Removed",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Removed from the game."
+            },
+            {
+              "label": "Change",
+              "note": "Replaced by Grisly Mementos}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf",
+        "Removed"
+      ]
+    },
+    {
+      "id": "grisly-mementos",
+      "name": "Grisly Mementos",
+      "type": "rune",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Replaces Ghost Poro}} from slot 2.; 20px|link= Domination Slot 2 rune.",
+      "gameplayImpact": "Grisly Mementos was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": "New Rune",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Replaces Ghost Poro}} from slot 2."
+            },
+            {
+              "label": "Change",
+              "note": "20px|link= Domination Slot 2 rune."
+            },
+            {
+              "label": "Change",
+              "note": "Passive:"
+            },
+            {
+              "label": "Change",
+              "note": "Gain 4 trinket haste per Memento stack, up to 100 at maximum stacks."
+            },
+            {
+              "label": "Change",
+              "note": "Gain a Memento stack whenever scoring a champion takedown, up to 25 stacks."
+            },
+            {
+              "label": "Change",
+              "note": "In modes where wards are not available, each stack permanently grants 2 summoner haste instead, up to 50."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust",
+        "New Rune"
+      ]
+    },
+    {
+      "id": "nullifying-orb",
+      "name": "Nullifying Orb",
+      "type": "rune",
+      "assetKey": null,
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Removed from the game.; Replaced by Axiom Arcanist}}.",
+      "gameplayImpact": "Nullifying Orb loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": "Removed",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Removed from the game."
+            },
+            {
+              "label": "Change",
+              "note": "Replaced by Axiom Arcanist}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf",
+        "Removed"
+      ]
+    },
+    {
+      "id": "sixth-sense",
+      "name": "Sixth Sense",
+      "type": "rune",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Replaces Zombie Ward}} from slot 2.; 20px|link= Domination Slot 2 rune.",
+      "gameplayImpact": "Sixth Sense was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": "New Rune",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Replaces Zombie Ward}} from slot 2."
+            },
+            {
+              "label": "Change",
+              "note": "20px|link= Domination Slot 2 rune."
+            },
+            {
+              "label": "Change",
+              "note": "Passive: Automatically 24px|link= tracks un-tracked nearby wards within 900 units ( second cooldown)."
+            },
+            {
+              "label": "Change",
+              "note": "At level 11, additionally true sight the ward for 10 seconds upon being triggered."
+            },
+            {
+              "label": "Change",
+              "note": "In modes where wards are not available, Sixth Sense is swapped for Grisly Mementos}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust",
+        "New Rune"
+      ]
+    },
+    {
+      "id": "zombie-ward",
+      "name": "Zombie Ward",
+      "type": "rune",
+      "assetKey": null,
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Removed from the game.; Replaced by Sixth Sense}}.",
+      "gameplayImpact": "Zombie Ward loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": "Removed",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Removed from the game."
+            },
+            {
+              "label": "Change",
+              "note": "Replaced by Sixth Sense}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf",
+        "Removed"
+      ]
+    },
+    {
+      "id": "monsters",
+      "name": "Monsters",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Spawns at 20 minutes at the entrance of either top and bottom lane in the river. The location is determined by the side (half of the map) where the most kills and damage have occurred by 14 minutes. This is done via a…",
+      "gameplayImpact": "Monsters was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Spawns at 20 minutes at the entrance of either top and bottom lane in the river. The location is determined by the side (half of the map) where the most kills and damage have occurred by 14 minutes. This is done via an internal \"score\", and the amount of score added is different between kills and damage."
+            },
+            {
+              "label": "Change",
+              "note": "At 14 minutes, terrain will appear on the respective side, marking his camp's location. The terrain consists of two walls in a circular arrangement, each facing each other along the river line. The river brush at the entrance where Atakhan spawns is removed."
+            },
+            {
+              "label": "Change",
+              "note": "Over the course of the next 6 minutes, 8 20px|link= Blood Roses and 8 20px|link= large Blood Roses will grow in the same quadrant of the map as the camp."
+            },
+            {
+              "label": "Change",
+              "note": "Can spawn in one of two forms, Voracious and Ruinous."
+            },
+            {
+              "label": "Change",
+              "note": "Both forms of Atakhan have identical basic attacks and a bolt ability, but also a unique special ability that differs between the two forms."
+            },
+            {
+              "label": "Change",
+              "note": "His attacks and abilities apply stacks of the 20px|link= Frail and Unworthy debuff for 4 seconds which may stack up to 50 times and refreshes with each attack and ability hit. For each stack, the target's resistances are reduced by 1, for a maximum of 50 resistances reduction."
+            },
+            {
+              "label": "Change",
+              "note": "Basic attacks apply 1 stack."
+            },
+            {
+              "label": "Change",
+              "note": "Bolt ability applies 5 stacks per bolt."
+            },
+            {
+              "label": "Change",
+              "note": "Form ability applies 3 stacks per hit."
+            },
+            {
+              "label": "Change",
+              "note": "Spawns with lower score."
+            },
+            {
+              "label": "Change",
+              "note": "Ability deals damage over time in a area under him."
+            },
+            {
+              "label": "Change",
+              "note": "Rewards all members of the slaying team with two buffs, a temporary and a permanent one."
+            },
+            {
+              "label": "Change",
+              "note": "20px|link= False Life"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Upon taking death, enter resurrection for 5.5 seconds, during which you are invulnerable, untargetable, and lockout. After 2 seconds into the duration, you blink to your summoning platform. If taken to lethal damage by an enemy champion, they instead gain 1 stack of 20px|link= Bloody Petals and . The regular kill bounty is not dispensed, and on-kill/takedown effects do not trigger."
+            },
+            {
+              "label": "Change",
+              "note": "Duration: 150 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "20px|link= False Life"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Gain an additional when scoring a champion takedown."
+            },
+            {
+              "label": "Change",
+              "note": "Duration: Permanent."
+            },
+            {
+              "label": "Change",
+              "note": "Spawns with higher score."
+            },
+            {
+              "label": "Change",
+              "note": "Ability deals damage in 8 constricting rings over 2.5 seconds around his camp, starting at the circle outlined by the camp's terrain."
+            },
+            {
+              "label": "Change",
+              "note": "Upon being taken down, grants 6 stacks of 20px|link= Bloody Petals to the killing team, spawns 6 20px|link= Blood Roses and 6 20px|link= large Blood Roses around his camp and rewards all members of the slaying team with the Crown of Carnage buff."
+            },
+            {
+              "label": "Change",
+              "note": "20px|link= Crown of Carnage"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Gain 25% increased effects from all epic monster buffs."
+            },
+            {
+              "label": "Change",
+              "note": "Duration: Permanent."
+            },
+            {
+              "label": "Change",
+              "note": "Buff details:"
+            },
+            {
+              "label": "Initial spawn timer",
+              "before": "14:00",
+              "after": "16:00",
+              "note": "Initial spawn timer increased to 16:00 from 14:00."
+            },
+            {
+              "label": "Despawn timer",
+              "before": "19:45 (19:55 if in combat)",
+              "after": "24:45 (24:55 if in combat)",
+              "note": "Despawn timer increased to 24:45 (24:55 if in combat) from 19:45 (19:55 if in combat)."
+            },
+            {
+              "label": "Undocumented: Experience bounty",
+              "before": "306–320",
+              "after": "309–330",
+              "note": "Undocumented: Experience bounty increased to 309–330 from 306–320."
+            },
+            {
+              "label": "Initial spawn timer",
+              "before": "20:00",
+              "after": "25:00",
+              "note": "Initial spawn timer increased to 25:00 from 20:00."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "atakhan-bringer-of-ruin",
+      "name": "Atakhan, Bringer of Ruin",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Spawns at 20 minutes at the entrance of either top and bottom lane in the river. The location is determined by the side (half of the map) where the most kills and damage have occurred by 14 minutes. This is done via a…",
+      "gameplayImpact": "Atakhan, Bringer of Ruin was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": "New Epic Monster",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Spawns at 20 minutes at the entrance of either top and bottom lane in the river. The location is determined by the side (half of the map) where the most kills and damage have occurred by 14 minutes. This is done via an internal \"score\", and the amount of score added is different between kills and damage."
+            },
+            {
+              "label": "Change",
+              "note": "At 14 minutes, terrain will appear on the respective side, marking his camp's location. The terrain consists of two walls in a circular arrangement, each facing each other along the river line. The river brush at the entrance where Atakhan spawns is removed."
+            },
+            {
+              "label": "Change",
+              "note": "Over the course of the next 6 minutes, 8 20px|link= Blood Roses and 8 20px|link= large Blood Roses will grow in the same quadrant of the map as the camp."
+            },
+            {
+              "label": "Change",
+              "note": "Can spawn in one of two forms, Voracious and Ruinous."
+            },
+            {
+              "label": "Change",
+              "note": "Both forms of Atakhan have identical basic attacks and a bolt ability, but also a unique special ability that differs between the two forms."
+            },
+            {
+              "label": "Change",
+              "note": "His attacks and abilities apply stacks of the 20px|link= Frail and Unworthy debuff for 4 seconds which may stack up to 50 times and refreshes with each attack and ability hit. For each stack, the target's resistances are reduced by 1, for a maximum of 50 resistances reduction."
+            },
+            {
+              "label": "Change",
+              "note": "Basic attacks apply 1 stack."
+            },
+            {
+              "label": "Change",
+              "note": "Bolt ability applies 5 stacks per bolt."
+            },
+            {
+              "label": "Change",
+              "note": "Form ability applies 3 stacks per hit."
+            },
+            {
+              "label": "Change",
+              "note": ":"
+            },
+            {
+              "label": "Change",
+              "note": "Spawns with lower score."
+            },
+            {
+              "label": "Change",
+              "note": "Ability deals damage over time in a area under him."
+            },
+            {
+              "label": "Change",
+              "note": "Rewards all members of the slaying team with two buffs, a temporary and a permanent one."
+            },
+            {
+              "label": "Change",
+              "note": "20px|link= False Life"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Upon taking death, enter resurrection for 5.5 seconds, during which you are invulnerable, untargetable, and lockout. After 2 seconds into the duration, you blink to your summoning platform. If taken to lethal damage by an enemy champion, they instead gain 1 stack of 20px|link= Bloody Petals and . The regular kill bounty is not dispensed, and on-kill/takedown effects do not trigger."
+            },
+            {
+              "label": "Change",
+              "note": "Duration: 150 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "20px|link= False Life"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Gain an additional when scoring a champion takedown."
+            },
+            {
+              "label": "Change",
+              "note": "Duration: Permanent."
+            },
+            {
+              "label": "Change",
+              "note": ":"
+            },
+            {
+              "label": "Change",
+              "note": "Spawns with higher score."
+            },
+            {
+              "label": "Change",
+              "note": "Ability deals damage in 8 constricting rings over 2.5 seconds around his camp, starting at the circle outlined by the camp's terrain."
+            },
+            {
+              "label": "Change",
+              "note": "Upon being taken down, grants 6 stacks of 20px|link= Bloody Petals to the killing team, spawns 6 20px|link= Blood Roses and 6 20px|link= large Blood Roses around his camp and rewards all members of the slaying team with the Crown of Carnage buff."
+            },
+            {
+              "label": "Change",
+              "note": "20px|link= Crown of Carnage"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Gain 25% increased effects from all epic monster buffs."
+            },
+            {
+              "label": "Change",
+              "note": "Duration: Permanent."
+            },
+            {
+              "label": "Change",
+              "note": "Buff details:"
+            },
+            {
+              "label": "Change",
+              "note": "— 25% more damage."
+            },
+            {
+              "label": "Change",
+              "note": "— Effect unknown."
+            },
+            {
+              "label": "Change",
+              "note": "Eye of the Herald}} — Mercenary has 25% increased health, deals 25% increased damage to all targets, and duration of stun and knockup during 20px|link= Rift Herald Rodeo is increased by 25%."
+            },
+            {
+              "label": "Change",
+              "note": "— Each stack's stat bonus is increased by 25%."
+            },
+            {
+              "label": "Change",
+              "note": "— 25% more damage while below the threshold."
+            },
+            {
+              "label": "Change",
+              "note": "— 25% more bonus movement speed on both the regular and the super buff."
+            },
+            {
+              "label": "Change",
+              "note": "— 25% more damage and slow."
+            },
+            {
+              "label": "Change",
+              "note": "— 25% more damage."
+            },
+            {
+              "label": "Change",
+              "note": "— 25% larger shield."
+            },
+            {
+              "label": "Change",
+              "note": "— 25% more health and mana restoration."
+            },
+            {
+              "label": "Change",
+              "note": "— 25% more damage."
+            },
+            {
+              "label": "Change",
+              "note": "— 25% more attack damage and ability power."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust",
+        "New Epic Monster"
+      ]
+    },
+    {
+      "id": "turrets",
+      "name": "Turrets",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Removed: First Turret no longer grants .; Damage reduction reduced to 50% from 85%.",
+      "gameplayImpact": "Turrets was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Removed: First Turret no longer grants ."
+            },
+            {
+              "label": "Damage reduction",
+              "before": "85%",
+              "after": "50%",
+              "note": "Damage reduction reduced to 50% from 85%."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Now respawns 3 minutes after being destroyed."
+            },
+            {
+              "label": "Bonus damage per stack",
+              "before": "40%",
+              "after": "50%",
+              "note": "Bonus damage per stack increased to 50% from 40%."
+            },
+            {
+              "label": "Maximum damage",
+              "before": "120%",
+              "after": "150%",
+              "note": "Maximum damage increased to 150% from 120%."
+            },
+            {
+              "label": "Stack duration",
+              "before": "3",
+              "after": "5 seconds",
+              "note": "Stack duration increased to 5 seconds from 3."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "bounties",
+      "name": "Bounties",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Removed: First Turret no longer grants .",
+      "gameplayImpact": "Bounties loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Removed: First Turret no longer grants ."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "fortification",
+      "name": "Fortification}}",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Damage reduction reduced to 50% from 85%.",
+      "gameplayImpact": "Fortification}} loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Damage reduction",
+              "before": "85%",
+              "after": "50%",
+              "note": "Damage reduction reduced to 50% from 85%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "nexus-turret",
+      "name": "Nexus Turret",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Now respawns 3 minutes after being destroyed.",
+      "gameplayImpact": "Nexus Turret is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Now respawns 3 minutes after being destroyed."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "ohmwrecker-turret-item-ohmwrecker",
+      "name": "Ohmwrecker (Turret Item)|Ohmwrecker}}",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Bonus damage per stack increased to 50% from 40%.; Maximum damage increased to 150% from 120%.",
+      "gameplayImpact": "Ohmwrecker (Turret Item)|Ohmwrecker}} is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus damage per stack",
+              "before": "40%",
+              "after": "50%",
+              "note": "Bonus damage per stack increased to 50% from 40%."
+            },
+            {
+              "label": "Maximum damage",
+              "before": "120%",
+              "after": "150%",
+              "note": "Maximum damage increased to 150% from 120%."
+            },
+            {
+              "label": "Stack duration",
+              "before": "3",
+              "after": "5 seconds",
+              "note": "Stack duration increased to 5 seconds from 3."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "summoners-rift",
+      "name": "Summoner's Rift",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "-themed map skin.; (Order) vs (Chaos)",
+      "gameplayImpact": "Summoner's Rift was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "-themed map skin."
+            },
+            {
+              "label": "Change",
+              "note": "(Order) vs (Chaos)"
+            },
+            {
+              "label": "Change",
+              "note": "Updated internal regions to match the Season 2024 map restructuring."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "map",
+      "name": "Map",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "-themed map skin.; (Order) vs (Chaos)",
+      "gameplayImpact": "Map was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "-themed map skin."
+            },
+            {
+              "label": "Change",
+              "note": "(Order) vs (Chaos)"
+            },
+            {
+              "label": "Change",
+              "note": "Updated internal regions to match the Season 2024 map restructuring."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "howling-abyss",
+      "name": "Howling Abyss",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Diana}}; Outgoing damage modifier changed to 0% from +2%.",
+      "gameplayImpact": "Howling Abyss was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Diana}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "+2%",
+              "after": "0%",
+              "note": "Outgoing damage modifier changed to 0% from +2%."
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-2%",
+              "after": "0%",
+              "note": "Incoming damage modifier changed to 0% from -2%."
+            },
+            {
+              "label": "Change",
+              "note": "Elise}}"
+            },
+            {
+              "label": "Tenacity",
+              "before": "+20%",
+              "after": "+10%",
+              "note": "Tenacity changed to +10% from +20%."
+            },
+            {
+              "label": "Change",
+              "note": "Karma}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "-2%",
+              "after": "0%",
+              "note": "Outgoing damage modifier changed to 0% from -2%."
+            },
+            {
+              "label": "Change",
+              "note": "Master Yi}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-3%",
+              "after": "0%",
+              "note": "Incoming damage modifier changed to 0% from -3%."
+            },
+            {
+              "label": "Change",
+              "note": "Swain}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "-10%",
+              "after": "-5%",
+              "note": "Outgoing damage modifier changed to -5% from -10%."
+            },
+            {
+              "label": "Change",
+              "note": "Warwick}}"
+            },
+            {
+              "label": "Healing modifier",
+              "before": "+20%",
+              "after": "0%",
+              "note": "Healing modifier changed to 0% from +20%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "map",
+      "name": "Map",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Diana}}; Outgoing damage modifier changed to 0% from +2%.",
+      "gameplayImpact": "Map was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Diana}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "+2%",
+              "after": "0%",
+              "note": "Outgoing damage modifier changed to 0% from +2%."
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-2%",
+              "after": "0%",
+              "note": "Incoming damage modifier changed to 0% from -2%."
+            },
+            {
+              "label": "Change",
+              "note": "Elise}}"
+            },
+            {
+              "label": "Tenacity",
+              "before": "+20%",
+              "after": "+10%",
+              "note": "Tenacity changed to +10% from +20%."
+            },
+            {
+              "label": "Change",
+              "note": "Karma}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "-2%",
+              "after": "0%",
+              "note": "Outgoing damage modifier changed to 0% from -2%."
+            },
+            {
+              "label": "Change",
+              "note": "Master Yi}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-3%",
+              "after": "0%",
+              "note": "Incoming damage modifier changed to 0% from -3%."
+            },
+            {
+              "label": "Change",
+              "note": "Swain}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "-10%",
+              "after": "-5%",
+              "note": "Outgoing damage modifier changed to -5% from -10%."
+            },
+            {
+              "label": "Change",
+              "note": "Warwick}}"
+            },
+            {
+              "label": "Healing modifier",
+              "before": "+20%",
+              "after": "0%",
+              "note": "Healing modifier changed to 0% from +20%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-25-s1-1-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V25.S1.1"
+}

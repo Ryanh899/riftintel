@@ -1,0 +1,890 @@
+{
+  "id": "26.14",
+  "version": "26.14",
+  "title": "Patch 26.14",
+  "releaseDate": "2026-07-15",
+  "season": "26",
+  "themes": [
+    {
+      "title": "Champion balance",
+      "description": "4 champion buffs, 5 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "Structured changes across 16 entities this patch.",
+  "champions": [
+    {
+      "id": "corki",
+      "name": "Corki",
+      "type": "champion",
+      "assetKey": "Corki",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Attack damage growth increased to 2.5 from 2.; On-hit cooldown reduction increased to 2–6 (0–100% crit) from 2–4 (0–100% crit).",
+      "gameplayImpact": "Corki is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Attack damage growth",
+              "before": "2",
+              "after": "2.5",
+              "note": "Attack damage growth increased to 2.5 from 2."
+            }
+          ]
+        },
+        {
+          "ability": "Missile Barrage",
+          "title": "Missile Barrage",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "On-hit cooldown reduction",
+              "before": "2–4 (0–100% crit)",
+              "after": "2–6 (0–100% crit)",
+              "note": "On-hit cooldown reduction increased to 2–6 (0–100% crit) from 2–4 (0–100% crit)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "garen",
+      "name": "Garen",
+      "type": "champion",
+      "assetKey": "Garen",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base damage reduced to 125–275 (3 ranks) from 150–350 (3 ranks).",
+      "gameplayImpact": "Garen loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Demacian Justice",
+          "title": "Demacian Justice",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "150–350 (3 ranks)",
+              "after": "125–275 (3 ranks)",
+              "note": "Base damage reduced to 125–275 (3 ranks) from 150–350 (3 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "jayce",
+      "name": "Jayce",
+      "type": "champion",
+      "assetKey": "Jayce",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Bonus movement speed reduced to 30 from 40.; Base resistances reduced to 5–26 (lv 1–16) from 5–35 (lv 1–16).",
+      "gameplayImpact": "Jayce loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Hextech Capacitor",
+          "title": "Hextech Capacitor",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Bonus movement speed",
+              "before": "40",
+              "after": "30",
+              "note": "Bonus movement speed reduced to 30 from 40."
+            }
+          ]
+        },
+        {
+          "ability": "Transform Mercury Hammer",
+          "title": "Transform Mercury Hammer",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base resistances",
+              "before": "5–35 (lv 1–16)",
+              "after": "5–26 (lv 1–16)",
+              "note": "Base resistances reduced to 5–26 (lv 1–16) from 5–35 (lv 1–16)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "locke",
+      "name": "Locke",
+      "type": "champion",
+      "assetKey": "Locke",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Base nail damage reduced to 50–82 from 50–90.; Stack base bonus damage reduced to 18–50 from 20–60.",
+      "gameplayImpact": "Locke loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Ritual Nails",
+          "title": "Ritual Nails",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base nail damage",
+              "before": "50–90",
+              "after": "50–82",
+              "note": "Base nail damage reduced to 50–82 from 50–90."
+            },
+            {
+              "label": "Stack base bonus damage",
+              "before": "20–60",
+              "after": "18–50",
+              "note": "Stack base bonus damage reduced to 18–50 from 20–60."
+            },
+            {
+              "label": "Recast time",
+              "before": "5",
+              "after": "4 seconds",
+              "note": "Recast time reduced to 4 seconds from 5."
+            }
+          ]
+        },
+        {
+          "ability": "Soul Ignition",
+          "title": "Soul Ignition",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base Grey Health cap",
+              "before": "40–200",
+              "after": "40–160",
+              "note": "Base Grey Health cap reduced to 40–160 from 40–200."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "mordekaiser",
+      "name": "Mordekaiser",
+      "type": "champion",
+      "assetKey": "Mordekaiser",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Base damage increased to 60–140 from 60–120.; AP ratio increased to 45% AP from 40% AP.",
+      "gameplayImpact": "Mordekaiser is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Death's Grasp",
+          "title": "Death's Grasp",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "60–120",
+              "after": "60–140",
+              "note": "Base damage increased to 60–140 from 60–120."
+            },
+            {
+              "label": "AP ratio",
+              "before": "40% AP",
+              "after": "45% AP",
+              "note": "AP ratio increased to 45% AP from 40% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Realm of Death",
+          "title": "Realm of Death",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Stat steal",
+              "before": "10%",
+              "after": "13%",
+              "note": "Stat steal increased to 13% from 10%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "nami",
+      "name": "Nami",
+      "type": "champion",
+      "assetKey": "Nami",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Bonus damage per hit increased to 20–80 from 20–60.",
+      "gameplayImpact": "Nami is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Tidecaller's Blessing",
+          "title": "Tidecaller's Blessing",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus damage per hit",
+              "before": "20–60",
+              "after": "20–80",
+              "note": "Bonus damage per hit increased to 20–80 from 20–60."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "senna",
+      "name": "Senna",
+      "type": "champion",
+      "assetKey": "Senna",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Critical damage modifier reduced to 80% from 85%.; Slow AP ratio reduced to 7% per 100 AP from 10% per 100 AP.",
+      "gameplayImpact": "Senna loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Critical damage modifier",
+              "before": "85%",
+              "after": "80%",
+              "note": "Critical damage modifier reduced to 80% from 85%."
+            }
+          ]
+        },
+        {
+          "ability": "Piercing Darkness",
+          "title": "Piercing Darkness",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Slow AP ratio",
+              "before": "10% per 100 AP",
+              "after": "7% per 100 AP",
+              "note": "Slow AP ratio reduced to 7% per 100 AP from 10% per 100 AP."
+            },
+            {
+              "label": "Healing AP ratio",
+              "before": "50% AP",
+              "after": "35% AP",
+              "note": "Healing AP ratio reduced to 35% AP from 50% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "seraphine",
+      "name": "Seraphine",
+      "type": "champion",
+      "assetKey": "Seraphine",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "AP ratio reduced to 40% AP from 50% AP.",
+      "gameplayImpact": "Seraphine loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "High Note",
+          "title": "High Note",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "50% AP",
+              "after": "40% AP",
+              "note": "AP ratio reduced to 40% AP from 50% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "yunara",
+      "name": "Yunara",
+      "type": "champion",
+      "assetKey": "Yunara",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Attack damage growth increased to 3 from 2.5.",
+      "gameplayImpact": "Yunara is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Attack damage growth",
+              "before": "2",
+              "after": "3",
+              "note": "Attack damage growth increased to 3 from 2.5."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "fiendish-codex",
+      "name": "Fiendish Codex",
+      "type": "item",
+      "assetKey": "3108",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "No longer builds into Hextech Rocketbelt}}.",
+      "gameplayImpact": "Fiendish Codex loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "No longer builds into Hextech Rocketbelt}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "hextech-rocketbelt",
+      "name": "Hextech Rocketbelt",
+      "type": "item",
+      "assetKey": "3152",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "New Recipe: Hextech Alternator}} + Kindlegem}} + Ruby Crystal}} + = .; Old Recipe: Hextech Alternator}} + Fiendish Codex}} + Ruby Crystal}} + = .",
+      "gameplayImpact": "Hextech Rocketbelt was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Recipe: Hextech Alternator}} + Kindlegem}} + Ruby Crystal}} + = ."
+            },
+            {
+              "label": "Change",
+              "note": "Old Recipe: Hextech Alternator}} + Fiendish Codex}} + Ruby Crystal}} + = ."
+            },
+            {
+              "label": "Ability power",
+              "before": "70",
+              "after": "60",
+              "note": "Ability power reduced to 60 from 70."
+            },
+            {
+              "label": "Health",
+              "before": "300",
+              "after": "350",
+              "note": "Health increased to 350 from 300."
+            },
+            {
+              "label": "Supersonic cooldown",
+              "before": "40",
+              "after": "50 seconds",
+              "note": "Supersonic cooldown increased to 50 seconds from 40."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "kindlegem",
+      "name": "Kindlegem",
+      "type": "item",
+      "assetKey": "3067",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Now builds into Hextech Rocketbelt}}.",
+      "gameplayImpact": "Kindlegem was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Now builds into Hextech Rocketbelt}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "immortal-path",
+      "name": "Immortal Path",
+      "type": "item",
+      "assetKey": "3168",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Now and Forever damage increase reduced to 4% from 5%.; Now and Forever increased healing reduced to 12% from 15%.",
+      "gameplayImpact": "Immortal Path loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Now and Forever damage increase",
+              "before": "5%",
+              "after": "4%",
+              "note": "Now and Forever damage increase reduced to 4% from 5%."
+            },
+            {
+              "label": "Now and Forever increased healing",
+              "before": "15%",
+              "after": "12%",
+              "note": "Now and Forever increased healing reduced to 12% from 15%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "protoplasm-harness",
+      "name": "Protoplasm Harness",
+      "type": "item",
+      "assetKey": "2525",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Total cost increased to from .; Combine cost increased to from .",
+      "gameplayImpact": "Protoplasm Harness loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Total cost increased to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Combine cost increased to from ."
+            },
+            {
+              "label": "Lifeline bonus health",
+              "before": "200–300",
+              "after": "100–300",
+              "note": "Lifeline bonus health reduced to 100–300 from 200–300."
+            },
+            {
+              "label": "Lifeline healing",
+              "before": "200–400",
+              "after": "100–400",
+              "note": "Lifeline healing reduced to 100–400 from 200–400."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "id": "neutral-buffs",
+      "name": "Neutral buffs",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Ability haste increased to 10–20 from 10 at all ranks.",
+      "gameplayImpact": "Neutral buffs is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Ability haste",
+              "before": "10 at all ranks",
+              "after": "10–20",
+              "note": "Ability haste increased to 10–20 from 10 at all ranks."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "arena",
+      "name": "Arena",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "nerf",
+      "severity": 3,
+      "tldr": "Champions; Ambessa",
+      "gameplayImpact": "Arena loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Champions"
+            },
+            {
+              "label": "Change",
+              "note": "Ambessa"
+            },
+            {
+              "label": "Change",
+              "note": "Q1 Base Attack Damage Ratio: 60% ⇒ 45%"
+            },
+            {
+              "label": "Change",
+              "note": "Q2 Base Attack Damage Ratio: 90% ⇒ 70%"
+            },
+            {
+              "label": "Change",
+              "note": "Gragas"
+            },
+            {
+              "label": "Change",
+              "note": "Passive Heal Ratio: 3.5% ⇒ 5.5%"
+            },
+            {
+              "label": "Change",
+              "note": "E Base Damage: 80 - 220 ⇒ 80 - 260"
+            },
+            {
+              "label": "Change",
+              "note": "Heimerdinger"
+            },
+            {
+              "label": "Change",
+              "note": "Q Beam Base Damage: 30 - 90 ⇒ 40 - 120"
+            },
+            {
+              "label": "Change",
+              "note": "Beam Ability Power Ratio: 45% ⇒ 55%"
+            },
+            {
+              "label": "Change",
+              "note": "Illaoi"
+            },
+            {
+              "label": "Change",
+              "note": "Q Passive Tentacle Damage Amplification: 4% - 20% ⇒ 10% - 30%"
+            },
+            {
+              "label": "Change",
+              "note": "Kled"
+            },
+            {
+              "label": "Change",
+              "note": "Passive Mount Cooldown: 15 ⇒ 12"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Power Flowers now correctly grants courage."
+            },
+            {
+              "label": "Change",
+              "note": "Locke"
+            },
+            {
+              "label": "Change",
+              "note": "Q Cooldown: 10 - 6 ⇒ 8.5 - 4.5"
+            },
+            {
+              "label": "Change",
+              "note": "E Cooldown: 10 ⇒ 8"
+            },
+            {
+              "label": "Change",
+              "note": "E2 Ability Power Ratio: 0.4 ⇒ 0.65"
+            },
+            {
+              "label": "Change",
+              "note": "R Cooldown: 120 - 80 ⇒ 90 - 60"
+            },
+            {
+              "label": "Change",
+              "note": "Quinn"
+            },
+            {
+              "label": "Change",
+              "note": "Passive Harrier Cooldown: 7s - 2.56s ⇒ 5s - 1.83s"
+            },
+            {
+              "label": "Change",
+              "note": "E Cooldown: 12 - 8 ⇒ 10 - 6"
+            },
+            {
+              "label": "Change",
+              "note": "Rakan"
+            },
+            {
+              "label": "Change",
+              "note": "Q Base Damage: 70 - 250 ⇒ 95 - 275"
+            },
+            {
+              "label": "Change",
+              "note": "Samira"
+            },
+            {
+              "label": "Change",
+              "note": "R Damage: 10 / 20 / 30 ⇒ 15 / 30 / 45"
+            },
+            {
+              "label": "Change",
+              "note": "Skarner"
+            },
+            {
+              "label": "Change",
+              "note": "E Move Distance Post Grab: 675 ⇒ 1000"
+            },
+            {
+              "label": "Change",
+              "note": "R Base Damage: 250 - 450 ⇒ 350 - 550"
+            },
+            {
+              "label": "Change",
+              "note": "Move Speed While Active: 40% ⇒ 60%"
+            },
+            {
+              "label": "Change",
+              "note": "Swain"
+            },
+            {
+              "label": "Change",
+              "note": "R Demonic Power Generated per Second While Draining: 20 ⇒ 25"
+            },
+            {
+              "label": "Change",
+              "note": "Demonic Power Lost: 10 ⇒ 15"
+            },
+            {
+              "label": "Change",
+              "note": "Amped Demonic Power Lost After 5s: 15 ⇒ 20"
+            },
+            {
+              "label": "Change",
+              "note": "Yorick"
+            },
+            {
+              "label": "Change",
+              "note": "Q Missing Health Ratio: 3% - 7% ⇒ 6% - 10%"
+            },
+            {
+              "label": "Change",
+              "note": "R Maiden Health Modifier: 70% ⇒ 100%"
+            },
+            {
+              "label": "Change",
+              "note": "Passive Ability Power Ratio: 35% ⇒ 40%"
+            },
+            {
+              "label": "Change",
+              "note": "Q Ability Power Ratio: 0.6 - 1.5 ⇒ 0.7 - 1.75"
+            },
+            {
+              "label": "Change",
+              "note": "W Magic Damage per Bolt: 15 - 55 ⇒ 20 - 80"
+            },
+            {
+              "label": "Change",
+              "note": "R Cooldown: 11 - 5 ⇒ 8 - 2"
+            },
+            {
+              "label": "Change",
+              "note": "Items"
+            },
+            {
+              "label": "Change",
+              "note": "New: Wildfire Interaction: Now counts Wildfire as a burn"
+            },
+            {
+              "label": "Change",
+              "note": "Phantom Dancer"
+            },
+            {
+              "label": "Change",
+              "note": "Move Speed: 8% - 10% ⇒ 10%"
+            },
+            {
+              "label": "Change",
+              "note": "Attack Speed: 60% ⇒ 65%"
+            },
+            {
+              "label": "Change",
+              "note": "Kraken Slayer"
+            },
+            {
+              "label": "Change",
+              "note": "Attack Speed: 35% ⇒ 40%"
+            },
+            {
+              "label": "Change",
+              "note": "Navori Flickerblade"
+            },
+            {
+              "label": "Change",
+              "note": "Attack Speed: 35% ⇒ 40%"
+            },
+            {
+              "label": "Change",
+              "note": "Rapid Firecannon"
+            },
+            {
+              "label": "Change",
+              "note": "Attack Speed: 30% ⇒ 35%"
+            },
+            {
+              "label": "Change",
+              "note": "Augments"
+            },
+            {
+              "label": "Change",
+              "note": "Divine Intervention"
+            },
+            {
+              "label": "Change",
+              "note": "New: Hexbolt Interaction: Cooldown is now reduced by 2 seconds when you trigger Hexbolt"
+            },
+            {
+              "label": "Change",
+              "note": "New: Capstone Interaction: Max Level capstone now triggers even if you are already invulnerable from Divine Intervention"
+            },
+            {
+              "label": "Change",
+              "note": "New: Quantum Computing Interaction: Now properly works with Quantum Computing, and will multicast with a 0.25 second delay between casts, for a max invulnerability duration of 3.5 seconds"
+            },
+            {
+              "label": "Change",
+              "note": "Jeweled Gauntlet and Vulnerability"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Fixed an issue where having both of these would sometimes prevent a spell from critting"
+            },
+            {
+              "label": "Change",
+              "note": "New: Double Tap Interaction: 5 second per spell cooldown"
+            },
+            {
+              "label": "Change",
+              "note": "New: Critical Rhythm Interaction: 4 second per spell cooldown"
+            },
+            {
+              "label": "Change",
+              "note": "Twin Fire"
+            },
+            {
+              "label": "Change",
+              "note": "Removed: Status: Disabled"
+            },
+            {
+              "label": "Change",
+              "note": "Upgrade: Collector"
+            },
+            {
+              "label": "Change",
+              "note": "Execute Threshold Level 1: 0.75 (16.25%) ⇒ 0.5 (12.5%)"
+            },
+            {
+              "label": "Change",
+              "note": "Execute Threshold Level 2: 1.25 (23.75%) ⇒ 1 (20%)"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-14-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V26.14"
+}

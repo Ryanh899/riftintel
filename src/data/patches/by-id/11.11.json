@@ -1,0 +1,1481 @@
+{
+  "id": "11.11",
+  "version": "11.11",
+  "title": "\"You surrounded yourselves with intelligent machines... foolish.\"",
+  "releaseDate": "2021-05-26",
+  "season": "11",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "\"You surrounded yourselves with intelligent machines... foolish.\""
+    },
+    {
+      "title": "Champion balance",
+      "description": "9 champion buffs, 8 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "\"You surrounded yourselves with intelligent machines... foolish.\" Structured changes across 25 entities this patch.",
+  "champions": [
+    {
+      "id": "azir",
+      "name": "Azir",
+      "type": "champion",
+      "assetKey": "Azir",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Mana cost reduced to 55 from 70.",
+      "gameplayImpact": "Azir is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Conquering Sands",
+          "title": "Conquering Sands",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Mana cost",
+              "before": "70",
+              "after": "55",
+              "note": "Mana cost reduced to 55 from 70."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "elise",
+      "name": "Elise",
+      "type": "champion",
+      "assetKey": "Elise",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Damage AP ratio reduced to 20% AP from 30% AP.",
+      "gameplayImpact": "Elise loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Spider Queen",
+          "title": "Spider Queen",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Damage AP ratio",
+              "before": "30% AP",
+              "after": "20% AP",
+              "note": "Damage AP ratio reduced to 20% AP from 30% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "ezreal",
+      "name": "Ezreal",
+      "type": "champion",
+      "assetKey": "Ezreal",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Health regeneration growth increased to 0.65 from 0.55.; Base armor increased to 24 from 22.",
+      "gameplayImpact": "Ezreal is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Voice lines for opening the shop plays once again."
+            }
+          ]
+        },
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Health regeneration growth",
+              "before": "0",
+              "after": "0.65",
+              "note": "Health regeneration growth increased to 0.65 from 0.55."
+            },
+            {
+              "label": "Base armor",
+              "before": "22",
+              "after": "24",
+              "note": "Base armor increased to 24 from 22."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "graves",
+      "name": "Graves",
+      "type": "champion",
+      "assetKey": "Graves",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Attack damage growth increased to 4 from 3.",
+      "gameplayImpact": "Graves is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Attack damage growth",
+              "before": "3",
+              "after": "4",
+              "note": "Attack damage growth increased to 4 from 3."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "hecarim",
+      "name": "Hecarim",
+      "type": "champion",
+      "assetKey": "Hecarim",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Damage bonus AD ratio increased to 75% bonus AD from 70%|AD.; Minimum bonus AD ratio increased to 55% bonus AD from 50%|AD.",
+      "gameplayImpact": "Hecarim is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Rampage",
+          "title": "Rampage",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Damage bonus AD ratio",
+              "before": "70%|AD",
+              "after": "75% bonus AD",
+              "note": "Damage bonus AD ratio increased to 75% bonus AD from 70%|AD."
+            }
+          ]
+        },
+        {
+          "ability": "Devastating Charge",
+          "title": "Devastating Charge",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Minimum bonus AD ratio",
+              "before": "50%|AD",
+              "after": "55% bonus AD",
+              "note": "Minimum bonus AD ratio increased to 55% bonus AD from 50%|AD."
+            },
+            {
+              "label": "Maximum bonus AD ratio",
+              "before": "100%|AD",
+              "after": "110% bonus AD",
+              "note": "Maximum bonus AD ratio increased to 110% bonus AD from 100%|AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "karma",
+      "name": "Karma",
+      "type": "champion",
+      "assetKey": "Karma",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Updated visual effects.; VFX updated to improve color range and reduce noise.",
+      "gameplayImpact": "Karma was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Updated visual effects."
+            }
+          ]
+        },
+        {
+          "ability": "Inner Flame",
+          "title": "Inner Flame",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "VFX updated to improve color range and reduce noise."
+            }
+          ]
+        },
+        {
+          "ability": "Inspire",
+          "title": "Inspire",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "VFX updated to improve color range and reduce noise."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "lee-sin",
+      "name": "Lee Sin",
+      "type": "champion",
+      "assetKey": "LeeSin",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Cooldown increased to 9 seconds from 8.",
+      "gameplayImpact": "Lee Sin loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Tempest",
+          "title": "Tempest",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "8",
+              "after": "9 seconds",
+              "note": "Cooldown increased to 9 seconds from 8."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "leona",
+      "name": "Leona",
+      "type": "champion",
+      "assetKey": "Leona",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base damage reduced to 45–185 from 60–200.",
+      "gameplayImpact": "Leona loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Eclipse",
+          "title": "Eclipse",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "60–200",
+              "after": "45–185",
+              "note": "Base damage reduced to 45–185 from 60–200."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "master-yi",
+      "name": "Master Yi",
+      "type": "champion",
+      "assetKey": "MasterYi",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "AD ratio reduced to 90% AD from 100% AD.; Base bonus true damage increased to 30–70 from 20–60.",
+      "gameplayImpact": "Master Yi was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Alpha Strike",
+          "title": "Alpha Strike",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "AD ratio",
+              "before": "100% AD",
+              "after": "90% AD",
+              "note": "AD ratio reduced to 90% AD from 100% AD."
+            }
+          ]
+        },
+        {
+          "ability": "Wuju Style",
+          "title": "Wuju Style",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base bonus true damage",
+              "before": "20–60",
+              "after": "30–70",
+              "note": "Base bonus true damage increased to 30–70 from 20–60."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "morgana",
+      "name": "Morgana",
+      "type": "champion",
+      "assetKey": "Morgana",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Damage against monsters reduced to 155% from 185%.",
+      "gameplayImpact": "Morgana loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Tormented Shadow",
+          "title": "Tormented Shadow",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Damage against monsters",
+              "before": "185%",
+              "after": "155%",
+              "note": "Damage against monsters reduced to 155% from 185%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "nautilus",
+      "name": "Nautilus",
+      "type": "champion",
+      "assetKey": "Nautilus",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Damage against monsters increased to 150% from 100%.",
+      "gameplayImpact": "Nautilus is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Riptide",
+          "title": "Riptide",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Damage against monsters",
+              "before": "100%",
+              "after": "150%",
+              "note": "Damage against monsters increased to 150% from 100%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "qiyana",
+      "name": "Qiyana",
+      "type": "champion",
+      "assetKey": "Qiyana",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Bonus movement speed reduced to 3–11% from 5–13%.",
+      "gameplayImpact": "Qiyana loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Terrashape",
+          "title": "Terrashape",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Bonus movement speed",
+              "before": "5–13%",
+              "after": "3–11%",
+              "note": "Bonus movement speed reduced to 3–11% from 5–13%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "rumble",
+      "name": "Rumble",
+      "type": "champion",
+      "assetKey": "Rumble",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Damage cap against monsters reduced to 80 from 120.",
+      "gameplayImpact": "Rumble loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Junkyard Titan",
+          "title": "Junkyard Titan",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Damage cap against monsters",
+              "before": "120",
+              "after": "80",
+              "note": "Damage cap against monsters reduced to 80 from 120."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "ryze",
+      "name": "Ryze",
+      "type": "champion",
+      "assetKey": "Ryze",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Health growth increased to 110 from 98.",
+      "gameplayImpact": "Ryze is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Health growth",
+              "before": "98",
+              "after": "110",
+              "note": "Health growth increased to 110 from 98."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "senna",
+      "name": "Senna",
+      "type": "champion",
+      "assetKey": "Senna",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Bonus attack range per 20 stacks reduced to 20 from 25.; New Effect: Heal now scales with 1.6 per 1 lethality.",
+      "gameplayImpact": "Senna was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Absolution",
+          "title": "Absolution",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Bonus attack range per 20 stacks",
+              "before": "25",
+              "after": "20",
+              "note": "Bonus attack range per 20 stacks reduced to 20 from 25."
+            }
+          ]
+        },
+        {
+          "ability": "Piercing Darkness",
+          "title": "Piercing Darkness",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Heal now scales with 1.6 per 1 lethality."
+            }
+          ]
+        },
+        {
+          "ability": "Curse of the Black Mist",
+          "title": "Curse of the Black Mist",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Bonus movement speed now scales with 5% per 100 AP."
+            }
+          ]
+        },
+        {
+          "ability": "Dawning Shadow",
+          "title": "Dawning Shadow",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Damage AP ratio",
+              "before": "50% AP",
+              "after": "70% AP",
+              "note": "Damage AP ratio increased to 70% AP from 50% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "seraphine",
+      "name": "Seraphine",
+      "type": "champion",
+      "assetKey": "Seraphine",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Self base shield increased to 75–225 from 75–150.; Ally base shield increased to 50–150 from 50–100.",
+      "gameplayImpact": "Seraphine is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Surround Sound",
+          "title": "Surround Sound",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Self base shield",
+              "before": "75–150",
+              "after": "75–225",
+              "note": "Self base shield increased to 75–225 from 75–150."
+            },
+            {
+              "label": "Ally base shield",
+              "before": "50–100",
+              "after": "50–150",
+              "note": "Ally base shield increased to 50–150 from 50–100."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "shaco",
+      "name": "Shaco",
+      "type": "champion",
+      "assetKey": "Shaco",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Multi target AP ratio reduced to 9% AP from 10% AP.; Single target AP ratio reduced to 18% AP from 20% AP.",
+      "gameplayImpact": "Shaco loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Jack in the Box",
+          "title": "Jack in the Box",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Multi target AP ratio",
+              "before": "10% AP",
+              "after": "9% AP",
+              "note": "Multi target AP ratio reduced to 9% AP from 10% AP."
+            },
+            {
+              "label": "Single target AP ratio",
+              "before": "20% AP",
+              "after": "18% AP",
+              "note": "Single target AP ratio reduced to 18% AP from 20% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Two-Shiv Poison",
+          "title": "Two-Shiv Poison",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "55% AP",
+              "after": "50% AP",
+              "note": "AP ratio reduced to 50% AP from 55% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "singed",
+      "name": "Singed",
+      "type": "champion",
+      "assetKey": "Singed",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Cooldown reduced to 10–8 seconds from 10 at all ranks.",
+      "gameplayImpact": "Singed is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Fling",
+          "title": "Fling",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "10 at all ranks",
+              "after": "10–8 seconds",
+              "note": "Cooldown reduced to 10–8 seconds from 10 at all ranks."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "taliyah",
+      "name": "Taliyah",
+      "type": "champion",
+      "assetKey": "Taliyah",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "The voice line from closing the shop has been moved to when the shop is opened.",
+      "gameplayImpact": "Taliyah was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "The voice line from closing the shop has been moved to when the shop is opened."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "teemo",
+      "name": "Teemo",
+      "type": "champion",
+      "assetKey": "Teemo",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Cooldown reduced to 14 seconds from 17.",
+      "gameplayImpact": "Teemo is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Move Quick",
+          "title": "Move Quick",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "17",
+              "after": "14 seconds",
+              "note": "Cooldown reduced to 14 seconds from 17."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "urgot",
+      "name": "Urgot",
+      "type": "champion",
+      "assetKey": "Urgot",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "AD ratio reduced to 20–34% AD from 20–36% AD.",
+      "gameplayImpact": "Urgot loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Purge",
+          "title": "Purge",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "AD ratio",
+              "before": "20–36% AD",
+              "after": "20–34% AD",
+              "note": "AD ratio reduced to 20–34% AD from 20–36% AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "black-cleaver",
+      "name": "Black Cleaver",
+      "type": "item",
+      "assetKey": "3071",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Armor reduction per Carve stack increased to 5% from 4%.; Maximum armor reduction increased to 30% from 24%.",
+      "gameplayImpact": "Black Cleaver is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Armor reduction per Carve stack",
+              "before": "4%",
+              "after": "5%",
+              "note": "Armor reduction per Carve stack increased to 5% from 4%."
+            },
+            {
+              "label": "Maximum armor reduction",
+              "before": "24%",
+              "after": "30%",
+              "note": "Maximum armor reduction increased to 30% from 24%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "bramble-vest",
+      "name": "Bramble Vest",
+      "type": "item",
+      "assetKey": "3076",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Armor reduced to 30 from 35.; Removed: Thorns no longer scales with 10% bonus armor.",
+      "gameplayImpact": "Bramble Vest loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Armor",
+              "before": "35",
+              "after": "30",
+              "note": "Armor reduced to 30 from 35."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: Thorns no longer scales with 10% bonus armor."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "divine-sunderer",
+      "name": "Divine Sunderer",
+      "type": "item",
+      "assetKey": "6632",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Spellblade damage increased to 12% of target's maximum health from 10%|health.; Spellblade healing increased to from .",
+      "gameplayImpact": "Divine Sunderer is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Spellblade damage",
+              "before": "10%|health",
+              "after": "12% of target's maximum health",
+              "note": "Spellblade damage increased to 12% of target's maximum health from 10%|health."
+            },
+            {
+              "label": "Change",
+              "note": "Spellblade healing increased to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Minimum spellblade healing increased to from ."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "frostfire-gauntlet",
+      "name": "Frostfire Gauntlet",
+      "type": "item",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Snowbind cooldown for ranged champions increased to 6 seconds from 4.; Snowbind base slow for ranged champions reduced to 12.5% from 25%.",
+      "gameplayImpact": "Frostfire Gauntlet was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Snowbind cooldown for ranged champions",
+              "before": "4",
+              "after": "6 seconds",
+              "note": "Snowbind cooldown for ranged champions increased to 6 seconds from 4."
+            },
+            {
+              "label": "Snowbind base slow for ranged champions",
+              "before": "25%",
+              "after": "12.5%",
+              "note": "Snowbind base slow for ranged champions reduced to 12.5% from 25%."
+            },
+            {
+              "label": "Snowbind slow health ratio for ranged champions",
+              "before": "4%|health",
+              "after": "2% per 1000 maximum health",
+              "note": "Snowbind slow health ratio for ranged champions reduced to 2% per 1000 maximum health from 4%|health."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "frozen-heart",
+      "name": "Frozen Heart",
+      "type": "item",
+      "assetKey": "323110",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "New Effect: Now has a base basic damage reduction of 7.; Basic damage reduction health ratio reduced to 3.5 per 1000 health from 5|health.",
+      "gameplayImpact": "Frozen Heart was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Now has a base basic damage reduction of 7."
+            },
+            {
+              "label": "Basic damage reduction health ratio",
+              "before": "5|health",
+              "after": "3.5 per 1000 health",
+              "note": "Basic damage reduction health ratio reduced to 3.5 per 1000 health from 5|health."
+            },
+            {
+              "label": "Attack speed slow",
+              "before": "15%",
+              "after": "20%",
+              "note": "Attack speed slow increased to 20% from 15%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "moonstone-renewer",
+      "name": "Moonstone Renewer",
+      "type": "item",
+      "assetKey": "6617",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Heal and shield power per stack increased to 6% from 4%.; Maximum heal and shield power increased to 30% from 20%.",
+      "gameplayImpact": "Moonstone Renewer is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Heal and shield power per stack",
+              "before": "4%",
+              "after": "6%",
+              "note": "Heal and shield power per stack increased to 6% from 4%."
+            },
+            {
+              "label": "Maximum heal and shield power",
+              "before": "20%",
+              "after": "30%",
+              "note": "Maximum heal and shield power increased to 30% from 20%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "randuins-omen",
+      "name": "Randuin's Omen",
+      "type": "item",
+      "assetKey": "3143",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "New Effect: Now has a base basic damage reduction of 5.; Basic damage reduction health ratio reduced to 3.5 per 1000 health from 5|health.",
+      "gameplayImpact": "Randuin's Omen was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Now has a base basic damage reduction of 5."
+            },
+            {
+              "label": "Basic damage reduction health ratio",
+              "before": "5|health",
+              "after": "3.5 per 1000 health",
+              "note": "Basic damage reduction health ratio reduced to 3.5 per 1000 health from 5|health."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "serpents-fang",
+      "name": "Serpent's Fang",
+      "type": "item",
+      "assetKey": "6695",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Shield reduction for ranged champions increased to 35% from 25%.",
+      "gameplayImpact": "Serpent's Fang is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Shield reduction for ranged champions",
+              "before": "25%",
+              "after": "35%",
+              "note": "Shield reduction for ranged champions increased to 35% from 25%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "sheen",
+      "name": "Sheen",
+      "type": "item",
+      "assetKey": "3057",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Tier changed to Basic from Epic.",
+      "gameplayImpact": "Sheen was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Tier",
+              "before": "Epic",
+              "after": "Basic",
+              "note": "Tier changed to Basic from Epic."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "staff-of-flowing-water",
+      "name": "Staff of Flowing Water",
+      "type": "item",
+      "assetKey": "6616",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Rapids ability power increased to 25–45 from 20–40.",
+      "gameplayImpact": "Staff of Flowing Water is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Rapids ability power",
+              "before": "20–40",
+              "after": "25–45",
+              "note": "Rapids ability power increased to 25–45 from 20–40."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "stirring-wardstone",
+      "name": "Stirring Wardstone",
+      "type": "item",
+      "assetKey": "4641",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Removed from the game.",
+      "gameplayImpact": "Stirring Wardstone loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": "Removed",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Removed from the game."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf",
+        "Removed"
+      ]
+    },
+    {
+      "id": "total-biscuit-of-everlasting-will",
+      "name": "Total Biscuit of Everlasting Will",
+      "type": "item",
+      "assetKey": "2010",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Sellback gold reduced to from .",
+      "gameplayImpact": "Total Biscuit of Everlasting Will loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Sellback gold reduced to from ."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "vigilant-wardstone",
+      "name": "Vigilant Wardstone",
+      "type": "item",
+      "assetKey": "4643",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "New:; Cost: , upgrades from Watchful Wardstone}}.",
+      "gameplayImpact": "Vigilant Wardstone was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New:"
+            },
+            {
+              "label": "Change",
+              "note": "Cost: , upgrades from Watchful Wardstone}}."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 15 ability haste, 150 health."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Arcane Cache: This item can store up to 3 purchased Control Ward|Control Wards}}."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Behold: Increase your Stealth Ward and Control Ward}} caps by 1."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Blessing of Ixtal: Increases bonus attack damage, bonus health, ability power and ability haste by 12%."
+            },
+            {
+              "label": "Change",
+              "note": "Limited to 1 Sightstone item."
+            },
+            {
+              "label": "Change",
+              "note": "Old:"
+            },
+            {
+              "label": "Change",
+              "note": "Requires level 13 to purchase. Requires 20 Stealth Ward or Totem Ward placed to purchase. Requires Watchful Wardstone}} to purchase."
+            },
+            {
+              "label": "Change",
+              "note": "Recipe: Watchful Wardstone}} + = ."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 40 ability haste, 10% movement speed."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Arcane Cache: This item can store up to 3 purchased Control Ward|Control Wards}}."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Visions of Ixtal: Increase your Stealth Ward and Control Ward}} caps by 1."
+            },
+            {
+              "label": "Change",
+              "note": "Limited to 1 Sightstone item."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "wardens-mail",
+      "name": "Warden's Mail",
+      "type": "item",
+      "assetKey": "3082",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "New Effect: Now has a base basic damage reduction of 5.; Basic damage reduction health ratio reduced to 3.5 per 1000 health from 5|health.",
+      "gameplayImpact": "Warden's Mail was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Now has a base basic damage reduction of 5."
+            },
+            {
+              "label": "Basic damage reduction health ratio",
+              "before": "5|health",
+              "after": "3.5 per 1000 health",
+              "note": "Basic damage reduction health ratio reduced to 3.5 per 1000 health from 5|health."
+            },
+            {
+              "label": "Change",
+              "note": "Tooltip now shows how much Rock Solid damage has been blocked."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "warmogs-armor",
+      "name": "Warmog's Armor",
+      "type": "item",
+      "assetKey": "443083",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Warmog's Heart health threshold changed to 1100 bonus health from 3000 maximum health.",
+      "gameplayImpact": "Warmog's Armor was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Warmog's Heart health threshold",
+              "before": "3000 maximum health",
+              "after": "1100 bonus health",
+              "note": "Warmog's Heart health threshold changed to 1100 bonus health from 3000 maximum health."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "watchful-wardstone",
+      "name": "Watchful Wardstone",
+      "type": "item",
+      "assetKey": "4638",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "New:; Cost: .",
+      "gameplayImpact": "Watchful Wardstone was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New:"
+            },
+            {
+              "label": "Change",
+              "note": "Cost: ."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 10 ability haste, 150 health."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive: Transforms into Vigilant Wardstone}} after completing a support quest ( generated gold) and reaching level 13."
+            },
+            {
+              "label": "Change",
+              "note": "The transformation is permanent: selling the item and buying it again will automatically transform it to Vigilant Wardstone}}. Having the support item in the inventory is not necessary for the transformation."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Arcane Cache: This item can store up to 3 purchased Control Ward|Control Wards}}."
+            },
+            {
+              "label": "Change",
+              "note": "Limited to 1 Sightstone item."
+            },
+            {
+              "label": "Change",
+              "note": "Old:"
+            },
+            {
+              "label": "Change",
+              "note": "Requires level 13 to purchase. Requires 20 Stealth Ward or Totem Ward placed to purchase."
+            },
+            {
+              "label": "Change",
+              "note": "Cost: , upgrades from Stirring Wardstone}}."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 25 ability haste."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Arcane Cache: This item can store up to 3 purchased Control Ward|Control Wards}}."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Visions of Ixtal: Increase your Stealth Ward and Control Ward}} caps by 1."
+            },
+            {
+              "label": "Change",
+              "note": "Limited to 1 Sightstone item."
+            },
+            {
+              "label": "Change",
+              "note": "Builds Into: Vigilant Wardstone}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "id": "biscuit-delivery",
+      "name": "Biscuit Delivery",
+      "type": "rune",
+      "assetKey": null,
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Biscuit sellback gold reduced to from .",
+      "gameplayImpact": "Biscuit Delivery loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Biscuit sellback gold reduced to from ."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "hail-of-blades",
+      "name": "Hail of Blades",
+      "type": "rune",
+      "assetKey": null,
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Cooldown increased to 12 seconds from 8.",
+      "gameplayImpact": "Hail of Blades loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "8",
+              "after": "12 seconds",
+              "note": "Cooldown increased to 12 seconds from 8."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    }
+  ],
+  "sourceUrl": "https://na.leagueoflegends.com/en-us/news/game-updates/patch-11-11-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V11.11"
+}

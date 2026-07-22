@@ -1,0 +1,679 @@
+{
+  "id": "12.18",
+  "version": "12.18",
+  "title": "The World Championship has gotten a whole lot more spookier.",
+  "releaseDate": "2022-09-21",
+  "season": "12",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "The World Championship has gotten a whole lot more spookier."
+    },
+    {
+      "title": "Champion balance",
+      "description": "4 champion buffs, 7 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "The World Championship has gotten a whole lot more spookier. Structured changes across 13 entities this patch.",
+  "champions": [
+    {
+      "id": "akali",
+      "name": "Akali",
+      "type": "champion",
+      "assetKey": "Akali",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Now applies true sight instead of a standard reveal.",
+      "gameplayImpact": "Akali is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Shuriken Flip",
+          "title": "Shuriken Flip",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Now applies true sight instead of a standard reveal."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "ashe",
+      "name": "Ashe",
+      "type": "champion",
+      "assetKey": "Ashe",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Bonus attack speed increased to 25–55% from 20–40%.",
+      "gameplayImpact": "Ashe is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Ranger's Focus",
+          "title": "Ranger's Focus",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus attack speed",
+              "before": "20–40%",
+              "after": "25–55%",
+              "note": "Bonus attack speed increased to 25–55% from 20–40%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "hecarim",
+      "name": "Hecarim",
+      "type": "champion",
+      "assetKey": "Hecarim",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 3,
+      "tldr": "Base health reduced to 625 from 650.; Damage bonus AD ratio reduced to 90% bonus AD from 95%|AD.",
+      "gameplayImpact": "Hecarim loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base health",
+              "before": "650",
+              "after": "625",
+              "note": "Base health reduced to 625 from 650."
+            }
+          ]
+        },
+        {
+          "ability": "Rampage",
+          "title": "Rampage",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Damage bonus AD ratio",
+              "before": "95%|AD",
+              "after": "90% bonus AD",
+              "note": "Damage bonus AD ratio reduced to 90% bonus AD from 95%|AD."
+            },
+            {
+              "label": "Damage amplification bonus AD ratio per stack",
+              "before": "6%|AD",
+              "after": "5% per 100 bonus AD",
+              "note": "Damage amplification bonus AD ratio per stack reduced to 5% per 100 bonus AD from 6%|AD."
+            },
+            {
+              "label": "Maximum damage amplification bonus AD ratio",
+              "before": "18%|AD",
+              "after": "15% per 100 bonus AD",
+              "note": "Maximum damage amplification bonus AD ratio reduced to 15% per 100 bonus AD from 18%|AD."
+            },
+            {
+              "label": "Winddown time",
+              "before": "1",
+              "after": "0 seconds",
+              "note": "Winddown time reduced to 0 seconds from 1."
+            }
+          ]
+        },
+        {
+          "ability": "Spirit of Dread",
+          "title": "Spirit of Dread",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base heal",
+              "before": "30%",
+              "after": "25%",
+              "note": "Base heal reduced to 25% from 30%"
+            },
+            {
+              "label": "Heal bonus AD ratio",
+              "before": "2",
+              "after": "2% per 100 bonus AD",
+              "note": "Heal bonus AD ratio reduced to 2% per 100 bonus AD from 2.5%|AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "jinx",
+      "name": "Jinx",
+      "type": "champion",
+      "assetKey": "Jinx",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Winddown time reduced to 0 seconds from 1.",
+      "gameplayImpact": "Jinx loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Zap!",
+          "title": "Zap!",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Winddown time",
+              "before": "1",
+              "after": "0 seconds",
+              "note": "Winddown time reduced to 0 seconds from 1."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "kalista",
+      "name": "Kalista",
+      "type": "champion",
+      "assetKey": "Kalista",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base health reduced to 574 to 604.",
+      "gameplayImpact": "Kalista loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Base health reduced to 574 to 604."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "kayn",
+      "name": "Kayn",
+      "type": "champion",
+      "assetKey": "Kayn",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Darkin bonus AD ratio reduced to 3.5% per 100 bonus AD from 5%|AD.",
+      "gameplayImpact": "Kayn loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Reaping Slash",
+          "title": "Reaping Slash",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Darkin bonus AD ratio",
+              "before": "5%|AD",
+              "after": "3.5% per 100 bonus AD",
+              "note": "Darkin bonus AD ratio reduced to 3.5% per 100 bonus AD from 5%|AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "lee-sin",
+      "name": "Lee Sin",
+      "type": "champion",
+      "assetKey": "LeeSin",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Health growth increased to 105 from 99.; Life steal and spell vamp increased to 5–27% from 5–23%.",
+      "gameplayImpact": "Lee Sin is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Health growth",
+              "before": "99",
+              "after": "105",
+              "note": "Health growth increased to 105 from 99."
+            }
+          ]
+        },
+        {
+          "ability": "Iron Will",
+          "title": "Iron Will",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Life steal and spell vamp",
+              "before": "5–23%",
+              "after": "5–27%",
+              "note": "Life steal and spell vamp increased to 5–27% from 5–23%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "lulu",
+      "name": "Lulu",
+      "type": "champion",
+      "assetKey": "Lulu",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Base bonus movement speed reduced to 25% from 30%.; Polymorph duration reduced to 1.2–2 seconds from 1.25–2.25.",
+      "gameplayImpact": "Lulu loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Whimsy",
+          "title": "Whimsy",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base bonus movement speed",
+              "before": "30%",
+              "after": "25%",
+              "note": "Base bonus movement speed reduced to 25% from 30%."
+            },
+            {
+              "label": "Polymorph duration",
+              "before": "1",
+              "after": "1.2–2 seconds",
+              "note": "Polymorph duration reduced to 1.2–2 seconds from 1.25–2.25."
+            },
+            {
+              "label": "Cooldown",
+              "before": "to 17–13",
+              "after": "17–15 seconds",
+              "note": "Cooldown increased to 17–15 seconds from to 17–13."
+            }
+          ]
+        },
+        {
+          "ability": "Help, Pix!",
+          "title": "Help, Pix!",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Caster's location is no longer improperly revealed if Pix is commanded to attack while attached to an ally."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "maokai",
+      "name": "Maokai",
+      "type": "champion",
+      "assetKey": "Maokai",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Heal health ratio reduced to 4.5–12% maximum health from 4.8–14%|health.; Bonus monster damage increased to 80–160 from 40–120.",
+      "gameplayImpact": "Maokai was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Sap Magic",
+          "title": "Sap Magic",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Heal health ratio",
+              "before": "4",
+              "after": "4.5–12% maximum health",
+              "note": "Heal health ratio reduced to 4.5–12% maximum health from 4.8–14%|health."
+            }
+          ]
+        },
+        {
+          "ability": "Bramble Smash",
+          "title": "Bramble Smash",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus monster damage",
+              "before": "40–120",
+              "after": "80–160",
+              "note": "Bonus monster damage increased to 80–160 from 40–120."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: No longer sometimes pulls targets closer to him as opposed to knocking them away."
+            }
+          ]
+        },
+        {
+          "ability": "Sapling Toss",
+          "title": "Sapling Toss",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Damage AP ratio",
+              "before": "42",
+              "after": "40% AP",
+              "note": "Damage AP ratio reduced to 40% AP from 42.5% AP."
+            },
+            {
+              "label": "Empowered damage AP ratio",
+              "before": "85% AP",
+              "after": "80% AP",
+              "note": "Empowered damage AP ratio reduced to 80% AP from 85% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Nature's Grasp",
+          "title": "Nature's Grasp",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Width of primary missiles reverted to 240 from 170."
+            },
+            {
+              "label": "Change",
+              "note": "Width of secondary missiles is still reduced."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "miss-fortune",
+      "name": "Miss Fortune",
+      "type": "champion",
+      "assetKey": "MissFortune",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Attack damage growth reduced to 2.4 from 2.7.; Health growth reduced to 103 to 107.",
+      "gameplayImpact": "Miss Fortune loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Attack damage growth",
+              "before": "2",
+              "after": "2.4",
+              "note": "Attack damage growth reduced to 2.4 from 2.7."
+            },
+            {
+              "label": "Change",
+              "note": "Health growth reduced to 103 to 107."
+            }
+          ]
+        },
+        {
+          "ability": "Double Up",
+          "title": "Double Up",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Winddown time",
+              "before": "1",
+              "after": "0 seconds",
+              "note": "Winddown time reduced to 0 seconds from 1."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "nocturne",
+      "name": "Nocturne",
+      "type": "champion",
+      "assetKey": "Nocturne",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Attack damage growth reduced to 2.6 from 3.1.",
+      "gameplayImpact": "Nocturne loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Attack damage growth",
+              "before": "3",
+              "after": "2.6",
+              "note": "Attack damage growth reduced to 2.6 from 3.1."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "thresh",
+      "name": "Thresh",
+      "type": "champion",
+      "assetKey": "Thresh",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Health growth increased to 120 from 115.; Active base damage increased to 75–215 from 65–185.",
+      "gameplayImpact": "Thresh is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Health growth",
+              "before": "115",
+              "after": "120",
+              "note": "Health growth increased to 120 from 115."
+            }
+          ]
+        },
+        {
+          "ability": "Flay",
+          "title": "Flay",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Active base damage",
+              "before": "65–185",
+              "after": "75–215",
+              "note": "Active base damage increased to 75–215 from 65–185."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "udyr",
+      "name": "Udyr",
+      "type": "champion",
+      "assetKey": "Udyr",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Armor growth reduced to 4.7 from 5.2; Health growth reduced to 98 from 106.",
+      "gameplayImpact": "Udyr was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Armor growth",
+              "before": "5",
+              "after": "4.7",
+              "note": "Armor growth reduced to 4.7 from 5.2"
+            },
+            {
+              "label": "Health growth",
+              "before": "106",
+              "after": "98",
+              "note": "Health growth reduced to 98 from 106."
+            }
+          ]
+        },
+        {
+          "ability": "Wilding Claw",
+          "title": "Wilding Claw",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Mana cost",
+              "before": "45–28",
+              "after": "20 at all levels",
+              "note": "Mana cost reduced to 20 at all levels from 45–28."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Next two empowered attacks now always gain 50 bonus range, rather than only during the Awakened cast."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Next two empowered attacks during an Awakened cast now deal an additional 2–5% bonus physical damage."
+            },
+            {
+              "label": "Awaken AP ratio",
+              "before": "0",
+              "after": "0.8% per 100% AP",
+              "note": "Awaken AP ratio increased to 0.8% per 100% AP from 0.6% per 100% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Iron Mantle",
+          "title": "Iron Mantle",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "On-hit base heal",
+              "before": "1",
+              "after": "1.2% maximum health at all ranks",
+              "note": "On-hit base heal reduced to 1.2% maximum health at all ranks from 1.2–1.5 (6 ranks)%|health."
+            },
+            {
+              "label": "Awakened on-hit base heal",
+              "before": "2",
+              "after": "2.4% maximum health",
+              "note": "Awakened on-hit base heal reduced to 2.4% maximum health from 2.4–3 (6 ranks)%|health"
+            },
+            {
+              "label": "Shield health ratio",
+              "before": "2–4 (6 ranks)%|health",
+              "after": "2–3.5 (6 ranks)% maximum health",
+              "note": "Shield health ratio reduced to 2–3.5 (6 ranks)% maximum health from 2–4 (6 ranks)%|health."
+            },
+            {
+              "label": "Life steal",
+              "before": "15% at all ranks",
+              "after": "15–20 (6 ranks)%",
+              "note": "Life steal increased to 15–20 (6 ranks)% from 15% at all ranks."
+            }
+          ]
+        },
+        {
+          "ability": "Wingborne Storm",
+          "title": "Wingborne Storm",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base damage per tick",
+              "before": "10–55 (6 ranks)",
+              "after": "10–50 (6 ranks)",
+              "note": "Base damage per tick reduced to 10–50 (6 ranks) from 10–55 (6 ranks)."
+            },
+            {
+              "label": "Maximum base damage",
+              "before": "80–440 (6 ranks)",
+              "after": "80–400 (6 ranks)",
+              "note": "Maximum base damage reduced to 80–400 (6 ranks) from 80–440 (6 ranks)."
+            },
+            {
+              "label": "AP ratio per tick",
+              "before": "20% AP",
+              "after": "17.5% AP",
+              "note": "AP ratio per tick reduced to 17.5% AP from 20% AP."
+            },
+            {
+              "label": "Maximum AP ratio",
+              "before": "160% AP",
+              "after": "140% AP",
+              "note": "Maximum AP ratio reduced to 140% AP from 160% AP."
+            },
+            {
+              "label": "Damage against minions",
+              "before": "50–80% (lv 1–16)",
+              "after": "40–85% (lv 1–16)",
+              "note": "Damage against minions changed to 40–85% (lv 1–16) from 50–80% (lv 1–16)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    }
+  ],
+  "items": [],
+  "systems": [],
+  "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-12-18-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V12.18"
+}

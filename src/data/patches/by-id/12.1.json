@@ -1,0 +1,586 @@
+{
+  "id": "12.1",
+  "version": "12.1",
+  "title": "Don't go into the woods during the new season!",
+  "releaseDate": "2022-01-05",
+  "season": "12",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "Don't go into the woods during the new season!"
+    },
+    {
+      "title": "Champion balance",
+      "description": "3 champion buffs, 2 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "Don't go into the woods during the new season! Structured changes across 17 entities this patch.",
+  "champions": [
+    {
+      "id": "akshan",
+      "name": "Akshan",
+      "type": "champion",
+      "assetKey": "Akshan",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Now lasts indefinitely while affected by Chemtech Fog.; Tooltip now states that the bonuses while moving towards Scoundrels is only granted during Going Rogue.",
+      "gameplayImpact": "Akshan is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Going Rogue",
+          "title": "Going Rogue",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Now lasts indefinitely while affected by Chemtech Fog."
+            },
+            {
+              "label": "Change",
+              "note": "Tooltip now states that the bonuses while moving towards Scoundrels is only granted during Going Rogue."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "diana",
+      "name": "Diana",
+      "type": "champion",
+      "assetKey": "Diana",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Cleave AP ratio increased to 50% AP from 40% AP.; Damage against monsters increased to 300% from 250%.",
+      "gameplayImpact": "Diana is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Moonsilver Blade",
+          "title": "Moonsilver Blade",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cleave AP ratio",
+              "before": "40% AP",
+              "after": "50% AP",
+              "note": "Cleave AP ratio increased to 50% AP from 40% AP."
+            },
+            {
+              "label": "Damage against monsters",
+              "before": "250%",
+              "after": "300%",
+              "note": "Damage against monsters increased to 300% from 250%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "gangplank",
+      "name": "Gangplank",
+      "type": "champion",
+      "assetKey": "Gangplank",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Cooldown reduced to 4.5 seconds from 5.; Mana cost reduced to 55–35 from 60–40.",
+      "gameplayImpact": "Gangplank is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Parrrley",
+          "title": "Parrrley",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "5",
+              "after": "4.5 seconds",
+              "note": "Cooldown reduced to 4.5 seconds from 5."
+            },
+            {
+              "label": "Mana cost",
+              "before": "60–40",
+              "after": "55–35",
+              "note": "Mana cost reduced to 55–35 from 60–40."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "nasus",
+      "name": "Nasus",
+      "type": "champion",
+      "assetKey": "Nasus",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Tooltip now includes bonus damage gained by stacks.",
+      "gameplayImpact": "Nasus was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Siphoning Strike",
+          "title": "Siphoning Strike",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Tooltip now includes bonus damage gained by stacks."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "reksai",
+      "name": "Rek'Sai",
+      "type": "champion",
+      "assetKey": "RekSai",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base damage changed to 55–75 from 50–90.; Cooldown increased to 26–18 seconds from 26–14.",
+      "gameplayImpact": "Rek'Sai loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Furious Bite",
+          "title": "Furious Bite",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "50–90",
+              "after": "55–75",
+              "note": "Base damage changed to 55–75 from 50–90."
+            }
+          ]
+        },
+        {
+          "ability": "Tunnel",
+          "title": "Tunnel",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "26–14",
+              "after": "26–18 seconds",
+              "note": "Cooldown increased to 26–18 seconds from 26–14."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "sona",
+      "name": "Sona",
+      "type": "champion",
+      "assetKey": "Sona",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Armor growth reduced to 3 from 3.3.; Cooldown increased to 14 seconds from 12.",
+      "gameplayImpact": "Sona loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Armor growth",
+              "before": "3",
+              "after": "3",
+              "note": "Armor growth reduced to 3 from 3.3."
+            }
+          ]
+        },
+        {
+          "ability": "Song of Celerity",
+          "title": "Song of Celerity",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "12",
+              "after": "14 seconds",
+              "note": "Cooldown increased to 14 seconds from 12."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "vi",
+      "name": "Vi",
+      "type": "champion",
+      "assetKey": "Vi",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Tooltip now clarifies the effect will trigger from abilities hitting structures.",
+      "gameplayImpact": "Vi was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Blast Shield",
+          "title": "Blast Shield",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Tooltip now clarifies the effect will trigger from abilities hitting structures."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "eclipse",
+      "name": "Eclipse",
+      "type": "item",
+      "assetKey": "6692",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Ever Rising Moon cooldown for melee champions increased to 8 seconds from 6.",
+      "gameplayImpact": "Eclipse is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Ever Rising Moon cooldown for melee champions",
+              "before": "6",
+              "after": "8 seconds",
+              "note": "Ever Rising Moon cooldown for melee champions increased to 8 seconds from 6."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "force-of-nature",
+      "name": "Force of Nature",
+      "type": "item",
+      "assetKey": "4401",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Absorb stack duration increased to 7 seconds from 5.; Dissipate damage reduction increased to 25% from 20%.",
+      "gameplayImpact": "Force of Nature is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Absorb stack duration",
+              "before": "5",
+              "after": "7 seconds",
+              "note": "Absorb stack duration increased to 7 seconds from 5."
+            },
+            {
+              "label": "Dissipate damage reduction",
+              "before": "20%",
+              "after": "25%",
+              "note": "Dissipate damage reduction increased to 25% from 20%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "immortal-shieldbow",
+      "name": "Immortal Shieldbow",
+      "type": "item",
+      "assetKey": "6673",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Attack damage reduced to 50 from 55.; Lifeline shield reduced to 275–650 from 300–800.",
+      "gameplayImpact": "Immortal Shieldbow loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Attack damage",
+              "before": "55",
+              "after": "50",
+              "note": "Attack damage reduced to 50 from 55."
+            },
+            {
+              "label": "Lifeline shield",
+              "before": "300–800",
+              "after": "275–650",
+              "note": "Lifeline shield reduced to 275–650 from 300–800."
+            },
+            {
+              "label": "Bloodward}} attack damage",
+              "before": "70",
+              "after": "65",
+              "note": "Bloodward}} attack damage reduced to 65 from 70."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "long-sword",
+      "name": "Long Sword",
+      "type": "item",
+      "assetKey": "1036",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "No longer builds into Wit's End}}.",
+      "gameplayImpact": "Long Sword loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "No longer builds into Wit's End}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "negatron-cloak",
+      "name": "Negatron Cloak",
+      "type": "item",
+      "assetKey": "221057",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "No longer builds into Wit's End}}.",
+      "gameplayImpact": "Negatron Cloak loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "No longer builds into Wit's End}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "null-magic-mantle",
+      "name": "Null-Magic Mantle",
+      "type": "item",
+      "assetKey": "1033",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Now builds into Wit's End}}.",
+      "gameplayImpact": "Null-Magic Mantle was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Now builds into Wit's End}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "pickaxe",
+      "name": "Pickaxe",
+      "type": "item",
+      "assetKey": "1037",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Now builds into Wit's End}}.",
+      "gameplayImpact": "Pickaxe was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Now builds into Wit's End}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "vigilant-wardstone",
+      "name": "Vigilant Wardstone",
+      "type": "item",
+      "assetKey": "4643",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Tooltip now includes the number of wards currently placed.",
+      "gameplayImpact": "Vigilant Wardstone is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Tooltip now includes the number of wards currently placed."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "watchful-wardstone",
+      "name": "Watchful Wardstone",
+      "type": "item",
+      "assetKey": "4638",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Tooltip now includes the number of wards currently placed.",
+      "gameplayImpact": "Watchful Wardstone is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Tooltip now includes the number of wards currently placed."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "wits-end",
+      "name": "Wit's End",
+      "type": "item",
+      "assetKey": "3091",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "New Recipe: Hearthbound Axe}} + Null-Magic Mantle}} + Pickaxe}} + = .; Old Recipe: Hearthbound Axe}} + Negatron Cloak}} + Long Sword}} + = .",
+      "gameplayImpact": "Wit's End loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Recipe: Hearthbound Axe}} + Null-Magic Mantle}} + Pickaxe}} + = ."
+            },
+            {
+              "label": "Change",
+              "note": "Old Recipe: Hearthbound Axe}} + Negatron Cloak}} + Long Sword}} + = ."
+            },
+            {
+              "label": "Magic resistance",
+              "before": "50",
+              "after": "40",
+              "note": "Magic resistance reduced to 40 from 50."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    }
+  ],
+  "systems": [],
+  "sourceUrl": "https://na.leagueoflegends.com/en-us/news/game-updates/patch-12-1-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V12.1"
+}

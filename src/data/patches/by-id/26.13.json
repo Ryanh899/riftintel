@@ -1,0 +1,1459 @@
+{
+  "id": "26.13",
+  "version": "26.13",
+  "title": "Patch 26.13",
+  "releaseDate": "2026-06-24",
+  "season": "26",
+  "themes": [
+    {
+      "title": "Champion balance",
+      "description": "9 champion buffs, 5 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "Structured changes across 21 entities this patch.",
+  "champions": [
+    {
+      "id": "aphelios",
+      "name": "Aphelios",
+      "type": "champion",
+      "assetKey": "Aphelios",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Bonus AD ratio increased to 15% bonus AD from 10%|AD.; AD ratio increased to 20–41% (lv 1–13) AD from 19–40% (lv 1–13) AD.",
+      "gameplayImpact": "Aphelios is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Calibrum",
+          "title": "Calibrum",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus AD ratio",
+              "before": "10%|AD",
+              "after": "15% bonus AD",
+              "note": "Bonus AD ratio increased to 15% bonus AD from 10%|AD."
+            }
+          ]
+        },
+        {
+          "ability": "Onslaught",
+          "title": "Onslaught",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AD ratio",
+              "before": "19–40% (lv 1–13) AD",
+              "after": "20–41% (lv 1–13) AD",
+              "note": "AD ratio increased to 20–41% (lv 1–13) AD from 19–40% (lv 1–13) AD."
+            }
+          ]
+        },
+        {
+          "ability": "Duskwave",
+          "title": "Duskwave",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus AD ratio",
+              "before": "10–16% (lv 1–13)|AD",
+              "after": "15–21% (lv 1–13) bonus AD",
+              "note": "Bonus AD ratio increased to 15–21% (lv 1–13) bonus AD from 10–16% (lv 1–13)|AD."
+            }
+          ]
+        },
+        {
+          "ability": "Sentry",
+          "title": "Sentry",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus AD ratio",
+              "before": "30–48% (lv 1–13)|AD",
+              "after": "34–52% (lv 1–13) bonus AD",
+              "note": "Bonus AD ratio increased to 34–52% (lv 1–13) bonus AD from 30–48% (lv 1–13)|AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "bard",
+      "name": "Bard",
+      "type": "champion",
+      "assetKey": "Bard",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base Meep damage reduced to 30 from 35.; Meep damage per 5 Chimes reduced to 6 from 10.",
+      "gameplayImpact": "Bard loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Traveler's Call",
+          "title": "Traveler's Call",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base Meep damage",
+              "before": "35",
+              "after": "30",
+              "note": "Base Meep damage reduced to 30 from 35."
+            },
+            {
+              "label": "Meep damage per 5 Chimes",
+              "before": "10",
+              "after": "6",
+              "note": "Meep damage per 5 Chimes reduced to 6 from 10."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "brand",
+      "name": "Brand",
+      "type": "champion",
+      "assetKey": "Brand",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Base mana regeneration increased to 11 from 9.; Base detonation damage reduced to 6–12% of target's maximum health from 8–12% (lv 1–17)|health.",
+      "gameplayImpact": "Brand was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base mana regeneration",
+              "before": "9",
+              "after": "11",
+              "note": "Base mana regeneration increased to 11 from 9."
+            }
+          ]
+        },
+        {
+          "ability": "Blaze",
+          "title": "Blaze",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base detonation damage",
+              "before": "8–12% (lv 1–17)|health",
+              "after": "6–12% of target's maximum health",
+              "note": "Base detonation damage reduced to 6–12% of target's maximum health from 8–12% (lv 1–17)|health."
+            }
+          ]
+        },
+        {
+          "ability": "Conflagration",
+          "title": "Conflagration",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Mana cost",
+              "before": "70–90",
+              "after": "90 at all ranks",
+              "note": "Mana cost increased to 90 at all ranks from 70–90."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "cassiopeia",
+      "name": "Cassiopeia",
+      "type": "champion",
+      "assetKey": "Cassiopeia",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Health growth reduced to 98 from 104.",
+      "gameplayImpact": "Cassiopeia loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Health growth",
+              "before": "104",
+              "after": "98",
+              "note": "Health growth reduced to 98 from 104."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "draven",
+      "name": "Draven",
+      "type": "champion",
+      "assetKey": "Draven",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Cooldown reduced to 16–12 seconds from 18–14.; Damage modifier changed to 100–50% from 100–40%.",
+      "gameplayImpact": "Draven is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Stand Aside",
+          "title": "Stand Aside",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "18–14",
+              "after": "16–12 seconds",
+              "note": "Cooldown reduced to 16–12 seconds from 18–14."
+            }
+          ]
+        },
+        {
+          "ability": "Whirling Death",
+          "title": "Whirling Death",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Damage modifier",
+              "before": "100–40%",
+              "after": "100–50%",
+              "note": "Damage modifier changed to 100–50% from 100–40%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "kaisa",
+      "name": "Kai'Sa",
+      "type": "champion",
+      "assetKey": "Kaisa",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Cooldown reduced to 20–14 seconds from 22–14.; Base shield increased to 100–200 (3 ranks) from 70–110 (3 ranks).",
+      "gameplayImpact": "Kai'Sa is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Void Seeker",
+          "title": "Void Seeker",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "22–14",
+              "after": "20–14 seconds",
+              "note": "Cooldown reduced to 20–14 seconds from 22–14."
+            }
+          ]
+        },
+        {
+          "ability": "Killer Instinct",
+          "title": "Killer Instinct",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base shield",
+              "before": "70–110 (3 ranks)",
+              "after": "100–200 (3 ranks)",
+              "note": "Base shield increased to 100–200 (3 ranks) from 70–110 (3 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "ksante",
+      "name": "K'Sante",
+      "type": "champion",
+      "assetKey": "KSante",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base shield reduced to 70–240 from 80–240.; Bonus health ratio reduced to 13.5% bonus health from 15%|health.",
+      "gameplayImpact": "K'Sante loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Footwork",
+          "title": "Footwork",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base shield",
+              "before": "80–240",
+              "after": "70–240",
+              "note": "Base shield reduced to 70–240 from 80–240."
+            },
+            {
+              "label": "Bonus health ratio",
+              "before": "15%|health",
+              "after": "13.5% bonus health",
+              "note": "Bonus health ratio reduced to 13.5% bonus health from 15%|health."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "leblanc",
+      "name": "LeBlanc",
+      "type": "champion",
+      "assetKey": "Leblanc",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Base damage increased to 70–230 (3 ranks) from 70–210 (3 ranks).; Mark base damage increased to 140–460 (3 ranks) from 140–420 (3 ranks).",
+      "gameplayImpact": "LeBlanc is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Mimic: Sigil of Malice",
+          "title": "Mimic: Sigil of Malice",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "70–210 (3 ranks)",
+              "after": "70–230 (3 ranks)",
+              "note": "Base damage increased to 70–230 (3 ranks) from 70–210 (3 ranks)."
+            },
+            {
+              "label": "Mark base damage",
+              "before": "140–420 (3 ranks)",
+              "after": "140–460 (3 ranks)",
+              "note": "Mark base damage increased to 140–460 (3 ranks) from 140–420 (3 ranks)."
+            }
+          ]
+        },
+        {
+          "ability": "Mimic: Distortion",
+          "title": "Mimic: Distortion",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "150–450 (3 ranks)",
+              "after": "150–480 (3 ranks)",
+              "note": "Base damage increased to 150–480 (3 ranks) from 150–450 (3 ranks)."
+            }
+          ]
+        },
+        {
+          "ability": "Mimic: Ethereal Chains",
+          "title": "Mimic: Ethereal Chains",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "70–210 (3 ranks)",
+              "after": "70–230 (3 ranks)",
+              "note": "Base damage increased to 70–230 (3 ranks) from 70–210 (3 ranks)."
+            },
+            {
+              "label": "Fracture base damage",
+              "before": "140–420 (3 ranks)",
+              "after": "140–460 (3 ranks)",
+              "note": "Fracture base damage increased to 140–460 (3 ranks) from 140–420 (3 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "locke",
+      "name": "Locke",
+      "type": "champion",
+      "assetKey": "Locke",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Innate: Locke's basic attacks deal 5–40 (+ 10% AP) bonus magic damage on-hit, increased by 0–100% (over 0–70), up to 10–80 (+ 20% AP).; Active: Locke hurls a nail in the target direction that deals 50–90 (+ 20% AP) ma…",
+      "gameplayImpact": "Locke was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": "New Champion",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Innate: Locke's basic attacks deal 5–40 (+ 10% AP) bonus magic damage on-hit, increased by 0–100% (over 0–70), up to 10–80 (+ 20% AP)."
+            },
+            {
+              "label": "Change",
+              "note": "Active: Locke hurls a nail in the target direction that deals 50–90 (+ 20% AP) magic damage to enemies hit, slows them by 25% for 1 second, and applies a stack of Soul Nails for 4 seconds, refreshing on subsequent applications and stacking up to 3 times. Against targets with at least 2 Soul Nails stacks, the slow is increased to 60% and lasts for 2 seconds. Ritual Nails can be recast twice more within 5 seconds of the activation at no additional cost, with a 0.5-second between casts."
+            },
+            {
+              "label": "Change",
+              "note": "Recast: Locke mimics the first cast's effects. For each recast not used when Ritual Nails ends, 20–35% of the ability's cooldown and mana cost is refunded, up to a 40–70% refund for two remaining recasts."
+            },
+            {
+              "label": "Change",
+              "note": "Locke's next damaging basic attack or Ashen Pursuit}} against an enemy with Soul Nails stacks consumes them all to deal 20–60 (+ 25–35% AP) bonus magic damage for each stack. This damage is increased by 20% and 40% for two and three Soul Nails stacks respectively."
+            },
+            {
+              "label": "Change",
+              "note": "Cost: 70 mana."
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: 10–6 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Cast Time: 0.25 seconds, Target Range: 950, Width: 100."
+            },
+            {
+              "label": "Change",
+              "note": "Active: Locke ignites his soul for 6 seconds, gaining 40–70% bonus attack speed and 40–60% (+ 2% per 100 AP) bonus movement speed for the duration, with the latter decaying to 20%|ms over 1 second after 1.5 seconds have elapsed. While active, Locke also stores 40–200 (+ 120% AP) of grey health on his health bar equal to 100% of the he takes from enemy champions, up to a cap, plus the total amount of health lost from Soul Ignition's health resource. This is increased by up to 40–200 (+ 20% AP) based on his missing health and Soul Ignition's elapsed duration."
+            },
+            {
+              "label": "Change",
+              "note": "After 0.5 seconds, Soul Ignition can be recast within the duration, and does so automatically afterwards."
+            },
+            {
+              "label": "Change",
+              "note": "Recast: Locke ends Soul Ignition and consumes his current grey health to heal for the same amount."
+            },
+            {
+              "label": "Change",
+              "note": "Soul Ignition's recast can be used while affected by cast-inhibiting crowd control."
+            },
+            {
+              "label": "Change",
+              "note": "Initial Cost: 50–70 mana."
+            },
+            {
+              "label": "Change",
+              "note": "Cost: 0.5% current health per 0.25 seconds for 6 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: 18–14 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Cast Time: None."
+            },
+            {
+              "label": "Change",
+              "note": "Active: Locke blinks to the target location, dealing 40–80 (+ 40% AP) magic damage to all nearby enemies upon arrival."
+            },
+            {
+              "label": "Change",
+              "note": "For the next 4 seconds, Locke gains range|275 bonus range and can declare an basic attack attack command (default: MB2 / right-click) against an enemy unit. After 0.1 seconds or if the declared attack target is within his attack range, Locke ends Ashen Pursuit and dash in the target's direction, dealing 40–120 (+ 40% AP) magic damage to enemies he passes through as well as those around him, and applying on-hit effects to the primary target if they were hit."
+            },
+            {
+              "label": "Change",
+              "note": "Scoring a takedown against an enemy champion resets Ashen Pursuit's cooldown."
+            },
+            {
+              "label": "Change",
+              "note": "Locke loses the bonus attack range and cannot perform the dash while he is immobilize ( berserk and taunt) or ground."
+            },
+            {
+              "label": "Change",
+              "note": "Cost: 30 mana."
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: 10 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Cast Time: 0.5 seconds, Target Range: , Queue Threshold: 0.175 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Active: Locke throws a totem artifact that travels to the target location over 0.5 seconds. After a 0.25-second delay of its landing, the totem rises into the air and fires latching nails onto all enemies around it, dealing them 150–300 (3 ranks) (+ 60% AP) magic damage, slow them by 99% decaying over 2 seconds, and marking enemy champions hit for 5 seconds. Marked enemies are execute below 10–12 (3 ranks)%|hp (+ 0.5% per Sealed Champion stack)|buzzword of their maximum health. Successful executions refresh the duration of the mark on all affected targets."
+            },
+            {
+              "label": "Change",
+              "note": "At the end of the mark's duration, if at least one champion was executed, the totem seals away the souls of all executed champions and drops itself onto the ground, both over 2.25 seconds. It then remains on the ground for a duration equal to Purgatory's remaining cooldown, but for no less than 10 seconds. Locke can retrieve it by moving near it. Upon retrieving the totem, Purgatory's current cooldown is reduced by 20% for each champion sealed, and Locke gains a Sealed Champion|buzzword stack per champion."
+            },
+            {
+              "label": "Change",
+              "note": "Cost: 100 mana."
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: 120–80 (3 ranks) seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Cast Time: 0.5 seconds, Target Range: 950, Effect Radius: 400, Queue Threshold: 0.5 seconds."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust",
+        "New Champion"
+      ]
+    },
+    {
+      "id": "olaf",
+      "name": "Olaf",
+      "type": "champion",
+      "assetKey": "Olaf",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Bonus monster damage increased to 20–120 from 20–80.",
+      "gameplayImpact": "Olaf is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Undertow",
+          "title": "Undertow",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus monster damage",
+              "before": "20–80",
+              "after": "20–120",
+              "note": "Bonus monster damage increased to 20–120 from 20–80."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "poppy",
+      "name": "Poppy",
+      "type": "champion",
+      "assetKey": "Poppy",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Monster damage cap increased to 75–195 from 50–170.",
+      "gameplayImpact": "Poppy is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Hammer Shock",
+          "title": "Hammer Shock",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Monster damage cap",
+              "before": "50–170",
+              "after": "75–195",
+              "note": "Monster damage cap increased to 75–195 from 50–170."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "qiyana",
+      "name": "Qiyana",
+      "type": "champion",
+      "assetKey": "Qiyana",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Monster damage increased to 175% from 155%.",
+      "gameplayImpact": "Qiyana is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Edge of Ixtal",
+          "title": "Edge of Ixtal",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Monster damage",
+              "before": "155%",
+              "after": "175%",
+              "note": "Monster damage increased to 175% from 155%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "reksai",
+      "name": "Rek'Sai",
+      "type": "champion",
+      "assetKey": "RekSai",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Base damage reduced to 70–170 from 80–192.; Bonus AD ratio reduced to 60% bonus AD from 64%|AD.",
+      "gameplayImpact": "Rek'Sai loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Furious Bite",
+          "title": "Furious Bite",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "80–192",
+              "after": "70–170",
+              "note": "Base damage reduced to 70–170 from 80–192."
+            },
+            {
+              "label": "Bonus AD ratio",
+              "before": "64%|AD",
+              "after": "60% bonus AD",
+              "note": "Bonus AD ratio reduced to 60% bonus AD from 64%|AD."
+            },
+            {
+              "label": "Maximum Fury damage modifier",
+              "before": "125%",
+              "after": "120%",
+              "note": "Maximum Fury damage modifier reduced to 120% from 125%."
+            },
+            {
+              "label": "Increased base damage",
+              "before": "100–240",
+              "after": "84–204",
+              "note": "Increased base damage reduced to 84–204 from 100–240."
+            },
+            {
+              "label": "Increased bonus AD ratio",
+              "before": "80%|AD",
+              "after": "72% bonus AD",
+              "note": "Increased bonus AD ratio reduced to 72% bonus AD from 80%|AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "rumble",
+      "name": "Rumble",
+      "type": "champion",
+      "assetKey": "Rumble",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Base damage per tick reduced to 50/12 to 150/12 from 60/12 to 160/12.; AP ratio per tick increased to 105/12% AP from 100/12% AP.",
+      "gameplayImpact": "Rumble was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Flamespitter",
+          "title": "Flamespitter",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base damage per tick",
+              "before": "60/12 to 160/12",
+              "after": "50/12 to 150/12",
+              "note": "Base damage per tick reduced to 50/12 to 150/12 from 60/12 to 160/12."
+            },
+            {
+              "label": "AP ratio per tick",
+              "before": "100/12% AP",
+              "after": "105/12% AP",
+              "note": "AP ratio per tick increased to 105/12% AP from 100/12% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "senna",
+      "name": "Senna",
+      "type": "champion",
+      "assetKey": "Senna",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Critical damage modifier reduced to 85% from 90%.; Minions and lessers monsters Senna kill Mist Wraith drop chance reduced to 5% from 10%.",
+      "gameplayImpact": "Senna was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Critical damage modifier",
+              "before": "90%",
+              "after": "85%",
+              "note": "Critical damage modifier reduced to 85% from 90%."
+            }
+          ]
+        },
+        {
+          "ability": "Absolution",
+          "title": "Absolution",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Minions and lessers monsters Senna kill Mist Wraith drop chance",
+              "before": "10%",
+              "after": "5%",
+              "note": "Minions and lessers monsters Senna kill Mist Wraith drop chance reduced to 5% from 10%."
+            },
+            {
+              "label": "Lesser minions and lesser monsters killed by allied Mist Wraith drop chance",
+              "before": "28%",
+              "after": "32%",
+              "note": "Lesser minions and lesser monsters killed by allied Mist Wraith drop chance increased to 32% from 28%."
+            }
+          ]
+        },
+        {
+          "ability": "Piercing Darkness",
+          "title": "Piercing Darkness",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Cooldown refund",
+              "before": "on-hit",
+              "after": "on-attack",
+              "note": "Cooldown refund changed to on-attack from on-hit."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "sion",
+      "name": "Sion",
+      "type": "champion",
+      "assetKey": "Sion",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Minimum base damage reduced to 30–90 from 40–120.; Mana cost increased to 75–95 from 65–85.",
+      "gameplayImpact": "Sion loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Decimating Smash",
+          "title": "Decimating Smash",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Minimum base damage",
+              "before": "40–120",
+              "after": "30–90",
+              "note": "Minimum base damage reduced to 30–90 from 40–120."
+            }
+          ]
+        },
+        {
+          "ability": "Soul Furnace",
+          "title": "Soul Furnace",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Mana cost",
+              "before": "65–85",
+              "after": "75–95",
+              "note": "Mana cost increased to 75–95 from 65–85."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "vex",
+      "name": "Vex",
+      "type": "champion",
+      "assetKey": "Vex",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Cooldown reduced to 12 seconds from 13.; Reset time window increased to 8 seconds from 6.",
+      "gameplayImpact": "Vex is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Looming Darkness",
+          "title": "Looming Darkness",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "13",
+              "after": "12 seconds",
+              "note": "Cooldown reduced to 12 seconds from 13."
+            }
+          ]
+        },
+        {
+          "ability": "Shadow Surge",
+          "title": "Shadow Surge",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Reset time window",
+              "before": "6",
+              "after": "8 seconds",
+              "note": "Reset time window increased to 8 seconds from 6."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "zaahen",
+      "name": "Zaahen",
+      "type": "champion",
+      "assetKey": "Zaahen",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Cooldown reduced to 14–12 seconds from 16–12.",
+      "gameplayImpact": "Zaahen is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Dreaded Return",
+          "title": "Dreaded Return",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "16–12",
+              "after": "14–12 seconds",
+              "note": "Cooldown reduced to 14–12 seconds from 16–12."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "dorans-helm",
+      "name": "Doran's Helm",
+      "type": "item",
+      "assetKey": "1120",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Armor reduced to 8 from 10.; Magic resistance reduced to 8 from 10.",
+      "gameplayImpact": "Doran's Helm was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Armor",
+              "before": "10",
+              "after": "8",
+              "note": "Armor reduced to 8 from 10."
+            },
+            {
+              "label": "Magic resistance",
+              "before": "10",
+              "after": "8",
+              "note": "Magic resistance reduced to 8 from 10."
+            },
+            {
+              "label": "Health",
+              "before": "140",
+              "after": "150",
+              "note": "Health increased to 150 from 140."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "imperial-mandate",
+      "name": "Imperial Mandate",
+      "type": "item",
+      "assetKey": "4005",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "New Recipe: Amplifying Tome}} + Bandleglass Mirror}} + Amplifying Tome}} + = .; Old Recipe: Blasting Wand}} + Bandleglass Mirror}} + = .",
+      "gameplayImpact": "Imperial Mandate was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Recipe: Amplifying Tome}} + Bandleglass Mirror}} + Amplifying Tome}} + = ."
+            },
+            {
+              "label": "Change",
+              "note": "Old Recipe: Blasting Wand}} + Bandleglass Mirror}} + = ."
+            },
+            {
+              "label": "Ability power",
+              "before": "65",
+              "after": "60",
+              "note": "Ability power reduced to 60 from 65."
+            },
+            {
+              "label": "Control ability haste",
+              "before": "15",
+              "after": "20",
+              "note": "Control ability haste increased to 20 from 15."
+            },
+            {
+              "label": "Command Vulnerable debuff",
+              "before": "6%",
+              "after": "7%",
+              "note": "Command Vulnerable debuff increased to 7% from 6%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "id": "arena",
+      "name": "Arena",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Augments; Buff Buddies",
+      "gameplayImpact": "Arena was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Augments"
+            },
+            {
+              "label": "Change",
+              "note": "Buff Buddies"
+            },
+            {
+              "label": "Change",
+              "note": "Now counts as a burn source when gaining Red Buff from an ally leveling this augment."
+            },
+            {
+              "label": "Change",
+              "note": "Calculated Risk"
+            },
+            {
+              "label": "Change",
+              "note": "Disabled."
+            },
+            {
+              "label": "Change",
+              "note": "Chain Lightning"
+            },
+            {
+              "label": "Change",
+              "note": "Disabled."
+            },
+            {
+              "label": "Change",
+              "note": "Chroma Flux"
+            },
+            {
+              "label": "Change",
+              "note": "Autocast Cooldown: 15s ⇒ 10s"
+            },
+            {
+              "label": "Change",
+              "note": "Despoil"
+            },
+            {
+              "label": "Change",
+              "note": "Curse Move Speed Ratio: 10% ⇒ 20%"
+            },
+            {
+              "label": "Change",
+              "note": "Dust To Diamonds (Silver)"
+            },
+            {
+              "label": "Change",
+              "note": "New: When removed, gain 2 Prismatic Stat Anvils."
+            },
+            {
+              "label": "Change",
+              "note": "Final Form"
+            },
+            {
+              "label": "Change",
+              "note": "Max Health Shield: 30% / 45% ⇒ 30% / 60%"
+            },
+            {
+              "label": "Change",
+              "note": "Omnivamp: 15% / 20% ⇒ 15% / 25%"
+            },
+            {
+              "label": "Change",
+              "note": "Buff Duration: 5s ⇒ 7.5s"
+            },
+            {
+              "label": "Change",
+              "note": "Hivemind"
+            },
+            {
+              "label": "Change",
+              "note": "Base Damage: 40 - 100 ⇒ 60 - 120"
+            },
+            {
+              "label": "Change",
+              "note": "Hone Shardblade (Gold)"
+            },
+            {
+              "label": "Change",
+              "note": "Can now only appear if you have Shardblade."
+            },
+            {
+              "label": "Change",
+              "note": "Instantly grants a Stat Anvil and now grants another Stat Anvil every round."
+            },
+            {
+              "label": "Change",
+              "note": "Juiced"
+            },
+            {
+              "label": "Change",
+              "note": "Max Level Mana Threshold: 400 ⇒ 300"
+            },
+            {
+              "label": "Change",
+              "note": "Nesting Doll"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Gold ⇒ Prismatic"
+            },
+            {
+              "label": "Change",
+              "note": "Overflow"
+            },
+            {
+              "label": "Change",
+              "note": "Max Level Mana Threshold: 400 ⇒ 300"
+            },
+            {
+              "label": "Change",
+              "note": "Quest: Rite Of The Forge God"
+            },
+            {
+              "label": "Change",
+              "note": "Stat Amp: 35% ⇒ 40%"
+            },
+            {
+              "label": "Change",
+              "note": "Quest: Void Immolation"
+            },
+            {
+              "label": "Change",
+              "note": "Area of Effect Damage: True damage ⇒ Magic damage"
+            },
+            {
+              "label": "Change",
+              "note": "Health Scaling: 1.5% total Health ⇒ 3.5% bonus Health"
+            },
+            {
+              "label": "Change",
+              "note": "Added Hollow Radiance-style on-kill burst."
+            },
+            {
+              "label": "Change",
+              "note": "Spellcraft"
+            },
+            {
+              "label": "Change",
+              "note": "Base Damage: 50 ⇒ 100"
+            },
+            {
+              "label": "Change",
+              "note": "Slow per Blue Sticker: 40% ⇒ 45%"
+            },
+            {
+              "label": "Change",
+              "note": "Upgrade Collector"
+            },
+            {
+              "label": "Change",
+              "note": "Level 2 Gold Gained: 500 ⇒ 300"
+            },
+            {
+              "label": "Change",
+              "note": "Level 2 Execution Threshold per stack: 1.5% ⇒ 1.25%"
+            },
+            {
+              "label": "Change",
+              "note": "Max Execute: 27.5% ⇒ 23.75%"
+            },
+            {
+              "label": "Change",
+              "note": "Champions"
+            },
+            {
+              "label": "Change",
+              "note": "Elise"
+            },
+            {
+              "label": "Change",
+              "note": "Passive Damage: 12 - 42 ⇒ 15 - 45"
+            },
+            {
+              "label": "Change",
+              "note": "Passive Health on Hit: 6 - 12 ⇒ 10 - 25"
+            },
+            {
+              "label": "Change",
+              "note": "Human E Stun Duration: 1.6 - 2.4 ⇒ 1.9 - 2.5"
+            },
+            {
+              "label": "Change",
+              "note": "Spider E Damage and Healing Amp: 40% - 100% ⇒ 60% - 120%"
+            },
+            {
+              "label": "Change",
+              "note": "Gnar"
+            },
+            {
+              "label": "Change",
+              "note": "W Base Damage: 0 - 40 ⇒ 20 - 60"
+            },
+            {
+              "label": "Change",
+              "note": "E Cooldown: 18 - 8 ⇒ 12 - 8"
+            },
+            {
+              "label": "Change",
+              "note": "Kayn (Shadow Assassin)"
+            },
+            {
+              "label": "Change",
+              "note": "Combat Empowered Duration: 3s ⇒ 4s"
+            },
+            {
+              "label": "Change",
+              "note": "Bonus Magic Damage: 20 - 40% ⇒ 35 - 55%"
+            },
+            {
+              "label": "Change",
+              "note": "Out of Combat Requirement: 8s ⇒ 4s"
+            },
+            {
+              "label": "Change",
+              "note": "Renata Glasc"
+            },
+            {
+              "label": "Change",
+              "note": "W Cooldown: 22 - 18 ⇒ 28 - 24"
+            },
+            {
+              "label": "Change",
+              "note": "Samira"
+            },
+            {
+              "label": "Change",
+              "note": "R Base Damage: 5 / 10 / 15 ⇒ 10 / 15 / 20"
+            },
+            {
+              "label": "Change",
+              "note": "Swain"
+            },
+            {
+              "label": "Change",
+              "note": "R Healing: 15 / 30 / 45 ⇒ 10 / 15 / 20"
+            },
+            {
+              "label": "Change",
+              "note": "Zeri"
+            },
+            {
+              "label": "Change",
+              "note": "Q Attack Speed to Attack Damage over cap: 60% ⇒ 80%"
+            },
+            {
+              "label": "Change",
+              "note": "W Ability Power Ratio: 50% ⇒ 100%"
+            },
+            {
+              "label": "Change",
+              "note": "E Cooldown Reduction on Passive or Q hit: 0.5 ⇒ 0.75"
+            },
+            {
+              "label": "Change",
+              "note": "E Ability Power Ratio: 20% ⇒ 30%"
+            },
+            {
+              "label": "Change",
+              "note": "R Base Bonus Move Speed: 15% ⇒ 20%"
+            },
+            {
+              "label": "Change",
+              "note": "R Move Speed per stack: 1.5% ⇒ 2%"
+            },
+            {
+              "label": "Change",
+              "note": "Zilean"
+            },
+            {
+              "label": "Change",
+              "note": "Removed Arena-specific Q overrides."
+            },
+            {
+              "label": "Change",
+              "note": "Q Base Damage: 100 - 360 ⇒ 75 - 300"
+            },
+            {
+              "label": "Change",
+              "note": "Q Ability Power Ratio: 100% ⇒ 90%"
+            },
+            {
+              "label": "Change",
+              "note": "Items"
+            },
+            {
+              "label": "Change",
+              "note": "2 Random Stat Shards (Gold)"
+            },
+            {
+              "label": "Change",
+              "note": "Grants 2 random Gold Stat Shards."
+            },
+            {
+              "label": "Change",
+              "note": "Only offered to those dedicated to their craft."
+            },
+            {
+              "label": "Change",
+              "note": "2 Random Stat Shards (Silver)"
+            },
+            {
+              "label": "Change",
+              "note": "Grants 2 random Silver Stat Shards."
+            },
+            {
+              "label": "Change",
+              "note": "Only offered to those dedicated to their craft."
+            },
+            {
+              "label": "Change",
+              "note": "Eclipse"
+            },
+            {
+              "label": "Change",
+              "note": "Attack Damage: 50 ⇒ 60"
+            },
+            {
+              "label": "Change",
+              "note": "Ability Haste: 10 ⇒ 15"
+            },
+            {
+              "label": "Change",
+              "note": "Max Health Damage: 8% / 5.3% ⇒ 10% / 6.6%"
+            },
+            {
+              "label": "Change",
+              "note": "Hellfire Hatchet"
+            },
+            {
+              "label": "Change",
+              "note": "Attack Damage: 35 ⇒ 40"
+            },
+            {
+              "label": "Change",
+              "note": "Per Target Cooldown: 10s ⇒ 8s"
+            },
+            {
+              "label": "Change",
+              "note": "Opportunity"
+            },
+            {
+              "label": "Change",
+              "note": "Lethality while out of combat: 15 ⇒ 20"
+            },
+            {
+              "label": "Change",
+              "note": "Perplexity"
+            },
+            {
+              "label": "Change",
+              "note": "Maximum Damage Amp Threshold: 2500 ⇒ 3000"
+            },
+            {
+              "label": "Change",
+              "note": "Wordless Promise"
+            },
+            {
+              "label": "Change",
+              "note": "Now counts as a burn for pyromancer's cloak and burn augments"
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: 60s ⇒ 15s"
+            },
+            {
+              "label": "Change",
+              "note": "Dragon Heart"
+            },
+            {
+              "label": "Change",
+              "note": "Shared Ability Power and Ability Haste: 15% ⇒ 10%"
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: 60s ⇒ 15s"
+            },
+            {
+              "label": "Change",
+              "note": "Guests of Honor"
+            },
+            {
+              "label": "Change",
+              "note": "Kindred"
+            },
+            {
+              "label": "Change",
+              "note": "Lamb Revives: 2 ⇒ 1"
+            },
+            {
+              "label": "Change",
+              "note": "Locke"
+            },
+            {
+              "label": "Change",
+              "note": "New Guest of Honor."
+            },
+            {
+              "label": "Change",
+              "note": "During each Augment offering, one Augment is offered at a higher tier but is Fractured."
+            },
+            {
+              "label": "Change",
+              "note": "Fractured augments break into a Stat Anvil after 2 losses."
+            },
+            {
+              "label": "Change",
+              "note": "Winning 3 rounds with a Fractured augment removes the Fractured keyword."
+            },
+            {
+              "label": "Change",
+              "note": "Out of Combat Timer: 5 ⇒ 3"
+            },
+            {
+              "label": "Change",
+              "note": "Shield per level value: 20 ⇒ 25"
+            },
+            {
+              "label": "Change",
+              "note": "Shield per round loss: 75 ⇒ 100"
+            },
+            {
+              "label": "Change",
+              "note": "Nocturne"
+            },
+            {
+              "label": "Change",
+              "note": "Now grants wall walking while inside the darkness zones."
+            },
+            {
+              "label": "Change",
+              "note": "Number of zones: 1 - 3 ⇒ 3"
+            },
+            {
+              "label": "Change",
+              "note": "Systems"
+            },
+            {
+              "label": "Change",
+              "note": "Round 15"
+            },
+            {
+              "label": "Change",
+              "note": "Round Type: Gold round ⇒ Augment round"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-13-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V26.13"
+}

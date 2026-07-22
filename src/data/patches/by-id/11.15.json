@@ -1,0 +1,1017 @@
+{
+  "id": "11.15",
+  "version": "11.15",
+  "title": "Sentinels 2: Electric Boogalo",
+  "releaseDate": "2021-07-21",
+  "season": "11",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "Sentinels 2: Electric Boogalo"
+    },
+    {
+      "title": "Champion balance",
+      "description": "10 champion buffs, 8 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "Sentinels 2: Electric Boogalo Structured changes across 22 entities this patch.",
+  "champions": [
+    {
+      "id": "akshan",
+      "name": "Akshan",
+      "type": "champion",
+      "assetKey": "Akshan",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Innate: Whenever Akshan uses a basic attack, he fires an additional shot after a delay that deals 50% AD physical damage, increased to 100% AD against minions. Issuing an on a different target before the additional sh…",
+      "gameplayImpact": "Akshan was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": "New champion",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Innate: Whenever Akshan uses a basic attack, he fires an additional shot after a delay that deals 50% AD physical damage, increased to 100% AD against minions. Issuing an on a different target before the additional shot has been launched causes Akshan to fire it at the new target. If the second shot is cancelled instead, he gains 35–75|ms (+ 100% bonus attack speed) bonus movement speed decaying over 1 second."
+            },
+            {
+              "label": "Change",
+              "note": "The additional shot applies on-hit and on-attack effects at 100% effectiveness and benefits from critical strike modifiers at 30% effectiveness."
+            },
+            {
+              "label": "Change",
+              "note": "Akshan's basic attacks and abilities apply a stack to affected enemies for 5 seconds, stacking up to 3 times and refreshing on subsequent applications. The third stack consumes them all to deal 20–175 bonus magic damage and, if the target is a champion, Akshan is granted a 40–300 (+ 40% bonus AD) shield for 2 seconds. The shield may only be gained once every few seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Static Cooldown: 16–4 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Active: Akshan hurls a boomerang in the target direction, dealing 5–85 (+ 80% AD) physical damage to enemies hit and standard sight them for 1 second, granting sight of the area along its path, as well as extending its range every time it hits an enemy. If the boomerang hits an enemy champion, Akshan gains 40% bonus movement speed decaying over 1 second."
+            },
+            {
+              "label": "Change",
+              "note": "Upon reaching maximum range, the boomerang returns to Akshan. Enemies can be hit once per pass."
+            },
+            {
+              "label": "Change",
+              "note": "Avengerang deals 40–70% damage against non-champions."
+            },
+            {
+              "label": "Change",
+              "note": "Mana Cost: 60–80."
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Range: er 850, Effect Radius: sight , Width: er 120, Speed: 1500 / 2400, Cast time: 0.25 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Passive: Enemy champions that kill allied champions are marked as a Scoundrel for 60 seconds. Upon scoring a takedown against a Scoundrel within 3 seconds of damaging them, Akshan receives an additional and revives all death allied champions that were slain by that enemy champion after 1 second at their summoning platform, and removes the marks from all other enemies."
+            },
+            {
+              "label": "Change",
+              "note": "Active: Akshan enters camouflage, which lasts for 2 seconds or indefinitely while he is near terrain or inside brush. Going Rogue can be recast after 1 second, and does so automatically at the end of its duration."
+            },
+            {
+              "label": "Change",
+              "note": "Attacking or casting abilities ends Going Rogue immediately."
+            },
+            {
+              "label": "Change",
+              "note": "While Going Rogue and moving towards nearby Scoundrels, Akshan gains 80–120 bonus movement speed and bonus mana regeneration equal to 12% of his missing mana. He can also see trails leading towards Scoundrels."
+            },
+            {
+              "label": "Change",
+              "note": "Recast: Akshan ends Going Rogue."
+            },
+            {
+              "label": "Change",
+              "note": "Mana Cost: 40–0."
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Detection Radius: 800, Cast time: 0.5 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "ARAM: Scoundrel duration reduced to 25 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Active: Akshan can activate Heroic Swing three times before the ability goes on cooldown, and can use the third cast only after 0.5 seconds of the second cast. Akshan may input a movement command to use the second and third casts."
+            },
+            {
+              "label": "Change",
+              "note": "First Cast: Akshan fires a hook in the target direction, which grapples to the first instance of terrain hit for 1.5 seconds. Heroic Swing's second cast can be used while the hook is attached."
+            },
+            {
+              "label": "Change",
+              "note": "If Akshan becomes immobilize or ground during this time, the hook will detach, ending Heroic Swing prematurely."
+            },
+            {
+              "label": "Change",
+              "note": "Second Cast: Akshan dash around the terrain, rapidly firing at the nearest sight enemy to deal them 30–130 (+ 10% bonus AD) (+ 30% bonus attack speed) physical damage per shot and apply on-hit and on-attack effects at 25% effectiveness per shot. He stops the swing upon colliding with an enemy champion or terrain, or after 3 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Akshan will be knockdown by any immobilize crowd control during the dash."
+            },
+            {
+              "label": "Change",
+              "note": "Third Cast: Akshan dash off of the rope to the target location and fires one last shot at a nearby sight enemy."
+            },
+            {
+              "label": "Change",
+              "note": "Heroic Swing's cooldown resets upon scoring a takedown against an enemy champion. The shots benefit from critical strike modifiers at 90% effectiveness and applies life steal life steal at 100% effectiveness. Akshan prioritizes firing at enemy champions with stacks of Dirty Fighting}}, will not fire if he is channeling Comeuppance}}, and sight himself during Heroic Swing."
+            },
+            {
+              "label": "Change",
+              "note": "Mana Cost: 70."
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Speed: / , Cast time: None."
+            },
+            {
+              "label": "Change",
+              "note": "Active: Akshan channel for 2.5 seconds, locking onto the target enemy champion, true sight them, and storing 5–7 (3 ranks) bullets into his weapon, as well as sight himself. Comeuppance can be recast after 0.5 seconds during the channel, and does so automatically at the end of its duration."
+            },
+            {
+              "label": "Change",
+              "note": "Comeuppance is placed on a 15-second cooldown if its channel is canceled."
+            },
+            {
+              "label": "Change",
+              "note": "Recast: Akshan fires all stored bullets at the target, each dealing 20–30 (3 ranks) (+ 10% AD) physical damage to the first enemy hit, including structures and increased by 0–300% (over 0–100)|health."
+            },
+            {
+              "label": "Change",
+              "note": "Each bullet's damage is also increased by 0.5% per 1% critical strike chance and critical damage bonuses at 50% effectiveness, applies life steal at 80% effectiveness, and executes minions."
+            },
+            {
+              "label": "Change",
+              "note": "Akshan may still move and cast Heroic Swing}} while channeling Comeuppance."
+            },
+            {
+              "label": "Change",
+              "note": "Mana Cost: 100."
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Target Range: cr 2500, Width: er 120, Speed: 3200, Cast time: None."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust",
+        "New champion"
+      ]
+    },
+    {
+      "id": "annie",
+      "name": "Annie",
+      "type": "champion",
+      "assetKey": "Annie",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "AP ratio reduced to 75% AP from 80% AP.",
+      "gameplayImpact": "Annie loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Disintegrate",
+          "title": "Disintegrate",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "80% AP",
+              "after": "75% AP",
+              "note": "AP ratio reduced to 75% AP from 80% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "aurelion-sol",
+      "name": "Aurelion Sol",
+      "type": "champion",
+      "assetKey": "AurelionSol",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Cooldown increased to 12–8 seconds from 11–7.",
+      "gameplayImpact": "Aurelion Sol loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Starsurge",
+          "title": "Starsurge",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "11–7",
+              "after": "12–8 seconds",
+              "note": "Cooldown increased to 12–8 seconds from 11–7."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "blitzcrank",
+      "name": "Blitzcrank",
+      "type": "champion",
+      "assetKey": "Blitzcrank",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Base armor increased to 40 from 37.; Base damage increased to 90–290 from 70–270.",
+      "gameplayImpact": "Blitzcrank is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base armor",
+              "before": "37",
+              "after": "40",
+              "note": "Base armor increased to 40 from 37."
+            }
+          ]
+        },
+        {
+          "ability": "Rocket Grab",
+          "title": "Rocket Grab",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "70–270",
+              "after": "90–290",
+              "note": "Base damage increased to 90–290 from 70–270."
+            },
+            {
+              "label": "AP ratio",
+              "before": "100% AP",
+              "after": "120% AP",
+              "note": "AP ratio increased to 120% AP from 100% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "caitlyn",
+      "name": "Caitlyn",
+      "type": "champion",
+      "assetKey": "Caitlyn",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "AD ratio increased to 130–190% AD from 130–170% AD.",
+      "gameplayImpact": "Caitlyn is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Piltover Peacemaker",
+          "title": "Piltover Peacemaker",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AD ratio",
+              "before": "130–170% AD",
+              "after": "130–190% AD",
+              "note": "AD ratio increased to 130–190% AD from 130–170% AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "cassiopeia",
+      "name": "Cassiopeia",
+      "type": "champion",
+      "assetKey": "Cassiopeia",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Bonus base damage increased to 20–100 from 10–90.",
+      "gameplayImpact": "Cassiopeia is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Twin Fang",
+          "title": "Twin Fang",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus base damage",
+              "before": "10–90",
+              "after": "20–100",
+              "note": "Bonus base damage increased to 20–100 from 10–90."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "gwen",
+      "name": "Gwen",
+      "type": "champion",
+      "assetKey": "Gwen",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Bonus attack speed reduced to 20–80% from 40–80%.",
+      "gameplayImpact": "Gwen loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Skip 'n Slash",
+          "title": "Skip 'n Slash",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Bonus attack speed",
+              "before": "40–80%",
+              "after": "20–80%",
+              "note": "Bonus attack speed reduced to 20–80% from 40–80%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "irelia",
+      "name": "Irelia",
+      "type": "champion",
+      "assetKey": "Irelia",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Minimum AD ratio reduced to 40% AD from 50% AD.; Maximum AD ratio reduced to 120% AD from 150% AD.",
+      "gameplayImpact": "Irelia loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Defiant Dance",
+          "title": "Defiant Dance",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Minimum AD ratio",
+              "before": "50% AD",
+              "after": "40% AD",
+              "note": "Minimum AD ratio reduced to 40% AD from 50% AD."
+            },
+            {
+              "label": "Maximum AD ratio",
+              "before": "150% AD",
+              "after": "120% AD",
+              "note": "Maximum AD ratio reduced to 120% AD from 150% AD."
+            },
+            {
+              "label": "Base physical damage reduction",
+              "before": "40–80%",
+              "after": "40–70%",
+              "note": "Base physical damage reduction reduced to 40–70% from 40–80%."
+            },
+            {
+              "label": "Base magic damage reduction",
+              "before": "20–40%",
+              "after": "20–35%",
+              "note": "Base magic damage reduction reduced to 20–35% from 20–40%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "kayle",
+      "name": "Kayle",
+      "type": "champion",
+      "assetKey": "Kayle",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base magic resistance reduced to 26 from 30.",
+      "gameplayImpact": "Kayle loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base magic resistance",
+              "before": "30",
+              "after": "26",
+              "note": "Base magic resistance reduced to 26 from 30."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "kennen",
+      "name": "Kennen",
+      "type": "champion",
+      "assetKey": "Kennen",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base damage increased to 85–265 from 75–235.; AP ratio increased to 80% AP from 75% AP.",
+      "gameplayImpact": "Kennen is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Thundering Shuriken",
+          "title": "Thundering Shuriken",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "75–235",
+              "after": "85–265",
+              "note": "Base damage increased to 85–265 from 75–235."
+            },
+            {
+              "label": "AP ratio",
+              "before": "75% AP",
+              "after": "80% AP",
+              "note": "AP ratio increased to 80% AP from 75% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "mordekaiser",
+      "name": "Mordekaiser",
+      "type": "champion",
+      "assetKey": "Mordekaiser",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Cooldown reduced to 12–8 seconds from 14–10.; Damage dealt stored increased to 45% from 35%.",
+      "gameplayImpact": "Mordekaiser is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Indestructible",
+          "title": "Indestructible",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "14–10",
+              "after": "12–8 seconds",
+              "note": "Cooldown reduced to 12–8 seconds from 14–10."
+            },
+            {
+              "label": "Damage dealt stored",
+              "before": "35%",
+              "after": "45%",
+              "note": "Damage dealt stored increased to 45% from 35%."
+            },
+            {
+              "label": "Damage dealt stored to non-champions",
+              "before": "8",
+              "after": "11.25%",
+              "note": "Damage dealt stored to non-champions increased to 11.25% from 8.75%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "nidalee",
+      "name": "Nidalee",
+      "type": "champion",
+      "assetKey": "Nidalee",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base health increased to 570 from 545.; Health growth increased to 95 from 85.",
+      "gameplayImpact": "Nidalee is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base health",
+              "before": "545",
+              "after": "570",
+              "note": "Base health increased to 570 from 545."
+            },
+            {
+              "label": "Health growth",
+              "before": "85",
+              "after": "95",
+              "note": "Health growth increased to 95 from 85."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "rell",
+      "name": "Rell",
+      "type": "champion",
+      "assetKey": "Rell",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Cooldown reduced to 11 seconds from 13.; Cooldown reduced to 11 seconds from 13.",
+      "gameplayImpact": "Rell is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Ferromancy: Crash Down",
+          "title": "Ferromancy: Crash Down",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "13",
+              "after": "11 seconds",
+              "note": "Cooldown reduced to 11 seconds from 13."
+            }
+          ]
+        },
+        {
+          "ability": "Ferromancy: Mount Up",
+          "title": "Ferromancy: Mount Up",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "13",
+              "after": "11 seconds",
+              "note": "Cooldown reduced to 11 seconds from 13."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "rumble",
+      "name": "Rumble",
+      "type": "champion",
+      "assetKey": "Rumble",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Delay until Heat decays is now much more consistent.; Overheated duration is now consistently 5.25 seconds from only averaging this value.",
+      "gameplayImpact": "Rumble loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Junkyard Titan",
+          "title": "Junkyard Titan",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Heat is now checked more consistently:"
+            },
+            {
+              "label": "Change",
+              "note": "Delay until Heat decays is now much more consistent."
+            },
+            {
+              "label": "Change",
+              "note": "Overheated duration is now consistently 5.25 seconds from only averaging this value."
+            },
+            {
+              "label": "Change",
+              "note": "Heat no longer gets returned to a previous value when using the Undo function in the shop, which allowed generating high values of heat at the start of the game easily."
+            }
+          ]
+        },
+        {
+          "ability": "Electro Harpoon",
+          "title": "Electro Harpoon",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: When targeting very far away, no longer tries to walk \"in range\", overriding Rumble's orders."
+            },
+            {
+              "label": "Change",
+              "note": "(This was already fixed in V11.14, but documented in this patch instead)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "shyvana",
+      "name": "Shyvana",
+      "type": "champion",
+      "assetKey": "Shyvana",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Cooldown reduced to 7–5 seconds from 9–5.; First attack AP ratio increased to 35% AP from 25% AP.",
+      "gameplayImpact": "Shyvana is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Twin Bite",
+          "title": "Twin Bite",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "9–5",
+              "after": "7–5 seconds",
+              "note": "Cooldown reduced to 7–5 seconds from 9–5."
+            },
+            {
+              "label": "First attack AP ratio",
+              "before": "25% AP",
+              "after": "35% AP",
+              "note": "First attack AP ratio increased to 35% AP from 25% AP."
+            },
+            {
+              "label": "Second attack AP ratio",
+              "before": "15% AP",
+              "after": "25% AP",
+              "note": "Second attack AP ratio increased to 25% AP from 15% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "sylas",
+      "name": "Sylas",
+      "type": "champion",
+      "assetKey": "Sylas",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Detonation base damage increased to 70–290 from 60–280.; Detonation AP ratio increased to 90% AP from 80% AP.",
+      "gameplayImpact": "Sylas was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Chain Lash",
+          "title": "Chain Lash",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Detonation base damage",
+              "before": "60–280",
+              "after": "70–290",
+              "note": "Detonation base damage increased to 70–290 from 60–280."
+            },
+            {
+              "label": "Detonation AP ratio",
+              "before": "80% AP",
+              "after": "90% AP",
+              "note": "Detonation AP ratio increased to 90% AP from 80% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Kingslayer",
+          "title": "Kingslayer",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base heal",
+              "before": "30–150",
+              "after": "25–125",
+              "note": "Base heal reduced to 25–125 from 30–150."
+            },
+            {
+              "label": "Maximum base heal",
+              "before": "60–300",
+              "after": "50–250",
+              "note": "Maximum base heal reduced to 50–250 from 60–300."
+            },
+            {
+              "label": "Heal AP ratio",
+              "before": "45% AP",
+              "after": "40% AP",
+              "note": "Heal AP ratio reduced to 40% AP from 45% AP."
+            },
+            {
+              "label": "Maximum heal AP ratio",
+              "before": "90% AP",
+              "after": "80% AP",
+              "note": "Maximum heal AP ratio reduced to 80% AP from 90% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "syndra",
+      "name": "Syndra",
+      "type": "champion",
+      "assetKey": "Syndra",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Mana cost reduced to 40–80 from 60–80.",
+      "gameplayImpact": "Syndra is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Dark Sphere",
+          "title": "Dark Sphere",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Mana cost",
+              "before": "60–80",
+              "after": "40–80",
+              "note": "Mana cost reduced to 40–80 from 60–80."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "thresh",
+      "name": "Thresh",
+      "type": "champion",
+      "assetKey": "Thresh",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Cooldown increased to 13–10 seconds from 11–9.",
+      "gameplayImpact": "Thresh loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Flay",
+          "title": "Flay",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "11–9",
+              "after": "13–10 seconds",
+              "note": "Cooldown increased to 13–10 seconds from 11–9."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "viego",
+      "name": "Viego",
+      "type": "champion",
+      "assetKey": "Viego",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Base damage reduced to 15–75 from 25–85.; Bonus monster damage increased to 20 from 10.",
+      "gameplayImpact": "Viego was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Now responds to Shadow Isles voice interactions rather than Demacian."
+            }
+          ]
+        },
+        {
+          "ability": "Sovereign's Domination",
+          "title": "Sovereign's Domination",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Undocumented/Bug Fix: Now gains the bonus range from R (Jayce)}}."
+            }
+          ]
+        },
+        {
+          "ability": "Blade of the Ruined King",
+          "title": "Blade of the Ruined King",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "25–85",
+              "after": "15–75",
+              "note": "Base damage reduced to 15–75 from 25–85."
+            },
+            {
+              "label": "Bonus monster damage",
+              "before": "10",
+              "after": "20",
+              "note": "Bonus monster damage increased to 20 from 10."
+            },
+            {
+              "label": "Healing against minions",
+              "before": "50%",
+              "after": "10%",
+              "note": "Healing against minions reduced to 10% from 50%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "wukong",
+      "name": "Wukong",
+      "type": "champion",
+      "assetKey": "MonkeyKing",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base health regeneration reduced to 2.5 from 4.",
+      "gameplayImpact": "Wukong loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base health regeneration",
+              "before": "4",
+              "after": "2.5",
+              "note": "Base health regeneration reduced to 2.5 from 4."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "xayah",
+      "name": "Xayah",
+      "type": "champion",
+      "assetKey": "Xayah",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Cooldown reduced to 140–100 (3 ranks) seconds from 160–130 (3 ranks).",
+      "gameplayImpact": "Xayah is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Featherstorm",
+          "title": "Featherstorm",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "160–130 (3 ranks)",
+              "after": "140–100 (3 ranks) seconds",
+              "note": "Cooldown reduced to 140–100 (3 ranks) seconds from 160–130 (3 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "hullbreaker",
+      "name": "Hullbreaker",
+      "type": "item",
+      "assetKey": "3181",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Boarding Party bonus resistances increased to 20–60 from 20–45.; Boarding Party minion bonus resistances increased to 60–180 from 60–135.",
+      "gameplayImpact": "Hullbreaker is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Boarding Party bonus resistances",
+              "before": "20–45",
+              "after": "20–60",
+              "note": "Boarding Party bonus resistances increased to 20–60 from 20–45."
+            },
+            {
+              "label": "Boarding Party minion bonus resistances",
+              "before": "60–135",
+              "after": "60–180",
+              "note": "Boarding Party minion bonus resistances increased to 60–180 from 60–135."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "systems": [],
+  "sourceUrl": "https://na.leagueoflegends.com/en-us/news/game-updates/patch-11-15-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V11.15"
+}

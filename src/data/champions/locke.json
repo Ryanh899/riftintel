@@ -1,0 +1,205 @@
+{
+  "slug": "locke",
+  "name": "Locke",
+  "assetKey": "Locke",
+  "entries": [
+    {
+      "patchId": "26.13",
+      "version": "26.13",
+      "releaseDate": "2026-06-24",
+      "change": {
+        "id": "locke",
+        "name": "Locke",
+        "type": "champion",
+        "assetKey": "Locke",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Innate: Locke's basic attacks deal 5–40 (+ 10% AP) bonus magic damage on-hit, increased by 0–100% (over 0–70), up to 10–80 (+ 20% AP).; Active: Locke hurls a nail in the target direction that deals 50–90 (+ 20% AP) ma…",
+        "gameplayImpact": "Locke was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": "New Champion",
+        "changes": [
+          {
+            "ability": "General",
+            "title": null,
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Innate: Locke's basic attacks deal 5–40 (+ 10% AP) bonus magic damage on-hit, increased by 0–100% (over 0–70), up to 10–80 (+ 20% AP)."
+              },
+              {
+                "label": "Change",
+                "note": "Active: Locke hurls a nail in the target direction that deals 50–90 (+ 20% AP) magic damage to enemies hit, slows them by 25% for 1 second, and applies a stack of Soul Nails for 4 seconds, refreshing on subsequent applications and stacking up to 3 times. Against targets with at least 2 Soul Nails stacks, the slow is increased to 60% and lasts for 2 seconds. Ritual Nails can be recast twice more within 5 seconds of the activation at no additional cost, with a 0.5-second between casts."
+              },
+              {
+                "label": "Change",
+                "note": "Recast: Locke mimics the first cast's effects. For each recast not used when Ritual Nails ends, 20–35% of the ability's cooldown and mana cost is refunded, up to a 40–70% refund for two remaining recasts."
+              },
+              {
+                "label": "Change",
+                "note": "Locke's next damaging basic attack or Ashen Pursuit}} against an enemy with Soul Nails stacks consumes them all to deal 20–60 (+ 25–35% AP) bonus magic damage for each stack. This damage is increased by 20% and 40% for two and three Soul Nails stacks respectively."
+              },
+              {
+                "label": "Change",
+                "note": "Cost: 70 mana."
+              },
+              {
+                "label": "Change",
+                "note": "Cooldown: 10–6 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Cast Time: 0.25 seconds, Target Range: 950, Width: 100."
+              },
+              {
+                "label": "Change",
+                "note": "Active: Locke ignites his soul for 6 seconds, gaining 40–70% bonus attack speed and 40–60% (+ 2% per 100 AP) bonus movement speed for the duration, with the latter decaying to 20%|ms over 1 second after 1.5 seconds have elapsed. While active, Locke also stores 40–200 (+ 120% AP) of grey health on his health bar equal to 100% of the he takes from enemy champions, up to a cap, plus the total amount of health lost from Soul Ignition's health resource. This is increased by up to 40–200 (+ 20% AP) based on his missing health and Soul Ignition's elapsed duration."
+              },
+              {
+                "label": "Change",
+                "note": "After 0.5 seconds, Soul Ignition can be recast within the duration, and does so automatically afterwards."
+              },
+              {
+                "label": "Change",
+                "note": "Recast: Locke ends Soul Ignition and consumes his current grey health to heal for the same amount."
+              },
+              {
+                "label": "Change",
+                "note": "Soul Ignition's recast can be used while affected by cast-inhibiting crowd control."
+              },
+              {
+                "label": "Change",
+                "note": "Initial Cost: 50–70 mana."
+              },
+              {
+                "label": "Change",
+                "note": "Cost: 0.5% current health per 0.25 seconds for 6 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Cooldown: 18–14 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Cast Time: None."
+              },
+              {
+                "label": "Change",
+                "note": "Active: Locke blinks to the target location, dealing 40–80 (+ 40% AP) magic damage to all nearby enemies upon arrival."
+              },
+              {
+                "label": "Change",
+                "note": "For the next 4 seconds, Locke gains range|275 bonus range and can declare an basic attack attack command (default: MB2 / right-click) against an enemy unit. After 0.1 seconds or if the declared attack target is within his attack range, Locke ends Ashen Pursuit and dash in the target's direction, dealing 40–120 (+ 40% AP) magic damage to enemies he passes through as well as those around him, and applying on-hit effects to the primary target if they were hit."
+              },
+              {
+                "label": "Change",
+                "note": "Scoring a takedown against an enemy champion resets Ashen Pursuit's cooldown."
+              },
+              {
+                "label": "Change",
+                "note": "Locke loses the bonus attack range and cannot perform the dash while he is immobilize ( berserk and taunt) or ground."
+              },
+              {
+                "label": "Change",
+                "note": "Cost: 30 mana."
+              },
+              {
+                "label": "Change",
+                "note": "Cooldown: 10 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Cast Time: 0.5 seconds, Target Range: , Queue Threshold: 0.175 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Active: Locke throws a totem artifact that travels to the target location over 0.5 seconds. After a 0.25-second delay of its landing, the totem rises into the air and fires latching nails onto all enemies around it, dealing them 150–300 (3 ranks) (+ 60% AP) magic damage, slow them by 99% decaying over 2 seconds, and marking enemy champions hit for 5 seconds. Marked enemies are execute below 10–12 (3 ranks)%|hp (+ 0.5% per Sealed Champion stack)|buzzword of their maximum health. Successful executions refresh the duration of the mark on all affected targets."
+              },
+              {
+                "label": "Change",
+                "note": "At the end of the mark's duration, if at least one champion was executed, the totem seals away the souls of all executed champions and drops itself onto the ground, both over 2.25 seconds. It then remains on the ground for a duration equal to Purgatory's remaining cooldown, but for no less than 10 seconds. Locke can retrieve it by moving near it. Upon retrieving the totem, Purgatory's current cooldown is reduced by 20% for each champion sealed, and Locke gains a Sealed Champion|buzzword stack per champion."
+              },
+              {
+                "label": "Change",
+                "note": "Cost: 100 mana."
+              },
+              {
+                "label": "Change",
+                "note": "Cooldown: 120–80 (3 ranks) seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Cast Time: 0.5 seconds, Target Range: 950, Effect Radius: 400, Queue Threshold: 0.5 seconds."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust",
+          "New Champion"
+        ]
+      }
+    },
+    {
+      "patchId": "26.14",
+      "version": "26.14",
+      "releaseDate": "2026-07-15",
+      "change": {
+        "id": "locke",
+        "name": "Locke",
+        "type": "champion",
+        "assetKey": "Locke",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 2,
+        "tldr": "Base nail damage reduced to 50–82 from 50–90.; Stack base bonus damage reduced to 18–50 from 20–60.",
+        "gameplayImpact": "Locke loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Ritual Nails",
+            "title": "Ritual Nails",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base nail damage",
+                "before": "50–90",
+                "after": "50–82",
+                "note": "Base nail damage reduced to 50–82 from 50–90."
+              },
+              {
+                "label": "Stack base bonus damage",
+                "before": "20–60",
+                "after": "18–50",
+                "note": "Stack base bonus damage reduced to 18–50 from 20–60."
+              },
+              {
+                "label": "Recast time",
+                "before": "5",
+                "after": "4 seconds",
+                "note": "Recast time reduced to 4 seconds from 5."
+              }
+            ]
+          },
+          {
+            "ability": "Soul Ignition",
+            "title": "Soul Ignition",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base Grey Health cap",
+                "before": "40–200",
+                "after": "40–160",
+                "note": "Base Grey Health cap reduced to 40–160 from 40–200."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    }
+  ]
+}

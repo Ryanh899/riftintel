@@ -1,0 +1,994 @@
+{
+  "slug": "irelia",
+  "name": "Irelia",
+  "assetKey": "Irelia",
+  "entries": [
+    {
+      "patchId": "11.14",
+      "version": "11.14",
+      "releaseDate": "2021-07-08",
+      "change": {
+        "id": "irelia",
+        "name": "Irelia",
+        "type": "champion",
+        "assetKey": "Irelia",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Base health reduced to 520 from 580.; Health growth increased to 110 from 95.",
+        "gameplayImpact": "Irelia was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Base health",
+                "before": "580",
+                "after": "520",
+                "note": "Base health reduced to 520 from 580."
+              },
+              {
+                "label": "Health growth",
+                "before": "95",
+                "after": "110",
+                "note": "Health growth increased to 110 from 95."
+              },
+              {
+                "label": "Base magic resistance",
+                "before": "32",
+                "after": "28",
+                "note": "Base magic resistance reduced to 28 from 32."
+              }
+            ]
+          },
+          {
+            "ability": "Ionian Fervor",
+            "title": "Ionian Fervor",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Maximum stacks",
+                "before": "5",
+                "after": "4",
+                "note": "Maximum stacks reduced to 4 from 5."
+              },
+              {
+                "label": "Bonus attack speed per stack",
+                "before": "8–16%",
+                "after": "7.5–20%",
+                "note": "Bonus attack speed per stack changed to 7.5–20% from 8–16%."
+              },
+              {
+                "label": "Maximum bonus attack speed",
+                "before": "40–80%",
+                "after": "30–80%",
+                "note": "Maximum bonus attack speed reduced to 30–80% from 40–80%."
+              },
+              {
+                "label": "Base damage",
+                "before": "15–66",
+                "after": "10–61",
+                "note": "Base damage reduced to 10–61 from 15–66."
+              },
+              {
+                "label": "Bonus AD ratio",
+                "before": "25%|AD",
+                "after": "30% bonus AD",
+                "note": "Bonus AD ratio increased to 30% bonus AD from 25%|AD."
+              },
+              {
+                "label": "Change",
+                "note": "Secondary resource bar (count of passive stacks) is now also visible to enemy players."
+              }
+            ]
+          },
+          {
+            "ability": "Bladesurge",
+            "title": "Bladesurge",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base dash speed",
+                "before": "1500",
+                "after": "1400",
+                "note": "Base dash speed reduced to 1400 from 1500."
+              },
+              {
+                "label": "Bonus minion damage",
+                "before": "55–135",
+                "after": "55–259",
+                "note": "Bonus minion damage changed to 55–259 from 55–135."
+              }
+            ]
+          },
+          {
+            "ability": "Defiant Dance",
+            "title": "Defiant Dance",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base physical damage reduction",
+                "before": "50% at all levels",
+                "after": "40–80%",
+                "note": "Base physical damage reduction changed to 40–80% from 50% at all levels."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now reduces magic damage by 20–40% (+ 3.5% per 100 AP)."
+              },
+              {
+                "label": "Maximum base damage",
+                "before": "20–140",
+                "after": "30–210",
+                "note": "Maximum base damage increased to 30–210 from 20–140."
+              },
+              {
+                "label": "Maximum AD ratio",
+                "before": "100% AD",
+                "after": "150% AD",
+                "note": "Maximum AD ratio increased to 150% AD from 100% AD."
+              },
+              {
+                "label": "Maximum damage AP ratio",
+                "before": "80% AP",
+                "after": "120% AP",
+                "note": "Maximum damage AP ratio increased to 120% AP from 80% AP."
+              }
+            ]
+          },
+          {
+            "ability": "Flawless Duet",
+            "title": "Flawless Duet",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Missile travel time",
+                "before": "0 to (based on distance)",
+                "after": "at all distances",
+                "note": "Missile travel time changed to at all distances from 0 to (based on distance)."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Can no longer be recast during cast-inhibiting crowd control."
+              }
+            ]
+          },
+          {
+            "ability": "Vanguard's Edge",
+            "title": "Vanguard's Edge",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Now passively reduces cooldown by 0.5–2.5 (3 ranks) seconds."
+              },
+              {
+                "label": "Change",
+                "note": "This takes effect before ability haste."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "11.15",
+      "version": "11.15",
+      "releaseDate": "2021-07-21",
+      "change": {
+        "id": "irelia",
+        "name": "Irelia",
+        "type": "champion",
+        "assetKey": "Irelia",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 2,
+        "tldr": "Minimum AD ratio reduced to 40% AD from 50% AD.; Maximum AD ratio reduced to 120% AD from 150% AD.",
+        "gameplayImpact": "Irelia loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Defiant Dance",
+            "title": "Defiant Dance",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Minimum AD ratio",
+                "before": "50% AD",
+                "after": "40% AD",
+                "note": "Minimum AD ratio reduced to 40% AD from 50% AD."
+              },
+              {
+                "label": "Maximum AD ratio",
+                "before": "150% AD",
+                "after": "120% AD",
+                "note": "Maximum AD ratio reduced to 120% AD from 150% AD."
+              },
+              {
+                "label": "Base physical damage reduction",
+                "before": "40–80%",
+                "after": "40–70%",
+                "note": "Base physical damage reduction reduced to 40–70% from 40–80%."
+              },
+              {
+                "label": "Base magic damage reduction",
+                "before": "20–40%",
+                "after": "20–35%",
+                "note": "Base magic damage reduction reduced to 20–35% from 20–40%."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "11.17",
+      "version": "11.17",
+      "releaseDate": "2021-08-25",
+      "change": {
+        "id": "irelia",
+        "name": "Irelia",
+        "type": "champion",
+        "assetKey": "Irelia",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Heal AD ratio reduced to 8–16% AD from 12–20% AD.",
+        "gameplayImpact": "Irelia loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Bladesurge",
+            "title": "Bladesurge",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Heal AD ratio",
+                "before": "12–20% AD",
+                "after": "8–16% AD",
+                "note": "Heal AD ratio reduced to 8–16% AD from 12–20% AD."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "11.20",
+      "version": "11.20",
+      "releaseDate": "2021-10-06",
+      "change": {
+        "id": "irelia",
+        "name": "Irelia",
+        "type": "champion",
+        "assetKey": "Irelia",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Bonus AD ratio reduced to 20% bonus AD from 30%|AD.",
+        "gameplayImpact": "Irelia loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Ionian Fervor",
+            "title": "Ionian Fervor",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Bonus AD ratio",
+                "before": "30%|AD",
+                "after": "20% bonus AD",
+                "note": "Bonus AD ratio reduced to 20% bonus AD from 30%|AD."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "12.10",
+      "version": "12.10",
+      "releaseDate": "2022-05-25",
+      "change": {
+        "id": "irelia",
+        "name": "Irelia",
+        "type": "champion",
+        "assetKey": "Irelia",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 2,
+        "tldr": "Base health increased to 590 from 520.; Health growth increased to 124 from 110.",
+        "gameplayImpact": "Irelia was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base health",
+                "before": "520",
+                "after": "590",
+                "note": "Base health increased to 590 from 520."
+              },
+              {
+                "label": "Health growth",
+                "before": "110",
+                "after": "124",
+                "note": "Health growth increased to 124 from 110."
+              },
+              {
+                "label": "Armor growth",
+                "before": "3",
+                "after": "4.2",
+                "note": "Armor growth increased to 4.2 from 3."
+              },
+              {
+                "label": "Magic resistance growth",
+                "before": "1",
+                "after": "2.05",
+                "note": "Magic resistance growth increased to 2.05 from 1.25."
+              }
+            ]
+          },
+          {
+            "ability": "Bladesurge",
+            "title": "Bladesurge",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Heal",
+                "before": "8–16% AD",
+                "after": "7–11% AD",
+                "note": "Heal reduced to 7–11% AD from 8–16% AD."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "12.11",
+      "version": "12.11",
+      "releaseDate": "2022-06-08",
+      "change": {
+        "id": "irelia",
+        "name": "Irelia",
+        "type": "champion",
+        "assetKey": "Irelia",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "Heal increased to 9–13% AD from 7–11% AD.; Cooldown reduced to 16–12 seconds from 18–12.",
+        "gameplayImpact": "Irelia is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Bladesurge",
+            "title": "Bladesurge",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Heal",
+                "before": "7–11% AD",
+                "after": "9–13% AD",
+                "note": "Heal increased to 9–13% AD from 7–11% AD."
+              }
+            ]
+          },
+          {
+            "ability": "Flawless Duet",
+            "title": "Flawless Duet",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Cooldown",
+                "before": "18–12",
+                "after": "16–12 seconds",
+                "note": "Cooldown reduced to 16–12 seconds from 18–12."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "12.16",
+      "version": "12.16",
+      "releaseDate": "2022-08-24",
+      "change": {
+        "id": "irelia",
+        "name": "Irelia",
+        "type": "champion",
+        "assetKey": "Irelia",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "Armor growth increased to 4.7 from 4.2.; Base magic resistance increased to 30 from 28.",
+        "gameplayImpact": "Irelia is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Armor growth",
+                "before": "4",
+                "after": "4.7",
+                "note": "Armor growth increased to 4.7 from 4.2."
+              },
+              {
+                "label": "Base magic resistance",
+                "before": "28",
+                "after": "30",
+                "note": "Base magic resistance increased to 30 from 28."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "13.18",
+      "version": "13.18",
+      "releaseDate": "2023-09-13",
+      "change": {
+        "id": "irelia",
+        "name": "Irelia",
+        "type": "champion",
+        "assetKey": "Irelia",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "Cooldown reduced to 125–85 (3 ranks) seconds from 140–100 (3 ranks).",
+        "gameplayImpact": "Irelia is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Vanguard's Edge",
+            "title": "Vanguard's Edge",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Cooldown",
+                "before": "140–100 (3 ranks)",
+                "after": "125–85 (3 ranks) seconds",
+                "note": "Cooldown reduced to 125–85 (3 ranks) seconds from 140–100 (3 ranks)."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "14.11",
+      "version": "14.11",
+      "releaseDate": "2024-05-30",
+      "change": {
+        "id": "irelia",
+        "name": "Irelia",
+        "type": "champion",
+        "assetKey": "Irelia",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Health growth reduced to 115 from 124.",
+        "gameplayImpact": "Irelia loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Health growth",
+                "before": "124",
+                "after": "115",
+                "note": "Health growth reduced to 115 from 124."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "14.14",
+      "version": "14.14",
+      "releaseDate": "2024-07-17",
+      "change": {
+        "id": "irelia",
+        "name": "Irelia",
+        "type": "champion",
+        "assetKey": "Irelia",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 2,
+        "tldr": "Attack damage growth reduced to 3.5 from 4.; Attack speed per stack changed to 7.5–25% from 7.5–20%. Now scales with every level.",
+        "gameplayImpact": "Irelia loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Attack damage growth",
+                "before": "4",
+                "after": "3.5",
+                "note": "Attack damage growth reduced to 3.5 from 4."
+              }
+            ]
+          },
+          {
+            "ability": "Ionian Fervor",
+            "title": "Ionian Fervor",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Attack speed per stack",
+                "before": "7",
+                "after": "7.5–25%",
+                "note": "Attack speed per stack changed to 7.5–25% from 7.5–20%. Now scales with every level."
+              },
+              {
+                "label": "Maximum attack speed",
+                "before": "30–80%",
+                "after": "30–100%",
+                "note": "Maximum attack speed changed to 30–100% from 30–80%."
+              }
+            ]
+          },
+          {
+            "ability": "Vanguard's Edge",
+            "title": "Vanguard's Edge",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Bladesurge}} cooldown reduction",
+                "before": "0",
+                "after": "0.5–1.5 (3 ranks) seconds",
+                "note": "Bladesurge}} cooldown reduction reduced to 0.5–1.5 (3 ranks) seconds from 0.5–2.5 (3 ranks)."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "14.15",
+      "version": "14.15",
+      "releaseDate": "2024-07-31",
+      "change": {
+        "id": "irelia",
+        "name": "Irelia",
+        "type": "champion",
+        "assetKey": "Irelia",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 1,
+        "tldr": "Base health increased to 630 from 590.; Base health regeneration reduced to 6 from 8.5.",
+        "gameplayImpact": "Irelia was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Base health",
+                "before": "590",
+                "after": "630",
+                "note": "Base health increased to 630 from 590."
+              },
+              {
+                "label": "Base health regeneration",
+                "before": "8",
+                "after": "6",
+                "note": "Base health regeneration reduced to 6 from 8.5."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "14.21",
+      "version": "14.21",
+      "releaseDate": "2024-10-23",
+      "change": {
+        "id": "irelia",
+        "name": "Irelia",
+        "type": "champion",
+        "assetKey": "Irelia",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 2,
+        "tldr": "Cooldown reduced to 10–6 seconds from 11–7.; Mana cost reduced to 15 from 20.",
+        "gameplayImpact": "Irelia was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Bladesurge",
+            "title": "Bladesurge",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Cooldown",
+                "before": "11–7",
+                "after": "10–6 seconds",
+                "note": "Cooldown reduced to 10–6 seconds from 11–7."
+              },
+              {
+                "label": "Mana cost",
+                "before": "20",
+                "after": "15",
+                "note": "Mana cost reduced to 15 from 20."
+              },
+              {
+                "label": "AD ratio",
+                "before": "60% AD",
+                "after": "70% AD",
+                "note": "AD ratio increased to 70% AD from 60% AD."
+              },
+              {
+                "label": "Bonus minion damage",
+                "before": "55–259",
+                "after": "50–237",
+                "note": "Bonus minion damage reduced to 50–237 from 55–259."
+              }
+            ]
+          },
+          {
+            "ability": "Vanguard's Edge",
+            "title": "Vanguard's Edge",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Removed: No longer reduces cooldown by 0.5–1.5 (3 ranks) seconds."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "14.22",
+      "version": "14.22",
+      "releaseDate": "2024-11-06",
+      "change": {
+        "id": "irelia",
+        "name": "Irelia",
+        "type": "champion",
+        "assetKey": "Irelia",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "New Effect: Damage now applies against structures at 50% damage.; New Effect: Duration is now refreshed against structures.",
+        "gameplayImpact": "Irelia is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Ionian Fervor",
+            "title": "Ionian Fervor",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Damage now applies against structures at 50% damage."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Duration is now refreshed against structures."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "25.S1.2",
+      "version": "25.S1.2",
+      "releaseDate": "2025-01-23",
+      "change": {
+        "id": "irelia",
+        "name": "Irelia",
+        "type": "champion",
+        "assetKey": "Irelia",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 2,
+        "tldr": "Base damage reduced to 10–50 from 10–70.; Maximum base damage reduced to 10*3 to to 50*3 from 30–210.",
+        "gameplayImpact": "Irelia loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Defiant Dance",
+            "title": "Defiant Dance",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "10–70",
+                "after": "10–50",
+                "note": "Base damage reduced to 10–50 from 10–70."
+              },
+              {
+                "label": "Maximum base damage",
+                "before": "30–210",
+                "after": "10*3 to to 50*3",
+                "note": "Maximum base damage reduced to 10*3 to to 50*3 from 30–210."
+              }
+            ]
+          },
+          {
+            "ability": "Flawless Duet",
+            "title": "Flawless Duet",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "80–260",
+                "after": "70–230",
+                "note": "Base damage reduced to 70–230 from 80–260."
+              }
+            ]
+          },
+          {
+            "ability": "Vanguard's Edge",
+            "title": "Vanguard's Edge",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "125–375 (3 ranks)",
+                "after": "125–275 (3 ranks)",
+                "note": "Base damage reduced to 125–275 (3 ranks) from 125–375 (3 ranks)."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "25.10",
+      "version": "25.10",
+      "releaseDate": "2025-05-14",
+      "change": {
+        "id": "irelia",
+        "name": "Irelia",
+        "type": "champion",
+        "assetKey": "Irelia",
+        "roles": [],
+        "direction": "buff",
+        "severity": 2,
+        "tldr": "New Effect: Now entirely pauses the duration of Ionian Fervor}} while charging, instead of refreshing its duration every 0.25 seconds upon Ionian Fervor reaching the last 0.5 seconds of its duration.; New Effect: Afte…",
+        "gameplayImpact": "Irelia is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Defiant Dance",
+            "title": "Defiant Dance",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Now entirely pauses the duration of Ionian Fervor}} while charging, instead of refreshing its duration every 0.25 seconds upon Ionian Fervor reaching the last 0.5 seconds of its duration."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: After finishing the charge, now increases the remaining duration of Ionian Fervor}} to 1 second if it was below 1 second upon starting the charge."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Now correctly resets the duration of Ionian Fervor}} if the former hits an enemy very close to the latter's expiration."
+              },
+              {
+                "label": "Change",
+                "note": "Updated Idle animation to include her extra hands.-->"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "25.13",
+      "version": "25.13",
+      "releaseDate": "2025-06-25",
+      "change": {
+        "id": "irelia",
+        "name": "Irelia",
+        "type": "champion",
+        "assetKey": "Irelia",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "Attack speed per stack increased to 10–25% from 7.5–25%.; Maximum attack speed increased to 40–100% from 30–100%.",
+        "gameplayImpact": "Irelia is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Ionian Fervor",
+            "title": "Ionian Fervor",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Attack speed per stack",
+                "before": "7",
+                "after": "10–25%",
+                "note": "Attack speed per stack increased to 10–25% from 7.5–25%."
+              },
+              {
+                "label": "Maximum attack speed",
+                "before": "30–100%",
+                "after": "40–100%",
+                "note": "Maximum attack speed increased to 40–100% from 30–100%."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Granted attack speed now updates on level-up."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "25.15",
+      "version": "25.15",
+      "releaseDate": "2025-07-30",
+      "change": {
+        "id": "irelia",
+        "name": "Irelia",
+        "type": "champion",
+        "assetKey": "Irelia",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Base health regeneration reduced to 3.5 from 6.; English voice-over added.",
+        "gameplayImpact": "Irelia loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base health regeneration",
+                "before": "6",
+                "after": "3.5",
+                "note": "Base health regeneration reduced to 3.5 from 6."
+              },
+              {
+                "label": "Change",
+                "note": "English voice-over added."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "25.17",
+      "version": "25.17",
+      "releaseDate": "2025-08-27",
+      "change": {
+        "id": "irelia",
+        "name": "Irelia",
+        "type": "champion",
+        "assetKey": "Irelia",
+        "roles": [],
+        "direction": "buff",
+        "severity": 2,
+        "tldr": "Minimum AP ratio increased to 50% AP from 40% AP.; Maximum AP ratio increased to 150% AP from 120% AP.",
+        "gameplayImpact": "Irelia is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Defiant Dance",
+            "title": "Defiant Dance",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Minimum AP ratio",
+                "before": "40% AP",
+                "after": "50% AP",
+                "note": "Minimum AP ratio increased to 50% AP from 40% AP."
+              },
+              {
+                "label": "Maximum AP ratio",
+                "before": "120% AP",
+                "after": "150% AP",
+                "note": "Maximum AP ratio increased to 150% AP from 120% AP."
+              }
+            ]
+          },
+          {
+            "ability": "Flawless Duet",
+            "title": "Flawless Duet",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "AP ratio",
+                "before": "80% AP",
+                "after": "100% AP",
+                "note": "AP ratio increased to 100% AP from 80% AP."
+              },
+              {
+                "label": "Cooldown",
+                "before": "16–12",
+                "after": "16–10 seconds",
+                "note": "Cooldown reduced to 16–10 seconds from 16–12."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    }
+  ]
+}

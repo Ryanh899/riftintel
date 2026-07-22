@@ -1,0 +1,1464 @@
+{
+  "id": "25.23",
+  "version": "25.23",
+  "title": "It's snowing on the rift and the frogs are out once again!",
+  "releaseDate": "2025-11-19",
+  "season": "25",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "It's snowing on the rift and the frogs are out once again!"
+    },
+    {
+      "title": "Champion balance",
+      "description": "16 champion buffs, 7 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "It's snowing on the rift and the frogs are out once again! Structured changes across 25 entities this patch.",
+  "champions": [
+    {
+      "id": "aatrox",
+      "name": "Aatrox",
+      "type": "champion",
+      "assetKey": "Aatrox",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Monster damage cap increased to 100–320 from 100 at all levels.; New Effect: Now deals 40 bonus physical damage to monsters, affected by the subsequent cast and Sweetspot damage modifiers.",
+      "gameplayImpact": "Aatrox is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Deathbringer Stance",
+          "title": "Deathbringer Stance",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Monster damage cap",
+              "before": "100 at all levels",
+              "after": "100–320",
+              "note": "Monster damage cap increased to 100–320 from 100 at all levels."
+            }
+          ]
+        },
+        {
+          "ability": "The Darkin Blade",
+          "title": "The Darkin Blade",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Now deals 40 bonus physical damage to monsters, affected by the subsequent cast and Sweetspot damage modifiers."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "ahri",
+      "name": "Ahri",
+      "type": "champion",
+      "assetKey": "Ahri",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Subsequent damage increased to 40% from 30%.",
+      "gameplayImpact": "Ahri is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Fox-Fire",
+          "title": "Fox-Fire",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Subsequent damage",
+              "before": "30%",
+              "after": "40%",
+              "note": "Subsequent damage increased to 40% from 30%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "ambessa",
+      "name": "Ambessa",
+      "type": "champion",
+      "assetKey": "Ambessa",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "[Note: As a consequence of this change, while Ambessa has only one stack of Medarda Maxim, casting Cunning Sweep}} and Sundering Slam}} during an attack windup will interrupt the attack, while still consuming the stac…",
+      "gameplayImpact": "Ambessa was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Drakehound's Step",
+          "title": "Drakehound's Step",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Stacks of Medarda Maxim are now consumed at the start of the attack windup instead of on-hit, which means Ambessa no longer fails to consume a stack if the target dies during the attack windup."
+            },
+            {
+              "label": "Change",
+              "note": "[Note: As a consequence of this change, while Ambessa has only one stack of Medarda Maxim, casting Cunning Sweep}} and Sundering Slam}} during an attack windup will interrupt the attack, while still consuming the stack. Lacerate}} can no longer be buffered during an attack windup if Ambessa only has one stack of Medarda Maxim.]"
+            }
+          ]
+        },
+        {
+          "ability": "Cunning Sweep",
+          "title": "Cunning Sweep",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus monster damage",
+              "before": "125",
+              "after": "150",
+              "note": "Bonus monster damage increased to 150 from 125."
+            }
+          ]
+        },
+        {
+          "ability": "Sundering Slam",
+          "title": "Sundering Slam",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus monster damage",
+              "before": "125",
+              "after": "150",
+              "note": "Bonus monster damage increased to 150 from 125."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "ashe",
+      "name": "Ashe",
+      "type": "champion",
+      "assetKey": "Ashe",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Bonus attack speed reduced to 20–60% from 25–75%.",
+      "gameplayImpact": "Ashe loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Ranger's Focus",
+          "title": "Ranger's Focus",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Bonus attack speed",
+              "before": "25–75%",
+              "after": "20–60%",
+              "note": "Bonus attack speed reduced to 20–60% from 25–75%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "caitlyn",
+      "name": "Caitlyn",
+      "type": "champion",
+      "assetKey": "Caitlyn",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "AD ratio reduced to 60–100% (lv 1–13) AD from 60–120% (lv 1–13) AD.; Non-champion AD ratio reduced to 110% AD at all levels from 110–120% (lv 1–13) AD.",
+      "gameplayImpact": "Caitlyn loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Headshot",
+          "title": "Headshot",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "AD ratio",
+              "before": "60–120% (lv 1–13) AD",
+              "after": "60–100% (lv 1–13) AD",
+              "note": "AD ratio reduced to 60–100% (lv 1–13) AD from 60–120% (lv 1–13) AD."
+            },
+            {
+              "label": "Non-champion AD ratio",
+              "before": "110–120% (lv 1–13) AD",
+              "after": "110% AD at all levels",
+              "note": "Non-champion AD ratio reduced to 110% AD at all levels from 110–120% (lv 1–13) AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "chogath",
+      "name": "Cho'Gath",
+      "type": "champion",
+      "assetKey": "Chogath",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Monster damage:; New: 100–300 (+ 30% AP).",
+      "gameplayImpact": "Cho'Gath was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Vorpal Spikes",
+          "title": "Vorpal Spikes",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Monster damage:"
+            },
+            {
+              "label": "Change",
+              "note": "New: 100–300 (+ 30% AP)."
+            },
+            {
+              "label": "Change",
+              "note": "Old: 20–100 (+ 30% AP) (+ 2.5–3.9% of target's maximum health)}}. The damage based on the target's health ratio is capped at 200 against monsters."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "dr-mundo",
+      "name": "Dr. Mundo",
+      "type": "champion",
+      "assetKey": "DrMundo",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Bonus attack damage increased to 2–3.2% maximum health from 2–2.8%|hp.",
+      "gameplayImpact": "Dr. Mundo is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Blunt Force Trauma",
+          "title": "Blunt Force Trauma",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Maximum bonus damage now correctly applies at 70% missing health, instead of being activated at 30% missing health|hp."
+            },
+            {
+              "label": "Bonus attack damage",
+              "before": "2–2",
+              "after": "2–3.2% maximum health",
+              "note": "Bonus attack damage increased to 2–3.2% maximum health from 2–2.8%|hp."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "fizz",
+      "name": "Fizz",
+      "type": "champion",
+      "assetKey": "Fizz",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Base armor increased 26 from 22.; New Effect: Damage reduction is now changed to 14 (+ 1% AP) against monsters.",
+      "gameplayImpact": "Fizz was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Base armor increased 26 from 22."
+            }
+          ]
+        },
+        {
+          "ability": "Nimble Fighter",
+          "title": "Nimble Fighter",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Damage reduction is now changed to 14 (+ 1% AP) against monsters."
+            }
+          ]
+        },
+        {
+          "ability": "Seastone Trident",
+          "title": "Seastone Trident",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Active and on-hit damage now deal 60 bonus magic damage to monsters."
+            }
+          ]
+        },
+        {
+          "ability": "Chum the Waters",
+          "title": "Chum the Waters",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "100–70 (3 ranks)",
+              "after": "120–80 (3 ranks) seconds",
+              "note": "Cooldown increased to 120–80 (3 ranks) seconds from 100–70 (3 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "hwei",
+      "name": "Hwei",
+      "type": "champion",
+      "assetKey": "Hwei",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Explosion base damage reduced to 20–80 from 20–100.; Fissure base damage per tick reduced to 5–20 from 5–25.",
+      "gameplayImpact": "Hwei was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Molten Fissure",
+          "title": "Molten Fissure",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Explosion base damage",
+              "before": "20–100",
+              "after": "20–80",
+              "note": "Explosion base damage reduced to 20–80 from 20–100."
+            },
+            {
+              "label": "Fissure base damage per tick",
+              "before": "5–25",
+              "after": "5–20",
+              "note": "Fissure base damage per tick reduced to 5–20 from 5–25."
+            },
+            {
+              "label": "Maximum fissure base damage",
+              "before": "50–250",
+              "after": "50–200",
+              "note": "Maximum fissure base damage reduced to 50–200 from 50–250."
+            },
+            {
+              "label": "Fissure AP ratio per tick",
+              "before": "5% AP",
+              "after": "6% AP",
+              "note": "Fissure AP ratio per tick increased to 6% AP from 5% AP."
+            },
+            {
+              "label": "Maximum fissure AP ratio",
+              "before": "50% AP",
+              "after": "60% AP",
+              "note": "Maximum fissure AP ratio increased to 60% AP from 50% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "jayce",
+      "name": "Jayce",
+      "type": "champion",
+      "assetKey": "Jayce",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Now deals 50 bonus physical damage to monsters.; New Effect: Now deals 50 bonus physical damage to monsters.",
+      "gameplayImpact": "Jayce is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "To the Skies!",
+          "title": "To the Skies!",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Now deals 50 bonus physical damage to monsters."
+            }
+          ]
+        },
+        {
+          "ability": "Shock Blast",
+          "title": "Shock Blast",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Now deals 50 bonus physical damage to monsters."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "jhin",
+      "name": "Jhin",
+      "type": "champion",
+      "assetKey": "Jhin",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Base attack damage increased to 61 from 59.; Bonus movement speed per bonus attack speed increased to 0.44% from 0.4%.",
+      "gameplayImpact": "Jhin is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base attack damage",
+              "before": "59",
+              "after": "61",
+              "note": "Base attack damage increased to 61 from 59."
+            }
+          ]
+        },
+        {
+          "ability": "Whisper",
+          "title": "Whisper",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus movement speed per bonus attack speed",
+              "before": "0",
+              "after": "0.44%",
+              "note": "Bonus movement speed per bonus attack speed increased to 0.44% from 0.4%."
+            }
+          ]
+        },
+        {
+          "ability": "Deadly Flourish",
+          "title": "Deadly Flourish",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "60–200",
+              "after": "70–210",
+              "note": "Base damage increased to 70–210 from 60–200."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "jinx",
+      "name": "Jinx",
+      "type": "champion",
+      "assetKey": "Jinx",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 3,
+      "tldr": "Minimum base damage reduced to 25–55 (3 ranks) from 30–60 (3 ranks).; Maximum base damage reduced to 250–550 (3 ranks) from 300–600 (3 ranks).",
+      "gameplayImpact": "Jinx loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Super Mega Death Rocket!",
+          "title": "Super Mega Death Rocket!",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Minimum base damage",
+              "before": "30–60 (3 ranks)",
+              "after": "25–55 (3 ranks)",
+              "note": "Minimum base damage reduced to 25–55 (3 ranks) from 30–60 (3 ranks)."
+            },
+            {
+              "label": "Maximum base damage",
+              "before": "300–600 (3 ranks)",
+              "after": "250–550 (3 ranks)",
+              "note": "Maximum base damage reduced to 250–550 (3 ranks) from 300–600 (3 ranks)."
+            },
+            {
+              "label": "Minimum bonus AD ratio",
+              "before": "15",
+              "after": "13% bonus AD",
+              "note": "Minimum bonus AD ratio reduced to 13% bonus AD from 15.5%|AD."
+            },
+            {
+              "label": "Maximum bonus AD ratio",
+              "before": "155%|AD",
+              "after": "130% bonus AD",
+              "note": "Maximum bonus AD ratio reduced to 130% bonus AD from 155%|AD."
+            },
+            {
+              "label": "Change",
+              "note": "New game start effect."
+            },
+            {
+              "label": "Change",
+              "note": "Smoothed out animations per form."
+            },
+            {
+              "label": "Change",
+              "note": "Updated models per form."
+            },
+            {
+              "label": "Change",
+              "note": "Added unique visual effects and models for Flame Chompers!}} per form."
+            },
+            {
+              "label": "Change",
+              "note": "Added unique homeguard visual effects per form."
+            },
+            {
+              "label": "Change",
+              "note": "Updated sound effects for animation and Flame Chompers!}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "kaisa",
+      "name": "Kai'Sa",
+      "type": "champion",
+      "assetKey": "Kaisa",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base armor reduced to 25 from 27.; Cooldown increased to 130–70 (3 ranks) seconds from 120–60 (3 ranks).",
+      "gameplayImpact": "Kai'Sa loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base armor",
+              "before": "27",
+              "after": "25",
+              "note": "Base armor reduced to 25 from 27."
+            }
+          ]
+        },
+        {
+          "ability": "Killer Instinct",
+          "title": "Killer Instinct",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "120–60 (3 ranks)",
+              "after": "130–70 (3 ranks) seconds",
+              "note": "Cooldown increased to 130–70 (3 ranks) seconds from 120–60 (3 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "malphite",
+      "name": "Malphite",
+      "type": "champion",
+      "assetKey": "Malphite",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Monster damage increased to 200% from 100%.; This applies to all parts of the ability.",
+      "gameplayImpact": "Malphite is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Thunderclap",
+          "title": "Thunderclap",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "New Effect: Monster damage",
+              "before": "100%",
+              "after": "200%",
+              "note": "New Effect: Monster damage increased to 200% from 100%."
+            },
+            {
+              "label": "Change",
+              "note": "This applies to all parts of the ability."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "mel",
+      "name": "Mel",
+      "type": "champion",
+      "assetKey": "Mel",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Projectile base damage increased to 8–50 from 8–33.; Projectile AP ratio increased to 5% AP from 3% AP.",
+      "gameplayImpact": "Mel was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Searing Brilliance",
+          "title": "Searing Brilliance",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Projectile base damage",
+              "before": "8–33",
+              "after": "8–50",
+              "note": "Projectile base damage increased to 8–50 from 8–33."
+            },
+            {
+              "label": "Projectile AP ratio",
+              "before": "3% AP",
+              "after": "5% AP",
+              "note": "Projectile AP ratio increased to 5% AP from 3% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Rebuttal",
+          "title": "Rebuttal",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Reflecting Plasma Fission (Vel'Koz)}} no longer resets the cooldown of Radiant Volley}}."
+            }
+          ]
+        },
+        {
+          "ability": "Solar Snare",
+          "title": "Solar Snare",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Root duration",
+              "before": "1",
+              "after": "1.2–1.6 seconds",
+              "note": "Root duration reduced to 1.2–1.6 seconds from 1.25–2.25."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "miss-fortune",
+      "name": "Miss Fortune",
+      "type": "champion",
+      "assetKey": "MissFortune",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "AD ratio per wave increased to 80% AD from 75% AD.",
+      "gameplayImpact": "Miss Fortune is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Bullet Time",
+          "title": "Bullet Time",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AD ratio per wave",
+              "before": "75% AD",
+              "after": "80% AD",
+              "note": "AD ratio per wave increased to 80% AD from 75% AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "nocturne",
+      "name": "Nocturne",
+      "type": "champion",
+      "assetKey": "Nocturne",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Removed: No longer stops tracking the target if the target moves beyond 3500 (based on Paranoia's rank) units.",
+      "gameplayImpact": "Nocturne loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Paranoia",
+          "title": "Paranoia",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Removed: No longer stops tracking the target if the target moves beyond 3500 (based on Paranoia's rank) units."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "ornn",
+      "name": "Ornn",
+      "type": "champion",
+      "assetKey": "Ornn",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Brittle monster damage cap increased to 260–500 from 250 at all levels.; Total monster damage cap increased to 260–500 from 155–255.",
+      "gameplayImpact": "Ornn is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Living Forge",
+          "title": "Living Forge",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Brittle monster damage cap",
+              "before": "250 at all levels",
+              "after": "260–500",
+              "note": "Brittle monster damage cap increased to 260–500 from 250 at all levels."
+            }
+          ]
+        },
+        {
+          "ability": "Bellows Breath",
+          "title": "Bellows Breath",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Total monster damage cap",
+              "before": "155–255",
+              "after": "260–500",
+              "note": "Total monster damage cap increased to 260–500 from 155–255."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "reksai",
+      "name": "Rek'Sai",
+      "type": "champion",
+      "assetKey": "RekSai",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Minion fury generation reduced to 4 from 5.; Maximum heal reduced to 9–20% maximum health from 10–20%|hp.",
+      "gameplayImpact": "Rek'Sai loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Fury of the Xer'Sai",
+          "title": "Fury of the Xer'Sai",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Minion fury generation",
+              "before": "5",
+              "after": "4",
+              "note": "Minion fury generation reduced to 4 from 5."
+            },
+            {
+              "label": "Maximum heal",
+              "before": "10–20%|hp",
+              "after": "9–20% maximum health",
+              "note": "Maximum heal reduced to 9–20% maximum health from 10–20%|hp."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "riven",
+      "name": "Riven",
+      "type": "champion",
+      "assetKey": "Riven",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Now deals 50 bonus physical damage to monsters.",
+      "gameplayImpact": "Riven is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Runic Blade",
+          "title": "Runic Blade",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Now deals 50 bonus physical damage to monsters."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "sion",
+      "name": "Sion",
+      "type": "champion",
+      "assetKey": "Sion",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Monster damage increased to 165% from 150%.",
+      "gameplayImpact": "Sion is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Glory in Death",
+          "title": "Glory in Death",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Death Surge no longer incorrectly triggers effects that activate from ultimate ability casts upon expiring (regardless of the slot used)."
+            }
+          ]
+        },
+        {
+          "ability": "Decimating Smash",
+          "title": "Decimating Smash",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Monster damage",
+              "before": "150%",
+              "after": "165%",
+              "note": "Monster damage increased to 165% from 150%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "skarner",
+      "name": "Skarner",
+      "type": "champion",
+      "assetKey": "Skarner",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Attack damage growth increased to 5 from 4.; Cooldown reduced to 8–3 seconds from 8–4.",
+      "gameplayImpact": "Skarner is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Attack damage growth",
+              "before": "4",
+              "after": "5",
+              "note": "Attack damage growth increased to 5 from 4."
+            },
+            {
+              "label": "Cooldown",
+              "before": "8–4",
+              "after": "8–3 seconds",
+              "note": "Cooldown reduced to 8–3 seconds from 8–4."
+            },
+            {
+              "label": "Target health ratio",
+              "before": "8%|hp",
+              "after": "9% of target's maximum health",
+              "note": "Target health ratio increased to 9% of target's maximum health from 8%|hp."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "swain",
+      "name": "Swain",
+      "type": "champion",
+      "assetKey": "Swain",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base damage increased to 90–250 from 80–240.; Mana cost reduced to 50–70 from 60–80.",
+      "gameplayImpact": "Swain is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Nevermove",
+          "title": "Nevermove",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "80–240",
+              "after": "90–250",
+              "note": "Base damage increased to 90–250 from 80–240."
+            },
+            {
+              "label": "Mana cost",
+              "before": "60–80",
+              "after": "50–70",
+              "note": "Mana cost reduced to 50–70 from 60–80."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "tristana",
+      "name": "Tristana",
+      "type": "champion",
+      "assetKey": "Tristana",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Attack damage growth increased to 2.9 from 2.5.",
+      "gameplayImpact": "Tristana is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Attack damage growth",
+              "before": "2",
+              "after": "2.9",
+              "note": "Attack damage growth increased to 2.9 from 2.5."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "vladimir",
+      "name": "Vladimir",
+      "type": "champion",
+      "assetKey": "Vladimir",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base health reduced to 600 from 607.; Base armor reduced to 24 from 27.",
+      "gameplayImpact": "Vladimir loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base health",
+              "before": "607",
+              "after": "600",
+              "note": "Base health reduced to 600 from 607."
+            },
+            {
+              "label": "Base armor",
+              "before": "27",
+              "after": "24",
+              "note": "Base armor reduced to 24 from 27."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "volibear",
+      "name": "Volibear",
+      "type": "champion",
+      "assetKey": "Volibear",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base attack damage increased to 65 from 62.",
+      "gameplayImpact": "Volibear is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base attack damage",
+              "before": "62",
+              "after": "65",
+              "note": "Base attack damage increased to 65 from 62."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "xayah",
+      "name": "Xayah",
+      "type": "champion",
+      "assetKey": "Xayah",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "AD ratio increased to 35–55% (lv 1–13) AD from 30–50% (lv 1–13) AD.",
+      "gameplayImpact": "Xayah is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Clean Cuts",
+          "title": "Clean Cuts",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AD ratio",
+              "before": "30–50% (lv 1–13) AD",
+              "after": "35–55% (lv 1–13) AD",
+              "note": "AD ratio increased to 35–55% (lv 1–13) AD from 30–50% (lv 1–13) AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "zaahen",
+      "name": "Zaahen",
+      "type": "champion",
+      "assetKey": "Zaahen",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Innate: Zaahen generates a stack of Determination for each enemy champion damaged by his basic attacks and abilities, lasting for 5 seconds, refreshing on subsequent triggers, and stacking up to 12 times. After the du…",
+      "gameplayImpact": "Zaahen was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": "New champion",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Innate: Zaahen generates a stack of Determination for each enemy champion damaged by his basic attacks and abilities, lasting for 5 seconds, refreshing on subsequent triggers, and stacking up to 12 times. After the duration, the stacks expire by 1–5 (lv 0–2) every 0.5 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Determination: For each stack, Zaahen gains bonus attack damage equal to 1.5–3.3% AD. At maximum stacks, this is doubled to 1.5*12*2–3.3*12*2% AD."
+            },
+            {
+              "label": "Change",
+              "note": "Periodically, if Zaahen would take death while at maximum stacks of Determination, he enters resurrection for 4 seconds: becoming invulnerable, untargetable, and lockout. Additionally, he over the duration."
+            },
+            {
+              "label": "Change",
+              "note": "Static Cooldown: 300–120 (lv 1–16) seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Active: Zaahen empowers his next basic attack within 5 seconds to have an uncancellable windup and gain 25 bonus range. On-attack, he strikes the target twice and heal himself for 5–9% of his maximum health. The strikes deal 15–75 (+ 100% AD) (+ 30–70% bonus AD) modified physical damage and the heal is reduced to 50% against non-champions."
+            },
+            {
+              "label": "Change",
+              "note": "Each strike applies on-hit effects and can critically strike forAD bonus physical damage."
+            },
+            {
+              "label": "Change",
+              "note": "After 1.5 seconds of using the empowered attack, The Darkin Glaive can be recast within the next 5 seconds at no additional cost, modifying it with a new effect."
+            },
+            {
+              "label": "Change",
+              "note": "Recast: Zaahen empowers his next basic attack within 5 seconds to have an uncancellable windup, gain 25 bonus range, deal 30–150 (+ 30–70% AD) bonus physical damage and airborne the target for 0.75 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "The Darkin Glaive deals 150% damage against monsters."
+            },
+            {
+              "label": "Change",
+              "note": "Both casts of The Darkin Glaive basic attack reset Zaahen's basic attack timer."
+            },
+            {
+              "label": "Change",
+              "note": "Cost: 25 mana."
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: 9–5 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Cast Time: None."
+            },
+            {
+              "label": "Change",
+              "note": "Active: Zaahen extends his glaive in the target direction, dealing 40–120 (+ 50% bonus AD) physical damage to enemies hit. Upon reaching maximum range, all enemies hit are dealt the same physical damage, stun for 0.25 seconds, and airborne 225 units toward Zaahen."
+            },
+            {
+              "label": "Change",
+              "note": "Cost: 50 mana."
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: 16–12 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Cast Time: 0.5 seconds, Target Range: 850, Width: 70, Speed: / ."
+            },
+            {
+              "label": "Change",
+              "note": "Active: Zaahen dashes to the target location. Upon arrival, he flourishes his glaive to deal 40–120 (+ 50% bonus AD) physical damage to nearby enemies."
+            },
+            {
+              "label": "Change",
+              "note": "Enemies hit by the outer edge are dealt 60–180 (+ 100% bonus AD) and 4–8% of the target's maximum health , with the latter capped at 400 against monsters."
+            },
+            {
+              "label": "Change",
+              "note": "Aureate Rush deals 50 bonus physical damage against monsters."
+            },
+            {
+              "label": "Change",
+              "note": "Cost: 40 mana."
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: 10–8 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Cast Time: None, Target Range: , Effect Radius: cr / cr / , Speed: ."
+            },
+            {
+              "label": "Change",
+              "note": "Passive: Zaahen gains 10–30 (3 ranks)% armor penetration."
+            },
+            {
+              "label": "Change",
+              "note": "Active: Zaahen dash into the air to the target location. He then slams his glaive down after a 0.6-second delay, unleashing a shockwave that deals 250–550 (3 ranks) (+ 200% bonus AD) physical damage to nearby enemies and heal himself for 33% of the dealt to champions."
+            },
+            {
+              "label": "Change",
+              "note": "Zaahen is lockout and gains cc-immune and 50% damage reduction from the start of the cast time. He retains these effects until after the dash."
+            },
+            {
+              "label": "Change",
+              "note": "Cost: 100 mana."
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: 110–80 (3 ranks) seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Cast Time: 0.5 seconds, Target Range: / , Effect Radius: 550, Speed: ."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust",
+        "New champion"
+      ]
+    },
+    {
+      "id": "zeri",
+      "name": "Zeri",
+      "type": "champion",
+      "assetKey": "Zeri",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Bonus movement speed per Hypercharged stack increased to 1% from 0.5%.",
+      "gameplayImpact": "Zeri is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Lightning Crash",
+          "title": "Lightning Crash",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus movement speed per Hypercharged stack",
+              "before": "0",
+              "after": "1%",
+              "note": "Bonus movement speed per Hypercharged stack increased to 1% from 0.5%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "elixir-of-iron",
+      "name": "Elixir of Iron",
+      "type": "item",
+      "assetKey": "2138",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Icons temporarily changed for the duration of the Winter Summoner's Rift map event.",
+      "gameplayImpact": "Elixir of Iron was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Icons temporarily changed for the duration of the Winter Summoner's Rift map event."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "sunfire-aegis",
+      "name": "Sunfire Aegis",
+      "type": "item",
+      "assetKey": "3068",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Monster damage increased to 200% from 160%.",
+      "gameplayImpact": "Sunfire Aegis is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Monster damage",
+              "before": "160%",
+              "after": "200%",
+              "note": "Monster damage increased to 200% from 160%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "id": "aram",
+      "name": "ARAM",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Koeshin's Crossing; Bloom Portals must now be interacted with (default: MB2 / right-click) to enter them, instead of simply having to collide with them.",
+      "gameplayImpact": "ARAM was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Koeshin's Crossing"
+            },
+            {
+              "label": "Change",
+              "note": "Bloom Portals must now be interacted with (default: MB2 / right-click) to enter them, instead of simply having to collide with them."
+            },
+            {
+              "label": "Change",
+              "note": "Entering a Bloom Portal now features a 0.1-second Warp channel."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "general",
+      "name": "General",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Koeshin's Crossing; Bloom Portals must now be interacted with (default: MB2 / right-click) to enter them, instead of simply having to collide with them.",
+      "gameplayImpact": "General was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Koeshin's Crossing"
+            },
+            {
+              "label": "Change",
+              "note": "Bloom Portals must now be interacted with (default: MB2 / right-click) to enter them, instead of simply having to collide with them."
+            },
+            {
+              "label": "Change",
+              "note": "Entering a Bloom Portal now features a 0.1-second Warp channel."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "augments",
+      "name": "Augments",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "The following augments have been added:; Undying Guard",
+      "gameplayImpact": "Augments was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "The following augments have been added:"
+            },
+            {
+              "label": "Change",
+              "note": "Undying Guard"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Gold."
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Upon activating revive, deal 100% AD (+ 110% AP) (+ 15% of target's current health) physical damage to nearby enemies and airborne all targets hit up-to 700 units over 0.75 seconds, as well as stun them for the same duration. For the next 4 seconds, gain 30% bonus movement speed and become invulnerable against enemy champions farther than cr 450 from yourself. This augment is only available for Zaahen}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-25-23-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V25.23"
+}

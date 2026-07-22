@@ -1,0 +1,909 @@
+{
+  "id": "11.7",
+  "version": "11.7",
+  "title": "*Disco music intensifies*",
+  "releaseDate": "2021-03-31",
+  "season": "11",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "*Disco music intensifies*"
+    },
+    {
+      "title": "Champion balance",
+      "description": "10 champion buffs, 8 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "*Disco music intensifies* Structured changes across 24 entities this patch.",
+  "champions": [
+    {
+      "id": "alistar",
+      "name": "Alistar",
+      "type": "champion",
+      "assetKey": "Alistar",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base damage reduced to 60–220 from 60–240.; Bonus damage reduced to 20–275 from 35–290.",
+      "gameplayImpact": "Alistar loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Pulverize",
+          "title": "Pulverize",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "60–240",
+              "after": "60–220",
+              "note": "Base damage reduced to 60–220 from 60–240."
+            }
+          ]
+        },
+        {
+          "ability": "Trample",
+          "title": "Trample",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Bonus damage",
+              "before": "35–290",
+              "after": "20–275",
+              "note": "Bonus damage reduced to 20–275 from 35–290."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "amumu",
+      "name": "Amumu",
+      "type": "champion",
+      "assetKey": "Amumu",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Mana cost reduced to 30–50 from 50–70.; Cooldown reduced to 9–5 seconds from 10–6.",
+      "gameplayImpact": "Amumu is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Bandage Toss",
+          "title": "Bandage Toss",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Mana cost",
+              "before": "50–70",
+              "after": "30–50",
+              "note": "Mana cost reduced to 30–50 from 50–70."
+            }
+          ]
+        },
+        {
+          "ability": "Tantrum",
+          "title": "Tantrum",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "10–6",
+              "after": "9–5 seconds",
+              "note": "Cooldown reduced to 9–5 seconds from 10–6."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "ashe",
+      "name": "Ashe",
+      "type": "champion",
+      "assetKey": "Ashe",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Cooldown reduced to 100–60 (3 ranks) seconds from 100–80 (3 ranks).",
+      "gameplayImpact": "Ashe is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Enchanted Crystal Arrow",
+          "title": "Enchanted Crystal Arrow",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "100–80 (3 ranks)",
+              "after": "100–60 (3 ranks) seconds",
+              "note": "Cooldown reduced to 100–60 (3 ranks) seconds from 100–80 (3 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "braum",
+      "name": "Braum",
+      "type": "champion",
+      "assetKey": "Braum",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Cooldown reduced to 16–8 seconds from 18–10.; Maximum knock up duration increased to 1–2 (3 ranks) seconds from 1–1.5 (3 ranks).",
+      "gameplayImpact": "Braum is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Unbreakable",
+          "title": "Unbreakable",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "18–10",
+              "after": "16–8 seconds",
+              "note": "Cooldown reduced to 16–8 seconds from 18–10."
+            }
+          ]
+        },
+        {
+          "ability": "Glacial Fissure",
+          "title": "Glacial Fissure",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Maximum knock up duration",
+              "before": "1–1",
+              "after": "1–2 (3 ranks) seconds",
+              "note": "Maximum knock up duration increased to 1–2 (3 ranks) seconds from 1–1.5 (3 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "hecarim",
+      "name": "Hecarim",
+      "type": "champion",
+      "assetKey": "Hecarim",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Bonus movement speed reduced to 25–65% (lv 0–3) from 25–75% (lv 0–3).",
+      "gameplayImpact": "Hecarim loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Devastating Charge",
+          "title": "Devastating Charge",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Bonus movement speed",
+              "before": "25–75% (lv 0–3)",
+              "after": "25–65% (lv 0–3)",
+              "note": "Bonus movement speed reduced to 25–65% (lv 0–3) from 25–75% (lv 0–3)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "ivern",
+      "name": "Ivern",
+      "type": "champion",
+      "assetKey": "Ivern",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base damage reduced to 70–150 from 70–170.",
+      "gameplayImpact": "Ivern loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Triggerseed",
+          "title": "Triggerseed",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "70–170",
+              "after": "70–150",
+              "note": "Base damage reduced to 70–150 from 70–170."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "kaisa",
+      "name": "Kai'Sa",
+      "type": "champion",
+      "assetKey": "Kaisa",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Cooldown increased to 130–70 (3 ranks) seconds from 110–70 (3 ranks).",
+      "gameplayImpact": "Kai'Sa loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Void Seeker",
+          "title": "Void Seeker",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Fixed a bug where Seeker's Armguard}} would affect Void Seeker's AP."
+            }
+          ]
+        },
+        {
+          "ability": "Killer Instinct",
+          "title": "Killer Instinct",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "110–70 (3 ranks)",
+              "after": "130–70 (3 ranks) seconds",
+              "note": "Cooldown increased to 130–70 (3 ranks) seconds from 110–70 (3 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "kindred",
+      "name": "Kindred",
+      "type": "champion",
+      "assetKey": "Kindred",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Bonus AD ratio increased to 75% bonus AD from 65%|AD.; Cooldown reduced to 14–10 seconds from 16–12.",
+      "gameplayImpact": "Kindred is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Dance of Arrows",
+          "title": "Dance of Arrows",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus AD ratio",
+              "before": "65%|AD",
+              "after": "75% bonus AD",
+              "note": "Bonus AD ratio increased to 75% bonus AD from 65%|AD."
+            }
+          ]
+        },
+        {
+          "ability": "Mounting Dread",
+          "title": "Mounting Dread",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "16–12",
+              "after": "14–10 seconds",
+              "note": "Cooldown reduced to 14–10 seconds from 16–12."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "lissandra",
+      "name": "Lissandra",
+      "type": "champion",
+      "assetKey": "Lissandra",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base damage increased to 80–200 from 70–190.",
+      "gameplayImpact": "Lissandra is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Ice Shard",
+          "title": "Ice Shard",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "70–190",
+              "after": "80–200",
+              "note": "Base damage increased to 80–200 from 70–190."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "mordekaiser",
+      "name": "Mordekaiser",
+      "type": "champion",
+      "assetKey": "Mordekaiser",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Single target bonus damage increased to 40–60% from 30–50%.",
+      "gameplayImpact": "Mordekaiser is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Obliterate",
+          "title": "Obliterate",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Single target bonus damage",
+              "before": "30–50%",
+              "after": "40–60%",
+              "note": "Single target bonus damage increased to 40–60% from 30–50%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "rell",
+      "name": "Rell",
+      "type": "champion",
+      "assetKey": "Rell",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Stun duration reduced to 0.5 seconds from 0.75.",
+      "gameplayImpact": "Rell loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Attract and Repel",
+          "title": "Attract and Repel",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Stun duration",
+              "before": "0",
+              "after": "0.5 seconds",
+              "note": "Stun duration reduced to 0.5 seconds from 0.75."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "teemo",
+      "name": "Teemo",
+      "type": "champion",
+      "assetKey": "Teemo",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Bonus attack speed duration increased to 5 seconds from 3.; On-hit base damage increased to 11–55 from 10–50.",
+      "gameplayImpact": "Teemo is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Guerrilla Warfare",
+          "title": "Guerrilla Warfare",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus attack speed duration",
+              "before": "3",
+              "after": "5 seconds",
+              "note": "Bonus attack speed duration increased to 5 seconds from 3."
+            }
+          ]
+        },
+        {
+          "ability": "Toxic Shot",
+          "title": "Toxic Shot",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "On-hit base damage",
+              "before": "10–50",
+              "after": "11–55",
+              "note": "On-hit base damage increased to 11–55 from 10–50."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "thresh",
+      "name": "Thresh",
+      "type": "champion",
+      "assetKey": "Thresh",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base shield reduced to 60–180 from 60–220.",
+      "gameplayImpact": "Thresh loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Dark Passage",
+          "title": "Dark Passage",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base shield",
+              "before": "60–220",
+              "after": "60–180",
+              "note": "Base shield reduced to 60–180 from 60–220."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "tristana",
+      "name": "Tristana",
+      "type": "champion",
+      "assetKey": "Tristana",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base attack damage reduced to 59 from 61.",
+      "gameplayImpact": "Tristana loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base attack damage",
+              "before": "61",
+              "after": "59",
+              "note": "Base attack damage reduced to 59 from 61."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "udyr",
+      "name": "Udyr",
+      "type": "champion",
+      "assetKey": "Udyr",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base attack damage reduced to 64 from 66.",
+      "gameplayImpact": "Udyr loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base attack damage",
+              "before": "66",
+              "after": "64",
+              "note": "Base attack damage reduced to 64 from 66."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "varus",
+      "name": "Varus",
+      "type": "champion",
+      "assetKey": "Varus",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Attack damage growth increased to 3.4 from 3.",
+      "gameplayImpact": "Varus is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Attack damage growth",
+              "before": "3",
+              "after": "3.4",
+              "note": "Attack damage growth increased to 3.4 from 3."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "yasuo",
+      "name": "Yasuo",
+      "type": "champion",
+      "assetKey": "Yasuo",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Attack damage growth increased to 3 from 2.2.",
+      "gameplayImpact": "Yasuo is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Attack damage growth",
+              "before": "2",
+              "after": "3",
+              "note": "Attack damage growth increased to 3 from 2.2."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "yorick",
+      "name": "Yorick",
+      "type": "champion",
+      "assetKey": "Yorick",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "New Effect: Marked enemy champions and large monsters now continuously Awaken nearby graves (up to the maximum of 4).; New Effect: Mist Walkers now deal 200% damage when they leap to marked enemy champions and large m…",
+      "gameplayImpact": "Yorick is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Dark Procession",
+          "title": "Dark Procession",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Undocumented/Bug Fix: Fixed a bug where the ring was a valid target for if greater than 3000 units away."
+            }
+          ]
+        },
+        {
+          "ability": "Mourning Mist",
+          "title": "Mourning Mist",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Marked enemy champions and large monsters now continuously Awaken nearby graves (up to the maximum of 4)."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Mist Walkers now deal 200% damage when they leap to marked enemy champions and large monsters."
+            },
+            {
+              "label": "Targeting type",
+              "before": "Area",
+              "after": "Location Clamped",
+              "note": "Targeting type changed to Location Clamped from Area."
+            },
+            {
+              "label": "Change",
+              "note": "If targeting outside of range, now immediately casts to max range, instead of walking into target range to cast."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "essence-reaver",
+      "name": "Essence Reaver",
+      "type": "item",
+      "assetKey": "3508",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Total cost reduced to from .; Combine cost reduced to from .",
+      "gameplayImpact": "Essence Reaver was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Total cost reduced to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Combine cost reduced to from ."
+            },
+            {
+              "label": "Attack damage",
+              "before": "55",
+              "after": "45",
+              "note": "Attack damage reduced to 45 from 55."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "everfrost",
+      "name": "Everfrost",
+      "type": "item",
+      "assetKey": "6656",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Glaciate cooldown increased to 30 seconds from 20.; Glaciate base damage reduced to 100 from 125.",
+      "gameplayImpact": "Everfrost loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Glaciate cooldown",
+              "before": "20",
+              "after": "30 seconds",
+              "note": "Glaciate cooldown increased to 30 seconds from 20."
+            },
+            {
+              "label": "Glaciate base damage",
+              "before": "125",
+              "after": "100",
+              "note": "Glaciate base damage reduced to 100 from 125."
+            },
+            {
+              "label": "Glaciate AP ratio",
+              "before": "35% AP",
+              "after": "30% AP",
+              "note": "Glaciate AP ratio reduced to 30% AP from 35% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "lord-dominiks-regards",
+      "name": "Lord Dominik's Regards",
+      "type": "item",
+      "assetKey": "3036",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Total cost increased to from .; Combine cost increased to from .",
+      "gameplayImpact": "Lord Dominik's Regards loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Total cost increased to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Combine cost increased to from ."
+            },
+            {
+              "label": "Attack damage",
+              "before": "35",
+              "after": "30",
+              "note": "Attack damage reduced to 30 from 35."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "seryldas-grudge",
+      "name": "Serylda's Grudge",
+      "type": "item",
+      "assetKey": "6694",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Total cost reduced to from .; Combine cost reduced to from .",
+      "gameplayImpact": "Serylda's Grudge is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Total cost reduced to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Combine cost reduced to from ."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "trinity-force",
+      "name": "Trinity Force",
+      "type": "item",
+      "assetKey": "3078",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Attack damage increased to 30 from 25.; Attack speed reduced to 30% from 35%.",
+      "gameplayImpact": "Trinity Force was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Attack damage",
+              "before": "25",
+              "after": "30",
+              "note": "Attack damage increased to 30 from 25."
+            },
+            {
+              "label": "Attack speed",
+              "before": "35%",
+              "after": "30%",
+              "note": "Attack speed reduced to 30% from 35%."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Basic attacks against structures now increases base attack damage by 6% for 3 seconds, stacking up to 5 times for a 30% increase."
+            },
+            {
+              "label": "Mythic passive",
+              "before": "10% bonus attack speed",
+              "after": "3 bonus attack damage, 3 ability haste and 3 bonus movement speed",
+              "note": "Mythic passive changed to 3 bonus attack damage, 3 ability haste and 3 bonus movement speed from 10% bonus attack speed."
+            },
+            {
+              "label": "Infinity Force}} attack damage",
+              "before": "35",
+              "after": "40",
+              "note": "Infinity Force}} attack damage increased to 40 from 35."
+            },
+            {
+              "label": "Infinity Force}} attack speed",
+              "before": "45%",
+              "after": "40%",
+              "note": "Infinity Force}} attack speed reduced to 40% from 45%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "turbo-chemtank",
+      "name": "Turbo Chemtank",
+      "type": "item",
+      "assetKey": "443079",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Supercharged bonus movement speed reduced to 60% from 75%.; Supercharged slow increased to 50% from 40%.",
+      "gameplayImpact": "Turbo Chemtank was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Supercharged bonus movement speed",
+              "before": "75%",
+              "after": "60%",
+              "note": "Supercharged bonus movement speed reduced to 60% from 75%."
+            },
+            {
+              "label": "Supercharged slow",
+              "before": "40%",
+              "after": "50%",
+              "note": "Supercharged slow increased to 50% from 40%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    }
+  ],
+  "systems": [],
+  "sourceUrl": "https://na.leagueoflegends.com/en-us/news/game-updates/patch-11-7-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V11.7"
+}

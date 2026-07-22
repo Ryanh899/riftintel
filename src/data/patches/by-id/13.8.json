@@ -1,0 +1,807 @@
+{
+  "id": "13.8",
+  "version": "13.8",
+  "title": "Night versus Dawn, good versus evil, we've done this many times before.",
+  "releaseDate": "2023-04-19",
+  "season": "13",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "Night versus Dawn, good versus evil, we've done this many times before."
+    },
+    {
+      "title": "Champion balance",
+      "description": "8 champion buffs, 6 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "Night versus Dawn, good versus evil, we've done this many times before. Structured changes across 19 entities this patch.",
+  "champions": [
+    {
+      "id": "aurelion-sol",
+      "name": "Aurelion Sol",
+      "type": "champion",
+      "assetKey": "AurelionSol",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Health growth reduced to 90 from 95.; Armor growth reduced to 4 from 4.3.",
+      "gameplayImpact": "Aurelion Sol loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Restored some voice lines to play when he first learns R}}."
+            }
+          ]
+        },
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Health growth",
+              "before": "95",
+              "after": "90",
+              "note": "Health growth reduced to 90 from 95."
+            },
+            {
+              "label": "Armor growth",
+              "before": "4",
+              "after": "4",
+              "note": "Armor growth reduced to 4 from 4.3."
+            }
+          ]
+        },
+        {
+          "ability": "The Skies Descend",
+          "title": "The Skies Descend",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Shockwave now properly deals damage at all times."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "ezreal",
+      "name": "Ezreal",
+      "type": "champion",
+      "assetKey": "Ezreal",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base attack damage increased to 62 from 60.",
+      "gameplayImpact": "Ezreal is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base attack damage",
+              "before": "60",
+              "after": "62",
+              "note": "Base attack damage increased to 62 from 60."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "garen",
+      "name": "Garen",
+      "type": "champion",
+      "assetKey": "Garen",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base armor increased to 38 from 36.; Base attack damage increased to 69 from 66.",
+      "gameplayImpact": "Garen is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base armor",
+              "before": "36",
+              "after": "38",
+              "note": "Base armor increased to 38 from 36."
+            },
+            {
+              "label": "Base attack damage",
+              "before": "66",
+              "after": "69",
+              "note": "Base attack damage increased to 69 from 66."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "janna",
+      "name": "Janna",
+      "type": "champion",
+      "assetKey": "Janna",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Base damage increased to 80–200 from 70–190.; Damage AP ratio increased to 60% AP from 50% AP.",
+      "gameplayImpact": "Janna is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Zephyr",
+          "title": "Zephyr",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "70–190",
+              "after": "80–200",
+              "note": "Base damage increased to 80–200 from 70–190."
+            },
+            {
+              "label": "Damage AP ratio",
+              "before": "50% AP",
+              "after": "60% AP",
+              "note": "Damage AP ratio increased to 60% AP from 50% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Eye of the Storm",
+          "title": "Eye of the Storm",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Decay delay",
+              "before": "1",
+              "after": "2.5 seconds",
+              "note": "Decay delay increased to 2.5 seconds from 1.25."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "jarvan-iv",
+      "name": "Jarvan IV",
+      "type": "champion",
+      "assetKey": "JarvanIV",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Attack damage growth reduced to 3 from 3.4.; Base damage reduced to 80–240 from 90–250.",
+      "gameplayImpact": "Jarvan IV loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Attack damage growth",
+              "before": "3",
+              "after": "3",
+              "note": "Attack damage growth reduced to 3 from 3.4."
+            }
+          ]
+        },
+        {
+          "ability": "Dragon Strike",
+          "title": "Dragon Strike",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "90–250",
+              "after": "80–240",
+              "note": "Base damage reduced to 80–240 from 90–250."
+            },
+            {
+              "label": "Change",
+              "note": "Dragon Strike}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Now properly holds the spear during the ability's cast animation."
+            },
+            {
+              "label": "Change",
+              "note": "Dragon Strike}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Now properly holds the spear during the ability's cast animation."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Left pauldron no longer rotates unnaturally after using the ability."
+            },
+            {
+              "label": "Change",
+              "note": "Demacian Standard}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Animation of flag raising up and falling down has been restored."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "kayn",
+      "name": "Kayn",
+      "type": "champion",
+      "assetKey": "Kayn",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Shadow Assassin cooldown increased to 10 seconds from 8.; Shadow Assassin bonus movement speed reduced to 70% from 80%.",
+      "gameplayImpact": "Kayn loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Shadow Step",
+          "title": "Shadow Step",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Shadow Assassin cooldown",
+              "before": "8",
+              "after": "10 seconds",
+              "note": "Shadow Assassin cooldown increased to 10 seconds from 8."
+            },
+            {
+              "label": "Shadow Assassin bonus movement speed",
+              "before": "80%",
+              "after": "70%",
+              "note": "Shadow Assassin bonus movement speed reduced to 70% from 80%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "khazix",
+      "name": "Kha'Zix",
+      "type": "champion",
+      "assetKey": "Khazix",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base damage increased to 70–170 from 60–160.",
+      "gameplayImpact": "Kha'Zix is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Taste Their Fear",
+          "title": "Taste Their Fear",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "60–160",
+              "after": "70–170",
+              "note": "Base damage increased to 70–170 from 60–160."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "kled",
+      "name": "Kled",
+      "type": "champion",
+      "assetKey": "Kled",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Now no longer kills Mist Walkers and Plants in one hit.",
+      "gameplayImpact": "Kled loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Jousting",
+          "title": "Jousting",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Undocumented: No longer counts as single target damage to non-champions hit."
+            },
+            {
+              "label": "Change",
+              "note": "Now no longer kills Mist Walkers and Plants in one hit."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "kogmaw",
+      "name": "Kog'Maw",
+      "type": "champion",
+      "assetKey": "KogMaw",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Base damage increased to 140–650 from 125–550.; New Effect: Now grants ghosting while active.",
+      "gameplayImpact": "Kog'Maw is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Icathian Surprise",
+          "title": "Icathian Surprise",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "125–550",
+              "after": "140–650",
+              "note": "Base damage increased to 140–650 from 125–550."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Now grants ghosting while active."
+            }
+          ]
+        },
+        {
+          "ability": "Caustic Spittle",
+          "title": "Caustic Spittle",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "8",
+              "after": "7 seconds",
+              "note": "Cooldown reduced to 7 seconds from 8."
+            }
+          ]
+        },
+        {
+          "ability": "Void Ooze",
+          "title": "Void Ooze",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Mana cost",
+              "before": "60–100",
+              "after": "40–100",
+              "note": "Mana cost reduced to 40–100 from 60–100."
+            },
+            {
+              "label": "Slow",
+              "before": "20–52%",
+              "after": "30–50%",
+              "note": "Slow changed to 30–50% from 20–52%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "leona",
+      "name": "Leona",
+      "type": "champion",
+      "assetKey": "Leona",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base bonus resistances increased to 20–40 from 15–35.; Base damage increased to 55–195 from 45–185.",
+      "gameplayImpact": "Leona is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Eclipse",
+          "title": "Eclipse",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base bonus resistances",
+              "before": "15–35",
+              "after": "20–40",
+              "note": "Base bonus resistances increased to 20–40 from 15–35."
+            },
+            {
+              "label": "Base damage",
+              "before": "45–185",
+              "after": "55–195",
+              "note": "Base damage increased to 55–195 from 45–185."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "lillia",
+      "name": "Lillia",
+      "type": "champion",
+      "assetKey": "Lillia",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Damage cap against monsters increased to 70–150 from 50–150.; Base heal against monsters changed to 39–54 from 24–75.",
+      "gameplayImpact": "Lillia was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Dream-Laden Bough",
+          "title": "Dream-Laden Bough",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Damage cap against monsters",
+              "before": "50–150",
+              "after": "70–150",
+              "note": "Damage cap against monsters increased to 70–150 from 50–150."
+            },
+            {
+              "label": "Base heal against monsters",
+              "before": "24–75",
+              "after": "39–54",
+              "note": "Base heal against monsters changed to 39–54 from 24–75."
+            },
+            {
+              "label": "Heal AP ratio against monsters",
+              "before": "5",
+              "after": "15% AP",
+              "note": "Heal AP ratio against monsters increased to 15% AP from 5.4% AP."
+            },
+            {
+              "label": "Base heal against champions",
+              "before": "(1 + (19 / 17) * (x - 1) * (0",
+              "after": "6–90",
+              "note": "Base heal against champions reduced to 6–90 from (1 + (19 / 17) * (x - 1) * (0.7025 + 0.0175 * (x - 1)))*6."
+            },
+            {
+              "label": "Heal AP ratio against champions",
+              "before": "18% AP",
+              "after": "30% AP",
+              "note": "Heal AP ratio against champions increased to 30% AP from 18% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "malphite",
+      "name": "Malphite",
+      "type": "champion",
+      "assetKey": "Malphite",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Attack base damage reduced to 30–70 from 30–90.; Cleave armor ratio reduced to 15% armor from 20%|armor.",
+      "gameplayImpact": "Malphite loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Thunderclap",
+          "title": "Thunderclap",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Attack base damage",
+              "before": "30–90",
+              "after": "30–70",
+              "note": "Attack base damage reduced to 30–70 from 30–90."
+            },
+            {
+              "label": "Cleave armor ratio",
+              "before": "20%|armor",
+              "after": "15% armor",
+              "note": "Cleave armor ratio reduced to 15% armor from 20%|armor."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "nidalee",
+      "name": "Nidalee",
+      "type": "champion",
+      "assetKey": "Nidalee",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base armor increased to 32 from 28.; Armor growth increased to 5 from 4.7.",
+      "gameplayImpact": "Nidalee is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base armor",
+              "before": "28",
+              "after": "32",
+              "note": "Base armor increased to 32 from 28."
+            },
+            {
+              "label": "Armor growth",
+              "before": "4",
+              "after": "5",
+              "note": "Armor growth increased to 5 from 4.7."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "poppy",
+      "name": "Poppy",
+      "type": "champion",
+      "assetKey": "Poppy",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Health ratio increased to 9% of target's maximum health from 8%|health.; Increased resistances increased to 12% from 10%.",
+      "gameplayImpact": "Poppy is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Hammer Shock",
+          "title": "Hammer Shock",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Health ratio",
+              "before": "8%|health",
+              "after": "9% of target's maximum health",
+              "note": "Health ratio increased to 9% of target's maximum health from 8%|health."
+            }
+          ]
+        },
+        {
+          "ability": "Steadfast Presence",
+          "title": "Steadfast Presence",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Increased resistances",
+              "before": "10%",
+              "after": "12%",
+              "note": "Increased resistances increased to 12% from 10%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "rakan",
+      "name": "Rakan",
+      "type": "champion",
+      "assetKey": "Rakan",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base armor reduced to 30 from 32.; Armor growth reduced to 4.9 from 5.1.",
+      "gameplayImpact": "Rakan loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base armor",
+              "before": "32",
+              "after": "30",
+              "note": "Base armor reduced to 30 from 32."
+            },
+            {
+              "label": "Armor growth",
+              "before": "5",
+              "after": "4.9",
+              "note": "Armor growth reduced to 4.9 from 5.1."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "cosmic-drive",
+      "name": "Cosmic Drive",
+      "type": "item",
+      "assetKey": "4629",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Ability power increased to 100 from 90.; Unique Passive - Spelldance:",
+      "gameplayImpact": "Cosmic Drive is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Ability power",
+              "before": "90",
+              "after": "100",
+              "note": "Ability power increased to 100 from 90."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Spelldance:"
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Damaging a champion generates a stack of 2.5% bonus movement speed every 1.5 seconds for the next 5 seconds, up to 10%|MS at 4 stacks. At maximum stacks, gain an additional 10% bonus movement speed, for a total of 20%|MS. Dealing damage refreshes this effect."
+            },
+            {
+              "label": "Change",
+              "note": "Old Effect: After dealing 3 instances of damage from basic attacks or ability damage to champions within 3 seconds, gain 15% bonus movement speed, decaying to 5%|ms over 2 seconds, and 40 ability power for 5 seconds, refreshing on damage dealt to champions though not resetting the effect."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "frozen-heart",
+      "name": "Frozen Heart",
+      "type": "item",
+      "assetKey": "323110",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Maximum damage reduction on affected damage instances reduced to 20% of the total damage from 40%.",
+      "gameplayImpact": "Frozen Heart loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Maximum damage reduction on affected damage instances",
+              "before": "40%",
+              "after": "20% of the total damage",
+              "note": "Maximum damage reduction on affected damage instances reduced to 20% of the total damage from 40%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "randuins-omen",
+      "name": "Randuin's Omen",
+      "type": "item",
+      "assetKey": "3143",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Maximum damage reduction on affected damage instances reduced to 20% of the total damage from 40%.",
+      "gameplayImpact": "Randuin's Omen loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Maximum damage reduction on affected damage instances",
+              "before": "40%",
+              "after": "20% of the total damage",
+              "note": "Maximum damage reduction on affected damage instances reduced to 20% of the total damage from 40%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "wardens-mail",
+      "name": "Warden's Mail",
+      "type": "item",
+      "assetKey": "3082",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Maximum damage reduction on affected damage instances reduced to 20% of the total damage from 40%.",
+      "gameplayImpact": "Warden's Mail loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Maximum damage reduction on affected damage instances",
+              "before": "40%",
+              "after": "20% of the total damage",
+              "note": "Maximum damage reduction on affected damage instances reduced to 20% of the total damage from 40%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    }
+  ],
+  "systems": [],
+  "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-13-8-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V13.8"
+}

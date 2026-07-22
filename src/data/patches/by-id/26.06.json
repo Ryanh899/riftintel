@@ -1,0 +1,1041 @@
+{
+  "id": "26.06",
+  "version": "26.06",
+  "title": "The dragon has learned how to drive a motorcycle, run for your lives!",
+  "releaseDate": "2026-03-18",
+  "season": "26",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "The dragon has learned how to drive a motorcycle, run for your lives!"
+    },
+    {
+      "title": "Champion balance",
+      "description": "3 champion buffs, 4 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "The dragon has learned how to drive a motorcycle, run for your lives! Structured changes across 16 entities this patch.",
+  "champions": [
+    {
+      "id": "ahri",
+      "name": "Ahri",
+      "type": "champion",
+      "assetKey": "Ahri",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base damage per hit reduced to 35–135 from 40–140.",
+      "gameplayImpact": "Ahri loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Orb of Deception",
+          "title": "Orb of Deception",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base damage per hit",
+              "before": "40–140",
+              "after": "35–135",
+              "note": "Base damage per hit reduced to 35–135 from 40–140."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "azir",
+      "name": "Azir",
+      "type": "champion",
+      "assetKey": "Azir",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "AP ratio increased to 35–55% AP from 35% AP at all ranks.; Base damage per level increased to 0–8 from 0–5.",
+      "gameplayImpact": "Azir is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Conquering Sands",
+          "title": "Conquering Sands",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "35% AP at all ranks",
+              "after": "35–55% AP",
+              "note": "AP ratio increased to 35–55% AP from 35% AP at all ranks."
+            },
+            {
+              "label": "Undocumented: Spear length",
+              "before": "370",
+              "after": "325 units",
+              "note": "Undocumented: Spear length reduced to 325 units from 370."
+            }
+          ]
+        },
+        {
+          "ability": "Arise!",
+          "title": "Arise!",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage per level",
+              "before": "0–5",
+              "after": "0–8",
+              "note": "Base damage per level increased to 0–8 from 0–5."
+            },
+            {
+              "label": "AP ratio",
+              "before": "32",
+              "after": "35–65% AP",
+              "note": "AP ratio increased to 35–65% AP from 32.5–62.5% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Undocumented / Bug: Soldier attacks now once again only grant 1 Conqueror}} stack if the first champion hit was the primary target."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "lissandra",
+      "name": "Lissandra",
+      "type": "champion",
+      "assetKey": "Lissandra",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Armor growth reduced to 4.2 from 4.9.; Cooldown reduced to 7–3 seconds from 8–4.",
+      "gameplayImpact": "Lissandra was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Armor growth",
+              "before": "4",
+              "after": "4.2",
+              "note": "Armor growth reduced to 4.2 from 4.9."
+            }
+          ]
+        },
+        {
+          "ability": "Ice Shard",
+          "title": "Ice Shard",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "8–4",
+              "after": "7–3 seconds",
+              "note": "Cooldown reduced to 7–3 seconds from 8–4."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "olaf",
+      "name": "Olaf",
+      "type": "champion",
+      "assetKey": "Olaf",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Base attack speed increased to 0.72 from 0.694.; Slow increased to 30–50% from 25–45%.",
+      "gameplayImpact": "Olaf was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base attack speed",
+              "before": "0",
+              "after": "0.72",
+              "note": "Base attack speed increased to 0.72 from 0.694."
+            }
+          ]
+        },
+        {
+          "ability": "Undertow",
+          "title": "Undertow",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Slow",
+              "before": "25–45%",
+              "after": "30–50%",
+              "note": "Slow increased to 30–50% from 25–45%."
+            },
+            {
+              "label": "Slow duration",
+              "before": "1",
+              "after": "1–3 (400–1000) seconds",
+              "note": "Slow duration changed to 1–3 (400–1000) seconds from 1.5–2.5 (400–1000)."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Enemies only struck by the Lollipop at the end of the Q are now slowed for the proper amount of time (was a fixed 30% slow)."
+            }
+          ]
+        },
+        {
+          "ability": "Tough It Out",
+          "title": "Tough It Out",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: If you cast W while the previous cast was still active, it now properly re-applies its effects rather than just refreshing the prior cast (you get the attack reset and the AS value is updated)."
+            }
+          ]
+        },
+        {
+          "ability": "Reckless Swing",
+          "title": "Reckless Swing",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Health cost",
+              "before": "30%",
+              "after": "40% of damage",
+              "note": "Health cost increased to 40% of damage from 30%."
+            },
+            {
+              "label": "Base health cost",
+              "before": "21–75",
+              "after": "28–100",
+              "note": "Base health cost increased to 28–100 from 21–75."
+            },
+            {
+              "label": "Health cost AD ratio",
+              "before": "15% AD",
+              "after": "20% AD",
+              "note": "Health cost AD ratio increased to 20% AD from 15% AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "pyke",
+      "name": "Pyke",
+      "type": "champion",
+      "assetKey": "Pyke",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base armor reduced to 37 from 43.",
+      "gameplayImpact": "Pyke loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base armor",
+              "before": "43",
+              "after": "37",
+              "note": "Base armor reduced to 37 from 43."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "shen",
+      "name": "Shen",
+      "type": "champion",
+      "assetKey": "Shen",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Monster damage cap reduced to 100–200 from 120–200.",
+      "gameplayImpact": "Shen loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Twilight Assault",
+          "title": "Twilight Assault",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Monster damage cap",
+              "before": "120–200",
+              "after": "100–200",
+              "note": "Monster damage cap reduced to 100–200 from 120–200."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "shyvana",
+      "name": "Shyvana",
+      "type": "champion",
+      "assetKey": "Shyvana",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "New splash artwork for , , , and .; Adjusted splash artwork for , , , , and .",
+      "gameplayImpact": "Shyvana was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": "Full Relaunch",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New splash artwork for , , , and ."
+            },
+            {
+              "label": "Change",
+              "note": "Adjusted splash artwork for , , , , and ."
+            },
+            {
+              "label": "Change",
+              "note": "Skin renamed to Shyvana Ironscale from Ironscale Shyvana."
+            }
+          ]
+        },
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Undocumented: Base health",
+              "before": "665",
+              "after": "625",
+              "note": "Undocumented: Base health reduced to 625 from 665."
+            },
+            {
+              "label": "Undocumented: Health growth",
+              "before": "104",
+              "after": "100",
+              "note": "Undocumented: Health growth reduced to 100 from 104."
+            },
+            {
+              "label": "Undocumented: Base armor",
+              "before": "38",
+              "after": "35",
+              "note": "Undocumented: Base armor reduced to 35 from 38."
+            },
+            {
+              "label": "Undocumented: Armor growth",
+              "before": "4",
+              "after": "4",
+              "note": "Undocumented: Armor growth reduced to 4 from 4.55."
+            },
+            {
+              "label": "Undocumented: Magic resistance growth",
+              "before": "1",
+              "after": "2.05",
+              "note": "Undocumented: Magic resistance growth increased to 2.05 from 1.5."
+            },
+            {
+              "label": "Undocumented: Base health regeneration",
+              "before": "8",
+              "after": "7",
+              "note": "Undocumented: Base health regeneration reduced to 7 from 8.5."
+            },
+            {
+              "label": "Undocumented: Health regeneration growth",
+              "before": "0",
+              "after": "0.65",
+              "note": "Undocumented: Health regeneration growth reduced to 0.65 from 0.8."
+            },
+            {
+              "label": "Undocumented: Base attack damage",
+              "before": "66",
+              "after": "62",
+              "note": "Undocumented: Base attack damage reduced to 62 from 66."
+            },
+            {
+              "label": "Undocumented: Base attack speed",
+              "before": "0",
+              "after": "0.625",
+              "note": "Undocumented: Base attack speed reduced to 0.625 from 0.658."
+            },
+            {
+              "label": "Undocumented: Attack speed growth",
+              "before": "2",
+              "after": "2%",
+              "note": "Undocumented: Attack speed growth reduced to 2% from 2.5%."
+            },
+            {
+              "label": "Undocumented: Attack range",
+              "before": "125",
+              "after": "150 units",
+              "note": "Undocumented: Attack range increased to 150 units from 125."
+            },
+            {
+              "label": "Change",
+              "note": "Innate: Shyvana generates Scalemail stack from scoring takedown against certain enemies. Large monster and large minions grant 1 stack, while enemy champions and epic monsters grant 3."
+            },
+            {
+              "label": "Change",
+              "note": "Scalemail: For each stack, Shyvana gains 0.4 bonus armor and 0.4 bonus magic resistance."
+            },
+            {
+              "label": "Change",
+              "note": "Passive: Shyvana's basic attacks on-hit deal bonus magic damage equal to 1% . Against non-champions, this damage deals a minimum of 10 and is capped at 200. Additionally, her basic attacks on-hit reduce the remaining cooldown of Emberstrike by 1.25 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Active: Shyvana empowers her next basic attack within 6 seconds to have an uncancellable windup, gain range|50 bonus range and trigger a blast in the target's direction that deals 10–30 (+ 110% AD) (+ 25% AP) modified physical damage to enemies hit in a cone. Emberstrike's damage to the primary target is affected by critical strike modifiers. After 1.5 seconds of using the empowered attack, or immediately after her next basic attack, Shyvana can recast Emberstrike within and the next 4 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "First Recast: Shyvana mimics the first cast's effects, instead creating the blast around the primary target."
+            },
+            {
+              "label": "Change",
+              "note": "Dragon's Descent|Dragon Form Bonus:}} After 1.5 seconds of using the recast's empowered attack, or immediately after her next basic attack, Shyvana can recast Emberstrike a second time within and the next 4 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Second Recast: Shyvana empowers her next basic attack within 6 seconds to have an uncancellable windup, gain range|50 bonus range and cause her to bite the target, dealing them 15–45 (+ 165% AD) (+ 37.5% AP) . This attack cannot critically strike."
+            },
+            {
+              "label": "Change",
+              "note": "Emberstrike's empowered attack deals 10 bonus damage to monsters."
+            },
+            {
+              "label": "Change",
+              "note": "All Emberstrike casts basic attack reset Shyvana's basic attack timer."
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: 10–6 seconds (starts post-effect)."
+            },
+            {
+              "label": "Change",
+              "note": "Cast Time: None, Effect Radius: ."
+            },
+            {
+              "label": "Change",
+              "note": "Active: Shyvana grants herself a shield for 60–140 (+ 5% maximum health) for 2.5 seconds, increased by 30% for every nearby enemy champion. While the shield holds, she gains 25% bonus movement speed, increased to while facing sight enemy champions."
+            },
+            {
+              "label": "Change",
+              "note": "After 1 second, Inferno Aegis can be recast while the shield holds and does so automatically after it expires or is broken."
+            },
+            {
+              "label": "Change",
+              "note": "Recast: Shyvana consumes the shield to unleash an explosion around her, dealing 80–160 (+ 40% bonus AD) (+ 20% AP) magic damage to all nearby enemies."
+            },
+            {
+              "label": "Change",
+              "note": "Dragon's Descent|Dragon Form Bonus:}} If the recast's explosion hits an enemy champion, Shyvana heal for 100+(250-100)*(x-1)/17 (1–20) (+ 10% bonus AD) (+ 5% AP), increased by 0–100% (over 0–100)|health for a maximum heal of (100+(250-100)*(x-1)/17)*2 (1–20) (+ 20% bonus AD) (+ 10% AP)."
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: 14–12 seconds (starts on-cast)."
+            },
+            {
+              "label": "Change",
+              "note": "Cast Time: None, Effect Radius: ."
+            },
+            {
+              "label": "Change",
+              "note": "Active: Shyvana launches a fireball in the target direction that explodes upon colliding with the first enemy or reaching maximum range, dealing 80–240 (+ 50% bonus AD) (+ 70% AP) magic damage to all nearby enemies and slowing them by 30–50% for 2 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Dragon's Descent|Dragon Form Bonus:}} Molten Burst's fireball damage is increased by 25%. The fireball is wider, can pass through enemies, and scorches the ground along its path for 2 seconds. Upon hitting an enemy champion or large monster, or reaching maximum range, the fireball triggers an explosion centered around the target or location that deals the same damage to nearby enemies and applies the same slow. The explosion also scorches the ground in the same radius for 2 seconds. Enemies within a scorched field are dealt 15–4 (+ 5/4% AP) magic damage every 0.25 seconds, for a total maximum damage of 30–50 (+ 10% AP). Enemies may be damaged by only one scorched field at a time. Subsequent explosions that hit the same target deal 50% damage."
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: 12–10 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Cast Time: / , Effect Radius: / , Width: / , Speed: / ."
+            },
+            {
+              "label": "Change",
+              "note": "Passive - Fury: Shyvana generates 0.5–1 (3 ranks)|Fury (+ 0.015 per 1 ultimate haste) Fury per second while in Human Form. Her basic attacks and abilities also generate 1.25 Dragon Fury for every enemy they hit, up to once per enemy per cast instance and increasedduring Dragon Form. Against non-champions hit by abilities, the generated amount is reduced toShyvana gains 100 Dragon Fury upon learning Dragon's Descent."
+            },
+            {
+              "label": "Change",
+              "note": "Active: Shyvana transforms into Dragon Form and dash with displacement immunity in the target direction, exhaling a wave of fire in a cone along the way that deals 150–350 (3 ranks) (+ 100% AP) magic damage to enemies struck and fear them for 1 second."
+            },
+            {
+              "label": "Change",
+              "note": "Dragon Form: Shyvana gains 150–350 (3 ranks) health|bonus health, 25–75 (3 ranks) range|bonus attack range, and 5–20 (3 ranks)% increased size. Her basic abilities are also empowered to apply an additional effect. She maintains Dragon Form at a recurring cost of Dragon Fury, returning to Human Form once all Dragon Fury has been depleted."
+            },
+            {
+              "label": "Change",
+              "note": "Fury is required to cast this ability."
+            },
+            {
+              "label": "Change",
+              "note": "Cost: 3. every 0.5 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Cast Time: 0.25 seconds, Target Range: / ."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust",
+        "Full Relaunch"
+      ]
+    },
+    {
+      "id": "skarner",
+      "name": "Skarner",
+      "type": "champion",
+      "assetKey": "Skarner",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Target's health ratio increased to 11% of target's maximum health from 9%|health.; Mana cost reduced to 30 from 45.",
+      "gameplayImpact": "Skarner is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Target's health ratio",
+              "before": "9%|health",
+              "after": "11% of target's maximum health",
+              "note": "Target's health ratio increased to 11% of target's maximum health from 9%|health."
+            },
+            {
+              "label": "Mana cost",
+              "before": "45",
+              "after": "30",
+              "note": "Mana cost reduced to 30 from 45."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "tryndamere",
+      "name": "Tryndamere",
+      "type": "champion",
+      "assetKey": "Tryndamere",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Attack speed ratio increased to 0.725 from 0.694.",
+      "gameplayImpact": "Tryndamere is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Attack speed ratio",
+              "before": "0",
+              "after": "0.725",
+              "note": "Attack speed ratio increased to 0.725 from 0.694."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "zaahen",
+      "name": "Zaahen",
+      "type": "champion",
+      "assetKey": "Zaahen",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Second hit base damage reduced to 30–110 from 40–120.; Second hit bonus AD ratio reduced to 30% bonus AD from 50%|AD.",
+      "gameplayImpact": "Zaahen loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Dreaded Return",
+          "title": "Dreaded Return",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Second hit base damage",
+              "before": "40–120",
+              "after": "30–110",
+              "note": "Second hit base damage reduced to 30–110 from 40–120."
+            },
+            {
+              "label": "Second hit bonus AD ratio",
+              "before": "50%|AD",
+              "after": "30% bonus AD",
+              "note": "Second hit bonus AD ratio reduced to 30% bonus AD from 50%|AD."
+            }
+          ]
+        },
+        {
+          "ability": "Aureate Rush",
+          "title": "Aureate Rush",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Bonus monster damage",
+              "before": "75",
+              "after": "50",
+              "note": "Bonus monster damage reduced to 50 from 75."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "chempunk-chainsword",
+      "name": "Chempunk Chainsword",
+      "type": "item",
+      "assetKey": "6609",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Total cost reduced to from .; Combine cost reduced to from .",
+      "gameplayImpact": "Chempunk Chainsword is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Total cost reduced to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Combine cost reduced to from ."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "ruby-crystal",
+      "name": "Ruby Crystal",
+      "type": "item",
+      "assetKey": "1028",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Now builds into Sunfire Aegis}}.",
+      "gameplayImpact": "Ruby Crystal was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Now builds into Sunfire Aegis}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "sunfire-aegis",
+      "name": "Sunfire Aegis",
+      "type": "item",
+      "assetKey": "3068",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "New Recipe: Bami's Cinder}} + Chain Vest}} + Ruby Crystal}} + = .; Old Recipe: Bami's Cinder}} + Chain Vest}} + = .",
+      "gameplayImpact": "Sunfire Aegis was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Recipe: Bami's Cinder}} + Chain Vest}} + Ruby Crystal}} + = ."
+            },
+            {
+              "label": "Change",
+              "note": "Old Recipe: Bami's Cinder}} + Chain Vest}} + = ."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "id": "arena",
+      "name": "Arena",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "The following augments have been added:; Big Dragon Energy",
+      "gameplayImpact": "Arena was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "The following augments have been added:"
+            },
+            {
+              "label": "Change",
+              "note": "Big Dragon Energy"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Gold"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Start combat with full Fury and it no longer decays while in Dragon's Descent|Dragon Form}}. While in Dragon's Descent|Dragon Form}} Emberstrike}}'s final strike does 200% damage. This augment is only available for Shyvana}}."
+            },
+            {
+              "label": "Change",
+              "note": "Crown of the Shattered Queen}}"
+            },
+            {
+              "label": "Safeguard damage reduction",
+              "before": "50%",
+              "after": "90%",
+              "note": "Safeguard damage reduction increased to 90% from 50%."
+            },
+            {
+              "label": "Safeguard linger duration",
+              "before": "3 seconds",
+              "after": "1.25",
+              "note": "Safeguard linger duration reduced to 1.25 from 3 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Diamond-Tipped Spear}}"
+            },
+            {
+              "label": "Sweet Spot maximum range",
+              "before": "1000",
+              "after": "800",
+              "note": "Sweet Spot maximum range reduced to 800 from 1000."
+            },
+            {
+              "label": "Sweet Spot maximum damage from abilities increase",
+              "before": "40%",
+              "after": "50%",
+              "note": "Sweet Spot maximum damage from abilities increase increased to 50% from 40%."
+            },
+            {
+              "label": "Change",
+              "note": "Divine Sunderer}}"
+            },
+            {
+              "label": "Change",
+              "note": "Spellblade damage health ratio increased to from ."
+            },
+            {
+              "label": "Spellblade heal AD ratio",
+              "before": "99% base AD",
+              "after": "126% base AD",
+              "note": "Spellblade heal AD ratio increased to 126% base AD from 99% base AD."
+            },
+            {
+              "label": "Change",
+              "note": "Spellblade heal health ratio increased to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Fiendhunter Bolts}}"
+            },
+            {
+              "label": "Opening Barrage cooldown",
+              "before": "60",
+              "after": "20",
+              "note": "Opening Barrage cooldown reduced to 20 from 60."
+            },
+            {
+              "label": "Change",
+              "note": "Goredrinker}}"
+            },
+            {
+              "label": "Thirsting Slash heal AD ratio",
+              "before": "20%",
+              "after": "35%",
+              "note": "Thirsting Slash heal AD ratio increased to 35% from 20%."
+            },
+            {
+              "label": "Thirsting Slash heal missing health ratio",
+              "before": "15%",
+              "after": "18%",
+              "note": "Thirsting Slash heal missing health ratio increased to 18% from 15%."
+            },
+            {
+              "label": "Change",
+              "note": "Night Harvester}}"
+            },
+            {
+              "label": "Soulrend base damage",
+              "before": "125",
+              "after": "160",
+              "note": "Soulrend base damage increased to 160 from 125."
+            },
+            {
+              "label": "Soulrend AP scaling",
+              "before": "15%",
+              "after": "40%",
+              "note": "Soulrend AP scaling increased to 40% from 15%."
+            },
+            {
+              "label": "Change",
+              "note": "Stat Bonus|Stat Bonus Anvil}}"
+            },
+            {
+              "label": "Prismatic Omnivamp shard",
+              "before": "",
+              "after": "omnivamp",
+              "note": "Prismatic Omnivamp shard increased to omnivamp from ."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "augments",
+      "name": "Augments",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "The following augments have been added:; Big Dragon Energy",
+      "gameplayImpact": "Augments loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "The following augments have been added:"
+            },
+            {
+              "label": "Change",
+              "note": "Big Dragon Energy"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Gold"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Start combat with full Fury and it no longer decays while in Dragon's Descent|Dragon Form}}. While in Dragon's Descent|Dragon Form}} Emberstrike}}'s final strike does 200% damage. This augment is only available for Shyvana}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "mode",
+      "name": "Mode",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Crown of the Shattered Queen}}; Safeguard damage reduction increased to 90% from 50%.",
+      "gameplayImpact": "Mode was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Crown of the Shattered Queen}}"
+            },
+            {
+              "label": "Safeguard damage reduction",
+              "before": "50%",
+              "after": "90%",
+              "note": "Safeguard damage reduction increased to 90% from 50%."
+            },
+            {
+              "label": "Safeguard linger duration",
+              "before": "3 seconds",
+              "after": "1.25",
+              "note": "Safeguard linger duration reduced to 1.25 from 3 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Diamond-Tipped Spear}}"
+            },
+            {
+              "label": "Sweet Spot maximum range",
+              "before": "1000",
+              "after": "800",
+              "note": "Sweet Spot maximum range reduced to 800 from 1000."
+            },
+            {
+              "label": "Sweet Spot maximum damage from abilities increase",
+              "before": "40%",
+              "after": "50%",
+              "note": "Sweet Spot maximum damage from abilities increase increased to 50% from 40%."
+            },
+            {
+              "label": "Change",
+              "note": "Divine Sunderer}}"
+            },
+            {
+              "label": "Change",
+              "note": "Spellblade damage health ratio increased to from ."
+            },
+            {
+              "label": "Spellblade heal AD ratio",
+              "before": "99% base AD",
+              "after": "126% base AD",
+              "note": "Spellblade heal AD ratio increased to 126% base AD from 99% base AD."
+            },
+            {
+              "label": "Change",
+              "note": "Spellblade heal health ratio increased to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Fiendhunter Bolts}}"
+            },
+            {
+              "label": "Opening Barrage cooldown",
+              "before": "60",
+              "after": "20",
+              "note": "Opening Barrage cooldown reduced to 20 from 60."
+            },
+            {
+              "label": "Change",
+              "note": "Goredrinker}}"
+            },
+            {
+              "label": "Thirsting Slash heal AD ratio",
+              "before": "20%",
+              "after": "35%",
+              "note": "Thirsting Slash heal AD ratio increased to 35% from 20%."
+            },
+            {
+              "label": "Thirsting Slash heal missing health ratio",
+              "before": "15%",
+              "after": "18%",
+              "note": "Thirsting Slash heal missing health ratio increased to 18% from 15%."
+            },
+            {
+              "label": "Change",
+              "note": "Night Harvester}}"
+            },
+            {
+              "label": "Soulrend base damage",
+              "before": "125",
+              "after": "160",
+              "note": "Soulrend base damage increased to 160 from 125."
+            },
+            {
+              "label": "Soulrend AP scaling",
+              "before": "15%",
+              "after": "40%",
+              "note": "Soulrend AP scaling increased to 40% from 15%."
+            },
+            {
+              "label": "Change",
+              "note": "Stat Bonus|Stat Bonus Anvil}}"
+            },
+            {
+              "label": "Prismatic Omnivamp shard",
+              "before": "",
+              "after": "omnivamp",
+              "note": "Prismatic Omnivamp shard increased to omnivamp from ."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-6-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V26.06"
+}

@@ -1,0 +1,2336 @@
+{
+  "id": "14.22",
+  "version": "14.22",
+  "title": "\"As your General, all of your mistakes reflect on my leadership. You would be wi…",
+  "releaseDate": "2024-11-06",
+  "season": "14",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "\"As your General, all of your mistakes reflect on my leadership. You would be wise to remember that.\""
+    },
+    {
+      "title": "Champion balance",
+      "description": "15 champion buffs, 11 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "\"As your General, all of your mistakes reflect on my leadership. You would be wise to remember that.\" Structured changes across 25 entities this patch.",
+  "champions": [
+    {
+      "id": "aatrox",
+      "name": "Aatrox",
+      "type": "champion",
+      "assetKey": "Aatrox",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Bonus attack damage reduced to 20–40 (3 ranks)% AD from 20–45 (3 ranks)% AD.",
+      "gameplayImpact": "Aatrox loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "World Ender",
+          "title": "World Ender",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Bonus attack damage",
+              "before": "20–45 (3 ranks)% AD",
+              "after": "20–40 (3 ranks)% AD",
+              "note": "Bonus attack damage reduced to 20–40 (3 ranks)% AD from 20–45 (3 ranks)% AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "ambessa",
+      "name": "Ambessa",
+      "type": "champion",
+      "assetKey": "Ambessa",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Innate: During the lockout of Ambessa's abilities, inputting an causes her to dash to or the target or location, respectively, after the lockout ends. This dash cannot pass through terrain. Ambessa cannot dash while i…",
+      "gameplayImpact": "Ambessa was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": "New Champion",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Innate: During the lockout of Ambessa's abilities, inputting an causes her to dash to or the target or location, respectively, after the lockout ends. This dash cannot pass through terrain. Ambessa cannot dash while immobilize or ground."
+            },
+            {
+              "label": "Change",
+              "note": "Innate: Whenever Ambessa casts an ability, she generates a stack of Medarda Maxim after the ability's respective lockout for 4 seconds, refreshing with subsequent casts and stacking up to 3 times."
+            },
+            {
+              "label": "Change",
+              "note": "Medarda Maxim: Ambessa's next basic attack on-attack is empowered to have an uncancellable windup, gain 75 bonus range and 50% bonus attack speed, and consume a stack to deal 5–30|physical damage (+ 30% bonus AD) bonus physical damage and restore energy|40–70 energy."
+            },
+            {
+              "label": "Change",
+              "note": "Target Range: / , Speed: 770–950 + 100% movement speed."
+            },
+            {
+              "label": "Change",
+              "note": "Active: Ambessa enters a 0.225-second lockout, at the end of which she slashes with her twin drakehounds in a cone in the target direction, dealing 40/2 to 120/2 (+ 30% bonus AD) (+ 2/2 to 6/2% physical damage to enemies hit. The damage is against enemies hit by the outer edge."
+            },
+            {
+              "label": "Change",
+              "note": "dash may be buffered during the lockout or initiated within 0.275 seconds of the lockout ending, and Ambessa will perform the dash after her slash completes."
+            },
+            {
+              "label": "Change",
+              "note": "If this hits at least one enemy, Ambessa can cast Sundering Slam}} within the next 3.5 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Against monsters, Cunning Sweep deals 125 bonus physical damage and the damage based on their health ratio is capped at 100–300."
+            },
+            {
+              "label": "Change",
+              "note": "Cost: 70 energy."
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: 14–10 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Cast Time: None, Effect Radius: er / ."
+            },
+            {
+              "label": "Change",
+              "note": "Active: Ambessa enters a 0.225-second lockout, at the end of which she slams her twin drakehounds in a line in the target direction, dealing 50/2 to 150/2 (+ 45% bonus AD) (+ 2/2 to 6/2% physical damage to enemies hit. The damage is against the first enemy hit."
+            },
+            {
+              "label": "Change",
+              "note": "dash may be buffered during the lockout or initiated within 0.275 seconds of the lockout ending, and Ambessa will perform the dash after her slam completes."
+            },
+            {
+              "label": "Change",
+              "note": "Against monsters, Sundering Slam deals 125 bonus physical damage and the damage based on their health ratio is capped at 100–300."
+            },
+            {
+              "label": "Change",
+              "note": "Cost: 70 energy."
+            },
+            {
+              "label": "Change",
+              "note": "Cast Time: None, Range: er 650, Width: er 40."
+            },
+            {
+              "label": "Change",
+              "note": "Active: Ambessa braces herself for up to 0.5 seconds, during which in the first 0.225 seconds she is lockout. After Ambessa finishes bracing, she smashes the ground beneath her, dealing 50–150 (+ 50% bonus AD) physical damage to nearby enemies."
+            },
+            {
+              "label": "Change",
+              "note": "dash may be buffered during the lockout or initiated within 0.25 seconds of the lockout ending."
+            },
+            {
+              "label": "Change",
+              "note": "Ambessa additionally shield herself for 85–350 (+ 175% bonus AD) for 2 seconds upon cast. If the shield mitigates any amount of damage taken from champions, large monsters, or turret before Ambessa smashes the ground, Repudiation's damage is increased by 50%."
+            },
+            {
+              "label": "Change",
+              "note": "Ambessa will smash the ground at the end of dash if she would finish bracing during it, and otherwise always smashes the ground from wherever she is at the end of the bracing time."
+            },
+            {
+              "label": "Change",
+              "note": "Cost: 70 energy."
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: 18–14 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Cast Time: None, Effect Radius: er 325."
+            },
+            {
+              "label": "Change",
+              "note": "Active: Ambessa enters a 0.225-second lockout and spins her twin drakehounds around her to deal 40–140 (+ 40–80% bonus AD) physical damage to nearby enemies and slow them by 99% decaying over 1 second."
+            },
+            {
+              "label": "Change",
+              "note": "dash may be buffered during the lockout or initiated within 0.275 seconds of the lockout ending; in either case, she will spin a second time at the end of the dash to apply the same effects."
+            },
+            {
+              "label": "Change",
+              "note": "Cost: 70 energy."
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: 13–9 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Cast Time: None, Effect Radius: er 325."
+            },
+            {
+              "label": "Change",
+              "note": "Passive: Ambessa gains 10–30 (3 ranks)% armor penetration and heals herself for 10–15 (3 ranks)% (+ 50% life steal) of the she deals to enemies with her active abilities, reduced to 25% against minions and 40% versus monsters."
+            },
+            {
+              "label": "Change",
+              "note": "Active: Ambessa prepares a strike in a line in the target direction, then blinks behind the farthest enemy champion within the area and seizes them. If she successfully seizes the target, Ambessa attach them to herself and suppression them for 0.75 seconds, during which she true sight them and picks them up off the ground to afterwards crash them back down, dealing 150–350 (+ 80% bonus AD) physical damage and stun them for 0.4 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Ambessa is displacement immune and lockout during the cast time and while the target is suppressed, lingering for 0.1 seconds afterwards. dash may be buffered during the cast time or lockout, as well as initiated within 0.275 seconds of the lockout ending."
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: 130–100 (3 ranks) seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Cast Time: 0.55 seconds, Range: er 1250, Width: er 65."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust",
+        "New Champion"
+      ]
+    },
+    {
+      "id": "anivia",
+      "name": "Anivia",
+      "type": "champion",
+      "assetKey": "Anivia",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Armor growth reduced to 4.5 from 4.9.; AP ratio reduced to 55% AP from 60% AP.",
+      "gameplayImpact": "Anivia loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Armor growth",
+              "before": "4",
+              "after": "4.5",
+              "note": "Armor growth reduced to 4.5 from 4.9."
+            }
+          ]
+        },
+        {
+          "ability": "Frostbite",
+          "title": "Frostbite",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "60% AP",
+              "after": "55% AP",
+              "note": "AP ratio reduced to 55% AP from 60% AP."
+            },
+            {
+              "label": "Chilled AP ratio",
+              "before": "120% AP",
+              "after": "110% AP",
+              "note": "Chilled AP ratio reduced to 110% AP from 120% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "blitzcrank",
+      "name": "Blitzcrank",
+      "type": "champion",
+      "assetKey": "Blitzcrank",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "AD ratio increased to 100% AD from 80% AD.",
+      "gameplayImpact": "Blitzcrank is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Power Fist",
+          "title": "Power Fist",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AD ratio",
+              "before": "80% AD",
+              "after": "100% AD",
+              "note": "AD ratio increased to 100% AD from 80% AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "briar",
+      "name": "Briar",
+      "type": "champion",
+      "assetKey": "Briar",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base health increased to 625 from 590.",
+      "gameplayImpact": "Briar is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base health",
+              "before": "590",
+              "after": "625",
+              "note": "Base health increased to 625 from 590."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "corki",
+      "name": "Corki",
+      "type": "champion",
+      "assetKey": "Corki",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Attack damage growth reduced to 2 from 2.5.; Mana growth reduced to 40 from 54.",
+      "gameplayImpact": "Corki loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Attack damage growth",
+              "before": "2",
+              "after": "2",
+              "note": "Attack damage growth reduced to 2 from 2.5."
+            },
+            {
+              "label": "Mana growth",
+              "before": "54",
+              "after": "40",
+              "note": "Mana growth reduced to 40 from 54."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "ekko",
+      "name": "Ekko",
+      "type": "champion",
+      "assetKey": "Ekko",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Entering stasis now destroys homing projectiles.",
+      "gameplayImpact": "Ekko is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Timewinder",
+          "title": "Timewinder",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: No longer sometimes fails to apply the slow."
+            }
+          ]
+        },
+        {
+          "ability": "Phase Dive",
+          "title": "Phase Dive",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Attack now properly consumes Hail of Blades}}."
+            }
+          ]
+        },
+        {
+          "ability": "Chronobreak",
+          "title": "Chronobreak",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Entering stasis now destroys homing projectiles."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "fizz",
+      "name": "Fizz",
+      "type": "champion",
+      "assetKey": "Fizz",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "AP ratio increased to 55% AP from 45% AP.; Active AP ratio increased to 45% AP from 40% AP.",
+      "gameplayImpact": "Fizz is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Urchin Strike",
+          "title": "Urchin Strike",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "45% AP",
+              "after": "55% AP",
+              "note": "AP ratio increased to 55% AP from 45% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Seastone Trident",
+          "title": "Seastone Trident",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Active AP ratio",
+              "before": "40% AP",
+              "after": "45% AP",
+              "note": "Active AP ratio increased to 45% AP from 40% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "illaoi",
+      "name": "Illaoi",
+      "type": "champion",
+      "assetKey": "Illaoi",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base attack damage reduced to 65 from 68.; Mana growth reduced to 50 from 60.",
+      "gameplayImpact": "Illaoi loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base attack damage",
+              "before": "68",
+              "after": "65",
+              "note": "Base attack damage reduced to 65 from 68."
+            },
+            {
+              "label": "Mana growth",
+              "before": "60",
+              "after": "50",
+              "note": "Mana growth reduced to 50 from 60."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "irelia",
+      "name": "Irelia",
+      "type": "champion",
+      "assetKey": "Irelia",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Damage now applies against structures at 50% damage.; New Effect: Duration is now refreshed against structures.",
+      "gameplayImpact": "Irelia is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Ionian Fervor",
+          "title": "Ionian Fervor",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Damage now applies against structures at 50% damage."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Duration is now refreshed against structures."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "jax",
+      "name": "Jax",
+      "type": "champion",
+      "assetKey": "Jax",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Cooldown increased to 110–90 (3 ranks) seconds from 100–80 (3 ranks).; Base damage reduced to 100–250 (3 ranks) from 150–350 (3 ranks).",
+      "gameplayImpact": "Jax loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Grandmaster-at-Arms",
+          "title": "Grandmaster-at-Arms",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "100–80 (3 ranks)",
+              "after": "110–90 (3 ranks) seconds",
+              "note": "Cooldown increased to 110–90 (3 ranks) seconds from 100–80 (3 ranks)."
+            },
+            {
+              "label": "Base damage",
+              "before": "150–350 (3 ranks)",
+              "after": "100–250 (3 ranks)",
+              "note": "Base damage reduced to 100–250 (3 ranks) from 150–350 (3 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "ksante",
+      "name": "K'Sante",
+      "type": "champion",
+      "assetKey": "KSante",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Base damage reduced to 70–190 from 80–200.; Location dash speed while All Out}} increased to 1250 from 950.",
+      "gameplayImpact": "K'Sante was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Ntofo Strikes",
+          "title": "Ntofo Strikes",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "80–200",
+              "after": "70–190",
+              "note": "Base damage reduced to 70–190 from 80–200."
+            }
+          ]
+        },
+        {
+          "ability": "Footwork",
+          "title": "Footwork",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Location dash speed while All Out}}",
+              "before": "950",
+              "after": "1250",
+              "note": "Location dash speed while All Out}} increased to 1250 from 950."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "katarina",
+      "name": "Katarina",
+      "type": "champion",
+      "assetKey": "Katarina",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Cooldown reduced to 12–8 seconds from 14–8.; Cooldown reduced to 75–45 (3 ranks) seconds from 90 (60 ranks).",
+      "gameplayImpact": "Katarina is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Shunpo",
+          "title": "Shunpo",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "14–8",
+              "after": "12–8 seconds",
+              "note": "Cooldown reduced to 12–8 seconds from 14–8."
+            }
+          ]
+        },
+        {
+          "ability": "Death Lotus",
+          "title": "Death Lotus",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "90 (60 ranks)",
+              "after": "75–45 (3 ranks) seconds",
+              "note": "Cooldown reduced to 75–45 (3 ranks) seconds from 90 (60 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "kayle",
+      "name": "Kayle",
+      "type": "champion",
+      "assetKey": "Kayle",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Bonus attack speed AP ratio per stack increased to 1% per 100 AP from 0.5% per 100 AP.",
+      "gameplayImpact": "Kayle is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Divine Ascent",
+          "title": "Divine Ascent",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus attack speed AP ratio per stack",
+              "before": "0",
+              "after": "1% per 100 AP",
+              "note": "Bonus attack speed AP ratio per stack increased to 1% per 100 AP from 0.5% per 100 AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "lillia",
+      "name": "Lillia",
+      "type": "champion",
+      "assetKey": "Lillia",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Armor growth reduced to 4.5 from 5.2.; Base heal per tick against monsters reduced to 6.5 at all levels from 39/6 to 54/6.",
+      "gameplayImpact": "Lillia loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Armor growth",
+              "before": "5",
+              "after": "4.5",
+              "note": "Armor growth reduced to 4.5 from 5.2."
+            }
+          ]
+        },
+        {
+          "ability": "Dream-Laden Bough",
+          "title": "Dream-Laden Bough",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base heal per tick against monsters",
+              "before": "39/6 to 54/6",
+              "after": "6.5 at all levels",
+              "note": "Base heal per tick against monsters reduced to 6.5 at all levels from 39/6 to 54/6."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "maokai",
+      "name": "Maokai",
+      "type": "champion",
+      "assetKey": "Maokai",
+      "roles": [],
+      "direction": "buff",
+      "severity": 3,
+      "tldr": "Base health increased to 665 from 635.; Movement speed increased to 335 from 330.",
+      "gameplayImpact": "Maokai is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base health",
+              "before": "635",
+              "after": "665",
+              "note": "Base health increased to 665 from 635."
+            },
+            {
+              "label": "Movement speed",
+              "before": "330",
+              "after": "335",
+              "note": "Movement speed increased to 335 from 330."
+            }
+          ]
+        },
+        {
+          "ability": "Sapling Toss",
+          "title": "Sapling Toss",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Sapling base movement speed",
+              "before": "400 at all levels",
+              "after": "400–460 (lv 1–13)",
+              "note": "Sapling base movement speed increased to 400–460 (lv 1–13) from 400 at all levels."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: Sapling movement speed is no longer increased by the movement speed gained via Maokai's innate Boots movement speed (60 maximum bonus possible)."
+            },
+            {
+              "label": "Change",
+              "note": "Boots}}: 425"
+            },
+            {
+              "label": "Change",
+              "note": "Berserker's Greaves}}, Ionian Boots of Lucidity}}, Mercury's Treads}}, Plated Steelcaps}} and Sorcerer's Shoes}}: 445"
+            },
+            {
+              "label": "Change",
+              "note": "Boots of Swiftness}}: 460"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "mordekaiser",
+      "name": "Mordekaiser",
+      "type": "champion",
+      "assetKey": "Mordekaiser",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base damage reduced to 60–120 from 70–130.; AP ratio reduced to 40% AP from 60% AP.",
+      "gameplayImpact": "Mordekaiser loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Death's Grasp",
+          "title": "Death's Grasp",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "70–130",
+              "after": "60–120",
+              "note": "Base damage reduced to 60–120 from 70–130."
+            },
+            {
+              "label": "AP ratio",
+              "before": "60% AP",
+              "after": "40% AP",
+              "note": "AP ratio reduced to 40% AP from 60% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "poppy",
+      "name": "Poppy",
+      "type": "champion",
+      "assetKey": "Poppy",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Base attack damage reduced to 60 from 64.; Base attack speed increased to 0.658 from 0.625.",
+      "gameplayImpact": "Poppy was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base attack damage",
+              "before": "64",
+              "after": "60",
+              "note": "Base attack damage reduced to 60 from 64."
+            },
+            {
+              "label": "Base attack speed",
+              "before": "0",
+              "after": "0.658",
+              "note": "Base attack speed increased to 0.658 from 0.625."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "rumble",
+      "name": "Rumble",
+      "type": "champion",
+      "assetKey": "Rumble",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base health increased to 655 from 625.",
+      "gameplayImpact": "Rumble is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base health",
+              "before": "625",
+              "after": "655",
+              "note": "Base health increased to 655 from 625."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "seraphine",
+      "name": "Seraphine",
+      "type": "champion",
+      "assetKey": "Seraphine",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "AP ratio reduced to 50% AP from 60% AP.; Maximum AP ratio against champions reduced to 80% AP from 96% AP.",
+      "gameplayImpact": "Seraphine loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "High Note",
+          "title": "High Note",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "60% AP",
+              "after": "50% AP",
+              "note": "AP ratio reduced to 50% AP from 60% AP."
+            },
+            {
+              "label": "Maximum AP ratio against champions",
+              "before": "96% AP",
+              "after": "80% AP",
+              "note": "Maximum AP ratio against champions reduced to 80% AP from 96% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "shen",
+      "name": "Shen",
+      "type": "champion",
+      "assetKey": "Shen",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Cooldown increased to 11 seconds from 10.; Cooldown refund increased to 4–8 seconds from 4–7.5.",
+      "gameplayImpact": "Shen was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Ki Barrier",
+          "title": "Ki Barrier",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "10",
+              "after": "11 seconds",
+              "note": "Cooldown increased to 11 seconds from 10."
+            },
+            {
+              "label": "Cooldown refund",
+              "before": "4–7",
+              "after": "4–8 seconds",
+              "note": "Cooldown refund increased to 4–8 seconds from 4–7.5."
+            }
+          ]
+        },
+        {
+          "ability": "Stand United",
+          "title": "Stand United",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Minimum base shield",
+              "before": "130–450 (3 ranks)",
+              "after": "120–320 (3 ranks)",
+              "note": "Minimum base shield reduced to 120–320 (3 ranks) from 130–450 (3 ranks)."
+            },
+            {
+              "label": "Minimum shield health ratio",
+              "before": "16%|hp",
+              "after": "15% bonus health",
+              "note": "Minimum shield health ratio reduced to 15% bonus health from 16%|hp."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "swain",
+      "name": "Swain",
+      "type": "champion",
+      "assetKey": "Swain",
+      "roles": [],
+      "direction": "buff",
+      "severity": 3,
+      "tldr": "Base magic resistance increased to 31 from 30.; Magic resistance growth increased to 1.55 from 1.3.",
+      "gameplayImpact": "Swain is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base magic resistance",
+              "before": "30",
+              "after": "31",
+              "note": "Base magic resistance increased to 31 from 30."
+            },
+            {
+              "label": "Magic resistance growth",
+              "before": "1",
+              "after": "1.55",
+              "note": "Magic resistance growth increased to 1.55 from 1.3."
+            }
+          ]
+        },
+        {
+          "ability": "Death's Hand",
+          "title": "Death's Hand",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "60–160",
+              "after": "60–180",
+              "note": "Base damage increased to 60–180 from 60–160."
+            },
+            {
+              "label": "Bonus base damage per bolt",
+              "before": "60/4 to 160/4",
+              "after": "60/4 to 180/4",
+              "note": "Bonus base damage per bolt increased to 60/4 to 180/4 from 60/4 to 160/4."
+            },
+            {
+              "label": "Maximum base damage",
+              "before": "120–320",
+              "after": "120–360",
+              "note": "Maximum base damage increased to 120–360 from 120–320."
+            }
+          ]
+        },
+        {
+          "ability": "Nevermove",
+          "title": "Nevermove",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "14–10",
+              "after": "12–10",
+              "note": "Cooldown reduced to 12–10 from 14–10."
+            }
+          ]
+        },
+        {
+          "ability": "Demonic Ascension",
+          "title": "Demonic Ascension",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Heal health ratio per second",
+              "before": "1",
+              "after": "1.5% bonus health",
+              "note": "Heal health ratio per second increased to 1.5% bonus health from 1.25% bonus health."
+            },
+            {
+              "label": "Non-champion heal health ratio per second",
+              "before": "0",
+              "after": "0.15% bonus health",
+              "note": "Non-champion heal health ratio per second increased to 0.15% bonus health from 0.125% bonus health."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "sylas",
+      "name": "Sylas",
+      "type": "champion",
+      "assetKey": "Sylas",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Health growth reduced to 122 from 129.",
+      "gameplayImpact": "Sylas loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Health growth",
+              "before": "129",
+              "after": "122",
+              "note": "Health growth reduced to 122 from 129."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "syndra",
+      "name": "Syndra",
+      "type": "champion",
+      "assetKey": "Syndra",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base damage reduced to 70–210 from 70–230.; AP ratio reduced to 65% AP from 70% AP.",
+      "gameplayImpact": "Syndra loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Force of Will",
+          "title": "Force of Will",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "70–230",
+              "after": "70–210",
+              "note": "Base damage reduced to 70–210 from 70–230."
+            },
+            {
+              "label": "AP ratio",
+              "before": "70% AP",
+              "after": "65% AP",
+              "note": "AP ratio reduced to 65% AP from 70% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "udyr",
+      "name": "Udyr",
+      "type": "champion",
+      "assetKey": "Udyr",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Base damage per tick reduced to 10–45 (6 ranks) from 10–55 (6 ranks).; Total base damage reduced to 80–360 (6 ranks) from 80–440 (6 ranks).",
+      "gameplayImpact": "Udyr loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Non-Bridge Between|Awakened}} ability casts no longer trigger Overdrive and Frostfire Tempest."
+            }
+          ]
+        },
+        {
+          "ability": "Wingborne Storm",
+          "title": "Wingborne Storm",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base damage per tick",
+              "before": "10–55 (6 ranks)",
+              "after": "10–45 (6 ranks)",
+              "note": "Base damage per tick reduced to 10–45 (6 ranks) from 10–55 (6 ranks)."
+            },
+            {
+              "label": "Total base damage",
+              "before": "80–440 (6 ranks)",
+              "after": "80–360 (6 ranks)",
+              "note": "Total base damage reduced to 80–360 (6 ranks) from 80–440 (6 ranks)."
+            },
+            {
+              "label": "Awaken health ratio",
+              "before": "8/8 to 16/8%|hp",
+              "after": "8/8 to 14/8% target maximum health",
+              "note": "Awaken health ratio reduced to 8/8 to 14/8% target maximum health from 8/8 to 16/8%|hp."
+            },
+            {
+              "label": "Monster damage cap per tick",
+              "before": "5–35",
+              "after": "10–50 per tick",
+              "note": "Monster damage cap per tick changed to 10–50 per tick from 5–35."
+            },
+            {
+              "label": "Total monster damage cap",
+              "before": "40–280",
+              "after": "80–400 per tick",
+              "note": "Total monster damage cap changed to 80–400 per tick from 40–280."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "varus",
+      "name": "Varus",
+      "type": "champion",
+      "assetKey": "Varus",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "On-hit base damage increased to 8–28 from 5–25.",
+      "gameplayImpact": "Varus is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Blighted Quiver",
+          "title": "Blighted Quiver",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "On-hit base damage",
+              "before": "5–25",
+              "after": "8–28",
+              "note": "On-hit base damage increased to 8–28 from 5–25."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "vayne",
+      "name": "Vayne",
+      "type": "champion",
+      "assetKey": "Vayne",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Attack damage increased to 35–65 (3 ranks) from 25–55 (3 ranks).",
+      "gameplayImpact": "Vayne is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Final Hour",
+          "title": "Final Hour",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Attack damage",
+              "before": "25–55 (3 ranks)",
+              "after": "35–65 (3 ranks)",
+              "note": "Attack damage increased to 35–65 (3 ranks) from 25–55 (3 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "velkoz",
+      "name": "Vel'Koz",
+      "type": "champion",
+      "assetKey": "Velkoz",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Cooldown reduced to 14–12 seconds from 16–12.; Cooldown reduced to 100–80 (3 ranks) seconds from 120–80 (3 ranks).",
+      "gameplayImpact": "Vel'Koz is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Tectonic Disruption",
+          "title": "Tectonic Disruption",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "16–12",
+              "after": "14–12 seconds",
+              "note": "Cooldown reduced to 14–12 seconds from 16–12."
+            }
+          ]
+        },
+        {
+          "ability": "Life Form Disintegration Ray",
+          "title": "Life Form Disintegration Ray",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "120–80 (3 ranks)",
+              "after": "100–80 (3 ranks) seconds",
+              "note": "Cooldown reduced to 100–80 (3 ranks) seconds from 120–80 (3 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "vi",
+      "name": "Vi",
+      "type": "champion",
+      "assetKey": "Vi",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Shield health ratio increased to 14% of her maximum health from 12%|hp.",
+      "gameplayImpact": "Vi is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Blast Shield",
+          "title": "Blast Shield",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Shield health ratio",
+              "before": "12%|hp",
+              "after": "14% of her maximum health",
+              "note": "Shield health ratio increased to 14% of her maximum health from 12%|hp."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "warwick",
+      "name": "Warwick",
+      "type": "champion",
+      "assetKey": "Warwick",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Now starts the game with a +15% size modifier.; Starting gameplay radius increased to 74.75 units from 65.",
+      "gameplayImpact": "Warwick was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Now starts the game with a +15% size modifier."
+            },
+            {
+              "label": "Starting gameplay radius",
+              "before": "65",
+              "after": "74.75 units",
+              "note": "Starting gameplay radius increased to 74.75 units from 65."
+            }
+          ]
+        },
+        {
+          "ability": "Blood Hunt",
+          "title": "Blood Hunt",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Mana cost",
+              "before": "70",
+              "after": "55",
+              "note": "Mana cost reduced to 55 from 70."
+            },
+            {
+              "label": "Cooldown",
+              "before": "100–40",
+              "after": "80–40 seconds",
+              "note": "Cooldown reduced to 80–40 seconds from 100–40."
+            },
+            {
+              "label": "Enhanced attack speed and movement speed modifier",
+              "before": "250%",
+              "after": "200%",
+              "note": "Enhanced attack speed and movement speed modifier reduced to 200% from 250%."
+            },
+            {
+              "label": "Enhanced bonus attack speed",
+              "before": "175–275%",
+              "after": "140–220%",
+              "note": "Enhanced bonus attack speed reduced to 140–220% from 175–275%."
+            },
+            {
+              "label": "Enhanced bonus movement speed",
+              "before": "87",
+              "after": "70–130%",
+              "note": "Enhanced bonus movement speed reduced to 70–130% from 87.5–162.5%."
+            },
+            {
+              "label": "Threshold for enhanced bonuses",
+              "before": "20%|hp",
+              "after": "25% of target's maximum health",
+              "note": "Threshold for enhanced bonuses increased to 25% of target's maximum health from 20%|hp."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Passive bonus attack speed is now also granted by ability hits against enemies below the threshold, instead of only basic attacks."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Passive bonus attack speed now lingers for 1.1 seconds after being gained."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: No longer has a separate animation for when no targets are found within range."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: No longer is placed on a 3-second static cooldown while in combat with champions."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: No longer is locked out of being cast while in champion combat."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: Cooldown no longer elapses twice as quickly while out of combat with champions."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Cooldown is now reduced to 70% of the total if no enemy champions are found within range."
+            }
+          ]
+        },
+        {
+          "ability": "Primal Howl",
+          "title": "Primal Howl",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Duration of basic attack lockout after recasting",
+              "before": "0",
+              "after": "0.25 seconds",
+              "note": "Duration of basic attack lockout after recasting reduced to 0.25 seconds from 0.5."
+            }
+          ]
+        },
+        {
+          "ability": "Infinite Duress",
+          "title": "Infinite Duress",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Undocumented: Radius",
+              "before": "155",
+              "after": "205 units",
+              "note": "Undocumented: Radius increased to 205 units from 155."
+            },
+            {
+              "label": "Width of the cast indicator",
+              "before": "50",
+              "after": "125 units",
+              "note": "Width of the cast indicator increased to 125 units from 50."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Now only collides with champions in front of him."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: No longer collides with targets whose center are behind him."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "wukong",
+      "name": "Wukong",
+      "type": "champion",
+      "assetKey": "MonkeyKing",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base mana increased to 330 from 300.; Cooldown reduced to 18–14 seconds from 22–14.",
+      "gameplayImpact": "Wukong is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base mana",
+              "before": "300",
+              "after": "330",
+              "note": "Base mana increased to 330 from 300."
+            }
+          ]
+        },
+        {
+          "ability": "Warrior Trickster",
+          "title": "Warrior Trickster",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "22–14",
+              "after": "18–14 seconds",
+              "note": "Cooldown reduced to 18–14 seconds from 22–14."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "b-f-sword",
+      "name": "B. F. Sword",
+      "type": "item",
+      "assetKey": "221038",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Now builds into Yun Tal Wildarrows}}.",
+      "gameplayImpact": "B. F. Sword was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Now builds into Yun Tal Wildarrows}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "long-sword",
+      "name": "Long Sword",
+      "type": "item",
+      "assetKey": "1036",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Now builds into Opportunity}}, Youmuu's Ghostblade}} and Yun Tal Wildarrows}}.",
+      "gameplayImpact": "Long Sword was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Now builds into Opportunity}}, Youmuu's Ghostblade}} and Yun Tal Wildarrows}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "noonquiver",
+      "name": "Noonquiver",
+      "type": "item",
+      "assetKey": "6670",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "No longer builds into Yun Tal Wildarrows}}.",
+      "gameplayImpact": "Noonquiver loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "No longer builds into Yun Tal Wildarrows}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "opportunity",
+      "name": "Opportunity",
+      "type": "item",
+      "assetKey": "6701",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "New recipe: Pickaxe}} + Serrated Dirk}} + Long Sword}} + = .; Old recipe: Serrated Dirk}} + Rectrix}} + = .",
+      "gameplayImpact": "Opportunity was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New recipe: Pickaxe}} + Serrated Dirk}} + Long Sword}} + = ."
+            },
+            {
+              "label": "Change",
+              "note": "Old recipe: Serrated Dirk}} + Rectrix}} + = ."
+            },
+            {
+              "label": "Attack damage",
+              "before": "50",
+              "after": "55",
+              "note": "Attack damage increased to 55 from 50."
+            },
+            {
+              "label": "Movement speed",
+              "before": "4%",
+              "after": "0%",
+              "note": "Movement speed reduced to 0% from 4%."
+            },
+            {
+              "label": "Change",
+              "note": "Preparation lethality increased to from ."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "pickaxe",
+      "name": "Pickaxe",
+      "type": "item",
+      "assetKey": "1037",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Now builds into Opportunity}}.; No longer builds into Youmuu's Ghostblade}} and Yun Tal Wildarrows}}.",
+      "gameplayImpact": "Pickaxe loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Now builds into Opportunity}}."
+            },
+            {
+              "label": "Change",
+              "note": "No longer builds into Youmuu's Ghostblade}} and Yun Tal Wildarrows}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "rectrix",
+      "name": "Rectrix",
+      "type": "item",
+      "assetKey": "6690",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "No longer builds into Opportunity}}.",
+      "gameplayImpact": "Rectrix loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "No longer builds into Opportunity}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "scouts-slingshot",
+      "name": "Scout's Slingshot",
+      "type": "item",
+      "assetKey": "3144",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Now builds into Yun Tal Wildarrows}}.",
+      "gameplayImpact": "Scout's Slingshot was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Now builds into Yun Tal Wildarrows}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "statikk-shiv",
+      "name": "Statikk Shiv",
+      "type": "item",
+      "assetKey": "3087",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Total cost reduced to from .; Combine cost reduced to from .",
+      "gameplayImpact": "Statikk Shiv was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Total cost reduced to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Combine cost reduced to from ."
+            },
+            {
+              "label": "Attack damage",
+              "before": "50",
+              "after": "45",
+              "note": "Attack damage reduced to 45 from 50."
+            },
+            {
+              "label": "Attack speed",
+              "before": "35%",
+              "after": "30%",
+              "note": "Attack speed reduced to 30% from 35%."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Electrospark:"
+            },
+            {
+              "label": "New Effect: Your next 3 attacks on-hit within 8 seconds deal 60 bonus magic dama",
+              "before": "the new target to strike up to 5 targets (25–10 (begins after the first attack) second cooldown)",
+              "after": "85|magic damage against non-champions. This bounces to the closest target within 500 units, repeating",
+              "note": null
+            },
+            {
+              "label": "Change",
+              "note": "Old Effect: Upon killing a minion or monster, unleash an electric spark at the location of their death which chains to the closest target within 500 units, repeating from the new one to strike up to 6 targets, dealing 120 magic damage to each (3 second cooldown)."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Electroshock:"
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Scoring a takedown against an enemy champion within 3 seconds of damaging them resets Electrospark's cooldown."
+            },
+            {
+              "label": "Change",
+              "note": "Old Effect: Scoring a takedown against an enemy champion unleashes a lightning shock at the location of their death which chains to the closest target within 650 units, repeating from the new one to strike up to 186 targets, dealing 270 magic damage to each."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "youmuus-ghostblade",
+      "name": "Youmuu's Ghostblade",
+      "type": "item",
+      "assetKey": "3142",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "New recipe: Serrated Dirk}} + Rectrix}} + Long Sword}} + =; Old recipe: Serrated Dirk}} + Rectrix}} + Pickaxe}} + =",
+      "gameplayImpact": "Youmuu's Ghostblade was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New recipe: Serrated Dirk}} + Rectrix}} + Long Sword}} + ="
+            },
+            {
+              "label": "Change",
+              "note": "Old recipe: Serrated Dirk}} + Rectrix}} + Pickaxe}} + ="
+            },
+            {
+              "label": "Attack damage",
+              "before": "60",
+              "after": "55",
+              "note": "Attack damage reduced to 55 from 60."
+            },
+            {
+              "label": "Movement speed",
+              "before": "0%",
+              "after": "4%",
+              "note": "Movement speed increased to 4% from 0%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "yun-tal-wildarrows",
+      "name": "Yun Tal Wildarrows",
+      "type": "item",
+      "assetKey": "3032",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "New:; Recipe: B. F. Sword}} + Scout's Slingshot}} + Long Sword}} + = .",
+      "gameplayImpact": "Yun Tal Wildarrows was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New:"
+            },
+            {
+              "label": "Change",
+              "note": "Recipe: B. F. Sword}} + Scout's Slingshot}} + Long Sword}} + = ."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 50 attack damage, 25% attack speed."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Practice Makes Lethal: Basic attacks on-attack grant 0.2% critical strike chance, stacking up to 125 times for a total of 25% critical strike chance."
+            },
+            {
+              "label": "Change",
+              "note": "Practice Makes Lethal critical strike chance per stack increased to 0.5% on ARAM."
+            },
+            {
+              "label": "Change",
+              "note": "Practice Makes Lethal maximum stacks reduced to 50 on ARAM."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Flurry: Attacking an enemy champion grants you 30% bonus attack speed for 4 seconds (40 second cooldown, reduced by 1 second on-hit, or 2 seconds if it critically strike)."
+            },
+            {
+              "label": "Change",
+              "note": "Old:"
+            },
+            {
+              "label": "Change",
+              "note": "Recipe: Pickaxe}} + Noonquiver}} + = ."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 60 attack damage, 25% critical strike chance."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Serrated Edge: Basic damage that critically strike on-hit inflicts a bleed on the target, causing them to take Subsequent applications of the bleed can stack, but do not refresh the duration of the previous bleed."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "id": "howling-abyss",
+      "name": "Howling Abyss",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "buff",
+      "severity": 3,
+      "tldr": "Howling Abyss is being temporarily replaced by Bridge of Progress, the – bridge.; Zaun is on the blue-side (Order) team, Piltover is on the red-side (Chaos) team.",
+      "gameplayImpact": "Howling Abyss is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Howling Abyss is being temporarily replaced by Bridge of Progress, the – bridge."
+            },
+            {
+              "label": "Change",
+              "note": "Zaun is on the blue-side (Order) team, Piltover is on the red-side (Chaos) team."
+            },
+            {
+              "label": "Change",
+              "note": "The map is expected to remain available until January 8th, the final day of Season 2024."
+            },
+            {
+              "label": "Change",
+              "note": "New announcers:"
+            },
+            {
+              "label": "Change",
+              "note": "Pundit (Piltover)"
+            },
+            {
+              "label": "Change",
+              "note": "Maverick (Zaun)"
+            },
+            {
+              "label": "Change",
+              "note": "New shopkeepers with exclusive voiceovers:"
+            },
+            {
+              "label": "Change",
+              "note": "Buybot (Piltover)"
+            },
+            {
+              "label": "Change",
+              "note": "Rascal (Zaun)"
+            },
+            {
+              "label": "Change",
+              "note": "New map-exclusive Nemesis Quests (Arcane):"
+            },
+            {
+              "label": "Change",
+              "note": "Caitlyn}} vs Jinx}} — Caught in the Crossfire"
+            },
+            {
+              "label": "Change",
+              "note": "Ekko}} vs Jinx}} — Echoes of Innocence"
+            },
+            {
+              "label": "Change",
+              "note": "Heimerdinger}} vs Singed}} — For Science's Sake"
+            },
+            {
+              "label": "Change",
+              "note": "Jayce}} vs Viktor}} — Our Shared Dream"
+            },
+            {
+              "label": "Change",
+              "note": "Vi}} vs Warwick}} — The Beast and the Brawler"
+            },
+            {
+              "label": "Change",
+              "note": "Outer health relics are closer to each other/toward the middle of the bridge."
+            },
+            {
+              "label": "Change",
+              "note": "Added a small sidelane that is open in the areas between two turrets."
+            },
+            {
+              "label": "Change",
+              "note": "Added one patch of brush in the southeast side of Piltover's base."
+            },
+            {
+              "label": "Change",
+              "note": "Added three patches of brush around Zaun's base."
+            },
+            {
+              "label": "Change",
+              "note": "Added a barricade near Piltover's outer turret and two barricades in Piltover's base, one next to each nexus turret."
+            },
+            {
+              "label": "Change",
+              "note": "Added Acceleration Pads. Champions within them gain ms|30% bonus movement speed for 2 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "/ are themed around Piltover & Zaun technology:"
+            },
+            {
+              "label": "Change",
+              "note": "Piltover's is a hextech gem."
+            },
+            {
+              "label": "Change",
+              "note": "Zaun's is a chemtech grenade."
+            },
+            {
+              "label": "Change",
+              "note": "( and ) now leaves behind a 100-width speed trail that lasts 7 seconds and grants ghosting and ms|30% bonus movement speed to allies within."
+            },
+            {
+              "label": "Change",
+              "note": "On the Piltover/red team, picking up a Health Relic grants the buff:"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Refreshes the cooldown of your basic abilities after this buff expires."
+            },
+            {
+              "label": "Change",
+              "note": "Duration: 15 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "On the Zaun/blue team, picking up a Health Relic grants the buff:"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Either increase your size by 20% and gain ad|5% attack damage, ap|5% ability power and hp|10% maximum health; or reduce your size by 20% and gain ms|5% bonus movement speed and ah|10 ability haste. (50% probability for each group of effects.)"
+            },
+            {
+              "label": "Change",
+              "note": "Duration: 20 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "On the Piltover/red team, taking down the Zaun/blue inhibitor grants the buff to one random ally alive."
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Upon gaining this buff, refreshes your summoner spells' cooldown. Both your summoner spell cooldowns are reduced to 15 seconds. Additionally, refreshes the cooldown of your basic abilities every 15 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Duration: 180 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Upon taking down the Zaun/blue inhibitor, the other four Piltover/red team members are granted the buff instead:"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Upon gaining this buff, refreshes your summoner spells' cooldown. Both your summoner spell cooldowns are reduced to 15 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Duration: 180 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "On the Zaun/blue team, taking down the Piltover/red inhibitor grants the buff to one random ally alive."
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Increases your size by 50% and grants 10% increased damage, hp|15% maximum health, ms|20% bonus movement speed, as|20% bonus attack speed, armor|10% total armor and mr|10% total magic resistance."
+            },
+            {
+              "label": "Change",
+              "note": "Duration: 180 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Upon taking down the Piltover/red inhibitor, the other four Zaun/blue team members are granted the buff instead:"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Either increase your size by 20% and gain ad|5% attack damage, ap|5% ability power and hp|10% maximum health; or reduce your size by 20% and gain ms|5% bonus movement speed and ah|10 ability haste. (50% probability for each group of effects, unique per champion.)"
+            },
+            {
+              "label": "Change",
+              "note": "Duration: 180 seconds."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "general",
+      "name": "General",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Howling Abyss is being temporarily replaced by Bridge of Progress, the – bridge.; Zaun is on the blue-side (Order) team, Piltover is on the red-side (Chaos) team.",
+      "gameplayImpact": "General was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Howling Abyss is being temporarily replaced by Bridge of Progress, the – bridge."
+            },
+            {
+              "label": "Change",
+              "note": "Zaun is on the blue-side (Order) team, Piltover is on the red-side (Chaos) team."
+            },
+            {
+              "label": "Change",
+              "note": "The map is expected to remain available until January 8th, the final day of Season 2024."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "features",
+      "name": "Features",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "buff",
+      "severity": 3,
+      "tldr": "New announcers:; Pundit (Piltover)",
+      "gameplayImpact": "Features is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New announcers:"
+            },
+            {
+              "label": "Change",
+              "note": "Pundit (Piltover)"
+            },
+            {
+              "label": "Change",
+              "note": "Maverick (Zaun)"
+            },
+            {
+              "label": "Change",
+              "note": "New shopkeepers with exclusive voiceovers:"
+            },
+            {
+              "label": "Change",
+              "note": "Buybot (Piltover)"
+            },
+            {
+              "label": "Change",
+              "note": "Rascal (Zaun)"
+            },
+            {
+              "label": "Change",
+              "note": "New map-exclusive Nemesis Quests (Arcane):"
+            },
+            {
+              "label": "Change",
+              "note": "Caitlyn}} vs Jinx}} — Caught in the Crossfire"
+            },
+            {
+              "label": "Change",
+              "note": "Ekko}} vs Jinx}} — Echoes of Innocence"
+            },
+            {
+              "label": "Change",
+              "note": "Heimerdinger}} vs Singed}} — For Science's Sake"
+            },
+            {
+              "label": "Change",
+              "note": "Jayce}} vs Viktor}} — Our Shared Dream"
+            },
+            {
+              "label": "Change",
+              "note": "Vi}} vs Warwick}} — The Beast and the Brawler"
+            },
+            {
+              "label": "Change",
+              "note": "Outer health relics are closer to each other/toward the middle of the bridge."
+            },
+            {
+              "label": "Change",
+              "note": "Added a small sidelane that is open in the areas between two turrets."
+            },
+            {
+              "label": "Change",
+              "note": "Added one patch of brush in the southeast side of Piltover's base."
+            },
+            {
+              "label": "Change",
+              "note": "Added three patches of brush around Zaun's base."
+            },
+            {
+              "label": "Change",
+              "note": "Added a barricade near Piltover's outer turret and two barricades in Piltover's base, one next to each nexus turret."
+            },
+            {
+              "label": "Change",
+              "note": "Added Acceleration Pads. Champions within them gain ms|30% bonus movement speed for 2 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "/ are themed around Piltover & Zaun technology:"
+            },
+            {
+              "label": "Change",
+              "note": "Piltover's is a hextech gem."
+            },
+            {
+              "label": "Change",
+              "note": "Zaun's is a chemtech grenade."
+            },
+            {
+              "label": "Change",
+              "note": "( and ) now leaves behind a 100-width speed trail that lasts 7 seconds and grants ghosting and ms|30% bonus movement speed to allies within."
+            },
+            {
+              "label": "Change",
+              "note": "On the Piltover/red team, picking up a Health Relic grants the buff:"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Refreshes the cooldown of your basic abilities after this buff expires."
+            },
+            {
+              "label": "Change",
+              "note": "Duration: 15 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "On the Zaun/blue team, picking up a Health Relic grants the buff:"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Either increase your size by 20% and gain ad|5% attack damage, ap|5% ability power and hp|10% maximum health; or reduce your size by 20% and gain ms|5% bonus movement speed and ah|10 ability haste. (50% probability for each group of effects.)"
+            },
+            {
+              "label": "Change",
+              "note": "Duration: 20 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "On the Piltover/red team, taking down the Zaun/blue inhibitor grants the buff to one random ally alive."
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Upon gaining this buff, refreshes your summoner spells' cooldown. Both your summoner spell cooldowns are reduced to 15 seconds. Additionally, refreshes the cooldown of your basic abilities every 15 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Duration: 180 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Upon taking down the Zaun/blue inhibitor, the other four Piltover/red team members are granted the buff instead:"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Upon gaining this buff, refreshes your summoner spells' cooldown. Both your summoner spell cooldowns are reduced to 15 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Duration: 180 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "On the Zaun/blue team, taking down the Piltover/red inhibitor grants the buff to one random ally alive."
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Increases your size by 50% and grants 10% increased damage, hp|15% maximum health, ms|20% bonus movement speed, as|20% bonus attack speed, armor|10% total armor and mr|10% total magic resistance."
+            },
+            {
+              "label": "Change",
+              "note": "Duration: 180 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Upon taking down the Piltover/red inhibitor, the other four Zaun/blue team members are granted the buff instead:"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Either increase your size by 20% and gain ad|5% attack damage, ap|5% ability power and hp|10% maximum health; or reduce your size by 20% and gain ms|5% bonus movement speed and ah|10 ability haste. (50% probability for each group of effects, unique per champion.)"
+            },
+            {
+              "label": "Change",
+              "note": "Duration: 180 seconds."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-14-22-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V14.22"
+}

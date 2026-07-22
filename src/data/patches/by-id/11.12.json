@@ -1,0 +1,1010 @@
+{
+  "id": "11.12",
+  "version": "11.12",
+  "title": "Pool Party goes where it pleases.",
+  "releaseDate": "2021-06-09",
+  "season": "11",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "Pool Party goes where it pleases."
+    },
+    {
+      "title": "Champion balance",
+      "description": "7 champion buffs, 6 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "Pool Party goes where it pleases. Structured changes across 19 entities this patch.",
+  "champions": [
+    {
+      "id": "aphelios",
+      "name": "Aphelios",
+      "type": "champion",
+      "assetKey": "Aphelios",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Base magic resistance increased to 30 from 26.; Attack damage growth increased to 3 from 2.4.",
+      "gameplayImpact": "Aphelios was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base magic resistance",
+              "before": "26",
+              "after": "30",
+              "note": "Base magic resistance increased to 30 from 26."
+            },
+            {
+              "label": "Attack damage growth",
+              "before": "2",
+              "after": "3",
+              "note": "Attack damage growth increased to 3 from 2.4."
+            }
+          ]
+        },
+        {
+          "ability": "Severum",
+          "title": "Severum",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Healing from basic attacks",
+              "before": "3–20%",
+              "after": "3–10%",
+              "note": "Healing from basic attacks reduced to 3–10% from 3–20%."
+            },
+            {
+              "label": "Healing from spells",
+              "before": "3–20%",
+              "after": "9–30%",
+              "note": "Healing from spells increased to 9–30% from 3–20%."
+            }
+          ]
+        },
+        {
+          "ability": "Onslaught",
+          "title": "Onslaught",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Attack speed ratio",
+              "before": "3|attack speed",
+              "after": "2 per 100% bonus attack speed",
+              "note": "Attack speed ratio reduced to 2 per 100% bonus attack speed from 3|attack speed."
+            },
+            {
+              "label": "Base damage",
+              "before": "10–30 (lv 1–13)",
+              "after": "10–40 (lv 1–13)",
+              "note": "Base damage increased to 10–40 (lv 1–13) from 10–30 (lv 1–13)."
+            },
+            {
+              "label": "Bonus AD ratio",
+              "before": "21–30% (lv 1–13)|AD",
+              "after": "20–35% (lv 1–13) bonus AD",
+              "note": "Bonus AD ratio changed to 20–35% (lv 1–13) bonus AD from 21–30% (lv 1–13)|AD."
+            }
+          ]
+        },
+        {
+          "ability": "Crescendum",
+          "title": "Crescendum",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Bonus damage",
+              "before": "0–5% (over 0–20) AD",
+              "after": "0–5% (over 0–20) AD",
+              "note": "Bonus damage reduced to 0–5% (over 0–20) AD from 0–5% (over 0–20) AD."
+            }
+          ]
+        },
+        {
+          "ability": "Sentry",
+          "title": "Sentry",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "25–85 (lv 1–13)",
+              "after": "31–100 (lv 1–13)",
+              "note": "Base damage increased to 31–100 (lv 1–13) from 25–85 (lv 1–13)."
+            },
+            {
+              "label": "Bonus AD ratio",
+              "before": "35–50% (lv 1–13)|AD)",
+              "after": "40–3.3% (lv 1–13) bonus AD)",
+              "note": "Bonus AD ratio increased to 40–3.3% (lv 1–13) bonus AD) from 35–50% (lv 1–13)|AD)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "dr-mundo",
+      "name": "Dr. Mundo",
+      "type": "champion",
+      "assetKey": "DrMundo",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Complete visual upgrade across all skins.; New splash artwork for , , , , , and .",
+      "gameplayImpact": "Dr. Mundo was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": "Full Relaunch",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Complete visual upgrade across all skins."
+            },
+            {
+              "label": "Change",
+              "note": "New splash artwork for , , , , , and ."
+            },
+            {
+              "label": "Change",
+              "note": "Adjusted splash artwork for , , , and ."
+            },
+            {
+              "label": "Change",
+              "note": "New lore."
+            },
+            {
+              "label": "Change",
+              "note": "New voice-over."
+            },
+            {
+              "label": "Change",
+              "note": "Stats"
+            },
+            {
+              "label": "Attack damage growth",
+              "before": "3",
+              "after": "4.2",
+              "note": "Attack damage growth increased to 4.2 from 3."
+            },
+            {
+              "label": "Base attack speed",
+              "before": "0",
+              "after": "0.67",
+              "note": "Base attack speed reduced to 0.67 from 0.721."
+            },
+            {
+              "label": "Attack speed growth",
+              "before": "2",
+              "after": "3.3%",
+              "note": "Attack speed growth increased to 3.3% from 2.8%."
+            },
+            {
+              "label": "Base armor",
+              "before": "36",
+              "after": "32",
+              "note": "Base armor reduced to 32 from 36."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Now periodically causes him to ignore the next immobilize effect."
+            },
+            {
+              "label": "Change",
+              "note": "Preventing an effect makes him lose 7% of his current health and launches a canister that lands 525 units in the general direction of its source, remaining on the ground for 7 seconds. Dr. Mundo can pick it up to heal himself for 8% of his maximum health and reduce the cooldown of this effect by 15 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Enemy champions can destroy the canister by walking over it before Dr. Mundo reaches it."
+            },
+            {
+              "label": "Change",
+              "note": "Goes Where He Pleases' cooldown resets upon respawning."
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: 45–15 seconds."
+            },
+            {
+              "label": "Health regeneration",
+              "before": "2",
+              "after": "2% maximum health",
+              "note": "Health regeneration reduced to 2% maximum health from 2.5%|health."
+            },
+            {
+              "label": "Health cost",
+              "before": "50–90",
+              "after": "50 at all ranks",
+              "note": "Health cost reduced to 50 at all ranks from 50–90."
+            },
+            {
+              "label": "Minimum damage",
+              "before": "80–280",
+              "after": "80–300",
+              "note": "Minimum damage increased to 80–300 from 80–280."
+            },
+            {
+              "label": "Maximum damage to monsters",
+              "before": "100–500",
+              "after": "150–450",
+              "note": "Maximum damage to monsters changed to 150–450 from 100–500."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: No longer restores health equal to the full health cost if Infected Bonesaw kills a non-champion."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: Damage is no longer capped at 100–500 against minions."
+            },
+            {
+              "label": "Change",
+              "note": "No longer a toggle spell."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: No longer grants 30% tenacity while toggled on."
+            },
+            {
+              "label": "Change",
+              "note": "New Active: Dr. Mundo charges up a defibrillator for 4 seconds, dealing a total of 80–320 magic damage over the duration, with each tick occuring every 0.25 seconds, to nearby enemies and storing 25–45% of the damage he takes. Heart Zapper can be recast after 1 second for the duration, and does so automatically at the end of the duration."
+            },
+            {
+              "label": "Change",
+              "note": "New Recast: Dr. Mundo detonates the defibrillator, dealing 20–80 (+ 7% bonus health) magic damage to nearby enemies and heal himself for 100% of all the damage stored if at least one enemy is hit, reduced to 50% if no champion is hit."
+            },
+            {
+              "label": "Health cost",
+              "before": "10–30 health per second while toggled on",
+              "after": "5% current health on-cast",
+              "note": "Health cost changed to 5% current health on-cast from 10–30 health per second while toggled on."
+            },
+            {
+              "label": "Cooldown",
+              "before": "seconds at all ranks",
+              "after": "seconds",
+              "note": "Cooldown increased to seconds from seconds at all ranks."
+            },
+            {
+              "label": "Change",
+              "note": "Removed Passive: Taking magic damage or paying a health cost increases Dr. Mundo's magic resistance by 3% for 2 seconds, stacking up to 2–11 (4 ranks) times."
+            },
+            {
+              "label": "Change",
+              "note": "Removed Effect: On activation, grants 30–90 bonus attack damage for 5 seconds, increased by an amount based on his percentage health, up to a maximum total of 50–170 at 100% missing health."
+            },
+            {
+              "label": "Change",
+              "note": "New Passive: Now always passively grants 15–35 bonus attack damage, increased based on his missing health, up to a maximum total of 15+25–35+45 at 70% missing health."
+            },
+            {
+              "label": "Health cost",
+              "before": "25–65",
+              "after": "10–50",
+              "note": "Health cost reduced to 10–50 from 25–65."
+            },
+            {
+              "label": "Cooldown",
+              "before": "6–4 seconds on-cast",
+              "after": "8–6 seconds after the attack",
+              "note": "Cooldown increased to 8–6 seconds after the attack from 6–4 seconds on-cast."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Empowered attack's windup is now uncancellable windup."
+            },
+            {
+              "label": "Bonus attack range",
+              "before": "25",
+              "after": "50",
+              "note": "Bonus attack range increased to 50 from 25."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Attack now applies against structures, consuming the effect and dealing the bonus damage."
+            },
+            {
+              "label": "Damage of the empowered attack",
+              "before": "4–6% maximum health",
+              "after": "5–45 (+ 7% bonus health)",
+              "note": "Damage of the empowered attack changed to 5–45 (+ 7% bonus health) from 4–6% maximum health."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Now increases the bonus damage to the primary target by 0–60% (over 0–40)."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Now deals 40% increased damage to minions and non-epic monsters."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Now knocks enemies killed by the attack away in a line, dealing 100% AD plus Blunt Force Trauma's minimum bonus damage to other enemies they pass through."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: 25% current health health cost."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Now additionally heals him on-cast for 20% of his missing health."
+            },
+            {
+              "label": "Duration",
+              "before": "12 seconds",
+              "after": "10 seconds",
+              "note": "Duration reduced to 10 seconds from 12 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Now additionally grants (4–7 (3 ranks)% bonus health) bonus attack damage for the duration."
+            },
+            {
+              "label": "Total health regeneration",
+              "before": "60–110 (3 ranks)%|health",
+              "after": "20–70 (3 ranks)% maximum health",
+              "note": "Total health regeneration reduced to 20–70 (3 ranks)% maximum health from 60–110 (3 ranks)%|health."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust",
+        "Full Relaunch"
+      ]
+    },
+    {
+      "id": "draven",
+      "name": "Draven",
+      "type": "champion",
+      "assetKey": "Draven",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base damage increased to 40–60 from 35–55.; Bonus AD ratio increased to 70–110% bonus AD from 65–105%|AD.",
+      "gameplayImpact": "Draven is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Spinning Axe",
+          "title": "Spinning Axe",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "35–55",
+              "after": "40–60",
+              "note": "Base damage increased to 40–60 from 35–55."
+            },
+            {
+              "label": "Bonus AD ratio",
+              "before": "65–105%|AD",
+              "after": "70–110% bonus AD",
+              "note": "Bonus AD ratio increased to 70–110% bonus AD from 65–105%|AD."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Now properly stacks Manamune}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "gnar",
+      "name": "Gnar",
+      "type": "champion",
+      "assetKey": "Gnar",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base attack damage reduced to 57 from 59.; Mega Gnar}} stats",
+      "gameplayImpact": "Gnar loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base attack damage",
+              "before": "59",
+              "after": "57",
+              "note": "Base attack damage reduced to 57 from 59."
+            },
+            {
+              "label": "Change",
+              "note": "Mega Gnar}} stats"
+            },
+            {
+              "label": "Undocumented: Base attack damage",
+              "before": "65",
+              "after": "63",
+              "note": "Undocumented: Base attack damage reduced to 63 from 65."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "hecarim",
+      "name": "Hecarim",
+      "type": "champion",
+      "assetKey": "Hecarim",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base armor increased to 35 from 32.; Damage bonus AD ratio increased to 85% bonus AD from 75%|AD.",
+      "gameplayImpact": "Hecarim is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base armor",
+              "before": "32",
+              "after": "35",
+              "note": "Base armor increased to 35 from 32."
+            }
+          ]
+        },
+        {
+          "ability": "Rampage",
+          "title": "Rampage",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Damage bonus AD ratio",
+              "before": "75%|AD",
+              "after": "85% bonus AD",
+              "note": "Damage bonus AD ratio increased to 85% bonus AD from 75%|AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "illaoi",
+      "name": "Illaoi",
+      "type": "champion",
+      "assetKey": "Illaoi",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Mana growth increased to 50 from 40.",
+      "gameplayImpact": "Illaoi is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Mana growth",
+              "before": "40",
+              "after": "50",
+              "note": "Mana growth increased to 50 from 40."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "jarvan-iv",
+      "name": "Jarvan IV",
+      "type": "champion",
+      "assetKey": "JarvanIV",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Cooldown reduced to 9 seconds from 12.",
+      "gameplayImpact": "Jarvan IV is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Golden Aegis",
+          "title": "Golden Aegis",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "12",
+              "after": "9 seconds",
+              "note": "Cooldown reduced to 9 seconds from 12."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "kaisa",
+      "name": "Kai'Sa",
+      "type": "champion",
+      "assetKey": "Kaisa",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Cooldown increased to 10–6 seconds from 8–6.",
+      "gameplayImpact": "Kai'Sa loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Icathian Rain",
+          "title": "Icathian Rain",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "8–6",
+              "after": "10–6 seconds",
+              "note": "Cooldown increased to 10–6 seconds from 8–6."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "karma",
+      "name": "Karma",
+      "type": "champion",
+      "assetKey": "Karma",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Updated visual effects.",
+      "gameplayImpact": "Karma was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Updated visual effects."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "malphite",
+      "name": "Malphite",
+      "type": "champion",
+      "assetKey": "Malphite",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Cleave base damage increased to 15–55 from 10–50.; Cleave armor ratio increased to 15% armor from 10% armor.",
+      "gameplayImpact": "Malphite is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Thunderclap",
+          "title": "Thunderclap",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cleave base damage",
+              "before": "10–50",
+              "after": "15–55",
+              "note": "Cleave base damage increased to 15–55 from 10–50."
+            },
+            {
+              "label": "Cleave armor ratio",
+              "before": "10% armor",
+              "after": "15% armor",
+              "note": "Cleave armor ratio increased to 15% armor from 10% armor."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "nasus",
+      "name": "Nasus",
+      "type": "champion",
+      "assetKey": "Nasus",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Life steal reduced to 10–22% (lv 1–13) from 12–24% (lv 1–13).",
+      "gameplayImpact": "Nasus loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Soul Eater",
+          "title": "Soul Eater",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Life steal",
+              "before": "12–24% (lv 1–13)",
+              "after": "10–22% (lv 1–13)",
+              "note": "Life steal reduced to 10–22% (lv 1–13) from 12–24% (lv 1–13)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "rammus",
+      "name": "Rammus",
+      "type": "champion",
+      "assetKey": "Rammus",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base bonus armor increased to 40 from 30.; Cooldown reduced to 110–80 (3 ranks) seconds from 130–90 (3 ranks).",
+      "gameplayImpact": "Rammus is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Defensive Ball Curl",
+          "title": "Defensive Ball Curl",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base bonus armor",
+              "before": "30",
+              "after": "40",
+              "note": "Base bonus armor increased to 40 from 30."
+            }
+          ]
+        },
+        {
+          "ability": "Soaring Slam",
+          "title": "Soaring Slam",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "130–90 (3 ranks)",
+              "after": "110–80 (3 ranks) seconds",
+              "note": "Cooldown reduced to 110–80 (3 ranks) seconds from 130–90 (3 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "renekton",
+      "name": "Renekton",
+      "type": "champion",
+      "assetKey": "Renekton",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Non-champion base heal reduced to 2–6 from 3–7.; Non-champion heal bonus AD ratio reduced to 3% bonus AD from 4%|AD.",
+      "gameplayImpact": "Renekton loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Cull the Meek",
+          "title": "Cull the Meek",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Non-champion base heal",
+              "before": "3–7",
+              "after": "2–6",
+              "note": "Non-champion base heal reduced to 2–6 from 3–7."
+            },
+            {
+              "label": "Non-champion heal bonus AD ratio",
+              "before": "4%|AD",
+              "after": "3% bonus AD",
+              "note": "Non-champion heal bonus AD ratio reduced to 3% bonus AD from 4%|AD."
+            },
+            {
+              "label": "Empowered non-champion base heal",
+              "before": "9–21",
+              "after": "6–18",
+              "note": "Empowered non-champion base heal reduced to 6–18 from 9–21."
+            },
+            {
+              "label": "Empowered non-champion heal bonus AD ratio",
+              "before": "12%|AD",
+              "after": "9% bonus AD",
+              "note": "Empowered non-champion heal bonus AD ratio reduced to 9% bonus AD from 12%|AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "sylas",
+      "name": "Sylas",
+      "type": "champion",
+      "assetKey": "Sylas",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Chromas now use its respective chain colors for Abduct}}.",
+      "gameplayImpact": "Sylas was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Chromas now use its respective chain colors for Abduct}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "talon",
+      "name": "Talon",
+      "type": "champion",
+      "assetKey": "Talon",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Outgoing base damage reduced to 40–80 from 45–105.; Outgoing bonus AD ratio reduced to 40% bonus AD from 55%|AD.",
+      "gameplayImpact": "Talon was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Rake",
+          "title": "Rake",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Outgoing base damage",
+              "before": "45–105",
+              "after": "40–80",
+              "note": "Outgoing base damage reduced to 40–80 from 45–105."
+            },
+            {
+              "label": "Outgoing bonus AD ratio",
+              "before": "55%|AD",
+              "after": "40% bonus AD",
+              "note": "Outgoing bonus AD ratio reduced to 40% bonus AD from 55%|AD."
+            },
+            {
+              "label": "Return base damage",
+              "before": "45–145",
+              "after": "50–170",
+              "note": "Return base damage increased to 50–170 from 45–145."
+            },
+            {
+              "label": "Return bonus AD ratio",
+              "before": "70%|AD",
+              "after": "80% bonus AD",
+              "note": "Return bonus AD ratio increased to 80% bonus AD from 70%|AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "udyr",
+      "name": "Udyr",
+      "type": "champion",
+      "assetKey": "Udyr",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Cone base damage reduced to 50–275 (6 ranks) from 60–310 (6 ranks).; Cone AP ratio increased to 80% AP from 70% AP.",
+      "gameplayImpact": "Udyr was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Phoenix Stance",
+          "title": "Phoenix Stance",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Cone base damage",
+              "before": "60–310 (6 ranks)",
+              "after": "50–275 (6 ranks)",
+              "note": "Cone base damage reduced to 50–275 (6 ranks) from 60–310 (6 ranks)."
+            },
+            {
+              "label": "Cone AP ratio",
+              "before": "70% AP",
+              "after": "80% AP",
+              "note": "Cone AP ratio increased to 80% AP from 70% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "varus",
+      "name": "Varus",
+      "type": "champion",
+      "assetKey": "Varus",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Active damage modifier reduced to 0–50% (lv 0–1) from 0–80% (lv 0–1).; Maximum Piercing Arrow}} bonus damage reduced to 9–21% (lv 1–13) of the target's missing health|health from 10.8–25.2% (lv 1–13)|health.",
+      "gameplayImpact": "Varus loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Blighted Quiver",
+          "title": "Blighted Quiver",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Active damage modifier",
+              "before": "0–80% (lv 0–1)",
+              "after": "0–50% (lv 0–1)",
+              "note": "Active damage modifier reduced to 0–50% (lv 0–1) from 0–80% (lv 0–1)."
+            },
+            {
+              "label": "Maximum Piercing Arrow}} bonus damage",
+              "before": "10",
+              "after": "9–21% (lv 1–13) of the target's missing health|health",
+              "note": "Maximum Piercing Arrow}} bonus damage reduced to 9–21% (lv 1–13) of the target's missing health|health from 10.8–25.2% (lv 1–13)|health."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "wukong",
+      "name": "Wukong",
+      "type": "champion",
+      "assetKey": "MonkeyKing",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Attack damage growth reduced to 3.5 from 4.; Bonus AD ratio reduced to 45% bonus AD from 50%|AD.",
+      "gameplayImpact": "Wukong loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Attack damage growth",
+              "before": "4",
+              "after": "3.5",
+              "note": "Attack damage growth reduced to 3.5 from 4."
+            }
+          ]
+        },
+        {
+          "ability": "Crushing Blow",
+          "title": "Crushing Blow",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Bonus AD ratio",
+              "before": "50%|AD",
+              "after": "45% bonus AD",
+              "note": "Bonus AD ratio reduced to 45% bonus AD from 50%|AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "ziggs",
+      "name": "Ziggs",
+      "type": "champion",
+      "assetKey": "Ziggs",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Base damage increased to 85–285 from 85–265.; Medium to long distance cast missile speed increased to 2250 from 1550.",
+      "gameplayImpact": "Ziggs is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Bouncing Bomb",
+          "title": "Bouncing Bomb",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "85–265",
+              "after": "85–285",
+              "note": "Base damage increased to 85–285 from 85–265."
+            }
+          ]
+        },
+        {
+          "ability": "Mega Inferno Bomb",
+          "title": "Mega Inferno Bomb",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Medium to long distance cast missile speed",
+              "before": "1550",
+              "after": "2250",
+              "note": "Medium to long distance cast missile speed increased to 2250 from 1550."
+            },
+            {
+              "label": "Change",
+              "note": "Minimum travel time of 1.2 seconds unchanged."
+            },
+            {
+              "label": "Change",
+              "note": "Radius in which the missile uses this fixed travel time adjusted to 2700 from 2000 to correspond to the missile speed increase for long casts."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "items": [],
+  "systems": [],
+  "sourceUrl": "https://na.leagueoflegends.com/en-us/news/game-updates/patch-11-12-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V11.12"
+}

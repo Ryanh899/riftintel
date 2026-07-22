@@ -1,0 +1,1332 @@
+{
+  "slug": "briar",
+  "name": "Briar",
+  "assetKey": "Briar",
+  "entries": [
+    {
+      "patchId": "13.18",
+      "version": "13.18",
+      "releaseDate": "2023-09-13",
+      "change": {
+        "id": "briar",
+        "name": "Briar",
+        "type": "champion",
+        "assetKey": "Briar",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 3,
+        "tldr": "Innate: Briar's basic attacks and abilities inflict a bleed against enemies for 5 seconds, refreshing on subsequent applications, stacking up to 9 times and dealing 25% damage for stacks beyond the first. The bleed de…",
+        "gameplayImpact": "Briar loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": "New champion",
+        "changes": [
+          {
+            "ability": "General",
+            "title": null,
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Innate: Briar's basic attacks and abilities inflict a bleed against enemies for 5 seconds, refreshing on subsequent applications, stacking up to 9 times and dealing 25% damage for stacks beyond the first. The bleed dealsBriar heal herself equal to 25% of the dealt. If a target dies while bleeding, she will heal herself equal to 100% of the remaining bleed damage."
+              },
+              {
+                "label": "Change",
+                "note": "Briar has no health regeneration|base health regeneration, but she increases healing from all sources by 0–50% (over 0–100)|health."
+              },
+              {
+                "label": "Change",
+                "note": "Active: Briar dash to the target unit. If the target is an enemy, she deals 60–220 (+ 80% bonus AD) physical damage, stun them for 0.85 seconds, and inflicts them with 10–26%|armor armor penetration|armor reduction for 5 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Cost: 6% current health."
+              },
+              {
+                "label": "Change",
+                "note": "Cooldown: 13–9 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Cast Time: None, Target Range: cr 450."
+              },
+              {
+                "label": "Change",
+                "note": "Active: Briar dash to the target location. If there is a nearby enemy upon her arrival, she gains Blood Frenzy for 5 seconds, during which she can cast Snack Attack}}."
+              },
+              {
+                "label": "Change",
+                "note": "Blood Frenzy: Briar breaks free from her pillory, turning berserk against the nearest enemy. She standard sight the target and gains ghosting, 60–120% bonus attack speed and 24–60% bonus movement speed, as well as empowering her basic attacks to deal 60–100% AD physical damage to enemies surrounding her target. This damage is affected by critical strike modifiers."
+              },
+              {
+                "label": "Change",
+                "note": "Briar prioritizes attacking champions, then large monsters, and then minions."
+              },
+              {
+                "label": "Change",
+                "note": "Blood Frenzy ends early if there are no longer any nearby valid targets or Chilling Scream}} is cast. If Head Rush}} is cast on a non-champion, Briar will stop prioritizing champions during the frenzy. Blood Frenzy basic attack reset Briar's basic attack timer. Head Rush}} and Certain Death}} can be cast during the dash."
+              },
+              {
+                "label": "Change",
+                "note": "Cost: 6% current health."
+              },
+              {
+                "label": "Change",
+                "note": "Cooldown: 14–10 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Cast Time: None, Target Range: - / , Effect Radius: cr / , Speed: ."
+              },
+              {
+                "label": "Change",
+                "note": "Snack Attack}} - W"
+              },
+              {
+                "label": "Change",
+                "note": "Active: Briar empowers her next basic attack within 5 seconds during Blood Frenzy}} to take a bite out of the target enemy, having an uncancellable windup, gaining range|50 bonus range, dealing 5–65 (+ 105% AD) (+ 10% bonus physical damage and heal for 35–65% of the dealt."
+              },
+              {
+                "label": "Change",
+                "note": "Snack Attack deals 120% damage against minions and monsters, with the damage based on the target's health ratio being capped at 500."
+              },
+              {
+                "label": "Change",
+                "note": "Snack Attack basic attack reset Briar's basic attack timer."
+              },
+              {
+                "label": "Change",
+                "note": "Cast Time: None."
+              },
+              {
+                "label": "Change",
+                "note": "Active: Briar channel for up to 1 second, during which she increases Chilling Scream's damage and range, and gains 35% damage reduction and heal herself for 10/4 to 16/4% maximum health every 0.25 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Chilling Scream can be recast within the duration, and does so automatically afterwards. Chilling Scream's charge cannot be interrupt by crowd control."
+              },
+              {
+                "label": "Change",
+                "note": "Recast: Briar unleashes a scream in the target direction that deals 80–220 (+ 100% bonus AD) (+ 100% AP) magic damage to enemies hit and slow them by 80% for 0.5 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "If Chilling Scream was charged for its full duration, enemies hit are also airborne 575 units. If they collide with terrain, they will rebound to take 140–440 (+ 240% bonus AD) (+ 240% AP) and become airborne for 0.5 seconds and stun for 1.5 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Cost: 6% current health."
+              },
+              {
+                "label": "Change",
+                "note": "Cooldown: 18 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Cast Time: / , Range: er / cr 400–600 (by game time), Width: er 380, Speed: / ."
+              },
+              {
+                "label": "Change",
+                "note": "Active: Briar kicks a hemolith in the target direction that briefly grants sight of its as it and marks the first enemy champion hit as her prey, disrupt their ongoing channel and true sight them."
+              },
+              {
+                "label": "Change",
+                "note": "If a target is hit, Briar cleanse herself from all crowd control and destroys her pillory over a cast time, afterwards dash to them with displacement immunity. Upon arrival, she creates an explosion around the marked target that deals 150–500 (3 ranks) (+ 110% bonus AD) (+ 110% AP) physical damage to them and nearby enemies and flee all non-marked targets for 1.5 seconds. She then enters a state of Hematomania."
+              },
+              {
+                "label": "Change",
+                "note": "Hematomania: Briar gains all effects of Blood Frenzy}} against the marked target as well as bonus armor and bonus magic resistance equal to 20% AD, 10–20 (3 ranks)% life steal|life steal, and 10–30 (3 ranks)% ms|additional bonus movement speed|ms."
+              },
+              {
+                "label": "Change",
+                "note": "Hematomania lasts until the marked target dies. If the target becomes invalid, Briar will turn berserk against the nearest until her target becomes valid again."
+              },
+              {
+                "label": "Change",
+                "note": "Casting Chilling Scream}} ends Hematomania early."
+              },
+              {
+                "label": "Change",
+                "note": "Cost: 6% current health."
+              },
+              {
+                "label": "Change",
+                "note": "Cooldown: 120–80 (3 ranks) seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Cast Time: / , Range: cr , Effect Radius: / cr / er , Width: er , Speed: / ."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf",
+          "New champion"
+        ]
+      }
+    },
+    {
+      "patchId": "13.19",
+      "version": "13.19",
+      "releaseDate": "2023-09-27",
+      "change": {
+        "id": "briar",
+        "name": "Briar",
+        "type": "champion",
+        "assetKey": "Briar",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Recommended items and runes have been updated.; Attack speed growth reduced to 2.3% from 2.5%.",
+        "gameplayImpact": "Briar was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "General",
+            "title": null,
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Recommended items and runes have been updated."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Transitions from her attack to idle animation now play correctly."
+              }
+            ]
+          },
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Attack speed growth",
+                "before": "2",
+                "after": "2.3%",
+                "note": "Attack speed growth reduced to 2.3% from 2.5%."
+              }
+            ]
+          },
+          {
+            "ability": "Crimson Curse",
+            "title": "Crimson Curse",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: Spell shield now also blocks applications of bleed stacks from blocked spells when the first stack was already applied."
+              }
+            ]
+          },
+          {
+            "ability": "Head Rush",
+            "title": "Head Rush",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Now properly tagged as an attack reset for interactions like Hail of Blades}}."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Targeting an enemy over terrain now consistently causes her to dash to their location on the other side, rather than landing in front of the wall if the target was not far enough away from the wall on the other side."
+              }
+            ]
+          },
+          {
+            "ability": "Blood Frenzy",
+            "title": "Blood Frenzy",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Frenzy duration is now also displayed on her resource bar on the health bar, and color-coded."
+              },
+              {
+                "label": "Change",
+                "note": "Tooltip now clarifies that casting it does not remove or replace the empowered Blood Frenzy granted by Certain Death}}."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Dash no longer cancels existing movement commands."
+              }
+            ]
+          },
+          {
+            "ability": "Snack Attack",
+            "title": "Snack Attack",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Healing",
+                "before": "35–65%",
+                "after": "36–60%",
+                "note": "Healing changed to 36–60% from 35–65%."
+              },
+              {
+                "label": "Non-champion damage",
+                "before": "120%",
+                "after": "110%",
+                "note": "Non-champion damage reduced to 110% from 120%."
+              },
+              {
+                "label": "Monster health ratio damage cap",
+                "before": "500",
+                "after": "400",
+                "note": "Monster health ratio damage cap reduced to 400 from 500."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Percent health damage is no longer affected by critical strike modifiers."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now has a brief cooldown after gaining Blood Frenzy}}."
+              }
+            ]
+          },
+          {
+            "ability": "Chilling Scream",
+            "title": "Chilling Scream",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: Now makes displaced enemies collide with player-generated terrain more consistently."
+              }
+            ]
+          },
+          {
+            "ability": "Certain Death",
+            "title": "Certain Death",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Frenzy duration is now also displayed on her resource bar on the health bar, and color-coded."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Pinging the ability now tells teammates which enemies are within its cast range."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Berserk is now properly canceled if the the target dies during the cast time of the second cast."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: No longer creates the explosion around the target if the dash is interrupted by the summoner spell."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Now behaves properly when interacting with Devour (Tahm Kench)}} and Fate's Call (Kalista)}}."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: True sight debuff now properly expires if she enters a resurrection state during the berserk effect."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: VFX now properly plays even if cast at maximum range."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Yuumi}} is now properly revealed by the true sight debuff even while she is untargetable from You and Me!}}."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: No longer fails to enter the berserk state with Blood Frenzy}} upon reaching the target and consequently create two explosions under certain conditions."
+              },
+              {
+                "label": "Change",
+                "note": "Chilling Scream}}"
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: SFX for the ability now plays correctly."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "13.21",
+      "version": "13.21",
+      "releaseDate": "2023-10-25",
+      "change": {
+        "id": "briar",
+        "name": "Briar",
+        "type": "champion",
+        "assetKey": "Briar",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 2,
+        "tldr": "Attack speed growth reduced to 2% from 2.3%.; Heal on-target death increased to 125% of remaining bleed damage from 100%.",
+        "gameplayImpact": "Briar was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Attack speed growth",
+                "before": "2",
+                "after": "2%",
+                "note": "Attack speed growth reduced to 2% from 2.3%."
+              }
+            ]
+          },
+          {
+            "ability": "Crimson Curse",
+            "title": "Crimson Curse",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Heal on-target death",
+                "before": "100%",
+                "after": "125% of remaining bleed damage",
+                "note": "Heal on-target death increased to 125% of remaining bleed damage from 100%."
+              }
+            ]
+          },
+          {
+            "ability": "Snack Attack",
+            "title": "Snack Attack",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Bonus AD ratio",
+                "before": "4%|AD",
+                "after": "3.5% per 100 bonus AD",
+                "note": "Bonus AD ratio reduced to 3.5% per 100 bonus AD from 4%|AD."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "13.22",
+      "version": "13.22",
+      "releaseDate": "2023-11-08",
+      "change": {
+        "id": "briar",
+        "name": "Briar",
+        "type": "champion",
+        "assetKey": "Briar",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 2,
+        "tldr": "Base damage reduced to 60–200 from 60–220.; Armor reduction reduced to 10–20% from 10–26%.",
+        "gameplayImpact": "Briar loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Head Rush",
+            "title": "Head Rush",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "60–220",
+                "after": "60–200",
+                "note": "Base damage reduced to 60–200 from 60–220."
+              },
+              {
+                "label": "Armor reduction",
+                "before": "10–26%",
+                "after": "10–20%",
+                "note": "Armor reduction reduced to 10–20% from 10–26%."
+              }
+            ]
+          },
+          {
+            "ability": "Blood Frenzy",
+            "title": "Blood Frenzy",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: No longer counts as a crowd control ability for the purposes of death recap and crowd control score in the post-game statistics."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Basic attack animations no longer sometimes appear to be slower against champions."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: No longer triggers the loss of control screen effect upon becoming berserk."
+              }
+            ]
+          },
+          {
+            "ability": "Snack Attack",
+            "title": "Snack Attack",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: Using it to score the killing blow against no longer causes her to then gain kill credit of all minions empowered by the ."
+              }
+            ]
+          },
+          {
+            "ability": "Certain Death",
+            "title": "Certain Death",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "150–500 (3 ranks)",
+                "after": "150–450 (3 ranks)",
+                "note": "Base damage reduced to 150–450 (3 ranks) from 150–500 (3 ranks)."
+              },
+              {
+                "label": "Bonus AD ratio",
+                "before": "110%|AD",
+                "after": "75% bonus AD",
+                "note": "Bonus AD ratio reduced to 75% bonus AD from 110%|AD."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: No longer causes players to disconnect from the game if her dash finishes while the target is untargetable."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Basic attacks no longer become disabled against almost any target for a period after the frenzy ended if she had Duskblade of Draktharr}}."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: No longer is able to attack allies during the berserk under certain conditions."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "13.23",
+      "version": "13.23",
+      "releaseDate": "2023-11-21",
+      "change": {
+        "id": "briar",
+        "name": "Briar",
+        "type": "champion",
+        "assetKey": "Briar",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 2,
+        "tldr": "Base health reduced to 590 from 610.; Health ratio reduced to 9% of target's missing health from 10%|health.",
+        "gameplayImpact": "Briar loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base health",
+                "before": "610",
+                "after": "590",
+                "note": "Base health reduced to 590 from 610."
+              }
+            ]
+          },
+          {
+            "ability": "Snack Attack",
+            "title": "Snack Attack",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Health ratio",
+                "before": "10%|health",
+                "after": "9% of target's missing health",
+                "note": "Health ratio reduced to 9% of target's missing health from 10%|health."
+              },
+              {
+                "label": "Bonus AD ratio",
+                "before": "3",
+                "after": "2.5% per 100 bonus AD",
+                "note": "Bonus AD ratio reduced to 2.5% per 100 bonus AD from 3.5%|AD."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "13.24",
+      "version": "13.24",
+      "releaseDate": "2023-12-06",
+      "change": {
+        "id": "briar",
+        "name": "Briar",
+        "type": "champion",
+        "assetKey": "Briar",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Attack speed ratio increased to 0.669 from 0.644.; Base armor reduced to 30 from 32.",
+        "gameplayImpact": "Briar was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Attack speed ratio",
+                "before": "0",
+                "after": "0.669",
+                "note": "Attack speed ratio increased to 0.669 from 0.644."
+              },
+              {
+                "label": "Base armor",
+                "before": "32",
+                "after": "30",
+                "note": "Base armor reduced to 30 from 32."
+              }
+            ]
+          },
+          {
+            "ability": "Head Rush",
+            "title": "Head Rush",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "60–200",
+                "after": "60–180",
+                "note": "Base damage reduced to 60–180 from 60–200."
+              }
+            ]
+          },
+          {
+            "ability": "Blood Frenzy",
+            "title": "Blood Frenzy",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Bonus attack speed",
+                "before": "60–120%",
+                "after": "55–115%",
+                "note": "Bonus attack speed reduced to 55–115% from 60–120%."
+              }
+            ]
+          },
+          {
+            "ability": "Chilling Scream",
+            "title": "Chilling Scream",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Damage reduction",
+                "before": "40%",
+                "after": "35%",
+                "note": "Damage reduction reduced to 35% from 40%."
+              }
+            ]
+          },
+          {
+            "ability": "Certain Death",
+            "title": "Certain Death",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Damage type",
+                "before": "physical",
+                "after": "magic",
+                "note": "Damage type changed to magic from physical."
+              },
+              {
+                "label": "AP ratio",
+                "before": "110% AP",
+                "after": "120% AP",
+                "note": "AP ratio increased to 120% AP from 110% AP."
+              },
+              {
+                "label": "Bonus AD ratio",
+                "before": "75%|AD",
+                "after": "50% bonus AD",
+                "note": "Bonus AD ratio reduced to 50% bonus AD from 75%|AD."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "14.2",
+      "version": "14.2",
+      "releaseDate": "2024-01-24",
+      "change": {
+        "id": "briar",
+        "name": "Briar",
+        "type": "champion",
+        "assetKey": "Briar",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Bleed tick interval reduced to 0.5 seconds from 1.; Bonus healing reduced to 0–40% (over 0–100)|health from 0–50% (over 0–100)|health.",
+        "gameplayImpact": "Briar was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Crimson Curse",
+            "title": "Crimson Curse",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Bleed tick interval",
+                "before": "1",
+                "after": "0.5 seconds",
+                "note": "Bleed tick interval reduced to 0.5 seconds from 1."
+              },
+              {
+                "label": "Bonus healing",
+                "before": "0–50% (over 0–100)|health",
+                "after": "0–40% (over 0–100)|health",
+                "note": "Bonus healing reduced to 0–40% (over 0–100)|health from 0–50% (over 0–100)|health."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Bonus healing is now increased by 0.025% per 100 bonus health."
+              }
+            ]
+          },
+          {
+            "ability": "Head Rush",
+            "title": "Head Rush",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Damage type",
+                "before": "physical",
+                "after": "magic",
+                "note": "Damage type changed to magic from physical."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Damage now scales with 60% AP."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now also reduces magic resistance by 10–20%."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now applies on-hit and on-attacks effects and benefits from life steal."
+              }
+            ]
+          },
+          {
+            "ability": "Snack Attack",
+            "title": "Snack Attack",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Healing",
+                "before": "35–60%",
+                "after": "25–45% of damage dealt",
+                "note": "Healing reduced to 25–45% of damage dealt from 35–60%."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Healing now scales with 5% of her maximum health."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Bonus damage can no longer critically strike."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "14.4",
+      "version": "14.4",
+      "releaseDate": "2024-02-22",
+      "change": {
+        "id": "briar",
+        "name": "Briar",
+        "type": "champion",
+        "assetKey": "Briar",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "New Effect: Now has a range indicator for the detection radius.",
+        "gameplayImpact": "Briar is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Head Rush",
+            "title": "Head Rush",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: Tooltip now also mentions the magic resistance reduction in the level-up display."
+              }
+            ]
+          },
+          {
+            "ability": "Blood Frenzy",
+            "title": "Blood Frenzy",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Now has a range indicator for the detection radius."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Dash range indicator now properly resizes to account for shorter target ranges than the maximum. (Note: its functionality is unchanged.)"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "14.6",
+      "version": "14.6",
+      "releaseDate": "2024-03-20",
+      "change": {
+        "id": "briar",
+        "name": "Briar",
+        "type": "champion",
+        "assetKey": "Briar",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 2,
+        "tldr": "New Effect: Can now target wards and traps.; Bonus attack speed reduced to 54–110% from 55–115%.",
+        "gameplayImpact": "Briar was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Head Rush",
+            "title": "Head Rush",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Can now target wards and traps."
+              }
+            ]
+          },
+          {
+            "ability": "Blood Frenzy",
+            "title": "Blood Frenzy",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Bonus attack speed",
+                "before": "55–115%",
+                "after": "54–110%",
+                "note": "Bonus attack speed reduced to 54–110% from 55–115%."
+              }
+            ]
+          },
+          {
+            "ability": "Snack Attack",
+            "title": "Snack Attack",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Healing",
+                "before": "25–45%",
+                "after": "24–40% of damage dealt",
+                "note": "Healing reduced to 24–40% of damage dealt from 25–45%."
+              }
+            ]
+          },
+          {
+            "ability": "Certain Death",
+            "title": "Certain Death",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "150–450 (3 ranks)",
+                "after": "150–350 (3 ranks)",
+                "note": "Base damage reduced to 150–350 (3 ranks) from 150–450 (3 ranks)."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "14.8",
+      "version": "14.8",
+      "releaseDate": "2024-04-17",
+      "change": {
+        "id": "briar",
+        "name": "Briar",
+        "type": "champion",
+        "assetKey": "Briar",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 2,
+        "tldr": "Health growth reduced to 95 from 100.; Cast range increased to 475 units from 450.",
+        "gameplayImpact": "Briar was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Health growth",
+                "before": "100",
+                "after": "95",
+                "note": "Health growth reduced to 95 from 100."
+              }
+            ]
+          },
+          {
+            "ability": "Head Rush",
+            "title": "Head Rush",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Cast range",
+                "before": "450",
+                "after": "475 units",
+                "note": "Cast range increased to 475 units from 450."
+              }
+            ]
+          },
+          {
+            "ability": "Blood Frenzy",
+            "title": "Blood Frenzy",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Bonus attack speed",
+                "before": "54–110%",
+                "after": "55–95%",
+                "note": "Bonus attack speed changed to 55–95% from 54–110%."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Now properly reveals the nearest target while the effects of nearsight."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "14.9",
+      "version": "14.9",
+      "releaseDate": "2024-05-01",
+      "change": {
+        "id": "briar",
+        "name": "Briar",
+        "type": "champion",
+        "assetKey": "Briar",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "Gameplay radius increased to 65 units from 55.; Selection radius increased to 120 units from 111.11109924316406.",
+        "gameplayImpact": "Briar is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Gameplay radius",
+                "before": "55",
+                "after": "65 units",
+                "note": "Gameplay radius increased to 65 units from 55."
+              },
+              {
+                "label": "Selection radius",
+                "before": "111",
+                "after": "120 units",
+                "note": "Selection radius increased to 120 units from 111.11109924316406."
+              }
+            ]
+          },
+          {
+            "ability": "Certain Death",
+            "title": "Certain Death",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: No longer lasts indefinitely if the acquired target is a Vessel created by Test of Spirit (Illaoi)}}."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "14.22",
+      "version": "14.22",
+      "releaseDate": "2024-11-06",
+      "change": {
+        "id": "briar",
+        "name": "Briar",
+        "type": "champion",
+        "assetKey": "Briar",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "Base health increased to 625 from 590.",
+        "gameplayImpact": "Briar is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base health",
+                "before": "590",
+                "after": "625",
+                "note": "Base health increased to 625 from 590."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "25.13",
+      "version": "25.13",
+      "releaseDate": "2025-06-25",
+      "change": {
+        "id": "briar",
+        "name": "Briar",
+        "type": "champion",
+        "assetKey": "Briar",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "New Effect: All attacks during her Blood Frenzy now have an uncancellable windup.; Recast time changed to 0.15 seconds from 100% of her attack windup.",
+        "gameplayImpact": "Briar is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Blood Frenzy",
+            "title": "Blood Frenzy",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: All attacks during her Blood Frenzy now have an uncancellable windup."
+              }
+            ]
+          },
+          {
+            "ability": "Chilling Scream",
+            "title": "Chilling Scream",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Recast time",
+                "before": "100% of her attack windup",
+                "after": "0.15 seconds",
+                "note": "Recast time changed to 0.15 seconds from 100% of her attack windup."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "25.18",
+      "version": "25.18",
+      "releaseDate": "2025-09-10",
+      "change": {
+        "id": "briar",
+        "name": "Briar",
+        "type": "champion",
+        "assetKey": "Briar",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Damage type changed to physical from magic.; Base damage reduced to 60–160 from 60–180.",
+        "gameplayImpact": "Briar was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Head Rush",
+            "title": "Head Rush",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Damage type",
+                "before": "magic",
+                "after": "physical",
+                "note": "Damage type changed to physical from magic."
+              },
+              {
+                "label": "Base damage",
+                "before": "60–180",
+                "after": "60–160",
+                "note": "Base damage reduced to 60–160 from 60–180."
+              }
+            ]
+          },
+          {
+            "ability": "Blood Frenzy",
+            "title": "Blood Frenzy",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: Manual attack orders issued on a target during the Frenzy can now properly persist upon exiting the state and are no longer automatically dropped."
+              }
+            ]
+          },
+          {
+            "ability": "Certain Death",
+            "title": "Certain Death",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Global audio warning now plays after the cast time of the missile's cast instead of at its start."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Explosion damage no longer scales off of 50% bonus AD."
+              },
+              {
+                "label": "Explosion damage AP ratio",
+                "before": "120% AP",
+                "after": "130% AP",
+                "note": "Explosion damage AP ratio increased to 130% AP from 120% AP."
+              },
+              {
+                "label": "Missile range",
+                "before": "10000",
+                "after": "12000 units",
+                "note": "Missile range increased to 12000 units from 10000."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "25.20",
+      "version": "25.20",
+      "releaseDate": "2025-10-08",
+      "change": {
+        "id": "briar",
+        "name": "Briar",
+        "type": "champion",
+        "assetKey": "Briar",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Maximum number of stacks reduced to 5 from 7.",
+        "gameplayImpact": "Briar loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Crimson Curse",
+            "title": "Crimson Curse",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Maximum number of stacks",
+                "before": "7",
+                "after": "5",
+                "note": "Maximum number of stacks reduced to 5 from 7."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "26.03",
+      "version": "26.03",
+      "releaseDate": "2026-02-04",
+      "change": {
+        "id": "briar",
+        "name": "Briar",
+        "type": "champion",
+        "assetKey": "Briar",
+        "roles": [],
+        "direction": "buff",
+        "severity": 3,
+        "tldr": "Health growth increased to 100 from 95.; Armor growth increased to 4.5 from 4.2.",
+        "gameplayImpact": "Briar is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Health growth",
+                "before": "95",
+                "after": "100",
+                "note": "Health growth increased to 100 from 95."
+              },
+              {
+                "label": "Armor growth",
+                "before": "4",
+                "after": "4.5",
+                "note": "Armor growth increased to 4.5 from 4.2."
+              }
+            ]
+          },
+          {
+            "ability": "Head Rush",
+            "title": "Head Rush",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Health cost",
+                "before": "6%|hp",
+                "after": "5% current health",
+                "note": "Health cost reduced to 5% current health from 6%|hp."
+              }
+            ]
+          },
+          {
+            "ability": "Blood Frenzy",
+            "title": "Blood Frenzy",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Health cost",
+                "before": "6%|hp",
+                "after": "5% current health",
+                "note": "Health cost reduced to 5% current health from 6%|hp."
+              }
+            ]
+          },
+          {
+            "ability": "Chilling Scream",
+            "title": "Chilling Scream",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Health cost",
+                "before": "6%|hp",
+                "after": "5% current health",
+                "note": "Health cost reduced to 5% current health from 6%|hp."
+              }
+            ]
+          },
+          {
+            "ability": "Certain Death",
+            "title": "Certain Death",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Health cost",
+                "before": "6%|hp",
+                "after": "5% current health",
+                "note": "Health cost reduced to 5% current health from 6%|hp."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "26.09",
+      "version": "26.09",
+      "releaseDate": "2026-04-29",
+      "change": {
+        "id": "briar",
+        "name": "Briar",
+        "type": "champion",
+        "assetKey": "Briar",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Health growth reduced to 95 from 100.",
+        "gameplayImpact": "Briar loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Health growth",
+                "before": "100",
+                "after": "95",
+                "note": "Health growth reduced to 95 from 100."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    }
+  ]
+}

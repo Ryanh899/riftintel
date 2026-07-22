@@ -1,0 +1,1393 @@
+{
+  "id": "12.2",
+  "version": "12.2",
+  "title": "\"Zaun's with me every fight. This time's no different.\"",
+  "releaseDate": "2022-01-20",
+  "season": "12",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "\"Zaun's with me every fight. This time's no different.\""
+    },
+    {
+      "title": "Champion balance",
+      "description": "9 champion buffs, 5 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "\"Zaun's with me every fight. This time's no different.\" Structured changes across 25 entities this patch.",
+  "champions": [
+    {
+      "id": "janna",
+      "name": "Janna",
+      "type": "champion",
+      "assetKey": "Janna",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Base movement speed increased to 330 from 315.; Base attack damage increased to 52 from 46.",
+      "gameplayImpact": "Janna was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base movement speed",
+              "before": "315",
+              "after": "330",
+              "note": "Base movement speed increased to 330 from 315."
+            },
+            {
+              "label": "Base attack damage",
+              "before": "46",
+              "after": "52",
+              "note": "Base attack damage increased to 52 from 46."
+            },
+            {
+              "label": "Attack damage growth",
+              "before": "1",
+              "after": "3",
+              "note": "Attack damage growth increased to 3 from 1.5."
+            },
+            {
+              "label": "Attack speed growth",
+              "before": "2",
+              "after": "3%",
+              "note": "Attack speed growth increased to 3% from 2.95%."
+            },
+            {
+              "label": "Base attack range",
+              "before": "550",
+              "after": "500",
+              "note": "Base attack range reduced to 500 from 550."
+            }
+          ]
+        },
+        {
+          "ability": "Tailwind",
+          "title": "Tailwind",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect:"
+            },
+            {
+              "label": "Change",
+              "note": "While moving towards allied champions, Janna gains 8% bonus movement speed."
+            },
+            {
+              "label": "Change",
+              "note": "Nearby allied champions moving towards her gain 8% bonus movement speed."
+            },
+            {
+              "label": "Change",
+              "note": "Old Effect:"
+            },
+            {
+              "label": "Change",
+              "note": "Janna gains 8% bonus movement speed and grants the same amount to nearby allied champions moving towards her."
+            },
+            {
+              "label": "Change",
+              "note": "Janna's basic attacks on-hit and Zephyr}} deal bonus magic damage equal to 25–35% of her bonus movement speed."
+            }
+          ]
+        },
+        {
+          "ability": "Howling Gale",
+          "title": "Howling Gale",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Mana cost",
+              "before": "60–140",
+              "after": "60–100",
+              "note": "Mana cost reduced to 60–100 from 60–140."
+            },
+            {
+              "label": "Minimum range",
+              "before": "1000",
+              "after": "1100 units",
+              "note": "Minimum range increased to 1100 units from 1000."
+            },
+            {
+              "label": "Maximum range",
+              "before": "1750",
+              "after": "1760 units",
+              "note": "Maximum range increased to 1760 units from 1750."
+            },
+            {
+              "label": "Travel time",
+              "before": "1",
+              "after": "1.25 seconds",
+              "note": "Travel time reduced to 1.25 seconds from 1.5."
+            }
+          ]
+        },
+        {
+          "ability": "Zephyr",
+          "title": "Zephyr",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Cast range",
+              "before": "550",
+              "after": "650 units",
+              "note": "Cast range increased to 650 units from 550."
+            },
+            {
+              "label": "Targeting",
+              "before": "edge to edge",
+              "after": "center to center",
+              "note": "Targeting changed to center to center from edge to edge."
+            },
+            {
+              "label": "Slow duration",
+              "before": "2",
+              "after": "3 seconds",
+              "note": "Slow duration increased to 3 seconds from 2."
+            },
+            {
+              "label": "Cooldown",
+              "before": "8–6",
+              "after": "12 seconds at all ranks",
+              "note": "Cooldown increased to 12 seconds at all ranks from 8–6."
+            },
+            {
+              "label": "Base damage",
+              "before": "55–175",
+              "after": "70–190",
+              "note": "Base damage increased to 70–190 from 55–175."
+            },
+            {
+              "label": "Base bonus movement speed",
+              "before": "6–10%",
+              "after": "8–12%",
+              "note": "Base bonus movement speed increased to 8–12% from 6–10%."
+            }
+          ]
+        },
+        {
+          "ability": "Eye of the Storm",
+          "title": "Eye of the Storm",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "16–12",
+              "after": "15–9 seconds",
+              "note": "Cooldown reduced to 15–9 seconds from 16–12."
+            },
+            {
+              "label": "Shield decay delay",
+              "before": "0",
+              "after": "1.25 seconds",
+              "note": "Shield decay delay increased to 1.25 seconds from 0.75."
+            },
+            {
+              "label": "Base shield",
+              "before": "80–220",
+              "after": "80–200",
+              "note": "Base shield reduced to 80–200 from 80–220."
+            },
+            {
+              "label": "Shield AP ratio",
+              "before": "70% AP",
+              "after": "65% AP",
+              "note": "Shield AP ratio reduced to 65% AP from 70% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: Whenever Janna's abilities slow or airborne at least one enemy champion, Eye of the Storm's cooldown is no longer reduced by 20%. This could occur only once per cast."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Whenever Janna's abilities slow or airborne at least one enemy champion, gain 20% heal and shield power for 5 seconds."
+            }
+          ]
+        },
+        {
+          "ability": "Monsoon",
+          "title": "Monsoon",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Heal tick interval",
+              "before": "0",
+              "after": "0.25 seconds per tick",
+              "note": "Heal tick interval reduced to 0.25 seconds per tick from 0.5 seconds per tick."
+            },
+            {
+              "label": "Change",
+              "note": "Total healing unchanged."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "lulu",
+      "name": "Lulu",
+      "type": "champion",
+      "assetKey": "Lulu",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Cooldown increased to 17–13 seconds from 16–12.",
+      "gameplayImpact": "Lulu loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Whimsy",
+          "title": "Whimsy",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "16–12",
+              "after": "17–13 seconds",
+              "note": "Cooldown increased to 17–13 seconds from 16–12."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "nocturne",
+      "name": "Nocturne",
+      "type": "champion",
+      "assetKey": "Nocturne",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Health growth increased to 95 from 85.; Bonus AD ratio increased to 85% bonus AD from 75%|AD.",
+      "gameplayImpact": "Nocturne is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Health growth",
+              "before": "85",
+              "after": "95",
+              "note": "Health growth increased to 95 from 85."
+            }
+          ]
+        },
+        {
+          "ability": "Duskbringer",
+          "title": "Duskbringer",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus AD ratio",
+              "before": "75%|AD",
+              "after": "85% bonus AD",
+              "note": "Bonus AD ratio increased to 85% bonus AD from 75%|AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "qiyana",
+      "name": "Qiyana",
+      "type": "champion",
+      "assetKey": "Qiyana",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base health regeneration reduced to 6 from 7.5.; Grass trail duration reduced to 3 seconds from 3.5.",
+      "gameplayImpact": "Qiyana loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base health regeneration",
+              "before": "7",
+              "after": "6",
+              "note": "Base health regeneration reduced to 6 from 7.5."
+            }
+          ]
+        },
+        {
+          "ability": "Elemental Wrath",
+          "title": "Elemental Wrath",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Grass trail duration",
+              "before": "3",
+              "after": "3 seconds",
+              "note": "Grass trail duration reduced to 3 seconds from 3.5."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "rengar",
+      "name": "Rengar",
+      "type": "champion",
+      "assetKey": "Rengar",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Now gains Unseen Predator}} while camouflage from all sources.",
+      "gameplayImpact": "Rengar is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Unseen Predator",
+          "title": "Unseen Predator",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Leap basic attacks now correctly trigger Deft Strikes."
+            }
+          ]
+        },
+        {
+          "ability": "Thrill of the Hunt",
+          "title": "Thrill of the Hunt",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Now gains Unseen Predator}} while camouflage from all sources."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "samira",
+      "name": "Samira",
+      "type": "champion",
+      "assetKey": "Samira",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base damage per shot increased to 5–25 (3 ranks) from 0–20 (3 ranks).; Maximum base damage increased to 50–250 (3 ranks) from 0–200 (3 ranks).",
+      "gameplayImpact": "Samira is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Inferno Trigger",
+          "title": "Inferno Trigger",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage per shot",
+              "before": "0–20 (3 ranks)",
+              "after": "5–25 (3 ranks)",
+              "note": "Base damage per shot increased to 5–25 (3 ranks) from 0–20 (3 ranks)."
+            },
+            {
+              "label": "Maximum base damage",
+              "before": "0–200 (3 ranks)",
+              "after": "50–250 (3 ranks)",
+              "note": "Maximum base damage increased to 50–250 (3 ranks) from 0–200 (3 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "senna",
+      "name": "Senna",
+      "type": "champion",
+      "assetKey": "Senna",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Now slow enemies hit by 20% (+ 10% per 100 bonus AD) (+ 6% per 100 AP) for 2 seconds.",
+      "gameplayImpact": "Senna is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Piercing Darkness",
+          "title": "Piercing Darkness",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Now slow enemies hit by 20% (+ 10% per 100 bonus AD) (+ 6% per 100 AP) for 2 seconds."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "shen",
+      "name": "Shen",
+      "type": "champion",
+      "assetKey": "Shen",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Empowered health ratio reduced to 4–6% maximum health from 5–7%|health.",
+      "gameplayImpact": "Shen loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Twilight Assault",
+          "title": "Twilight Assault",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Empowered health ratio",
+              "before": "5–7%|health",
+              "after": "4–6% maximum health",
+              "note": "Empowered health ratio reduced to 4–6% maximum health from 5–7%|health."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "tahm-kench",
+      "name": "Tahm Kench",
+      "type": "champion",
+      "assetKey": "TahmKench",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Slow increased to 50% from 40%.; Damage stored as grey health reduced to 15–55% from 45–65%.",
+      "gameplayImpact": "Tahm Kench was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Tongue Lash",
+          "title": "Tongue Lash",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Slow",
+              "before": "40%",
+              "after": "50%",
+              "note": "Slow increased to 50% from 40%."
+            }
+          ]
+        },
+        {
+          "ability": "Thick Skin",
+          "title": "Thick Skin",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Damage stored as grey health",
+              "before": "45–65%",
+              "after": "15–55%",
+              "note": "Damage stored as grey health reduced to 15–55% from 45–65%."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Damage stored as grey health is now increased to 45–65% if he is near at least 2 visible enemy champions (dead or alive)."
+            },
+            {
+              "label": "Damage healed",
+              "before": "30–100%",
+              "after": "45–100%",
+              "note": "Damage healed increased to 45–100% from 30–100%."
+            }
+          ]
+        },
+        {
+          "ability": "Devour",
+          "title": "Devour",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base shield",
+              "before": "400–600 (3 ranks)",
+              "after": "500–900 (3 ranks)",
+              "note": "Base shield increased to 500–900 (3 ranks) from 400–600 (3 ranks)."
+            },
+            {
+              "label": "Shield AP ratio",
+              "before": "100% AP",
+              "after": "150% AP",
+              "note": "Shield AP ratio increased to 150% AP from 100% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: Devouring an ally no longer slows him by 30–10 (3 ranks)%."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Now gains 40% bonus movement for 3 seconds if he devours an ally."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "talon",
+      "name": "Talon",
+      "type": "champion",
+      "assetKey": "Talon",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Damage against monsters reduced to 105% from 130%.",
+      "gameplayImpact": "Talon loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Rake",
+          "title": "Rake",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Damage against monsters",
+              "before": "130%",
+              "after": "105%",
+              "note": "Damage against monsters reduced to 105% from 130%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "tristana",
+      "name": "Tristana",
+      "type": "champion",
+      "assetKey": "Tristana",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base health increased to 600 from 559.; Base health regeneration increased to 4 from 3.75.",
+      "gameplayImpact": "Tristana is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base health",
+              "before": "559",
+              "after": "600",
+              "note": "Base health increased to 600 from 559."
+            },
+            {
+              "label": "Base health regeneration",
+              "before": "3",
+              "after": "4",
+              "note": "Base health regeneration increased to 4 from 3.75."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "vayne",
+      "name": "Vayne",
+      "type": "champion",
+      "assetKey": "Vayne",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Updated visual effects.; Complete overhaul.",
+      "gameplayImpact": "Vayne was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Updated visual effects."
+            },
+            {
+              "label": "Change",
+              "note": "Complete overhaul."
+            },
+            {
+              "label": "Change",
+              "note": "Recolored from base with added smoke and flames."
+            },
+            {
+              "label": "Change",
+              "note": "Recolored from base with heart in W decal."
+            },
+            {
+              "label": "Change",
+              "note": "Same as new base, different missiles to match model."
+            },
+            {
+              "label": "Change",
+              "note": "Recolored from base with more golden, divine sparks."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "veigar",
+      "name": "Veigar",
+      "type": "champion",
+      "assetKey": "Veigar",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Cooldown reduced to 6–4 seconds from 7–5.; Phenomenal Evil Power|Phenomenal Evil}} stacks from large minions and monsters increased to 3 from 2.",
+      "gameplayImpact": "Veigar is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Baleful Strike",
+          "title": "Baleful Strike",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "7–5",
+              "after": "6–4 seconds",
+              "note": "Cooldown reduced to 6–4 seconds from 7–5."
+            },
+            {
+              "label": "Phenomenal Evil Power|Phenomenal Evil}} stacks from large minions and monsters",
+              "before": "2",
+              "after": "3",
+              "note": "Phenomenal Evil Power|Phenomenal Evil}} stacks from large minions and monsters increased to 3 from 2."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "volibear",
+      "name": "Volibear",
+      "type": "champion",
+      "assetKey": "Volibear",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Attack damage growth increased to 3.5 from 3.; Cooldown reduced to 13 seconds from 15.",
+      "gameplayImpact": "Volibear is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Attack damage growth",
+              "before": "3",
+              "after": "3.5",
+              "note": "Attack damage growth increased to 3.5 from 3."
+            }
+          ]
+        },
+        {
+          "ability": "Sky Splitter",
+          "title": "Sky Splitter",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "15",
+              "after": "13 seconds",
+              "note": "Cooldown reduced to 13 seconds from 15."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "yasuo",
+      "name": "Yasuo",
+      "type": "champion",
+      "assetKey": "Yasuo",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "AD ratio increased to 105% AD from 100% AD.; Total critical damage penalty unchanged (-20%). Critical damage modifier increased to 93.33% from 88.89%.",
+      "gameplayImpact": "Yasuo is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Steel Tempest",
+          "title": "Steel Tempest",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AD ratio",
+              "before": "100% AD",
+              "after": "105% AD",
+              "note": "AD ratio increased to 105% AD from 100% AD."
+            },
+            {
+              "label": "Total critical damage penalty unchanged (-20%). Critical damage modifier",
+              "before": "88",
+              "after": "93.33%",
+              "note": "Total critical damage penalty unchanged (-20%). Critical damage modifier increased to 93.33% from 88.89%."
+            },
+            {
+              "label": "Change",
+              "note": "Critical strike AD ratio increased to from ."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "yone",
+      "name": "Yone",
+      "type": "champion",
+      "assetKey": "Yone",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "AD ratio increased to 105% AD from 100% AD.; Total critical damage penalty unchanged (-20%). Critical damage modifier increased to 93.33% from 88.89%.",
+      "gameplayImpact": "Yone is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Mortal Steel",
+          "title": "Mortal Steel",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AD ratio",
+              "before": "100% AD",
+              "after": "105% AD",
+              "note": "AD ratio increased to 105% AD from 100% AD."
+            },
+            {
+              "label": "Total critical damage penalty unchanged (-20%). Critical damage modifier",
+              "before": "88",
+              "after": "93.33%",
+              "note": "Total critical damage penalty unchanged (-20%). Critical damage modifier increased to 93.33% from 88.89%."
+            },
+            {
+              "label": "Change",
+              "note": "Critical strike AD ratio increased to from ."
+            }
+          ]
+        },
+        {
+          "ability": "Soul Unbound",
+          "title": "Soul Unbound",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Fixed a bug where he could sometimes cast while his Soul Unbound was active."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "zed",
+      "name": "Zed",
+      "type": "champion",
+      "assetKey": "Zed",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "AD ratio reduced to 65% AD from 100% AD.",
+      "gameplayImpact": "Zed loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Death Mark",
+          "title": "Death Mark",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "AD ratio",
+              "before": "100% AD",
+              "after": "65% AD",
+              "note": "AD ratio reduced to 65% AD from 100% AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "zeri",
+      "name": "Zeri",
+      "type": "champion",
+      "assetKey": "Zeri",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Zeri generates 1 charge for every 40 units she travels by any means and 10 charge every time she casts Burst Fire}}, up to a maximum of 100 charge. Her basic attacks consume charge to deal modified damage. Zeri gains …",
+      "gameplayImpact": "Zeri was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Basic Attack",
+          "title": "Basic Attack",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Zeri generates 1 charge for every 40 units she travels by any means and 10 charge every time she casts Burst Fire}}, up to a maximum of 100 charge. Her basic attacks consume charge to deal modified damage. Zeri gains maximum charge when the game starts and upon respawning."
+            },
+            {
+              "label": "Change",
+              "note": "Basic Attack: Zeri zaps her target, becoming projectile and applying spell effects as spell damage. Zeri's basic attacks cannot critical strike nor trigger on-hit and on-attack effects."
+            },
+            {
+              "label": "Change",
+              "note": "While not at full charge, Zeri's attacks consume 10 charge to deal 15+(25/17)*(x-1)*(0.7025+0.0175*(x-1))|magic damage (+ 4% AP) magic damage. Against enemies below 35% health, this is increasedShe may still use an uncharged attack even while below 10 charge."
+            },
+            {
+              "label": "Change",
+              "note": "At full charge, Zeri's next attack will consume all charge to deal 90+(110/17)*(x-1)*(0.7025+0.0175*(x-1))|magic damage (+ 80% AP) (+ 3+(17/17)*(x-1)*(0.7025+0.0175*(x-1))% of target's maximum health) magic damage and slow the target by 20px% for 1.5 seconds. The damage based on the target's health ratio is capped at 300 against monsters."
+            },
+            {
+              "label": "Change",
+              "note": "Zeri's basic attacks have 500 attack range and are non-projectiles."
+            },
+            {
+              "label": "Change",
+              "note": "Innate: Zeri absorbs the energy of shield she damages, shielding herself equal to 60% of the dealt to the shield. Each instance of shield gained by Living Battery lasts for 3 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Innate: Whenever Zeri receives a shield, she gains 10% bonus movement speed for 3 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Passive: Zeri's slow application from a Basic Attack 2|charged}} basic attack has its strength increased to 20–40%."
+            },
+            {
+              "label": "Change",
+              "note": "Active: Zeri fires a burst of 7 rounds in the target direction that deal a total of 10–30 (+ 110% AD) physical damage to the first enemy hit."
+            },
+            {
+              "label": "Change",
+              "note": "Burst Fire's effects are treated as a basic attack; it can hit any enemy unit a typical basic attack can, deals basic damage, can critical strike for bonus damage and apply on-hit and on-attack effects at 100% effectiveness once on each target struck. Burst Fire's cooldown and cast time scale down with attack speed, with the maximum of 1.5 attacks per second. 50% of attack speed in excess of the cap is converted into bonus attack damage."
+            },
+            {
+              "label": "Change",
+              "note": "Cost: None"
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: (1/Zeri's attack speed) seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Range: cr , Width: er , Speed: / ."
+            },
+            {
+              "label": "Change",
+              "note": "Active: Zeri fires an electric pulse in the target direction that deals 40–180 (+ 100% AD) (+ 60% AP) magic damage to the first enemy hit and slow them by 50–70% for 1–2 seconds. If the pulse collides with terrain, it transforms into a laser in a line from the point of impact that grants sight of the area for 1.75 seconds and fires after 0.75 seconds, applying the same effects to all enemies caught within."
+            },
+            {
+              "label": "Change",
+              "note": "Mana Cost: 50–90."
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: 10 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Range: cr / er , Width: er / er , Speed: / ."
+            },
+            {
+              "label": "Change",
+              "note": "Active: Zeri dash in the target direction. Afterwards, she energizes her next 3 casts of Burst Fire 2|Burst Fire}} within 6 seconds, causing them to pierce through enemies, though dealing 80–100% damage after the first and not applying attack effects to secondary targets. This damage is affected by critical strike modifiers."
+            },
+            {
+              "label": "Change",
+              "note": "Zeri will dash farther across terrain if Spark Surge was cast within 50 units of any, gaining unobstructed vision of the surrounding 800 units and sight herself while there are enemy champions within 800 units of her."
+            },
+            {
+              "label": "Change",
+              "note": "Spark Surge's cooldown is reduced by 1.5 seconds for every champion Zeri hits with Basic Attack 2|charged}} basic attacks or abilities."
+            },
+            {
+              "label": "Change",
+              "note": "Spark Surge basic attack reset Zeri's basic attack timer and cooldown. Zeri can cast Ultrashock Laser}} and Lightning Crash}} while dash."
+            },
+            {
+              "label": "Change",
+              "note": "Mana Cost: 80."
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Range: , Speed: 600 + 100% movement speed|ms, Cast Time: None."
+            },
+            {
+              "label": "Change",
+              "note": "Active: Zeri discharges a nova of electricity around her, dealing 150–350 (3 ranks) (+ 80% bonus AD) (+ 80% AP) magic damage to all nearby enemies."
+            },
+            {
+              "label": "Change",
+              "note": "If Lightning Crash hits at least one enemy champion, Zeri becomes Overcharged for 6 seconds, and gains 3 stacks of Overcharge per champion hit. Each stack grants her 2% bonus movement speed. She gains a stack of Overcharge each time she hits an enemy champion with a Basic Attack 2|charged}} basic attack or ability, refreshing the duration of Overcharge by 2 seconds in the process."
+            },
+            {
+              "label": "Change",
+              "note": "While Overcharged, Zeri gains 30–40 (3 ranks)% bonus attack speed and deals 10–30 (3 ranks) on-hit, and empowers Burst Fire 3|Burst Fire}} to instead fire 3 rounds over a 20% shorter cast time that are electrified and travelling with increased speed. These rounds deal the bonus magic damage to the target struck and the closest sight enemy, chaining up to 4 subsequent targets. Secondary targets are dealt 25% AD physical damage, which can critical strike for physical damage."
+            },
+            {
+              "label": "Change",
+              "note": "Mana Cost: 100."
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Effect Radius: cr , Cast Time: 0.25 seconds."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "blasting-wand",
+      "name": "Blasting Wand",
+      "type": "item",
+      "assetKey": "221026",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "No longer builds into Lich Bane}}.",
+      "gameplayImpact": "Blasting Wand loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "No longer builds into Lich Bane}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "fiendish-codex",
+      "name": "Fiendish Codex",
+      "type": "item",
+      "assetKey": "3108",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Now builds into Lich Bane}}.",
+      "gameplayImpact": "Fiendish Codex was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Now builds into Lich Bane}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "lich-bane",
+      "name": "Lich Bane",
+      "type": "item",
+      "assetKey": "3100",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "New Recipe: Sheen}} + Aether Wisp}} + Fiendish Codex}} + = .; Old Recipe: Sheen}} + Aether Wisp}} + Blasting Wand}} + = .",
+      "gameplayImpact": "Lich Bane was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Recipe: Sheen}} + Aether Wisp}} + Fiendish Codex}} + = ."
+            },
+            {
+              "label": "Change",
+              "note": "Old Recipe: Sheen}} + Aether Wisp}} + Blasting Wand}} + = ."
+            },
+            {
+              "label": "Ability haste",
+              "before": "0",
+              "after": "15",
+              "note": "Ability haste increased to 15 from 0."
+            },
+            {
+              "label": "Spellblade base AD ratio",
+              "before": "150%|AD",
+              "after": "75% base AD",
+              "note": "Spellblade base AD ratio reduced to 75% base AD from 150%|AD."
+            },
+            {
+              "label": "Spellblade AP ratio",
+              "before": "40% AP",
+              "after": "50% AP",
+              "note": "Spellblade AP ratio increased to 50% AP from 40% AP."
+            },
+            {
+              "label": "Spellblade cooldown",
+              "before": "2",
+              "after": "1.5 seconds",
+              "note": "Spellblade cooldown reduced to 1.5 seconds from 2.5."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "rylais-crystal-scepter",
+      "name": "Rylai's Crystal Scepter",
+      "type": "item",
+      "assetKey": "3116",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Total cost reduced to from .; Combine cost reduced to from .",
+      "gameplayImpact": "Rylai's Crystal Scepter was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Total cost reduced to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Combine cost reduced to from ."
+            },
+            {
+              "label": "Ability power",
+              "before": "90",
+              "after": "75",
+              "note": "Ability power reduced to 75 from 90."
+            },
+            {
+              "label": "Health",
+              "before": "350",
+              "after": "400",
+              "note": "Health increased to 400 from 350."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "turbo-chemtank",
+      "name": "Turbo Chemtank",
+      "type": "item",
+      "assetKey": "443079",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Refuel stack gain now only works with damage against monsters or champions, instead of all targets.; New Effect: Refuel movement stacks are now capped at 10 stacks per dash or blink.",
+      "gameplayImpact": "Turbo Chemtank is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Refuel stack gain now only works with damage against monsters or champions, instead of all targets."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Refuel movement stacks are now capped at 10 stacks per dash or blink."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "id": "lethal-tempo",
+      "name": "Lethal Tempo",
+      "type": "rune",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Bonus attack speed per stack changed to from .; Maximum bonus attack speed changed to from .",
+      "gameplayImpact": "Lethal Tempo was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bonus attack speed per stack changed to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Maximum bonus attack speed changed to from ."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "monsters",
+      "name": "Monsters",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Chemtech Fog; Maximum bonus damage increased to 12% from 10%.",
+      "gameplayImpact": "Monsters is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Chemtech Fog"
+            },
+            {
+              "label": "Maximum bonus damage",
+              "before": "10%",
+              "after": "12%",
+              "note": "Maximum bonus damage increased to 12% from 10%."
+            },
+            {
+              "label": "Stealth timer",
+              "before": "1",
+              "after": "2.5 seconds",
+              "note": "Stealth timer increased to 2.5 seconds from 1.5."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Camouflage is now based on out of combat timer instead of instantly stealthing upon entering."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: The exclamation point stealth indicator has been fixed and will correctly reappear above your champion if you are visible to an enemy inside the Chemtech Fog after completing certain stealthing abilities."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "elemental-rift",
+      "name": "Elemental Rift",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Chemtech Fog; Maximum bonus damage increased to 12% from 10%.",
+      "gameplayImpact": "Elemental Rift is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Chemtech Fog"
+            },
+            {
+              "label": "Maximum bonus damage",
+              "before": "10%",
+              "after": "12%",
+              "note": "Maximum bonus damage increased to 12% from 10%."
+            },
+            {
+              "label": "Stealth timer",
+              "before": "1",
+              "after": "2.5 seconds",
+              "note": "Stealth timer increased to 2.5 seconds from 1.5."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Camouflage is now based on out of combat timer instead of instantly stealthing upon entering."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: The exclamation point stealth indicator has been fixed and will correctly reappear above your champion if you are visible to an enemy inside the Chemtech Fog after completing certain stealthing abilities."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "neutral-buffs",
+      "name": "Neutral buffs",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Bleed out timer reduced to 3 seconds from 4.; Base health ratio reduced to 70% base health from 80%|health.",
+      "gameplayImpact": "Neutral buffs loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Bleed out timer",
+              "before": "4",
+              "after": "3 seconds",
+              "note": "Bleed out timer reduced to 3 seconds from 4."
+            },
+            {
+              "label": "Base health ratio",
+              "before": "80%|health",
+              "after": "70% base health",
+              "note": "Base health ratio reduced to 70% base health from 80%|health."
+            },
+            {
+              "label": "Bonus health ratio",
+              "before": "50%|health",
+              "after": "40% bonus health",
+              "note": "Bonus health ratio reduced to 40% bonus health from 50%|health."
+            },
+            {
+              "label": "Base damage",
+              "before": "25–75",
+              "after": "25–50",
+              "note": "Base damage reduced to 25–50 from 25–75."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    }
+  ],
+  "sourceUrl": "https://na.leagueoflegends.com/en-us/news/game-updates/patch-12-2-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V12.2"
+}

@@ -1,0 +1,1474 @@
+{
+  "id": "25.15",
+  "version": "25.15",
+  "title": "Riot finally broke the emergency glass.",
+  "releaseDate": "2025-07-30",
+  "season": "25",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "Riot finally broke the emergency glass."
+    },
+    {
+      "title": "Champion balance",
+      "description": "1 champion buffs, 6 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "Riot finally broke the emergency glass. Structured changes across 21 entities this patch.",
+  "champions": [
+    {
+      "id": "alistar",
+      "name": "Alistar",
+      "type": "champion",
+      "assetKey": "Alistar",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base armor reduced to 40 from 47.",
+      "gameplayImpact": "Alistar loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base armor",
+              "before": "47",
+              "after": "40",
+              "note": "Base armor reduced to 40 from 47."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "ashe",
+      "name": "Ashe",
+      "type": "champion",
+      "assetKey": "Ashe",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "English voice-over added.",
+      "gameplayImpact": "Ashe was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "English voice-over added."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "belveth",
+      "name": "Bel'Veth",
+      "type": "champion",
+      "assetKey": "Belveth",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Bonus attack speed per stack increased to 0.28–1.1% from 0.28+0.045*(x-1) for 17%. Now also scales until level 18 instead of 17.; Base damage reduced to 0–20 from 10–30.",
+      "gameplayImpact": "Bel'Veth was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Death in Lavender",
+          "title": "Death in Lavender",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus attack speed per stack",
+              "before": "0",
+              "after": "0.28–1.1%",
+              "note": "Bonus attack speed per stack increased to 0.28–1.1% from 0.28+0.045*(x-1) for 17%. Now also scales until level 18 instead of 17."
+            }
+          ]
+        },
+        {
+          "ability": "Void Surge",
+          "title": "Void Surge",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "10–30",
+              "after": "0–20",
+              "note": "Base damage reduced to 0–20 from 10–30."
+            },
+            {
+              "label": "Bonus monster damage",
+              "before": "45–85",
+              "after": "55–95",
+              "note": "Bonus monster damage increased to 55–95 from 45–85."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "braum",
+      "name": "Braum",
+      "type": "champion",
+      "assetKey": "Braum",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base armor reduced to 35 from 42.; Armor growth reduced to 5 from 5.2.",
+      "gameplayImpact": "Braum loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base armor",
+              "before": "42",
+              "after": "35",
+              "note": "Base armor reduced to 35 from 42."
+            },
+            {
+              "label": "Armor growth",
+              "before": "5",
+              "after": "5",
+              "note": "Armor growth reduced to 5 from 5.2."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "corki",
+      "name": "Corki",
+      "type": "champion",
+      "assetKey": "Corki",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Base damage reduced to 70–250 from 70–270.; Bonus AD ratio increased to 130% bonus AD from 120%|ad.",
+      "gameplayImpact": "Corki was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Phosphorus Bomb",
+          "title": "Phosphorus Bomb",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "70–270",
+              "after": "70–250",
+              "note": "Base damage reduced to 70–250 from 70–270."
+            },
+            {
+              "label": "Bonus AD ratio",
+              "before": "120%|ad",
+              "after": "130% bonus AD",
+              "note": "Bonus AD ratio increased to 130% bonus AD from 120%|ad."
+            }
+          ]
+        },
+        {
+          "ability": "Missile Barrage",
+          "title": "Missile Barrage",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus AD ratio",
+              "before": "80%|ad",
+              "after": "85% bonus AD",
+              "note": "Bonus AD ratio increased to 85% bonus AD from 80%|ad."
+            },
+            {
+              "label": "Big One bonus AD ratio",
+              "before": "160%|ad",
+              "after": "170% bonus AD",
+              "note": "Big One bonus AD ratio increased to 170% bonus AD from 160%|ad."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "illaoi",
+      "name": "Illaoi",
+      "type": "champion",
+      "assetKey": "Illaoi",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "All tooltip locations where values related to Prophet of an Elder God|Tentacles}} are noted will now properly update with changes to their actual values.; Tentacle AD ratio increased to 105% AD from 100% AD.",
+      "gameplayImpact": "Illaoi was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "All tooltip locations where values related to Prophet of an Elder God|Tentacles}} are noted will now properly update with changes to their actual values."
+            }
+          ]
+        },
+        {
+          "ability": "Prophet of an Elder God",
+          "title": "Prophet of an Elder God",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Tentacle AD ratio",
+              "before": "100% AD",
+              "after": "105% AD",
+              "note": "Tentacle AD ratio increased to 105% AD from 100% AD."
+            }
+          ]
+        },
+        {
+          "ability": "Tentacle Smash",
+          "title": "Tentacle Smash",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Corrected AD ratio in the tooltip."
+            },
+            {
+              "label": "Vessel debuff duration",
+              "before": "10",
+              "after": "3 seconds",
+              "note": "Vessel debuff duration reduced to 3 seconds from 10."
+            },
+            {
+              "label": "Automatic Tentacle slam cooldown against Spirits and Vessels",
+              "before": "5",
+              "after": "4.5–3.5 (lv 1–13)",
+              "note": "Automatic Tentacle slam cooldown against Spirits and Vessels reduced to 4.5–3.5 (lv 1–13) from 5.5–3.5 (lv 1–13)."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: 1.1 seconds lockout before the Vessel can start spawning the first Tentacle."
+            },
+            {
+              "label": "Change",
+              "note": "Undocumented: Tentacles now stay awake if there is a Spirit in range, even if Illaoi or a Vessel}} is not around, allowing them to continue attacking targets. (before - [https://youtu.be/o91SnonQ3TI] [https://youtu.be/ba7ZW9fUtZ8], after - [https://youtu.be/2z55JLZP6MQ] [https://youtu.be/_-AABStf2ag] [https://youtu.be/iH4SrivCId8])"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "irelia",
+      "name": "Irelia",
+      "type": "champion",
+      "assetKey": "Irelia",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base health regeneration reduced to 3.5 from 6.; English voice-over added.",
+      "gameplayImpact": "Irelia loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base health regeneration",
+              "before": "6",
+              "after": "3.5",
+              "note": "Base health regeneration reduced to 3.5 from 6."
+            },
+            {
+              "label": "Change",
+              "note": "English voice-over added."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "kayle",
+      "name": "Kayle",
+      "type": "champion",
+      "assetKey": "Kayle",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Default range type changed to melee from ranged.",
+      "gameplayImpact": "Kayle was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Default range type",
+              "before": "ranged",
+              "after": "melee",
+              "note": "Default range type changed to melee from ranged."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "kled",
+      "name": "Kled",
+      "type": "champion",
+      "assetKey": "Kled",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "New Effect: While dismounted, Kled now also gains 4 bonus armor and magic resistance, increased for each nearby enemy champion.; Bonus resistances per nearby enemy increased to 30% from 20%.",
+      "gameplayImpact": "Kled is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Skaarl the Cowardly Lizard",
+          "title": "Skaarl the Cowardly Lizard",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: While dismounted, Kled now also gains 4 bonus armor and magic resistance, increased for each nearby enemy champion."
+            },
+            {
+              "label": "Bonus resistances per nearby enemy",
+              "before": "20%",
+              "after": "30%",
+              "note": "Bonus resistances per nearby enemy increased to 30% from 20%."
+            },
+            {
+              "label": "Maximum bonus resistances",
+              "before": "200%",
+              "after": "250% of the minimum",
+              "note": "Maximum bonus resistances increased to 250% of the minimum from 200%."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Refunding an item during the remount sequence no longer causes Kled to perform the remount sequence but without actually switching the player to the mounted ability set."
+            }
+          ]
+        },
+        {
+          "ability": "Bear Trap on a Rope",
+          "title": "Bear Trap on a Rope",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Undocumented / Bug Fix: Is no longer able to damage minion, small pet, and small monsters with its area check, resulting in double the intended damage in case both the projectile and area check hit the target."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "master-yi",
+      "name": "Master Yi",
+      "type": "champion",
+      "assetKey": "MasterYi",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Base damage reduced to 20–100 from 30–150.; AD ratio increased to 70% AD from 50% AD.",
+      "gameplayImpact": "Master Yi was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Alpha Strike",
+          "title": "Alpha Strike",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "30–150",
+              "after": "20–100",
+              "note": "Base damage reduced to 20–100 from 30–150."
+            },
+            {
+              "label": "AD ratio",
+              "before": "50% AD",
+              "after": "70% AD",
+              "note": "AD ratio increased to 70% AD from 50% AD."
+            },
+            {
+              "label": "Bonus monster damage",
+              "before": "65–165",
+              "after": "60–160",
+              "note": "Bonus monster damage reduced to 60–160 from 65–165."
+            },
+            {
+              "label": "Change",
+              "note": "Undocumented / Bug Fix: Tooltip critical damage calculations have been corrected and now use the proper bonus critical damage modifier instead of using the value as a multiplier for the total critical damage."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "nilah",
+      "name": "Nilah",
+      "type": "champion",
+      "assetKey": "Nilah",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Base attack damage increased to 60 from 58.; Attack speed growth reduced to 2.25% from 3%.",
+      "gameplayImpact": "Nilah was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base attack damage",
+              "before": "58",
+              "after": "60",
+              "note": "Base attack damage increased to 60 from 58."
+            },
+            {
+              "label": "Attack speed growth",
+              "before": "3%",
+              "after": "2.25%",
+              "note": "Attack speed growth reduced to 2.25% from 3%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "pantheon",
+      "name": "Pantheon",
+      "type": "champion",
+      "assetKey": "Pantheon",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Monster damage reduced to 90% from 105%.",
+      "gameplayImpact": "Pantheon loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Comet Spear",
+          "title": "Comet Spear",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Monster damage",
+              "before": "105%",
+              "after": "90%",
+              "note": "Monster damage reduced to 90% from 105%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "quinn",
+      "name": "Quinn",
+      "type": "champion",
+      "assetKey": "Quinn",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Base damage increased to 65–205 from 20–100.; AD ratio reduced to 80–120% bonus AD from 80–120% total AD.",
+      "gameplayImpact": "Quinn was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Blinding Assault",
+          "title": "Blinding Assault",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "20–100",
+              "after": "65–205",
+              "note": "Base damage increased to 65–205 from 20–100."
+            },
+            {
+              "label": "AD ratio",
+              "before": "80–120% total AD",
+              "after": "80–120% bonus AD",
+              "note": "AD ratio reduced to 80–120% bonus AD from 80–120% total AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "reksai",
+      "name": "Rek'Sai",
+      "type": "champion",
+      "assetKey": "RekSai",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Base armor reduced to 35 from 36.; Armor growth reduced to 4.5 from 4.95.",
+      "gameplayImpact": "Rek'Sai was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base armor",
+              "before": "36",
+              "after": "35",
+              "note": "Base armor reduced to 35 from 36."
+            },
+            {
+              "label": "Armor growth",
+              "before": "4",
+              "after": "4.5",
+              "note": "Armor growth reduced to 4.5 from 4.95."
+            }
+          ]
+        },
+        {
+          "ability": "Unburrow",
+          "title": "Unburrow",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Target displace immunity",
+              "before": "10 at all ranks",
+              "after": "10–6 seconds",
+              "note": "Target displace immunity reduced to 10–6 seconds from 10 at all ranks."
+            }
+          ]
+        },
+        {
+          "ability": "Furious Bite",
+          "title": "Furious Bite",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "10",
+              "after": "6 seconds",
+              "note": "Cooldown reduced to 6 seconds from 10."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Damage at maximum Fury is now converted to true damage."
+            },
+            {
+              "label": "Change",
+              "note": "Damage at maximum Fury:"
+            },
+            {
+              "label": "Change",
+              "note": "New: Deals 100–240 (+ 80% bonus AD)."
+            },
+            {
+              "label": "Change",
+              "note": "Old: Deals 100% AD (+ 8–14% of target's maximum health), capped at 75–400 against monsters."
+            },
+            {
+              "label": "Change",
+              "note": "While below maximum Fury, damage is now 80% of the maximum-Fury damage instead of explicit."
+            },
+            {
+              "label": "Change",
+              "note": "New: Deals 80–192 (+ 64% bonus AD)."
+            },
+            {
+              "label": "Change",
+              "note": "Old: Deals 100% total AD."
+            }
+          ]
+        },
+        {
+          "ability": "Void Rush",
+          "title": "Void Rush",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "150–450 (3 ranks)",
+              "after": "150–350 (3 ranks)",
+              "note": "Base damage reduced to 150–350 (3 ranks) from 150–450 (3 ranks)."
+            },
+            {
+              "label": "Target health ratio",
+              "before": "25–35 (3 ranks)% of target's missing health",
+              "after": "15–25 (3 ranks)% of target's maximum health",
+              "note": "Target health ratio changed to 15–25 (3 ranks)% of target's maximum health from 25–35 (3 ranks)% of target's missing health."
+            },
+            {
+              "label": "Cooldown",
+              "before": "100–80 (3 ranks)",
+              "after": "120–80 (3 ranks) seconds",
+              "note": "Cooldown increased to 120–80 (3 ranks) seconds from 100–80 (3 ranks)."
+            },
+            {
+              "label": "Cast fail cooldown",
+              "before": "10",
+              "after": "5 seconds",
+              "note": "Cast fail cooldown reduced to 5 seconds from 10."
+            },
+            {
+              "label": "Change",
+              "note": "Now places Burrow}} on a 1-second cooldown after cast, rather than on full cooldown."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "rell",
+      "name": "Rell",
+      "type": "champion",
+      "assetKey": "Rell",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base shield reduced to 20–100 from 25–125.",
+      "gameplayImpact": "Rell loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Ferromancy: Crash Down",
+          "title": "Ferromancy: Crash Down",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base shield",
+              "before": "25–125",
+              "after": "20–100",
+              "note": "Base shield reduced to 20–100 from 25–125."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "xayah",
+      "name": "Xayah",
+      "type": "champion",
+      "assetKey": "Xayah",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "English voice-over added.",
+      "gameplayImpact": "Xayah was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "English voice-over added."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "ziggs",
+      "name": "Ziggs",
+      "type": "champion",
+      "assetKey": "Ziggs",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Outer radius damage reduced to 65% from 66.%.; Outer radius base damage reduced to 195–455 (3 ranks) from 300*(2/3) to 700*(2/3) (3 ranks).",
+      "gameplayImpact": "Ziggs loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Mega Inferno Bomb",
+          "title": "Mega Inferno Bomb",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Outer radius damage",
+              "before": "66",
+              "after": "65%",
+              "note": "Outer radius damage reduced to 65% from 66.%."
+            },
+            {
+              "label": "Outer radius base damage",
+              "before": "300*(2/3) to 700*(2/3) (3 ranks)",
+              "after": "195–455 (3 ranks)",
+              "note": "Outer radius base damage reduced to 195–455 (3 ranks) from 300*(2/3) to 700*(2/3) (3 ranks)."
+            },
+            {
+              "label": "Outer radius AP ratio",
+              "before": "100*(2/3)% AP",
+              "after": "65% AP",
+              "note": "Outer radius AP ratio reduced to 65% AP from 100*(2/3)% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    }
+  ],
+  "items": [],
+  "systems": [
+    {
+      "id": "monsters",
+      "name": "Monsters",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Base health increased to 11500 from 11400.; Removed: No longer has 75 base health regeneration in-combat.",
+      "gameplayImpact": "Monsters was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base health",
+              "before": "11400",
+              "after": "11500",
+              "note": "Base health increased to 11500 from 11400."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: No longer has 75 base health regeneration in-combat."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "aram",
+      "name": "ARAM",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Reduced the intensity of both the color and the distortion of the Koeshin's Crossing death screen effect.; Removed: Walking near Bloom Portals no longer grants 50% bonus movement speed decaying over 1 second.",
+      "gameplayImpact": "ARAM was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Reduced the intensity of both the color and the distortion of the Koeshin's Crossing death screen effect."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: Walking near Bloom Portals no longer grants 50% bonus movement speed decaying over 1 second."
+            },
+            {
+              "label": "Change",
+              "note": "Undocumented / Bug Fix: Corrected \"spawn zone\" context in Koeshin's Crossing. Previously it would be located outside of the actual fountains and mostly away from the map's playable area."
+            },
+            {
+              "label": "Change",
+              "note": "20px|link= Power Flower"
+            },
+            {
+              "label": "Shield duration",
+              "before": "8",
+              "after": "12 seconds",
+              "note": "Shield duration increased to 12 seconds from 8."
+            },
+            {
+              "label": "Shield strength",
+              "before": "8%|hp",
+              "after": "12% maximum health",
+              "note": "Shield strength increased to 12% maximum health from 8%|hp."
+            },
+            {
+              "label": "Maximum shield",
+              "before": "24%|hp",
+              "after": "36% maximum health",
+              "note": "Maximum shield increased to 36% maximum health from 24%|hp."
+            },
+            {
+              "label": "Change",
+              "note": "Undocumented / Bug Fix: On Butcher's Bridge, players are no longer able to launch themselves from Cannon Launchers into the alcove directly by targeting a corner of the map out of bounds."
+            },
+            {
+              "label": "Change",
+              "note": "Akali}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "+5%",
+              "after": "0%",
+              "note": "Outgoing damage modifier changed to 0% from +5%."
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-10%",
+              "after": "-5%",
+              "note": "Incoming damage modifier changed to -5% from -10%."
+            },
+            {
+              "label": "Change",
+              "note": "Assassin's Mark}}"
+            },
+            {
+              "label": "Change",
+              "note": "AP ratio changed to 65% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Five Point Strike}}"
+            },
+            {
+              "label": "Change",
+              "note": "AP ratio changed to 70% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Perfect Execution}}"
+            },
+            {
+              "label": "Change",
+              "note": "First dash AP ratio changed to 40% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Second dash minimum AP ratio changed to 40% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Briar}}"
+            },
+            {
+              "label": "Healing modifier",
+              "before": "+5%",
+              "after": "+15%",
+              "note": "Healing modifier changed to +15% from +5%."
+            },
+            {
+              "label": "Change",
+              "note": "Chilling Scream}}"
+            },
+            {
+              "label": "Change",
+              "note": "Damage reduction changed to 55%."
+            },
+            {
+              "label": "Change",
+              "note": "Caitlyn}}"
+            },
+            {
+              "label": "Change",
+              "note": "Piltover Peacemaker}}"
+            },
+            {
+              "label": "Change",
+              "note": "AD ratio changed to 125–185% AD."
+            },
+            {
+              "label": "Change",
+              "note": "Hecarim}}"
+            },
+            {
+              "label": "Change",
+              "note": "Devastating Charge}}"
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown changed to 16–12 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Kassadin}}"
+            },
+            {
+              "label": "Change",
+              "note": "Force Pulse}}"
+            },
+            {
+              "label": "Change",
+              "note": "Base damage changed to 80–220."
+            },
+            {
+              "label": "Change",
+              "note": "AP ratio changed to 75% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Nunu & Willump}}"
+            },
+            {
+              "label": "Change",
+              "note": "Consume}}"
+            },
+            {
+              "label": "Change",
+              "note": "Non-champion heal AP ratio changed to 110% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Biggest Snowball Ever!}}"
+            },
+            {
+              "label": "Change",
+              "note": "Minimum AP ratio changed to 67% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Maximum AP ratio changed to 200% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Quinn}}"
+            },
+            {
+              "label": "Change",
+              "note": "Behind Enemy Lines}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Quinn will now appropriately unite with Valor upon respawning or returning to the fountain after the ability has been learned, and on all ARAM maps."
+            },
+            {
+              "label": "Change",
+              "note": "Senna}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "-3%",
+              "after": "-8%",
+              "note": "Outgoing damage modifier changed to -8% from -3%."
+            },
+            {
+              "label": "Change",
+              "note": "Sett}}"
+            },
+            {
+              "label": "Change",
+              "note": "Haymaker}}"
+            },
+            {
+              "label": "Change",
+              "note": "Damage base Grit ratio changed to 20%."
+            },
+            {
+              "label": "Change",
+              "note": "Talon}}"
+            },
+            {
+              "label": "Change",
+              "note": "Noxian Diplomacy}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bonus AD ratio changed to 115% bonus AD."
+            },
+            {
+              "label": "Change",
+              "note": "Rake}}"
+            },
+            {
+              "label": "Change",
+              "note": "Outgoing bonus AD ratio changed to 50% bonus AD."
+            },
+            {
+              "label": "Change",
+              "note": "Incoming bonus AD ratio changed to 100% bonus AD."
+            },
+            {
+              "label": "Change",
+              "note": "Assassin's Path}}"
+            },
+            {
+              "label": "Change",
+              "note": "Per-wall cooldown changed to 10–6 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Shadow Assault}}"
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown changed to 80–60 (3 ranks) seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Teemo}}"
+            },
+            {
+              "label": "Ability haste",
+              "before": "-10",
+              "after": "-15",
+              "note": "Ability haste changed to -15 from -10."
+            },
+            {
+              "label": "Change",
+              "note": "Noxious Trap}}"
+            },
+            {
+              "label": "Change",
+              "note": "Trap duration changed to 180 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Ziggs}}"
+            },
+            {
+              "label": "AoE damage to minions",
+              "before": "0%",
+              "after": "-20%",
+              "note": "AoE damage to minions changed to -20% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Lifeline}}"
+            },
+            {
+              "label": "Change",
+              "note": "Removed: Champion abilities that carry enemy champions are now special-cased to no longer allow Soul Anchor's caster to teleport targets back to the marked location."
+            },
+            {
+              "label": "Change",
+              "note": "Spectral Cutlass}}"
+            },
+            {
+              "label": "Change",
+              "note": "Total cost reduced to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Combine cost reduced to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: Champion abilities that carry enemy champions are now special-cased to no longer allow Soul Anchor's caster to teleport targets back to the marked location."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "general",
+      "name": "General",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Reduced the intensity of both the color and the distortion of the Koeshin's Crossing death screen effect.; Removed: Walking near Bloom Portals no longer grants 50% bonus movement speed decaying over 1 second.",
+      "gameplayImpact": "General was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Reduced the intensity of both the color and the distortion of the Koeshin's Crossing death screen effect."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: Walking near Bloom Portals no longer grants 50% bonus movement speed decaying over 1 second."
+            },
+            {
+              "label": "Change",
+              "note": "Undocumented / Bug Fix: Corrected \"spawn zone\" context in Koeshin's Crossing. Previously it would be located outside of the actual fountains and mostly away from the map's playable area."
+            },
+            {
+              "label": "Change",
+              "note": "20px|link= Power Flower"
+            },
+            {
+              "label": "Shield duration",
+              "before": "8",
+              "after": "12 seconds",
+              "note": "Shield duration increased to 12 seconds from 8."
+            },
+            {
+              "label": "Shield strength",
+              "before": "8%|hp",
+              "after": "12% maximum health",
+              "note": "Shield strength increased to 12% maximum health from 8%|hp."
+            },
+            {
+              "label": "Maximum shield",
+              "before": "24%|hp",
+              "after": "36% maximum health",
+              "note": "Maximum shield increased to 36% maximum health from 24%|hp."
+            },
+            {
+              "label": "Change",
+              "note": "Undocumented / Bug Fix: On Butcher's Bridge, players are no longer able to launch themselves from Cannon Launchers into the alcove directly by targeting a corner of the map out of bounds."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "mode",
+      "name": "Mode",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Akali}}; Outgoing damage modifier changed to 0% from +5%.",
+      "gameplayImpact": "Mode was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Akali}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "+5%",
+              "after": "0%",
+              "note": "Outgoing damage modifier changed to 0% from +5%."
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-10%",
+              "after": "-5%",
+              "note": "Incoming damage modifier changed to -5% from -10%."
+            },
+            {
+              "label": "Change",
+              "note": "Assassin's Mark}}"
+            },
+            {
+              "label": "Change",
+              "note": "AP ratio changed to 65% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Five Point Strike}}"
+            },
+            {
+              "label": "Change",
+              "note": "AP ratio changed to 70% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Perfect Execution}}"
+            },
+            {
+              "label": "Change",
+              "note": "First dash AP ratio changed to 40% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Second dash minimum AP ratio changed to 40% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Briar}}"
+            },
+            {
+              "label": "Healing modifier",
+              "before": "+5%",
+              "after": "+15%",
+              "note": "Healing modifier changed to +15% from +5%."
+            },
+            {
+              "label": "Change",
+              "note": "Chilling Scream}}"
+            },
+            {
+              "label": "Change",
+              "note": "Damage reduction changed to 55%."
+            },
+            {
+              "label": "Change",
+              "note": "Caitlyn}}"
+            },
+            {
+              "label": "Change",
+              "note": "Piltover Peacemaker}}"
+            },
+            {
+              "label": "Change",
+              "note": "AD ratio changed to 125–185% AD."
+            },
+            {
+              "label": "Change",
+              "note": "Hecarim}}"
+            },
+            {
+              "label": "Change",
+              "note": "Devastating Charge}}"
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown changed to 16–12 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Kassadin}}"
+            },
+            {
+              "label": "Change",
+              "note": "Force Pulse}}"
+            },
+            {
+              "label": "Change",
+              "note": "Base damage changed to 80–220."
+            },
+            {
+              "label": "Change",
+              "note": "AP ratio changed to 75% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Nunu & Willump}}"
+            },
+            {
+              "label": "Change",
+              "note": "Consume}}"
+            },
+            {
+              "label": "Change",
+              "note": "Non-champion heal AP ratio changed to 110% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Biggest Snowball Ever!}}"
+            },
+            {
+              "label": "Change",
+              "note": "Minimum AP ratio changed to 67% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Maximum AP ratio changed to 200% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Quinn}}"
+            },
+            {
+              "label": "Change",
+              "note": "Behind Enemy Lines}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Quinn will now appropriately unite with Valor upon respawning or returning to the fountain after the ability has been learned, and on all ARAM maps."
+            },
+            {
+              "label": "Change",
+              "note": "Senna}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "-3%",
+              "after": "-8%",
+              "note": "Outgoing damage modifier changed to -8% from -3%."
+            },
+            {
+              "label": "Change",
+              "note": "Sett}}"
+            },
+            {
+              "label": "Change",
+              "note": "Haymaker}}"
+            },
+            {
+              "label": "Change",
+              "note": "Damage base Grit ratio changed to 20%."
+            },
+            {
+              "label": "Change",
+              "note": "Talon}}"
+            },
+            {
+              "label": "Change",
+              "note": "Noxian Diplomacy}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bonus AD ratio changed to 115% bonus AD."
+            },
+            {
+              "label": "Change",
+              "note": "Rake}}"
+            },
+            {
+              "label": "Change",
+              "note": "Outgoing bonus AD ratio changed to 50% bonus AD."
+            },
+            {
+              "label": "Change",
+              "note": "Incoming bonus AD ratio changed to 100% bonus AD."
+            },
+            {
+              "label": "Change",
+              "note": "Assassin's Path}}"
+            },
+            {
+              "label": "Change",
+              "note": "Per-wall cooldown changed to 10–6 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Shadow Assault}}"
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown changed to 80–60 (3 ranks) seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Teemo}}"
+            },
+            {
+              "label": "Ability haste",
+              "before": "-10",
+              "after": "-15",
+              "note": "Ability haste changed to -15 from -10."
+            },
+            {
+              "label": "Change",
+              "note": "Noxious Trap}}"
+            },
+            {
+              "label": "Change",
+              "note": "Trap duration changed to 180 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Ziggs}}"
+            },
+            {
+              "label": "AoE damage to minions",
+              "before": "0%",
+              "after": "-20%",
+              "note": "AoE damage to minions changed to -20% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Lifeline}}"
+            },
+            {
+              "label": "Change",
+              "note": "Removed: Champion abilities that carry enemy champions are now special-cased to no longer allow Soul Anchor's caster to teleport targets back to the marked location."
+            },
+            {
+              "label": "Change",
+              "note": "Spectral Cutlass}}"
+            },
+            {
+              "label": "Change",
+              "note": "Total cost reduced to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Combine cost reduced to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: Champion abilities that carry enemy champions are now special-cased to no longer allow Soul Anchor's caster to teleport targets back to the marked location."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-25-15-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V25.15"
+}

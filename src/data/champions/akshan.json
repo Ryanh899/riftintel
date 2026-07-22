@@ -1,0 +1,994 @@
+{
+  "slug": "akshan",
+  "name": "Akshan",
+  "assetKey": "Akshan",
+  "entries": [
+    {
+      "patchId": "11.15",
+      "version": "11.15",
+      "releaseDate": "2021-07-21",
+      "change": {
+        "id": "akshan",
+        "name": "Akshan",
+        "type": "champion",
+        "assetKey": "Akshan",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Innate: Whenever Akshan uses a basic attack, he fires an additional shot after a delay that deals 50% AD physical damage, increased to 100% AD against minions. Issuing an on a different target before the additional sh…",
+        "gameplayImpact": "Akshan was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": "New champion",
+        "changes": [
+          {
+            "ability": "General",
+            "title": null,
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Innate: Whenever Akshan uses a basic attack, he fires an additional shot after a delay that deals 50% AD physical damage, increased to 100% AD against minions. Issuing an on a different target before the additional shot has been launched causes Akshan to fire it at the new target. If the second shot is cancelled instead, he gains 35–75|ms (+ 100% bonus attack speed) bonus movement speed decaying over 1 second."
+              },
+              {
+                "label": "Change",
+                "note": "The additional shot applies on-hit and on-attack effects at 100% effectiveness and benefits from critical strike modifiers at 30% effectiveness."
+              },
+              {
+                "label": "Change",
+                "note": "Akshan's basic attacks and abilities apply a stack to affected enemies for 5 seconds, stacking up to 3 times and refreshing on subsequent applications. The third stack consumes them all to deal 20–175 bonus magic damage and, if the target is a champion, Akshan is granted a 40–300 (+ 40% bonus AD) shield for 2 seconds. The shield may only be gained once every few seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Static Cooldown: 16–4 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Active: Akshan hurls a boomerang in the target direction, dealing 5–85 (+ 80% AD) physical damage to enemies hit and standard sight them for 1 second, granting sight of the area along its path, as well as extending its range every time it hits an enemy. If the boomerang hits an enemy champion, Akshan gains 40% bonus movement speed decaying over 1 second."
+              },
+              {
+                "label": "Change",
+                "note": "Upon reaching maximum range, the boomerang returns to Akshan. Enemies can be hit once per pass."
+              },
+              {
+                "label": "Change",
+                "note": "Avengerang deals 40–70% damage against non-champions."
+              },
+              {
+                "label": "Change",
+                "note": "Mana Cost: 60–80."
+              },
+              {
+                "label": "Change",
+                "note": "Cooldown: seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Range: er 850, Effect Radius: sight , Width: er 120, Speed: 1500 / 2400, Cast time: 0.25 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Passive: Enemy champions that kill allied champions are marked as a Scoundrel for 60 seconds. Upon scoring a takedown against a Scoundrel within 3 seconds of damaging them, Akshan receives an additional and revives all death allied champions that were slain by that enemy champion after 1 second at their summoning platform, and removes the marks from all other enemies."
+              },
+              {
+                "label": "Change",
+                "note": "Active: Akshan enters camouflage, which lasts for 2 seconds or indefinitely while he is near terrain or inside brush. Going Rogue can be recast after 1 second, and does so automatically at the end of its duration."
+              },
+              {
+                "label": "Change",
+                "note": "Attacking or casting abilities ends Going Rogue immediately."
+              },
+              {
+                "label": "Change",
+                "note": "While Going Rogue and moving towards nearby Scoundrels, Akshan gains 80–120 bonus movement speed and bonus mana regeneration equal to 12% of his missing mana. He can also see trails leading towards Scoundrels."
+              },
+              {
+                "label": "Change",
+                "note": "Recast: Akshan ends Going Rogue."
+              },
+              {
+                "label": "Change",
+                "note": "Mana Cost: 40–0."
+              },
+              {
+                "label": "Change",
+                "note": "Cooldown: seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Detection Radius: 800, Cast time: 0.5 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "ARAM: Scoundrel duration reduced to 25 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Active: Akshan can activate Heroic Swing three times before the ability goes on cooldown, and can use the third cast only after 0.5 seconds of the second cast. Akshan may input a movement command to use the second and third casts."
+              },
+              {
+                "label": "Change",
+                "note": "First Cast: Akshan fires a hook in the target direction, which grapples to the first instance of terrain hit for 1.5 seconds. Heroic Swing's second cast can be used while the hook is attached."
+              },
+              {
+                "label": "Change",
+                "note": "If Akshan becomes immobilize or ground during this time, the hook will detach, ending Heroic Swing prematurely."
+              },
+              {
+                "label": "Change",
+                "note": "Second Cast: Akshan dash around the terrain, rapidly firing at the nearest sight enemy to deal them 30–130 (+ 10% bonus AD) (+ 30% bonus attack speed) physical damage per shot and apply on-hit and on-attack effects at 25% effectiveness per shot. He stops the swing upon colliding with an enemy champion or terrain, or after 3 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Akshan will be knockdown by any immobilize crowd control during the dash."
+              },
+              {
+                "label": "Change",
+                "note": "Third Cast: Akshan dash off of the rope to the target location and fires one last shot at a nearby sight enemy."
+              },
+              {
+                "label": "Change",
+                "note": "Heroic Swing's cooldown resets upon scoring a takedown against an enemy champion. The shots benefit from critical strike modifiers at 90% effectiveness and applies life steal life steal at 100% effectiveness. Akshan prioritizes firing at enemy champions with stacks of Dirty Fighting}}, will not fire if he is channeling Comeuppance}}, and sight himself during Heroic Swing."
+              },
+              {
+                "label": "Change",
+                "note": "Mana Cost: 70."
+              },
+              {
+                "label": "Change",
+                "note": "Cooldown: seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Speed: / , Cast time: None."
+              },
+              {
+                "label": "Change",
+                "note": "Active: Akshan channel for 2.5 seconds, locking onto the target enemy champion, true sight them, and storing 5–7 (3 ranks) bullets into his weapon, as well as sight himself. Comeuppance can be recast after 0.5 seconds during the channel, and does so automatically at the end of its duration."
+              },
+              {
+                "label": "Change",
+                "note": "Comeuppance is placed on a 15-second cooldown if its channel is canceled."
+              },
+              {
+                "label": "Change",
+                "note": "Recast: Akshan fires all stored bullets at the target, each dealing 20–30 (3 ranks) (+ 10% AD) physical damage to the first enemy hit, including structures and increased by 0–300% (over 0–100)|health."
+              },
+              {
+                "label": "Change",
+                "note": "Each bullet's damage is also increased by 0.5% per 1% critical strike chance and critical damage bonuses at 50% effectiveness, applies life steal at 80% effectiveness, and executes minions."
+              },
+              {
+                "label": "Change",
+                "note": "Akshan may still move and cast Heroic Swing}} while channeling Comeuppance."
+              },
+              {
+                "label": "Change",
+                "note": "Mana Cost: 100."
+              },
+              {
+                "label": "Change",
+                "note": "Cooldown: seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Target Range: cr 2500, Width: er 120, Speed: 3200, Cast time: None."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust",
+          "New champion"
+        ]
+      }
+    },
+    {
+      "patchId": "11.17",
+      "version": "11.17",
+      "releaseDate": "2021-08-25",
+      "change": {
+        "id": "akshan",
+        "name": "Akshan",
+        "type": "champion",
+        "assetKey": "Akshan",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 2,
+        "tldr": "Removed: Can no longer claim Scoundrels if he is dead.; Base damage per shot reduced to 30–110 from 30–130.",
+        "gameplayImpact": "Akshan was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Dirty Fighting",
+            "title": "Dirty Fighting",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Undocumented: Second attack range extension",
+                "before": "100",
+                "after": "200 units",
+                "note": "Undocumented: Second attack range extension increased to 200 units from 100."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Second attack now more consistently completes when the first attack was executed at maximum range."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Improved predictions for if the first attack will kill the target, including through shields and with his on-hit effects."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: No longer grants an empty placeholder buff after the shield activates."
+              }
+            ]
+          },
+          {
+            "ability": "Going Rogue",
+            "title": "Going Rogue",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Removed: Can no longer claim Scoundrels if he is dead."
+              }
+            ]
+          },
+          {
+            "ability": "Heroic Swing",
+            "title": "Heroic Swing",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Base damage per shot",
+                "before": "30–130",
+                "after": "30–110",
+                "note": "Base damage per shot reduced to 30–110 from 30–130."
+              },
+              {
+                "label": "Bonus AD ratio per shot",
+                "before": "10%|AD",
+                "after": "17.5% bonus AD",
+                "note": "Bonus AD ratio per shot increased to 17.5% bonus AD from 10%|AD."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Swings no longer ends early when colliding with turrets at a certain angle."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Cooldown no longer resets when scoring a takedown against an enemy clone."
+              }
+            ]
+          },
+          {
+            "ability": "Comeuppance",
+            "title": "Comeuppance",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Cooldown when cancelled",
+                "before": "15",
+                "after": "5 seconds",
+                "note": "Cooldown when cancelled reduced to 5 seconds from 15."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Execute against minions now deals true damage instead of physical damage."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Fixed a bug where a single bullet from Comeuppance dealt unusually lethal damage to Eulogy of the Isles (Yorick)|Maiden}}."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "11.21",
+      "version": "11.21",
+      "releaseDate": "2021-10-20",
+      "change": {
+        "id": "akshan",
+        "name": "Akshan",
+        "type": "champion",
+        "assetKey": "Akshan",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Base damage per shot reduced to 30–90 from 30–110.",
+        "gameplayImpact": "Akshan loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Heroic Swing",
+            "title": "Heroic Swing",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base damage per shot",
+                "before": "30–110",
+                "after": "30–90",
+                "note": "Base damage per shot reduced to 30–90 from 30–110."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "12.1",
+      "version": "12.1",
+      "releaseDate": "2022-01-05",
+      "change": {
+        "id": "akshan",
+        "name": "Akshan",
+        "type": "champion",
+        "assetKey": "Akshan",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "New Effect: Now lasts indefinitely while affected by Chemtech Fog.; Tooltip now states that the bonuses while moving towards Scoundrels is only granted during Going Rogue.",
+        "gameplayImpact": "Akshan is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Going Rogue",
+            "title": "Going Rogue",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Now lasts indefinitely while affected by Chemtech Fog."
+              },
+              {
+                "label": "Change",
+                "note": "Tooltip now states that the bonuses while moving towards Scoundrels is only granted during Going Rogue."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "12.3",
+      "version": "12.3",
+      "releaseDate": "2022-02-02",
+      "change": {
+        "id": "akshan",
+        "name": "Akshan",
+        "type": "champion",
+        "assetKey": "Akshan",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Base bonus movement speed reduced to 20–75 from 35–75.; Base damage reduced to 10–165 from 20–175.",
+        "gameplayImpact": "Akshan loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Dirty Fighting",
+            "title": "Dirty Fighting",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base bonus movement speed",
+                "before": "35–75",
+                "after": "20–75",
+                "note": "Base bonus movement speed reduced to 20–75 from 35–75."
+              },
+              {
+                "label": "Base damage",
+                "before": "20–175",
+                "after": "10–165",
+                "note": "Base damage reduced to 10–165 from 20–175."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "12.10",
+      "version": "12.10",
+      "releaseDate": "2022-05-25",
+      "change": {
+        "id": "akshan",
+        "name": "Akshan",
+        "type": "champion",
+        "assetKey": "Akshan",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Base health increased to 630 from 560.; Health growth increased to 104 from 90.",
+        "gameplayImpact": "Akshan was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base health",
+                "before": "560",
+                "after": "630",
+                "note": "Base health increased to 630 from 560."
+              },
+              {
+                "label": "Health growth",
+                "before": "90",
+                "after": "104",
+                "note": "Health growth increased to 104 from 90."
+              },
+              {
+                "label": "Armor growth",
+                "before": "3",
+                "after": "4.2",
+                "note": "Armor growth increased to 4.2 from 3."
+              },
+              {
+                "label": "Magic resistance growth",
+                "before": "0",
+                "after": "1.3",
+                "note": "Magic resistance growth increased to 1.3 from 0.5."
+              }
+            ]
+          },
+          {
+            "ability": "Dirty Fighting",
+            "title": "Dirty Fighting",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base shield",
+                "before": "40–300",
+                "after": "40–280",
+                "note": "Base shield reduced to 40–280 from 40–300."
+              },
+              {
+                "label": "Shield bonus AD ratio",
+                "before": "40%|AD",
+                "after": "35% bonus AD",
+                "note": "Shield bonus AD ratio reduced to 35% bonus AD from 40%|AD."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "12.20",
+      "version": "12.20",
+      "releaseDate": "2022-10-19",
+      "change": {
+        "id": "akshan",
+        "name": "Akshan",
+        "type": "champion",
+        "assetKey": "Akshan",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "New Effect: Swing duration is now indefinite, rather than ending after 3 seconds.",
+        "gameplayImpact": "Akshan is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Heroic Swing",
+            "title": "Heroic Swing",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Swing duration is now indefinite, rather than ending after 3 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Fixed some bugs that would cause him to spin in place when using the ability in certain locations."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "12.22",
+      "version": "12.22",
+      "releaseDate": "2022-11-16",
+      "change": {
+        "id": "akshan",
+        "name": "Akshan",
+        "type": "champion",
+        "assetKey": "Akshan",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "Base mana regeneration increased to 8.2 from 8.175.",
+        "gameplayImpact": "Akshan is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base mana regeneration",
+                "before": "8",
+                "after": "8.2",
+                "note": "Base mana regeneration increased to 8.2 from 8.175."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "13.10",
+      "version": "13.10",
+      "releaseDate": "2023-05-17",
+      "change": {
+        "id": "akshan",
+        "name": "Akshan",
+        "type": "champion",
+        "assetKey": "Akshan",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 2,
+        "tldr": "New Effect: Bonus damage now scales with 60% AP.; Base shield reduced to 40+(240/17)*(x-1)*(0.7025+0.0175*(x-1)) from 40–280. Uses level growth instead of linear interpolation.",
+        "gameplayImpact": "Akshan was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Dirty Fighting",
+            "title": "Dirty Fighting",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Bonus damage now scales with 60% AP."
+              },
+              {
+                "label": "Base shield",
+                "before": "40–280",
+                "after": "40+(240/17)*(x-1)*(0.7025+0.0175*(x-1))",
+                "note": "Base shield reduced to 40+(240/17)*(x-1)*(0.7025+0.0175*(x-1)) from 40–280. Uses level growth instead of linear interpolation."
+              }
+            ]
+          },
+          {
+            "ability": "Avengerang",
+            "title": "Avengerang",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Bonus movement speed now scales with 5% per 100 AP."
+              }
+            ]
+          },
+          {
+            "ability": "Heroic Swing",
+            "title": "Heroic Swing",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: Avengerang}} and Going Rogue}} are now properly greyed out in the HUD interface during its cast."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Can no longer swing in place inside the pits for and at specific locations."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: VFX no longer sometimes indicates it is going in a different direction than intended."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "13.17",
+      "version": "13.17",
+      "releaseDate": "2023-08-30",
+      "change": {
+        "id": "akshan",
+        "name": "Akshan",
+        "type": "champion",
+        "assetKey": "Akshan",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 2,
+        "tldr": "Health growth increased to 107 from 104.; Armor growth increased to 4.7 from 4.2.",
+        "gameplayImpact": "Akshan was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Health growth",
+                "before": "104",
+                "after": "107",
+                "note": "Health growth increased to 107 from 104."
+              },
+              {
+                "label": "Armor growth",
+                "before": "4",
+                "after": "4.7",
+                "note": "Armor growth increased to 4.7 from 4.2."
+              },
+              {
+                "label": "Attack damage growth",
+                "before": "3",
+                "after": "3",
+                "note": "Attack damage growth reduced to 3 from 3.5."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "13.20",
+      "version": "13.20",
+      "releaseDate": "2023-10-11",
+      "change": {
+        "id": "akshan",
+        "name": "Akshan",
+        "type": "champion",
+        "assetKey": "Akshan",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Base bonus movement speed reduced to 20–40% from 40% at all ranks.; Base damage per shot reduced to 25–85 from 30–90.",
+        "gameplayImpact": "Akshan loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Avengerang",
+            "title": "Avengerang",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base bonus movement speed",
+                "before": "40% at all ranks",
+                "after": "20–40%",
+                "note": "Base bonus movement speed reduced to 20–40% from 40% at all ranks."
+              }
+            ]
+          },
+          {
+            "ability": "Heroic Swing",
+            "title": "Heroic Swing",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base damage per shot",
+                "before": "30–90",
+                "after": "25–85",
+                "note": "Base damage per shot reduced to 25–85 from 30–90."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "14.9",
+      "version": "14.9",
+      "releaseDate": "2024-05-01",
+      "change": {
+        "id": "akshan",
+        "name": "Akshan",
+        "type": "champion",
+        "assetKey": "Akshan",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Non-champion damage reduced to 40–80% from 40–90%.; Bonus movement speed reduced to 20% at all ranks from 20–40%.",
+        "gameplayImpact": "Akshan was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Avengerang",
+            "title": "Avengerang",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Non-champion damage",
+                "before": "40–90%",
+                "after": "40–80%",
+                "note": "Non-champion damage reduced to 40–80% from 40–90%."
+              },
+              {
+                "label": "Bonus movement speed",
+                "before": "20–40%",
+                "after": "20% at all ranks",
+                "note": "Bonus movement speed reduced to 20% at all ranks from 20–40%."
+              }
+            ]
+          },
+          {
+            "ability": "Comeuppance",
+            "title": "Comeuppance",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Minimum base damage per bullet",
+                "before": "20–30 (3 ranks)",
+                "after": "25–45 (3 ranks)",
+                "note": "Minimum base damage per bullet increased to 25–45 (3 ranks) from 20–30 (3 ranks)."
+              },
+              {
+                "label": "Minimum AD ratio per bullet",
+                "before": "10% AD",
+                "after": "15% AD",
+                "note": "Minimum AD ratio per bullet increased to 15% AD from 10% AD."
+              },
+              {
+                "label": "Bonus damage",
+                "before": "0–300% (over 0–100)|health",
+                "after": "0–200% (over 0–100)|health",
+                "note": "Bonus damage reduced to 0–200% (over 0–100)|health from 0–300% (over 0–100)|health."
+              },
+              {
+                "label": "Maximum base damage per bullet",
+                "before": "80–120 (3 ranks)",
+                "after": "75–135 (3 ranks)",
+                "note": "Maximum base damage per bullet changed to 75–135 (3 ranks) from 80–120 (3 ranks)."
+              },
+              {
+                "label": "Maximum AD ratio per bullet",
+                "before": "40% AD",
+                "after": "45% AD",
+                "note": "Maximum AD ratio per bullet increased to 45% AD from 40% AD."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "14.12",
+      "version": "14.12",
+      "releaseDate": "2024-06-12",
+      "change": {
+        "id": "akshan",
+        "name": "Akshan",
+        "type": "champion",
+        "assetKey": "Akshan",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 2,
+        "tldr": "Base damage changed to 15–150 from 10–165.; Base damage per shot reduced to 15–75 from 25–85.",
+        "gameplayImpact": "Akshan loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Dirty Fighting",
+            "title": "Dirty Fighting",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "10–165",
+                "after": "15–150",
+                "note": "Base damage changed to 15–150 from 10–165."
+              }
+            ]
+          },
+          {
+            "ability": "Heroic Swing",
+            "title": "Heroic Swing",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base damage per shot",
+                "before": "25–85",
+                "after": "15–75",
+                "note": "Base damage per shot reduced to 15–75 from 25–85."
+              },
+              {
+                "label": "AD ratio per shot",
+                "before": "17",
+                "after": "15% total AD",
+                "note": "AD ratio per shot changed to 15% total AD from 17.5% bonus AD."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Now properly prioritizes targets affected by Dirty Fighting}} if the ability is learned after they were marked."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "25.22",
+      "version": "25.22",
+      "releaseDate": "2025-11-05",
+      "change": {
+        "id": "akshan",
+        "name": "Akshan",
+        "type": "champion",
+        "assetKey": "Akshan",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Base health reduced to 610 from 630.; Cooldown increased to 9–5 seconds from 8–5.",
+        "gameplayImpact": "Akshan loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base health",
+                "before": "630",
+                "after": "610",
+                "note": "Base health reduced to 610 from 630."
+              }
+            ]
+          },
+          {
+            "ability": "Avengerang",
+            "title": "Avengerang",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Cooldown",
+                "before": "8–5",
+                "after": "9–5 seconds",
+                "note": "Cooldown increased to 9–5 seconds from 8–5."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "26.01",
+      "version": "26.01",
+      "releaseDate": "2026-01-08",
+      "change": {
+        "id": "akshan",
+        "name": "Akshan",
+        "type": "champion",
+        "assetKey": "Akshan",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Second shot now critically strikes at 100% effectiveness instead of 30%.; Base damage increased to 45–165 from 5–85.",
+        "gameplayImpact": "Akshan was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Dirty Fighting",
+            "title": "Dirty Fighting",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Second shot now critically strikes at 100% effectiveness instead of 30%."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Second shot no longer bypasses blind effects if it does not critically strike."
+              }
+            ]
+          },
+          {
+            "ability": "Avengerang",
+            "title": "Avengerang",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "5–85",
+                "after": "45–165",
+                "note": "Base damage increased to 45–165 from 5–85."
+              },
+              {
+                "label": "AD ratio",
+                "before": "80% total AD",
+                "after": "70% bonus AD",
+                "note": "AD ratio changed to 70% bonus AD from 80% total AD."
+              }
+            ]
+          },
+          {
+            "ability": "Heroic Swing",
+            "title": "Heroic Swing",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Base damage per shot",
+                "before": "15–75",
+                "after": "8–40",
+                "note": "Base damage per shot reduced to 8–40 from 15–75."
+              },
+              {
+                "label": "AD ratio per shot",
+                "before": "15% AD",
+                "after": "25% AD",
+                "note": "AD ratio per shot increased to 25% AD from 15% AD."
+              },
+              {
+                "label": "Change",
+                "note": "Now critically strikes at 50% effectiveness instead of modifying total critical damage by 90%."
+              }
+            ]
+          },
+          {
+            "ability": "Comeuppance",
+            "title": "Comeuppance",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Critical strike chance ratio",
+                "before": "0–50% (0–100% crit)",
+                "after": "0–30% (0–100% crit)",
+                "note": "Critical strike chance ratio reduced to 0–30% (0–100% crit) from 0–50% (0–100% crit)."
+              },
+              {
+                "label": "Bonus critical damage ratio",
+                "before": "0–50% (0–100% crit)",
+                "after": "0–30% (0–100% crit)",
+                "note": "Bonus critical damage ratio reduced to 0–30% (0–100% crit) from 0–50% (0–100% crit)."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    }
+  ]
+}

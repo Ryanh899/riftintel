@@ -1,0 +1,725 @@
+{
+  "id": "12.20",
+  "version": "12.20",
+  "title": "It's yet another spooky patch, run!",
+  "releaseDate": "2022-10-19",
+  "season": "12",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "It's yet another spooky patch, run!"
+    },
+    {
+      "title": "Champion balance",
+      "description": "6 champion buffs, 3 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "It's yet another spooky patch, run! Structured changes across 17 entities this patch.",
+  "champions": [
+    {
+      "id": "aatrox",
+      "name": "Aatrox",
+      "type": "champion",
+      "assetKey": "Aatrox",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Heal reduced to 80% of post-mitigation damage from 100%.",
+      "gameplayImpact": "Aatrox loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Deathbringer Stance",
+          "title": "Deathbringer Stance",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Heal",
+              "before": "100%",
+              "after": "80% of post-mitigation damage",
+              "note": "Heal reduced to 80% of post-mitigation damage from 100%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "akshan",
+      "name": "Akshan",
+      "type": "champion",
+      "assetKey": "Akshan",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Swing duration is now indefinite, rather than ending after 3 seconds.",
+      "gameplayImpact": "Akshan is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Heroic Swing",
+          "title": "Heroic Swing",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Swing duration is now indefinite, rather than ending after 3 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Fixed some bugs that would cause him to spin in place when using the ability in certain locations."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "blitzcrank",
+      "name": "Blitzcrank",
+      "type": "champion",
+      "assetKey": "Blitzcrank",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Shield strength changed to 15–45% maximum mana from 30%|mana at all levels.; Base damage reduced to 105–285 from 105–305.",
+      "gameplayImpact": "Blitzcrank was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Mana Barrier",
+          "title": "Mana Barrier",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Shield strength",
+              "before": "30%|mana at all levels",
+              "after": "15–45% maximum mana",
+              "note": "Shield strength changed to 15–45% maximum mana from 30%|mana at all levels."
+            }
+          ]
+        },
+        {
+          "ability": "Rocket Grab",
+          "title": "Rocket Grab",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "105–305",
+              "after": "105–285",
+              "note": "Base damage reduced to 105–285 from 105–305."
+            }
+          ]
+        },
+        {
+          "ability": "Overdrive",
+          "title": "Overdrive",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus non-champion damage",
+              "before": "60–180",
+              "after": "60–220",
+              "note": "Bonus non-champion damage increased to 60–220 from 60–180."
+            }
+          ]
+        },
+        {
+          "ability": "Power Fist",
+          "title": "Power Fist",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "AD ratio",
+              "before": "100% AD",
+              "after": "75% AD",
+              "note": "AD ratio reduced to 75% AD from 100% AD."
+            },
+            {
+              "label": "Non-champion AD ratio",
+              "before": "150% AD",
+              "after": "175% AD",
+              "note": "Non-champion AD ratio increased to 175% AD from 150% AD."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Now occasionally knocks up minions and monsters to space if it overkills them."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "elise",
+      "name": "Elise",
+      "type": "champion",
+      "assetKey": "Elise",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Cast range reduced to 575 units from 625.; Cast range changed to edge range from centered range.",
+      "gameplayImpact": "Elise loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Neurotoxin",
+          "title": "Neurotoxin",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Cast range",
+              "before": "625",
+              "after": "575 units",
+              "note": "Cast range reduced to 575 units from 625."
+            },
+            {
+              "label": "Cast range",
+              "before": "centered range",
+              "after": "edge range",
+              "note": "Cast range changed to edge range from centered range."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "evelynn",
+      "name": "Evelynn",
+      "type": "champion",
+      "assetKey": "Evelynn",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base damage per mark increased to 15–55 from 10–50.; Charm duration increased to 1.25–2.25 seconds from 1–2.",
+      "gameplayImpact": "Evelynn is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Hate Spike",
+          "title": "Hate Spike",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage per mark",
+              "before": "10–50",
+              "after": "15–55",
+              "note": "Base damage per mark increased to 15–55 from 10–50."
+            }
+          ]
+        },
+        {
+          "ability": "Allure",
+          "title": "Allure",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Charm duration",
+              "before": "1–2",
+              "after": "1.25–2.25 seconds",
+              "note": "Charm duration increased to 1.25–2.25 seconds from 1–2."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "gwen",
+      "name": "Gwen",
+      "type": "champion",
+      "assetKey": "Gwen",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base damage per snip increased to 10–30 from 10–26.; Final snip base damage increased to 60–160 from 60–140.",
+      "gameplayImpact": "Gwen is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Snip Snip!",
+          "title": "Snip Snip!",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage per snip",
+              "before": "10–26",
+              "after": "10–30",
+              "note": "Base damage per snip increased to 10–30 from 10–26."
+            },
+            {
+              "label": "Final snip base damage",
+              "before": "60–140",
+              "after": "60–160",
+              "note": "Final snip base damage increased to 60–160 from 60–140."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "jayce",
+      "name": "Jayce",
+      "type": "champion",
+      "assetKey": "Jayce",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Mana restore increased to 10–20 (6 ranks) from 6–16 (6 ranks).; New Effect: Bonus resistances now scale with 7.5% bonus AD.",
+      "gameplayImpact": "Jayce is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Lightning Field",
+          "title": "Lightning Field",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Mana restore",
+              "before": "6–16 (6 ranks)",
+              "after": "10–20 (6 ranks)",
+              "note": "Mana restore increased to 10–20 (6 ranks) from 6–16 (6 ranks)."
+            }
+          ]
+        },
+        {
+          "ability": "Transform Mercury Hammer",
+          "title": "Transform Mercury Hammer",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Bonus resistances now scale with 7.5% bonus AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "maokai",
+      "name": "Maokai",
+      "type": "champion",
+      "assetKey": "Maokai",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Heal health ratio reduced to 4–10% maximum health from 4.5–12%|health.; Cooldown increased to 120–100 (3 ranks) seconds from 120–80 (3 ranks).",
+      "gameplayImpact": "Maokai loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Sap Magic",
+          "title": "Sap Magic",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Heal health ratio",
+              "before": "4",
+              "after": "4–10% maximum health",
+              "note": "Heal health ratio reduced to 4–10% maximum health from 4.5–12%|health."
+            }
+          ]
+        },
+        {
+          "ability": "Nature's Grasp",
+          "title": "Nature's Grasp",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "120–80 (3 ranks)",
+              "after": "120–100 (3 ranks) seconds",
+              "note": "Cooldown increased to 120–100 (3 ranks) seconds from 120–80 (3 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "rammus",
+      "name": "Rammus",
+      "type": "champion",
+      "assetKey": "Rammus",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Removed: No longer slows himself for 30% while active.; Dash speed growth increased to 110% from 105%.",
+      "gameplayImpact": "Rammus was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Defensive Ball Curl",
+          "title": "Defensive Ball Curl",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Removed: No longer slows himself for 30% while active."
+            }
+          ]
+        },
+        {
+          "ability": "Soaring Slam",
+          "title": "Soaring Slam",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Dash speed growth",
+              "before": "105%",
+              "after": "110%",
+              "note": "Dash speed growth increased to 110% from 105%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "sett",
+      "name": "Sett",
+      "type": "champion",
+      "assetKey": "Sett",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Base magic resistance reduced to 28 from 32.; Bonus health regeneration reduced to 0.15–2 (lv 1–16) from 0.25–2 (lv 1–16).",
+      "gameplayImpact": "Sett was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base magic resistance",
+              "before": "32",
+              "after": "28",
+              "note": "Base magic resistance reduced to 28 from 32."
+            }
+          ]
+        },
+        {
+          "ability": "Pit Grit",
+          "title": "Pit Grit",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Bonus health regeneration",
+              "before": "0",
+              "after": "0.15–2 (lv 1–16)",
+              "note": "Bonus health regeneration reduced to 0.15–2 (lv 1–16) from 0.25–2 (lv 1–16)."
+            },
+            {
+              "label": "Right Punch bonus AD ratio",
+              "before": "50%|AD",
+              "after": "55% bonus AD",
+              "note": "Right Punch bonus AD ratio increased to 55% bonus AD from 50%|AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "wukong",
+      "name": "Wukong",
+      "type": "champion",
+      "assetKey": "MonkeyKing",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "AD ratio per tick increased to 34.375% AD from 27.5% AD.; AD ratio per cast increased to 275% AD from 220% AD.",
+      "gameplayImpact": "Wukong is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Cyclone",
+          "title": "Cyclone",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AD ratio per tick",
+              "before": "27",
+              "after": "34.375% AD",
+              "note": "AD ratio per tick increased to 34.375% AD from 27.5% AD."
+            },
+            {
+              "label": "AD ratio per cast",
+              "before": "220% AD",
+              "after": "275% AD",
+              "note": "AD ratio per cast increased to 275% AD from 220% AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "ziggs",
+      "name": "Ziggs",
+      "type": "champion",
+      "assetKey": "Ziggs",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base damage increased to 95–295 from 85–285.",
+      "gameplayImpact": "Ziggs is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Bouncing Bomb",
+          "title": "Bouncing Bomb",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "85–285",
+              "after": "95–295",
+              "note": "Base damage increased to 95–295 from 85–285."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "demonic-embrace",
+      "name": "Demonic Embrace",
+      "type": "item",
+      "assetKey": "4637",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Ability power increased to 75 from 60.; Health reduced to 350 from 450.",
+      "gameplayImpact": "Demonic Embrace was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Ability power",
+              "before": "60",
+              "after": "75",
+              "note": "Ability power increased to 75 from 60."
+            },
+            {
+              "label": "Health",
+              "before": "450",
+              "after": "350",
+              "note": "Health reduced to 350 from 450."
+            },
+            {
+              "label": "Azakana Gaze damage per tick for ranged champions",
+              "before": "1%|health",
+              "after": "0.8% of target's maximum health",
+              "note": "Azakana Gaze damage per tick for ranged champions reduced to 0.8% of target's maximum health from 1%|health."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "frozen-heart",
+      "name": "Frozen Heart",
+      "type": "item",
+      "assetKey": "323110",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Total cost increased to from .; Combine cost increased to from .",
+      "gameplayImpact": "Frozen Heart was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Total cost increased to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Combine cost increased to from ."
+            },
+            {
+              "label": "Armor",
+              "before": "80",
+              "after": "90",
+              "note": "Armor increased to 90 from 80."
+            },
+            {
+              "label": "Rock Solid base damage reduction",
+              "before": "7",
+              "after": "5",
+              "note": "Rock Solid base damage reduction reduced to 5 from 7."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "mortal-reminder",
+      "name": "Mortal Reminder",
+      "type": "item",
+      "assetKey": "3033",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Total cost increased to from .; Combine cost increased to from .",
+      "gameplayImpact": "Mortal Reminder was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Total cost increased to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Combine cost increased to from ."
+            },
+            {
+              "label": "Attack damage",
+              "before": "25",
+              "after": "35",
+              "note": "Attack damage increased to 35 from 25."
+            },
+            {
+              "label": "Attack speed",
+              "before": "25%",
+              "after": "20%",
+              "note": "Attack speed reduced to 20% from 25%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "steraks-gage",
+      "name": "Sterak's Gage",
+      "type": "item",
+      "assetKey": "3053",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Shield health ratio increased to 80% bonus health from 75%|health.; Shield duration increased to 4.5 seconds from 3.75.",
+      "gameplayImpact": "Sterak's Gage is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Shield health ratio",
+              "before": "75%|health",
+              "after": "80% bonus health",
+              "note": "Shield health ratio increased to 80% bonus health from 75%|health."
+            },
+            {
+              "label": "Shield duration",
+              "before": "3",
+              "after": "4.5 seconds",
+              "note": "Shield duration increased to 4.5 seconds from 3.75."
+            },
+            {
+              "label": "Bonus attack damage",
+              "before": "45%|AD",
+              "after": "50% base AD",
+              "note": "Bonus attack damage increased to 50% base AD from 45%|AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "id": "lethal-tempo",
+      "name": "Lethal Tempo",
+      "type": "rune",
+      "assetKey": null,
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Bonus attack range for ranged champions reduced to 50 units from 75.",
+      "gameplayImpact": "Lethal Tempo loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Bonus attack range for ranged champions",
+              "before": "75",
+              "after": "50 units",
+              "note": "Bonus attack range for ranged champions reduced to 50 units from 75."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-12-20-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V12.20"
+}

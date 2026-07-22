@@ -1,0 +1,571 @@
+{
+  "slug": "sona",
+  "name": "Sona",
+  "assetKey": "Sona",
+  "entries": [
+    {
+      "patchId": "11.16",
+      "version": "11.16",
+      "releaseDate": "2021-08-11",
+      "change": {
+        "id": "sona",
+        "name": "Sona",
+        "type": "champion",
+        "assetKey": "Sona",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "New Innate - Accelerando: Sona gains stacks of Accelerando from using Hymn of Valor}} and Aria of Perseverance}}. She gains 0.5 basic ability haste per stack of Accelerando, up to 60 basic ability haste at 120 stacks.…",
+        "gameplayImpact": "Sona was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Power Chord",
+            "title": "Power Chord",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Innate - Accelerando: Sona gains stacks of Accelerando from using Hymn of Valor}} and Aria of Perseverance}}. She gains 0.5 basic ability haste per stack of Accelerando, up to 60 basic ability haste at 120 stacks. At maximum stacks, each stack gained thereafter reduces current cooldown by 1.5 seconds per stack."
+              },
+              {
+                "label": "Base damage",
+                "before": "20–240",
+                "after": "20–245",
+                "note": "Base damage increased to 20–245 from 20–240."
+              },
+              {
+                "label": "Change",
+                "note": "Hymn of Valor}} bonus damage unchanged."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now retains stacks even after entering resurrection."
+              }
+            ]
+          },
+          {
+            "ability": "Hymn of Valor",
+            "title": "Hymn of Valor",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Gain a stack of Accelerando for each bolt that damages a champion."
+              },
+              {
+                "label": "Mana cost",
+                "before": "75–95",
+                "after": "50–70",
+                "note": "Mana cost reduced to 50–70 from 75–95."
+              },
+              {
+                "label": "Change",
+                "note": "Undocumented: No longer requires sight of enemies in range to automatically fire bolts at them."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Granting an ally (other than herself) the aura no longer refunds 30 mana per cast."
+              }
+            ]
+          },
+          {
+            "ability": "Aria of Perseverance",
+            "title": "Aria of Perseverance",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Gain a stack of Accelerando whenever you heal a wounded ally or shield an ally from at least 25–125 damage with this ability."
+              },
+              {
+                "label": "Mana cost",
+                "before": "105–125",
+                "after": "80–100",
+                "note": "Mana cost reduced to 80–100 from 105–125."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Granting an ally (other than herself) the aura no longer refunds 30 mana per cast."
+              }
+            ]
+          },
+          {
+            "ability": "Song of Celerity",
+            "title": "Song of Celerity",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Mana cost",
+                "before": "90",
+                "after": "65",
+                "note": "Mana cost reduced to 65 from 90."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Granting an ally (other than herself) the aura no longer refunds 30 mana per cast."
+              }
+            ]
+          },
+          {
+            "ability": "Crescendo",
+            "title": "Crescendo",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Removed: No longer passively reduces her basic ability cooldowns by 10–40 (3 ranks)%."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now affects every enemy unit, instead of only enemy champions."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "11.19",
+      "version": "11.19",
+      "releaseDate": "2021-09-22",
+      "change": {
+        "id": "sona",
+        "name": "Sona",
+        "type": "champion",
+        "assetKey": "Sona",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 2,
+        "tldr": "Base armor reduced to 26 from 28.; Base damage reduced to 20–240 from 20–245.",
+        "gameplayImpact": "Sona loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base armor",
+                "before": "28",
+                "after": "26",
+                "note": "Base armor reduced to 26 from 28."
+              }
+            ]
+          },
+          {
+            "ability": "Power Chord",
+            "title": "Power Chord",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "20–245",
+                "after": "20–240",
+                "note": "Base damage reduced to 20–240 from 20–245."
+              }
+            ]
+          },
+          {
+            "ability": "Hymn of Valor",
+            "title": "Hymn of Valor",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Removed: Bolts no longer target enemies that are not in vision."
+              }
+            ]
+          },
+          {
+            "ability": "Song of Celerity",
+            "title": "Song of Celerity",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: empowered attack slow is now properly considered a slow debuff; no longer bypasses effects that affect slows."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "12.1",
+      "version": "12.1",
+      "releaseDate": "2022-01-05",
+      "change": {
+        "id": "sona",
+        "name": "Sona",
+        "type": "champion",
+        "assetKey": "Sona",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Armor growth reduced to 3 from 3.3.; Cooldown increased to 14 seconds from 12.",
+        "gameplayImpact": "Sona loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Armor growth",
+                "before": "3",
+                "after": "3",
+                "note": "Armor growth reduced to 3 from 3.3."
+              }
+            ]
+          },
+          {
+            "ability": "Song of Celerity",
+            "title": "Song of Celerity",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Cooldown",
+                "before": "12",
+                "after": "14 seconds",
+                "note": "Cooldown increased to 14 seconds from 12."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "12.10",
+      "version": "12.10",
+      "releaseDate": "2022-05-25",
+      "change": {
+        "id": "sona",
+        "name": "Sona",
+        "type": "champion",
+        "assetKey": "Sona",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Base health increased to 550 from 480.; Health growth increased to 91 from 77.",
+        "gameplayImpact": "Sona was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base health",
+                "before": "480",
+                "after": "550",
+                "note": "Base health increased to 550 from 480."
+              },
+              {
+                "label": "Health growth",
+                "before": "77",
+                "after": "91",
+                "note": "Health growth increased to 91 from 77."
+              },
+              {
+                "label": "Armor growth",
+                "before": "3",
+                "after": "4.2",
+                "note": "Armor growth increased to 4.2 from 3."
+              },
+              {
+                "label": "Magic resistance growth",
+                "before": "0",
+                "after": "1.3",
+                "note": "Magic resistance growth increased to 1.3 from 0.5."
+              }
+            ]
+          },
+          {
+            "ability": "Aria of Perseverance",
+            "title": "Aria of Perseverance",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base heal",
+                "before": "30–110",
+                "after": "30–90",
+                "note": "Base heal reduced to 30–90 from 30–110."
+              },
+              {
+                "label": "Heal AP ratio",
+                "before": "20% AP",
+                "after": "15% AP",
+                "note": "Heal AP ratio reduced to 15% AP from 20% AP."
+              },
+              {
+                "label": "Base shield",
+                "before": "25–125",
+                "after": "25–105",
+                "note": "Base shield reduced to 25–105 from 25–125."
+              },
+              {
+                "label": "Shield AP ratio",
+                "before": "30% AP",
+                "after": "25% AP",
+                "note": "Shield AP ratio reduced to 25% AP from 30% AP."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "12.11",
+      "version": "12.11",
+      "releaseDate": "2022-06-08",
+      "change": {
+        "id": "sona",
+        "name": "Sona",
+        "type": "champion",
+        "assetKey": "Sona",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Minimum damage blocked reduced to 25–105 from 25–125.",
+        "gameplayImpact": "Sona loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Aria of Perseverance",
+            "title": "Aria of Perseverance",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Minimum damage blocked",
+                "before": "25–125",
+                "after": "25–105",
+                "note": "Minimum damage blocked reduced to 25–105 from 25–125."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "12.19",
+      "version": "12.19",
+      "releaseDate": "2022-10-05",
+      "change": {
+        "id": "sona",
+        "name": "Sona",
+        "type": "champion",
+        "assetKey": "Sona",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "Base damage increased to 50–170 from 40–160.; Base slow increased to 50% from 40%.",
+        "gameplayImpact": "Sona is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Hymn of Valor",
+            "title": "Hymn of Valor",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "40–160",
+                "after": "50–170",
+                "note": "Base damage increased to 50–170 from 40–160."
+              }
+            ]
+          },
+          {
+            "ability": "Song of Celerity",
+            "title": "Song of Celerity",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base slow",
+                "before": "40%",
+                "after": "50%",
+                "note": "Base slow increased to 50% from 40%."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "13.21",
+      "version": "13.21",
+      "releaseDate": "2023-10-25",
+      "change": {
+        "id": "sona",
+        "name": "Sona",
+        "type": "champion",
+        "assetKey": "Sona",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 1,
+        "tldr": "Damage now triggers Sona's own damage effects but still grants kill credit to the ally applying it.",
+        "gameplayImpact": "Sona was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Hymn of Valor",
+            "title": "Hymn of Valor",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Damage now triggers Sona's own damage effects but still grants kill credit to the ally applying it."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "14.7",
+      "version": "14.7",
+      "releaseDate": "2024-04-03",
+      "change": {
+        "id": "sona",
+        "name": "Sona",
+        "type": "champion",
+        "assetKey": "Sona",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Hymn of Valor|Staccato}} damage modifier increased to 150% from 140%.; Hymn of Valor|Staccato}} base damage increased to 30–360 from 28–336.",
+        "gameplayImpact": "Sona was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Power Chord",
+            "title": "Power Chord",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Hymn of Valor|Staccato}} damage modifier",
+                "before": "140%",
+                "after": "150%",
+                "note": "Hymn of Valor|Staccato}} damage modifier increased to 150% from 140%."
+              },
+              {
+                "label": "Hymn of Valor|Staccato}} base damage",
+                "before": "28–336",
+                "after": "30–360",
+                "note": "Hymn of Valor|Staccato}} base damage increased to 30–360 from 28–336."
+              },
+              {
+                "label": "Hymn of Valor|Stacatto}} AP ratio",
+                "before": "28% AP",
+                "after": "30% AP",
+                "note": "Hymn of Valor|Stacatto}} AP ratio increased to 30% AP from 28% AP."
+              }
+            ]
+          },
+          {
+            "ability": "Hymn of Valor",
+            "title": "Hymn of Valor",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "On-hit AP ratio",
+                "before": "20% AP",
+                "after": "10% AP",
+                "note": "On-hit AP ratio reduced to 10% AP from 20% AP."
+              }
+            ]
+          },
+          {
+            "ability": "Aria of Perseverance",
+            "title": "Aria of Perseverance",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Heal AP ratio",
+                "before": "15% AP",
+                "after": "30% AP",
+                "note": "Heal AP ratio increased to 30% AP from 15% AP."
+              }
+            ]
+          },
+          {
+            "ability": "Song of Celerity",
+            "title": "Song of Celerity",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Ally bonus movement speed",
+                "before": "10–14%",
+                "after": "10–18%",
+                "note": "Ally bonus movement speed increased to 10–18% from 10–14%."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "25.08",
+      "version": "25.08",
+      "releaseDate": "2025-04-16",
+      "change": {
+        "id": "sona",
+        "name": "Sona",
+        "type": "champion",
+        "assetKey": "Sona",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "Bolt base damage increased to 50–190 from 50–170.",
+        "gameplayImpact": "Sona is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Hymn of Valor",
+            "title": "Hymn of Valor",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Bolt base damage",
+                "before": "50–170",
+                "after": "50–190",
+                "note": "Bolt base damage increased to 50–190 from 50–170."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    }
+  ]
+}

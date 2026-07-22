@@ -1,0 +1,869 @@
+{
+  "slug": "vi",
+  "name": "Vi",
+  "assetKey": "Vi",
+  "entries": [
+    {
+      "patchId": "11.1",
+      "version": "11.1",
+      "releaseDate": "2021-01-06",
+      "change": {
+        "id": "vi",
+        "name": "Vi",
+        "type": "champion",
+        "assetKey": "Vi",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Base magic resistance reduced to 32 from 32.1.",
+        "gameplayImpact": "Vi loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base magic resistance",
+                "before": "32",
+                "after": "32",
+                "note": "Base magic resistance reduced to 32 from 32.1."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "11.22",
+      "version": "11.22",
+      "releaseDate": "2021-11-03",
+      "change": {
+        "id": "vi",
+        "name": "Vi",
+        "type": "champion",
+        "assetKey": "Vi",
+        "roles": [],
+        "direction": "buff",
+        "severity": 3,
+        "tldr": "Knock back duration increased to 0.75 seconds from 0.7.; New Effect: Dash range now extends up to 50 units when going through a wall.",
+        "gameplayImpact": "Vi is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Vault Breaker",
+            "title": "Vault Breaker",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Knock back duration",
+                "before": "0",
+                "after": "0.75 seconds",
+                "note": "Knock back duration increased to 0.75 seconds from 0.7."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Dash range now extends up to 50 units when going through a wall."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Damage and dash distance are now based on exact channeling time instead of every 0.25 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Targets are now knock backed immediately upon contact with her."
+              }
+            ]
+          },
+          {
+            "ability": "Cease and Desist",
+            "title": "Cease and Desist",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Knock up duration",
+                "before": "varying between 1",
+                "after": "1.4 seconds",
+                "note": "Knock up duration changed to 1.4 seconds from varying between 1.25 to 1.49."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Self stun duration is now consistent instead of varying between casts."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now consistently knocks up her target when she is 300 units away instead of between knocking them up between 0 to 300 units, based on 0.25 second intervals."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Enemies are now knocked back immediately upon contact with her."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "12.1",
+      "version": "12.1",
+      "releaseDate": "2022-01-05",
+      "change": {
+        "id": "vi",
+        "name": "Vi",
+        "type": "champion",
+        "assetKey": "Vi",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 1,
+        "tldr": "Tooltip now clarifies the effect will trigger from abilities hitting structures.",
+        "gameplayImpact": "Vi was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Blast Shield",
+            "title": "Blast Shield",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Tooltip now clarifies the effect will trigger from abilities hitting structures."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "12.10",
+      "version": "12.10",
+      "releaseDate": "2022-05-25",
+      "change": {
+        "id": "vi",
+        "name": "Vi",
+        "type": "champion",
+        "assetKey": "Vi",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 2,
+        "tldr": "Base health increased to 655 from 585.; Health growth increased to 99 from 85.",
+        "gameplayImpact": "Vi was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base health",
+                "before": "585",
+                "after": "655",
+                "note": "Base health increased to 655 from 585."
+              },
+              {
+                "label": "Health growth",
+                "before": "85",
+                "after": "99",
+                "note": "Health growth increased to 99 from 85."
+              },
+              {
+                "label": "Armor growth",
+                "before": "3",
+                "after": "4.7",
+                "note": "Armor growth increased to 4.7 from 3.5."
+              },
+              {
+                "label": "Magic resistance growth",
+                "before": "1",
+                "after": "2.05",
+                "note": "Magic resistance growth increased to 2.05 from 1.25."
+              }
+            ]
+          },
+          {
+            "ability": "Blast Shield",
+            "title": "Blast Shield",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Shield health ratio",
+                "before": "15%|health",
+                "after": "13% maximum health",
+                "note": "Shield health ratio reduced to 13% maximum health from 15%|health."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "13.7",
+      "version": "13.7",
+      "releaseDate": "2023-04-05",
+      "change": {
+        "id": "vi",
+        "name": "Vi",
+        "type": "champion",
+        "assetKey": "Vi",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Minimum base damage reduced to 45–145 from 55–155.; Maximum base damage reduced to 90–290 from 110–310.",
+        "gameplayImpact": "Vi was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Vault Breaker",
+            "title": "Vault Breaker",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Minimum base damage",
+                "before": "55–155",
+                "after": "45–145",
+                "note": "Minimum base damage reduced to 45–145 from 55–155."
+              },
+              {
+                "label": "Maximum base damage",
+                "before": "110–310",
+                "after": "90–290",
+                "note": "Maximum base damage reduced to 90–290 from 110–310."
+              },
+              {
+                "label": "Minimum bonus AD ratio",
+                "before": "70%|AD",
+                "after": "80% bonus AD",
+                "note": "Minimum bonus AD ratio increased to 80% bonus AD from 70%|AD."
+              },
+              {
+                "label": "Maximum bonus AD ratio",
+                "before": "140%|AD",
+                "after": "160% bonus AD",
+                "note": "Maximum bonus AD ratio increased to 160% bonus AD from 140%|AD."
+              }
+            ]
+          },
+          {
+            "ability": "Relentless Force",
+            "title": "Relentless Force",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "10–90",
+                "after": "0–60",
+                "note": "Base damage reduced to 0–60 from 10–90."
+              },
+              {
+                "label": "AD ratio",
+                "before": "110% AD",
+                "after": "120% AD",
+                "note": "AD ratio increased to 120% AD from 110% AD."
+              },
+              {
+                "label": "AP ratio",
+                "before": "90% AP",
+                "after": "100% AP",
+                "note": "AP ratio increased to 100% AP from 90% AP."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "13.13",
+      "version": "13.13",
+      "releaseDate": "2023-06-28",
+      "change": {
+        "id": "vi",
+        "name": "Vi",
+        "type": "champion",
+        "assetKey": "Vi",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Shield health ratio reduced to 10% maximum health from 13%|health.; Cooldown increased to 140–90 (3 ranks) seconds from 120–80 (3 ranks).",
+        "gameplayImpact": "Vi loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Blast Shield",
+            "title": "Blast Shield",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Shield health ratio",
+                "before": "13%|health",
+                "after": "10% maximum health",
+                "note": "Shield health ratio reduced to 10% maximum health from 13%|health."
+              }
+            ]
+          },
+          {
+            "ability": "Cease and Desist",
+            "title": "Cease and Desist",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Cooldown",
+                "before": "120–80 (3 ranks)",
+                "after": "140–90 (3 ranks) seconds",
+                "note": "Cooldown increased to 140–90 (3 ranks) seconds from 120–80 (3 ranks)."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "13.17",
+      "version": "13.17",
+      "releaseDate": "2023-08-30",
+      "change": {
+        "id": "vi",
+        "name": "Vi",
+        "type": "champion",
+        "assetKey": "Vi",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 2,
+        "tldr": "Shield health ratio increased to 12% maximum health from 10%|health.; Cooldown refund increased to 4 seconds from 3.",
+        "gameplayImpact": "Vi was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Blast Shield",
+            "title": "Blast Shield",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Shield health ratio",
+                "before": "10%|health",
+                "after": "12% maximum health",
+                "note": "Shield health ratio increased to 12% maximum health from 10%|health."
+              },
+              {
+                "label": "Cooldown refund",
+                "before": "3",
+                "after": "4 seconds",
+                "note": "Cooldown refund increased to 4 seconds from 3."
+              }
+            ]
+          },
+          {
+            "ability": "Relentless Force",
+            "title": "Relentless Force",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Recharge timer",
+                "before": "14–8",
+                "after": "12–8 seconds",
+                "note": "Recharge timer reduced to 12–8 seconds from 14–8."
+              }
+            ]
+          },
+          {
+            "ability": "Cease and Desist",
+            "title": "Cease and Desist",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "150–500 (3 ranks)",
+                "after": "150–400 (3 ranks)",
+                "note": "Base damage reduced to 150–400 (3 ranks) from 150–500 (3 ranks)."
+              },
+              {
+                "label": "Bonus AD ratio",
+                "before": "110%|AD",
+                "after": "90% bonus AD",
+                "note": "Bonus AD ratio reduced to 90% bonus AD from 110%|AD."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "14.5",
+      "version": "14.5",
+      "releaseDate": "2024-03-06",
+      "change": {
+        "id": "vi",
+        "name": "Vi",
+        "type": "champion",
+        "assetKey": "Vi",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "New Effect: Now triggers spell effects upon dealing damage.",
+        "gameplayImpact": "Vi is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Relentless Force",
+            "title": "Relentless Force",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Now triggers spell effects upon dealing damage."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "14.16",
+      "version": "14.16",
+      "releaseDate": "2024-08-14",
+      "change": {
+        "id": "vi",
+        "name": "Vi",
+        "type": "champion",
+        "assetKey": "Vi",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "Minimum base damage increased to 50–150 from 45–145.; Maximum base damage increased to 100–300 from 90–290.",
+        "gameplayImpact": "Vi is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Vault Breaker",
+            "title": "Vault Breaker",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Minimum base damage",
+                "before": "45–145",
+                "after": "50–150",
+                "note": "Minimum base damage increased to 50–150 from 45–145."
+              },
+              {
+                "label": "Maximum base damage",
+                "before": "90–290",
+                "after": "100–300",
+                "note": "Maximum base damage increased to 100–300 from 90–290."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "14.18",
+      "version": "14.18",
+      "releaseDate": "2024-09-11",
+      "change": {
+        "id": "vi",
+        "name": "Vi",
+        "type": "champion",
+        "assetKey": "Vi",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Minimum base damage reduced to 45–145 from 50–150.; Maximum base damage reduced to 90–290 from 100–300.",
+        "gameplayImpact": "Vi loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Vault Breaker",
+            "title": "Vault Breaker",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Minimum base damage",
+                "before": "50–150",
+                "after": "45–145",
+                "note": "Minimum base damage reduced to 45–145 from 50–150."
+              },
+              {
+                "label": "Maximum base damage",
+                "before": "100–300",
+                "after": "90–290",
+                "note": "Maximum base damage reduced to 90–290 from 100–300."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "14.22",
+      "version": "14.22",
+      "releaseDate": "2024-11-06",
+      "change": {
+        "id": "vi",
+        "name": "Vi",
+        "type": "champion",
+        "assetKey": "Vi",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "Shield health ratio increased to 14% of her maximum health from 12%|hp.",
+        "gameplayImpact": "Vi is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Blast Shield",
+            "title": "Blast Shield",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Shield health ratio",
+                "before": "12%|hp",
+                "after": "14% of her maximum health",
+                "note": "Shield health ratio increased to 14% of her maximum health from 12%|hp."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "14.24",
+      "version": "14.24",
+      "releaseDate": "2024-12-11",
+      "change": {
+        "id": "vi",
+        "name": "Vi",
+        "type": "champion",
+        "assetKey": "Vi",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 1,
+        "tldr": "Renamed to Arcane Undercity from Arcane.",
+        "gameplayImpact": "Vi was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "General",
+            "title": null,
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Renamed to Arcane Undercity from Arcane."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "25.10",
+      "version": "25.10",
+      "releaseDate": "2025-05-14",
+      "change": {
+        "id": "vi",
+        "name": "Vi",
+        "type": "champion",
+        "assetKey": "Vi",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Minimum base damage reduced to 40–120 from 45–145.; Minimum bonus AD ratio reduced to 60% bonus AD from 80%|AD.",
+        "gameplayImpact": "Vi was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Vault Breaker",
+            "title": "Vault Breaker",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Minimum base damage",
+                "before": "45–145",
+                "after": "40–120",
+                "note": "Minimum base damage reduced to 40–120 from 45–145."
+              },
+              {
+                "label": "Minimum bonus AD ratio",
+                "before": "80%|AD",
+                "after": "60% bonus AD",
+                "note": "Minimum bonus AD ratio reduced to 60% bonus AD from 80%|AD."
+              },
+              {
+                "label": "Maximum damage",
+                "before": "200%",
+                "after": "250%",
+                "note": "Maximum damage increased to 250% from 200%."
+              },
+              {
+                "label": "Maximum base damage",
+                "before": "90–290",
+                "after": "100–300",
+                "note": "Maximum base damage increased to 100–300 from 90–290."
+              },
+              {
+                "label": "Maximum bonus AD ratio",
+                "before": "160%|AD",
+                "after": "150% bonus AD",
+                "note": "Maximum bonus AD ratio reduced to 150% bonus AD from 160%|AD."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Improved the responsiveness of the cooldown refund when the charge is interrupted by disables."
+              }
+            ]
+          },
+          {
+            "ability": "Relentless Force",
+            "title": "Relentless Force",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Bug Fix: Critical bonus physical damage",
+                "before": "100% AD",
+                "after": "75% AD",
+                "note": "Bug Fix: Critical bonus physical damage reduced to 75% AD from 100% AD."
+              }
+            ]
+          },
+          {
+            "ability": "Cease and Desist",
+            "title": "Cease and Desist",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "150–400 (3 ranks)",
+                "after": "150–350 (3 ranks)",
+                "note": "Base damage reduced to 150–350 (3 ranks) from 150–400 (3 ranks)."
+              },
+              {
+                "label": "Mana cost",
+                "before": "100–150 (3 ranks)",
+                "after": "100 at all ranks",
+                "note": "Mana cost reduced to 100 at all ranks from 100–150 (3 ranks)."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "25.11",
+      "version": "25.11",
+      "releaseDate": "2025-05-29",
+      "change": {
+        "id": "vi",
+        "name": "Vi",
+        "type": "champion",
+        "assetKey": "Vi",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Cast time is now cancelled if the caster enters resurrection during it.; Note: Vi is no longer able to successfully cast the ability after her resurrection effect is triggered during the cast time, which allowed her t…",
+        "gameplayImpact": "Vi loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Cease and Desist",
+            "title": "Cease and Desist",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Cast time is now cancelled if the caster enters resurrection during it."
+              },
+              {
+                "label": "Change",
+                "note": "Note: Vi is no longer able to successfully cast the ability after her resurrection effect is triggered during the cast time, which allowed her to perform the ability as normal but under the revival state."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "25.12",
+      "version": "25.12",
+      "releaseDate": "2025-06-11",
+      "change": {
+        "id": "vi",
+        "name": "Vi",
+        "type": "champion",
+        "assetKey": "Vi",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 2,
+        "tldr": "Base damage reduced to 4–8% of the target's maximum health from 4–10%|hp.; Bonus AD ratio increased to 3.5% per 100 bonus AD from 2.857%|ad.",
+        "gameplayImpact": "Vi was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Denting Blows",
+            "title": "Denting Blows",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "4–10%|hp",
+                "after": "4–8% of the target's maximum health",
+                "note": "Base damage reduced to 4–8% of the target's maximum health from 4–10%|hp."
+              },
+              {
+                "label": "Bonus AD ratio",
+                "before": "2",
+                "after": "3.5% per 100 bonus AD",
+                "note": "Bonus AD ratio increased to 3.5% per 100 bonus AD from 2.857%|ad."
+              },
+              {
+                "label": "Bonus attack speed",
+                "before": "30–60%",
+                "after": "30–50%",
+                "note": "Bonus attack speed reduced to 30–50% from 30–60%."
+              }
+            ]
+          },
+          {
+            "ability": "Relentless Force",
+            "title": "Relentless Force",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "0–60",
+                "after": "10–90",
+                "note": "Base damage increased to 10–90 from 0–60."
+              },
+              {
+                "label": "AD ratio",
+                "before": "120% AD",
+                "after": "110% AD",
+                "note": "AD ratio reduced to 110% AD from 120% AD."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "25.13",
+      "version": "25.13",
+      "releaseDate": "2025-06-25",
+      "change": {
+        "id": "vi",
+        "name": "Vi",
+        "type": "champion",
+        "assetKey": "Vi",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Health ratio reduced to 12% maximum health from 14%|hp.",
+        "gameplayImpact": "Vi loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Blast Shield",
+            "title": "Blast Shield",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Health ratio",
+                "before": "14%|hp",
+                "after": "12% maximum health",
+                "note": "Health ratio reduced to 12% maximum health from 14%|hp."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "26.03",
+      "version": "26.03",
+      "releaseDate": "2026-02-04",
+      "change": {
+        "id": "vi",
+        "name": "Vi",
+        "type": "champion",
+        "assetKey": "Vi",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "Health growth increased to 105 from 99.; Attack damage growth increased to 3.5 from 3.",
+        "gameplayImpact": "Vi is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Health growth",
+                "before": "99",
+                "after": "105",
+                "note": "Health growth increased to 105 from 99."
+              },
+              {
+                "label": "Attack damage growth",
+                "before": "3",
+                "after": "3.5",
+                "note": "Attack damage growth increased to 3.5 from 3."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    }
+  ]
+}

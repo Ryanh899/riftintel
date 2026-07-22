@@ -1,0 +1,951 @@
+{
+  "id": "13.9",
+  "version": "13.9",
+  "title": "\"Everyone's ink is unique, and 'unique' is powerful.\"",
+  "releaseDate": "2023-05-03",
+  "season": "13",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "\"Everyone's ink is unique, and 'unique' is powerful.\""
+    },
+    {
+      "title": "Champion balance",
+      "description": "6 champion buffs, 2 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "\"Everyone's ink is unique, and 'unique' is powerful.\" Structured changes across 15 entities this patch.",
+  "champions": [
+    {
+      "id": "aatrox",
+      "name": "Aatrox",
+      "type": "champion",
+      "assetKey": "Aatrox",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Damage health ratio increased to 4–12% of target's maximum health from 4–10%|health.; Bonus movement speed increased to 60–100 (3 ranks)% from 50–80 (3 ranks)%.",
+      "gameplayImpact": "Aatrox is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Deathbringer Stance",
+          "title": "Deathbringer Stance",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Damage health ratio",
+              "before": "4–10%|health",
+              "after": "4–12% of target's maximum health",
+              "note": "Damage health ratio increased to 4–12% of target's maximum health from 4–10%|health."
+            }
+          ]
+        },
+        {
+          "ability": "World Ender",
+          "title": "World Ender",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus movement speed",
+              "before": "50–80 (3 ranks)%",
+              "after": "60–100 (3 ranks)%",
+              "note": "Bonus movement speed increased to 60–100 (3 ranks)% from 50–80 (3 ranks)%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "amumu",
+      "name": "Amumu",
+      "type": "champion",
+      "assetKey": "Amumu",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base damage per tick changed to 10 at all ranks from 6–14.; Health ratio per tick increased to 0.5–1% of target's maximum health from 0.5–0.8%|health.",
+      "gameplayImpact": "Amumu is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Despair",
+          "title": "Despair",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage per tick",
+              "before": "6–14",
+              "after": "10 at all ranks",
+              "note": "Base damage per tick changed to 10 at all ranks from 6–14."
+            },
+            {
+              "label": "Health ratio per tick",
+              "before": "0",
+              "after": "0.5–1% of target's maximum health",
+              "note": "Health ratio per tick increased to 0.5–1% of target's maximum health from 0.5–0.8%|health."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "belveth",
+      "name": "Bel'Veth",
+      "type": "champion",
+      "assetKey": "Belveth",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Attack damage growth reduced to 1.5 from 1.7.; Damage against monsters increased to 140% from 120%.",
+      "gameplayImpact": "Bel'Veth was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Attack damage growth",
+              "before": "1",
+              "after": "1.5",
+              "note": "Attack damage growth reduced to 1.5 from 1.7."
+            }
+          ]
+        },
+        {
+          "ability": "Void Surge",
+          "title": "Void Surge",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Damage against monsters",
+              "before": "120%",
+              "after": "140%",
+              "note": "Damage against monsters increased to 140% from 120%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "jinx",
+      "name": "Jinx",
+      "type": "champion",
+      "assetKey": "Jinx",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Attack damage growth reduced to 3.15 from 3.4.",
+      "gameplayImpact": "Jinx loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Attack damage growth",
+              "before": "3",
+              "after": "3.15",
+              "note": "Attack damage growth reduced to 3.15 from 3.4."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "kayle",
+      "name": "Kayle",
+      "type": "champion",
+      "assetKey": "Kayle",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Aflame base damage changed to 20–41 (11–18) from 20px.; Passive AP ratio reduced to 20% AP from 25% AP.",
+      "gameplayImpact": "Kayle was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Several SFX and animations now properly play."
+            }
+          ]
+        },
+        {
+          "ability": "Divine Ascent",
+          "title": "Divine Ascent",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Aflame base damage",
+              "before": "20px",
+              "after": "20–41 (11–18)",
+              "note": "Aflame base damage changed to 20–41 (11–18) from 20px."
+            }
+          ]
+        },
+        {
+          "ability": "Starfire Spellblade",
+          "title": "Starfire Spellblade",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Passive AP ratio",
+              "before": "25% AP",
+              "after": "20% AP",
+              "note": "Passive AP ratio reduced to 20% AP from 25% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Divine Judgment",
+          "title": "Divine Judgment",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Cast time",
+              "before": "1",
+              "after": "0.5 seconds",
+              "note": "Cast time reduced to 0.5 seconds from 1.5."
+            },
+            {
+              "label": "Area of effect delay",
+              "before": "1",
+              "after": "2.5 seconds",
+              "note": "Area of effect delay increased to 2.5 seconds from 1.5 seconds."
+            },
+            {
+              "label": "Duration",
+              "before": "2–3 (3 ranks)",
+              "after": "2.5 seconds at all ranks",
+              "note": "Duration changed to 2.5 seconds at all ranks from 2–3 (3 ranks)."
+            },
+            {
+              "label": "Effect radius",
+              "before": "500 at all ranks",
+              "after": "675 units",
+              "note": "Effect radius increased to 675 units from 500 at all ranks."
+            },
+            {
+              "label": "Base damage",
+              "before": "200–500 (3 ranks)",
+              "after": "200–400 (3 ranks)",
+              "note": "Base damage reduced to 200–400 (3 ranks) from 200–500 (3 ranks)."
+            },
+            {
+              "label": "AP ratio",
+              "before": "80% AP",
+              "after": "70% AP",
+              "note": "AP ratio reduced to 70% AP from 80% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: No longer reduces her attack range to 400 if she self-casts."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "neeko",
+      "name": "Neeko",
+      "type": "champion",
+      "assetKey": "Neeko",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "New Innate: While within 300 units of a non-epic monster, minion, trap, ward, pet, or plant, Neeko stores their Sho'Ma over 2 seconds. Only one of these units can be stored at a time and she can clear out the Sho'Ma o…",
+      "gameplayImpact": "Neeko was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Inherent Glamour",
+          "title": "Inherent Glamour",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Innate: While within 300 units of a non-epic monster, minion, trap, ward, pet, or plant, Neeko stores their Sho'Ma over 2 seconds. Only one of these units can be stored at a time and she can clear out the Sho'Ma of the current unit to change the disguise to a different one. Afterwards, she can transform into that unit by selecting them in the interface."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: Disguise no longer breaks upon taking damage."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Disguise now also breaks upon the form taking lethal damage or when Neeko becomes immobilize or deals damage to a structure while in the form of a non-champion."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: Disguise no longer modifies her attack speed or movement speed if the unit's values are higher than hers."
+            },
+            {
+              "label": "Cooldown",
+              "before": "25–10 (lv 1–16)",
+              "after": "2 seconds at all levels",
+              "note": "Cooldown reduced to 2 seconds at all levels from 25–10 (lv 1–16)."
+            },
+            {
+              "label": "Change",
+              "note": "Undocumented / Removed: Indirect damage is no longer exempt from triggering the cooldown."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Jungle companion now properly becomes invisible while she is disguised as an allied champion."
+            }
+          ]
+        },
+        {
+          "ability": "Blooming Burst",
+          "title": "Blooming Burst",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Bloom base damage",
+              "before": "40–140",
+              "after": "35–135",
+              "note": "Bloom base damage reduced to 35–135 from 40–140."
+            },
+            {
+              "label": "Bloom AP ratio",
+              "before": "20% AP",
+              "after": "25% AP",
+              "note": "Bloom AP ratio increased to 25% AP from 20% AP."
+            },
+            {
+              "label": "Effect radius",
+              "before": "225",
+              "after": "250",
+              "note": "Effect radius increased to 250 from 225."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Now deals 30–70 bonus damage against monsters per bloom."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Casting the ability beyond its maximum range will now cast the ability at maximum range instead of having her walk into position to throw it."
+            }
+          ]
+        },
+        {
+          "ability": "Shapesplitter",
+          "title": "Shapesplitter",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Can now recast the ability in order to send her clone to the target location."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Clone now plays her Blooming Burst}}, Tangle-Barbs}}, dance, joke, taunt, laugh, and animations and their respective sound effects."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: On-hit now deals 50 bonus damage against monsters."
+            },
+            {
+              "label": "Change",
+              "note": "Clone now spawns directly on top of her, instead of 100 units in front of her."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Now properly copies certain debuff effects."
+            }
+          ]
+        },
+        {
+          "ability": "Tangle-Barbs",
+          "title": "Tangle-Barbs",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "80–220",
+              "after": "70–210",
+              "note": "Base damage reduced to 70–210 from 80–220."
+            },
+            {
+              "label": "AP ratio",
+              "before": "60% AP",
+              "after": "65% AP",
+              "note": "AP ratio increased to 65% AP from 60% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Pop Blossom",
+          "title": "Pop Blossom",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "90 at all ranks",
+              "after": "120–90 (3 ranks) seconds",
+              "note": "Cooldown increased to 120–90 (3 ranks) seconds from 90 at all ranks."
+            },
+            {
+              "label": "Base damage",
+              "before": "200–650 (3 ranks)",
+              "after": "150–550 (3 ranks)",
+              "note": "Base damage reduced to 150–550 (3 ranks) from 200–650 (3 ranks)."
+            },
+            {
+              "label": "Damage AP ratio",
+              "before": "130% AP",
+              "after": "100% AP",
+              "note": "Damage AP ratio reduced to 100% AP from 130% AP."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Now airborne nearby enemies for 0.6 seconds after starting the windup."
+            },
+            {
+              "label": "Stun duration",
+              "before": "1",
+              "after": "0.75 seconds",
+              "note": "Stun duration reduced to 0.75 seconds from 1.25."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: No longer shields her for 75–125 (3 ranks) (+ 75% AP) after starting the windup, increased by 40–80 (3 ranks) (+ 40% AP) per champion, for 2 seconds."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "sion",
+      "name": "Sion",
+      "type": "champion",
+      "assetKey": "Sion",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base health cost per tick increased to 2.3–24.4 from 2–19.",
+      "gameplayImpact": "Sion is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Glory in Death",
+          "title": "Glory in Death",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base health cost per tick",
+              "before": "2–19",
+              "after": "2.3–24.4",
+              "note": "Base health cost per tick increased to 2.3–24.4 from 2–19."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "sivir",
+      "name": "Sivir",
+      "type": "champion",
+      "assetKey": "Sivir",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "New splash artwork for .",
+      "gameplayImpact": "Sivir was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New splash artwork for ."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "swain",
+      "name": "Swain",
+      "type": "champion",
+      "assetKey": "Swain",
+      "roles": [],
+      "direction": "buff",
+      "severity": 3,
+      "tldr": "Base damage increased to 65–145 from 60–140.; Bonus base damage per bolt increased to 15–55 from 12–52.",
+      "gameplayImpact": "Swain is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Death's Hand",
+          "title": "Death's Hand",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "60–140",
+              "after": "65–145",
+              "note": "Base damage increased to 65–145 from 60–140."
+            },
+            {
+              "label": "Bonus base damage per bolt",
+              "before": "12–52",
+              "after": "15–55",
+              "note": "Bonus base damage per bolt increased to 15–55 from 12–52."
+            },
+            {
+              "label": "Maximum base damage",
+              "before": "108–348",
+              "after": "125–365",
+              "note": "Maximum base damage increased to 125–365 from 108–348."
+            },
+            {
+              "label": "AP ratio",
+              "before": "38% AP",
+              "after": "40% AP",
+              "note": "AP ratio increased to 40% AP from 38% AP."
+            },
+            {
+              "label": "Bonus AP ratio per bolt",
+              "before": "8% AP",
+              "after": "10% AP",
+              "note": "Bonus AP ratio per bolt increased to 10% AP from 8% AP."
+            },
+            {
+              "label": "Maximum AP ratio",
+              "before": "70% AP",
+              "after": "80% AP",
+              "note": "Maximum AP ratio increased to 80% AP from 70% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "taliyah",
+      "name": "Taliyah",
+      "type": "champion",
+      "assetKey": "Taliyah",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Removed: No longer is placed on a 3-second cooldown if she damages a target.",
+      "gameplayImpact": "Taliyah loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Weaver's Wall",
+          "title": "Weaver's Wall",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Removed: No longer is placed on a 3-second cooldown if she damages a target."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "trundle",
+      "name": "Trundle",
+      "type": "champion",
+      "assetKey": "Trundle",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base mana increased to 340 from 281.; Base attack speed increased to 0.67 from 0.6.",
+      "gameplayImpact": "Trundle is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base mana",
+              "before": "281",
+              "after": "340",
+              "note": "Base mana increased to 340 from 281."
+            },
+            {
+              "label": "Base attack speed",
+              "before": "0",
+              "after": "0.67",
+              "note": "Base attack speed increased to 0.67 from 0.6."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "volibear",
+      "name": "Volibear",
+      "type": "champion",
+      "assetKey": "Volibear",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Damage health ratio increased to 6% of his bonus health from 5%|health.; Heal health ratio increased to 8–16% of his missing health from 7–13%|health.",
+      "gameplayImpact": "Volibear is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: VFX for animations on all skins now properly disappear if the channel is interrupted."
+            }
+          ]
+        },
+        {
+          "ability": "Frenzied Maul",
+          "title": "Frenzied Maul",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Damage health ratio",
+              "before": "5%|health",
+              "after": "6% of his bonus health",
+              "note": "Damage health ratio increased to 6% of his bonus health from 5%|health."
+            },
+            {
+              "label": "Heal health ratio",
+              "before": "7–13%|health",
+              "after": "8–16% of his missing health",
+              "note": "Heal health ratio increased to 8–16% of his missing health from 7–13%|health."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "lich-bane",
+      "name": "Lich Bane",
+      "type": "item",
+      "assetKey": "3100",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Ability power increased to 85 from 75.",
+      "gameplayImpact": "Lich Bane is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Ability power",
+              "before": "75",
+              "after": "85",
+              "note": "Ability power increased to 85 from 75."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "id": "howling-abyss",
+      "name": "Howling Abyss",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Akali}}; Outgoing damage modifier changed to +5% from +10%.",
+      "gameplayImpact": "Howling Abyss was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Akali}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "+10%",
+              "after": "+5%",
+              "note": "Outgoing damage modifier changed to +5% from +10%."
+            },
+            {
+              "label": "Change",
+              "note": "Corki}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-5%",
+              "after": "-10%",
+              "note": "Incoming damage modifier changed to -10% from -5%."
+            },
+            {
+              "label": "Change",
+              "note": "Ezreal}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "-5%",
+              "after": "0%",
+              "note": "Outgoing damage modifier changed to 0% from -5%."
+            },
+            {
+              "label": "Change",
+              "note": "Karma}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "0%",
+              "after": "+5%",
+              "note": "Outgoing damage modifier changed to +5% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Ornn}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "+5%",
+              "after": "+10%",
+              "note": "Incoming damage modifier changed to +10% from +5%."
+            },
+            {
+              "label": "Change",
+              "note": "Qiyana}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "+15%",
+              "after": "+10%",
+              "note": "Outgoing damage modifier changed to +10% from +15%."
+            },
+            {
+              "label": "Change",
+              "note": "Tristana}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "0%",
+              "after": "+5%",
+              "note": "Outgoing damage modifier changed to +5% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Veigar}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "-5%",
+              "after": "-10%",
+              "note": "Outgoing damage modifier changed to -10% from -5%."
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "+5%",
+              "after": "+10%",
+              "note": "Incoming damage modifier changed to +10% from +5%."
+            },
+            {
+              "label": "Change",
+              "note": "Zilean}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-5%",
+              "after": "-10%",
+              "note": "Incoming damage modifier changed to -10% from -5%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "aram",
+      "name": "ARAM",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Akali}}; Outgoing damage modifier changed to +5% from +10%.",
+      "gameplayImpact": "ARAM was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Akali}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "+10%",
+              "after": "+5%",
+              "note": "Outgoing damage modifier changed to +5% from +10%."
+            },
+            {
+              "label": "Change",
+              "note": "Corki}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-5%",
+              "after": "-10%",
+              "note": "Incoming damage modifier changed to -10% from -5%."
+            },
+            {
+              "label": "Change",
+              "note": "Ezreal}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "-5%",
+              "after": "0%",
+              "note": "Outgoing damage modifier changed to 0% from -5%."
+            },
+            {
+              "label": "Change",
+              "note": "Karma}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "0%",
+              "after": "+5%",
+              "note": "Outgoing damage modifier changed to +5% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Ornn}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "+5%",
+              "after": "+10%",
+              "note": "Incoming damage modifier changed to +10% from +5%."
+            },
+            {
+              "label": "Change",
+              "note": "Qiyana}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "+15%",
+              "after": "+10%",
+              "note": "Outgoing damage modifier changed to +10% from +15%."
+            },
+            {
+              "label": "Change",
+              "note": "Tristana}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "0%",
+              "after": "+5%",
+              "note": "Outgoing damage modifier changed to +5% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Veigar}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "-5%",
+              "after": "-10%",
+              "note": "Outgoing damage modifier changed to -10% from -5%."
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "+5%",
+              "after": "+10%",
+              "note": "Incoming damage modifier changed to +10% from +5%."
+            },
+            {
+              "label": "Change",
+              "note": "Zilean}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-5%",
+              "after": "-10%",
+              "note": "Incoming damage modifier changed to -10% from -5%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-13-9-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V13.9"
+}

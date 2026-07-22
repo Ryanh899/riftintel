@@ -1,0 +1,1111 @@
+{
+  "id": "11.9",
+  "version": "11.9",
+  "title": "With everything I carry up on my back, you should paint it up with a target.",
+  "releaseDate": "2021-04-28",
+  "season": "11",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "With everything I carry up on my back, you should paint it up with a target."
+    },
+    {
+      "title": "Champion balance",
+      "description": "6 champion buffs, 7 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "With everything I carry up on my back, you should paint it up with a target. Structured changes across 25 entities this patch.",
+  "champions": [
+    {
+      "id": "diana",
+      "name": "Diana",
+      "type": "champion",
+      "assetKey": "Diana",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Armor growth reduced to 3.1 from 3.6.; Base health regeneration reduced to 6.5 from 7.5.",
+      "gameplayImpact": "Diana loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Armor growth",
+              "before": "3",
+              "after": "3.1",
+              "note": "Armor growth reduced to 3.1 from 3.6."
+            },
+            {
+              "label": "Base health regeneration",
+              "before": "7",
+              "after": "6.5",
+              "note": "Base health regeneration reduced to 6.5 from 7.5."
+            }
+          ]
+        },
+        {
+          "ability": "Moonsilver Blade",
+          "title": "Moonsilver Blade",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Bonus attack speed",
+              "before": "20–40%",
+              "after": "15–40%",
+              "note": "Bonus attack speed reduced to 15–40% from 20–40%."
+            },
+            {
+              "label": "Maximum bonus attack speed",
+              "before": "60–120%",
+              "after": "45–120%",
+              "note": "Maximum bonus attack speed reduced to 45–120% from 60–120%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "dr-mundo",
+      "name": "Dr. Mundo",
+      "type": "champion",
+      "assetKey": "DrMundo",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Attack damage growth reduced to 3 from 3.5.; Armor growth reduced to 3 from 3.5.",
+      "gameplayImpact": "Dr. Mundo loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Attack damage growth",
+              "before": "3",
+              "after": "3",
+              "note": "Attack damage growth reduced to 3 from 3.5."
+            },
+            {
+              "label": "Armor growth",
+              "before": "3",
+              "after": "3",
+              "note": "Armor growth reduced to 3 from 3.5."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "garen",
+      "name": "Garen",
+      "type": "champion",
+      "assetKey": "Garen",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Maximum stacks increased to 150 from 120.; Bonus resistances per stack reduced to 0.2 from 0.25.",
+      "gameplayImpact": "Garen was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Courage",
+          "title": "Courage",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Maximum stacks",
+              "before": "120",
+              "after": "150",
+              "note": "Maximum stacks increased to 150 from 120."
+            },
+            {
+              "label": "Bonus resistances per stack",
+              "before": "0",
+              "after": "0.2",
+              "note": "Bonus resistances per stack reduced to 0.2 from 0.25."
+            },
+            {
+              "label": "Change",
+              "note": "Maximum bonus resistances unchanged."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "gragas",
+      "name": "Gragas",
+      "type": "champion",
+      "assetKey": "Gragas",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base damage reduced to 80–260 from 80–280.",
+      "gameplayImpact": "Gragas loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Body Slam",
+          "title": "Body Slam",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "80–280",
+              "after": "80–260",
+              "note": "Base damage reduced to 80–260 from 80–280."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "hecarim",
+      "name": "Hecarim",
+      "type": "champion",
+      "assetKey": "Hecarim",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Base armor reduced to 32 from 36.; Armor growth increased to 4.25 from 4.",
+      "gameplayImpact": "Hecarim was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base armor",
+              "before": "36",
+              "after": "32",
+              "note": "Base armor reduced to 32 from 36."
+            },
+            {
+              "label": "Armor growth",
+              "before": "4",
+              "after": "4.25",
+              "note": "Armor growth increased to 4.25 from 4."
+            }
+          ]
+        },
+        {
+          "ability": "Rampage",
+          "title": "Rampage",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Damage amplification per stack",
+              "before": "5%",
+              "after": "2%",
+              "note": "Damage amplification per stack reduced to 2% from 5%."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Damage amplification per stack now scales with 3% per 100 bonus AD."
+            }
+          ]
+        },
+        {
+          "ability": "Spirit of Dread",
+          "title": "Spirit of Dread",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Healing now scales with 2.5% per 100 bonus AD."
+            },
+            {
+              "label": "Healing from ally damage",
+              "before": "30%",
+              "after": "15%",
+              "note": "Healing from ally damage reduced to 15% from 30%."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Healing from ally damage now scales with 1.25% per 100 bonus AD."
+            }
+          ]
+        },
+        {
+          "ability": "Devastating Charge",
+          "title": "Devastating Charge",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Minimum base damage",
+              "before": "35–155",
+              "after": "30–110",
+              "note": "Minimum base damage reduced to 30–110 from 35–155."
+            },
+            {
+              "label": "Maximum base damage",
+              "before": "70–310",
+              "after": "60–220",
+              "note": "Maximum base damage reduced to 60–220 from 70–310."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "heimerdinger",
+      "name": "Heimerdinger",
+      "type": "champion",
+      "assetKey": "Heimerdinger",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Initial rocket base damage reduced to 50–150 from 50–170.; Subsequent rocket base damage reduced to 10–30 from 10–34.",
+      "gameplayImpact": "Heimerdinger loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Hextech Micro-Rockets",
+          "title": "Hextech Micro-Rockets",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Initial rocket base damage",
+              "before": "50–170",
+              "after": "50–150",
+              "note": "Initial rocket base damage reduced to 50–150 from 50–170."
+            },
+            {
+              "label": "Subsequent rocket base damage",
+              "before": "10–34",
+              "after": "10–30",
+              "note": "Subsequent rocket base damage reduced to 10–30 from 10–34."
+            },
+            {
+              "label": "Change",
+              "note": "Maximum base damage: 50+10*4–150+30*4 from 50+10*4–170+34*4."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "kayn",
+      "name": "Kayn",
+      "type": "champion",
+      "assetKey": "Kayn",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Darkin AD ratio increased to 65% AD from 55% AD.",
+      "gameplayImpact": "Kayn is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Reaping Slash",
+          "title": "Reaping Slash",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Darkin AD ratio",
+              "before": "55% AD",
+              "after": "65% AD",
+              "note": "Darkin AD ratio increased to 65% AD from 55% AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "kindred",
+      "name": "Kindred",
+      "type": "champion",
+      "assetKey": "Kindred",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Cooldown reduced to 8 seconds from 9.; Base damage increased to 60–160 from 60–140.",
+      "gameplayImpact": "Kindred is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Dance of Arrows",
+          "title": "Dance of Arrows",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "9",
+              "after": "8 seconds",
+              "note": "Cooldown reduced to 8 seconds from 9."
+            },
+            {
+              "label": "Base damage",
+              "before": "60–140",
+              "after": "60–160",
+              "note": "Base damage increased to 60–160 from 60–140."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "kogmaw",
+      "name": "Kog'Maw",
+      "type": "champion",
+      "assetKey": "KogMaw",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Resistance reduction increased to 25–33% from 20–28%.; Mana cost reduced to 60–100 from 80–120.",
+      "gameplayImpact": "Kog'Maw is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Icathian Surprise",
+          "title": "Icathian Surprise",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: VO has been restored and is playing once again on all skins."
+            }
+          ]
+        },
+        {
+          "ability": "Caustic Spittle",
+          "title": "Caustic Spittle",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Resistance reduction",
+              "before": "20–28%",
+              "after": "25–33%",
+              "note": "Resistance reduction increased to 25–33% from 20–28%."
+            }
+          ]
+        },
+        {
+          "ability": "Void Ooze",
+          "title": "Void Ooze",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Mana cost",
+              "before": "80–120",
+              "after": "60–100",
+              "note": "Mana cost reduced to 60–100 from 80–120."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "lulu",
+      "name": "Lulu",
+      "type": "champion",
+      "assetKey": "Lulu",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Cooldown reduced to 15–11 seconds from 16–12.; Bonus attack speed increased to 25–35% from 20–35%.",
+      "gameplayImpact": "Lulu is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Whimsy",
+          "title": "Whimsy",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "16–12",
+              "after": "15–11 seconds",
+              "note": "Cooldown reduced to 15–11 seconds from 16–12."
+            },
+            {
+              "label": "Bonus attack speed",
+              "before": "20–35%",
+              "after": "25–35%",
+              "note": "Bonus attack speed increased to 25–35% from 20–35%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "morgana",
+      "name": "Morgana",
+      "type": "champion",
+      "assetKey": "Morgana",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Damage against non-epic monsters reduced to 185% from 200%.",
+      "gameplayImpact": "Morgana loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Tormented Shadow",
+          "title": "Tormented Shadow",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Damage against non-epic monsters",
+              "before": "200%",
+              "after": "185%",
+              "note": "Damage against non-epic monsters reduced to 185% from 200%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "rumble",
+      "name": "Rumble",
+      "type": "champion",
+      "assetKey": "Rumble",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Overheat on-hit base damage reduced to 5–40 from 10–50.; Overheat on-hit AP ratio reduced to 25% AP from 30% AP.",
+      "gameplayImpact": "Rumble loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Junkyard Titan",
+          "title": "Junkyard Titan",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Overheat on-hit base damage",
+              "before": "10–50",
+              "after": "5–40",
+              "note": "Overheat on-hit base damage reduced to 5–40 from 10–50."
+            },
+            {
+              "label": "Overheat on-hit AP ratio",
+              "before": "30% AP",
+              "after": "25% AP",
+              "note": "Overheat on-hit AP ratio reduced to 25% AP from 30% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "sett",
+      "name": "Sett",
+      "type": "champion",
+      "assetKey": "Sett",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Bonus AD ratio increased to 20% per 100 bonus AD from 10%|AD.; Bonus AD ratio increased to 120% bonus AD from 100%|AD.",
+      "gameplayImpact": "Sett is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Haymaker",
+          "title": "Haymaker",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus AD ratio",
+              "before": "10%|AD",
+              "after": "20% per 100 bonus AD",
+              "note": "Bonus AD ratio increased to 20% per 100 bonus AD from 10%|AD."
+            }
+          ]
+        },
+        {
+          "ability": "The Show Stopper",
+          "title": "The Show Stopper",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus AD ratio",
+              "before": "100%|AD",
+              "after": "120% bonus AD",
+              "note": "Bonus AD ratio increased to 120% bonus AD from 100%|AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "shen",
+      "name": "Shen",
+      "type": "champion",
+      "assetKey": "Shen",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Minimum base shield reduced to 140–500 (3 ranks) from 175–525 (3 ranks).; Maximum base shield reduced to 224–800 (3 ranks) from 280–840 (3 ranks).",
+      "gameplayImpact": "Shen was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Stand United",
+          "title": "Stand United",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Minimum base shield",
+              "before": "175–525 (3 ranks)",
+              "after": "140–500 (3 ranks)",
+              "note": "Minimum base shield reduced to 140–500 (3 ranks) from 175–525 (3 ranks)."
+            },
+            {
+              "label": "Maximum base shield",
+              "before": "280–840 (3 ranks)",
+              "after": "224–800 (3 ranks)",
+              "note": "Maximum base shield reduced to 224–800 (3 ranks) from 280–840 (3 ranks)."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Shield now scales with 17.5% bonus health, increased up to 28%|health based on target's missing health."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "taric",
+      "name": "Taric",
+      "type": "champion",
+      "assetKey": "Taric",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Mana cost reduced to 70–90 from 70–110.; Removed: Bound allies no longer mimic abilities if they are vanish via Alpha Strike}}, Hallucinate}}, Rappel}}, or Void Rush}}. Mimicked abilities will be removed if the ally b…",
+      "gameplayImpact": "Taric was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Starlight's Touch",
+          "title": "Starlight's Touch",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Mana cost",
+              "before": "70–110",
+              "after": "70–90",
+              "note": "Mana cost reduced to 70–90 from 70–110."
+            }
+          ]
+        },
+        {
+          "ability": "Bastion",
+          "title": "Bastion",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Removed: Bound allies no longer mimic abilities if they are vanish via Alpha Strike}}, Hallucinate}}, Rappel}}, or Void Rush}}. Mimicked abilities will be removed if the ally becomes vanished via those abilities as well."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "trundle",
+      "name": "Trundle",
+      "type": "champion",
+      "assetKey": "Trundle",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Slow increased to 32–60% from 20–60%.",
+      "gameplayImpact": "Trundle is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Pillar of Ice",
+          "title": "Pillar of Ice",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Slow",
+              "before": "20–60%",
+              "after": "32–60%",
+              "note": "Slow increased to 32–60% from 20–60%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "vladimir",
+      "name": "Vladimir",
+      "type": "champion",
+      "assetKey": "Vladimir",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Cooldown increased to 9–4.6 seconds from 9–4.",
+      "gameplayImpact": "Vladimir loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Transfusion",
+          "title": "Transfusion",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "9–4",
+              "after": "9–4.6 seconds",
+              "note": "Cooldown increased to 9–4.6 seconds from 9–4."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "viktor",
+      "name": "Viktor",
+      "type": "champion",
+      "assetKey": "Viktor",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Updated visual effects.",
+      "gameplayImpact": "Viktor was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Updated visual effects."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "xerath",
+      "name": "Xerath",
+      "type": "champion",
+      "assetKey": "Xerath",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Base damage reduced to 70–230 from 80–240.; AP ratio increased to 85% AP from 75% AP.",
+      "gameplayImpact": "Xerath was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Arcanopulse",
+          "title": "Arcanopulse",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "80–240",
+              "after": "70–230",
+              "note": "Base damage reduced to 70–230 from 80–240."
+            },
+            {
+              "label": "AP ratio",
+              "before": "75% AP",
+              "after": "85% AP",
+              "note": "AP ratio increased to 85% AP from 75% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Eye of Destruction",
+          "title": "Eye of Destruction",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "60–180",
+              "after": "60–200",
+              "note": "Base damage increased to 60–200 from 60–180."
+            },
+            {
+              "label": "Maximum base damage",
+              "before": "100",
+              "after": "100.02–333.4",
+              "note": "Maximum base damage increased to 100.02–333.4 from 100.02–300.06."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "dagger",
+      "name": "Dagger",
+      "type": "item",
+      "assetKey": "1042",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "No longer builds into Wit's End}}.",
+      "gameplayImpact": "Dagger loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "No longer builds into Wit's End}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "dead-mans-plate",
+      "name": "Dead Man's Plate",
+      "type": "item",
+      "assetKey": "3742",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Health reduced to 300 from 400.",
+      "gameplayImpact": "Dead Man's Plate loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Health",
+              "before": "400",
+              "after": "300",
+              "note": "Health reduced to 300 from 400."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "deaths-dance",
+      "name": "Death's Dance",
+      "type": "item",
+      "assetKey": "6333",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Attack damage increased to 55 from 50.; Armor increased to 45 from 40.",
+      "gameplayImpact": "Death's Dance is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Attack damage",
+              "before": "50",
+              "after": "55",
+              "note": "Attack damage increased to 55 from 50."
+            },
+            {
+              "label": "Armor",
+              "before": "40",
+              "after": "45",
+              "note": "Armor increased to 45 from 40."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "long-sword",
+      "name": "Long Sword",
+      "type": "item",
+      "assetKey": "1036",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Now builds into Wit's End}}.",
+      "gameplayImpact": "Long Sword was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Now builds into Wit's End}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "moonstone-renewer",
+      "name": "Moonstone Renewer",
+      "type": "item",
+      "assetKey": "6617",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Starlit Grace base heal increased to 70 from 60.",
+      "gameplayImpact": "Moonstone Renewer is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Starlit Grace base heal",
+              "before": "60",
+              "after": "70",
+              "note": "Starlit Grace base heal increased to 70 from 60."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "prowlers-claw",
+      "name": "Prowler's Claw",
+      "type": "item",
+      "assetKey": "6693",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Sandswipe targeting changed:; New: Looks for a target in the following order:",
+      "gameplayImpact": "Prowler's Claw was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Sandswipe targeting changed:"
+            },
+            {
+              "label": "Change",
+              "note": "New: Looks for a target in the following order:"
+            },
+            {
+              "label": "Change",
+              "note": "Nearest champion within 50 units of the cursor."
+            },
+            {
+              "label": "Change",
+              "note": "Nearest non-champion within 50 units of the cursor."
+            },
+            {
+              "label": "Change",
+              "note": "Nearest champion within 200 units of cursor."
+            },
+            {
+              "label": "Change",
+              "note": "Nearest non-champion within 200 units of cursor."
+            },
+            {
+              "label": "Change",
+              "note": "Old: Targets enemy exactly at the cursor."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "sunfire-aegis",
+      "name": "Sunfire Aegis",
+      "type": "item",
+      "assetKey": "3068",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Bonus monster damage increased to 150% from 100%.",
+      "gameplayImpact": "Sunfire Aegis is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus monster damage",
+              "before": "100%",
+              "after": "150%",
+              "note": "Bonus monster damage increased to 150% from 100%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "turbo-chemtank",
+      "name": "Turbo Chemtank",
+      "type": "item",
+      "assetKey": "443079",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Supercharged bonus movement speed reduced to 40% from 60%.",
+      "gameplayImpact": "Turbo Chemtank loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Supercharged bonus movement speed",
+              "before": "60%",
+              "after": "40%",
+              "note": "Supercharged bonus movement speed reduced to 40% from 60%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "wits-end",
+      "name": "Wit's End",
+      "type": "item",
+      "assetKey": "3091",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "New Recipe: Hearthbound Axe}} + Negatron Cloak}} + Long Sword}} + = .; Old Recipe: Hearthbound Axe}} + Negatron Cloak}} + Dagger}} + = .",
+      "gameplayImpact": "Wit's End is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Recipe: Hearthbound Axe}} + Negatron Cloak}} + Long Sword}} + = ."
+            },
+            {
+              "label": "Change",
+              "note": "Old Recipe: Hearthbound Axe}} + Negatron Cloak}} + Dagger}} + = ."
+            },
+            {
+              "label": "Attack damage",
+              "before": "30",
+              "after": "40",
+              "note": "Attack damage increased to 40 from 30."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "systems": [],
+  "sourceUrl": "https://na.leagueoflegends.com/en-us/news/game-updates/patch-11-9-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V11.9"
+}

@@ -1,0 +1,2039 @@
+{
+  "id": "25.17",
+  "version": "25.17",
+  "title": "The evil bots of doom are back!",
+  "releaseDate": "2025-08-27",
+  "season": "25",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "The evil bots of doom are back!"
+    },
+    {
+      "title": "Champion balance",
+      "description": "11 champion buffs, 3 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "The evil bots of doom are back! Structured changes across 25 entities this patch.",
+  "champions": [
+    {
+      "id": "gwen",
+      "name": "Gwen",
+      "type": "champion",
+      "assetKey": "Gwen",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Base armor reduced to 33 from 36.; Attack speed growth increased to 2.5% from 2.25%.",
+      "gameplayImpact": "Gwen was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base armor",
+              "before": "36",
+              "after": "33",
+              "note": "Base armor reduced to 33 from 36."
+            },
+            {
+              "label": "Attack speed growth",
+              "before": "2",
+              "after": "2.5%",
+              "note": "Attack speed growth increased to 2.5% from 2.25%."
+            }
+          ]
+        },
+        {
+          "ability": "Needlework",
+          "title": "Needlework",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Initial slow",
+              "before": "60% at all ranks",
+              "after": "30–60 (3 ranks)%",
+              "note": "Initial slow reduced to 30–60 (3 ranks)% from 60% at all ranks."
+            },
+            {
+              "label": "Subsequent slow",
+              "before": "25% at all ranks",
+              "after": "15–25 (3 ranks)%",
+              "note": "Subsequent slow reduced to 15–25 (3 ranks)% from 25% at all ranks."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "irelia",
+      "name": "Irelia",
+      "type": "champion",
+      "assetKey": "Irelia",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Minimum AP ratio increased to 50% AP from 40% AP.; Maximum AP ratio increased to 150% AP from 120% AP.",
+      "gameplayImpact": "Irelia is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Defiant Dance",
+          "title": "Defiant Dance",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Minimum AP ratio",
+              "before": "40% AP",
+              "after": "50% AP",
+              "note": "Minimum AP ratio increased to 50% AP from 40% AP."
+            },
+            {
+              "label": "Maximum AP ratio",
+              "before": "120% AP",
+              "after": "150% AP",
+              "note": "Maximum AP ratio increased to 150% AP from 120% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Flawless Duet",
+          "title": "Flawless Duet",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "80% AP",
+              "after": "100% AP",
+              "note": "AP ratio increased to 100% AP from 80% AP."
+            },
+            {
+              "label": "Cooldown",
+              "before": "16–12",
+              "after": "16–10 seconds",
+              "note": "Cooldown reduced to 16–10 seconds from 16–12."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "kassadin",
+      "name": "Kassadin",
+      "type": "champion",
+      "assetKey": "Kassadin",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "AP ratio increased to 70% AP from 60% AP.; AP ratio increased to 70% AP from 65% AP.",
+      "gameplayImpact": "Kassadin is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Null Sphere",
+          "title": "Null Sphere",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "60% AP",
+              "after": "70% AP",
+              "note": "AP ratio increased to 70% AP from 60% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Force Pulse",
+          "title": "Force Pulse",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "65% AP",
+              "after": "70% AP",
+              "note": "AP ratio increased to 70% AP from 65% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "kayn",
+      "name": "Kayn",
+      "type": "champion",
+      "assetKey": "Kayn",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Mana cost reduced to 40 from 50.; Mana cost reduced to 40–60 from 60–80.",
+      "gameplayImpact": "Kayn is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Reaping Slash",
+          "title": "Reaping Slash",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Mana cost",
+              "before": "50",
+              "after": "40",
+              "note": "Mana cost reduced to 40 from 50."
+            }
+          ]
+        },
+        {
+          "ability": "Blade's Reach",
+          "title": "Blade's Reach",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Mana cost",
+              "before": "60–80",
+              "after": "40–60",
+              "note": "Mana cost reduced to 40–60 from 60–80."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "kogmaw",
+      "name": "Kog'Maw",
+      "type": "champion",
+      "assetKey": "KogMaw",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "AP ratio increased to 90% AP from 80% AP.; AP ratio increased to 1.5% per 100 AP from 1% per 100 AP.",
+      "gameplayImpact": "Kog'Maw is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Caustic Spittle",
+          "title": "Caustic Spittle",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "80% AP",
+              "after": "90% AP",
+              "note": "AP ratio increased to 90% AP from 80% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Bio-Arcane Barrage",
+          "title": "Bio-Arcane Barrage",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "1% per 100 AP",
+              "after": "1.5% per 100 AP",
+              "note": "AP ratio increased to 1.5% per 100 AP from 1% per 100 AP."
+            }
+          ]
+        },
+        {
+          "ability": "Living Artillery",
+          "title": "Living Artillery",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Minimum AP ratio",
+              "before": "35% AP at all ranks",
+              "after": "35–45 (3 ranks)% AP",
+              "note": "Minimum AP ratio increased to 35–45 (3 ranks)% AP from 35% AP at all ranks."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "master-yi",
+      "name": "Master Yi",
+      "type": "champion",
+      "assetKey": "MasterYi",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Base health reduced to 655 from 669.; Primary on-hit damage modifier reduced to 65% from 75%.",
+      "gameplayImpact": "Master Yi loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base health",
+              "before": "669",
+              "after": "655",
+              "note": "Base health reduced to 655 from 669."
+            }
+          ]
+        },
+        {
+          "ability": "Alpha Strike",
+          "title": "Alpha Strike",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Primary on-hit damage modifier",
+              "before": "75%",
+              "after": "65%",
+              "note": "Primary on-hit damage modifier reduced to 65% from 75%."
+            },
+            {
+              "label": "Lesser on-hit damage modifier",
+              "before": "18",
+              "after": "16.25%",
+              "note": "Lesser on-hit damage modifier reduced to 16.25% from 18.75%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "miss-fortune",
+      "name": "Miss Fortune",
+      "type": "champion",
+      "assetKey": "MissFortune",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base attack damage increased to 55 from 53.",
+      "gameplayImpact": "Miss Fortune is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base attack damage",
+              "before": "53",
+              "after": "55",
+              "note": "Base attack damage increased to 55 from 53."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "morgana",
+      "name": "Morgana",
+      "type": "champion",
+      "assetKey": "Morgana",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Minimum base damage per tick increased to 18/2 to 70/2 from 14/2 to 70/2.; Maximum base damage per tick increased to 18–70 from 14–70.",
+      "gameplayImpact": "Morgana is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Tormented Shadow",
+          "title": "Tormented Shadow",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Minimum base damage per tick",
+              "before": "14/2 to 70/2",
+              "after": "18/2 to 70/2",
+              "note": "Minimum base damage per tick increased to 18/2 to 70/2 from 14/2 to 70/2."
+            },
+            {
+              "label": "Maximum base damage per tick",
+              "before": "14–70",
+              "after": "18–70",
+              "note": "Maximum base damage per tick increased to 18–70 from 14–70."
+            },
+            {
+              "label": "Mana cost",
+              "before": "70–130",
+              "after": "70–110",
+              "note": "Mana cost reduced to 70–110 from 70–130."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "nilah",
+      "name": "Nilah",
+      "type": "champion",
+      "assetKey": "Nilah",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Cone monster damage increased to 100% from 10%.",
+      "gameplayImpact": "Nilah is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Formless Blade",
+          "title": "Formless Blade",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cone monster damage",
+              "before": "10%",
+              "after": "100%",
+              "note": "Cone monster damage increased to 100% from 10%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "rumble",
+      "name": "Rumble",
+      "type": "champion",
+      "assetKey": "Rumble",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Overheat on-hit damage target health ratio reduced to 4% of target's maximum health from 5%|hp.; Base damage per tick reduced to 60/12 to 160/12 from 60/12 to 180/12.",
+      "gameplayImpact": "Rumble loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Junkyard Titan",
+          "title": "Junkyard Titan",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Overheat on-hit damage target health ratio",
+              "before": "5%|hp",
+              "after": "4% of target's maximum health",
+              "note": "Overheat on-hit damage target health ratio reduced to 4% of target's maximum health from 5%|hp."
+            }
+          ]
+        },
+        {
+          "ability": "Flamespitter",
+          "title": "Flamespitter",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base damage per tick",
+              "before": "60/12 to 180/12",
+              "after": "60/12 to 160/12",
+              "note": "Base damage per tick reduced to 60/12 to 160/12 from 60/12 to 180/12."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "senna",
+      "name": "Senna",
+      "type": "champion",
+      "assetKey": "Senna",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Attack speed growth increased to 3% from 2%.; Base heal increased to 40–120 from 40–100.",
+      "gameplayImpact": "Senna is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Attack speed growth",
+              "before": "2%",
+              "after": "3%",
+              "note": "Attack speed growth increased to 3% from 2%."
+            }
+          ]
+        },
+        {
+          "ability": "Piercing Darkness",
+          "title": "Piercing Darkness",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base heal",
+              "before": "40–100",
+              "after": "40–120",
+              "note": "Base heal increased to 40–120 from 40–100."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "sett",
+      "name": "Sett",
+      "type": "champion",
+      "assetKey": "Sett",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Now also does spell damage in addition to basic damage.; Bonus monster damage increased to 125–250 from 100 at all levels.",
+      "gameplayImpact": "Sett is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Knuckle Down",
+          "title": "Knuckle Down",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Now also does spell damage in addition to basic damage."
+            }
+          ]
+        },
+        {
+          "ability": "Facebreaker",
+          "title": "Facebreaker",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus monster damage",
+              "before": "100 at all levels",
+              "after": "125–250",
+              "note": "Bonus monster damage increased to 125–250 from 100 at all levels."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "singed",
+      "name": "Singed",
+      "type": "champion",
+      "assetKey": "Singed",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Debuff duration reduced to 2 seconds from 2.2.; Maximum linger ticks reduced to 7 from 8.",
+      "gameplayImpact": "Singed loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Poison Trail",
+          "title": "Poison Trail",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Debuff duration",
+              "before": "2",
+              "after": "2 seconds",
+              "note": "Debuff duration reduced to 2 seconds from 2.2."
+            },
+            {
+              "label": "Maximum linger ticks",
+              "before": "8",
+              "after": "7",
+              "note": "Maximum linger ticks reduced to 7 from 8."
+            },
+            {
+              "label": "Minimum linger damage",
+              "before": "(20/4)*8 to (60/4)*8 (+ (42",
+              "after": "(20/4)*7 to (60/4)*7 (+ (42.5/4)*7% AP)",
+              "note": "Minimum linger damage reduced to (20/4)*7 to (60/4)*7 (+ (42.5/4)*7% AP) from (20/4)*8 to (60/4)*8 (+ (42.5/4)*8% AP)."
+            },
+            {
+              "label": "Change",
+              "note": "Tooltip now includes the first damage instance in its calculations."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "teemo",
+      "name": "Teemo",
+      "type": "champion",
+      "assetKey": "Teemo",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Mushroom object stealth opacity increased to 50% from 30%.",
+      "gameplayImpact": "Teemo is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Noxious Trap",
+          "title": "Noxious Trap",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Mushroom object stealth opacity",
+              "before": "30%",
+              "after": "50%",
+              "note": "Mushroom object stealth opacity increased to 50% from 30%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "vayne",
+      "name": "Vayne",
+      "type": "champion",
+      "assetKey": "Vayne",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Damage is now modified to 140–200 against monsters.; Old Effect: Damage is capped at 200 against monsters.",
+      "gameplayImpact": "Vayne is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Silver Bolts",
+          "title": "Silver Bolts",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Damage is now modified to 140–200 against monsters."
+            },
+            {
+              "label": "Change",
+              "note": "Old Effect: Damage is capped at 200 against monsters."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "xin-zhao",
+      "name": "Xin Zhao",
+      "type": "champion",
+      "assetKey": "XinZhao",
+      "roles": [],
+      "direction": "rework",
+      "severity": 3,
+      "tldr": "Updated ability icons.; Complete visual update across all skins.",
+      "gameplayImpact": "Xin Zhao plays differently after this update — relearn power spikes and matchups before grinding ranked.",
+      "context": "Visual Update",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Updated ability icons."
+            },
+            {
+              "label": "Change",
+              "note": "Complete visual update across all skins."
+            },
+            {
+              "label": "Change",
+              "note": "New splash artwork for , , , and ."
+            },
+            {
+              "label": "Change",
+              "note": "Adjusted splash artwork for , , , , and ."
+            },
+            {
+              "label": "Change",
+              "note": "New voice-over."
+            },
+            {
+              "label": "Change",
+              "note": "Updated sound effects."
+            },
+            {
+              "label": "Change",
+              "note": "cost increased to from ."
+            },
+            {
+              "label": "Change",
+              "note": "cost increased to from ."
+            },
+            {
+              "label": "Change",
+              "note": "All Legacy skins will be unvaulted temporarily for the duration of the 25.17 and 25.18 patch cycles."
+            }
+          ]
+        },
+        {
+          "ability": "Wind Becomes Lightning",
+          "title": "Wind Becomes Lightning",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Now causes him to slash four times rather than only once, slashing once on-cast and then 3 times over the next 0.15 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Total slash damage is unchanged."
+            },
+            {
+              "label": "Change",
+              "note": "Only the initial slash can generate a Determination}} stack."
+            }
+          ]
+        },
+        {
+          "ability": "Audacious Charge",
+          "title": "Audacious Charge",
+          "direction": "rework",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: No longer fails to cast when used on a target outside of its maximum target range during cast time."
+            }
+          ]
+        },
+        {
+          "ability": "Crescent Guard",
+          "title": "Crescent Guard",
+          "direction": "rework",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Tooltip now correctly mentions that the damage cap also applies to minions and not only monsters."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "rework",
+        "Visual Update"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "axiom-arc",
+      "name": "Axiom Arc",
+      "type": "item",
+      "assetKey": "6696",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Total cost reduced to from .; Combine cost reduced to from .",
+      "gameplayImpact": "Axiom Arc is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Total cost reduced to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Combine cost reduced to from ."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "horizon-focus",
+      "name": "Horizon Focus",
+      "type": "item",
+      "assetKey": "4628",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Total cost reduced to from .; Combine cost reduced to from .",
+      "gameplayImpact": "Horizon Focus is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Total cost reduced to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Combine cost reduced to from ."
+            },
+            {
+              "label": "Ability power",
+              "before": "115",
+              "after": "125",
+              "note": "Ability power increased to 125 from 115."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "profane-hydra",
+      "name": "Profane Hydra",
+      "type": "item",
+      "assetKey": "6698",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Total cost reduced to from .; Combine cost reduced to from .",
+      "gameplayImpact": "Profane Hydra was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Total cost reduced to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Combine cost reduced to from ."
+            },
+            {
+              "label": "Attack damage",
+              "before": "60",
+              "after": "55",
+              "note": "Attack damage reduced to 55 from 60."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "id": "aram",
+      "name": "ARAM",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Butcher's Bridge and Koeshin's Crossing are staying in rotation until a newer update. They were previously scheduled to be removed on 25.16.; Each map now has an equal chance to be selected (33.%), instead of favoring…",
+      "gameplayImpact": "ARAM was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Butcher's Bridge and Koeshin's Crossing are staying in rotation until a newer update. They were previously scheduled to be removed on 25.16."
+            },
+            {
+              "label": "Change",
+              "note": "Each map now has an equal chance to be selected (33.%), instead of favoring Koeshin's Crossing at 50%/25%/25%."
+            },
+            {
+              "label": "Change",
+              "note": "Butcher's Bridge"
+            },
+            {
+              "label": "Cannon Launcher hit radius",
+              "before": "375",
+              "after": "325",
+              "note": "Cannon Launcher hit radius increased to 325 from 375."
+            },
+            {
+              "label": "Cannon Launcher flying speed",
+              "before": "2300",
+              "after": "2800",
+              "note": "Cannon Launcher flying speed increased to 2800 from 2300."
+            },
+            {
+              "label": "Change",
+              "note": "Koeshin's Crossing"
+            },
+            {
+              "label": "Change",
+              "note": "Reduced the trigger radius of the portal to cut down on accidentally going through them."
+            },
+            {
+              "label": "Change",
+              "note": "Improved the map grid around each team's Nexus and portals."
+            },
+            {
+              "label": "Change",
+              "note": "Kai'Sa}}"
+            },
+            {
+              "label": "Change",
+              "note": "Icathian Rain}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bonus AD ratio changed to 65% bonus AD."
+            },
+            {
+              "label": "Change",
+              "note": "Maokai}}"
+            },
+            {
+              "label": "Change",
+              "note": "Sap Magic}}"
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown refund changed to 3 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Bramble Smash}}"
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown changed to 8–6 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Shyvana}}"
+            },
+            {
+              "label": "Change",
+              "note": "Fury of the Dragonborn}}"
+            },
+            {
+              "label": "Bonus resistances per stack",
+              "before": "1",
+              "after": "1.5",
+              "note": "Bonus resistances per stack increased to 1.5 from 1."
+            },
+            {
+              "label": "Bonus Fury regeneration per stack",
+              "before": "0",
+              "after": "0.2",
+              "note": "Bonus Fury regeneration per stack increased to 0.2 from 0.1."
+            },
+            {
+              "label": "Change",
+              "note": "Ziggs}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bouncing Bomb}}"
+            },
+            {
+              "label": "Change",
+              "note": "AP ratio changed to 60–70% AP|ap."
+            },
+            {
+              "label": "Change",
+              "note": "Hexplosive Minefield}}"
+            },
+            {
+              "label": "Change",
+              "note": "First hit AP ratio changed to 25–35% AP|ap."
+            },
+            {
+              "label": "Change",
+              "note": "Field duration changed to 7 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Death's Dance}}"
+            },
+            {
+              "label": "Change",
+              "note": "Defy bonus AD ratio changed to 100% bonus AD."
+            },
+            {
+              "label": "Change",
+              "note": "Eclipse}}"
+            },
+            {
+              "label": "Change",
+              "note": "Ever Rising Moon shield bonus AD ratio changed to ."
+            },
+            {
+              "label": "Change",
+              "note": "Edge of Night}}"
+            },
+            {
+              "label": "Change",
+              "note": "Annul cooldown changed to 30 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Liandry's Torment}}"
+            },
+            {
+              "label": "Change",
+              "note": "Suffering damage per second changed to 1.8% of target's maximum health|hp."
+            },
+            {
+              "label": "Change",
+              "note": "Ravenous Hydra}}"
+            },
+            {
+              "label": "Change",
+              "note": "Ravenous Crescent AD ratio changed to 100% AD."
+            },
+            {
+              "label": "Change",
+              "note": "Spectral Cutlass}} / Lifeline}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Soul Anchor is now correctly prevented from carrying champions via certain abilities when recast prematurely."
+            },
+            {
+              "label": "Change",
+              "note": "Sterak's Gage}}"
+            },
+            {
+              "label": "Change",
+              "note": "The Claws that Catch base attack damage ratio changed to 50% bonus AD."
+            },
+            {
+              "label": "Change",
+              "note": "Lifeline shield changed to 70% bonus health."
+            },
+            {
+              "label": "Change",
+              "note": "Stridebreaker}}"
+            },
+            {
+              "label": "Change",
+              "note": "Breaking Shockwave damage changed to 100% AD."
+            },
+            {
+              "label": "Change",
+              "note": "Breaking Shockwave movement speed changed to 45% per champion hit."
+            },
+            {
+              "label": "Change",
+              "note": "Youmuu's Ghostblade}}"
+            },
+            {
+              "label": "Change",
+              "note": "Wraith Step bonus movement speed changed to ."
+            },
+            {
+              "label": "Change",
+              "note": "Haunt bonus movement speed changed to ."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "general",
+      "name": "General",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Butcher's Bridge and Koeshin's Crossing are staying in rotation until a newer update. They were previously scheduled to be removed on 25.16.; Each map now has an equal chance to be selected (33.%), instead of favoring…",
+      "gameplayImpact": "General was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Butcher's Bridge and Koeshin's Crossing are staying in rotation until a newer update. They were previously scheduled to be removed on 25.16."
+            },
+            {
+              "label": "Change",
+              "note": "Each map now has an equal chance to be selected (33.%), instead of favoring Koeshin's Crossing at 50%/25%/25%."
+            },
+            {
+              "label": "Change",
+              "note": "Butcher's Bridge"
+            },
+            {
+              "label": "Cannon Launcher hit radius",
+              "before": "375",
+              "after": "325",
+              "note": "Cannon Launcher hit radius increased to 325 from 375."
+            },
+            {
+              "label": "Cannon Launcher flying speed",
+              "before": "2300",
+              "after": "2800",
+              "note": "Cannon Launcher flying speed increased to 2800 from 2300."
+            },
+            {
+              "label": "Change",
+              "note": "Koeshin's Crossing"
+            },
+            {
+              "label": "Change",
+              "note": "Reduced the trigger radius of the portal to cut down on accidentally going through them."
+            },
+            {
+              "label": "Change",
+              "note": "Improved the map grid around each team's Nexus and portals."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "mode",
+      "name": "Mode",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "buff",
+      "severity": 3,
+      "tldr": "Kai'Sa}}; Icathian Rain}}",
+      "gameplayImpact": "Mode is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Kai'Sa}}"
+            },
+            {
+              "label": "Change",
+              "note": "Icathian Rain}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bonus AD ratio changed to 65% bonus AD."
+            },
+            {
+              "label": "Change",
+              "note": "Maokai}}"
+            },
+            {
+              "label": "Change",
+              "note": "Sap Magic}}"
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown refund changed to 3 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Bramble Smash}}"
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown changed to 8–6 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Shyvana}}"
+            },
+            {
+              "label": "Change",
+              "note": "Fury of the Dragonborn}}"
+            },
+            {
+              "label": "Bonus resistances per stack",
+              "before": "1",
+              "after": "1.5",
+              "note": "Bonus resistances per stack increased to 1.5 from 1."
+            },
+            {
+              "label": "Bonus Fury regeneration per stack",
+              "before": "0",
+              "after": "0.2",
+              "note": "Bonus Fury regeneration per stack increased to 0.2 from 0.1."
+            },
+            {
+              "label": "Change",
+              "note": "Ziggs}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bouncing Bomb}}"
+            },
+            {
+              "label": "Change",
+              "note": "AP ratio changed to 60–70% AP|ap."
+            },
+            {
+              "label": "Change",
+              "note": "Hexplosive Minefield}}"
+            },
+            {
+              "label": "Change",
+              "note": "First hit AP ratio changed to 25–35% AP|ap."
+            },
+            {
+              "label": "Change",
+              "note": "Field duration changed to 7 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Death's Dance}}"
+            },
+            {
+              "label": "Change",
+              "note": "Defy bonus AD ratio changed to 100% bonus AD."
+            },
+            {
+              "label": "Change",
+              "note": "Eclipse}}"
+            },
+            {
+              "label": "Change",
+              "note": "Ever Rising Moon shield bonus AD ratio changed to ."
+            },
+            {
+              "label": "Change",
+              "note": "Edge of Night}}"
+            },
+            {
+              "label": "Change",
+              "note": "Annul cooldown changed to 30 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Liandry's Torment}}"
+            },
+            {
+              "label": "Change",
+              "note": "Suffering damage per second changed to 1.8% of target's maximum health|hp."
+            },
+            {
+              "label": "Change",
+              "note": "Ravenous Hydra}}"
+            },
+            {
+              "label": "Change",
+              "note": "Ravenous Crescent AD ratio changed to 100% AD."
+            },
+            {
+              "label": "Change",
+              "note": "Spectral Cutlass}} / Lifeline}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Soul Anchor is now correctly prevented from carrying champions via certain abilities when recast prematurely."
+            },
+            {
+              "label": "Change",
+              "note": "Sterak's Gage}}"
+            },
+            {
+              "label": "Change",
+              "note": "The Claws that Catch base attack damage ratio changed to 50% bonus AD."
+            },
+            {
+              "label": "Change",
+              "note": "Lifeline shield changed to 70% bonus health."
+            },
+            {
+              "label": "Change",
+              "note": "Stridebreaker}}"
+            },
+            {
+              "label": "Change",
+              "note": "Breaking Shockwave damage changed to 100% AD."
+            },
+            {
+              "label": "Change",
+              "note": "Breaking Shockwave movement speed changed to 45% per champion hit."
+            },
+            {
+              "label": "Change",
+              "note": "Youmuu's Ghostblade}}"
+            },
+            {
+              "label": "Change",
+              "note": "Wraith Step bonus movement speed changed to ."
+            },
+            {
+              "label": "Change",
+              "note": "Haunt bonus movement speed changed to ."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "arena",
+      "name": "Arena",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "The two Pick phases have been consolidated.; Both players on each team now pick simultaneously, and picks are revealed when the Finalization phase ensues.",
+      "gameplayImpact": "Arena was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "The two Pick phases have been consolidated."
+            },
+            {
+              "label": "Change",
+              "note": "Both players on each team now pick simultaneously, and picks are revealed when the Finalization phase ensues."
+            },
+            {
+              "label": "Pick phase duration",
+              "before": "35",
+              "after": "40 seconds",
+              "note": "Pick phase duration increased to 40 seconds from 35."
+            },
+            {
+              "label": "Change",
+              "note": "20px|link=|Bravery icon Bravery"
+            },
+            {
+              "label": "Change",
+              "note": "The bonuses for locking in Bravery have been changed:"
+            },
+            {
+              "label": "Initial rerolls",
+              "before": "2",
+              "after": "1",
+              "note": "Initial rerolls reduced to 1 from 2."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Stat Anvil selection rounds now award 2 bonus Lucky Dice}}."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Legendary Item rounds now award ."
+            },
+            {
+              "label": "Change",
+              "note": "Bravery rewards are now explained in and tracked by a buff on the HUD."
+            },
+            {
+              "label": "Change",
+              "note": "New Fame track and rewards."
+            },
+            {
+              "label": "Change",
+              "note": "Fame is being reset for all players."
+            },
+            {
+              "label": "Change",
+              "note": "All augment unlocks that were part of the previous Fame track have been added to all players' pool."
+            },
+            {
+              "label": "Change",
+              "note": "As before, Fame stacks infinitely."
+            },
+            {
+              "label": "Change",
+              "note": "The new Fame track features 13 levels."
+            },
+            {
+              "label": "Change",
+              "note": "Level 0: Start your journey here."
+            },
+            {
+              "label": "Change",
+              "note": "20px Level 1: Unlock the Bodyguard augment (100 Fame needed / 100 total)."
+            },
+            {
+              "label": "Change",
+              "note": "20px Level 2: Unlock the Augmented Power augment (1500 Fame needed / 1600 total)."
+            },
+            {
+              "label": "Change",
+              "note": "20px Level 3: Upgrade your Matchup Card visuals (2000 Fame neeeded / 3600 total)."
+            },
+            {
+              "label": "Change",
+              "note": "20px Level 4: Unlock the Bravest of the Brave augment (2500 Fame needed / 6100 total)."
+            },
+            {
+              "label": "Change",
+              "note": "20px Level 5: Permanently gain 1 extra reroll (3000 Fame needed / 9100 total)."
+            },
+            {
+              "label": "Change",
+              "note": "20px Level 6: Unlock the Cerberus augment (3500 Fame needed / 12,600 total)."
+            },
+            {
+              "label": "Change",
+              "note": "20px Level 7: Unlock the Spirit Infusion augment (4000 Fame needed / 16,600 total)."
+            },
+            {
+              "label": "Change",
+              "note": "20px Level 8: Upgrade your Matchup Card visuals (5000 Fame needed / 21,600 total)."
+            },
+            {
+              "label": "Change",
+              "note": "20px Level 9: Unlock the Quest: Mad Hatter augment (5000 Fame needed / 26,600 total)."
+            },
+            {
+              "label": "Change",
+              "note": "20px Level 10: Unlock the Calculated Risk augment (5000 Fame needed / 31,600 total)."
+            },
+            {
+              "label": "Change",
+              "note": "20px Level 11: Unlock the Pandora's Box augment (6000 Fame needed / 37,600 total)."
+            },
+            {
+              "label": "Change",
+              "note": "20px Level 12: Upgrade your Matchup Card visuals (10,000 Fame needed / 47,600 total)."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Transforming champions (e.g. Jayce}}, Nidalee}}, Viego}}, etc.) now properly receive Fame progression."
+            },
+            {
+              "label": "Change",
+              "note": "The following augments have been added:"
+            },
+            {
+              "label": "Change",
+              "note": "Augmented Power, Bodyguard, Bravest of the Brave, Calculated Risk, Cerberus, Pandora's Box, Quest: Mad Hatter, Spirit Infusion."
+            },
+            {
+              "label": "Change",
+              "note": "Augmented Power"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Silver."
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Your augments and items deal 20% (+ 1% per 100 AD) (+ 1% per 100 AP) increased damage."
+            },
+            {
+              "label": "Change",
+              "note": "Bodyguard"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Gold."
+            },
+            {
+              "label": "Change",
+              "note": "Effect: dash or blink grants a 50–200 shield for 2.5 seconds, increased by 200-50–500-200 (lv 1–12) (0.1 second cooldown per cast instance; 3 second cooldown per source). Any allies you pass through are also granted the same shield you have generated (cr 350 radius of collision). Up to 5 shields generated can stack on a given champion, refreshing with each generation."
+            },
+            {
+              "label": "Change",
+              "note": "Bravest of the Brave"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Silver."
+            },
+            {
+              "label": "Change",
+              "note": "Effect: The tier of all future augment offerings is increased by 1."
+            },
+            {
+              "label": "Change",
+              "note": "Calculated Risk"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Silver."
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Your rerolls are consumed by this effect and you can no longer gain any rerolls for the remainder of the game."
+            },
+            {
+              "label": "Change",
+              "note": "If fewer than 5 rerolls have been consumed, selecting this augment immediately offers a Gold-tier augment selection screen."
+            },
+            {
+              "label": "Change",
+              "note": "If 5 or more rerolls have been consumed, selecting this augment immediately offers a Prismatic-tier augment selection screen."
+            },
+            {
+              "label": "Change",
+              "note": "Cerberus"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Prismatic."
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Gain the Hail of Blades}} and Press the Attack}} keystone runes."
+            },
+            {
+              "label": "Change",
+              "note": "Hail of Blades}} bonus attack speed changed to ."
+            },
+            {
+              "label": "Change",
+              "note": "Hail of Blades}} cooldown changed to 6 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Press the Attack}} damage changed to 120–360.<!--"
+            },
+            {
+              "label": "Change",
+              "note": "Press the Attack}} combat timer changed to 5 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Press the Attack}} cooldown changed to 6 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Fruits of Your Labor"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: No longer unintentionally grants the Bear Trap on a Rope (Kled)}} spell to the partner and depletes their primary resource the first time Kled}} grants the benefits of the augment to his ally."
+            },
+            {
+              "label": "Change",
+              "note": "The replaced spell is the one that has the same spell slot ID as Bear Trap on a Rope, meaning the action replaced can vary by champion."
+            },
+            {
+              "label": "Change",
+              "note": "Hat Trick"
+            },
+            {
+              "label": "Change",
+              "note": "Removed the benefit of not losing hats on death from the augment since it is now baseline functionality."
+            },
+            {
+              "label": "Change",
+              "note": "Overflow"
+            },
+            {
+              "label": "Tier",
+              "before": "Silver",
+              "after": "Gold",
+              "note": "Tier changed to Gold from Silver."
+            },
+            {
+              "label": "Change",
+              "note": "Pandora's Box"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Prismatic."
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Your current augments transform into an equal number of random Prismatic ones."
+            },
+            {
+              "label": "Change",
+              "note": "Quest: Mad Hatter"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Gold."
+            },
+            {
+              "label": "Change",
+              "note": "Effect:"
+            },
+            {
+              "label": "Change",
+              "note": "Requirement: Wear 10 hats simultaneously."
+            },
+            {
+              "label": "Change",
+              "note": "Reward: For each hat currently worn, gain 12 adaptive force, armor|8 bonus armor|ar, magic resistance|8 bonus magic resistance|mr, 1% tenacity and movement speed|4 bonus movement speed|ms. However, you now lose half your hats upon losing a round."
+            },
+            {
+              "label": "Change",
+              "note": "Spirit Infusion"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Silver."
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Gain hsp|10% heal and shield power. After casting your ultimate ability, increase your heal and shield power by 50% for 10 seconds (10 second cooldown)."
+            },
+            {
+              "label": "Change",
+              "note": "Tank Engine"
+            },
+            {
+              "label": "Tier",
+              "before": "Silver",
+              "after": "Gold",
+              "note": "Tier changed to Gold from Silver."
+            },
+            {
+              "label": "Change",
+              "note": "Cappa Juice|Hats}} are no longer lost on death and players no longer gain 1 hat for free upon eliminating a team."
+            },
+            {
+              "label": "Change",
+              "note": "Issues with early exiting upon being eliminated has been resolved and the capability has been re-enabled."
+            },
+            {
+              "label": "Change",
+              "note": "Transmuted augments will now state that they are such in their title (e.g. Transmuted: Jeweled Gauntlet)."
+            },
+            {
+              "label": "Change",
+              "note": "Xin Zhao}}"
+            },
+            {
+              "label": "Change",
+              "note": "Determination}}"
+            },
+            {
+              "label": "Change",
+              "note": "No longer has an override for heal AP ratio of 85% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Audacious Charge}}"
+            },
+            {
+              "label": "Change",
+              "note": "No longer has an override for damage AP ratio of 90% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "champion-select",
+      "name": "Champion Select",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "The two Pick phases have been consolidated.; Both players on each team now pick simultaneously, and picks are revealed when the Finalization phase ensues.",
+      "gameplayImpact": "Champion Select was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "The two Pick phases have been consolidated."
+            },
+            {
+              "label": "Change",
+              "note": "Both players on each team now pick simultaneously, and picks are revealed when the Finalization phase ensues."
+            },
+            {
+              "label": "Pick phase duration",
+              "before": "35",
+              "after": "40 seconds",
+              "note": "Pick phase duration increased to 40 seconds from 35."
+            },
+            {
+              "label": "Change",
+              "note": "20px|link=|Bravery icon Bravery"
+            },
+            {
+              "label": "Change",
+              "note": "The bonuses for locking in Bravery have been changed:"
+            },
+            {
+              "label": "Initial rerolls",
+              "before": "2",
+              "after": "1",
+              "note": "Initial rerolls reduced to 1 from 2."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Stat Anvil selection rounds now award 2 bonus Lucky Dice}}."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Legendary Item rounds now award ."
+            },
+            {
+              "label": "Change",
+              "note": "Bravery rewards are now explained in and tracked by a buff on the HUD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "augments",
+      "name": "Augments",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "The following augments have been added:; Augmented Power, Bodyguard, Bravest of the Brave, Calculated Risk, Cerberus, Pandora's Box, Quest: Mad Hatter, Spirit Infusion.",
+      "gameplayImpact": "Augments was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "The following augments have been added:"
+            },
+            {
+              "label": "Change",
+              "note": "Augmented Power, Bodyguard, Bravest of the Brave, Calculated Risk, Cerberus, Pandora's Box, Quest: Mad Hatter, Spirit Infusion."
+            },
+            {
+              "label": "Change",
+              "note": "Augmented Power"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Silver."
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Your augments and items deal 20% (+ 1% per 100 AD) (+ 1% per 100 AP) increased damage."
+            },
+            {
+              "label": "Change",
+              "note": "Bodyguard"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Gold."
+            },
+            {
+              "label": "Change",
+              "note": "Effect: dash or blink grants a 50–200 shield for 2.5 seconds, increased by 200-50–500-200 (lv 1–12) (0.1 second cooldown per cast instance; 3 second cooldown per source). Any allies you pass through are also granted the same shield you have generated (cr 350 radius of collision). Up to 5 shields generated can stack on a given champion, refreshing with each generation."
+            },
+            {
+              "label": "Change",
+              "note": "Bravest of the Brave"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Silver."
+            },
+            {
+              "label": "Change",
+              "note": "Effect: The tier of all future augment offerings is increased by 1."
+            },
+            {
+              "label": "Change",
+              "note": "Calculated Risk"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Silver."
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Your rerolls are consumed by this effect and you can no longer gain any rerolls for the remainder of the game."
+            },
+            {
+              "label": "Change",
+              "note": "If fewer than 5 rerolls have been consumed, selecting this augment immediately offers a Gold-tier augment selection screen."
+            },
+            {
+              "label": "Change",
+              "note": "If 5 or more rerolls have been consumed, selecting this augment immediately offers a Prismatic-tier augment selection screen."
+            },
+            {
+              "label": "Change",
+              "note": "Cerberus"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Prismatic."
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Gain the Hail of Blades}} and Press the Attack}} keystone runes."
+            },
+            {
+              "label": "Change",
+              "note": "Hail of Blades}} bonus attack speed changed to ."
+            },
+            {
+              "label": "Change",
+              "note": "Hail of Blades}} cooldown changed to 6 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Press the Attack}} damage changed to 120–360.<!--"
+            },
+            {
+              "label": "Change",
+              "note": "Press the Attack}} combat timer changed to 5 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Press the Attack}} cooldown changed to 6 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Fruits of Your Labor"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: No longer unintentionally grants the Bear Trap on a Rope (Kled)}} spell to the partner and depletes their primary resource the first time Kled}} grants the benefits of the augment to his ally."
+            },
+            {
+              "label": "Change",
+              "note": "The replaced spell is the one that has the same spell slot ID as Bear Trap on a Rope, meaning the action replaced can vary by champion."
+            },
+            {
+              "label": "Change",
+              "note": "Hat Trick"
+            },
+            {
+              "label": "Change",
+              "note": "Removed the benefit of not losing hats on death from the augment since it is now baseline functionality."
+            },
+            {
+              "label": "Change",
+              "note": "Overflow"
+            },
+            {
+              "label": "Tier",
+              "before": "Silver",
+              "after": "Gold",
+              "note": "Tier changed to Gold from Silver."
+            },
+            {
+              "label": "Change",
+              "note": "Pandora's Box"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Prismatic."
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Your current augments transform into an equal number of random Prismatic ones."
+            },
+            {
+              "label": "Change",
+              "note": "Quest: Mad Hatter"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Gold."
+            },
+            {
+              "label": "Change",
+              "note": "Effect:"
+            },
+            {
+              "label": "Change",
+              "note": "Requirement: Wear 10 hats simultaneously."
+            },
+            {
+              "label": "Change",
+              "note": "Reward: For each hat currently worn, gain 12 adaptive force, armor|8 bonus armor|ar, magic resistance|8 bonus magic resistance|mr, 1% tenacity and movement speed|4 bonus movement speed|ms. However, you now lose half your hats upon losing a round."
+            },
+            {
+              "label": "Change",
+              "note": "Spirit Infusion"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Silver."
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Gain hsp|10% heal and shield power. After casting your ultimate ability, increase your heal and shield power by 50% for 10 seconds (10 second cooldown)."
+            },
+            {
+              "label": "Change",
+              "note": "Tank Engine"
+            },
+            {
+              "label": "Tier",
+              "before": "Silver",
+              "after": "Gold",
+              "note": "Tier changed to Gold from Silver."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "misc",
+      "name": "Misc",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Cappa Juice|Hats}} are no longer lost on death and players no longer gain 1 hat for free upon eliminating a team.; Issues with early exiting upon being eliminated has been resolved and the capability has been re-enabled.",
+      "gameplayImpact": "Misc loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Cappa Juice|Hats}} are no longer lost on death and players no longer gain 1 hat for free upon eliminating a team."
+            },
+            {
+              "label": "Change",
+              "note": "Issues with early exiting upon being eliminated has been resolved and the capability has been re-enabled."
+            },
+            {
+              "label": "Change",
+              "note": "Transmuted augments will now state that they are such in their title (e.g. Transmuted: Jeweled Gauntlet)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "mode",
+      "name": "Mode",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Xin Zhao}}; Determination}}",
+      "gameplayImpact": "Mode loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Xin Zhao}}"
+            },
+            {
+              "label": "Change",
+              "note": "Determination}}"
+            },
+            {
+              "label": "Change",
+              "note": "No longer has an override for heal AP ratio of 85% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Audacious Charge}}"
+            },
+            {
+              "label": "Change",
+              "note": "No longer has an override for damage AP ratio of 90% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-25-17-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V25.17"
+}

@@ -1,0 +1,2312 @@
+{
+  "id": "13.16",
+  "version": "13.16",
+  "title": "Letting people use spiritual weapons inside of an arena was probably not the gre…",
+  "releaseDate": "2023-08-16",
+  "season": "13",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "Letting people use spiritual weapons inside of an arena was probably not the greatest idea."
+    },
+    {
+      "title": "Champion balance",
+      "description": "10 champion buffs, 7 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "Letting people use spiritual weapons inside of an arena was probably not the greatest idea. Structured changes across 24 entities this patch.",
+  "champions": [
+    {
+      "id": "akali",
+      "name": "Akali",
+      "type": "champion",
+      "assetKey": "Akali",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base damage increased to 45–145 from 40–140.; Energy cost reduced to 110–70 from 130–70.",
+      "gameplayImpact": "Akali is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Five Point Strike",
+          "title": "Five Point Strike",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "40–140",
+              "after": "45–145",
+              "note": "Base damage increased to 45–145 from 40–140."
+            },
+            {
+              "label": "Energy cost",
+              "before": "130–70",
+              "after": "110–70",
+              "note": "Energy cost reduced to 110–70 from 130–70."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "brand",
+      "name": "Brand",
+      "type": "champion",
+      "assetKey": "Brand",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Mana restored increased to 30–50 from 20–40.; AP ratio increased to 65% AP from 55% AP.",
+      "gameplayImpact": "Brand is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Blaze",
+          "title": "Blaze",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Mana restored",
+              "before": "20–40",
+              "after": "30–50",
+              "note": "Mana restored increased to 30–50 from 20–40."
+            }
+          ]
+        },
+        {
+          "ability": "Sear",
+          "title": "Sear",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "55% AP",
+              "after": "65% AP",
+              "note": "AP ratio increased to 65% AP from 55% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Conflagration",
+          "title": "Conflagration",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "45% AP",
+              "after": "55% AP",
+              "note": "AP ratio increased to 55% AP from 45% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "caitlyn",
+      "name": "Caitlyn",
+      "type": "champion",
+      "assetKey": "Caitlyn",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Number of stacks reduced to 5 from 6.; Critical strike ratio formula changed to (62.5% total crit damage x 130% total crit chance) from (1.25 x (0.875 + 50% bonus crit damage) x 130% crit chance).",
+      "gameplayImpact": "Caitlyn loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Headshot",
+          "title": "Headshot",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Number of stacks",
+              "before": "6",
+              "after": "5",
+              "note": "Number of stacks reduced to 5 from 6."
+            },
+            {
+              "label": "Critical strike ratio formula",
+              "before": "(1",
+              "after": "(62.5% total crit damage x 130% total crit chance)",
+              "note": "Critical strike ratio formula changed to (62.5% total crit damage x 130% total crit chance) from (1.25 x (0.875 + 50% bonus crit damage) x 130% crit chance)."
+            },
+            {
+              "label": "Change",
+              "note": "Damage unchanged."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "ekko",
+      "name": "Ekko",
+      "type": "champion",
+      "assetKey": "Ekko",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Initial base damage increased to 70–130 from 60–120.; Slow increased to 40–60% from 32–60%.",
+      "gameplayImpact": "Ekko is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Timewinder",
+          "title": "Timewinder",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Initial base damage",
+              "before": "60–120",
+              "after": "70–130",
+              "note": "Initial base damage increased to 70–130 from 60–120."
+            },
+            {
+              "label": "Slow",
+              "before": "32–60%",
+              "after": "40–60%",
+              "note": "Slow increased to 40–60% from 32–60%."
+            }
+          ]
+        },
+        {
+          "ability": "Parallel Convergence",
+          "title": "Parallel Convergence",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base shield",
+              "before": "70–150",
+              "after": "100–180",
+              "note": "Base shield increased to 100–180 from 70–150."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "karma",
+      "name": "Karma",
+      "type": "champion",
+      "assetKey": "Karma",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "AP ratio increased to 50% AP from 40% AP.; Explosion AP ratio increased to 80% AP from 70% AP.",
+      "gameplayImpact": "Karma is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Inner Flame",
+          "title": "Inner Flame",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "40% AP",
+              "after": "50% AP",
+              "note": "AP ratio increased to 50% AP from 40% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Soulflare",
+          "title": "Soulflare",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Explosion AP ratio",
+              "before": "70% AP",
+              "after": "80% AP",
+              "note": "Explosion AP ratio increased to 80% AP from 70% AP."
+            },
+            {
+              "label": "Rupture AP ratio",
+              "before": "90% AP",
+              "after": "100% AP",
+              "note": "Rupture AP ratio increased to 100% AP from 90% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Mantra",
+          "title": "Mantra",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "40–34 (4 ranks)",
+              "after": "40–31 (4 ranks) seconds",
+              "note": "Cooldown reduced to 40–31 (4 ranks) seconds from 40–34 (4 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "lucian",
+      "name": "Lucian",
+      "type": "champion",
+      "assetKey": "Lucian",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Vigilance base damage increased to 15 from 10.",
+      "gameplayImpact": "Lucian is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Lightslinger",
+          "title": "Lightslinger",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Vigilance base damage",
+              "before": "10",
+              "after": "15",
+              "note": "Vigilance base damage increased to 15 from 10."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "lulu",
+      "name": "Lulu",
+      "type": "champion",
+      "assetKey": "Lulu",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Health growth increased to 92 from 88.; AP ratio increased to 50% AP from 40% AP.",
+      "gameplayImpact": "Lulu is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Health growth",
+              "before": "88",
+              "after": "92",
+              "note": "Health growth increased to 92 from 88."
+            }
+          ]
+        },
+        {
+          "ability": "Glitterlance",
+          "title": "Glitterlance",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "40% AP",
+              "after": "50% AP",
+              "note": "AP ratio increased to 50% AP from 40% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Help, Pix!",
+          "title": "Help, Pix!",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Damage AP ratio",
+              "before": "40% AP",
+              "after": "50% AP",
+              "note": "Damage AP ratio increased to 50% AP from 40% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "malzahar",
+      "name": "Malzahar",
+      "type": "champion",
+      "assetKey": "Malzahar",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Tick rate reduced to 1 per 0.25 seconds from 1 per 0.5.; Minion execute threshold reduced to 10–30 health from 15–45 health.",
+      "gameplayImpact": "Malzahar loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Malefic Visions",
+          "title": "Malefic Visions",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Tick rate",
+              "before": "1 per 0",
+              "after": "1 per 0.25 seconds",
+              "note": "Tick rate reduced to 1 per 0.25 seconds from 1 per 0.5."
+            },
+            {
+              "label": "Minion execute threshold",
+              "before": "15–45 health",
+              "after": "10–30 health",
+              "note": "Minion execute threshold reduced to 10–30 health from 15–45 health."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "milio",
+      "name": "Milio",
+      "type": "champion",
+      "assetKey": "Milio",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Base damage changed to 80–320 from 90–270.; Damage AP ratio increased to 120% AP from 90% AP.",
+      "gameplayImpact": "Milio is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Ultra Mega Fire Kick",
+          "title": "Ultra Mega Fire Kick",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "90–270",
+              "after": "80–320",
+              "note": "Base damage changed to 80–320 from 90–270."
+            },
+            {
+              "label": "Damage AP ratio",
+              "before": "90% AP",
+              "after": "120% AP",
+              "note": "Damage AP ratio increased to 120% AP from 90% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Warm Hugs",
+          "title": "Warm Hugs",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base shield",
+              "before": "60–140",
+              "after": "60–160",
+              "note": "Base shield increased to 60–160 from 60–140."
+            },
+            {
+              "label": "AP ratio",
+              "before": "25% AP",
+              "after": "30% AP",
+              "note": "AP ratio increased to 30% AP from 25% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "naafiri",
+      "name": "Naafiri",
+      "type": "champion",
+      "assetKey": "Naafiri",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Base attack damage reduced to 55 from 57.; Base armor reduced to 30 from 32.",
+      "gameplayImpact": "Naafiri loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base attack damage",
+              "before": "57",
+              "after": "55",
+              "note": "Base attack damage reduced to 55 from 57."
+            },
+            {
+              "label": "Base armor",
+              "before": "32",
+              "after": "30",
+              "note": "Base armor reduced to 30 from 32."
+            },
+            {
+              "label": "Base attack speed",
+              "before": "0",
+              "after": "0.663",
+              "note": "Base attack speed reduced to 0.663 from 0.688."
+            }
+          ]
+        },
+        {
+          "ability": "We Are More",
+          "title": "We Are More",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Packmates now properly copy her movement speed values."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Packmates now properly attack for their intended durations even after being affected by a forced action crowd control."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Packmates now properly follow her when she is affected by certain dashes or displacements."
+            }
+          ]
+        },
+        {
+          "ability": "Darkin Daggers",
+          "title": "Darkin Daggers",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: VFX from hitting a bleeding target no longer incorrectly appears on a different unit."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: No longer casts backwards to the maximum range at time of input if the ability was buffered during Hounds' Pursuit}}."
+            }
+          ]
+        },
+        {
+          "ability": "Hounds' Pursuit",
+          "title": "Hounds' Pursuit",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: No longer plays her backflip animation if the ability hits at close range."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "nidalee",
+      "name": "Nidalee",
+      "type": "champion",
+      "assetKey": "Nidalee",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Now scales with 40% bonus AD.",
+      "gameplayImpact": "Nidalee is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Several issues with voice line playback have been resolved."
+            }
+          ]
+        },
+        {
+          "ability": "Swipe",
+          "title": "Swipe",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Now scales with 40% bonus AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "reksai",
+      "name": "Rek'Sai",
+      "type": "champion",
+      "assetKey": "RekSai",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Removed: No longer has a base damage of 21–45.; AD ratio changed to 34–50% total AD from 50% bonus AD at all ranks.",
+      "gameplayImpact": "Rek'Sai loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Queen's Wrath",
+          "title": "Queen's Wrath",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Removed: No longer has a base damage of 21–45."
+            },
+            {
+              "label": "AD ratio",
+              "before": "50% bonus AD at all ranks",
+              "after": "34–50% total AD",
+              "note": "AD ratio changed to 34–50% total AD from 50% bonus AD at all ranks."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "ryze",
+      "name": "Ryze",
+      "type": "champion",
+      "assetKey": "Ryze",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "The first minion no longer gets teleported on top of the last champion's destination, or not teleported at all if no champion was teleported. All other minions no longer get teleported based on the coordinates of the …",
+      "gameplayImpact": "Ryze loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Realm Warp",
+          "title": "Realm Warp",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: No longer shuffles the positions of all teleported non-champion units due to an ordering issue."
+            },
+            {
+              "label": "Change",
+              "note": "The first minion no longer gets teleported on top of the last champion's destination, or not teleported at all if no champion was teleported. All other minions no longer get teleported based on the coordinates of the previous minion instead of their own."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "shaco",
+      "name": "Shaco",
+      "type": "champion",
+      "assetKey": "Shaco",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base mana regeneration reduced to 6 from 7.15.; Mana cost increased to 70 at all ranks from 50–70.",
+      "gameplayImpact": "Shaco loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base mana regeneration",
+              "before": "7",
+              "after": "6",
+              "note": "Base mana regeneration reduced to 6 from 7.15."
+            }
+          ]
+        },
+        {
+          "ability": "Jack in the Box",
+          "title": "Jack in the Box",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Mana cost",
+              "before": "50–70",
+              "after": "70 at all ranks",
+              "note": "Mana cost increased to 70 at all ranks from 50–70."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "shyvana",
+      "name": "Shyvana",
+      "type": "champion",
+      "assetKey": "Shyvana",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Base damage per tick reduced to 10–30 from 10–35.; Bonus AD ratio per tick reduced to 10% bonus AD from 15%|AD.",
+      "gameplayImpact": "Shyvana loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Burnout",
+          "title": "Burnout",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base damage per tick",
+              "before": "10–35",
+              "after": "10–30",
+              "note": "Base damage per tick reduced to 10–30 from 10–35."
+            },
+            {
+              "label": "Bonus AD ratio per tick",
+              "before": "15%|AD",
+              "after": "10% bonus AD",
+              "note": "Bonus AD ratio per tick reduced to 10% bonus AD from 15%|AD."
+            },
+            {
+              "label": "On-hit damage",
+              "before": "50% of Burnout's damage per tick",
+              "after": "5–13 (+ 5% bonus AD)",
+              "note": "On-hit damage changed to 5–13 (+ 5% bonus AD) from 50% of Burnout's damage per tick."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "sylas",
+      "name": "Sylas",
+      "type": "champion",
+      "assetKey": "Sylas",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base mana increased to 400 from 310.",
+      "gameplayImpact": "Sylas is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base mana",
+              "before": "310",
+              "after": "400",
+              "note": "Base mana increased to 400 from 310."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "tristana",
+      "name": "Tristana",
+      "type": "champion",
+      "assetKey": "Tristana",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Base health reduced to 640 from 670.; Base armor increased to 30 from 26.",
+      "gameplayImpact": "Tristana was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base health",
+              "before": "670",
+              "after": "640",
+              "note": "Base health reduced to 640 from 670."
+            },
+            {
+              "label": "Base armor",
+              "before": "26",
+              "after": "30",
+              "note": "Base armor increased to 30 from 26."
+            },
+            {
+              "label": "Change",
+              "note": "Armor growth increased to 4.5 to 4.2."
+            },
+            {
+              "label": "Base magic resistance",
+              "before": "30",
+              "after": "28",
+              "note": "Base magic resistance reduced to 28 from 30."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "wukong",
+      "name": "Wukong",
+      "type": "champion",
+      "assetKey": "MonkeyKing",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Mana regeneration growth increased to 0.8 from 0.65.; Mana cost reduced to 20 from 40.",
+      "gameplayImpact": "Wukong is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Mana regeneration growth",
+              "before": "0",
+              "after": "0.8",
+              "note": "Mana regeneration growth increased to 0.8 from 0.65."
+            }
+          ]
+        },
+        {
+          "ability": "Crushing Blow",
+          "title": "Crushing Blow",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Mana cost",
+              "before": "40",
+              "after": "20",
+              "note": "Mana cost reduced to 20 from 40."
+            }
+          ]
+        },
+        {
+          "ability": "Warrior Trickster",
+          "title": "Warrior Trickster",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Mana cost",
+              "before": "80–40",
+              "after": "60–40",
+              "note": "Mana cost reduced to 60–40 from 80–40."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "axiom-arc",
+      "name": "Axiom Arc",
+      "type": "item",
+      "assetKey": "6696",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base ultimate cooldown refund increased to 10% from 5%.",
+      "gameplayImpact": "Axiom Arc is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base ultimate cooldown refund",
+              "before": "5%",
+              "after": "10%",
+              "note": "Base ultimate cooldown refund increased to 10% from 5%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "duskblade-of-draktharr",
+      "name": "Duskblade of Draktharr",
+      "type": "item",
+      "assetKey": "6691",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Cooldown increased to 30 seconds from 10.; Nightstalker bonus damage reduced to 0–18% (over 0–70) from 0–20% (over 0–70).",
+      "gameplayImpact": "Duskblade of Draktharr loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "10",
+              "after": "30 seconds",
+              "note": "Cooldown increased to 30 seconds from 10."
+            },
+            {
+              "label": "Nightstalker bonus damage",
+              "before": "0–20% (over 0–70)",
+              "after": "0–18% (over 0–70)",
+              "note": "Nightstalker bonus damage reduced to 0–18% (over 0–70) from 0–20% (over 0–70)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "prowlers-claw",
+      "name": "Prowler's Claw",
+      "type": "item",
+      "assetKey": "6693",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Cooldown reduced to 5 seconds from 10.; Bonus AD ratio increased to from .",
+      "gameplayImpact": "Prowler's Claw is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "10",
+              "after": "5 seconds",
+              "note": "Cooldown reduced to 5 seconds from 10."
+            },
+            {
+              "label": "Change",
+              "note": "Bonus AD ratio increased to from ."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "serpents-fang",
+      "name": "Serpent's Fang",
+      "type": "item",
+      "assetKey": "6695",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Lethality increased to 15 from 12.",
+      "gameplayImpact": "Serpent's Fang is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Lethality",
+              "before": "12",
+              "after": "15",
+              "note": "Lethality increased to 15 from 12."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "umbral-glaive",
+      "name": "Umbral Glaive",
+      "type": "item",
+      "assetKey": "3179",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Lethality increased to 13 from 10.",
+      "gameplayImpact": "Umbral Glaive is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Lethality",
+              "before": "10",
+              "after": "13",
+              "note": "Lethality increased to 13 from 10."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "id": "arena",
+      "name": "Arena",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Akali}}; Assassin's Mark}}",
+      "gameplayImpact": "Arena was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Akali}}"
+            },
+            {
+              "label": "Change",
+              "note": "Assassin's Mark}}"
+            },
+            {
+              "label": "AD ratio",
+              "before": "60%|AD",
+              "after": "70% bonus AD",
+              "note": "AD ratio increased to 70% bonus AD from 60%|AD."
+            },
+            {
+              "label": "AP ratio",
+              "before": "55% AP",
+              "after": "65% AP",
+              "note": "AP ratio increased to 65% AP from 55% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Twilight Shroud}}"
+            },
+            {
+              "label": "Energy restoration",
+              "before": "100",
+              "after": "150",
+              "note": "Energy restoration increased to 150 from 100."
+            },
+            {
+              "label": "Change",
+              "note": "Cassiopeia}}"
+            },
+            {
+              "label": "Change",
+              "note": "Serpentine Grace}}"
+            },
+            {
+              "label": "Bonus movement speed",
+              "before": "4–72",
+              "after": "2.8–50.4",
+              "note": "Bonus movement speed reduced to 2.8–50.4 from 4–72."
+            },
+            {
+              "label": "Change",
+              "note": "Miasma}}"
+            },
+            {
+              "label": "Change",
+              "note": "Now affected by -30 ability haste."
+            },
+            {
+              "label": "Change",
+              "note": "Cho'Gath}}"
+            },
+            {
+              "label": "Change",
+              "note": "Rupture}}"
+            },
+            {
+              "label": "Base damage",
+              "before": "80–320",
+              "after": "100–340",
+              "note": "Base damage increased to 100–340 from 80–320."
+            },
+            {
+              "label": "Slow strength",
+              "before": "60%",
+              "after": "70%",
+              "note": "Slow strength increased to 70% from 60%."
+            },
+            {
+              "label": "Change",
+              "note": "Now affected by +25 ability haste."
+            },
+            {
+              "label": "Change",
+              "note": "Vorpal Spikes}}"
+            },
+            {
+              "label": "Base damage",
+              "before": "22–70",
+              "after": "32–80",
+              "note": "Base damage increased to 32–80 from 22–70."
+            },
+            {
+              "label": "Slow strength",
+              "before": "30–50%",
+              "after": "40–60%",
+              "note": "Slow strength increased to 40–60% from 30–50%."
+            },
+            {
+              "label": "Change",
+              "note": "Feast}}"
+            },
+            {
+              "label": "Champion base damage",
+              "before": "300–650 (3 ranks)",
+              "after": "400–750 (3 ranks)",
+              "note": "Champion base damage increased to 400–750 (3 ranks) from 300–650 (3 ranks)."
+            },
+            {
+              "label": "Bonus health per stack",
+              "before": "80–160 (3 ranks)",
+              "after": "100–200 (3 ranks)",
+              "note": "Bonus health per stack increased to 100–200 (3 ranks) from 80–160 (3 ranks)."
+            },
+            {
+              "label": "Change",
+              "note": "Now affected by +30 ability haste."
+            },
+            {
+              "label": "Change",
+              "note": "Diana}}"
+            },
+            {
+              "label": "Change",
+              "note": "Moonsilver Blade}}"
+            },
+            {
+              "label": "AP ratio",
+              "before": "50% AP",
+              "after": "75% AP",
+              "note": "AP ratio increased to 75% AP from 50% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Pale Cascade}}"
+            },
+            {
+              "label": "Base shield",
+              "before": "45–105",
+              "after": "60–160",
+              "note": "Base shield increased to 60–160 from 45–105."
+            },
+            {
+              "label": "Change",
+              "note": "Moonfall}}"
+            },
+            {
+              "label": "Base damage",
+              "before": "200–400 (3 ranks)",
+              "after": "300–600 (3 ranks)",
+              "note": "Base damage increased to 300–600 (3 ranks) from 200–400 (3 ranks)."
+            },
+            {
+              "label": "Change",
+              "note": "Ekko}}"
+            },
+            {
+              "label": "Change",
+              "note": "Z-Drive Resonance}}"
+            },
+            {
+              "label": "Base damage",
+              "before": "30–140",
+              "after": "33–154",
+              "note": "Base damage increased to 33–154 from 30–140."
+            },
+            {
+              "label": "Change",
+              "note": "Timewinder}}"
+            },
+            {
+              "label": "Initial base damage",
+              "before": "60–120",
+              "after": "70–130",
+              "note": "Initial base damage increased to 70–130 from 60–120."
+            },
+            {
+              "label": "Secondary base damage",
+              "before": "40–140",
+              "after": "50–150",
+              "note": "Secondary base damage increased to 50–150 from 40–140."
+            },
+            {
+              "label": "Change",
+              "note": "Parallel Convergence}}"
+            },
+            {
+              "label": "Base damage",
+              "before": "3%|hp",
+              "after": "4% of target's missing health",
+              "note": "Base damage increased to 4% of target's missing health from 3%|hp."
+            },
+            {
+              "label": "Change",
+              "note": "Evelynn}}"
+            },
+            {
+              "label": "Change",
+              "note": "Hate Spike}}"
+            },
+            {
+              "label": "Base damage",
+              "before": "25–45",
+              "after": "35–55",
+              "note": "Base damage increased to 35–55 from 25–45."
+            },
+            {
+              "label": "Bonus damage",
+              "before": "15–55",
+              "after": "25–65",
+              "note": "Bonus damage increased to 25–65 from 15–55."
+            },
+            {
+              "label": "Bonus damage AP ratio",
+              "before": "25% AP",
+              "after": "30% AP",
+              "note": "Bonus damage AP ratio increased to 30% AP from 25% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Allure}}"
+            },
+            {
+              "label": "Change",
+              "note": "Now affected by +20 ability haste."
+            },
+            {
+              "label": "Change",
+              "note": "Whiplash}}"
+            },
+            {
+              "label": "Target health ratio",
+              "before": "3%|hp",
+              "after": "5% of target's maximum health",
+              "note": "Target health ratio changed to 5% of target's maximum health from 3%|hp."
+            },
+            {
+              "label": "Change",
+              "note": "Empowered Whiplash}}"
+            },
+            {
+              "label": "Target health ratio",
+              "before": "4%|hp",
+              "after": "7% of target's maximum health",
+              "note": "Target health ratio changed to 7% of target's maximum health from 4%|hp."
+            },
+            {
+              "label": "Change",
+              "note": "Ezreal}}"
+            },
+            {
+              "label": "Change",
+              "note": "Mystic Shot}}"
+            },
+            {
+              "label": "Base damage",
+              "before": "20–120",
+              "after": "30–130",
+              "note": "Base damage increased to 30–130 from 20–120."
+            },
+            {
+              "label": "AD ratio",
+              "before": "130% AD",
+              "after": "135% AD",
+              "note": "AD ratio increased to 135% AD from 130% AD."
+            },
+            {
+              "label": "AP ratio",
+              "before": "15% AP",
+              "after": "17% AP",
+              "note": "AP ratio increased to 17% AP from 15% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Arcane Shift}}"
+            },
+            {
+              "label": "Base damage",
+              "before": "80–280",
+              "after": "90–290",
+              "note": "Base damage increased to 90–290 from 80–280."
+            },
+            {
+              "label": "AP ratio",
+              "before": "75% AP",
+              "after": "80% AP",
+              "note": "AP ratio increased to 80% AP from 75% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Now affected by +15 ability haste."
+            },
+            {
+              "label": "Change",
+              "note": "Trueshot Barrage}}"
+            },
+            {
+              "label": "Base damage",
+              "before": "350–650 (3 ranks)",
+              "after": "390–690 (3 ranks)",
+              "note": "Base damage increased to 390–690 (3 ranks) from 350–650 (3 ranks)."
+            },
+            {
+              "label": "AP ratio",
+              "before": "90% AP",
+              "after": "95% AP",
+              "note": "AP ratio increased to 95% AP from 90% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Fiora}}"
+            },
+            {
+              "label": "Change",
+              "note": "Duelist's Dance}}"
+            },
+            {
+              "label": "Base damage",
+              "before": "3%|hp",
+              "after": "2% of target's maximum health",
+              "note": "Base damage reduced to 2% of target's maximum health from 3%|hp."
+            },
+            {
+              "label": "AD ratio",
+              "before": "4%|AD",
+              "after": "3% per 100 bonus AD",
+              "note": "AD ratio reduced to 3% per 100 bonus AD from 4%|AD."
+            },
+            {
+              "label": "Change",
+              "note": "Riposte}}"
+            },
+            {
+              "label": "Change",
+              "note": "Now affected by -20 ability haste."
+            },
+            {
+              "label": "Change",
+              "note": "Galio}}"
+            },
+            {
+              "label": "Change",
+              "note": "Winds of War}}"
+            },
+            {
+              "label": "Base damage",
+              "before": "70–210",
+              "after": "100–280",
+              "note": "Base damage increased to 100–280 from 70–210."
+            },
+            {
+              "label": "Change",
+              "note": "Shield of Durand}}"
+            },
+            {
+              "label": "Change",
+              "note": "Now affected by +30 ability haste."
+            },
+            {
+              "label": "Shield health ratio",
+              "before": "6%|health",
+              "after": "10% maximum health",
+              "note": "Shield health ratio increased to 10% maximum health from 6%|health."
+            },
+            {
+              "label": "Shield timer",
+              "before": "10",
+              "after": "5 seconds",
+              "note": "Shield timer reduced to 5 seconds from 10."
+            },
+            {
+              "label": "Change",
+              "note": "Hero's Entrance}}"
+            },
+            {
+              "label": "Knock up duration",
+              "before": "0",
+              "after": "1.5 seconds",
+              "note": "Knock up duration increased to 1.5 seconds from 0.75."
+            },
+            {
+              "label": "Change",
+              "note": "Gragas}}"
+            },
+            {
+              "label": "Change",
+              "note": "Happy Hour}}"
+            },
+            {
+              "label": "Cooldown",
+              "before": "12",
+              "after": "4 seconds",
+              "note": "Cooldown reduced to 4 seconds from 12."
+            },
+            {
+              "label": "Change",
+              "note": "Drunken Rage}}"
+            },
+            {
+              "label": "Health ratio",
+              "before": "7%|health",
+              "after": "12% of target's maximum health",
+              "note": "Health ratio increased to 12% of target's maximum health from 7%|health."
+            },
+            {
+              "label": "Change",
+              "note": "Hecarim}}"
+            },
+            {
+              "label": "Change",
+              "note": "Rampage}}"
+            },
+            {
+              "label": "Base damage",
+              "before": "60–160",
+              "after": "80–180",
+              "note": "Base damage increased to 80–180 from 60–160."
+            },
+            {
+              "label": "Change",
+              "note": "Spirit of Dread}}"
+            },
+            {
+              "label": "Base healing",
+              "before": "25%",
+              "after": "35% of damage dealt",
+              "note": "Base healing increased to 35% of damage dealt from 25%."
+            },
+            {
+              "label": "Healing AD ratio",
+              "before": "2%|AD",
+              "after": "3% per 100 bonus AD",
+              "note": "Healing AD ratio increased to 3% per 100 bonus AD from 2%|AD."
+            },
+            {
+              "label": "Change",
+              "note": "Devastating Charge}}"
+            },
+            {
+              "label": "Minimum base damage",
+              "before": "30–90",
+              "after": "50–110",
+              "note": "Minimum base damage increased to 50–110 from 30–90."
+            },
+            {
+              "label": "Maximum base damage",
+              "before": "60–180",
+              "after": "100–220",
+              "note": "Maximum base damage increased to 100–220 from 60–180."
+            },
+            {
+              "label": "Minimum AD ratio",
+              "before": "50%|AD",
+              "after": "60% bonus AD",
+              "note": "Minimum AD ratio increased to 60% bonus AD from 50%|AD."
+            },
+            {
+              "label": "Maximum AD ratio",
+              "before": "100%|AD",
+              "after": "120% bonus AD",
+              "note": "Maximum AD ratio increased to 120% bonus AD from 100%|AD."
+            },
+            {
+              "label": "Change",
+              "note": "LeBlanc}}"
+            },
+            {
+              "label": "Change",
+              "note": "Sigil of Malice}}"
+            },
+            {
+              "label": "Base damage",
+              "before": "65–165",
+              "after": "75–175",
+              "note": "Base damage increased to 75–175 from 65–165."
+            },
+            {
+              "label": "Change",
+              "note": "Distortion}}"
+            },
+            {
+              "label": "AP ratio",
+              "before": "60% AP",
+              "after": "70% AP",
+              "note": "AP ratio increased to 70% AP from 60% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Now affected by +15 ability haste."
+            },
+            {
+              "label": "Change",
+              "note": "Mimic}}"
+            },
+            {
+              "label": "Change",
+              "note": "Now affected by +15 ability haste."
+            },
+            {
+              "label": "Change",
+              "note": "Mimic: Sigil of Malice}}"
+            },
+            {
+              "label": "Change",
+              "note": "Mimic: Ethereal Chains}}"
+            },
+            {
+              "label": "Change",
+              "note": "Lee Sin}}"
+            },
+            {
+              "label": "Change",
+              "note": "Sonic Wave}}"
+            },
+            {
+              "label": "Change",
+              "note": "Now affected by +30 ability haste."
+            },
+            {
+              "label": "Change",
+              "note": "Safeguard}}"
+            },
+            {
+              "label": "Shield strength",
+              "before": "50–250",
+              "after": "60–300",
+              "note": "Shield strength increased to 60–300 from 50–250."
+            },
+            {
+              "label": "Change",
+              "note": "Iron Will}}"
+            },
+            {
+              "label": "Life steal and spell vamp",
+              "before": "5–27%",
+              "after": "15–35%",
+              "note": "Life steal and spell vamp increased to 15–35% from 5–27%."
+            },
+            {
+              "label": "Change",
+              "note": "Tempest}}"
+            },
+            {
+              "label": "Base damage",
+              "before": "35–155",
+              "after": "55–195",
+              "note": "Base damage increased to 55–195 from 35–155."
+            },
+            {
+              "label": "Slow strength",
+              "before": "20–80%",
+              "after": "40–80%",
+              "note": "Slow strength increased to 40–80% from 20–80%."
+            },
+            {
+              "label": "Change",
+              "note": "Nidalee}}"
+            },
+            {
+              "label": "Change",
+              "note": "Prowl}}"
+            },
+            {
+              "label": "Bonus movement speed",
+              "before": "10%",
+              "after": "20%",
+              "note": "Bonus movement speed increased to 20% from 10%."
+            },
+            {
+              "label": "Change",
+              "note": "Takedown}}"
+            },
+            {
+              "label": "Minimum AP ratio",
+              "before": "50% AP",
+              "after": "80% AP",
+              "note": "Minimum AP ratio increased to 80% AP from 50% AP."
+            },
+            {
+              "label": "Minimum AD ratio",
+              "before": "75% AD",
+              "after": "120% AD",
+              "note": "Minimum AD ratio increased to 120% AD from 75% AD."
+            },
+            {
+              "label": "Change",
+              "note": "Bushwhack}}"
+            },
+            {
+              "label": "Maximum traps",
+              "before": "4–10 (lv 1–16)",
+              "after": "100",
+              "note": "Maximum traps increased to 100 from 4–10 (lv 1–16)."
+            },
+            {
+              "label": "Change",
+              "note": "Primal Surge}}"
+            },
+            {
+              "label": "Base heal",
+              "before": "35–95",
+              "after": "60–180",
+              "note": "Base heal increased to 60–180 from 35–95."
+            },
+            {
+              "label": "Change",
+              "note": "Swipe}}"
+            },
+            {
+              "label": "Bonus AD ratio",
+              "before": "40%|AD",
+              "after": "80% bonus AD",
+              "note": "Bonus AD ratio increased to 80% bonus AD from 40%|AD."
+            },
+            {
+              "label": "Change",
+              "note": "Nunu}}"
+            },
+            {
+              "label": "Change",
+              "note": "Consume}}"
+            },
+            {
+              "label": "Champion damage",
+              "before": "100–340",
+              "after": "120–360",
+              "note": "Champion damage increased to 120–360 from 100–340."
+            },
+            {
+              "label": "Champion AP ratio",
+              "before": "65% AP",
+              "after": "70% AP",
+              "note": "Champion AP ratio increased to 70% AP from 65% AP."
+            },
+            {
+              "label": "Champion health ratio",
+              "before": "5%|hp",
+              "after": "7% bonus health",
+              "note": "Champion health ratio increased to 7% bonus health from 5%|hp."
+            },
+            {
+              "label": "Change",
+              "note": "Now affected by +30 ability haste."
+            },
+            {
+              "label": "Change",
+              "note": "Biggest Snowball Ever!}}"
+            },
+            {
+              "label": "Base damage",
+              "before": "180–360",
+              "after": "215–395",
+              "note": "Base damage increased to 215–395 from 180–360."
+            },
+            {
+              "label": "Change",
+              "note": "Absolute Zero}}"
+            },
+            {
+              "label": "Maximum damage",
+              "before": "625–1275 (3 ranks)",
+              "after": "655–1305 (3 ranks)",
+              "note": "Maximum damage increased to 655–1305 (3 ranks) from 625–1275 (3 ranks)."
+            },
+            {
+              "label": "Base shield strength",
+              "before": "65–85 (3 ranks)",
+              "after": "85–105 (3 ranks)",
+              "note": "Base shield strength increased to 85–105 (3 ranks) from 65–85 (3 ranks)."
+            },
+            {
+              "label": "Shield health ratio",
+              "before": "30–50 (3 ranks)%|hp",
+              "after": "40–60 (3 ranks)% bonus health",
+              "note": "Shield health ratio increased to 40–60 (3 ranks)% bonus health from 30–50 (3 ranks)%|hp."
+            },
+            {
+              "label": "Change",
+              "note": "Quinn}}"
+            },
+            {
+              "label": "Change",
+              "note": "Harrier}}"
+            },
+            {
+              "label": "Base damage",
+              "before": "10–95",
+              "after": "11.5–109.25",
+              "note": "Base damage increased to 11.5–109.25 from 10–95."
+            },
+            {
+              "label": "AD ratio",
+              "before": "116–150% AD",
+              "after": "118.4–157.5% AD",
+              "note": "AD ratio increased to 118.4–157.5% AD from 116–150% AD."
+            },
+            {
+              "label": "Change",
+              "note": "Blinding Assault}}"
+            },
+            {
+              "label": "AD ratio",
+              "before": "80–120% AD",
+              "after": "90–130% AD",
+              "note": "AD ratio increased to 90–130% AD from 80–120% AD."
+            },
+            {
+              "label": "AP ratio",
+              "before": "50% AP",
+              "after": "75% AP",
+              "note": "AP ratio increased to 75% AP from 50% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Heightened Senses}}"
+            },
+            {
+              "label": "Attack speed",
+              "before": "28–60%",
+              "after": "30–70%",
+              "note": "Attack speed increased to 30–70% from 28–60%."
+            },
+            {
+              "label": "Change",
+              "note": "Now affected by +100 ability haste."
+            },
+            {
+              "label": "Change",
+              "note": "Skystrike}}"
+            },
+            {
+              "label": "AD ratio",
+              "before": "70% AD",
+              "after": "100% AD",
+              "note": "AD ratio increased to 100% AD from 70% AD."
+            },
+            {
+              "label": "Change",
+              "note": "Sejuani}}"
+            },
+            {
+              "label": "Change",
+              "note": "Fury of the North}}"
+            },
+            {
+              "label": "Damage health ratio",
+              "before": "10%|HP",
+              "after": "12% of target's maximum health",
+              "note": "Damage health ratio increased to 12% of target's maximum health from 10%|HP."
+            },
+            {
+              "label": "Change",
+              "note": "Arctic Assault}}"
+            },
+            {
+              "label": "Change",
+              "note": "Now affected by +20 ability haste."
+            },
+            {
+              "label": "Change",
+              "note": "Permafrost}}"
+            },
+            {
+              "label": "Champion Frost immunity",
+              "before": "8",
+              "after": "5 seconds",
+              "note": "Champion Frost immunity reduced to 5 seconds from 8."
+            },
+            {
+              "label": "Change",
+              "note": "Sion}}"
+            },
+            {
+              "label": "Change",
+              "note": "Decimating Smash}}"
+            },
+            {
+              "label": "Minimum base damage",
+              "before": "40–120",
+              "after": "65–145",
+              "note": "Minimum base damage increased to 65–145 from 40–120."
+            },
+            {
+              "label": "Maximum base damage",
+              "before": "90–350",
+              "after": "130–390",
+              "note": "Maximum base damage increased to 130–390 from 90–350."
+            },
+            {
+              "label": "Change",
+              "note": "Soul Furnace}}"
+            },
+            {
+              "label": "Bonus health per champion takedown",
+              "before": "15",
+              "after": "45",
+              "note": "Bonus health per champion takedown increased to 45 from 15."
+            },
+            {
+              "label": "Change",
+              "note": "Roar of the Slayer}}"
+            },
+            {
+              "label": "Armor reduction",
+              "before": "20%",
+              "after": "40%",
+              "note": "Armor reduction increased to 40% from 20%."
+            },
+            {
+              "label": "Slow strength",
+              "before": "40–60%",
+              "after": "55–75%",
+              "note": "Slow strength increased to 55–75% from 40–60%."
+            },
+            {
+              "label": "Change",
+              "note": "Unstoppable Onslaught}}"
+            },
+            {
+              "label": "Minimum damage",
+              "before": "150–450 (3 ranks)",
+              "after": "200–500 (3 ranks)",
+              "note": "Minimum damage increased to 200–500 (3 ranks) from 150–450 (3 ranks)."
+            },
+            {
+              "label": "Maximum damage",
+              "before": "400–1200 (3 ranks)",
+              "after": "600–1400 (3 ranks)",
+              "note": "Maximum damage increased to 600–1400 (3 ranks) from 400–1200 (3 ranks)."
+            },
+            {
+              "label": "Change",
+              "note": "Tryndamere}}"
+            },
+            {
+              "label": "Change",
+              "note": "Battle Fury}}"
+            },
+            {
+              "label": "Change",
+              "note": "Fury generation increased by 50%."
+            },
+            {
+              "label": "Change",
+              "note": "Bloodlust}}"
+            },
+            {
+              "label": "Base heal",
+              "before": "30–70",
+              "after": "60–140",
+              "note": "Base heal increased to 60–140 from 30–70."
+            },
+            {
+              "label": "Heal AP ratio",
+              "before": "30% AP",
+              "after": "50% AP",
+              "note": "Heal AP ratio increased to 50% AP from 30% AP."
+            },
+            {
+              "label": "Heal per 1 Fury",
+              "before": "0",
+              "after": "1–4",
+              "note": "Heal per 1 Fury increased to 1–4 from 0.5–2.3."
+            },
+            {
+              "label": "Heal per 1 Fury AP ratio",
+              "before": "1",
+              "after": "2% AP",
+              "note": "Heal per 1 Fury AP ratio increased to 2% AP from 1.2% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Mocking Shout}}"
+            },
+            {
+              "label": "Slow strength",
+              "before": "30–60%",
+              "after": "50–80%",
+              "note": "Slow strength increased to 50–80% from 30–60%."
+            },
+            {
+              "label": "Attack damage reduction",
+              "before": "20–80",
+              "after": "30–120",
+              "note": "Attack damage reduction increased to 30–120 from 20–80."
+            },
+            {
+              "label": "Change",
+              "note": "Warwick}}"
+            },
+            {
+              "label": "Change",
+              "note": "Jaws of the Beast}}"
+            },
+            {
+              "label": "Damage health ratio",
+              "before": "6–10%|hp",
+              "after": "5–9% of target's maximum health",
+              "note": "Damage health ratio reduced to 5–9% of target's maximum health from 6–10%|hp."
+            },
+            {
+              "label": "AD ratio",
+              "before": "120% AD",
+              "after": "100% AD",
+              "note": "AD ratio reduced to 100% AD from 120% AD."
+            },
+            {
+              "label": "Change",
+              "note": "Primal Howl}}"
+            },
+            {
+              "label": "Change",
+              "note": "Now affected by -20 ability haste."
+            },
+            {
+              "label": "Change",
+              "note": "Infinite Duress}}"
+            },
+            {
+              "label": "Total base damage",
+              "before": "175–525 (3 ranks)",
+              "after": "100–300 (3 ranks)",
+              "note": "Total base damage reduced to 100–300 (3 ranks) from 175–525 (3 ranks)."
+            },
+            {
+              "label": "Change",
+              "note": "Xerath}}"
+            },
+            {
+              "label": "Change",
+              "note": "Arcanopulse}}"
+            },
+            {
+              "label": "Base damage",
+              "before": "70–230",
+              "after": "100–260",
+              "note": "Base damage increased to 100–260 from 70–230."
+            },
+            {
+              "label": "Change",
+              "note": "Rite of the Arcane}}"
+            },
+            {
+              "label": "Base damage",
+              "before": "180–280 (3 ranks)",
+              "after": "250–350 (3 ranks)",
+              "note": "Base damage increased to 250–350 (3 ranks) from 180–280 (3 ranks)."
+            },
+            {
+              "label": "Change",
+              "note": "Ardent Censer}}"
+            },
+            {
+              "label": "Attack speed",
+              "before": "30%",
+              "after": "40%",
+              "note": "Attack speed increased to 40% from 30%."
+            },
+            {
+              "label": "On-hit damage",
+              "before": "20–40",
+              "after": "25",
+              "note": "On-hit damage changed to 25 from 20–40."
+            },
+            {
+              "label": "Change",
+              "note": "Eclipse}}"
+            },
+            {
+              "label": "Attack damage",
+              "before": "60",
+              "after": "50",
+              "note": "Attack damage reduced to 50 from 60."
+            },
+            {
+              "label": "Change",
+              "note": "Edge of Night}}"
+            },
+            {
+              "label": "Health",
+              "before": "325",
+              "after": "400",
+              "note": "Health increased to 400 from 325."
+            },
+            {
+              "label": "Change",
+              "note": "Everfrost}}"
+            },
+            {
+              "label": "Disable duration",
+              "before": "1",
+              "after": "1.5 seconds",
+              "note": "Disable duration increased to 1.5 seconds from 1."
+            },
+            {
+              "label": "Change",
+              "note": "Galeforce}}"
+            },
+            {
+              "label": "Attack speed",
+              "before": "15%",
+              "after": "25%",
+              "note": "Attack speed increased to 25% from 15%."
+            },
+            {
+              "label": "Cooldown",
+              "before": "45",
+              "after": "30 seconds",
+              "note": "Cooldown reduced to 30 seconds from 45."
+            },
+            {
+              "label": "Change",
+              "note": "Goredrinker}}"
+            },
+            {
+              "label": "Health",
+              "before": "200",
+              "after": "300",
+              "note": "Health increased to 300 from 200."
+            },
+            {
+              "label": "Attack damage",
+              "before": "50",
+              "after": "55",
+              "note": "Attack damage increased to 55 from 50."
+            },
+            {
+              "label": "Change",
+              "note": "Imperial Mandate}}"
+            },
+            {
+              "label": "Initial damage",
+              "before": "50–90",
+              "after": "70–130",
+              "note": "Initial damage increased to 70–130 from 50–90."
+            },
+            {
+              "label": "Ally damage",
+              "before": "100–160",
+              "after": "120–200",
+              "note": "Ally damage increased to 120–200 from 100–160."
+            },
+            {
+              "label": "Change",
+              "note": "Ionian Boots of Lucidity}}"
+            },
+            {
+              "label": "Movement speed",
+              "before": "30",
+              "after": "45",
+              "note": "Movement speed increased to 45 from 30."
+            },
+            {
+              "label": "Change",
+              "note": "Kraken Slayer}}"
+            },
+            {
+              "label": "Attack damage",
+              "before": "35",
+              "after": "40",
+              "note": "Attack damage increased to 40 from 35."
+            },
+            {
+              "label": "Change",
+              "note": "Locket of the Iron Solari}}"
+            },
+            {
+              "label": "Shield strength",
+              "before": "400–1000",
+              "after": "600–1200",
+              "note": "Shield strength increased to 600–1200 from 400–1000."
+            },
+            {
+              "label": "Change",
+              "note": "Night Harvester}}"
+            },
+            {
+              "label": "Cooldown",
+              "before": "30",
+              "after": "15 seconds",
+              "note": "Cooldown reduced to 15 seconds from 30."
+            },
+            {
+              "label": "Change",
+              "note": "Radiant Virtue}}"
+            },
+            {
+              "label": "Heal per tick",
+              "before": "6%|hp",
+              "after": "4% maximum health",
+              "note": "Heal per tick reduced to 4% maximum health from 6%|hp."
+            },
+            {
+              "label": "Total heal",
+              "before": "24%|hp",
+              "after": "16% maximum health",
+              "note": "Total heal reduced to 16% maximum health from 24%|hp."
+            },
+            {
+              "label": "Change",
+              "note": "Augments"
+            },
+            {
+              "label": "Change",
+              "note": "Banner of Command"
+            },
+            {
+              "label": "Bonus stats",
+              "before": "15%",
+              "after": "20%",
+              "note": "Bonus stats increased to 20% from 15%."
+            },
+            {
+              "label": "Change",
+              "note": "Blunt Force"
+            },
+            {
+              "label": "Bonus attack damage",
+              "before": "10% AD",
+              "after": "15% AD",
+              "note": "Bonus attack damage increased to 15% AD from 10% AD."
+            },
+            {
+              "label": "Change",
+              "note": "Circle of Death"
+            },
+            {
+              "label": "Damage",
+              "before": "40%",
+              "after": "50% of healing",
+              "note": "Damage increased to 50% of healing from 40%."
+            },
+            {
+              "label": "Change",
+              "note": "Combo Master"
+            },
+            {
+              "label": "Change",
+              "note": "Electrocute}}"
+            },
+            {
+              "label": "Change",
+              "note": "Phase Rush}}"
+            },
+            {
+              "label": "Change",
+              "note": "Eureka"
+            },
+            {
+              "label": "Ability haste",
+              "before": "20% AP",
+              "after": "25% AP",
+              "note": "Ability haste increased to 25% AP from 20% AP."
+            },
+            {
+              "label": "Change",
+              "note": "First-Aid Kit"
+            },
+            {
+              "label": "Heal and shield power",
+              "before": "20%",
+              "after": "25%",
+              "note": "Heal and shield power increased to 25% from 20%."
+            },
+            {
+              "label": "Change",
+              "note": "From Beginning to End"
+            },
+            {
+              "label": "Change",
+              "note": "Dark Harvest}}"
+            },
+            {
+              "label": "Change",
+              "note": "First Strike}}"
+            },
+            {
+              "label": "Change",
+              "note": "OK Boomerang"
+            },
+            {
+              "label": "Base damage",
+              "before": "55–275",
+              "after": "45–225",
+              "note": "Base damage reduced to 45–225 from 55–275."
+            },
+            {
+              "label": "AD ratio",
+              "before": "30%|AD",
+              "after": "25% bonus AD",
+              "note": "AD ratio reduced to 25% bonus AD from 30%|AD."
+            },
+            {
+              "label": "AP ratio",
+              "before": "20% AP",
+              "after": "17% AP",
+              "note": "AP ratio reduced to 17% AP from 20% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Phenomenal Evil"
+            },
+            {
+              "label": "Cooldown",
+              "before": "1",
+              "after": "0.75 seconds",
+              "note": "Cooldown reduced to 0.75 seconds from 1."
+            },
+            {
+              "label": "Cooldown type",
+              "before": "global",
+              "after": "shared per ability",
+              "note": "Cooldown type changed to shared per ability from global."
+            },
+            {
+              "label": "Change",
+              "note": "Restless Restoration"
+            },
+            {
+              "label": "Base heal per 10 units travelled",
+              "before": "0",
+              "after": "0.3–1.5",
+              "note": "Base heal per 10 units travelled reduced to 0.3–1.5 from 0.5–1.5."
+            },
+            {
+              "label": "Change",
+              "note": "Spirit Link"
+            },
+            {
+              "label": "Damage redirection",
+              "before": "40%",
+              "after": "25%",
+              "note": "Damage redirection reduced to 25% from 40%."
+            },
+            {
+              "label": "Healing",
+              "before": "40%",
+              "after": "45% of ally's healing",
+              "note": "Healing increased to 45% of ally's healing from 40%."
+            },
+            {
+              "label": "Change",
+              "note": "Tank It or Leave It"
+            },
+            {
+              "label": "Critical Defend Chance damage reduction",
+              "before": "40%",
+              "after": "30%",
+              "note": "Critical Defend Chance damage reduction reduced to 30% from 40%."
+            },
+            {
+              "label": "Change",
+              "note": "Tormentor"
+            },
+            {
+              "label": "Damage per tick",
+              "before": "0",
+              "after": "1% of target's maximum health",
+              "note": "Damage per tick increased to 1% of target's maximum health from 0.8%|hp."
+            },
+            {
+              "label": "Change",
+              "note": "With Haste"
+            },
+            {
+              "label": "Bonus movement speed",
+              "before": "200%|ability haste",
+              "after": "150% ability haste",
+              "note": "Bonus movement speed reduced to 150% ability haste from 200%|ability haste."
+            },
+            {
+              "label": "Change",
+              "note": "Akali}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Now properly receives the additional 100 energy buff granted to all champions with the energy resource."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-13-16-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V13.16"
+}

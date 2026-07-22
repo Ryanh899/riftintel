@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# RiftIntel
 
-## Getting Started
+**Balance intelligence for League of Legends.**
 
-First, run the development server:
+Free unofficial tool: scan patches, real numbers, champion history, and a
+live-patch damage calculator.
+
+## Brand
+
+| Element | Meaning |
+|---------|---------|
+| **Rift** | The map / the game |
+| **Intel** | Signal, clarity, analysis |
+| **Mark** | Scan node + compass ticks + teal signal blips |
+| **Accent** | Intel blue `#4f8cff` |
+| **Signal** | Teal `#5eead4` |
+
+## Features
+
+| Route | What it does |
+|-------|----------------|
+| `/` | Latest patch — buff/nerf overview, filters, numbers |
+| `/patches` | All patches — full balance history |
+| `/champions` | Per-champion change timelines |
+| `/calculator` | Ability damage (items, ranks, runes, pen) |
+| `/compare` | Diff two patches |
+
+## Local development
 
 ```bash
+cd Documents/patchlens
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```bash
+npm run prod:check   # verify + lint + build
+npm start            # production serve locally
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Keeping patches current
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **GitHub Actions** (every 4h): ingest **new** wiki patches **without** AI → auto-commit.  
+- **Your PC + Ollama**: `npm run update:local:push` fills AI blurbs for anything still pending and pushes.  
 
-## Learn More
+Details: [`docs/AUTO_UPDATE.md`](docs/AUTO_UPDATE.md).
 
-To learn more about Next.js, take a look at the following resources:
+## Cost
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+No paid APIs required. Static data + free CDNs. Optional local Ollama for ingest summaries (never per visitor).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Legal
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Not affiliated with Riot Games. League of Legends and related marks belong to Riot Games, Inc.

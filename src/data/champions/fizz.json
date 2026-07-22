@@ -1,0 +1,899 @@
+{
+  "slug": "fizz",
+  "name": "Fizz",
+  "assetKey": "Fizz",
+  "entries": [
+    {
+      "patchId": "11.1",
+      "version": "11.1",
+      "releaseDate": "2021-01-06",
+      "change": {
+        "id": "fizz",
+        "name": "Fizz",
+        "type": "champion",
+        "assetKey": "Fizz",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 2,
+        "tldr": "Base attack damage reduced to 58 from 58.04.; Base armor reduced to 22 from 22.412.",
+        "gameplayImpact": "Fizz loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base attack damage",
+                "before": "58",
+                "after": "58",
+                "note": "Base attack damage reduced to 58 from 58.04."
+              },
+              {
+                "label": "Base armor",
+                "before": "22",
+                "after": "22",
+                "note": "Base armor reduced to 22 from 22.412."
+              },
+              {
+                "label": "Base magic resistance",
+                "before": "32",
+                "after": "32",
+                "note": "Base magic resistance reduced to 32 from 32.1."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "11.18",
+      "version": "11.18",
+      "releaseDate": "2021-09-09",
+      "change": {
+        "id": "fizz",
+        "name": "Fizz",
+        "type": "champion",
+        "assetKey": "Fizz",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "New Effect: Damage reduction against champion basic attack is increased to 8 (+ 2% AP).; On-hit base damage increased to 20–40 from 10–30.",
+        "gameplayImpact": "Fizz was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Nimble Fighter",
+            "title": "Nimble Fighter",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Damage reduction against champion basic attack is increased to 8 (+ 2% AP)."
+              }
+            ]
+          },
+          {
+            "ability": "Seastone Trident",
+            "title": "Seastone Trident",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "On-hit base damage",
+                "before": "10–30",
+                "after": "20–40",
+                "note": "On-hit base damage increased to 20–40 from 10–30."
+              }
+            ]
+          },
+          {
+            "ability": "Chum the Waters",
+            "title": "Chum the Waters",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Guppy base damage",
+                "before": "150–350 (3 ranks)",
+                "after": "150–300 (3 ranks)",
+                "note": "Guppy base damage reduced to 150–300 (3 ranks) from 150–350 (3 ranks)."
+              },
+              {
+                "label": "Chomper base damage",
+                "before": "225–425 (3 ranks)",
+                "after": "200–350 (3 ranks)",
+                "note": "Chomper base damage reduced to 200–350 (3 ranks) from 225–425 (3 ranks)."
+              },
+              {
+                "label": "Gigalodon base damage",
+                "before": "300–500 (3 ranks)",
+                "after": "250–400 (3 ranks)",
+                "note": "Gigalodon base damage reduced to 250–400 (3 ranks) from 300–500 (3 ranks)."
+              },
+              {
+                "label": "Guppy AP ratio",
+                "before": "80% AP",
+                "after": "70% AP",
+                "note": "Guppy AP ratio reduced to 70% AP from 80% AP."
+              },
+              {
+                "label": "Chomper AP ratio",
+                "before": "100% AP",
+                "after": "85% AP",
+                "note": "Chomper AP ratio reduced to 85% AP from 100% AP."
+              },
+              {
+                "label": "Gigalodon AP ratio",
+                "before": "120% AP",
+                "after": "100% AP",
+                "note": "Gigalodon AP ratio reduced to 100% AP from 120% AP."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "11.19",
+      "version": "11.19",
+      "releaseDate": "2021-09-22",
+      "change": {
+        "id": "fizz",
+        "name": "Fizz",
+        "type": "champion",
+        "assetKey": "Fizz",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Removed: Damage reduction against champion basic attacks is no longer increased to 8 (+ 2% AP).; On-hit base damage reduced to 10–30 from 20–40.",
+        "gameplayImpact": "Fizz was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Nimble Fighter",
+            "title": "Nimble Fighter",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Removed: Damage reduction against champion basic attacks is no longer increased to 8 (+ 2% AP)."
+              }
+            ]
+          },
+          {
+            "ability": "Seastone Trident",
+            "title": "Seastone Trident",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "On-hit base damage",
+                "before": "20–40",
+                "after": "10–30",
+                "note": "On-hit base damage reduced to 10–30 from 20–40."
+              }
+            ]
+          },
+          {
+            "ability": "Playful",
+            "title": "Playful",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Cooldown",
+                "before": "16–10",
+                "after": "16–8 seconds",
+                "note": "Cooldown reduced to 16–8 seconds from 16–10."
+              }
+            ]
+          },
+          {
+            "ability": "Chum the Waters",
+            "title": "Chum the Waters",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Guppy base damage",
+                "before": "150–300 (3 ranks)",
+                "after": "150–350 (3 ranks)",
+                "note": "Guppy base damage increased to 150–350 (3 ranks) from 150–300 (3 ranks)."
+              },
+              {
+                "label": "Chomper base damage",
+                "before": "200–350 (3 ranks)",
+                "after": "225–425 (3 ranks)",
+                "note": "Chomper base damage increased to 225–425 (3 ranks) from 200–350 (3 ranks)."
+              },
+              {
+                "label": "Gigalodon base damage",
+                "before": "250–400 (3 ranks)",
+                "after": "300–500 (3 ranks)",
+                "note": "Gigalodon base damage increased to 300–500 (3 ranks) from 250–400 (3 ranks)."
+              },
+              {
+                "label": "Guppy AP ratio",
+                "before": "70% AP",
+                "after": "80% AP",
+                "note": "Guppy AP ratio increased to 80% AP from 70% AP."
+              },
+              {
+                "label": "Chomper AP ratio",
+                "before": "85% AP",
+                "after": "100% AP",
+                "note": "Chomper AP ratio increased to 100% AP from 85% AP."
+              },
+              {
+                "label": "Gigalodon AP ratio",
+                "before": "100% AP",
+                "after": "120% AP",
+                "note": "Gigalodon AP ratio increased to 120% AP from 100% AP."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "11.23",
+      "version": "11.23",
+      "releaseDate": "2021-11-17",
+      "change": {
+        "id": "fizz",
+        "name": "Fizz",
+        "type": "champion",
+        "assetKey": "Fizz",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 1,
+        "tldr": "Base voice lines have been remastered to sound clearer, cleaner, and smoother.",
+        "gameplayImpact": "Fizz was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "General",
+            "title": null,
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Base voice lines have been remastered to sound clearer, cleaner, and smoother."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "12.10",
+      "version": "12.10",
+      "releaseDate": "2022-05-25",
+      "change": {
+        "id": "fizz",
+        "name": "Fizz",
+        "type": "champion",
+        "assetKey": "Fizz",
+        "roles": [],
+        "direction": "buff",
+        "severity": 2,
+        "tldr": "Base health increased to 640 from 570.; Health growth increased to 112 from 98.",
+        "gameplayImpact": "Fizz is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base health",
+                "before": "570",
+                "after": "640",
+                "note": "Base health increased to 640 from 570."
+              },
+              {
+                "label": "Health growth",
+                "before": "98",
+                "after": "112",
+                "note": "Health growth increased to 112 from 98."
+              },
+              {
+                "label": "Armor growth",
+                "before": "3",
+                "after": "4.6",
+                "note": "Armor growth increased to 4.6 from 3.4."
+              },
+              {
+                "label": "Magic resistance growth",
+                "before": "1",
+                "after": "2.05",
+                "note": "Magic resistance growth increased to 2.05 from 1.25."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "12.11",
+      "version": "12.11",
+      "releaseDate": "2022-06-08",
+      "change": {
+        "id": "fizz",
+        "name": "Fizz",
+        "type": "champion",
+        "assetKey": "Fizz",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 1,
+        "tldr": "Health growth reduced to 106 from 112.; Mana growth increased to 52 from 37.",
+        "gameplayImpact": "Fizz was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Health growth",
+                "before": "112",
+                "after": "106",
+                "note": "Health growth reduced to 106 from 112."
+              },
+              {
+                "label": "Mana growth",
+                "before": "37",
+                "after": "52",
+                "note": "Mana growth increased to 52 from 37."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "12.16",
+      "version": "12.16",
+      "releaseDate": "2022-08-24",
+      "change": {
+        "id": "fizz",
+        "name": "Fizz",
+        "type": "champion",
+        "assetKey": "Fizz",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Updated visual effects.; Complete overhaul.",
+        "gameplayImpact": "Fizz was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "General",
+            "title": null,
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Updated visual effects."
+              },
+              {
+                "label": "Change",
+                "note": "Complete overhaul."
+              },
+              {
+                "label": "Change",
+                "note": ", ,"
+              },
+              {
+                "label": "Change",
+                "note": "Same as new base, but with new effects for Seastone Trident}} and Chum the Waters}}."
+              },
+              {
+                "label": "Change",
+                "note": "Complete overhaul."
+              },
+              {
+                "label": "Change",
+                "note": "Complete overhaul."
+              },
+              {
+                "label": "Change",
+                "note": ", , , ,"
+              },
+              {
+                "label": "Change",
+                "note": "New passive marker for Seastone Trident}}."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "12.19",
+      "version": "12.19",
+      "releaseDate": "2022-10-05",
+      "change": {
+        "id": "fizz",
+        "name": "Fizz",
+        "type": "champion",
+        "assetKey": "Fizz",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "AP ratio increased to 90% AP from 75% AP.",
+        "gameplayImpact": "Fizz is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Playful",
+            "title": "Playful",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "AP ratio",
+                "before": "75% AP",
+                "after": "90% AP",
+                "note": "AP ratio increased to 90% AP from 75% AP."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "13.5",
+      "version": "13.5",
+      "releaseDate": "2023-03-08",
+      "change": {
+        "id": "fizz",
+        "name": "Fizz",
+        "type": "champion",
+        "assetKey": "Fizz",
+        "roles": [],
+        "direction": "buff",
+        "severity": 2,
+        "tldr": "Mana restore increased to 30–70 from 20–52.; Base damage increased to 80–280 from 70–270.",
+        "gameplayImpact": "Fizz is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Seastone Trident",
+            "title": "Seastone Trident",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Mana restore",
+                "before": "20–52",
+                "after": "30–70",
+                "note": "Mana restore increased to 30–70 from 20–52."
+              }
+            ]
+          },
+          {
+            "ability": "Playful",
+            "title": "Playful",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "70–270",
+                "after": "80–280",
+                "note": "Base damage increased to 80–280 from 70–270."
+              },
+              {
+                "label": "Mana cost",
+                "before": "90–110",
+                "after": "75–95",
+                "note": "Mana cost reduced to 75–95 from 90–110."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "14.2",
+      "version": "14.2",
+      "releaseDate": "2024-01-24",
+      "change": {
+        "id": "fizz",
+        "name": "Fizz",
+        "type": "champion",
+        "assetKey": "Fizz",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "AP ratio reduced to 45% AP from 50% AP.; Damage over time AP ratio per tick reduced to 5% AP from 6.67% AP.",
+        "gameplayImpact": "Fizz was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Urchin Strike",
+            "title": "Urchin Strike",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "AP ratio",
+                "before": "50% AP",
+                "after": "45% AP",
+                "note": "AP ratio reduced to 45% AP from 50% AP."
+              }
+            ]
+          },
+          {
+            "ability": "Seastone Trident",
+            "title": "Seastone Trident",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Damage over time AP ratio per tick",
+                "before": "6",
+                "after": "5% AP",
+                "note": "Damage over time AP ratio per tick reduced to 5% AP from 6.67% AP."
+              },
+              {
+                "label": "Total damage over time AP ratio",
+                "before": "40% AP",
+                "after": "30% AP",
+                "note": "Total damage over time AP ratio reduced to 30% AP from 40% AP."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Damage is now applied to structures at 50% damage."
+              },
+              {
+                "label": "Change",
+                "note": "Includes empowered attack, damage over time, and on-hit effects."
+              },
+              {
+                "label": "Change",
+                "note": "Damage over time is not applied to inhibitors."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "14.22",
+      "version": "14.22",
+      "releaseDate": "2024-11-06",
+      "change": {
+        "id": "fizz",
+        "name": "Fizz",
+        "type": "champion",
+        "assetKey": "Fizz",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "AP ratio increased to 55% AP from 45% AP.; Active AP ratio increased to 45% AP from 40% AP.",
+        "gameplayImpact": "Fizz is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Urchin Strike",
+            "title": "Urchin Strike",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "AP ratio",
+                "before": "45% AP",
+                "after": "55% AP",
+                "note": "AP ratio increased to 55% AP from 45% AP."
+              }
+            ]
+          },
+          {
+            "ability": "Seastone Trident",
+            "title": "Seastone Trident",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Active AP ratio",
+                "before": "40% AP",
+                "after": "45% AP",
+                "note": "Active AP ratio increased to 45% AP from 40% AP."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "25.14",
+      "version": "25.14",
+      "releaseDate": "2025-07-16",
+      "change": {
+        "id": "fizz",
+        "name": "Fizz",
+        "type": "champion",
+        "assetKey": "Fizz",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "Cooldown reduced to 7–3 seconds from 7–5.; AP ratio increased to 95% AP from 90% AP.",
+        "gameplayImpact": "Fizz is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Seastone Trident",
+            "title": "Seastone Trident",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Cooldown",
+                "before": "7–5",
+                "after": "7–3 seconds",
+                "note": "Cooldown reduced to 7–3 seconds from 7–5."
+              },
+              {
+                "label": "AP ratio",
+                "before": "90% AP",
+                "after": "95% AP",
+                "note": "AP ratio increased to 95% AP from 90% AP."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "25.20",
+      "version": "25.20",
+      "releaseDate": "2025-10-08",
+      "change": {
+        "id": "fizz",
+        "name": "Fizz",
+        "type": "champion",
+        "assetKey": "Fizz",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Passive base damage over time per tick increased to 30/6 to 90/6 from 20/6 to 60/6.; Total base damage increased to 30–90 from 20–60.",
+        "gameplayImpact": "Fizz was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Seastone Trident",
+            "title": "Seastone Trident",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Passive base damage over time per tick",
+                "before": "20/6 to 60/6",
+                "after": "30/6 to 90/6",
+                "note": "Passive base damage over time per tick increased to 30/6 to 90/6 from 20/6 to 60/6."
+              },
+              {
+                "label": "Total base damage",
+                "before": "20–60",
+                "after": "30–90",
+                "note": "Total base damage increased to 30–90 from 20–60."
+              },
+              {
+                "label": "Passive AP ratio per tick",
+                "before": "30/6% AP",
+                "after": "25/6% AP",
+                "note": "Passive AP ratio per tick reduced to 25/6% AP from 30/6% AP."
+              },
+              {
+                "label": "Total AP ratio",
+                "before": "30% AP",
+                "after": "25% AP",
+                "note": "Total AP ratio reduced to 25% AP from 30% AP."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Passive damage over time no longer applies against structures."
+              },
+              {
+                "label": "Change",
+                "note": "Active damage is still applied, and at 50% effectiveness."
+              },
+              {
+                "label": "Active base damage",
+                "before": "50–130",
+                "after": "50–150",
+                "note": "Active base damage increased to 50–150 from 50–130."
+              },
+              {
+                "label": "Active on-hit base damage",
+                "before": "10–30",
+                "after": "20–40",
+                "note": "Active on-hit base damage increased to 20–40 from 10–30."
+              },
+              {
+                "label": "Active on-hit AP ratio",
+                "before": "35% AP",
+                "after": "30% AP",
+                "note": "Active on-hit AP ratio reduced to 30% AP from 35% AP."
+              },
+              {
+                "label": "Change",
+                "note": "Damage text for the passive (damage-over-time) effect now has a cumulative display."
+              },
+              {
+                "label": "Guppy base damage",
+                "before": "150–350 (3 ranks)",
+                "after": "180–420 (3 ranks)",
+                "note": "Guppy base damage increased to 180–420 (3 ranks) from 150–350 (3 ranks)."
+              },
+              {
+                "label": "Guppy AP ratio",
+                "before": "80% AP",
+                "after": "60% AP",
+                "note": "Guppy AP ratio reduced to 60% AP from 80% AP."
+              },
+              {
+                "label": "Chomper base damage",
+                "before": "225–425 (3 ranks)",
+                "after": "225–525 (3 ranks)",
+                "note": "Chomper base damage increased to 225–525 (3 ranks) from 225–425 (3 ranks)."
+              },
+              {
+                "label": "Chomper AP ratio",
+                "before": "100% AP",
+                "after": "75% AP",
+                "note": "Chomper AP ratio reduced to 75% AP from 100% AP."
+              },
+              {
+                "label": "Gigalodon base damage",
+                "before": "300–500 (3 ranks)",
+                "after": "270–630 (3 ranks)",
+                "note": "Gigalodon base damage changed to 270–630 (3 ranks) from 300–500 (3 ranks)."
+              },
+              {
+                "label": "Gigalodon AP ratio",
+                "before": "120% AP",
+                "after": "90% AP",
+                "note": "Gigalodon AP ratio reduced to 90% AP from 120% AP."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "25.23",
+      "version": "25.23",
+      "releaseDate": "2025-11-19",
+      "change": {
+        "id": "fizz",
+        "name": "Fizz",
+        "type": "champion",
+        "assetKey": "Fizz",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 2,
+        "tldr": "Base armor increased 26 from 22.; New Effect: Damage reduction is now changed to 14 (+ 1% AP) against monsters.",
+        "gameplayImpact": "Fizz was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Base armor increased 26 from 22."
+              }
+            ]
+          },
+          {
+            "ability": "Nimble Fighter",
+            "title": "Nimble Fighter",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Damage reduction is now changed to 14 (+ 1% AP) against monsters."
+              }
+            ]
+          },
+          {
+            "ability": "Seastone Trident",
+            "title": "Seastone Trident",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Active and on-hit damage now deal 60 bonus magic damage to monsters."
+              }
+            ]
+          },
+          {
+            "ability": "Chum the Waters",
+            "title": "Chum the Waters",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Cooldown",
+                "before": "100–70 (3 ranks)",
+                "after": "120–80 (3 ranks) seconds",
+                "note": "Cooldown increased to 120–80 (3 ranks) seconds from 100–70 (3 ranks)."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "26.04",
+      "version": "26.04",
+      "releaseDate": "2026-02-19",
+      "change": {
+        "id": "fizz",
+        "name": "Fizz",
+        "type": "champion",
+        "assetKey": "Fizz",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "Bonus monster damage increased to 90 from 60.",
+        "gameplayImpact": "Fizz is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Seastone Trident",
+            "title": "Seastone Trident",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Bonus monster damage",
+                "before": "60",
+                "after": "90",
+                "note": "Bonus monster damage increased to 90 from 60."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    }
+  ]
+}

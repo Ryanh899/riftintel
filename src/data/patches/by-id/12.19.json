@@ -1,0 +1,1288 @@
+{
+  "id": "12.19",
+  "version": "12.19",
+  "title": "\"Not much for collectin' souls. Just fightin' 'em. How else do you weed out the …",
+  "releaseDate": "2022-10-05",
+  "season": "12",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "\"Not much for collectin' souls. Just fightin' 'em. How else do you weed out the rotten ones?\""
+    },
+    {
+      "title": "Champion balance",
+      "description": "13 champion buffs, 2 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "\"Not much for collectin' souls. Just fightin' 'em. How else do you weed out the rotten ones?\" Structured changes across 22 entities this patch.",
+  "champions": [
+    {
+      "id": "blitzcrank",
+      "name": "Blitzcrank",
+      "type": "champion",
+      "assetKey": "Blitzcrank",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Base attack speed increased to 0.65 from 0.625.; Attack speed ratio increased to 0.7 from 0.625.",
+      "gameplayImpact": "Blitzcrank was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base attack speed",
+              "before": "0",
+              "after": "0.65",
+              "note": "Base attack speed increased to 0.65 from 0.625."
+            },
+            {
+              "label": "Attack speed ratio",
+              "before": "0",
+              "after": "0.7",
+              "note": "Attack speed ratio increased to 0.7 from 0.625."
+            }
+          ]
+        },
+        {
+          "ability": "Overdrive",
+          "title": "Overdrive",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Bonus attack speed",
+              "before": "30–62%",
+              "after": "40–92%",
+              "note": "Bonus attack speed increased to 40–92% from 30–62%."
+            },
+            {
+              "label": "Mana cost",
+              "before": "75",
+              "after": "85",
+              "note": "Mana cost increased to 85 from 75."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Basic attacks now deal 1% of the target's maximum health bonus magic damage on-hit while active, increased by 60–180 against minions and monsters."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: The movement speed boost's decay is now linear instead of decaying by 20% of the current value every update tick (exponential). The boost no longer decays on the first update tick after the buff is gained."
+            }
+          ]
+        },
+        {
+          "ability": "Power Fist",
+          "title": "Power Fist",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Knock up duration",
+              "before": "0",
+              "after": "1 second",
+              "note": "Knock up duration increased to 1 second from 0.9."
+            },
+            {
+              "label": "Mana cost",
+              "before": "25",
+              "after": "40",
+              "note": "Mana cost increased to 40 from 25."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Damage now scales with 25% AP."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Now deals an additional 150% AD (+ 125% AP) bonus physical damage against minions and monsters."
+            },
+            {
+              "label": "Change",
+              "note": "Undocumented / New Effect: Critical strikes now increase the bonus damage as well."
+            }
+          ]
+        },
+        {
+          "ability": "Static Field",
+          "title": "Static Field",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Removed: Passive is no longer capped at 3 stacks per target."
+            },
+            {
+              "label": "Passive damage AP ratio",
+              "before": "30% AP at all ranks",
+              "after": "30–50 (3 ranks)% AP",
+              "note": "Passive damage AP ratio increased to 30–50 (3 ranks)% AP from 30% AP at all ranks."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "ekko",
+      "name": "Ekko",
+      "type": "champion",
+      "assetKey": "Ekko",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "AP ratio increased to 90% AP from 80% AP.; Base damage increased to 200–500 (3 ranks) from 150–450 (3 ranks).",
+      "gameplayImpact": "Ekko is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Z-Drive Resonance",
+          "title": "Z-Drive Resonance",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "80% AP",
+              "after": "90% AP",
+              "note": "AP ratio increased to 90% AP from 80% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Chronobreak",
+          "title": "Chronobreak",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "150–450 (3 ranks)",
+              "after": "200–500 (3 ranks)",
+              "note": "Base damage increased to 200–500 (3 ranks) from 150–450 (3 ranks)."
+            },
+            {
+              "label": "Damage AP ratio",
+              "before": "150% AP",
+              "after": "175% AP",
+              "note": "Damage AP ratio increased to 175% AP from 150% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "fizz",
+      "name": "Fizz",
+      "type": "champion",
+      "assetKey": "Fizz",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "AP ratio increased to 90% AP from 75% AP.",
+      "gameplayImpact": "Fizz is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Playful",
+          "title": "Playful",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "75% AP",
+              "after": "90% AP",
+              "note": "AP ratio increased to 90% AP from 75% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "garen",
+      "name": "Garen",
+      "type": "champion",
+      "assetKey": "Garen",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Critical strike damage increased to 175% from 158%.",
+      "gameplayImpact": "Garen is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Judgment",
+          "title": "Judgment",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Critical strike damage",
+              "before": "158%",
+              "after": "175%",
+              "note": "Critical strike damage increased to 175% from 158%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "janna",
+      "name": "Janna",
+      "type": "champion",
+      "assetKey": "Janna",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Updated visual effects; Complete overhaul.",
+      "gameplayImpact": "Janna was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Updated visual effects"
+            },
+            {
+              "label": "Change",
+              "note": "Complete overhaul."
+            },
+            {
+              "label": "Change",
+              "note": "Same as new base."
+            },
+            {
+              "label": "Change",
+              "note": "Complete overhaul."
+            },
+            {
+              "label": "Change",
+              "note": "Complete overhaul."
+            },
+            {
+              "label": "Change",
+              "note": "Complete overhaul."
+            },
+            {
+              "label": "Change",
+              "note": "Complete overhaul."
+            },
+            {
+              "label": "Change",
+              "note": "Same as new base, but with new effects for Zephyr}}."
+            },
+            {
+              "label": "Change",
+              "note": ", , , , , , ,"
+            },
+            {
+              "label": "Change",
+              "note": "New impact effect for Howling Gale}} and healing effect for Monsoon}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "jinx",
+      "name": "Jinx",
+      "type": "champion",
+      "assetKey": "Jinx",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Base attack damage increased to 59 from 57.; Maximum base damage increased to 300–600 (3 ranks) from 250–500 (3 ranks).",
+      "gameplayImpact": "Jinx is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base attack damage",
+              "before": "57",
+              "after": "59",
+              "note": "Base attack damage increased to 59 from 57."
+            }
+          ]
+        },
+        {
+          "ability": "Super Mega Death Rocket!",
+          "title": "Super Mega Death Rocket!",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Maximum base damage",
+              "before": "250–500 (3 ranks)",
+              "after": "300–600 (3 ranks)",
+              "note": "Maximum base damage increased to 300–600 (3 ranks) from 250–500 (3 ranks)."
+            },
+            {
+              "label": "Minimum base damage",
+              "before": "25–50 (3 ranks)",
+              "after": "30–60 (3 ranks)",
+              "note": "Minimum base damage increased to 30–60 (3 ranks) from 25–50 (3 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "kaisa",
+      "name": "Kai'Sa",
+      "type": "champion",
+      "assetKey": "Kaisa",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Detonation AP ratio increased to 6% per 100 AP from 5% per 100 AP.",
+      "gameplayImpact": "Kai'Sa is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Second Skin",
+          "title": "Second Skin",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Detonation AP ratio",
+              "before": "5% per 100 AP",
+              "after": "6% per 100 AP",
+              "note": "Detonation AP ratio increased to 6% per 100 AP from 5% per 100 AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "malphite",
+      "name": "Malphite",
+      "type": "champion",
+      "assetKey": "Malphite",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Cleave AP ratio increased to 30% AP from 20% AP.; AP ratio increased to 90% AP from 80% AP.",
+      "gameplayImpact": "Malphite is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Thunderclap",
+          "title": "Thunderclap",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cleave AP ratio",
+              "before": "20% AP",
+              "after": "30% AP",
+              "note": "Cleave AP ratio increased to 30% AP from 20% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Unstoppable Force",
+          "title": "Unstoppable Force",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "80% AP",
+              "after": "90% AP",
+              "note": "AP ratio increased to 90% AP from 80% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "master-yi",
+      "name": "Master Yi",
+      "type": "champion",
+      "assetKey": "MasterYi",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Attack damage growth reduced to 2.2 from 2.5.; Bonus AD ratio reduced to 30% bonus AD from 35%|AD.",
+      "gameplayImpact": "Master Yi loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Attack damage growth",
+              "before": "2",
+              "after": "2.2",
+              "note": "Attack damage growth reduced to 2.2 from 2.5."
+            }
+          ]
+        },
+        {
+          "ability": "Wuju Style",
+          "title": "Wuju Style",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Bonus AD ratio",
+              "before": "35%|AD",
+              "after": "30% bonus AD",
+              "note": "Bonus AD ratio reduced to 30% bonus AD from 35%|AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "nasus",
+      "name": "Nasus",
+      "type": "champion",
+      "assetKey": "Nasus",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Bonus attack range increased to 50 units from 25.; Cripple increased to 75% of slow from 50%.",
+      "gameplayImpact": "Nasus was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Siphoning Strike",
+          "title": "Siphoning Strike",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus attack range",
+              "before": "25",
+              "after": "50 units",
+              "note": "Bonus attack range increased to 50 units from 25."
+            }
+          ]
+        },
+        {
+          "ability": "Wither",
+          "title": "Wither",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cripple",
+              "before": "50%",
+              "after": "75% of slow",
+              "note": "Cripple increased to 75% of slow from 50%."
+            },
+            {
+              "label": "Base cripple",
+              "before": "17",
+              "after": "26.25%",
+              "note": "Base cripple increased to 26.25% from 17.5%."
+            },
+            {
+              "label": "Additional cripple per second",
+              "before": "1",
+              "after": "2.25–11.25%",
+              "note": "Additional cripple per second increased to 2.25–11.25% from 1.5–7.5%."
+            },
+            {
+              "label": "Maximum cripple",
+              "before": "(35+3*4)*0",
+              "after": "(35+3*4)*0.75 to (35+15*4)*0.75%",
+              "note": "Maximum cripple increased to (35+3*4)*0.75 to (35+15*4)*0.75% from (35+3*4)*0.5 to (35+15*4)*0.5%."
+            }
+          ]
+        },
+        {
+          "ability": "Fury of the Sands",
+          "title": "Fury of the Sands",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Bonus size",
+              "before": "30% at all ranks",
+              "after": "30–40 (3 ranks)%",
+              "note": "Bonus size increased to 30–40 (3 ranks)% from 30% at all ranks."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Damage radius now scales with bonus size."
+            },
+            {
+              "label": "Change",
+              "note": "Minimum radius of cr 400 units, which cannot be reduced below this amount. Scales with 0.8 bonus range per 1% bonus size beyond Nasus base radius of 80 units."
+            },
+            {
+              "label": "Damage tick interval",
+              "before": "1 second per tick",
+              "after": "0.5 seconds per tick",
+              "note": "Damage tick interval reduced to 0.5 seconds per tick from 1 second per tick."
+            },
+            {
+              "label": "Change",
+              "note": "Total damage unchanged."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Damage now displays as the stacking display type."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "nunu",
+      "name": "Nunu",
+      "type": "champion",
+      "assetKey": "Nunu",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Maximum AP ratio increased to 300% AP from 250% AP.",
+      "gameplayImpact": "Nunu is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Absolute Zero",
+          "title": "Absolute Zero",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Maximum AP ratio",
+              "before": "250% AP",
+              "after": "300% AP",
+              "note": "Maximum AP ratio increased to 300% AP from 250% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "rakan",
+      "name": "Rakan",
+      "type": "champion",
+      "assetKey": "Rakan",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Shield AP ratio increased to 95% AP from 85% AP.; AP ratio increased to 70% AP from 60% AP.",
+      "gameplayImpact": "Rakan is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Fey Feathers",
+          "title": "Fey Feathers",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Shield AP ratio",
+              "before": "85% AP",
+              "after": "95% AP",
+              "note": "Shield AP ratio increased to 95% AP from 85% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Gleaming Quill",
+          "title": "Gleaming Quill",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "60% AP",
+              "after": "70% AP",
+              "note": "AP ratio increased to 70% AP from 60% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "reksai",
+      "name": "Rek'Sai",
+      "type": "champion",
+      "assetKey": "RekSai",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base attack damage reduced to 61 from 64.",
+      "gameplayImpact": "Rek'Sai loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base attack damage",
+              "before": "64",
+              "after": "61",
+              "note": "Base attack damage reduced to 61 from 64."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "ryze",
+      "name": "Ryze",
+      "type": "champion",
+      "assetKey": "Ryze",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "AP ratio increased to 55% AP from 50% AP.; AP ratio increased to 70% AP from 60% AP.",
+      "gameplayImpact": "Ryze is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Overload",
+          "title": "Overload",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "50% AP",
+              "after": "55% AP",
+              "note": "AP ratio increased to 55% AP from 50% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Rune Prison",
+          "title": "Rune Prison",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "60% AP",
+              "after": "70% AP",
+              "note": "AP ratio increased to 70% AP from 60% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "shyvana",
+      "name": "Shyvana",
+      "type": "champion",
+      "assetKey": "Shyvana",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Bonus AD ratio per tick increased to 15% bonus AD from 10%|AD.; On-hit bonus AD ratio increased to 7.5% bonus AD from 5%|AD.",
+      "gameplayImpact": "Shyvana was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Burnout",
+          "title": "Burnout",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus AD ratio per tick",
+              "before": "10%|AD",
+              "after": "15% bonus AD",
+              "note": "Bonus AD ratio per tick increased to 15% bonus AD from 10%|AD."
+            },
+            {
+              "label": "On-hit bonus AD ratio",
+              "before": "5%|AD",
+              "after": "7.5% bonus AD",
+              "note": "On-hit bonus AD ratio increased to 7.5% bonus AD from 5%|AD."
+            }
+          ]
+        },
+        {
+          "ability": "Flame Breath",
+          "title": "Flame Breath",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Fireball AP ratio",
+              "before": "70% AP",
+              "after": "90% AP",
+              "note": "Fireball AP ratio increased to 90% AP from 70% AP."
+            },
+            {
+              "label": "Fireball AD ratio",
+              "before": "30% AD",
+              "after": "40% AD",
+              "note": "Fireball AD ratio increased to 40% AD from 30% AD."
+            },
+            {
+              "label": "On-hit health ratio",
+              "before": "3",
+              "after": "3.5% of target's maximum health",
+              "note": "On-hit health ratio reduced to 3.5% of target's maximum health from 3.75%|health."
+            },
+            {
+              "label": "Explosion base damage",
+              "before": "100–160",
+              "after": "75–135",
+              "note": "Explosion base damage reduced to 75–135 from 100–160."
+            }
+          ]
+        },
+        {
+          "ability": "Dragon's Descent",
+          "title": "Dragon's Descent",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "100% AP",
+              "after": "130% AP",
+              "note": "AP ratio increased to 130% AP from 100% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "sona",
+      "name": "Sona",
+      "type": "champion",
+      "assetKey": "Sona",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base damage increased to 50–170 from 40–160.; Base slow increased to 50% from 40%.",
+      "gameplayImpact": "Sona is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Hymn of Valor",
+          "title": "Hymn of Valor",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "40–160",
+              "after": "50–170",
+              "note": "Base damage increased to 50–170 from 40–160."
+            }
+          ]
+        },
+        {
+          "ability": "Song of Celerity",
+          "title": "Song of Celerity",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base slow",
+              "before": "40%",
+              "after": "50%",
+              "note": "Base slow increased to 50% from 40%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "syndra",
+      "name": "Syndra",
+      "type": "champion",
+      "assetKey": "Syndra",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Updated ability icons.; Base health reduced to 563 from 593.",
+      "gameplayImpact": "Syndra was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Updated ability icons."
+            }
+          ]
+        },
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base health",
+              "before": "593",
+              "after": "563",
+              "note": "Base health reduced to 563 from 593."
+            }
+          ]
+        },
+        {
+          "ability": "Transcendent",
+          "title": "Transcendent",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Innate: Syndra collects up to 120 Splinters of Wrath, enhancing each of her abilities based on the number collected and updating their ability icons. She restores 20–215 (lv 1–18) mana whenever she collects a Splinter of Wrath from an enemy. Splinters of Wrath are brought to Syndra from enemies over 0.6 seconds. At 120 Splinters, Syndra achieves Transcendence, increasing her ability power by 15%."
+            },
+            {
+              "label": "Change",
+              "note": "Dealing two instances of ability damage to an enemy champion within 4 seconds grants 1–3 Splinters. This cannot occur on the same target more than once every 8 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Ranking up an ability with skill points beyond the first grants 5 Splinters."
+            },
+            {
+              "label": "Change",
+              "note": "Killing a large minion grants 1 Splinter."
+            }
+          ]
+        },
+        {
+          "ability": "Dark Sphere",
+          "title": "Dark Sphere",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "4",
+              "after": "7 seconds",
+              "note": "Cooldown increased to 7 seconds from 4."
+            },
+            {
+              "label": "AP ratio",
+              "before": "65% AP",
+              "after": "70% AP",
+              "note": "AP ratio increased to 70% AP from 65% AP."
+            },
+            {
+              "label": "Mana cost",
+              "before": "40–80",
+              "after": "40–60",
+              "note": "Mana cost reduced to 40–60 from 40–80."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Collecting 40 Splinters of Wrath now stores 2 charges of the ability, with a 1.25-second static cooldown between casts."
+            }
+          ]
+        },
+        {
+          "ability": "Force of Will",
+          "title": "Force of Will",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Grab range",
+              "before": "400",
+              "after": "500 units",
+              "note": "Grab range increased to 500 units from 400."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Now prevents non-sphere targets from dying when picking them up."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Collecting 60 Splinters of Wrath now causes it to deal 15%|true damage (+ 1.5% per 100 AP) bonus true damage."
+            }
+          ]
+        },
+        {
+          "ability": "Scatter the Weak",
+          "title": "Scatter the Weak",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Removed: Dark Sphere|Dark Spheres}} spawned after casting are no longer scattered."
+            },
+            {
+              "label": "Dark Sphere}} collision radius",
+              "before": "100",
+              "after": "70 units",
+              "note": "Dark Sphere}} collision radius reduced to 70 units from 100."
+            },
+            {
+              "label": "Base damage",
+              "before": "85–265",
+              "after": "75–235",
+              "note": "Base damage reduced to 75–235 from 85–265."
+            },
+            {
+              "label": "AP ratio",
+              "before": "60% AP",
+              "after": "55% AP",
+              "note": "AP ratio reduced to 55% AP from 60% AP."
+            },
+            {
+              "label": "Scatter angle",
+              "before": "34",
+              "after": "56",
+              "note": "Scatter angle increased to 56 from 34."
+            },
+            {
+              "label": "Cooldown",
+              "before": "18–14",
+              "after": "15 seconds at all ranks",
+              "note": "Cooldown changed to 15 seconds at all ranks from 18–14."
+            },
+            {
+              "label": "Stun duration",
+              "before": "1",
+              "after": "1.25 seconds",
+              "note": "Stun duration reduced to 1.25 seconds from 1.5."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Collecting 80 Splinters of Wrath increases the scatter angle to 84 and slow enemies by 70% for 1.25 seconds after the initial airborne and stun."
+            },
+            {
+              "label": "Change",
+              "note": "Dark Sphere|Dark Spheres}} spawned at close range of the ability are now more likely to be hit."
+            }
+          ]
+        },
+        {
+          "ability": "Unleashed Power",
+          "title": "Unleashed Power",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Now passively grants Dark Sphere}} 10–30 (3 ranks) ability haste, stacking additively with other sources."
+            },
+            {
+              "label": "Base damage per sphere",
+              "before": "90–190 (3 ranks)",
+              "after": "90–170 (3 ranks)",
+              "note": "Base damage per sphere reduced to 90–170 (3 ranks) from 90–190 (3 ranks)."
+            },
+            {
+              "label": "Minimum damage",
+              "before": "270–570 (3 ranks)",
+              "after": "270–510 (3 ranks)",
+              "note": "Minimum damage reduced to 270–510 (3 ranks) from 270–570 (3 ranks)."
+            },
+            {
+              "label": "Maximum damage",
+              "before": "630–1330 (3 ranks)",
+              "after": "630–1190 (3 ranks)",
+              "note": "Maximum damage reduced to 630–1190 (3 ranks) from 630–1330 (3 ranks)."
+            },
+            {
+              "label": "AP ratio per sphere",
+              "before": "20% AP",
+              "after": "17% AP",
+              "note": "AP ratio per sphere reduced to 17% AP from 20% AP."
+            },
+            {
+              "label": "Minimum AP ratio",
+              "before": "60% AP",
+              "after": "51% AP",
+              "note": "Minimum AP ratio reduced to 51% AP from 60% AP."
+            },
+            {
+              "label": "Maximum AP ratio",
+              "before": "140% AP",
+              "after": "119% AP",
+              "note": "Maximum AP ratio reduced to 119% AP from 140% AP."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Collecting 100 Splinters of Wrath now causes it to execute enemies below 15% health."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "tahm-kench",
+      "name": "Tahm Kench",
+      "type": "champion",
+      "assetKey": "TahmKench",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "AP ratio increased to 90% AP from 70% AP.; AP ratio increased to 125% AP from 100% AP.",
+      "gameplayImpact": "Tahm Kench is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Tongue Lash",
+          "title": "Tongue Lash",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "70% AP",
+              "after": "90% AP",
+              "note": "AP ratio increased to 90% AP from 70% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Abyssal Dive",
+          "title": "Abyssal Dive",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "100% AP",
+              "after": "125% AP",
+              "note": "AP ratio increased to 125% AP from 100% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "twitch",
+      "name": "Twitch",
+      "type": "champion",
+      "assetKey": "Twitch",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "AP ratio per tick per stack increased to 3% AP from 2.5% AP.; Maximum AP ratio per tick increased to 18% AP from 15% AP.",
+      "gameplayImpact": "Twitch is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Deadly Venom",
+          "title": "Deadly Venom",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AP ratio per tick per stack",
+              "before": "2",
+              "after": "3% AP",
+              "note": "AP ratio per tick per stack increased to 3% AP from 2.5% AP."
+            },
+            {
+              "label": "Maximum AP ratio per tick",
+              "before": "15% AP",
+              "after": "18% AP",
+              "note": "Maximum AP ratio per tick increased to 18% AP from 15% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Contaminate",
+          "title": "Contaminate",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AP ratio per stack",
+              "before": "33% AP",
+              "after": "35% AP",
+              "note": "AP ratio per stack increased to 35% AP from 33% AP."
+            },
+            {
+              "label": "Maximum AP ratio",
+              "before": "198% AP",
+              "after": "210% AP",
+              "note": "Maximum AP ratio increased to 210% AP from 198% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "udyr",
+      "name": "Udyr",
+      "type": "champion",
+      "assetKey": "Udyr",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "New Effect: Awakened cast lightning strikes now each deal a minimum of 40–160 against minions.; On-hit heal against minions increased to 60% from 50%.",
+      "gameplayImpact": "Udyr is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Wilding Claw",
+          "title": "Wilding Claw",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Awakened cast lightning strikes now each deal a minimum of 40–160 against minions."
+            }
+          ]
+        },
+        {
+          "ability": "Iron Mantle",
+          "title": "Iron Mantle",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "On-hit heal against minions",
+              "before": "50%",
+              "after": "60%",
+              "note": "On-hit heal against minions increased to 60% from 50%."
+            }
+          ]
+        },
+        {
+          "ability": "Wingborne Storm",
+          "title": "Wingborne Storm",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Damage against minions",
+              "before": "40–85% (lv 1–16)",
+              "after": "50–80% (lv 1–16)",
+              "note": "Damage against minions changed to 50–80% (lv 1–16) from 40–85% (lv 1–16)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "eclipse",
+      "name": "Eclipse",
+      "type": "item",
+      "assetKey": "6692",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Attack damage increased to 60 from 55.; Lethality reduced to 12 from 18.",
+      "gameplayImpact": "Eclipse was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Attack damage",
+              "before": "55",
+              "after": "60",
+              "note": "Attack damage increased to 60 from 55."
+            },
+            {
+              "label": "Lethality",
+              "before": "18",
+              "after": "12",
+              "note": "Lethality reduced to 12 from 18."
+            },
+            {
+              "label": "Syzygy}} attack damage",
+              "before": "75",
+              "after": "80",
+              "note": "Syzygy}} attack damage increased to 80 from 75."
+            },
+            {
+              "label": "Syzygy}} lethality",
+              "before": "26",
+              "after": "20",
+              "note": "Syzygy}} lethality reduced to 20 from 26."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "the-collector",
+      "name": "The Collector",
+      "type": "item",
+      "assetKey": "667666",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Execute damage is now displayed as 4444 instead of 999 if the user is Jhin}}.",
+      "gameplayImpact": "The Collector was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Execute damage is now displayed as 4444 instead of 999 if the user is Jhin}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    }
+  ],
+  "systems": [],
+  "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-12-19-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V12.19"
+}

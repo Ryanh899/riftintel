@@ -1,0 +1,1275 @@
+{
+  "id": "26.08",
+  "version": "26.08",
+  "title": "All your sci-fi skins are belong to us.",
+  "releaseDate": "2026-04-15",
+  "season": "26",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "All your sci-fi skins are belong to us."
+    },
+    {
+      "title": "Champion balance",
+      "description": "3 champion buffs, 4 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "All your sci-fi skins are belong to us. Structured changes across 25 entities this patch.",
+  "champions": [
+    {
+      "id": "dr-mundo",
+      "name": "Dr. Mundo",
+      "type": "champion",
+      "assetKey": "DrMundo",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Monster damage cap reduced to 250–550 from 300–600.; Monster damage reduced to 140% from 200%.",
+      "gameplayImpact": "Dr. Mundo loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Infected Bonesaw",
+          "title": "Infected Bonesaw",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Monster damage cap",
+              "before": "300–600",
+              "after": "250–550",
+              "note": "Monster damage cap reduced to 250–550 from 300–600."
+            }
+          ]
+        },
+        {
+          "ability": "Blunt Force Trauma",
+          "title": "Blunt Force Trauma",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Monster damage",
+              "before": "200%",
+              "after": "140%",
+              "note": "Monster damage reduced to 140% from 200%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "elise",
+      "name": "Elise",
+      "type": "champion",
+      "assetKey": "Elise",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Some abilities rescripted.[https://www.youtube.com/watch?v=QdGjAWKHQ98]",
+      "gameplayImpact": "Elise was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Some abilities rescripted.[https://www.youtube.com/watch?v=QdGjAWKHQ98]"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "hwei",
+      "name": "Hwei",
+      "type": "champion",
+      "assetKey": "Hwei",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Base damage increased to 40–285 from 35–230.; New Effect: Slows now stack with and slows at diminishing value.",
+      "gameplayImpact": "Hwei was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Signature of the Visionary",
+          "title": "Signature of the Visionary",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "35–230",
+              "after": "40–285",
+              "note": "Base damage increased to 40–285 from 35–230."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Slows now stack with and slows at diminishing value."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Slows no longer ignore slow resist."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: Slows no longer stack with other slows sourced from allies, items, etc."
+            },
+            {
+              "label": "Change",
+              "note": "Previously, and slows would stack with each other aswell as with every other slow in the game, this change causes all slows sourced from Hwei's abilities stack with each other but prevents them from stacking with slows from any other source. This should have minor buff for EQ + R/QE slow, but a minor nerf to how hwei interacts with ally's slows[https://www.reddit.com/r/leagueoflegends/comments/1s948mv/comment/odnp5nw Reddit: Riot Beluga on Hwei changes]"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "karma",
+      "name": "Karma",
+      "type": "champion",
+      "assetKey": "Karma",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Base attack damage reduced to 49 from 51.; Attack damage growth reduced to 3 from 3.3.",
+      "gameplayImpact": "Karma loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base attack damage",
+              "before": "51",
+              "after": "49",
+              "note": "Base attack damage reduced to 49 from 51."
+            },
+            {
+              "label": "Attack damage growth",
+              "before": "3",
+              "after": "3",
+              "note": "Attack damage growth reduced to 3 from 3.3."
+            }
+          ]
+        },
+        {
+          "ability": "Inspire",
+          "title": "Inspire",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Mana cost",
+              "before": "50–70",
+              "after": "60–80",
+              "note": "Mana cost increased to 60–80 from 50–70."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "lillia",
+      "name": "Lillia",
+      "type": "champion",
+      "assetKey": "Lillia",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Total monster damage cap increased to 70–180 from 65 at all levels.",
+      "gameplayImpact": "Lillia is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Total monster damage cap",
+              "before": "65 at all levels",
+              "after": "70–180",
+              "note": "Total monster damage cap increased to 70–180 from 65 at all levels."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "lucian",
+      "name": "Lucian",
+      "type": "champion",
+      "assetKey": "Lucian",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Cooldown reduced to 16–14 seconds from 18–14.; Mana cost reduced to 32–0 from 40–0.",
+      "gameplayImpact": "Lucian is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Relentless Pursuit",
+          "title": "Relentless Pursuit",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "18–14",
+              "after": "16–14 seconds",
+              "note": "Cooldown reduced to 16–14 seconds from 18–14."
+            },
+            {
+              "label": "Mana cost",
+              "before": "40–0",
+              "after": "32–0",
+              "note": "Mana cost reduced to 32–0 from 40–0."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "mel",
+      "name": "Mel",
+      "type": "champion",
+      "assetKey": "Mel",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "First explosion base damage reduced to 60–160 from 60–180.; First explosion AP ratio reduced to 55% AP from 60% AP.",
+      "gameplayImpact": "Mel loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Radiant Volley",
+          "title": "Radiant Volley",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "First explosion base damage",
+              "before": "60–180",
+              "after": "60–160",
+              "note": "First explosion base damage reduced to 60–160 from 60–180."
+            },
+            {
+              "label": "First explosion AP ratio",
+              "before": "60% AP",
+              "after": "55% AP",
+              "note": "First explosion AP ratio reduced to 55% AP from 60% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Rebuttal",
+          "title": "Rebuttal",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Movement speed duration",
+              "before": "1",
+              "after": "0.75 seconds",
+              "note": "Movement speed duration reduced to 0.75 seconds from 1.5."
+            },
+            {
+              "label": "Cooldown",
+              "before": "35–23",
+              "after": "38–26 seconds",
+              "note": "Cooldown increased to 38–26 seconds from 35–23."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "tahm-kench",
+      "name": "Tahm Kench",
+      "type": "champion",
+      "assetKey": "TahmKench",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Base damage changed to 5–60 from 6–48.; Bonus health ratio reduced to 4% of Tahm Kench's bonus health from 4.5%|hp",
+      "gameplayImpact": "Tahm Kench loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "An Acquired Taste",
+          "title": "An Acquired Taste",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "6–48",
+              "after": "5–60",
+              "note": "Base damage changed to 5–60 from 6–48."
+            },
+            {
+              "label": "Bonus health ratio",
+              "before": "4",
+              "after": "4% of Tahm Kench's bonus health",
+              "note": "Bonus health ratio reduced to 4% of Tahm Kench's bonus health from 4.5%|hp"
+            },
+            {
+              "label": "AP ratio",
+              "before": "1",
+              "after": "1.25% AP per 100 bonus health",
+              "note": "AP ratio reduced to 1.25% AP per 100 bonus health from 1.5%| AP"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "yuumi",
+      "name": "Yuumi",
+      "type": "champion",
+      "assetKey": "Yuumi",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Base heal per hit increased to 30–70 (3 ranks) from 30–50 (3 ranks).; Heal AP ratio increased to 12% AP from 10% AP.",
+      "gameplayImpact": "Yuumi is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "You and Me!",
+          "title": "You and Me!",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Fixed a bug where she fails to be healed or gain the Homeguard buff upon entering the fountain while attached to an ally champion."
+            }
+          ]
+        },
+        {
+          "ability": "Final Chapter",
+          "title": "Final Chapter",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base heal per hit",
+              "before": "30–50 (3 ranks)",
+              "after": "30–70 (3 ranks)",
+              "note": "Base heal per hit increased to 30–70 (3 ranks) from 30–50 (3 ranks)."
+            },
+            {
+              "label": "Heal AP ratio",
+              "before": "10% AP",
+              "after": "12% AP",
+              "note": "Heal AP ratio increased to 12% AP from 10% AP."
+            },
+            {
+              "label": "Feline Friendship|Best Friend}} bonus heal",
+              "before": "30% at all levels",
+              "after": "30–60% (6–12)",
+              "note": "Feline Friendship|Best Friend}} bonus heal increased to 30–60% (6–12) from 30% at all levels."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: No longer heals the anchor for each time another ally is healed."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Overhealing shield now takes into account Heal/Shield power as well as Grievous Wounds."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "zyra",
+      "name": "Zyra",
+      "type": "champion",
+      "assetKey": "Zyra",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "New Effect: Can no longer be learnt at level 1.",
+      "gameplayImpact": "Zyra was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Rampant Growth",
+          "title": "Rampant Growth",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Can no longer be learnt at level 1."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    }
+  ],
+  "items": [],
+  "systems": [
+    {
+      "id": "aram",
+      "name": "ARAM",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Mel}}; Rebuttal}}",
+      "gameplayImpact": "ARAM was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Mel}}"
+            },
+            {
+              "label": "Change",
+              "note": "Rebuttal}}"
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown changed to 45–41 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Locket of the Iron Solari}}"
+            },
+            {
+              "label": "Change",
+              "note": "Devotion cooldown changed to 75 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Protoplasm Harness}}"
+            },
+            {
+              "label": "Change",
+              "note": "Lifeline cooldown changed to 75 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Randuin's Omen}}"
+            },
+            {
+              "label": "Change",
+              "note": "Humility cooldown changed to 60 seconds."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "mode",
+      "name": "Mode",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Mel}}; Rebuttal}}",
+      "gameplayImpact": "Mode was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Mel}}"
+            },
+            {
+              "label": "Change",
+              "note": "Rebuttal}}"
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown changed to 45–41 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Locket of the Iron Solari}}"
+            },
+            {
+              "label": "Change",
+              "note": "Devotion cooldown changed to 75 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Protoplasm Harness}}"
+            },
+            {
+              "label": "Change",
+              "note": "Lifeline cooldown changed to 75 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Randuin's Omen}}"
+            },
+            {
+              "label": "Change",
+              "note": "Humility cooldown changed to 60 seconds."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "arena",
+      "name": "Arena",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "buff",
+      "severity": 3,
+      "tldr": "Tactical Sweep}}; Outer cone bonus AD ratio changed to 3% per 100 bonus AD from 2.5%|AD.",
+      "gameplayImpact": "Arena is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Tactical Sweep}}"
+            },
+            {
+              "label": "Outer cone bonus AD ratio",
+              "before": "2",
+              "after": "3% per 100 bonus AD",
+              "note": "Outer cone bonus AD ratio changed to 3% per 100 bonus AD from 2.5%|AD."
+            },
+            {
+              "label": "Change",
+              "note": "Hookshot}}"
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown changed to 14–10 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Demacian Standard}}"
+            },
+            {
+              "label": "AP ratio",
+              "before": "100% AP",
+              "after": "140% AP",
+              "note": "AP ratio increased to 140% AP from 100% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Chaaaaaaaarge!!!}}"
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown changed to 60–30 (3 ranks) seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Piercing Darkness}}"
+            },
+            {
+              "label": "Change",
+              "note": "Heal AP ratio changed to 80% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Slow AP ratio changed to 15% per 100 AP."
+            },
+            {
+              "label": "Change",
+              "note": "Curse of the Black Mist}}"
+            },
+            {
+              "label": "Change",
+              "note": "Movement speed AP ratio changed to 7% per 100 AP."
+            },
+            {
+              "label": "Change",
+              "note": "Dawning Shadow}}"
+            },
+            {
+              "label": "Change",
+              "note": "Shield AP ratio changed to 70% AP."
+            },
+            {
+              "label": "Change",
+              "note": "High Note}}"
+            },
+            {
+              "label": "Change",
+              "note": "AP ratio changed to 65% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Encore}}"
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown changed to 100–60 (3 ranks) seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Soul Furnace}}"
+            },
+            {
+              "label": "Change",
+              "note": "Shield AP ratio changed to 60% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Damage AP ratio changed to 60% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Boomerang Blade}}"
+            },
+            {
+              "label": "Change",
+              "note": "AP ratio changed to 80% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Spell Shield}}"
+            },
+            {
+              "label": "Change",
+              "note": "AP ratio changed to 120% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Rocket Jump}}"
+            },
+            {
+              "label": "Change",
+              "note": "AP ratio changed to 80% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Explosive Charge}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bomb AP ratio changed to 80% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Bomb AP ratio per stack changed to 20% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Maximum bomb AP ratio changed to 160% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Buster Shot}}"
+            },
+            {
+              "label": "Change",
+              "note": "AP ratio changed to 150% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Life Form Disintegration Ray}}"
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown changed to 80–60 (3 ranks) seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Shadow Surge}}"
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown changed to 110–70 (3 ranks) seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Relentless Force}}"
+            },
+            {
+              "label": "Change",
+              "note": "AD ratio changed to 100% AD."
+            },
+            {
+              "label": "Change",
+              "note": "Blade of the Ruined King}}"
+            },
+            {
+              "label": "Change",
+              "note": "Second strike AP ratio changed to 30% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Spectral Maw}}"
+            },
+            {
+              "label": "Change",
+              "note": "AP ratio changed to 150% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Harrowed Path}}"
+            },
+            {
+              "label": "Change",
+              "note": "AP ratio changed to 5% per 100 AP."
+            },
+            {
+              "label": "Change",
+              "note": "Arcane Storm}}"
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown changed to 100–60 (3 ranks) seconds."
+            },
+            {
+              "label": "Change",
+              "note": "General"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Fixed a bug that caused his laugh and taunt VO to not play correctly."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "camille",
+      "name": "Camille}}",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Outer cone bonus AD ratio changed to 3% per 100 bonus AD from 2.5%|AD.; Cooldown changed to 14–10 seconds.",
+      "gameplayImpact": "Camille}} was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Tactical Sweep",
+          "title": "Tactical Sweep",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Outer cone bonus AD ratio",
+              "before": "2",
+              "after": "3% per 100 bonus AD",
+              "note": "Outer cone bonus AD ratio changed to 3% per 100 bonus AD from 2.5%|AD."
+            }
+          ]
+        },
+        {
+          "ability": "Hookshot",
+          "title": "Hookshot",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Cooldown changed to 14–10 seconds."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "jarvan-iv",
+      "name": "Jarvan IV}}",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "AP ratio increased to 140% AP from 100% AP.",
+      "gameplayImpact": "Jarvan IV}} is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Demacian Standard",
+          "title": "Demacian Standard",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "100% AP",
+              "after": "140% AP",
+              "note": "AP ratio increased to 140% AP from 100% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "kled",
+      "name": "Kled}}",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Cooldown changed to 60–30 (3 ranks) seconds.",
+      "gameplayImpact": "Kled}} was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Chaaaaaaaarge!!!",
+          "title": "Chaaaaaaaarge!!!",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Cooldown changed to 60–30 (3 ranks) seconds."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "senna",
+      "name": "Senna}}",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Heal AP ratio changed to 80% AP.; Slow AP ratio changed to 15% per 100 AP.",
+      "gameplayImpact": "Senna}} was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Piercing Darkness",
+          "title": "Piercing Darkness",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Heal AP ratio changed to 80% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Slow AP ratio changed to 15% per 100 AP."
+            }
+          ]
+        },
+        {
+          "ability": "Curse of the Black Mist",
+          "title": "Curse of the Black Mist",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Movement speed AP ratio changed to 7% per 100 AP."
+            }
+          ]
+        },
+        {
+          "ability": "Dawning Shadow",
+          "title": "Dawning Shadow",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Shield AP ratio changed to 70% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "seraphine",
+      "name": "Seraphine}}",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "AP ratio changed to 65% AP.; Cooldown changed to 100–60 (3 ranks) seconds.",
+      "gameplayImpact": "Seraphine}} was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "High Note",
+          "title": "High Note",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "AP ratio changed to 65% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Encore",
+          "title": "Encore",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Cooldown changed to 100–60 (3 ranks) seconds."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "sion",
+      "name": "Sion}}",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Shield AP ratio changed to 60% AP.; Damage AP ratio changed to 60% AP.",
+      "gameplayImpact": "Sion}} was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Soul Furnace",
+          "title": "Soul Furnace",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Shield AP ratio changed to 60% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Damage AP ratio changed to 60% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "sivir",
+      "name": "Sivir}}",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "AP ratio changed to 80% AP.; AP ratio changed to 120% AP.",
+      "gameplayImpact": "Sivir}} was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Boomerang Blade",
+          "title": "Boomerang Blade",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "AP ratio changed to 80% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Spell Shield",
+          "title": "Spell Shield",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "AP ratio changed to 120% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "tristana",
+      "name": "Tristana}}",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "AP ratio changed to 80% AP.; Bomb AP ratio changed to 80% AP.",
+      "gameplayImpact": "Tristana}} was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Rocket Jump",
+          "title": "Rocket Jump",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "AP ratio changed to 80% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Explosive Charge",
+          "title": "Explosive Charge",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bomb AP ratio changed to 80% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Bomb AP ratio per stack changed to 20% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Maximum bomb AP ratio changed to 160% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Buster Shot",
+          "title": "Buster Shot",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "AP ratio changed to 150% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "velkoz",
+      "name": "Vel'Koz}}",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Cooldown changed to 80–60 (3 ranks) seconds.",
+      "gameplayImpact": "Vel'Koz}} was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Life Form Disintegration Ray",
+          "title": "Life Form Disintegration Ray",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Cooldown changed to 80–60 (3 ranks) seconds."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "vex",
+      "name": "Vex}}",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Cooldown changed to 110–70 (3 ranks) seconds.",
+      "gameplayImpact": "Vex}} was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Shadow Surge",
+          "title": "Shadow Surge",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Cooldown changed to 110–70 (3 ranks) seconds."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "vi",
+      "name": "Vi}}",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "AD ratio changed to 100% AD.",
+      "gameplayImpact": "Vi}} was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Relentless Force",
+          "title": "Relentless Force",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "AD ratio changed to 100% AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "viego",
+      "name": "Viego}}",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Second strike AP ratio changed to 30% AP.; AP ratio changed to 150% AP.",
+      "gameplayImpact": "Viego}} was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Blade of the Ruined King",
+          "title": "Blade of the Ruined King",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Second strike AP ratio changed to 30% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Spectral Maw",
+          "title": "Spectral Maw",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "AP ratio changed to 150% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Harrowed Path",
+          "title": "Harrowed Path",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "AP ratio changed to 5% per 100 AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "viktor",
+      "name": "Viktor}}",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Cooldown changed to 100–60 (3 ranks) seconds.",
+      "gameplayImpact": "Viktor}} was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Arcane Storm",
+          "title": "Arcane Storm",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Cooldown changed to 100–60 (3 ranks) seconds."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-8-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V26.08"
+}

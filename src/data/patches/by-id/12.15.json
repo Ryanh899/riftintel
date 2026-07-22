@@ -1,0 +1,870 @@
+{
+  "id": "12.15",
+  "version": "12.15",
+  "title": "I wanna be the very best Like no one ever was",
+  "releaseDate": "2022-08-10",
+  "season": "12",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "I wanna be the very best Like no one ever was"
+    },
+    {
+      "title": "Champion balance",
+      "description": "10 champion buffs, 6 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "I wanna be the very best Like no one ever was Structured changes across 21 entities this patch.",
+  "champions": [
+    {
+      "id": "akali",
+      "name": "Akali",
+      "type": "champion",
+      "assetKey": "Akali",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Bonus maximum energy increased to 100 from 80.; Energy restore increased to 100 from 80.",
+      "gameplayImpact": "Akali is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Twilight Shroud",
+          "title": "Twilight Shroud",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus maximum energy",
+              "before": "80",
+              "after": "100",
+              "note": "Bonus maximum energy increased to 100 from 80."
+            },
+            {
+              "label": "Energy restore",
+              "before": "80",
+              "after": "100",
+              "note": "Energy restore increased to 100 from 80."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "gwen",
+      "name": "Gwen",
+      "type": "champion",
+      "assetKey": "Gwen",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "True damage conversion reduced to 50% from 75%.",
+      "gameplayImpact": "Gwen loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Snip Snip!",
+          "title": "Snip Snip!",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "True damage conversion",
+              "before": "75%",
+              "after": "50%",
+              "note": "True damage conversion reduced to 50% from 75%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "kalista",
+      "name": "Kalista",
+      "type": "champion",
+      "assetKey": "Kalista",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base attack damage reduced to 66 from 69.",
+      "gameplayImpact": "Kalista loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base attack damage",
+              "before": "69",
+              "after": "66",
+              "note": "Base attack damage reduced to 66 from 69."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "kennen",
+      "name": "Kennen",
+      "type": "champion",
+      "assetKey": "Kennen",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Active base damage increased to 70–170 from 60–160.; Cooldown reduced to 13–6 seconds from 14–6.",
+      "gameplayImpact": "Kennen is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Electrical Surge",
+          "title": "Electrical Surge",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Active base damage",
+              "before": "60–160",
+              "after": "70–170",
+              "note": "Active base damage increased to 70–170 from 60–160."
+            },
+            {
+              "label": "Cooldown",
+              "before": "14–6",
+              "after": "13–6 seconds",
+              "note": "Cooldown reduced to 13–6 seconds from 14–6."
+            }
+          ]
+        },
+        {
+          "ability": "Slicing Maelstrom",
+          "title": "Slicing Maelstrom",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AP ratio per tick",
+              "before": "20% AP",
+              "after": "22.5% AP",
+              "note": "AP ratio per tick increased to 22.5% AP from 20% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "lee-sin",
+      "name": "Lee Sin",
+      "type": "champion",
+      "assetKey": "LeeSin",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Energy cost reduced to 25 from 30.; Energy cost reduced to 25 from 30.",
+      "gameplayImpact": "Lee Sin is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Resonating Strike",
+          "title": "Resonating Strike",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Energy cost",
+              "before": "30",
+              "after": "25",
+              "note": "Energy cost reduced to 25 from 30."
+            }
+          ]
+        },
+        {
+          "ability": "Iron Will",
+          "title": "Iron Will",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Energy cost",
+              "before": "30",
+              "after": "25",
+              "note": "Energy cost reduced to 25 from 30."
+            }
+          ]
+        },
+        {
+          "ability": "Cripple",
+          "title": "Cripple",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Energy cost",
+              "before": "30",
+              "after": "25",
+              "note": "Energy cost reduced to 25 from 30."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "leona",
+      "name": "Leona",
+      "type": "champion",
+      "assetKey": "Leona",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Mana cost reduced to 35–55 from 45–65.; Disable duration increased to 1.75 seconds from 1.5.",
+      "gameplayImpact": "Leona is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Shield of Daybreak",
+          "title": "Shield of Daybreak",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Mana cost",
+              "before": "45–65",
+              "after": "35–55",
+              "note": "Mana cost reduced to 35–55 from 45–65."
+            }
+          ]
+        },
+        {
+          "ability": "Solar Flare",
+          "title": "Solar Flare",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Disable duration",
+              "before": "1",
+              "after": "1.75 seconds",
+              "note": "Disable duration increased to 1.75 seconds from 1.5."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "lillia",
+      "name": "Lillia",
+      "type": "champion",
+      "assetKey": "Lillia",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Damage cap against monster increased to 50–150 from 40–100.",
+      "gameplayImpact": "Lillia is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Dream-Laden Bough",
+          "title": "Dream-Laden Bough",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Damage cap against monster",
+              "before": "40–100",
+              "after": "50–150",
+              "note": "Damage cap against monster increased to 50–150 from 40–100."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "master-yi",
+      "name": "Master Yi",
+      "type": "champion",
+      "assetKey": "MasterYi",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Cooldown increased to 18 seconds at all ranks from 18–14.",
+      "gameplayImpact": "Master Yi loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Wuju Style",
+          "title": "Wuju Style",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "18–14",
+              "after": "18 seconds at all ranks",
+              "note": "Cooldown increased to 18 seconds at all ranks from 18–14."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "qiyana",
+      "name": "Qiyana",
+      "type": "champion",
+      "assetKey": "Qiyana",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Bonus AD ratio reduced to 30% bonus AD from 45%|AD.",
+      "gameplayImpact": "Qiyana loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Royal Privilege",
+          "title": "Royal Privilege",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Bonus AD ratio",
+              "before": "45%|AD",
+              "after": "30% bonus AD",
+              "note": "Bonus AD ratio reduced to 30% bonus AD from 45%|AD."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: No longer applies an extra proc of Royal Privilege with First Strike}} equipped."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "rammus",
+      "name": "Rammus",
+      "type": "champion",
+      "assetKey": "Rammus",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Cooldown changed to 90 seconds at all ranks from 110–80 (3 ranks).; Cast range increased to 800 units from 600.",
+      "gameplayImpact": "Rammus is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Soaring Slam",
+          "title": "Soaring Slam",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "110–80 (3 ranks)",
+              "after": "90 seconds at all ranks",
+              "note": "Cooldown changed to 90 seconds at all ranks from 110–80 (3 ranks)."
+            },
+            {
+              "label": "Cast range",
+              "before": "600",
+              "after": "800 units",
+              "note": "Cast range increased to 800 units from 600."
+            },
+            {
+              "label": "Dash range growth",
+              "before": "130%",
+              "after": "150%",
+              "note": "Dash range growth increased to 150% from 130%."
+            },
+            {
+              "label": "Minimum dash speed",
+              "before": "700",
+              "after": "900",
+              "note": "Minimum dash speed increased to 900 from 700."
+            },
+            {
+              "label": "Maximum dash speed",
+              "before": "1800",
+              "after": "2000",
+              "note": "Maximum dash speed increased to 2000 from 1800."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "shen",
+      "name": "Shen",
+      "type": "champion",
+      "assetKey": "Shen",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Energy restore increased to 30–50 from 30–40.",
+      "gameplayImpact": "Shen is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Shadow Dash",
+          "title": "Shadow Dash",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Energy restore",
+              "before": "30–40",
+              "after": "30–50",
+              "note": "Energy restore increased to 30–50 from 30–40."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "singed",
+      "name": "Singed",
+      "type": "champion",
+      "assetKey": "Singed",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Bonus movement speed increased to 25% from 20%.; Cooldown reduced to 8 seconds from 10.",
+      "gameplayImpact": "Singed is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Noxious Slipstream",
+          "title": "Noxious Slipstream",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus movement speed",
+              "before": "20%",
+              "after": "25%",
+              "note": "Bonus movement speed increased to 25% from 20%."
+            },
+            {
+              "label": "Cooldown",
+              "before": "10",
+              "after": "8 seconds",
+              "note": "Cooldown reduced to 8 seconds from 10."
+            }
+          ]
+        },
+        {
+          "ability": "Insanity Potion",
+          "title": "Insanity Potion",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus stats",
+              "before": "20–100 (3 ranks)",
+              "after": "30–100 (3 ranks)",
+              "note": "Bonus stats increased to 30–100 (3 ranks) from 20–100 (3 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "sivir",
+      "name": "Sivir",
+      "type": "champion",
+      "assetKey": "Sivir",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Attack damage growth reduced to 3 from 3.3.; Cooldown increased to 24–18 seconds from 22–14.",
+      "gameplayImpact": "Sivir loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Attack damage growth",
+              "before": "3",
+              "after": "3",
+              "note": "Attack damage growth reduced to 3 from 3.3."
+            }
+          ]
+        },
+        {
+          "ability": "Spell Shield",
+          "title": "Spell Shield",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "22–14",
+              "after": "24–18 seconds",
+              "note": "Cooldown increased to 24–18 seconds from 22–14."
+            }
+          ]
+        },
+        {
+          "ability": "On the Hunt",
+          "title": "On the Hunt",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "100–70 (3 ranks)",
+              "after": "120–80 (3 ranks) seconds",
+              "note": "Cooldown increased to 120–80 (3 ranks) seconds from 100–70 (3 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "taliyah",
+      "name": "Taliyah",
+      "type": "champion",
+      "assetKey": "Taliyah",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Cooldown increased to 18–14 seconds from 16–12.; Wall duration reduced to 4 seconds from 5.",
+      "gameplayImpact": "Taliyah loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Threaded Volley",
+          "title": "Threaded Volley",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Now has the proper mana cost at ranks 2 and 4."
+            }
+          ]
+        },
+        {
+          "ability": "Unraveled Earth",
+          "title": "Unraveled Earth",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "16–12",
+              "after": "18–14 seconds",
+              "note": "Cooldown increased to 18–14 seconds from 16–12."
+            }
+          ]
+        },
+        {
+          "ability": "Weaver's Wall",
+          "title": "Weaver's Wall",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Wall duration",
+              "before": "5",
+              "after": "4 seconds",
+              "note": "Wall duration reduced to 4 seconds from 5."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "thresh",
+      "name": "Thresh",
+      "type": "champion",
+      "assetKey": "Thresh",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base damage increased to 100–260 from 80–240.; Cooldown reduced to 19–11 seconds from 20–12.",
+      "gameplayImpact": "Thresh is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Death Sentence",
+          "title": "Death Sentence",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "80–240",
+              "after": "100–260",
+              "note": "Base damage increased to 100–260 from 80–240."
+            },
+            {
+              "label": "Cooldown",
+              "before": "20–12",
+              "after": "19–11 seconds",
+              "note": "Cooldown reduced to 19–11 seconds from 20–12."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "zed",
+      "name": "Zed",
+      "type": "champion",
+      "assetKey": "Zed",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Ability mimick range increased to 25000 units from 2000.; Energy cost reduced to 40 from 50.",
+      "gameplayImpact": "Zed is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Living Shadow",
+          "title": "Living Shadow",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Ability mimick range",
+              "before": "2000",
+              "after": "25000 units",
+              "note": "Ability mimick range increased to 25000 units from 2000."
+            }
+          ]
+        },
+        {
+          "ability": "Shadow Slash",
+          "title": "Shadow Slash",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Energy cost",
+              "before": "50",
+              "after": "40",
+              "note": "Energy cost reduced to 40 from 50."
+            }
+          ]
+        },
+        {
+          "ability": "Death Mark",
+          "title": "Death Mark",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Ability mimick range",
+              "before": "2000",
+              "after": "25000 units",
+              "note": "Ability mimick range increased to 25000 units from 2000."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "anathemas-chains",
+      "name": "Anathema's Chains",
+      "type": "item",
+      "assetKey": "8001",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Can no longer be cast while dead, again.",
+      "gameplayImpact": "Anathema's Chains loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Undocumented/Bug Fix: Re-fixed a bug causing the item to appear as a copy of another item in an enemy's inventory on the scoreboard."
+            },
+            {
+              "label": "Change",
+              "note": "Can no longer be cast while dead, again."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "divine-sunderer",
+      "name": "Divine Sunderer",
+      "type": "item",
+      "assetKey": "6632",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Spellblade heal reduced to 55% pre-mitigation damage from 65%.",
+      "gameplayImpact": "Divine Sunderer loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Spellblade heal",
+              "before": "65%",
+              "after": "55% pre-mitigation damage",
+              "note": "Spellblade heal reduced to 55% pre-mitigation damage from 65%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "mercurial-scimitar",
+      "name": "Mercurial Scimitar",
+      "type": "item",
+      "assetKey": "3139",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Magic resistance increased to 40 from 30.; Bonus movement speed duration increased to 1.5 seconds from 1.",
+      "gameplayImpact": "Mercurial Scimitar is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Magic resistance",
+              "before": "30",
+              "after": "40",
+              "note": "Magic resistance increased to 40 from 30."
+            },
+            {
+              "label": "Bonus movement speed duration",
+              "before": "1",
+              "after": "1.5 seconds",
+              "note": "Bonus movement speed duration increased to 1.5 seconds from 1."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "silvermere-dawn",
+      "name": "Silvermere Dawn",
+      "type": "item",
+      "assetKey": "6035",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Magic resistance increased to 40 from 35.; Slow resistance increased to 50% from 40%.",
+      "gameplayImpact": "Silvermere Dawn is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Magic resistance",
+              "before": "35",
+              "after": "40",
+              "note": "Magic resistance increased to 40 from 35."
+            },
+            {
+              "label": "Slow resistance",
+              "before": "40%",
+              "after": "50%",
+              "note": "Slow resistance increased to 50% from 40%."
+            },
+            {
+              "label": "Tenacity",
+              "before": "40%",
+              "after": "50%",
+              "note": "Tenacity increased to 50% from 40%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "id": "first-strike",
+      "name": "First Strike",
+      "type": "rune",
+      "assetKey": null,
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Bonus damage reduced to 9% from 10%.",
+      "gameplayImpact": "First Strike loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Bonus damage",
+              "before": "10%",
+              "after": "9%",
+              "note": "Bonus damage reduced to 9% from 10%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-12-15-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V12.15"
+}

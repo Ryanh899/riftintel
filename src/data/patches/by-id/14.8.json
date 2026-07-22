@@ -1,0 +1,1287 @@
+{
+  "id": "14.8",
+  "version": "14.8",
+  "title": "The Blood Moon has risen yet again... how many times has it been now?",
+  "releaseDate": "2024-04-17",
+  "season": "14",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "The Blood Moon has risen yet again... how many times has it been now?"
+    },
+    {
+      "title": "Champion balance",
+      "description": "12 champion buffs, 4 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "The Blood Moon has risen yet again... how many times has it been now? Structured changes across 25 entities this patch.",
+  "champions": [
+    {
+      "id": "akali",
+      "name": "Akali",
+      "type": "champion",
+      "assetKey": "Akali",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base health increased to 600 from 570.",
+      "gameplayImpact": "Akali is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base health",
+              "before": "570",
+              "after": "600",
+              "note": "Base health increased to 600 from 570."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "azir",
+      "name": "Azir",
+      "type": "champion",
+      "assetKey": "Azir",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base health regeneration reduced to 3.5 from 5.; Base damage reduced to 50–110 from 50–118.",
+      "gameplayImpact": "Azir loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base health regeneration",
+              "before": "5",
+              "after": "3.5",
+              "note": "Base health regeneration reduced to 3.5 from 5."
+            }
+          ]
+        },
+        {
+          "ability": "Arise!",
+          "title": "Arise!",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "50–118",
+              "after": "50–110",
+              "note": "Base damage reduced to 50–110 from 50–118."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "briar",
+      "name": "Briar",
+      "type": "champion",
+      "assetKey": "Briar",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Health growth reduced to 95 from 100.; Cast range increased to 475 units from 450.",
+      "gameplayImpact": "Briar was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Health growth",
+              "before": "100",
+              "after": "95",
+              "note": "Health growth reduced to 95 from 100."
+            }
+          ]
+        },
+        {
+          "ability": "Head Rush",
+          "title": "Head Rush",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cast range",
+              "before": "450",
+              "after": "475 units",
+              "note": "Cast range increased to 475 units from 450."
+            }
+          ]
+        },
+        {
+          "ability": "Blood Frenzy",
+          "title": "Blood Frenzy",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Bonus attack speed",
+              "before": "54–110%",
+              "after": "55–95%",
+              "note": "Bonus attack speed changed to 55–95% from 54–110%."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Now properly reveals the nearest target while the effects of nearsight."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "draven",
+      "name": "Draven",
+      "type": "champion",
+      "assetKey": "Draven",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base damage increased to 45–65 from 40–60.",
+      "gameplayImpact": "Draven is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Spinning Axe",
+          "title": "Spinning Axe",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "40–60",
+              "after": "45–65",
+              "note": "Base damage increased to 45–65 from 40–60."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "galio",
+      "name": "Galio",
+      "type": "champion",
+      "assetKey": "Galio",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base movement speed increased to 340 from 335.; Cooldown reduced to 11–7 seconds from 12–7.",
+      "gameplayImpact": "Galio is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base movement speed",
+              "before": "335",
+              "after": "340",
+              "note": "Base movement speed increased to 340 from 335."
+            }
+          ]
+        },
+        {
+          "ability": "Winds of War",
+          "title": "Winds of War",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "12–7",
+              "after": "11–7 seconds",
+              "note": "Cooldown reduced to 11–7 seconds from 12–7."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "graves",
+      "name": "Graves",
+      "type": "champion",
+      "assetKey": "Graves",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Increased non-growth attack speed scaling for decreasing reload time by 35%.; Pellet critical strike bonus damage increased to 45% from 40%.",
+      "gameplayImpact": "Graves is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "New Destiny",
+          "title": "New Destiny",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Increased non-growth attack speed scaling for decreasing reload time by 35%."
+            },
+            {
+              "label": "Pellet critical strike bonus damage",
+              "before": "40%",
+              "after": "45%",
+              "note": "Pellet critical strike bonus damage increased to 45% from 40%."
+            },
+            {
+              "label": "Bonus damage per pellet critical strike",
+              "before": "(30% + Infinity Edge|20%}})",
+              "after": "(33.75% + Infinity Edge|22.5%}})",
+              "note": "Bonus damage per pellet critical strike increased to (33.75% + Infinity Edge|22.5%}}) from (30% + Infinity Edge|20%}})."
+            },
+            {
+              "label": "Relative bonus damage of critical attacks where all pellets hit",
+              "before": "critical damage|73",
+              "after": "critical damage|78.3% (+ Infinity Edge|icononly=true 30%)|critical damage}}",
+              "note": null
+            },
+            {
+              "label": "Maximum critical strike damage",
+              "before": "100*(0",
+              "after": "100*(0.6895 + 0.01765*x*(0.595 + 0.0225*(x-1)))*(1+5*0.33302)*(1+0.45*0.75)%|AD (+Infinity Edge|icononly = true 100*(0.6895 + 0.01765*x*(0.595 + 0.0225*(x-1)))*(1+5*0.33302)*(0.45*0.5)%) AD}}",
+              "note": null
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "hwei",
+      "name": "Hwei",
+      "type": "champion",
+      "assetKey": "Hwei",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "AP ratio increased to 35% AP from 30% AP.",
+      "gameplayImpact": "Hwei is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Signature of the Visionary",
+          "title": "Signature of the Visionary",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "30% AP",
+              "after": "35% AP",
+              "note": "AP ratio increased to 35% AP from 30% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "jarvan-iv",
+      "name": "Jarvan IV",
+      "type": "champion",
+      "assetKey": "JarvanIV",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Health ratio increased to 7% of target's current health from 6%|health.",
+      "gameplayImpact": "Jarvan IV is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Martial Cadence",
+          "title": "Martial Cadence",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Health ratio",
+              "before": "6%|health",
+              "after": "7% of target's current health",
+              "note": "Health ratio increased to 7% of target's current health from 6%|health."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "jhin",
+      "name": "Jhin",
+      "type": "champion",
+      "assetKey": "Jhin",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Base bonus movement speed increased to 14% from 10%.; Minimum base damage reduced to 44–144 from 45–145.",
+      "gameplayImpact": "Jhin was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Whisper",
+          "title": "Whisper",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base bonus movement speed",
+              "before": "10%",
+              "after": "14%",
+              "note": "Base bonus movement speed increased to 14% from 10%."
+            }
+          ]
+        },
+        {
+          "ability": "Dancing Grenade",
+          "title": "Dancing Grenade",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Minimum base damage",
+              "before": "45–145",
+              "after": "44–144",
+              "note": "Minimum base damage reduced to 44–144 from 45–145."
+            },
+            {
+              "label": "Minimum AD ratio",
+              "before": "35–65% AD",
+              "after": "44–74% AD",
+              "note": "Minimum AD ratio increased to 44–74% AD from 35–65% AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "kaisa",
+      "name": "Kai'Sa",
+      "type": "champion",
+      "assetKey": "Kaisa",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Bonus AD ratio per missile increased to 55% bonus AD from 50%|AD.",
+      "gameplayImpact": "Kai'Sa is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Icathian Rain",
+          "title": "Icathian Rain",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus AD ratio per missile",
+              "before": "50%|AD",
+              "after": "55% bonus AD",
+              "note": "Bonus AD ratio per missile increased to 55% bonus AD from 50%|AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "leblanc",
+      "name": "LeBlanc",
+      "type": "champion",
+      "assetKey": "Leblanc",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base damage increased to 70–170 from 65–165.; Cooldown reduced to 15–10 seconds from 18–10.",
+      "gameplayImpact": "LeBlanc is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Sigil of Malice",
+          "title": "Sigil of Malice",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "65–165",
+              "after": "70–170",
+              "note": "Base damage increased to 70–170 from 65–165."
+            }
+          ]
+        },
+        {
+          "ability": "Distortion",
+          "title": "Distortion",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "18–10",
+              "after": "15–10 seconds",
+              "note": "Cooldown reduced to 15–10 seconds from 18–10."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "mordekaiser",
+      "name": "Mordekaiser",
+      "type": "champion",
+      "assetKey": "Mordekaiser",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Cooldown reduced to 8–4 seconds from 9–4.; Base damage reduced to 70–130 from 80–140.",
+      "gameplayImpact": "Mordekaiser was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Darkness Rise",
+          "title": "Darkness Rise",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: No longer gains a stack for attacks that are dodged."
+            }
+          ]
+        },
+        {
+          "ability": "Obliterate",
+          "title": "Obliterate",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "9–4",
+              "after": "8–4 seconds",
+              "note": "Cooldown reduced to 8–4 seconds from 9–4."
+            }
+          ]
+        },
+        {
+          "ability": "Death's Grasp",
+          "title": "Death's Grasp",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "80–140",
+              "after": "70–130",
+              "note": "Base damage reduced to 70–130 from 80–140."
+            }
+          ]
+        },
+        {
+          "ability": "Realm of Death",
+          "title": "Realm of Death",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Removed: No longer dispelled if the target uses an applicable cleanse effect."
+            },
+            {
+              "label": "Change",
+              "note": "Removal interaction had parity with the removal interactions of suppression; cleanses that would remove suppression now no longer dispel the Realm of Death."
+            },
+            {
+              "label": "Change",
+              "note": "Crowd control immunities will still resist banishment."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "olaf",
+      "name": "Olaf",
+      "type": "champion",
+      "assetKey": "Olaf",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Bonus monster damage increased to 5–45 from 5–25.",
+      "gameplayImpact": "Olaf is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Undertow",
+          "title": "Undertow",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus monster damage",
+              "before": "5–25",
+              "after": "5–45",
+              "note": "Bonus monster damage increased to 5–45 from 5–25."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "rengar",
+      "name": "Rengar",
+      "type": "champion",
+      "assetKey": "Rengar",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Now properly applies critical strike damage bonus.Reddit — Riot Norak [https://www.reddit.com/r/Rengarmains/comments/1c554v4/ie_fix_148_navori_fix_149/ IE fix 14.8, Navori fix 14.9]",
+      "gameplayImpact": "Rengar was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Savagery",
+          "title": "Savagery",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Now properly applies critical strike damage bonus.Reddit — Riot Norak [https://www.reddit.com/r/Rengarmains/comments/1c554v4/ie_fix_148_navori_fix_149/ IE fix 14.8, Navori fix 14.9]"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "ryze",
+      "name": "Ryze",
+      "type": "champion",
+      "assetKey": "Ryze",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Slow increased to 50% from 35%.; Cooldown reduced to 11–9 seconds from 13–9.",
+      "gameplayImpact": "Ryze is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Rune Prison",
+          "title": "Rune Prison",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Slow",
+              "before": "35%",
+              "after": "50%",
+              "note": "Slow increased to 50% from 35%."
+            },
+            {
+              "label": "Cooldown",
+              "before": "13–9",
+              "after": "11–9 seconds",
+              "note": "Cooldown reduced to 11–9 seconds from 13–9."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "skarner",
+      "name": "Skarner",
+      "type": "champion",
+      "assetKey": "Skarner",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Mana growth reduced to 40 from 45.; Mana regeneration growth increased to 0.6 from 0.45.",
+      "gameplayImpact": "Skarner was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Mana growth",
+              "before": "45",
+              "after": "40",
+              "note": "Mana growth reduced to 40 from 45."
+            },
+            {
+              "label": "Mana regeneration growth",
+              "before": "0",
+              "after": "0.6",
+              "note": "Mana regeneration growth increased to 0.6 from 0.45."
+            }
+          ]
+        },
+        {
+          "ability": "Shattered Earth",
+          "title": "Shattered Earth",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Cast time",
+              "before": "0",
+              "after": "0.35 seconds",
+              "note": "Cast time reduced to 0.35 seconds from 0.5."
+            },
+            {
+              "label": "Boulder duration",
+              "before": "3",
+              "after": "5 seconds",
+              "note": "Boulder duration increased to 5 seconds from 3.5."
+            },
+            {
+              "label": "Base damage per hit",
+              "before": "10–50",
+              "after": "10–70",
+              "note": "Base damage per hit increased to 10–70 from 10–50."
+            },
+            {
+              "label": "Bonus AD ratio per hit",
+              "before": "40% bonus AD",
+              "after": "60% bonus AD",
+              "note": "Bonus AD ratio per hit increased to 60% bonus AD from 40% bonus AD."
+            },
+            {
+              "label": "Mana cost",
+              "before": "40–60",
+              "after": "30–50",
+              "note": "Mana cost reduced to 30–50 from 40–60."
+            }
+          ]
+        },
+        {
+          "ability": "Upheaval",
+          "title": "Upheaval",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Recast timer",
+              "before": "0",
+              "after": "0.5 seconds",
+              "note": "Recast timer reduced to 0.5 seconds from 0.75."
+            },
+            {
+              "label": "Base damage",
+              "before": "10–50",
+              "after": "10–70",
+              "note": "Base damage increased to 10–70 from 10–50."
+            },
+            {
+              "label": "Bonus AD ratio",
+              "before": "40% bonus AD",
+              "after": "60% bonus AD",
+              "note": "Bonus AD ratio increased to 60% bonus AD from 40% bonus AD."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: No longer sometimes fails to cast if used at the same frame as ."
+            }
+          ]
+        },
+        {
+          "ability": "Seismic Bastion",
+          "title": "Seismic Bastion",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "60–180",
+              "after": "50–150",
+              "note": "Base damage reduced to 50–150 from 60–180."
+            },
+            {
+              "label": "Mana cost",
+              "before": "50–70",
+              "after": "60–80",
+              "note": "Mana cost increased to 60–80 from 50–70."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Area no longer has a hole of 100 units' height in an arc in the cast direction."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Area now applies over the correct area after is used during the cast time."
+            }
+          ]
+        },
+        {
+          "ability": "Ixtal's Impact",
+          "title": "Ixtal's Impact",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: VFX and particles for exiting terrain now trigger at the correct time. Previously, they would trigger with a slight delay after exiting."
+            }
+          ]
+        },
+        {
+          "ability": "Impale",
+          "title": "Impale",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Now applies Threads of Vibration}} to minions and monsters hit."
+            },
+            {
+              "label": "Change",
+              "note": "Updated animation."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Restored shockwave VFX during his taunt animation."
+            },
+            {
+              "label": "Change",
+              "note": "Seismic Bastion}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: No longer sometimes plays his walk animation instead of Seismic's Bastion cast animation."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "sylas",
+      "name": "Sylas",
+      "type": "champion",
+      "assetKey": "Sylas",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Monster detonation damage increased to 100% from 70%.; Minion damage unchanged.",
+      "gameplayImpact": "Sylas is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Chain Lash",
+          "title": "Chain Lash",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Monster detonation damage",
+              "before": "70%",
+              "after": "100%",
+              "note": "Monster detonation damage increased to 100% from 70%."
+            },
+            {
+              "label": "Change",
+              "note": "Minion damage unchanged."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "taliyah",
+      "name": "Taliyah",
+      "type": "champion",
+      "assetKey": "Taliyah",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "No longer has VO for her dance emote.",
+      "gameplayImpact": "Taliyah loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "No longer has VO for her dance emote."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "thresh",
+      "name": "Thresh",
+      "type": "champion",
+      "assetKey": "Thresh",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base armor increased to 33 from 31.; Magic resistance growth increased to 1.55 from 1.3.",
+      "gameplayImpact": "Thresh is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base armor",
+              "before": "31",
+              "after": "33",
+              "note": "Base armor increased to 33 from 31."
+            },
+            {
+              "label": "Magic resistance growth",
+              "before": "1",
+              "after": "1.55",
+              "note": "Magic resistance growth increased to 1.55 from 1.3."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "zac",
+      "name": "Zac",
+      "type": "champion",
+      "assetKey": "Zac",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base health regeneration reduced to 5 from 8.",
+      "gameplayImpact": "Zac loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base health regeneration",
+              "before": "8",
+              "after": "5",
+              "note": "Base health regeneration reduced to 5 from 8."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "zeri",
+      "name": "Zeri",
+      "type": "champion",
+      "assetKey": "Zeri",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base health reduced to 600 from 630.",
+      "gameplayImpact": "Zeri loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base health",
+              "before": "630",
+              "after": "600",
+              "note": "Base health reduced to 600 from 630."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "malignance",
+      "name": "Malignance",
+      "type": "item",
+      "assetKey": "3118",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Spells tagged as basic attacks now once again trigger Hatefog. This affects Spray and Pray (Twitch)}} bolts, Hallucinate (Shaco)}} clone basic attacks, Heartbreaker (Viego)}} primary target strike, and Inf…",
+      "gameplayImpact": "Malignance is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Spells tagged as basic attacks now once again trigger Hatefog. This affects Spray and Pray (Twitch)}} bolts, Hallucinate (Shaco)}} clone basic attacks, Heartbreaker (Viego)}} primary target strike, and Infinite Duress (Warwick)}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "id": "monsters",
+      "name": "Monsters",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "buff",
+      "severity": 3,
+      "tldr": "New Effect: Acid Pool now has a base damage of 200.; Acid Pool slow increased to 60% from 50%.",
+      "gameplayImpact": "Monsters is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Acid Pool now has a base damage of 200."
+            },
+            {
+              "label": "Acid Pool slow",
+              "before": "50%",
+              "after": "60%",
+              "note": "Acid Pool slow increased to 60% from 50%."
+            },
+            {
+              "label": "Hunting Baron primary lightning damage",
+              "before": "15%|hp",
+              "after": "20% of target's current health",
+              "note": "Hunting Baron primary lightning damage increased to 20% of target's current health from 15%|hp."
+            },
+            {
+              "label": "Territorial Baron pull damage",
+              "before": "75",
+              "after": "300",
+              "note": "Territorial Baron pull damage increased to 300 from 75."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Acid Shot now has a base damage of 200."
+            },
+            {
+              "label": "Acid Shot AD ratio",
+              "before": "20%|ad",
+              "after": "50% AD",
+              "note": "Acid Shot AD ratio increased to 50% AD from 20%|ad."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Tentacle Knockup now has a base damage of 200."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Territorial Baron's pull attack no longer sometimes fails to apply its damage to targets hit."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Pit Rift Herald no longer sometimes spawns looking toward the east/to her left instead of toward the entrance of the baron pit."
+            },
+            {
+              "label": "Initial spawn time",
+              "before": "5:00",
+              "after": "6:00",
+              "note": "Initial spawn time increased to 6:00 from 5:00."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "neutral-buffs",
+      "name": "Neutral buffs",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Number of stacks required to gain this buff and summon 1 reduced to 4 from 5.; Number of stacks required to summon 2 unchanged at 6.",
+      "gameplayImpact": "Neutral buffs is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Number of stacks required to gain this buff and summon 1",
+              "before": "5",
+              "after": "4",
+              "note": "Number of stacks required to gain this buff and summon 1 reduced to 4 from 5."
+            },
+            {
+              "label": "Change",
+              "note": "Number of stacks required to summon 2 unchanged at 6."
+            },
+            {
+              "label": "Change",
+              "note": "Damage per tick increased to from ."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "howling-abyss",
+      "name": "Howling Abyss",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Illaoi}}; Incoming damage modifier changed to +5% from +10%.",
+      "gameplayImpact": "Howling Abyss was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Illaoi}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "+10%",
+              "after": "+5%",
+              "note": "Incoming damage modifier changed to +5% from +10%."
+            },
+            {
+              "label": "Change",
+              "note": "Leona}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "+5%",
+              "after": "0%",
+              "note": "Incoming damage modifier changed to 0% from +5%."
+            },
+            {
+              "label": "Change",
+              "note": "Nautilus}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "+10%",
+              "after": "+5%",
+              "note": "Incoming damage modifier changed to +5% from +10%."
+            },
+            {
+              "label": "Change",
+              "note": "Vi}}"
+            },
+            {
+              "label": "Ability haste",
+              "before": "+10",
+              "after": "0",
+              "note": "Ability haste changed to 0 from +10."
+            },
+            {
+              "label": "Change",
+              "note": "Xerath}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "-7%",
+              "after": "-5%",
+              "note": "Outgoing damage modifier changed to -5% from -7%."
+            },
+            {
+              "label": "Change",
+              "note": "Ziggs}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "-15%",
+              "after": "-10%",
+              "note": "Outgoing damage modifier changed to -10% from -15%."
+            },
+            {
+              "label": "Change",
+              "note": "Zyra}}"
+            },
+            {
+              "label": "Ability haste",
+              "before": "0",
+              "after": "-10",
+              "note": "Ability haste changed to -10 from 0."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "map",
+      "name": "Map",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Illaoi}}; Incoming damage modifier changed to +5% from +10%.",
+      "gameplayImpact": "Map was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Illaoi}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "+10%",
+              "after": "+5%",
+              "note": "Incoming damage modifier changed to +5% from +10%."
+            },
+            {
+              "label": "Change",
+              "note": "Leona}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "+5%",
+              "after": "0%",
+              "note": "Incoming damage modifier changed to 0% from +5%."
+            },
+            {
+              "label": "Change",
+              "note": "Nautilus}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "+10%",
+              "after": "+5%",
+              "note": "Incoming damage modifier changed to +5% from +10%."
+            },
+            {
+              "label": "Change",
+              "note": "Vi}}"
+            },
+            {
+              "label": "Ability haste",
+              "before": "+10",
+              "after": "0",
+              "note": "Ability haste changed to 0 from +10."
+            },
+            {
+              "label": "Change",
+              "note": "Xerath}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "-7%",
+              "after": "-5%",
+              "note": "Outgoing damage modifier changed to -5% from -7%."
+            },
+            {
+              "label": "Change",
+              "note": "Ziggs}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "-15%",
+              "after": "-10%",
+              "note": "Outgoing damage modifier changed to -10% from -15%."
+            },
+            {
+              "label": "Change",
+              "note": "Zyra}}"
+            },
+            {
+              "label": "Ability haste",
+              "before": "0",
+              "after": "-10",
+              "note": "Ability haste changed to -10 from 0."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-14-8-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V14.8"
+}

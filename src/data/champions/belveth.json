@@ -1,0 +1,917 @@
+{
+  "slug": "belveth",
+  "name": "Bel'Veth",
+  "assetKey": "Belveth",
+  "entries": [
+    {
+      "patchId": "12.11",
+      "version": "12.11",
+      "releaseDate": "2022-06-08",
+      "change": {
+        "id": "belveth",
+        "name": "Bel'Veth",
+        "type": "champion",
+        "assetKey": "Belveth",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Innate: After casting an ability, Bel'Veth gains 2 stacks for 5 seconds, stacking up to 6 times and refreshing on subsequent ability casts. While Bel'Veth has stacks, she becomes ghosted and gains 25–50% bonus attack …",
+        "gameplayImpact": "Bel'Veth was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": "New champion",
+        "changes": [
+          {
+            "ability": "General",
+            "title": null,
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Innate: After casting an ability, Bel'Veth gains 2 stacks for 5 seconds, stacking up to 6 times and refreshing on subsequent ability casts. While Bel'Veth has stacks, she becomes ghosted and gains 25–50% bonus attack speed. Her basic attacks each consume 1 stack."
+              },
+              {
+                "label": "Change",
+                "note": "Innate: Whenever Bel'Veth scores a takedown against a champion or monster within 3 seconds of damaging them, she gains stacks of Lavender permanently. Large monsters grant her 1 stack and champions and epic monsters grant her 2. Each stack grants her 0.25–1.25% bonus attack speed."
+              },
+              {
+                "label": "Change",
+                "note": "Bel'Veth can exceed the attack speed cap, but all sources of damage dealt or triggered by her basic attacks are reduced by 25%, including on-hit effects. She cannot gain attack speed through growth (per level)."
+              },
+              {
+                "label": "Change",
+                "note": "Active: Bel'Veth dash a fixed distance in a designated direction, though not through terrain, dealing 10–30 (+ 110% AD) physical damage to enemies she passes through and applying on-hit and spell effects at 75% effectiveness to the first target hit."
+              },
+              {
+                "label": "Change",
+                "note": "Void Surge can critically strike for ."
+              },
+              {
+                "label": "Change",
+                "note": "Void Surge deals 120% damage to monsters and 60–100% damage against minions."
+              },
+              {
+                "label": "Change",
+                "note": "Void Surge can only be cast in each of Bel'Veth's cardinal directions with a cooldown that incurs between casts. Each direction has a unique cooldown that is reduced equivalent to 0.25 ability haste per ."
+              },
+              {
+                "label": "Change",
+                "note": "These cooldowns reset upon respawning."
+              },
+              {
+                "label": "Change",
+                "note": "Void Surge basic attack reset Bel'Veth's basic attack timer."
+              },
+              {
+                "label": "Change",
+                "note": "Cooldown: 1 second."
+              },
+              {
+                "label": "Change",
+                "note": "Per-Direction Cooldown: seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Range: 400, Collision Radius: er , Cast Time: None."
+              },
+              {
+                "label": "Change",
+                "note": "Speed: ."
+              },
+              {
+                "label": "Change",
+                "note": "Active: Bel'Veth slams her tail down in the target direction, dealing 70–230 (+ 100% bonus AD) (+ 125% AP) magic damage to enemies struck, airborne for 0.75 seconds, and slow them by 50% for 1.25–2.25 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Hitting an enemy champion with Above and Below resets dash cooldown of the direction they were hit."
+              },
+              {
+                "label": "Change",
+                "note": "Cooldown: 12–8 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Range: cr 0 - er 660, Width: er 200, Cast Time: 0.5 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Active: Bel'Veth rapidly slashes at the nearest enemy with the lowest current health percentage 6 (+ 1 per ) times over 1.5 seconds, dealing 8–20 (+ 6% AD) physical damage with each slash, increased by 0–300% (over 0–100)|health, and applying on-hit, on-attack, and spell effects at 6–24% (over 0–100)|health effectiveness."
+              },
+              {
+                "label": "Change",
+                "note": "Royal Maelstrom deals 150% damage to monsters and its attacks applies lifesteal life steal but cannot critically strike."
+              },
+              {
+                "label": "Change",
+                "note": "Bel'Veth gains 70% damage reduction, 20–28% (+ ) life steal, and is unable to move during Royal Maelstrom. She cannot perform slashes while unable to declare basic attacks."
+              },
+              {
+                "label": "Change",
+                "note": "Royal Maelstrom can be recast after 0.75 seconds within the duration, and does so automatically afterwards or when Bel'Veth casts an ability."
+              },
+              {
+                "label": "Change",
+                "note": "Recast: Bel'Veth ends Royal Maelstrom."
+              },
+              {
+                "label": "Change",
+                "note": "Cooldown: seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Effect Radius: er 500, Cast Time: None."
+              },
+              {
+                "label": "Change",
+                "note": "Passive: Bel'Veth's basic attacks on-hit apply a mark to the target for 5 seconds, refreshing on subsequent attacks and expiring upon attacking a new target. Every second attack on-hit against the marked target deals 6–10 (3 ranks) (+ 12% bonus AD) bonus true damage and grants a stack that increases this damage by the same value. This effect stacks infinitely, but is capped at 5 stacks against epic monster."
+              },
+              {
+                "label": "Change",
+                "note": "Additionally, whenever Bel'Veth scores a takedown against a champion or epic monster while being alive, a Void Coral is spawned from their corpse for 15 seconds. and summon an enhanced Void Coral."
+              },
+              {
+                "label": "Change",
+                "note": "Active: Bel'Veth dash to the target Void Coral and consumes it over the cast time, slow nearby enemies by 25%, which ramps up to 99% over the duration, then creates an explosion that deals 150–250 (3 ranks) (+ 100% AP) (+ 25–35 (3 ranks)% of target's missing health) true damage to them. Upon consumption, Bel'Veth also consumes all other existing Void Corals, gains a stack of Death in Lavender|Lavender}} per Void Coral consumed, and assumes her True Form for 60 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "If Bel'Veth consumed at least one enhanced Void Coral, she gains an enhanced True Form that lasts 180 seconds and causes Void Remora to spawn from the deaths of nearby lane minions."
+              },
+              {
+                "label": "Change",
+                "note": "Void Remora have 70% of the minion's maximum health and 110% of the minion's AD."
+              },
+              {
+                "label": "Change",
+                "note": "A nearby Void Coral is required to cast this ability."
+              },
+              {
+                "label": "Change",
+                "note": "True Form: Bel'Veth evolves into a monster, gaining 100–200 (3 ranks) (+ 165% bonus AD) (+ 90% AP) bonus health, 25–75 (3 ranks) bonus movement speed out-of-combat, 50–100 (3 ranks) bonus attack range, as well as 10–20 (3 ranks)% increased total attack speed. She also gains the ability to dash through terrain with Void Surge}}. Consuming Void Corals while in this state refreshes the duration of True Form and heal Bel'Veth for 100–200 (3 ranks) (+ 165% bonus AD) (+ 90% AP)."
+              },
+              {
+                "label": "Change",
+                "note": "Cooldown: 1 second."
+              },
+              {
+                "label": "Change",
+                "note": "Effect Radius: cr 500, Cast Time: 1 second."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust",
+          "New champion"
+        ]
+      }
+    },
+    {
+      "patchId": "12.12",
+      "version": "12.12",
+      "releaseDate": "2022-06-23",
+      "change": {
+        "id": "belveth",
+        "name": "Bel'Veth",
+        "type": "champion",
+        "assetKey": "Belveth",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Endless Banquet|True Form}} basic attack animation adjusted to swing slightly less at slower attack speeds.; Attack range increased to 175 from 125.",
+        "gameplayImpact": "Bel'Veth was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "General",
+            "title": null,
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Endless Banquet|True Form}} basic attack animation adjusted to swing slightly less at slower attack speeds."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Attack SFX are no longer audible through the Fog of War occasionally."
+              }
+            ]
+          },
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Attack range",
+                "before": "125",
+                "after": "175",
+                "note": "Attack range increased to 175 from 125."
+              },
+              {
+                "label": "Base health regeneration",
+                "before": "8",
+                "after": "6",
+                "note": "Base health regeneration reduced to 6 from 8.5."
+              },
+              {
+                "label": "Health regeneration growth",
+                "before": "0",
+                "after": "0.6",
+                "note": "Health regeneration growth reduced to 0.6 from 0.85."
+              }
+            ]
+          },
+          {
+            "ability": "Death in Lavender",
+            "title": "Death in Lavender",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Now gains Lavender stacks from scoring takedowns against large minions on Summoner's Rift within 3 seconds of damaging them."
+              },
+              {
+                "label": "Bonus attack speed per Lavender stack",
+                "before": "0",
+                "after": "0.28–1%",
+                "note": "Bonus attack speed per Lavender stack changed to 0.28–1% from 0.25–1.25%."
+              }
+            ]
+          },
+          {
+            "ability": "Void Surge",
+            "title": "Void Surge",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: bonus true damage on-hit is no longer doubled when applied by this ability."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: No longer triggers on-cast effects (e.g. Sheen}}) for casting the ability in a direction that isn't available while other dash directions are."
+              }
+            ]
+          },
+          {
+            "ability": "Royal Maelstrom",
+            "title": "Royal Maelstrom",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Minimum base damage per hit",
+                "before": "8–20",
+                "after": "8–16",
+                "note": "Minimum base damage per hit reduced to 8–16 from 8–20."
+              },
+              {
+                "label": "Life steal",
+                "before": "20–28%",
+                "after": "20–26%",
+                "note": "Life steal reduced to 20–26% from 20–28%."
+              },
+              {
+                "label": "Change",
+                "note": "Animation in Endless Banquet|True Form}} while at a high attack speed has been updated."
+              }
+            ]
+          },
+          {
+            "ability": "Endless Banquet",
+            "title": "Endless Banquet",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Health ratio",
+                "before": "25–35 (3 ranks)%|health",
+                "after": "25% of target's missing health at all ranks",
+                "note": "Health ratio reduced to 25% of target's missing health at all ranks from 25–35 (3 ranks)%|health."
+              },
+              {
+                "label": "Bonus attack range",
+                "before": "50–100 (3 ranks)",
+                "after": "50 at all ranks",
+                "note": "Bonus attack range reduced to 50 at all ranks from 50–100 (3 ranks)."
+              },
+              {
+                "label": "Void Remora health",
+                "before": "70%|health at all ranks",
+                "after": "50–70 (3 ranks)% of minion's maximum health",
+                "note": "Void Remora health reduced to 50–70 (3 ranks)% of minion's maximum health from 70%|health at all ranks."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Bonus health is no longer lost from consuming a Void Coral while already in True Form."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Remaining duration of buff no longer occasionally fails to refresh correctly upon consuming Void Coral."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Remora no longer spawn a Void Coral whenever dealing damage to Sion}} under the effect of Glory in Death}}."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "12.13",
+      "version": "12.13",
+      "releaseDate": "2022-07-13",
+      "change": {
+        "id": "belveth",
+        "name": "Bel'Veth",
+        "type": "champion",
+        "assetKey": "Belveth",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 2,
+        "tldr": "Primary resource bar now tracks the remaining duration of Endless Banquet|True Form}}.; Passive stacks are now displayed by a secondary resource indicator under the health bar.",
+        "gameplayImpact": "Bel'Veth loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "General",
+            "title": null,
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Primary resource bar now tracks the remaining duration of Endless Banquet|True Form}}."
+              },
+              {
+                "label": "Change",
+                "note": "Passive stacks are now displayed by a secondary resource indicator under the health bar."
+              }
+            ]
+          },
+          {
+            "ability": "Endless Banquet",
+            "title": "Endless Banquet",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: Ranged Void Remora now properly receive the buff."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Void Corals no longer spawn between the normal realm and the Realm of Death}}."
+              },
+              {
+                "label": "Change",
+                "note": "Size while in True Form has been slightly decreased."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "12.21",
+      "version": "12.21",
+      "releaseDate": "2022-11-02",
+      "change": {
+        "id": "belveth",
+        "name": "Bel'Veth",
+        "type": "champion",
+        "assetKey": "Belveth",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Cooldown increased to 24–18 seconds from 22–16.; Void Remora health reduced to 40–60 (3 ranks)% of minion's maximum health from 50–70 (3 ranks)%|health.",
+        "gameplayImpact": "Bel'Veth loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Royal Maelstrom",
+            "title": "Royal Maelstrom",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Cooldown",
+                "before": "22–16",
+                "after": "24–18 seconds",
+                "note": "Cooldown increased to 24–18 seconds from 22–16."
+              }
+            ]
+          },
+          {
+            "ability": "Endless Banquet",
+            "title": "Endless Banquet",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Void Remora health",
+                "before": "50–70 (3 ranks)%|health",
+                "after": "40–60 (3 ranks)% of minion's maximum health",
+                "note": "Void Remora health reduced to 40–60 (3 ranks)% of minion's maximum health from 50–70 (3 ranks)%|health."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "13.9",
+      "version": "13.9",
+      "releaseDate": "2023-05-03",
+      "change": {
+        "id": "belveth",
+        "name": "Bel'Veth",
+        "type": "champion",
+        "assetKey": "Belveth",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 1,
+        "tldr": "Attack damage growth reduced to 1.5 from 1.7.; Damage against monsters increased to 140% from 120%.",
+        "gameplayImpact": "Bel'Veth was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Attack damage growth",
+                "before": "1",
+                "after": "1.5",
+                "note": "Attack damage growth reduced to 1.5 from 1.7."
+              }
+            ]
+          },
+          {
+            "ability": "Void Surge",
+            "title": "Void Surge",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Damage against monsters",
+                "before": "120%",
+                "after": "140%",
+                "note": "Damage against monsters increased to 140% from 120%."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "13.20",
+      "version": "13.20",
+      "releaseDate": "2023-10-11",
+      "change": {
+        "id": "belveth",
+        "name": "Bel'Veth",
+        "type": "champion",
+        "assetKey": "Belveth",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Bonus attack speed from ability casts reduced to 20+(20/17)*(x-1)*(0.7025+0.0175*(x-1))% from 25–50%.; Damage reduction reduced to 42–70% from 70% at all ranks.",
+        "gameplayImpact": "Bel'Veth was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Death in Lavender",
+            "title": "Death in Lavender",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Bonus attack speed from ability casts",
+                "before": "25–50%",
+                "after": "20+(20/17)*(x-1)*(0.7025+0.0175*(x-1))%",
+                "note": "Bonus attack speed from ability casts reduced to 20+(20/17)*(x-1)*(0.7025+0.0175*(x-1))% from 25–50%."
+              }
+            ]
+          },
+          {
+            "ability": "Royal Maelstrom",
+            "title": "Royal Maelstrom",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Damage reduction",
+                "before": "70% at all ranks",
+                "after": "42–70%",
+                "note": "Damage reduction reduced to 42–70% from 70% at all ranks."
+              },
+              {
+                "label": "Minimum base damage per hit",
+                "before": "8–16",
+                "after": "6–10",
+                "note": "Minimum base damage per hit reduced to 6–10 from 8–16."
+              },
+              {
+                "label": "Maximum base damage per hit",
+                "before": "32–64",
+                "after": "24–40",
+                "note": "Maximum base damage per hit reduced to 24–40 from 32–64."
+              },
+              {
+                "label": "Minimum AD ratio per hit",
+                "before": "6% AD",
+                "after": "8% AD",
+                "note": "Minimum AD ratio per hit increased to 8% AD from 6% AD."
+              },
+              {
+                "label": "Maximum AD ratio per hit",
+                "before": "24% AD",
+                "after": "32% AD",
+                "note": "Maximum AD ratio per hit increased to 32% AD from 24% AD."
+              },
+              {
+                "label": "On-hit, on-attack, and spell modifier",
+                "before": "6–24% (over 0–100)|health",
+                "after": "8–32% (over 0–100)|health",
+                "note": "On-hit, on-attack, and spell modifier increased to 8–32% (over 0–100)|health from 6–24% (over 0–100)|health."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Damage can now critically strike."
+              }
+            ]
+          },
+          {
+            "ability": "Endless Banquet",
+            "title": "Endless Banquet",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Bonus movement speed",
+                "before": "25–75 (3 ranks)",
+                "after": "10–80 (3 ranks)",
+                "note": "Bonus movement speed changed to 10–80 (3 ranks) from 25–75 (3 ranks)."
+              },
+              {
+                "label": "Remora health",
+                "before": "40–60 (3 ranks)%|health",
+                "after": "20–70 (3 ranks)% of minion's maximum health",
+                "note": "Remora health changed to 20–70 (3 ranks)% of minion's maximum health from 40–60 (3 ranks)%|health."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "13.21",
+      "version": "13.21",
+      "releaseDate": "2023-10-25",
+      "change": {
+        "id": "belveth",
+        "name": "Bel'Veth",
+        "type": "champion",
+        "assetKey": "Belveth",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "Cooldown reduced to 20–16 seconds from 24–18.",
+        "gameplayImpact": "Bel'Veth is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Royal Maelstrom",
+            "title": "Royal Maelstrom",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Cooldown",
+                "before": "24–18",
+                "after": "20–16 seconds",
+                "note": "Cooldown reduced to 20–16 seconds from 24–18."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "14.5",
+      "version": "14.5",
+      "releaseDate": "2024-03-06",
+      "change": {
+        "id": "belveth",
+        "name": "Bel'Veth",
+        "type": "champion",
+        "assetKey": "Belveth",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Damage reduction reduced to 35–55% from 42–70%.",
+        "gameplayImpact": "Bel'Veth loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Death in Lavender",
+            "title": "Death in Lavender",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: Per- and takedowns now properly grant 2 Lavender stacks instead of 3."
+              }
+            ]
+          },
+          {
+            "ability": "Royal Maelstrom",
+            "title": "Royal Maelstrom",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Damage reduction",
+                "before": "42–70%",
+                "after": "35–55%",
+                "note": "Damage reduction reduced to 35–55% from 42–70%."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "14.9",
+      "version": "14.9",
+      "releaseDate": "2024-05-01",
+      "change": {
+        "id": "belveth",
+        "name": "Bel'Veth",
+        "type": "champion",
+        "assetKey": "Belveth",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 2,
+        "tldr": "Bonus attack speed per Lavender stack reduced to 0.28–1% from 0.28–1%. Now scales until level 17 instead of 13.; AD ratio reduced to 100% AD from 110% AD.",
+        "gameplayImpact": "Bel'Veth was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Death in Lavender",
+            "title": "Death in Lavender",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Bonus attack speed per Lavender stack",
+                "before": "0",
+                "after": "0.28–1%",
+                "note": "Bonus attack speed per Lavender stack reduced to 0.28–1% from 0.28–1%. Now scales until level 17 instead of 13."
+              }
+            ]
+          },
+          {
+            "ability": "Void Surge",
+            "title": "Void Surge",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "AD ratio",
+                "before": "110% AD",
+                "after": "100% AD",
+                "note": "AD ratio reduced to 100% AD from 110% AD."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: No longer deals 140% damage to monsters."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now deals 45–85 bonus damage to monsters."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "14.14",
+      "version": "14.14",
+      "releaseDate": "2024-07-17",
+      "change": {
+        "id": "belveth",
+        "name": "Bel'Veth",
+        "type": "champion",
+        "assetKey": "Belveth",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 1,
+        "tldr": "Attack range reduced to 150 units from 175.; Bonus attack range increased to 75 units from 50.",
+        "gameplayImpact": "Bel'Veth was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Attack range",
+                "before": "175",
+                "after": "150 units",
+                "note": "Attack range reduced to 150 units from 175."
+              }
+            ]
+          },
+          {
+            "ability": "Endless Banquet",
+            "title": "Endless Banquet",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Bonus attack range",
+                "before": "50",
+                "after": "75 units",
+                "note": "Bonus attack range increased to 75 units from 50."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "25.12",
+      "version": "25.12",
+      "releaseDate": "2025-06-11",
+      "change": {
+        "id": "belveth",
+        "name": "Bel'Veth",
+        "type": "champion",
+        "assetKey": "Belveth",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 2,
+        "tldr": "Cast range increased to 450 units from 275.; Cast no longer seals non-movement summoner spells.",
+        "gameplayImpact": "Bel'Veth was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Endless Banquet",
+            "title": "Endless Banquet",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Cast range",
+                "before": "275",
+                "after": "450 units",
+                "note": "Cast range increased to 450 units from 275."
+              },
+              {
+                "label": "Change",
+                "note": "Cast no longer seals non-movement summoner spells."
+              },
+              {
+                "label": "Change",
+                "note": "Movement summoner spells will buffer to cast at the end of the cast time if permitted."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "25.15",
+      "version": "25.15",
+      "releaseDate": "2025-07-30",
+      "change": {
+        "id": "belveth",
+        "name": "Bel'Veth",
+        "type": "champion",
+        "assetKey": "Belveth",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 2,
+        "tldr": "Bonus attack speed per stack increased to 0.28–1.1% from 0.28+0.045*(x-1) for 17%. Now also scales until level 18 instead of 17.; Base damage reduced to 0–20 from 10–30.",
+        "gameplayImpact": "Bel'Veth was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Death in Lavender",
+            "title": "Death in Lavender",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Bonus attack speed per stack",
+                "before": "0",
+                "after": "0.28–1.1%",
+                "note": "Bonus attack speed per stack increased to 0.28–1.1% from 0.28+0.045*(x-1) for 17%. Now also scales until level 18 instead of 17."
+              }
+            ]
+          },
+          {
+            "ability": "Void Surge",
+            "title": "Void Surge",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "10–30",
+                "after": "0–20",
+                "note": "Base damage reduced to 0–20 from 10–30."
+              },
+              {
+                "label": "Bonus monster damage",
+                "before": "45–85",
+                "after": "55–95",
+                "note": "Bonus monster damage increased to 55–95 from 45–85."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "26.03",
+      "version": "26.03",
+      "releaseDate": "2026-02-04",
+      "change": {
+        "id": "belveth",
+        "name": "Bel'Veth",
+        "type": "champion",
+        "assetKey": "Belveth",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "Health growth increased to 105 from 99.; Base on-hit damage increased to 6–14 (3 ranks) from 6–10 (3 ranks).",
+        "gameplayImpact": "Bel'Veth is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Health growth",
+                "before": "99",
+                "after": "105",
+                "note": "Health growth increased to 105 from 99."
+              }
+            ]
+          },
+          {
+            "ability": "Death in Lavender",
+            "title": "Death in Lavender",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: Fixed an issue where it would prevent the support item from properly executing minions."
+              }
+            ]
+          },
+          {
+            "ability": "Endless Banquet",
+            "title": "Endless Banquet",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base on-hit damage",
+                "before": "6–10 (3 ranks)",
+                "after": "6–14 (3 ranks)",
+                "note": "Base on-hit damage increased to 6–14 (3 ranks) from 6–10 (3 ranks)."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    }
+  ]
+}

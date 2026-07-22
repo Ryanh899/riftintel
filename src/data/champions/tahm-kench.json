@@ -1,0 +1,1155 @@
+{
+  "slug": "tahm-kench",
+  "name": "Tahm Kench",
+  "assetKey": "TahmKench",
+  "entries": [
+    {
+      "patchId": "11.1",
+      "version": "11.1",
+      "releaseDate": "2021-01-06",
+      "change": {
+        "id": "tahm-kench",
+        "name": "Tahm Kench",
+        "type": "champion",
+        "assetKey": "TahmKench",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Base magic resistance reduced to 32 from 32.1.",
+        "gameplayImpact": "Tahm Kench loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base magic resistance",
+                "before": "32",
+                "after": "32",
+                "note": "Base magic resistance reduced to 32 from 32.1."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "11.13",
+      "version": "11.13",
+      "releaseDate": "2021-06-23",
+      "change": {
+        "id": "tahm-kench",
+        "name": "Tahm Kench",
+        "type": "champion",
+        "assetKey": "TahmKench",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Base health reduced to 570 from 600.; Health growth reduced to 95 from 100.",
+        "gameplayImpact": "Tahm Kench was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Base health",
+                "before": "600",
+                "after": "570",
+                "note": "Base health reduced to 570 from 600."
+              },
+              {
+                "label": "Health growth",
+                "before": "100",
+                "after": "95",
+                "note": "Health growth reduced to 95 from 100."
+              },
+              {
+                "label": "Mana growth",
+                "before": "40",
+                "after": "50",
+                "note": "Mana growth increased to 50 from 40."
+              },
+              {
+                "label": "Base armor",
+                "before": "47",
+                "after": "42",
+                "note": "Base armor reduced to 42 from 47."
+              }
+            ]
+          },
+          {
+            "ability": "An Acquired Taste",
+            "title": "An Acquired Taste",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Health ratio",
+                "before": "4%|health",
+                "after": "2.5% maximum health",
+                "note": "Health ratio reduced to 2.5% maximum health from 4%|health."
+              }
+            ]
+          },
+          {
+            "ability": "Tongue Lash",
+            "title": "Tongue Lash",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Cooldown",
+                "before": "5 at all ranks",
+                "after": "7–5 seconds",
+                "note": "Cooldown increased to 7–5 seconds from 5 at all ranks."
+              },
+              {
+                "label": "Mana cost",
+                "before": "50 at all ranks",
+                "after": "50–34",
+                "note": "Mana cost reduced to 50–34 from 50 at all ranks."
+              },
+              {
+                "label": "Undocumented: Range",
+                "before": "930",
+                "after": "cr 900",
+                "note": "Undocumented: Range reduced to cr 900 from 930."
+              },
+              {
+                "label": "Slow",
+                "before": "30–70%",
+                "after": "40% at all ranks",
+                "note": "Slow changed to 40% at all ranks from 30–70%."
+              },
+              {
+                "label": "Slow duration",
+                "before": "3",
+                "after": "2 seconds",
+                "note": "Slow duration reduced to 2 seconds from 3."
+              },
+              {
+                "label": "Stun duration",
+                "before": "2",
+                "after": "1.5 seconds",
+                "note": "Stun duration reduced to 1.5 seconds from 2."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now applies a stack of An Acquired Taste}} against champions."
+              },
+              {
+                "label": "Change",
+                "note": "Does not apply damage."
+              },
+              {
+                "label": "Change",
+                "note": "Hitting champions with 3 stacks still consumes all their stacks to stun them."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Range and missile speed now scales up with his size."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now heals for 6–10% missing health upon hitting enemy champions."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Can now Devour}} enemy champions with three stacks of An Acquired Taste}} if Tongue Lash hits them."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Can no longer activate Devour}} to eat minions or jungle monsters."
+              },
+              {
+                "label": "Change",
+                "note": "Swapped with Devour}}."
+              },
+              {
+                "label": "Change",
+                "note": "Renamed to Abyssal Dive from Abyssal Voyage."
+              },
+              {
+                "label": "Change",
+                "note": "Active: Tahm Kench channel for 1.35 seconds, and upon completion blink to the target location after a 0.15-second delay. Upon arrival, he deals 100–240 (+ 100% AP) magic damage to nearby enemies and airborne and stun them for 1 second. Hitting at least 1 enemy champion refunds 30% of the cooldown and mana cost."
+              },
+              {
+                "label": "Change",
+                "note": "Enemies can see the indicator of this ability after he has channeled for 0.75 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Allies may travel with Tahm if they are Devour|Devoured}}, but can still exit early at any time."
+              },
+              {
+                "label": "Change",
+                "note": "Tahm Kench is lockout for 0.65 seconds after the end of the channel."
+              },
+              {
+                "label": "Change",
+                "note": "Cooldown: 21–17 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Mana Cost: 60–120."
+              },
+              {
+                "label": "Change",
+                "note": "Cast Range: 1000–1200."
+              }
+            ]
+          },
+          {
+            "ability": "Thick Skin",
+            "title": "Thick Skin",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Grey health timer",
+                "before": "2",
+                "after": "4 seconds",
+                "note": "Grey health timer increased to 4 seconds from 2.5."
+              },
+              {
+                "label": "Shield duration",
+                "before": "2",
+                "after": "2.5 seconds",
+                "note": "Shield duration increased to 2.5 seconds from 2."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Grey health is now capped at 300% maximum health."
+              },
+              {
+                "label": "Healing",
+                "before": "12–209 (lv 1–18) per 0",
+                "after": "10% maximum health per",
+                "note": "Healing changed to 10% maximum health per from 12–209 (lv 1–18) per 0.8 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Swapped with Abyssal Voyage}}."
+              },
+              {
+                "label": "Change",
+                "note": "Active: Tahm Kench swallows the target champion for up to 3 seconds, rendering them vanish and lockout, as well as granting them displacement immunity for the duration. Devour can be recast after 1 second, and does so automatically at the end of the duration."
+              },
+              {
+                "label": "Change",
+                "note": "Devour will not automatically recast while Tahm Kench is performing Abyssal Dive}}, and will instead do so after he has finished."
+              },
+              {
+                "label": "Change",
+                "note": "If the target is an ally, they are granted a 300–600 (3 ranks) (+ 100% AP) shield for 2.5 seconds, refreshing after being spat out."
+              },
+              {
+                "label": "Change",
+                "note": "Allies can exit at will by inputting a movement command, unless they're immobilize or the recast is on cooldown."
+              },
+              {
+                "label": "Change",
+                "note": "Tahm Kench is unable to cast movement spells and is slow by 40–10 (3 ranks)% while an ally is swallowed, but may still cast Abyssal Dive}}."
+              },
+              {
+                "label": "Change",
+                "note": "Allies can see if this spell is ready next to his health bar."
+              },
+              {
+                "label": "Change",
+                "note": "If the target is an enemy, they are suppression for the duration and dealt 100–400 (3 ranks) (+ 15% magic damage after the displacement ends."
+              },
+              {
+                "label": "Change",
+                "note": "Devour can only be cast on enemies with 3 stacks of An Acquired Taste}}, consuming the stacks in the process."
+              },
+              {
+                "label": "Change",
+                "note": "Tahm Kench is ground and slow by 40% while an enemy is swallowed."
+              },
+              {
+                "label": "Change",
+                "note": "Recast: Tahm Kench airborne the target out in the target direction."
+              },
+              {
+                "label": "Change",
+                "note": "Cooldown: 120–80 (3 ranks) seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Mana Cost: 100."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "11.14",
+      "version": "11.14",
+      "releaseDate": "2021-07-08",
+      "change": {
+        "id": "tahm-kench",
+        "name": "Tahm Kench",
+        "type": "champion",
+        "assetKey": "TahmKench",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "New Effect: Now has a base damage of 12–60 (lv 1–18).; Health ratio reduced to 2.5% bonus health from 2.5% maximum health.",
+        "gameplayImpact": "Tahm Kench was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "An Acquired Taste",
+            "title": "An Acquired Taste",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Now has a base damage of 12–60 (lv 1–18)."
+              },
+              {
+                "label": "Health ratio",
+                "before": "2",
+                "after": "2.5% bonus health",
+                "note": "Health ratio reduced to 2.5% bonus health from 2.5% maximum health."
+              },
+              {
+                "label": "Change",
+                "note": "Previously granted 2.5/100*(570+95*(x-1)*(0.7025+0.0175*(x-1))) damage from base health."
+              }
+            ]
+          },
+          {
+            "ability": "Tongue Lash",
+            "title": "Tongue Lash",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Now applies damage."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now has a base heal of 15–35."
+              },
+              {
+                "label": "Heal health ratio",
+                "before": "6–10%|health",
+                "after": "4–6% missing health",
+                "note": "Heal health ratio reduced to 4–6% missing health from 6–10%|health."
+              }
+            ]
+          },
+          {
+            "ability": "Abyssal Dive",
+            "title": "Abyssal Dive",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: Fixed a bug where its cooldown refund would not scale with ability haste."
+              },
+              {
+                "label": "Cooldown refund",
+                "before": "30%",
+                "after": "40%",
+                "note": "Cooldown refund increased to 40% from 30%."
+              },
+              {
+                "label": "Mana cost refund",
+                "before": "30%",
+                "after": "40%",
+                "note": "Mana cost refund increased to 40% from 30%."
+              }
+            ]
+          },
+          {
+            "ability": "Devour",
+            "title": "Devour",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: Fixed a bug where he could Devour an enemy without full stacks of An Acquired Taste if he queued the spell before the stacks fell off."
+              },
+              {
+                "label": "Base shield",
+                "before": "300–600 (3 ranks)",
+                "after": "400–600 (3 ranks)",
+                "note": "Base shield increased to 400–600 (3 ranks) from 300–600 (3 ranks)."
+              },
+              {
+                "label": "Ally self slow",
+                "before": "40–10 (3 ranks)%",
+                "after": "30–10 (3 ranks)%",
+                "note": "Ally self slow reduced to 30–10 (3 ranks)% from 40–10 (3 ranks)%."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "11.16",
+      "version": "11.16",
+      "releaseDate": "2021-08-11",
+      "change": {
+        "id": "tahm-kench",
+        "name": "Tahm Kench",
+        "type": "champion",
+        "assetKey": "TahmKench",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Base damage reduced to 8–60 (lv 1–18) from 12–60 (lv 1–18).; Base heal reduced to 10–30 from 15–35.",
+        "gameplayImpact": "Tahm Kench loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "An Acquired Taste",
+            "title": "An Acquired Taste",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "12–60 (lv 1–18)",
+                "after": "8–60 (lv 1–18)",
+                "note": "Base damage reduced to 8–60 (lv 1–18) from 12–60 (lv 1–18)."
+              }
+            ]
+          },
+          {
+            "ability": "Tongue Lash",
+            "title": "Tongue Lash",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base heal",
+                "before": "15–35",
+                "after": "10–30",
+                "note": "Base heal reduced to 10–30 from 15–35."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "12.2",
+      "version": "12.2",
+      "releaseDate": "2022-01-20",
+      "change": {
+        "id": "tahm-kench",
+        "name": "Tahm Kench",
+        "type": "champion",
+        "assetKey": "TahmKench",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Slow increased to 50% from 40%.; Damage stored as grey health reduced to 15–55% from 45–65%.",
+        "gameplayImpact": "Tahm Kench was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Tongue Lash",
+            "title": "Tongue Lash",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Slow",
+                "before": "40%",
+                "after": "50%",
+                "note": "Slow increased to 50% from 40%."
+              }
+            ]
+          },
+          {
+            "ability": "Thick Skin",
+            "title": "Thick Skin",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Damage stored as grey health",
+                "before": "45–65%",
+                "after": "15–55%",
+                "note": "Damage stored as grey health reduced to 15–55% from 45–65%."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Damage stored as grey health is now increased to 45–65% if he is near at least 2 visible enemy champions (dead or alive)."
+              },
+              {
+                "label": "Damage healed",
+                "before": "30–100%",
+                "after": "45–100%",
+                "note": "Damage healed increased to 45–100% from 30–100%."
+              }
+            ]
+          },
+          {
+            "ability": "Devour",
+            "title": "Devour",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Base shield",
+                "before": "400–600 (3 ranks)",
+                "after": "500–900 (3 ranks)",
+                "note": "Base shield increased to 500–900 (3 ranks) from 400–600 (3 ranks)."
+              },
+              {
+                "label": "Shield AP ratio",
+                "before": "100% AP",
+                "after": "150% AP",
+                "note": "Shield AP ratio increased to 150% AP from 100% AP."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Devouring an ally no longer slows him by 30–10 (3 ranks)%."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now gains 40% bonus movement for 3 seconds if he devours an ally."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "12.6",
+      "version": "12.6",
+      "releaseDate": "2022-03-30",
+      "change": {
+        "id": "tahm-kench",
+        "name": "Tahm Kench",
+        "type": "champion",
+        "assetKey": "TahmKench",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Removed: No longer renders the target vanish while they are swallowed.; It still grants them untargetability.",
+        "gameplayImpact": "Tahm Kench loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Devour",
+            "title": "Devour",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Removed: No longer renders the target vanish while they are swallowed."
+              },
+              {
+                "label": "Change",
+                "note": "It still grants them untargetability."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "12.10",
+      "version": "12.10",
+      "releaseDate": "2022-05-25",
+      "change": {
+        "id": "tahm-kench",
+        "name": "Tahm Kench",
+        "type": "champion",
+        "assetKey": "TahmKench",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Base health increased to 640 from 570.; Health growth increased to 109 from 95.",
+        "gameplayImpact": "Tahm Kench was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base health",
+                "before": "570",
+                "after": "640",
+                "note": "Base health increased to 640 from 570."
+              },
+              {
+                "label": "Health growth",
+                "before": "95",
+                "after": "109",
+                "note": "Health growth increased to 109 from 95."
+              },
+              {
+                "label": "Armor growth",
+                "before": "3",
+                "after": "4.7",
+                "note": "Armor growth increased to 4.7 from 3.5."
+              },
+              {
+                "label": "Magic resistance growth",
+                "before": "1",
+                "after": "2.05",
+                "note": "Magic resistance growth increased to 2.05 from 1.25."
+              }
+            ]
+          },
+          {
+            "ability": "Tongue Lash",
+            "title": "Tongue Lash",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base heal",
+                "before": "10–30",
+                "after": "10–20",
+                "note": "Base heal reduced to 10–20 from 10–30."
+              },
+              {
+                "label": "Heal health ratio",
+                "before": "4–6%|health",
+                "after": "3–5% missing health",
+                "note": "Heal health ratio reduced to 3–5% missing health from 4–6%|health."
+              }
+            ]
+          },
+          {
+            "ability": "Thick Skin",
+            "title": "Thick Skin",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Damage stored",
+                "before": "15–55%",
+                "after": "13–45%",
+                "note": "Damage stored reduced to 13–45% from 15–55%."
+              },
+              {
+                "label": "Damage stored near multiple enemies",
+                "before": "45–65%",
+                "after": "40–50%",
+                "note": "Damage stored near multiple enemies reduced to 40–50% from 45–65%."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "12.11",
+      "version": "12.11",
+      "releaseDate": "2022-06-08",
+      "change": {
+        "id": "tahm-kench",
+        "name": "Tahm Kench",
+        "type": "champion",
+        "assetKey": "TahmKench",
+        "roles": [],
+        "direction": "buff",
+        "severity": 2,
+        "tldr": "Health ratio increased to 4% bonus health from 2.5%|health.; Base heal increased to 10–30 from 10–20.",
+        "gameplayImpact": "Tahm Kench is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "An Acquired Taste",
+            "title": "An Acquired Taste",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Health ratio",
+                "before": "2",
+                "after": "4% bonus health",
+                "note": "Health ratio increased to 4% bonus health from 2.5%|health."
+              }
+            ]
+          },
+          {
+            "ability": "Tongue Lash",
+            "title": "Tongue Lash",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base heal",
+                "before": "10–20",
+                "after": "10–30",
+                "note": "Base heal increased to 10–30 from 10–20."
+              }
+            ]
+          },
+          {
+            "ability": "Devour",
+            "title": "Devour",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base shield",
+                "before": "500–900 (3 ranks)",
+                "after": "650–950 (3 ranks)",
+                "note": "Base shield increased to 650–950 (3 ranks) from 500–900 (3 ranks)."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "12.19",
+      "version": "12.19",
+      "releaseDate": "2022-10-05",
+      "change": {
+        "id": "tahm-kench",
+        "name": "Tahm Kench",
+        "type": "champion",
+        "assetKey": "TahmKench",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "AP ratio increased to 90% AP from 70% AP.; AP ratio increased to 125% AP from 100% AP.",
+        "gameplayImpact": "Tahm Kench is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Tongue Lash",
+            "title": "Tongue Lash",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "AP ratio",
+                "before": "70% AP",
+                "after": "90% AP",
+                "note": "AP ratio increased to 90% AP from 70% AP."
+              }
+            ]
+          },
+          {
+            "ability": "Abyssal Dive",
+            "title": "Abyssal Dive",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "AP ratio",
+                "before": "100% AP",
+                "after": "125% AP",
+                "note": "AP ratio increased to 125% AP from 100% AP."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "12.23",
+      "version": "12.23",
+      "releaseDate": "2022-12-07",
+      "change": {
+        "id": "tahm-kench",
+        "name": "Tahm Kench",
+        "type": "champion",
+        "assetKey": "TahmKench",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "New Effect: Damage now scales with .; Damage AP ratio increased to 100% AP from 90% AP.",
+        "gameplayImpact": "Tahm Kench was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "An Acquired Taste",
+            "title": "An Acquired Taste",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Damage now scales with ."
+              }
+            ]
+          },
+          {
+            "ability": "Tongue Lash",
+            "title": "Tongue Lash",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Damage AP ratio",
+                "before": "90% AP",
+                "after": "100% AP",
+                "note": "Damage AP ratio increased to 100% AP from 90% AP."
+              },
+              {
+                "label": "Heal health ratio",
+                "before": "3–5%|health",
+                "after": "5–7% missing health",
+                "note": "Heal health ratio increased to 5–7% missing health from 3–5%|health."
+              }
+            ]
+          },
+          {
+            "ability": "Abyssal Dive",
+            "title": "Abyssal Dive",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "AP ratio",
+                "before": "125% AP",
+                "after": "150% AP",
+                "note": "AP ratio increased to 150% AP from 125% AP."
+              }
+            ]
+          },
+          {
+            "ability": "Thick Skin",
+            "title": "Thick Skin",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Damage stored",
+                "before": "13–45%",
+                "after": "15–47%",
+                "note": "Damage stored increased to 15–47% from 13–45%."
+              },
+              {
+                "label": "Damage stored near multiple enemies",
+                "before": "40–50%",
+                "after": "42–50%",
+                "note": "Damage stored near multiple enemies increased to 42–50% from 40–50%."
+              }
+            ]
+          },
+          {
+            "ability": "Devour",
+            "title": "Devour",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Removed: Shield duration no longer ends after 2.5 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Shield strength now decays by 50 every 0.25 seconds after the target is Regurgitate|Regurgitated}}."
+              }
+            ]
+          },
+          {
+            "ability": "Regurgitate",
+            "title": "Regurgitate",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "AP ratio",
+                "before": "5% per 100 AP",
+                "after": "7% per 100 AP",
+                "note": "AP ratio increased to 7% per 100 AP from 5% per 100 AP."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "13.21",
+      "version": "13.21",
+      "releaseDate": "2023-10-25",
+      "change": {
+        "id": "tahm-kench",
+        "name": "Tahm Kench",
+        "type": "champion",
+        "assetKey": "TahmKench",
+        "roles": [],
+        "direction": "buff",
+        "severity": 2,
+        "tldr": "Base damage changed to 6–48 from 8–60.; Health ratio increased to 5% bonus health from 3%|health.",
+        "gameplayImpact": "Tahm Kench is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "An Acquired Taste",
+            "title": "An Acquired Taste",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "8–60",
+                "after": "6–48",
+                "note": "Base damage changed to 6–48 from 8–60."
+              },
+              {
+                "label": "Health ratio",
+                "before": "3%|health",
+                "after": "5% bonus health",
+                "note": "Health ratio increased to 5% bonus health from 3%|health."
+              }
+            ]
+          },
+          {
+            "ability": "Abyssal Dive",
+            "title": "Abyssal Dive",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Cooldown refund",
+                "before": "40% at all ranks",
+                "after": "40–50%",
+                "note": "Cooldown refund increased to 40–50% from 40% at all ranks."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "13.22",
+      "version": "13.22",
+      "releaseDate": "2023-11-08",
+      "change": {
+        "id": "tahm-kench",
+        "name": "Tahm Kench",
+        "type": "champion",
+        "assetKey": "TahmKench",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Health ratio reduced to 4% bonus health from 5%|health.",
+        "gameplayImpact": "Tahm Kench loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "An Acquired Taste",
+            "title": "An Acquired Taste",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Health ratio",
+                "before": "5%|health",
+                "after": "4% bonus health",
+                "note": "Health ratio reduced to 4% bonus health from 5%|health."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "14.23",
+      "version": "14.23",
+      "releaseDate": "2024-11-20",
+      "change": {
+        "id": "tahm-kench",
+        "name": "Tahm Kench",
+        "type": "champion",
+        "assetKey": "TahmKench",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "AP ratio reduced to 1.5% AP per 100 bonus health from 2% AP per 100 bonus health.; Shield AP ratio reduced to 100% AP from 150% AP.",
+        "gameplayImpact": "Tahm Kench loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "An Acquired Taste",
+            "title": "An Acquired Taste",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "AP ratio",
+                "before": "2% AP per 100 bonus health",
+                "after": "1.5% AP per 100 bonus health",
+                "note": "AP ratio reduced to 1.5% AP per 100 bonus health from 2% AP per 100 bonus health."
+              }
+            ]
+          },
+          {
+            "ability": "Devour",
+            "title": "Devour",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Shield AP ratio",
+                "before": "150% AP",
+                "after": "100% AP",
+                "note": "Shield AP ratio reduced to 100% AP from 150% AP."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "25.S1.2",
+      "version": "25.S1.2",
+      "releaseDate": "2025-01-23",
+      "change": {
+        "id": "tahm-kench",
+        "name": "Tahm Kench",
+        "type": "champion",
+        "assetKey": "TahmKench",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Base damage reduced to 75–255 from 80–280.",
+        "gameplayImpact": "Tahm Kench loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Tongue Lash",
+            "title": "Tongue Lash",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "80–280",
+                "after": "75–255",
+                "note": "Base damage reduced to 75–255 from 80–280."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "26.08",
+      "version": "26.08",
+      "releaseDate": "2026-04-15",
+      "change": {
+        "id": "tahm-kench",
+        "name": "Tahm Kench",
+        "type": "champion",
+        "assetKey": "TahmKench",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 2,
+        "tldr": "Base damage changed to 5–60 from 6–48.; Bonus health ratio reduced to 4% of Tahm Kench's bonus health from 4.5%|hp",
+        "gameplayImpact": "Tahm Kench loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "An Acquired Taste",
+            "title": "An Acquired Taste",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "6–48",
+                "after": "5–60",
+                "note": "Base damage changed to 5–60 from 6–48."
+              },
+              {
+                "label": "Bonus health ratio",
+                "before": "4",
+                "after": "4% of Tahm Kench's bonus health",
+                "note": "Bonus health ratio reduced to 4% of Tahm Kench's bonus health from 4.5%|hp"
+              },
+              {
+                "label": "AP ratio",
+                "before": "1",
+                "after": "1.25% AP per 100 bonus health",
+                "note": "AP ratio reduced to 1.25% AP per 100 bonus health from 1.5%| AP"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "26.09",
+      "version": "26.09",
+      "releaseDate": "2026-04-29",
+      "change": {
+        "id": "tahm-kench",
+        "name": "Tahm Kench",
+        "type": "champion",
+        "assetKey": "TahmKench",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "Grey Health into health conversion increased to 60–100% from 45–100%.; Bonus movement speed on ally Devour increased to 60% from 40%.",
+        "gameplayImpact": "Tahm Kench is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Thick Skin",
+            "title": "Thick Skin",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Grey Health into health conversion",
+                "before": "45–100%",
+                "after": "60–100%",
+                "note": "Grey Health into health conversion increased to 60–100% from 45–100%."
+              }
+            ]
+          },
+          {
+            "ability": "Devour",
+            "title": "Devour",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Bonus movement speed on ally Devour",
+                "before": "40%",
+                "after": "60%",
+                "note": "Bonus movement speed on ally Devour increased to 60% from 40%."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    }
+  ]
+}

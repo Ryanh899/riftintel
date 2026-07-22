@@ -1,0 +1,2121 @@
+{
+  "slug": "zeri",
+  "name": "Zeri",
+  "assetKey": "Zeri",
+  "entries": [
+    {
+      "patchId": "12.2",
+      "version": "12.2",
+      "releaseDate": "2022-01-20",
+      "change": {
+        "id": "zeri",
+        "name": "Zeri",
+        "type": "champion",
+        "assetKey": "Zeri",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Zeri generates 1 charge for every 40 units she travels by any means and 10 charge every time she casts Burst Fire}}, up to a maximum of 100 charge. Her basic attacks consume charge to deal modified damage. Zeri gains …",
+        "gameplayImpact": "Zeri was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Basic Attack",
+            "title": "Basic Attack",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Zeri generates 1 charge for every 40 units she travels by any means and 10 charge every time she casts Burst Fire}}, up to a maximum of 100 charge. Her basic attacks consume charge to deal modified damage. Zeri gains maximum charge when the game starts and upon respawning."
+              },
+              {
+                "label": "Change",
+                "note": "Basic Attack: Zeri zaps her target, becoming projectile and applying spell effects as spell damage. Zeri's basic attacks cannot critical strike nor trigger on-hit and on-attack effects."
+              },
+              {
+                "label": "Change",
+                "note": "While not at full charge, Zeri's attacks consume 10 charge to deal 15+(25/17)*(x-1)*(0.7025+0.0175*(x-1))|magic damage (+ 4% AP) magic damage. Against enemies below 35% health, this is increasedShe may still use an uncharged attack even while below 10 charge."
+              },
+              {
+                "label": "Change",
+                "note": "At full charge, Zeri's next attack will consume all charge to deal 90+(110/17)*(x-1)*(0.7025+0.0175*(x-1))|magic damage (+ 80% AP) (+ 3+(17/17)*(x-1)*(0.7025+0.0175*(x-1))% of target's maximum health) magic damage and slow the target by 20px% for 1.5 seconds. The damage based on the target's health ratio is capped at 300 against monsters."
+              },
+              {
+                "label": "Change",
+                "note": "Zeri's basic attacks have 500 attack range and are non-projectiles."
+              },
+              {
+                "label": "Change",
+                "note": "Innate: Zeri absorbs the energy of shield she damages, shielding herself equal to 60% of the dealt to the shield. Each instance of shield gained by Living Battery lasts for 3 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Innate: Whenever Zeri receives a shield, she gains 10% bonus movement speed for 3 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Passive: Zeri's slow application from a Basic Attack 2|charged}} basic attack has its strength increased to 20–40%."
+              },
+              {
+                "label": "Change",
+                "note": "Active: Zeri fires a burst of 7 rounds in the target direction that deal a total of 10–30 (+ 110% AD) physical damage to the first enemy hit."
+              },
+              {
+                "label": "Change",
+                "note": "Burst Fire's effects are treated as a basic attack; it can hit any enemy unit a typical basic attack can, deals basic damage, can critical strike for bonus damage and apply on-hit and on-attack effects at 100% effectiveness once on each target struck. Burst Fire's cooldown and cast time scale down with attack speed, with the maximum of 1.5 attacks per second. 50% of attack speed in excess of the cap is converted into bonus attack damage."
+              },
+              {
+                "label": "Change",
+                "note": "Cost: None"
+              },
+              {
+                "label": "Change",
+                "note": "Cooldown: (1/Zeri's attack speed) seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Range: cr , Width: er , Speed: / ."
+              },
+              {
+                "label": "Change",
+                "note": "Active: Zeri fires an electric pulse in the target direction that deals 40–180 (+ 100% AD) (+ 60% AP) magic damage to the first enemy hit and slow them by 50–70% for 1–2 seconds. If the pulse collides with terrain, it transforms into a laser in a line from the point of impact that grants sight of the area for 1.75 seconds and fires after 0.75 seconds, applying the same effects to all enemies caught within."
+              },
+              {
+                "label": "Change",
+                "note": "Mana Cost: 50–90."
+              },
+              {
+                "label": "Change",
+                "note": "Cooldown: 10 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Range: cr / er , Width: er / er , Speed: / ."
+              },
+              {
+                "label": "Change",
+                "note": "Active: Zeri dash in the target direction. Afterwards, she energizes her next 3 casts of Burst Fire 2|Burst Fire}} within 6 seconds, causing them to pierce through enemies, though dealing 80–100% damage after the first and not applying attack effects to secondary targets. This damage is affected by critical strike modifiers."
+              },
+              {
+                "label": "Change",
+                "note": "Zeri will dash farther across terrain if Spark Surge was cast within 50 units of any, gaining unobstructed vision of the surrounding 800 units and sight herself while there are enemy champions within 800 units of her."
+              },
+              {
+                "label": "Change",
+                "note": "Spark Surge's cooldown is reduced by 1.5 seconds for every champion Zeri hits with Basic Attack 2|charged}} basic attacks or abilities."
+              },
+              {
+                "label": "Change",
+                "note": "Spark Surge basic attack reset Zeri's basic attack timer and cooldown. Zeri can cast Ultrashock Laser}} and Lightning Crash}} while dash."
+              },
+              {
+                "label": "Change",
+                "note": "Mana Cost: 80."
+              },
+              {
+                "label": "Change",
+                "note": "Cooldown: seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Range: , Speed: 600 + 100% movement speed|ms, Cast Time: None."
+              },
+              {
+                "label": "Change",
+                "note": "Active: Zeri discharges a nova of electricity around her, dealing 150–350 (3 ranks) (+ 80% bonus AD) (+ 80% AP) magic damage to all nearby enemies."
+              },
+              {
+                "label": "Change",
+                "note": "If Lightning Crash hits at least one enemy champion, Zeri becomes Overcharged for 6 seconds, and gains 3 stacks of Overcharge per champion hit. Each stack grants her 2% bonus movement speed. She gains a stack of Overcharge each time she hits an enemy champion with a Basic Attack 2|charged}} basic attack or ability, refreshing the duration of Overcharge by 2 seconds in the process."
+              },
+              {
+                "label": "Change",
+                "note": "While Overcharged, Zeri gains 30–40 (3 ranks)% bonus attack speed and deals 10–30 (3 ranks) on-hit, and empowers Burst Fire 3|Burst Fire}} to instead fire 3 rounds over a 20% shorter cast time that are electrified and travelling with increased speed. These rounds deal the bonus magic damage to the target struck and the closest sight enemy, chaining up to 4 subsequent targets. Secondary targets are dealt 25% AD physical damage, which can critical strike for physical damage."
+              },
+              {
+                "label": "Change",
+                "note": "Mana Cost: 100."
+              },
+              {
+                "label": "Change",
+                "note": "Cooldown: seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Effect Radius: cr , Cast Time: 0.25 seconds."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "12.3",
+      "version": "12.3",
+      "releaseDate": "2022-02-02",
+      "change": {
+        "id": "zeri",
+        "name": "Zeri",
+        "type": "champion",
+        "assetKey": "Zeri",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 2,
+        "tldr": "Base movement speed reduced to 325 from 330.; Health ratio reduced to 3+(17/17)*(x-1)*(0.7025+0.0002*(x-1))% of target's maximum health from 3+(17/17)*(x-1)*(0.7025+0.0175*(x-1))%|health",
+        "gameplayImpact": "Zeri was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "General",
+            "title": null,
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: Several VFX now properly display correctly upon reconnecting to a game."
+              }
+            ]
+          },
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base movement speed",
+                "before": "330",
+                "after": "325",
+                "note": "Base movement speed reduced to 325 from 330."
+              }
+            ]
+          },
+          {
+            "ability": "Basic Attack",
+            "title": "Basic Attack",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Health ratio",
+                "before": "3+(17/17)*(x-1)*(0",
+                "after": "3+(17/17)*(x-1)*(0.7025+0.0002*(x-1))% of target's maximum health",
+                "note": "Health ratio reduced to 3+(17/17)*(x-1)*(0.7025+0.0002*(x-1))% of target's maximum health from 3+(17/17)*(x-1)*(0.7025+0.0175*(x-1))%|health"
+              }
+            ]
+          },
+          {
+            "ability": "Burst Fire",
+            "title": "Burst Fire",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: Runaan's Hurricane}} Winds Fury now triggers even if she is facing away from the target when the rounds hit."
+              }
+            ]
+          },
+          {
+            "ability": "Spark Surge",
+            "title": "Spark Surge",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: Now properly vaults over Crystallize (Anivia)}} and Pillar of Ice (Trundle)}} instead of dashing over them."
+              }
+            ]
+          },
+          {
+            "ability": "Lightning Crash",
+            "title": "Lightning Crash",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Chain lightning base damage",
+                "before": "10–30 (3 ranks)",
+                "after": "10–20 (3 ranks)",
+                "note": "Chain lightning base damage reduced to 10–20 (3 ranks) from 10–30 (3 ranks)."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Chain lightning magic damage can now critically strike."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "12.4",
+      "version": "12.4",
+      "releaseDate": "2022-02-16",
+      "change": {
+        "id": "zeri",
+        "name": "Zeri",
+        "type": "champion",
+        "assetKey": "Zeri",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Uncharged base damage reduced to 10+((25-10)/17)*(x-1)*(0.7025+0.0175*(x-1)) from 15+((40-15)/17)*(x-1)*(0.7025+0.0175*(x-1)).; Uncharged AP ratio reduced to 3% AP from 4% AP.",
+        "gameplayImpact": "Zeri was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Basic Attack",
+            "title": "Basic Attack",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Uncharged base damage",
+                "before": "15+((40-15)/17)*(x-1)*(0",
+                "after": "10+((25-10)/17)*(x-1)*(0.7025+0.0175*(x-1))",
+                "note": "Uncharged base damage reduced to 10+((25-10)/17)*(x-1)*(0.7025+0.0175*(x-1)) from 15+((40-15)/17)*(x-1)*(0.7025+0.0175*(x-1))."
+              },
+              {
+                "label": "Uncharged AP ratio",
+                "before": "4% AP",
+                "after": "3% AP",
+                "note": "Uncharged AP ratio reduced to 3% AP from 4% AP."
+              },
+              {
+                "label": "Uncharged bonus damage factor against low health targets",
+                "before": "300%",
+                "after": "500%",
+                "note": "Uncharged bonus damage factor against low health targets increased to 500% from 300%."
+              },
+              {
+                "label": "Uncharged base damage against low health targets",
+                "before": "60+((160-60)/17)*(x-1)*(0",
+                "after": "60+((150-60)/17)*(x-1)*(0.7025+0.0175*(x-1))",
+                "note": "Uncharged base damage against low health targets reduced to 60+((150-60)/17)*(x-1)*(0.7025+0.0175*(x-1)) from 60+((160-60)/17)*(x-1)*(0.7025+0.0175*(x-1))."
+              },
+              {
+                "label": "Uncharged AP ratio against low health targets",
+                "before": "16% AP",
+                "after": "18% AP",
+                "note": "Uncharged AP ratio against low health targets increased to 18% AP from 16% AP."
+              },
+              {
+                "label": "Charged slow duration",
+                "before": "1",
+                "after": "1 second",
+                "note": "Charged slow duration reduced to 1 second from 1.5."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now stacks Mana Charge."
+              }
+            ]
+          },
+          {
+            "ability": "Burst Fire",
+            "title": "Burst Fire",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Basic Attack}} slow",
+                "before": "20–40%",
+                "after": "14–50%",
+                "note": "Basic Attack}} slow changed to 14–50% from 20–40%."
+              },
+              {
+                "label": "Total base damage",
+                "before": "10–30",
+                "after": "9–25",
+                "note": "Total base damage reduced to 9–25 from 10–30."
+              },
+              {
+                "label": "Base damage per hit",
+                "before": "10/7 to 30/7",
+                "after": "9/7 to 25/7",
+                "note": "Base damage per hit reduced to 9/7 to 25/7 from 10/7 to 30/7."
+              },
+              {
+                "label": "Bonus attack damage per excess attack speed",
+                "before": "0",
+                "after": "0.6",
+                "note": "Bonus attack damage per excess attack speed increased to 0.6 from 0.5."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Cooldown is no longer reduced by Navori Quickblades}}."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: No longer stacks Mana Charge."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Base damage is now factored into its critical strike."
+              }
+            ]
+          },
+          {
+            "ability": "Ultrashock Laser",
+            "title": "Ultrashock Laser",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Cooldown",
+                "before": "10 at all ranks",
+                "after": "13–9 seconds",
+                "note": "Cooldown changed to 13–9 seconds from 10 at all ranks."
+              },
+              {
+                "label": "Slow",
+                "before": "50–70%",
+                "after": "30–70%",
+                "note": "Slow reduced to 30–70% from 50–70%."
+              }
+            ]
+          },
+          {
+            "ability": "Spark Surge",
+            "title": "Spark Surge",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Cooldown",
+                "before": "23–17",
+                "after": "23–19 seconds",
+                "note": "Cooldown increased to 23–19 seconds from 23–17."
+              },
+              {
+                "label": "Cooldown reduction",
+                "before": "1",
+                "after": "1 second",
+                "note": "Cooldown reduction reduced to 1 second from 1.5."
+              }
+            ]
+          },
+          {
+            "ability": "Lightning Crash",
+            "title": "Lightning Crash",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Bonus attack speed",
+                "before": "30–40 (3 ranks)%",
+                "after": "30% at all ranks",
+                "note": "Bonus attack speed reduced to 30% at all ranks from 30–40 (3 ranks)%."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "12.7",
+      "version": "12.7",
+      "releaseDate": "2022-04-13",
+      "change": {
+        "id": "zeri",
+        "name": "Zeri",
+        "type": "champion",
+        "assetKey": "Zeri",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Base armor reduced to 20 from 22.; Base attack damage reduced to 50 from 53.",
+        "gameplayImpact": "Zeri was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Base armor",
+                "before": "22",
+                "after": "20",
+                "note": "Base armor reduced to 20 from 22."
+              },
+              {
+                "label": "Base attack damage",
+                "before": "53",
+                "after": "50",
+                "note": "Base attack damage reduced to 50 from 53."
+              },
+              {
+                "label": "Attack damage growth",
+                "before": "2",
+                "after": "1.5",
+                "note": "Attack damage growth reduced to 1.5 from 2."
+              },
+              {
+                "label": "Health growth",
+                "before": "90",
+                "after": "95",
+                "note": "Health growth increased to 95 from 90."
+              }
+            ]
+          },
+          {
+            "ability": "Burst Fire",
+            "title": "Burst Fire",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Total base damage",
+                "before": "10–30",
+                "after": "7–15",
+                "note": "Total base damage reduced to 7–15 from 10–30."
+              },
+              {
+                "label": "Base damage per hit",
+                "before": "10/7 to 30/7",
+                "after": "7/7 to 15/7",
+                "note": "Base damage per hit reduced to 7/7 to 15/7 from 10/7 to 30/7."
+              },
+              {
+                "label": "Total AD ratio",
+                "before": "110% AD at all ranks",
+                "after": "110–120% AD",
+                "note": "Total AD ratio increased to 110–120% AD from 110% AD at all ranks."
+              },
+              {
+                "label": "AD ratio per hit",
+                "before": "15",
+                "after": "110/7 to 120/7% AD",
+                "note": "AD ratio per hit increased to 110/7 to 120/7% AD from 15.71% AD at all ranks."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now only applies on-hit and on-attack effects to the first enemy hit."
+              },
+              {
+                "label": "Change",
+                "note": "Now only reduces cooldown and stacks Lightning Crash}} once per cast."
+              }
+            ]
+          },
+          {
+            "ability": "Ultrashock Laser",
+            "title": "Ultrashock Laser",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "40–180",
+                "after": "10–150",
+                "note": "Base damage reduced to 10–150 from 40–180."
+              },
+              {
+                "label": "AD ratio",
+                "before": "100% AD",
+                "after": "120% AD",
+                "note": "AD ratio increased to 120% AD from 100% AD."
+              },
+              {
+                "label": "AP ratio",
+                "before": "60% AP",
+                "after": "70% AP",
+                "note": "AP ratio increased to 70% AP from 60% AP."
+              }
+            ]
+          },
+          {
+            "ability": "Spark Surge",
+            "title": "Spark Surge",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Cooldown",
+                "before": "23 at all ranks",
+                "after": "28–22 seconds",
+                "note": "Cooldown changed to 28–22 seconds from 23 at all ranks."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Cooldown is now reduced by an extra second if Burst Fire}} critically strikes."
+              }
+            ]
+          },
+          {
+            "ability": "Lightning Crash",
+            "title": "Lightning Crash",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Cooldown",
+                "before": "100–80 (3 ranks)",
+                "after": "120–70 (3 ranks) seconds",
+                "note": "Cooldown changed to 120–70 (3 ranks) seconds from 100–80 (3 ranks)."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now grants an extra stack if Burst Fire}} critically strikes."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "12.10",
+      "version": "12.10",
+      "releaseDate": "2022-05-25",
+      "change": {
+        "id": "zeri",
+        "name": "Zeri",
+        "type": "champion",
+        "assetKey": "Zeri",
+        "roles": [],
+        "direction": "buff",
+        "severity": 2,
+        "tldr": "Base health increased to 600 from 530.; Health growth increased to 109 from 95.",
+        "gameplayImpact": "Zeri is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base health",
+                "before": "530",
+                "after": "600",
+                "note": "Base health increased to 600 from 530."
+              },
+              {
+                "label": "Health growth",
+                "before": "95",
+                "after": "109",
+                "note": "Health growth increased to 109 from 95."
+              },
+              {
+                "label": "Armor growth",
+                "before": "3",
+                "after": "4.2",
+                "note": "Armor growth increased to 4.2 from 3."
+              },
+              {
+                "label": "Magic resistance growth",
+                "before": "0",
+                "after": "1.3",
+                "note": "Magic resistance growth increased to 1.3 from 0.5."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "12.11",
+      "version": "12.11",
+      "releaseDate": "2022-06-08",
+      "change": {
+        "id": "zeri",
+        "name": "Zeri",
+        "type": "champion",
+        "assetKey": "Zeri",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Health ratio increased to 3–15% of target's maximum health from 1–10%|health.; Charged AP ratio increased to 90% AP from 80% AP.",
+        "gameplayImpact": "Zeri was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Basic Attack",
+            "title": "Basic Attack",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Health ratio",
+                "before": "1–10%|health",
+                "after": "3–15% of target's maximum health",
+                "note": "Health ratio increased to 3–15% of target's maximum health from 1–10%|health."
+              },
+              {
+                "label": "Charged AP ratio",
+                "before": "80% AP",
+                "after": "90% AP",
+                "note": "Charged AP ratio increased to 90% AP from 80% AP."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Charged attack no longer slows by 20px% for 1 second."
+              }
+            ]
+          },
+          {
+            "ability": "Burst Fire",
+            "title": "Burst Fire",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Total base damage",
+                "before": "7–15",
+                "after": "8–20",
+                "note": "Total base damage increased to 8–20 from 7–15."
+              },
+              {
+                "label": "Base damage per hit",
+                "before": "7/7 to 15/7",
+                "after": "8/7 to 20/7",
+                "note": "Base damage per hit increased to 8/7 to 20/7 from 7/7 to 15/7."
+              },
+              {
+                "label": "Total AD ratio",
+                "before": "110–120% AD",
+                "after": "110–130% AD",
+                "note": "Total AD ratio increased to 110–130% AD from 110–120% AD."
+              },
+              {
+                "label": "AD ratio per hit",
+                "before": "110/7 to 120/7% AD",
+                "after": "110/7 to 130/7% AD",
+                "note": "AD ratio per hit increased to 110/7 to 130/7% AD from 110/7 to 120/7% AD."
+              }
+            ]
+          },
+          {
+            "ability": "Ultrashock Laser",
+            "title": "Ultrashock Laser",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Now critically strikes for bonus damage against champions and monsters if it collides with terrain."
+              },
+              {
+                "label": "Change",
+                "note": "Reduces cooldown by 1.5 seconds and grants 3 stacks of Lightning Crash}}."
+              },
+              {
+                "label": "AD ratio",
+                "before": "140% AD",
+                "after": "150% AD",
+                "note": "AD ratio increased to 150% AD from 140% AD."
+              },
+              {
+                "label": "Slow",
+                "before": "30–70%",
+                "after": "30–50%",
+                "note": "Slow reduced to 30–50% from 30–70%."
+              },
+              {
+                "label": "Cooldown",
+                "before": "13–9",
+                "after": "12–8 seconds",
+                "note": "Cooldown reduced to 12–8 seconds from 13–9."
+              }
+            ]
+          },
+          {
+            "ability": "Spark Surge",
+            "title": "Spark Surge",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Cooldown",
+                "before": "26–20",
+                "after": "22–16 seconds",
+                "note": "Cooldown reduced to 22–16 seconds from 26–20."
+              },
+              {
+                "label": "Cooldown reduction",
+                "before": "1",
+                "after": "0.5 seconds",
+                "note": "Cooldown reduction reduced to 0.5 seconds from 1."
+              },
+              {
+                "label": "Cooldown reduction on critical strikes",
+                "before": "3",
+                "after": "1.5 seconds",
+                "note": "Cooldown reduction on critical strikes reduced to 1.5 seconds from 3."
+              }
+            ]
+          },
+          {
+            "ability": "Lightning Crash",
+            "title": "Lightning Crash",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Stacks are now capped at 100000 stacks."
+              },
+              {
+                "label": "Stack per champion hit",
+                "before": "4",
+                "after": "8",
+                "note": "Stack per champion hit increased to 8 from 4."
+              },
+              {
+                "label": "Bonus movement speed per stack",
+                "before": "1",
+                "after": "1%",
+                "note": "Bonus movement speed per stack reduced to 1% from 1.5%."
+              },
+              {
+                "label": "Cooldown",
+                "before": "120–70 (3 ranks)",
+                "after": "100–70 (3 ranks) seconds",
+                "note": "Cooldown reduced to 100–70 (3 ranks) seconds from 120–70 (3 ranks)."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "12.12",
+      "version": "12.12",
+      "releaseDate": "2022-06-23",
+      "change": {
+        "id": "zeri",
+        "name": "Zeri",
+        "type": "champion",
+        "assetKey": "Zeri",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 2,
+        "tldr": "Health regeneration growth increased to 0.7 from 0.55.; Base damage increased to 20–160 from 10–150.",
+        "gameplayImpact": "Zeri was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Health regeneration growth",
+                "before": "0",
+                "after": "0.7",
+                "note": "Health regeneration growth increased to 0.7 from 0.55."
+              }
+            ]
+          },
+          {
+            "ability": "Ultrashock Laser",
+            "title": "Ultrashock Laser",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "10–150",
+                "after": "20–160",
+                "note": "Base damage increased to 20–160 from 10–150."
+              },
+              {
+                "label": "AD ratio",
+                "before": "150% AD",
+                "after": "130% AD",
+                "note": "AD ratio reduced to 130% AD from 150% AD."
+              },
+              {
+                "label": "AP ratio",
+                "before": "70% AP",
+                "after": "60% AP",
+                "note": "AP ratio reduced to 60% AP from 70% AP."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "12.14",
+      "version": "12.14",
+      "releaseDate": "2022-07-27",
+      "change": {
+        "id": "zeri",
+        "name": "Zeri",
+        "type": "champion",
+        "assetKey": "Zeri",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 2,
+        "tldr": "Removed: Uncharged basic attacks no longer deal 600% damage against targets below 35% maximum health.; Damage at 600% was equivalent to 6*10+(6*15/17)*(x-1)*(0.7025+0.0175*(x-1)) (+ 18% AP).",
+        "gameplayImpact": "Zeri was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Basic Attack",
+            "title": "Basic Attack",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Removed: Uncharged basic attacks no longer deal 600% damage against targets below 35% maximum health."
+              },
+              {
+                "label": "Change",
+                "note": "Damage at 600% was equivalent to 6*10+(6*15/17)*(x-1)*(0.7025+0.0175*(x-1)) (+ 18% AP)."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Uncharged basic attacks now execute targets below 60–150 (+ 18% AP) health."
+              },
+              {
+                "label": "Change",
+                "note": "Does not execute if the target is shielded or invulnerable."
+              }
+            ]
+          },
+          {
+            "ability": "Lightning Crash",
+            "title": "Lightning Crash",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Chain lightning base damage",
+                "before": "10–20 (3 ranks)",
+                "after": "5–15 (3 ranks)",
+                "note": "Chain lightning base damage reduced to 5–15 (3 ranks) from 10–20 (3 ranks)."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "12.16",
+      "version": "12.16",
+      "releaseDate": "2022-08-24",
+      "change": {
+        "id": "zeri",
+        "name": "Zeri",
+        "type": "champion",
+        "assetKey": "Zeri",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 2,
+        "tldr": "Total AD ratio reduced to 100–120% AD from 105–125% AD.; AD ratio per hit reduced to 100/7 to 120/7% AD from 105/7 to 125/7% AD.",
+        "gameplayImpact": "Zeri loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Burst Fire",
+            "title": "Burst Fire",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Total AD ratio",
+                "before": "105–125% AD",
+                "after": "100–120% AD",
+                "note": "Total AD ratio reduced to 100–120% AD from 105–125% AD."
+              },
+              {
+                "label": "AD ratio per hit",
+                "before": "105/7 to 125/7% AD",
+                "after": "100/7 to 120/7% AD",
+                "note": "AD ratio per hit reduced to 100/7 to 120/7% AD from 105/7 to 125/7% AD."
+              }
+            ]
+          },
+          {
+            "ability": "Ultrashock Laser",
+            "title": "Ultrashock Laser",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "AD ratio",
+                "before": "130% AD",
+                "after": "100% AD",
+                "note": "AD ratio reduced to 100% AD from 130% AD."
+              },
+              {
+                "label": "AP ratio",
+                "before": "60% AP",
+                "after": "40% AP",
+                "note": "AP ratio reduced to 40% AP from 60% AP."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "12.23",
+      "version": "12.23",
+      "releaseDate": "2022-12-07",
+      "change": {
+        "id": "zeri",
+        "name": "Zeri",
+        "type": "champion",
+        "assetKey": "Zeri",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Base movement speed increased to 330 from 325.; Base attack damage increased to 53 from 50.",
+        "gameplayImpact": "Zeri was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base movement speed",
+                "before": "325",
+                "after": "330",
+                "note": "Base movement speed increased to 330 from 325."
+              },
+              {
+                "label": "Base attack damage",
+                "before": "50",
+                "after": "53",
+                "note": "Base attack damage increased to 53 from 50."
+              },
+              {
+                "label": "Base armor",
+                "before": "20",
+                "after": "24",
+                "note": "Base armor increased to 24 from 20."
+              },
+              {
+                "label": "Base health",
+                "before": "600",
+                "after": "630",
+                "note": "Base health increased to 630 from 600."
+              },
+              {
+                "label": "Attack speed ratio",
+                "before": "0",
+                "after": "0.625",
+                "note": "Attack speed ratio increased to 0.625 from 0.568."
+              },
+              {
+                "label": "Health growth",
+                "before": "109",
+                "after": "115",
+                "note": "Health growth increased to 115 from 109."
+              }
+            ]
+          },
+          {
+            "ability": "Basic Attack",
+            "title": "Basic Attack",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Charged AP ratio",
+                "before": "90% AP",
+                "after": "110% AP",
+                "note": "Charged AP ratio increased to 110% AP from 90% AP."
+              }
+            ]
+          },
+          {
+            "ability": "Living Battery",
+            "title": "Living Battery",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Removed: Bonus movement speed is no longer multiplicative."
+              },
+              {
+                "label": "Bonus movement speed duration",
+                "before": "3",
+                "after": "2 seconds",
+                "note": "Bonus movement speed duration reduced to 2 seconds from 3."
+              }
+            ]
+          },
+          {
+            "ability": "Burst Fire",
+            "title": "Burst Fire",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Cast range",
+                "before": "825",
+                "after": "750 units",
+                "note": "Cast range reduced to 750 units from 825."
+              },
+              {
+                "label": "Bonus attack damage",
+                "before": "60%|attack speed",
+                "after": "70% excess bonus attack speed",
+                "note": "Bonus attack damage increased to 70% excess bonus attack speed from 60%|attack speed."
+              },
+              {
+                "label": "Total base damage",
+                "before": "8–20",
+                "after": "15–27",
+                "note": "Total base damage increased to 15–27 from 8–20."
+              },
+              {
+                "label": "Base damage per hit",
+                "before": "8/7 to 20/7",
+                "after": "15/7 to 27/7",
+                "note": "Base damage per hit increased to 15/7 to 27/7 from 8/7 to 20/7."
+              },
+              {
+                "label": "Total AD ratio",
+                "before": "100–120% AD",
+                "after": "104–120% AD",
+                "note": "Total AD ratio increased to 104–120% AD from 100–120% AD."
+              },
+              {
+                "label": "AD ratio per hit",
+                "before": "100/7 to 120/7% AD",
+                "after": "104/7 to 120/7% AD",
+                "note": "AD ratio per hit increased to 104/7 to 120/7% AD from 100/7 to 120/7% AD."
+              }
+            ]
+          },
+          {
+            "ability": "Ultrashock Laser",
+            "title": "Ultrashock Laser",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Damage type",
+                "before": "magic",
+                "after": "physical",
+                "note": "Damage type changed to physical from magic."
+              },
+              {
+                "label": "Base damage",
+                "before": "20–160",
+                "after": "20–180",
+                "note": "Base damage increased to 20–180 from 20–160."
+              },
+              {
+                "label": "AD ratio",
+                "before": "100% AD",
+                "after": "130% AD",
+                "note": "AD ratio increased to 130% AD from 100% AD."
+              },
+              {
+                "label": "AP ratio",
+                "before": "40% AP",
+                "after": "25% AP",
+                "note": "AP ratio reduced to 25% AP from 40% AP."
+              },
+              {
+                "label": "Cast time",
+                "before": "",
+                "after": "0.55–0.3|attack speed seconds",
+                "note": "Cast time changed to 0.55–0.3|attack speed seconds from ."
+              },
+              {
+                "label": "Change",
+                "note": "Cast winddown time removed."
+              },
+              {
+                "label": "Missile speed",
+                "before": "2200",
+                "after": "2500",
+                "note": "Missile speed increased to 2500 from 2200."
+              },
+              {
+                "label": "Laser delay",
+                "before": "0",
+                "after": "0.85 seconds",
+                "note": "Laser delay increased to 0.85 seconds from 0.75."
+              }
+            ]
+          },
+          {
+            "ability": "Spark Surge",
+            "title": "Spark Surge",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Mana cost",
+                "before": "80 at all ranks",
+                "after": "90–70",
+                "note": "Mana cost changed to 90–70 from 80 at all ranks."
+              },
+              {
+                "label": "Cooldown",
+                "before": "24–18",
+                "after": "22–18 seconds",
+                "note": "Cooldown reduced to 22–18 seconds from 24–18."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Effect no longer ends after 3 casts of Burst Fire}}."
+              },
+              {
+                "label": "Duration",
+                "before": "6",
+                "after": "5 seconds",
+                "note": "Duration reduced to 5 seconds from 6."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now deals 20–28 on-hit to the first enemy hit by Burst Fire}} while active. This damage is increased by 0–65% (0–100% crit)|critical strike chance."
+              },
+              {
+                "label": "Burst Fire}} pierce damage",
+                "before": "60–100%",
+                "after": "80–100%",
+                "note": "Burst Fire}} pierce damage increased to 80–100% from 60–100%."
+              },
+              {
+                "label": "Self reveal distance",
+                "before": "850",
+                "after": "1500 units",
+                "note": "Self reveal distance increased to 1500 units from 850."
+              }
+            ]
+          },
+          {
+            "ability": "Lightning Crash",
+            "title": "Lightning Crash",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New:"
+              },
+              {
+                "label": "Change",
+                "note": "Zeri discharges a nova of electricity around her that deals 175–375 (3 ranks) (+ 100% bonus AD) (+ 110% AP) magic damage to nearby enemies."
+              },
+              {
+                "label": "Change",
+                "note": "If Lightning Crash hits at least one enemy champion, Zeri becomes Overcharged for 5 seconds. Damaging an enemy increases the duration by 1.5 seconds, up to its original duration."
+              },
+              {
+                "label": "Change",
+                "note": "Overcharge: Zeri gains and 10% bonus movement speed. Burst Fire 3|Burst Fire}} is empowered to have a 20% shorter cast time and instead fire 3 rounds that travel with increased speed. These attacks chain to the nearest sight enemy within 650-units of the target, up to 4 subsequent targets, dealing 25% AD physical damage, which can critical strike for bonus physical damage."
+              },
+              {
+                "label": "Change",
+                "note": "Additionally, Zeri generates stacks from hitting enemy champions, gaining 0.5% bonus movement speed per stack for 1.5 seconds. She generates 1 stack for each one she hits with a Basic Attack 2|charged}} basic attack or ability, increased to 3 on abilities that critically strike. Burst Fire 3|Burst Fire}} grants stacks only against the first target hit."
+              },
+              {
+                "label": "Change",
+                "note": "Old:"
+              },
+              {
+                "label": "Change",
+                "note": "Zeri discharges a nova of electricity around her that deals 150–350 (3 ranks) (+ 80% bonus AD) (+ 80% AP) magic damage to nearby enemies."
+              },
+              {
+                "label": "Change",
+                "note": "If Lightning Crash hits at least one enemy champion, Zeri becomes Overcharged for 6 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Overcharge: Zeri gains . Burst Fire 3|Burst Fire}} is empowered to have a 20% shorter cast time and instead fire 3 rounds that travel with increased speed and deal 5–15 (3 ranks) (+ 15% AP) bonus magic damage to the first enemy hit and the nearest sight enemy within 450-units of the target, chaining up to 4 subsequent targets. Secondary targets are dealt 25% AD physical damage, which can critical strike for bonus physical damage. The bonus magic damage is affected by critical strike modifiers."
+              },
+              {
+                "label": "Change",
+                "note": "Additionally, Zeri generates stacks of Overcharge from hitting enemy champions, gaining 0.5% bonus movement speed per stack. She generates 1 stack for each one she hits with a Basic Attack 2|charged}} basic attack or ability, increased to 3 on abilities that critically strike and 8 on Lightning Crash. Burst Fire 3|Burst Fire}} grants stacks only against the first target hit. Overcharge's duration is extended by 2 seconds whenever Zeri generates a stack, up to its original duration."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "13.1",
+      "version": "13.1",
+      "releaseDate": "2023-01-11",
+      "change": {
+        "id": "zeri",
+        "name": "Zeri",
+        "type": "champion",
+        "assetKey": "Zeri",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 2,
+        "tldr": "Attack damage growth reduced to 1.3 from 1.5.; Total base damage reduced to 15–23 from 15–27.",
+        "gameplayImpact": "Zeri loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Attack damage growth",
+                "before": "1",
+                "after": "1.3",
+                "note": "Attack damage growth reduced to 1.3 from 1.5."
+              }
+            ]
+          },
+          {
+            "ability": "Burst Fire",
+            "title": "Burst Fire",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Total base damage",
+                "before": "15–27",
+                "after": "15–23",
+                "note": "Total base damage reduced to 15–23 from 15–27."
+              },
+              {
+                "label": "Base damage per hit",
+                "before": "15/7 to 27/7",
+                "after": "15/7 to 23/7",
+                "note": "Base damage per hit reduced to 15/7 to 23/7 from 15/7 to 27/7."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "13.7",
+      "version": "13.7",
+      "releaseDate": "2023-04-05",
+      "change": {
+        "id": "zeri",
+        "name": "Zeri",
+        "type": "champion",
+        "assetKey": "Zeri",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 2,
+        "tldr": "Health growth reduced to 110 from 115.; Shield steal reduced to 45% from 60%.",
+        "gameplayImpact": "Zeri loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Health growth",
+                "before": "115",
+                "after": "110",
+                "note": "Health growth reduced to 110 from 115."
+              }
+            ]
+          },
+          {
+            "ability": "Living Battery",
+            "title": "Living Battery",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Shield steal",
+                "before": "60%",
+                "after": "45%",
+                "note": "Shield steal reduced to 45% from 60%."
+              }
+            ]
+          },
+          {
+            "ability": "Lightning Crash",
+            "title": "Lightning Crash",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Bonus AD ratio",
+                "before": "100%|AD",
+                "after": "85% bonus AD",
+                "note": "Bonus AD ratio reduced to 85% bonus AD from 100%|AD."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "13.12",
+      "version": "13.12",
+      "releaseDate": "2023-06-14",
+      "change": {
+        "id": "zeri",
+        "name": "Zeri",
+        "type": "champion",
+        "assetKey": "Zeri",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Base movement speed increased to 335 from 330.; Tooltip now contains information about Zeri's basic attacks.",
+        "gameplayImpact": "Zeri was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base movement speed",
+                "before": "330",
+                "after": "335",
+                "note": "Base movement speed increased to 335 from 330."
+              }
+            ]
+          },
+          {
+            "ability": "Living Battery",
+            "title": "Living Battery",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Tooltip now contains information about Zeri's basic attacks."
+              },
+              {
+                "label": "Change",
+                "note": "Removed Innate: Zeri absorbs the energy of shield she damages, granting herself a shield equal to 45% of the dealt to the shield. Each instance of shield gained by Living Battery lasts for 3 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Removed Innate - Gotta Zip!: Whenever Zeri gains a shield, she gains 10% bonus movement speed for 2 seconds."
+              }
+            ]
+          },
+          {
+            "ability": "Burst Fire",
+            "title": "Burst Fire",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Removed: No longer triggers Spellblade."
+              }
+            ]
+          },
+          {
+            "ability": "Spark Surge",
+            "title": "Spark Surge",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Critical strike chance ratio",
+                "before": "0–65% (0–100% crit)",
+                "after": "0–85% (0–100% crit)",
+                "note": "Critical strike chance ratio increased to 0–85% (0–100% crit) from 0–65% (0–100% crit)."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "13.19",
+      "version": "13.19",
+      "releaseDate": "2023-09-27",
+      "change": {
+        "id": "zeri",
+        "name": "Zeri",
+        "type": "champion",
+        "assetKey": "Zeri",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Base movement speed reduced to 330 from 335.",
+        "gameplayImpact": "Zeri loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base movement speed",
+                "before": "335",
+                "after": "330",
+                "note": "Base movement speed reduced to 330 from 335."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "13.24",
+      "version": "13.24",
+      "releaseDate": "2023-12-06",
+      "change": {
+        "id": "zeri",
+        "name": "Zeri",
+        "type": "champion",
+        "assetKey": "Zeri",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "Attack damage growth increased to 2 from 1.3.; Base damage increased to 30–190 from 20–180.",
+        "gameplayImpact": "Zeri is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Attack damage growth",
+                "before": "1",
+                "after": "2",
+                "note": "Attack damage growth increased to 2 from 1.3."
+              }
+            ]
+          },
+          {
+            "ability": "Ultrashock Laser",
+            "title": "Ultrashock Laser",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "20–180",
+                "after": "30–190",
+                "note": "Base damage increased to 30–190 from 20–180."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "14.3",
+      "version": "14.3",
+      "releaseDate": "2024-02-07",
+      "change": {
+        "id": "zeri",
+        "name": "Zeri",
+        "type": "champion",
+        "assetKey": "Zeri",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "Base attack damage increased to 56 from 53.; Cooldown reduced to 80–70 (3 ranks) seconds from 100–70 (3 ranks).",
+        "gameplayImpact": "Zeri is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base attack damage",
+                "before": "53",
+                "after": "56",
+                "note": "Base attack damage increased to 56 from 53."
+              }
+            ]
+          },
+          {
+            "ability": "Lightning Crash",
+            "title": "Lightning Crash",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Cooldown",
+                "before": "100–70 (3 ranks)",
+                "after": "80–70 (3 ranks) seconds",
+                "note": "Cooldown reduced to 80–70 (3 ranks) seconds from 100–70 (3 ranks)."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "14.8",
+      "version": "14.8",
+      "releaseDate": "2024-04-17",
+      "change": {
+        "id": "zeri",
+        "name": "Zeri",
+        "type": "champion",
+        "assetKey": "Zeri",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Base health reduced to 600 from 630.",
+        "gameplayImpact": "Zeri loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base health",
+                "before": "630",
+                "after": "600",
+                "note": "Base health reduced to 600 from 630."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "14.18",
+      "version": "14.18",
+      "releaseDate": "2024-09-11",
+      "change": {
+        "id": "zeri",
+        "name": "Zeri",
+        "type": "champion",
+        "assetKey": "Zeri",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 1,
+        "tldr": "Charged attack base damage changed 75–160 from 90+(110/17)*(x-1)*(0.7025+0.0175*(x-1)). Formula changed.; Charged attack health ratio changed to 1–11% of target's maximum health from 1+(14/17)*(x-1)*(0.7025+0.0175*(x-…",
+        "gameplayImpact": "Zeri was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Living Battery",
+            "title": "Living Battery",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Charged attack base damage changed 75–160 from 90+(110/17)*(x-1)*(0.7025+0.0175*(x-1)). Formula changed."
+              },
+              {
+                "label": "Charged attack health ratio",
+                "before": "1+(14/17)*(x-1)*(0",
+                "after": "1–11% of target's maximum health",
+                "note": "Charged attack health ratio changed to 1–11% of target's maximum health from 1+(14/17)*(x-1)*(0.7025+0.0175*(x-1))%|health. Formula changed."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "25.08",
+      "version": "25.08",
+      "releaseDate": "2025-04-16",
+      "change": {
+        "id": "zeri",
+        "name": "Zeri",
+        "type": "champion",
+        "assetKey": "Zeri",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "Chain lightning damage increased to 30% AD from 25% AD.",
+        "gameplayImpact": "Zeri is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Lightning Crash",
+            "title": "Lightning Crash",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Chain lightning damage",
+                "before": "25% AD",
+                "after": "30% AD",
+                "note": "Chain lightning damage increased to 30% AD from 25% AD."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "25.12",
+      "version": "25.12",
+      "releaseDate": "2025-06-11",
+      "change": {
+        "id": "zeri",
+        "name": "Zeri",
+        "type": "champion",
+        "assetKey": "Zeri",
+        "roles": [],
+        "direction": "buff",
+        "severity": 2,
+        "tldr": "Nova base damage increased to 200–400 (3 ranks) from 175–375 (3 ranks).; Nova bonus AD ratio increased to 100% bonus AD from 85%|ad.",
+        "gameplayImpact": "Zeri is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Lightning Crash",
+            "title": "Lightning Crash",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Nova base damage",
+                "before": "175–375 (3 ranks)",
+                "after": "200–400 (3 ranks)",
+                "note": "Nova base damage increased to 200–400 (3 ranks) from 175–375 (3 ranks)."
+              },
+              {
+                "label": "Nova bonus AD ratio",
+                "before": "85%|ad",
+                "after": "100% bonus AD",
+                "note": "Nova bonus AD ratio increased to 100% bonus AD from 85%|ad."
+              },
+              {
+                "label": "Chain lightning damage",
+                "before": "30% AD",
+                "after": "40% AD",
+                "note": "Chain lightning damage increased to 40% AD from 30% AD."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "25.23",
+      "version": "25.23",
+      "releaseDate": "2025-11-19",
+      "change": {
+        "id": "zeri",
+        "name": "Zeri",
+        "type": "champion",
+        "assetKey": "Zeri",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "Bonus movement speed per Hypercharged stack increased to 1% from 0.5%.",
+        "gameplayImpact": "Zeri is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Lightning Crash",
+            "title": "Lightning Crash",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Bonus movement speed per Hypercharged stack",
+                "before": "0",
+                "after": "1%",
+                "note": "Bonus movement speed per Hypercharged stack increased to 1% from 0.5%."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "26.01",
+      "version": "26.01",
+      "releaseDate": "2026-01-08",
+      "change": {
+        "id": "zeri",
+        "name": "Zeri",
+        "type": "champion",
+        "assetKey": "Zeri",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "AD ratio reduced to 120% AD from 130% AD.; Critical damage formula now modifies critical damage bonuses by 75%|critical damage (from previously no modifier/100%|critical damage).",
+        "gameplayImpact": "Zeri was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Burst Fire",
+            "title": "Burst Fire",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: No longer can be cast during the effects of an ally Tempered Fate (Bard)}} or Fate's Call (Kalista)}}."
+              }
+            ]
+          },
+          {
+            "ability": "Ultrashock Laser",
+            "title": "Ultrashock Laser",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "AD ratio",
+                "before": "130% AD",
+                "after": "120% AD",
+                "note": "AD ratio reduced to 120% AD from 130% AD."
+              },
+              {
+                "label": "Change",
+                "note": "Critical damage formula now modifies critical damage bonuses by 75%|critical damage (from previously no modifier/100%|critical damage)."
+              },
+              {
+                "label": "Change",
+                "note": "Base critical strike damage unchanged at 175%."
+              }
+            ]
+          },
+          {
+            "ability": "Spark Surge",
+            "title": "Spark Surge",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "20–28",
+                "after": "17–25",
+                "note": "Base damage reduced to 17–25 from 20–28."
+              },
+              {
+                "label": "Bonus AD ratio",
+                "before": "12%|AD",
+                "after": "10% bonus AD",
+                "note": "Bonus AD ratio reduced to 10% bonus AD from 12%|AD."
+              },
+              {
+                "label": "Burst Fire}} bonus damage critical strike chance ratio",
+                "before": "0–85% (0–100% crit)",
+                "after": "0–100% (0–100% crit)",
+                "note": "Burst Fire}} bonus damage critical strike chance ratio increased to 0–100% (0–100% crit) from 0–85% (0–100% crit)."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Burst Fire}} bonus damage now scales with 0–100% (0–100% crit) bonus critical damage."
+              }
+            ]
+          },
+          {
+            "ability": "Lightning Crash",
+            "title": "Lightning Crash",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "200–400 (3 ranks)",
+                "after": "150–350 (3 ranks)",
+                "note": "Base damage reduced to 150–350 (3 ranks) from 200–400 (3 ranks)."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "26.09",
+      "version": "26.09",
+      "releaseDate": "2026-04-29",
+      "change": {
+        "id": "zeri",
+        "name": "Zeri",
+        "type": "champion",
+        "assetKey": "Zeri",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Attack range increased to 550 units from 500.; This does not affect attack.",
+        "gameplayImpact": "Zeri was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Attack range",
+                "before": "500",
+                "after": "550 units",
+                "note": "Attack range increased to 550 units from 500."
+              },
+              {
+                "label": "Change",
+                "note": "This does not affect attack."
+              },
+              {
+                "label": "Change",
+                "note": "This will be fixed next patch."
+              }
+            ]
+          },
+          {
+            "ability": "Living Battery",
+            "title": "Living Battery",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Execute threshold base value",
+                "before": "6*10 + (6*25-6*10)/17*(x-1)",
+                "after": "70–160",
+                "note": "Execute threshold base value increased to 70–160 from 6*10 + (6*25-6*10)/17*(x-1)."
+              },
+              {
+                "label": "Execute threshold AP ratio",
+                "before": "18% AP",
+                "after": "20% AP",
+                "note": "Execute threshold AP ratio increased to 20% AP from 18% AP."
+              }
+            ]
+          },
+          {
+            "ability": "Burst Fire",
+            "title": "Burst Fire",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Bonus attack damage",
+                "before": "70%|as",
+                "after": "50% excess bonus attack speed",
+                "note": "Bonus attack damage reduced to 50% excess bonus attack speed from 70%|as."
+              },
+              {
+                "label": "Total base damage",
+                "before": "15–23",
+                "after": "21–33",
+                "note": "Total base damage increased to 21–33 from 15–23."
+              },
+              {
+                "label": "Base damage per hit",
+                "before": "15/7 to 23/7",
+                "after": "21/7 to 33/7",
+                "note": "Base damage per hit increased to 21/7 to 33/7 from 15/7 to 23/7."
+              },
+              {
+                "label": "Total AD ratio",
+                "before": "104–120% AD",
+                "after": "102–110% AD",
+                "note": "Total AD ratio reduced to 102–110% AD from 104–120% AD."
+              },
+              {
+                "label": "AD ratio per hit",
+                "before": "104/7 to 120/7% AD",
+                "after": "102/7 to 110/7% AD",
+                "note": "AD ratio per hit reduced to 102/7 to 110/7% AD from 104/7 to 120/7% AD."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now forces quick cast."
+              },
+              {
+                "label": "Change",
+                "note": "Undocumented: Damage dealt to the first target is no longer tagged as area of effect."
+              }
+            ]
+          },
+          {
+            "ability": "Ultrashock Laser",
+            "title": "Ultrashock Laser",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "AP ratio",
+                "before": "25% AP",
+                "after": "50% AP",
+                "note": "AP ratio increased to 50% AP from 25% AP."
+              },
+              {
+                "label": "Base critical damage",
+                "before": "175%",
+                "after": "150%",
+                "note": "Base critical damage reduced to 150% from 175%."
+              },
+              {
+                "label": "Bonus critical damage",
+                "before": "75%|critical damage",
+                "after": "50% bonus critical strike damage",
+                "note": "Bonus critical damage reduced to 50% bonus critical strike damage from 75%|critical damage."
+              }
+            ]
+          },
+          {
+            "ability": "Spark Surge",
+            "title": "Spark Surge",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "15–23",
+                "after": "22–30",
+                "note": "Base damage increased to 22–30 from 15–23."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Bonus damage no longer scales with 10% bonus AD."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Cooldown reduction is no longer triggered from hitting enemies with Ultrashock Laser}} or Lightning Crash}}."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Cooldown reduction can now be triggered from hitting any enemy, rather than only enemy champions."
+              },
+              {
+                "label": "Change",
+                "note": "Tooltip no longer mentions that Living Battery|uncharged basic attacks}} do not reduce the cooldown."
+              },
+              {
+                "label": "Change",
+                "note": "The behavior is unchanged however."
+              }
+            ]
+          },
+          {
+            "ability": "Lightning Crash",
+            "title": "Lightning Crash",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Nova bonus AD ratio",
+                "before": "100%|ad",
+                "after": "60% bonus AD",
+                "note": "Nova bonus AD ratio reduced to 60% bonus AD from 100%|ad."
+              },
+              {
+                "label": "Overcharged bonus movement speed",
+                "before": "10%",
+                "after": "15%",
+                "note": "Overcharged bonus movement speed increased to 15% from 10%."
+              },
+              {
+                "label": "Bonus movement speed per Hypercharged stack",
+                "before": "1%",
+                "after": "1.5%",
+                "note": "Bonus movement speed per Hypercharged stack increased to 1.5% from 1%."
+              },
+              {
+                "label": "Hypercharged stack duration",
+                "before": "1",
+                "after": "2.5 seconds",
+                "note": "Hypercharged stack duration increased to 2.5 seconds from 1.5."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "26.10",
+      "version": "26.10",
+      "releaseDate": "2026-05-13",
+      "change": {
+        "id": "zeri",
+        "name": "Zeri",
+        "type": "champion",
+        "assetKey": "Zeri",
+        "roles": [],
+        "direction": "buff",
+        "severity": 2,
+        "tldr": "Bonus attack damage increased to 60% excess bonus attack speed from 50%|as.; Total base damage increased to 22–38 from 21–33.",
+        "gameplayImpact": "Zeri is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Burst Fire",
+            "title": "Burst Fire",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Bonus attack damage",
+                "before": "50%|as",
+                "after": "60% excess bonus attack speed",
+                "note": "Bonus attack damage increased to 60% excess bonus attack speed from 50%|as."
+              },
+              {
+                "label": "Total base damage",
+                "before": "21–33",
+                "after": "22–38",
+                "note": "Total base damage increased to 22–38 from 21–33."
+              },
+              {
+                "label": "Base damage per hit",
+                "before": "21/7 to 33/7",
+                "after": "22/7 to 38/7",
+                "note": "Base damage per hit increased to 22/7 to 38/7 from 21/7 to 33/7."
+              }
+            ]
+          },
+          {
+            "ability": "Ultrashock Laser",
+            "title": "Ultrashock Laser",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: When using WASD controls, fixed a bug where it would fire in the wrong direction when wallriding with Spark Surge}}."
+              }
+            ]
+          },
+          {
+            "ability": "Lightning Crash",
+            "title": "Lightning Crash",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: Basic attacks now correctly increase duration by 2.5 seconds instead of 1.5."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    }
+  ]
+}

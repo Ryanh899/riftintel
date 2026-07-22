@@ -1,0 +1,1311 @@
+{
+  "slug": "yorick",
+  "name": "Yorick",
+  "assetKey": "Yorick",
+  "entries": [
+    {
+      "patchId": "11.7",
+      "version": "11.7",
+      "releaseDate": "2021-03-31",
+      "change": {
+        "id": "yorick",
+        "name": "Yorick",
+        "type": "champion",
+        "assetKey": "Yorick",
+        "roles": [],
+        "direction": "buff",
+        "severity": 2,
+        "tldr": "New Effect: Marked enemy champions and large monsters now continuously Awaken nearby graves (up to the maximum of 4).; New Effect: Mist Walkers now deal 200% damage when they leap to marked enemy champions and large m…",
+        "gameplayImpact": "Yorick is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Dark Procession",
+            "title": "Dark Procession",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Undocumented/Bug Fix: Fixed a bug where the ring was a valid target for if greater than 3000 units away."
+              }
+            ]
+          },
+          {
+            "ability": "Mourning Mist",
+            "title": "Mourning Mist",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Marked enemy champions and large monsters now continuously Awaken nearby graves (up to the maximum of 4)."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Mist Walkers now deal 200% damage when they leap to marked enemy champions and large monsters."
+              },
+              {
+                "label": "Targeting type",
+                "before": "Area",
+                "after": "Location Clamped",
+                "note": "Targeting type changed to Location Clamped from Area."
+              },
+              {
+                "label": "Change",
+                "note": "If targeting outside of range, now immediately casts to max range, instead of walking into target range to cast."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "11.8",
+      "version": "11.8",
+      "releaseDate": "2021-04-14",
+      "change": {
+        "id": "yorick",
+        "name": "Yorick",
+        "type": "champion",
+        "assetKey": "Yorick",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Mist Walker base attack damage reduced to 2–88 from 2–99.; Mist Walker AD ratio reduced to 25% AD from 30% AD.",
+        "gameplayImpact": "Yorick was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Shepherd of Souls",
+            "title": "Shepherd of Souls",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Mist Walker base attack damage",
+                "before": "2–99",
+                "after": "2–88",
+                "note": "Mist Walker base attack damage reduced to 2–88 from 2–99."
+              },
+              {
+                "label": "Mist Walker AD ratio",
+                "before": "30% AD",
+                "after": "25% AD",
+                "note": "Mist Walker AD ratio reduced to 25% AD from 30% AD."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Turrets now retaliate against the offending Mist Walker instead of Yorick if they damage an enemy champion."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Tooltip now notes the proper amount of health Mist Walkers are summoned with."
+              }
+            ]
+          },
+          {
+            "ability": "Mourning Mist",
+            "title": "Mourning Mist",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Removed: Mist Walkers no longer deal 100% bonus damage on their attack after leaping to champions and large monsters."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Marked enemies now take 40% bonus damage for 8 attacks from Mist Walkers for the duration of the debuff."
+              }
+            ]
+          },
+          {
+            "ability": "Eulogy of the Isles",
+            "title": "Eulogy of the Isles",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Turrets now retaliate against the Maiden of the Mist instead of Yorick if they damage an enemy champion."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Turrets now prioritize minions over the Maiden of the Mist."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "11.21",
+      "version": "11.21",
+      "releaseDate": "2021-10-20",
+      "change": {
+        "id": "yorick",
+        "name": "Yorick",
+        "type": "champion",
+        "assetKey": "Yorick",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "New Effect: Now trigger spell effects when dealing damage.",
+        "gameplayImpact": "Yorick is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Last Rites",
+            "title": "Last Rites",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Now trigger spell effects when dealing damage."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "12.4",
+      "version": "12.4",
+      "releaseDate": "2022-02-16",
+      "change": {
+        "id": "yorick",
+        "name": "Yorick",
+        "type": "champion",
+        "assetKey": "Yorick",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "New Effect: Maiden now gains ghosting while active.",
+        "gameplayImpact": "Yorick is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Eulogy of the Isles",
+            "title": "Eulogy of the Isles",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Maiden now gains ghosting while active."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "12.10",
+      "version": "12.10",
+      "releaseDate": "2022-05-25",
+      "change": {
+        "id": "yorick",
+        "name": "Yorick",
+        "type": "champion",
+        "assetKey": "Yorick",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 2,
+        "tldr": "Base health increased to 650 from 580.; Health growth increased to 114 from 100.",
+        "gameplayImpact": "Yorick was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base health",
+                "before": "580",
+                "after": "650",
+                "note": "Base health increased to 650 from 580."
+              },
+              {
+                "label": "Health growth",
+                "before": "100",
+                "after": "114",
+                "note": "Health growth increased to 114 from 100."
+              },
+              {
+                "label": "Armor growth",
+                "before": "4",
+                "after": "5.2",
+                "note": "Armor growth increased to 5.2 from 4."
+              },
+              {
+                "label": "Magic resistance growth",
+                "before": "1",
+                "after": "2.05",
+                "note": "Magic resistance growth increased to 2.05 from 1.25."
+              }
+            ]
+          },
+          {
+            "ability": "Last Rites",
+            "title": "Last Rites",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base heal",
+                "before": "12–82",
+                "after": "10–68",
+                "note": "Base heal reduced to 10–68 from 12–82."
+              }
+            ]
+          },
+          {
+            "ability": "Dark Procession",
+            "title": "Dark Procession",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: Fixed minor VFX inconsistencies."
+              }
+            ]
+          },
+          {
+            "ability": "Mourning Mist",
+            "title": "Mourning Mist",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: Fixed minor VFX inconsistencies."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "12.12",
+      "version": "12.12",
+      "releaseDate": "2022-06-23",
+      "change": {
+        "id": "yorick",
+        "name": "Yorick",
+        "type": "champion",
+        "assetKey": "Yorick",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Mist Walker base health increased to 110–212 from 100–185.; Mist Walker health ratio increased to 20% of Yorick's maximum health from 15%|health.",
+        "gameplayImpact": "Yorick was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Shepherd of Souls",
+            "title": "Shepherd of Souls",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Mist Walker base health",
+                "before": "100–185",
+                "after": "110–212",
+                "note": "Mist Walker base health increased to 110–212 from 100–185."
+              },
+              {
+                "label": "Mist Walker health ratio",
+                "before": "15%|health",
+                "after": "20% of Yorick's maximum health",
+                "note": "Mist Walker health ratio increased to 20% of Yorick's maximum health from 15%|health."
+              },
+              {
+                "label": "Mist Walker base movement speed",
+                "before": "300",
+                "after": "325",
+                "note": "Mist Walker base movement speed increased to 325 from 300."
+              }
+            ]
+          },
+          {
+            "ability": "Mourning Mist",
+            "title": "Mourning Mist",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Maiden of the Mist chase range",
+                "before": "1600",
+                "after": "1200 units",
+                "note": "Maiden of the Mist chase range reduced to 1200 units from 1600."
+              }
+            ]
+          },
+          {
+            "ability": "Eulogy of the Isles",
+            "title": "Eulogy of the Isles",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Maiden of the Mist base health",
+                "before": "300",
+                "after": "350",
+                "note": "Maiden of the Mist base health increased to 350 from 300."
+              },
+              {
+                "label": "Maiden of the Mist health ratio",
+                "before": "70%|health",
+                "after": "75% of Yorick's maximum health",
+                "note": "Maiden of the Mist health ratio increased to 75% of Yorick's maximum health from 70%|health."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "13.5",
+      "version": "13.5",
+      "releaseDate": "2023-03-08",
+      "change": {
+        "id": "yorick",
+        "name": "Yorick",
+        "type": "champion",
+        "assetKey": "Yorick",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Bonus Mist Walker damage reduced to 30% from 40%.",
+        "gameplayImpact": "Yorick loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Mourning Mist",
+            "title": "Mourning Mist",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Bonus Mist Walker damage",
+                "before": "40%",
+                "after": "30%",
+                "note": "Bonus Mist Walker damage reduced to 30% from 40%."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "13.15",
+      "version": "13.15",
+      "releaseDate": "2023-08-02",
+      "change": {
+        "id": "yorick",
+        "name": "Yorick",
+        "type": "champion",
+        "assetKey": "Yorick",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 2,
+        "tldr": "Maiden base health changed to 400–1650 (6–18) from 350.; Maiden health ratio reduced to 60% of Yorick's maximum health from 75%|health.",
+        "gameplayImpact": "Yorick was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Eulogy of the Isles",
+            "title": "Eulogy of the Isles",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Maiden base health",
+                "before": "350",
+                "after": "400–1650 (6–18)",
+                "note": "Maiden base health changed to 400–1650 (6–18) from 350."
+              },
+              {
+                "label": "Maiden health ratio",
+                "before": "75%|health",
+                "after": "60% of Yorick's maximum health",
+                "note": "Maiden health ratio reduced to 60% of Yorick's maximum health from 75%|health."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: The Maiden now has 10–50 (10–18) armor and magic resistance."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: The Maiden now regenerates 2.5 health per second."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "14.2",
+      "version": "14.2",
+      "releaseDate": "2024-01-24",
+      "change": {
+        "id": "yorick",
+        "name": "Yorick",
+        "type": "champion",
+        "assetKey": "Yorick",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 1,
+        "tldr": "Now replaces Aftershock}} with Grasp of the Undying}}.; Now replaces Glacial Augment}} with First Strike}}.",
+        "gameplayImpact": "Yorick was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "General",
+            "title": null,
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Now replaces Aftershock}} with Grasp of the Undying}}."
+              },
+              {
+                "label": "Change",
+                "note": "Now replaces Glacial Augment}} with First Strike}}."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "14.3",
+      "version": "14.3",
+      "releaseDate": "2024-02-07",
+      "change": {
+        "id": "yorick",
+        "name": "Yorick",
+        "type": "champion",
+        "assetKey": "Yorick",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Summon leash range reduced to 1600 from 2000.; New Effect: Summons now gain bonus movement speed when returning to him. This movement speed bonus is based on the distance between Yorick and the summon.",
+        "gameplayImpact": "Yorick was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Shepherd of Souls",
+            "title": "Shepherd of Souls",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Summon leash range",
+                "before": "2000",
+                "after": "1600",
+                "note": "Summon leash range reduced to 1600 from 2000."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Summons now gain bonus movement speed when returning to him. This movement speed bonus is based on the distance between Yorick and the summon."
+              }
+            ]
+          },
+          {
+            "ability": "Last Rites",
+            "title": "Last Rites",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Removed: Heal is no longer doubled when below 50% health."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Heal now scales with 4–8% missing health."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Heal is halved against non-champions."
+              },
+              {
+                "label": "Mana cost",
+                "before": "25",
+                "after": "20",
+                "note": "Mana cost reduced to 20 from 25."
+              }
+            ]
+          },
+          {
+            "ability": "Mourning Mist",
+            "title": "Mourning Mist",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Cast time",
+                "before": "0",
+                "after": "0.25 seconds",
+                "note": "Cast time reduced to 0.25 seconds from 0.33."
+              }
+            ]
+          },
+          {
+            "ability": "Eulogy of the Isles",
+            "title": "Eulogy of the Isles",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Bonus damage against marked targets",
+                "before": "3–9 (3 ranks)%|health",
+                "after": "2–3 (3 ranks)% of target's maximum health",
+                "note": "Bonus damage against marked targets reduced to 2–3 (3 ranks)% of target's maximum health from 3–9 (3 ranks)%|health."
+              },
+              {
+                "label": "Mark damage cap against monsters",
+                "before": "200–400 (3 ranks)",
+                "after": "100 at all ranks",
+                "note": "Mark damage cap against monsters reduced to 100 at all ranks from 200–400 (3 ranks)."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Mark damage no longer has a 2 second cooldown."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "14.5",
+      "version": "14.5",
+      "releaseDate": "2024-03-06",
+      "change": {
+        "id": "yorick",
+        "name": "Yorick",
+        "type": "champion",
+        "assetKey": "Yorick",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 2,
+        "tldr": "Bonus Mist Walker damage reduced to 20% from 30%.; Maiden armor increased to 30–90 (6–18) from 10–50 (10–18).",
+        "gameplayImpact": "Yorick was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Mourning Mist",
+            "title": "Mourning Mist",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Bonus Mist Walker damage",
+                "before": "30%",
+                "after": "20%",
+                "note": "Bonus Mist Walker damage reduced to 20% from 30%."
+              }
+            ]
+          },
+          {
+            "ability": "Eulogy of the Isles",
+            "title": "Eulogy of the Isles",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Maiden armor",
+                "before": "10–50 (10–18)",
+                "after": "30–90 (6–18)",
+                "note": "Maiden armor increased to 30–90 (6–18) from 10–50 (10–18)."
+              },
+              {
+                "label": "Maiden magic resistance",
+                "before": "10–50 (10–18)",
+                "after": "30–90 (6–18)",
+                "note": "Maiden magic resistance increased to 30–90 (6–18) from 10–50 (10–18)."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: No longer takes 50% damage from area spells."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Maiden's percent maximum health damage no longer incorrectly bypasses block."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "14.16",
+      "version": "14.16",
+      "releaseDate": "2024-08-14",
+      "change": {
+        "id": "yorick",
+        "name": "Yorick",
+        "type": "champion",
+        "assetKey": "Yorick",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "New Effect: Maiden's attacks now apply ultimate effects (i.e. Hatefog).",
+        "gameplayImpact": "Yorick is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Eulogy of the Isles",
+            "title": "Eulogy of the Isles",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Maiden's attacks now apply ultimate effects (i.e. Hatefog)."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "14.21",
+      "version": "14.21",
+      "releaseDate": "2024-10-23",
+      "change": {
+        "id": "yorick",
+        "name": "Yorick",
+        "type": "champion",
+        "assetKey": "Yorick",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Mist Walker base attack damage changed to 4–90 from 2–88.; Mist Walker AD ratio reduced to 20% AD from 25% AD.",
+        "gameplayImpact": "Yorick loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Shepherd of Souls",
+            "title": "Shepherd of Souls",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Mist Walker base attack damage",
+                "before": "2–88",
+                "after": "4–90",
+                "note": "Mist Walker base attack damage changed to 4–90 from 2–88."
+              },
+              {
+                "label": "Mist Walker AD ratio",
+                "before": "25% AD",
+                "after": "20% AD",
+                "note": "Mist Walker AD ratio reduced to 20% AD from 25% AD."
+              },
+              {
+                "label": "Change",
+                "note": "Undocumented: Mist Walkers no longer stack Focused Will."
+              },
+              {
+                "label": "Change",
+                "note": "Undocumented: Mist Walker damage is now properly amplified from Focused Will."
+              }
+            ]
+          },
+          {
+            "ability": "Mourning Mist",
+            "title": "Mourning Mist",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: Restored cast VO."
+              }
+            ]
+          },
+          {
+            "ability": "Eulogy of the Isles",
+            "title": "Eulogy of the Isles",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Undocumented: Maiden's attacks no longer apply ultimate effects (e.g. Hatefog)."
+              },
+              {
+                "label": "Change",
+                "note": "Undocumented: Maiden's attacks no longer refresh Conqueror}} or grant stacks."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "14.24",
+      "version": "14.24",
+      "releaseDate": "2024-12-11",
+      "change": {
+        "id": "yorick",
+        "name": "Yorick",
+        "type": "champion",
+        "assetKey": "Yorick",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 1,
+        "tldr": "New Effect: Mist Walker attacks are no longer inconsistently applied as different counts of damage instances, depending on their source (i.e. Mourning Mist}} vs Shepherd of Souls}} grave vs initial cast).Reddit — u/J-…",
+        "gameplayImpact": "Yorick was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Shepherd of Souls",
+            "title": "Shepherd of Souls",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Mist Walker attacks are no longer inconsistently applied as different counts of damage instances, depending on their source (i.e. Mourning Mist}} vs Shepherd of Souls}} grave vs initial cast).Reddit — u/J-Colio (20 March 2022) [https://www.reddit.com/r/yorickmains/comments/tiqbsm/tip_the_different_methods_ghouls_can_spawn_which/ Tip: The different methods ghouls can spawn which count as different spells for items and runes] Retrieved 2024-12-17 02:16 UTC"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "25.05",
+      "version": "25.05",
+      "releaseDate": "2025-03-05",
+      "change": {
+        "id": "yorick",
+        "name": "Yorick",
+        "type": "champion",
+        "assetKey": "Yorick",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Mark monster damage cap reduced to 50 from 100.",
+        "gameplayImpact": "Yorick loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Eulogy of the Isles",
+            "title": "Eulogy of the Isles",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Mark monster damage cap",
+                "before": "100",
+                "after": "50",
+                "note": "Mark monster damage cap reduced to 50 from 100."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "25.06",
+      "version": "25.06",
+      "releaseDate": "2025-03-19",
+      "change": {
+        "id": "yorick",
+        "name": "Yorick",
+        "type": "champion",
+        "assetKey": "Yorick",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Monster damage cap reduced to 70–210 from 300 at all ranks.",
+        "gameplayImpact": "Yorick loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Mourning Mist",
+            "title": "Mourning Mist",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Monster damage cap",
+                "before": "300 at all ranks",
+                "after": "70–210",
+                "note": "Monster damage cap reduced to 70–210 from 300 at all ranks."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "25.07",
+      "version": "25.07",
+      "releaseDate": "2025-04-02",
+      "change": {
+        "id": "yorick",
+        "name": "Yorick",
+        "type": "champion",
+        "assetKey": "Yorick",
+        "roles": [],
+        "direction": "rework",
+        "severity": 3,
+        "tldr": "Yorick gameplay update: Armor growth reduced to 4.5 from 5.2.; Nearby deaths per grave reduced to 8–2 from 12–2.",
+        "gameplayImpact": "Yorick plays differently after this update — relearn power spikes and matchups before grinding ranked.",
+        "context": "Gameplay Update",
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Armor growth",
+                "before": "5",
+                "after": "4.5",
+                "note": "Armor growth reduced to 4.5 from 5.2."
+              }
+            ]
+          },
+          {
+            "ability": "Shepherd of Souls",
+            "title": "Shepherd of Souls",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Nearby deaths per grave",
+                "before": "12–2",
+                "after": "8–2",
+                "note": "Nearby deaths per grave reduced to 8–2 from 12–2."
+              },
+              {
+                "label": "Change",
+                "note": "Changed to every 5th on ARAM."
+              },
+              {
+                "label": "Mist Walker base attack damage",
+                "before": "4–90",
+                "after": "15+(60/17)*(x-1)*(0.7025+0.0175*(x-1))",
+                "note": "Mist Walker base attack damage changed to 15+(60/17)*(x-1)*(0.7025+0.0175*(x-1)) from 4–90. Now uses stat growth."
+              },
+              {
+                "label": "Mist Walker AD ratio",
+                "before": "20% of Yorick's total AD",
+                "after": "20% of Yorick's bonus AD",
+                "note": "Mist Walker AD ratio reduced to 20% of Yorick's bonus AD from 20% of Yorick's total AD."
+              },
+              {
+                "label": "Mist Walker base health",
+                "before": "110–212",
+                "after": "110+(190/17)*(x-1)*(0.7025+0.0175*(x-1))",
+                "note": "Mist Walker base health increased to 110+(190/17)*(x-1)*(0.7025+0.0175*(x-1)) from 110–212. Now uses stat growth."
+              },
+              {
+                "label": "Mist Walker health ratio",
+                "before": "20% of Yorick's maximum health",
+                "after": "15% of Yorick's bonus health",
+                "note": "Mist Walker health ratio reduced to 15% of Yorick's bonus health from 20% of Yorick's maximum health."
+              },
+              {
+                "label": "Mist Walker base attack speed",
+                "before": "0",
+                "after": "0.5 at all levels",
+                "note": "Mist Walker base attack speed reduced to 0.5 at all levels from 0.5+0.5*0.08*1–0.5+0.5*0.08*18. Attack speed ratio unchanged at 0.5."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Mist Walker attack speed now scales with 100% of Yorick's bonus attack speed."
+              },
+              {
+                "label": "Mist Walker incoming non-epic monster damage modifier",
+                "before": "50%",
+                "after": "40%",
+                "note": "Mist Walker incoming non-epic monster damage modifier reduced to 40% from 50%."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Mist Walkers no longer receive 50% damage from epic monsters."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Mist Walkers now receive 40% damage from lane minions."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Mist Walkers are no longer instantly killed by single-target champion spells. Still instantly killed by turret attacks."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Mist Walkers now receive 200% damage from melee champion basic attacks."
+              },
+              {
+                "label": "Mist Walker incoming area damage modifier",
+                "before": "50% at all levels",
+                "after": "66–40%",
+                "note": "Mist Walker incoming area damage modifier changed to 66–40% from 50% at all levels."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Pinging the ability now displays in chat the number of Mist Walkers alive Yorick and overall on the map."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: When Yorick casts , Mist Walkers no longer stop attacking jungle monsters and withdraw to him."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Mist Walker leaps via Mourning Mist}} now target units instead of locations. Previously this caused them to sometimes fail to reach their target over terrain."
+              },
+              {
+                "label": "Change",
+                "note": "Undocumented: Mist Walker leaps via Mourning Mist}} are no longer additionally tagged as basic damage."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Attacks from different Mist Walkers that occur simultaneously or in quick succession due to regular commands and the leap granted by Mourning Mist}} now correctly apply as separate instances for the purposes of Carve."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Mist Walkers now properly update their stats on Yorick's level-up."
+              }
+            ]
+          },
+          {
+            "ability": "Last Rites",
+            "title": "Last Rites",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "AD ratio",
+                "before": "40% AD",
+                "after": "50% AD",
+                "note": "AD ratio increased to 50% AD from 40% AD."
+              },
+              {
+                "label": "Cooldown",
+                "before": "7–4",
+                "after": "6–4 seconds",
+                "note": "Cooldown reduced to 6–4 seconds from 7–4."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now also raises a grave if it damages a champion or large monster."
+              },
+              {
+                "label": "Change",
+                "note": "Killing a target with the spell will only raise 1 grave."
+              }
+            ]
+          },
+          {
+            "ability": "Mourning Mist",
+            "title": "Mourning Mist",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Removed: Globule no longer deals 15% of the target's current health."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Globule now deals 70–210 (+ 100% AP) base damage."
+              },
+              {
+                "label": "Globule AP ratio",
+                "before": "70% AP",
+                "after": "100% AP",
+                "note": "Globule AP ratio increased to 100% AP from 70% AP."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Globule no longer has a minimum damage of 70–210 (+ 70% AP)."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Globule no longer has a monster damage cap of 70–210."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: While the mark is active, Mist Walkers no longer deal for the next 8 attacks against the target."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: While the mark is active, now reduces the target's armor by 18–30%."
+              },
+              {
+                "label": "Bonus movement speed",
+                "before": "20%",
+                "after": "30%",
+                "note": "Bonus movement speed increased to 30% from 20%."
+              }
+            ]
+          },
+          {
+            "ability": "Eulogy of the Isles",
+            "title": "Eulogy of the Isles",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Maiden base attack damage",
+                "before": "0 (10 ranks)",
+                "after": "50–100 (3 ranks)",
+                "note": "Maiden base attack damage increased to 50–100 (3 ranks) from 0 (10 ranks)."
+              },
+              {
+                "label": "Maiden AD ratio",
+                "before": "50% of Yorick's total AD",
+                "after": "30% of Yorick's bonus AD",
+                "note": "Maiden AD ratio reduced to 30% of Yorick's bonus AD from 50% of Yorick's total AD."
+              },
+              {
+                "label": "Maiden base health",
+                "before": "400–1650 (6–18)",
+                "after": "1050–2 (6–18)",
+                "note": "Maiden base health increased to 1050–2 (6–18) from 400–1650 (6–18)."
+              },
+              {
+                "label": "Maiden health ratio",
+                "before": "60% of Yorick's maximum health",
+                "after": "60% of Yorick's bonus health",
+                "note": "Maiden health ratio reduced to 60% of Yorick's bonus health from 60% of Yorick's maximum health."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "rework",
+          "Gameplay Update"
+        ]
+      }
+    },
+    {
+      "patchId": "25.08",
+      "version": "25.08",
+      "releaseDate": "2025-04-16",
+      "change": {
+        "id": "yorick",
+        "name": "Yorick",
+        "type": "champion",
+        "assetKey": "Yorick",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 2,
+        "tldr": "Mist Walker monster damage increased to 70% from 60%.; Mist Walker incoming non-epic monster damage modifier increased to 100% from 60%.",
+        "gameplayImpact": "Yorick was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Shepherd of Souls",
+            "title": "Shepherd of Souls",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Mist Walker monster damage",
+                "before": "60%",
+                "after": "70%",
+                "note": "Mist Walker monster damage increased to 70% from 60%."
+              },
+              {
+                "label": "Mist Walker incoming non-epic monster damage modifier",
+                "before": "60%",
+                "after": "100%",
+                "note": "Mist Walker incoming non-epic monster damage modifier increased to 100% from 60%."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Mist Walkers are now properly able to leap to targets beyond terrain when commanded via Mourning Mist}}."
+              }
+            ]
+          },
+          {
+            "ability": "Mourning Mist",
+            "title": "Mourning Mist",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Removed: No longer deals 70–210 (+ 70% AP) base damage."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now deals 6–8%|hp (+ 3% per 100 AP) of the target's maximum health damage. This is capped at 50–150 (+ 100% AP) against monsters and has a minimum damage of 70–210 (+ 100% AP) against minions."
+              }
+            ]
+          },
+          {
+            "ability": "Eulogy of the Isles",
+            "title": "Eulogy of the Isles",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Removed: The Maiden can no longer mark non-champion units."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "25.09",
+      "version": "25.09",
+      "releaseDate": "2025-04-30",
+      "change": {
+        "id": "yorick",
+        "name": "Yorick",
+        "type": "champion",
+        "assetKey": "Yorick",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Mist Walker monster damage reduced to 60% from 70%.",
+        "gameplayImpact": "Yorick loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Shepherd of Souls",
+            "title": "Shepherd of Souls",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Mist Walker monster damage",
+                "before": "70%",
+                "after": "60%",
+                "note": "Mist Walker monster damage reduced to 60% from 70%."
+              }
+            ]
+          },
+          {
+            "ability": "Eulogy of the Isles",
+            "title": "Eulogy of the Isles",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Undocumented / New Effect: The Maiden now follows Yorick into Realm of Death (Mordekaiser)}}."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "25.12",
+      "version": "25.12",
+      "releaseDate": "2025-06-11",
+      "change": {
+        "id": "yorick",
+        "name": "Yorick",
+        "type": "champion",
+        "assetKey": "Yorick",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Mist Walker bonus attack speed changed to 8+(72/17)*(x-1)*(0.7025+0.0175*(x-1))% bonus attack speed from 100% of Yorick's bonus attack speed|as.; Base damage reduced to 30–110 from 30–130.",
+        "gameplayImpact": "Yorick loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Shepherd of Souls",
+            "title": "Shepherd of Souls",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Mist Walker bonus attack speed",
+                "before": "100% of Yorick's bonus attack speed|as",
+                "after": "8+(72/17)*(x-1)*(0.7025+0.0175*(x-1))% bonus attack speed",
+                "note": "Mist Walker bonus attack speed changed to 8+(72/17)*(x-1)*(0.7025+0.0175*(x-1))% bonus attack speed from 100% of Yorick's bonus attack speed|as."
+              }
+            ]
+          },
+          {
+            "ability": "Last Rites",
+            "title": "Last Rites",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "30–130",
+                "after": "30–110",
+                "note": "Base damage reduced to 30–110 from 30–130."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "25.13",
+      "version": "25.13",
+      "releaseDate": "2025-06-25",
+      "change": {
+        "id": "yorick",
+        "name": "Yorick",
+        "type": "champion",
+        "assetKey": "Yorick",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Base armor reduced to 36 from 39.",
+        "gameplayImpact": "Yorick loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base armor",
+                "before": "39",
+                "after": "36",
+                "note": "Base armor reduced to 36 from 39."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    }
+  ]
+}

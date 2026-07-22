@@ -1,0 +1,538 @@
+{
+  "id": "12.21",
+  "version": "12.21",
+  "title": "\"Anyone can wield a weapon! Warriors make their own.\"",
+  "releaseDate": "2022-11-02",
+  "season": "12",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "\"Anyone can wield a weapon! Warriors make their own.\""
+    },
+    {
+      "title": "Champion balance",
+      "description": "4 champion buffs, 2 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "\"Anyone can wield a weapon! Warriors make their own.\" Structured changes across 10 entities this patch.",
+  "champions": [
+    {
+      "id": "ahri",
+      "name": "Ahri",
+      "type": "champion",
+      "assetKey": "Ahri",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Mana cost reduced to 55–95 from 60–100.; AP ratio per hit increased to 45% AP from 40% AP.",
+      "gameplayImpact": "Ahri is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Orb of Deception",
+          "title": "Orb of Deception",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Mana cost",
+              "before": "60–100",
+              "after": "55–95",
+              "note": "Mana cost reduced to 55–95 from 60–100."
+            },
+            {
+              "label": "AP ratio per hit",
+              "before": "40% AP",
+              "after": "45% AP",
+              "note": "AP ratio per hit increased to 45% AP from 40% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "belveth",
+      "name": "Bel'Veth",
+      "type": "champion",
+      "assetKey": "Belveth",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Cooldown increased to 24–18 seconds from 22–16.; Void Remora health reduced to 40–60 (3 ranks)% of minion's maximum health from 50–70 (3 ranks)%|health.",
+      "gameplayImpact": "Bel'Veth loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Royal Maelstrom",
+          "title": "Royal Maelstrom",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "22–16",
+              "after": "24–18 seconds",
+              "note": "Cooldown increased to 24–18 seconds from 22–16."
+            }
+          ]
+        },
+        {
+          "ability": "Endless Banquet",
+          "title": "Endless Banquet",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Void Remora health",
+              "before": "50–70 (3 ranks)%|health",
+              "after": "40–60 (3 ranks)% of minion's maximum health",
+              "note": "Void Remora health reduced to 40–60 (3 ranks)% of minion's maximum health from 50–70 (3 ranks)%|health."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "blitzcrank",
+      "name": "Blitzcrank",
+      "type": "champion",
+      "assetKey": "Blitzcrank",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Base health reduced to 633 from 653.; Base magic resistance reduced to 28 from 32.",
+      "gameplayImpact": "Blitzcrank loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base health",
+              "before": "653",
+              "after": "633",
+              "note": "Base health reduced to 633 from 653."
+            },
+            {
+              "label": "Base magic resistance",
+              "before": "32",
+              "after": "28",
+              "note": "Base magic resistance reduced to 28 from 32."
+            }
+          ]
+        },
+        {
+          "ability": "Overdrive",
+          "title": "Overdrive",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Bonus attack speed",
+              "before": "40–92%",
+              "after": "30–82%",
+              "note": "Bonus attack speed reduced to 30–82% from 40–92%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "caitlyn",
+      "name": "Caitlyn",
+      "type": "champion",
+      "assetKey": "Caitlyn",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Updated ability icons.",
+      "gameplayImpact": "Caitlyn was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Updated ability icons."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "corki",
+      "name": "Corki",
+      "type": "champion",
+      "assetKey": "Corki",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Attack damage growth increased to 2.8 from 2.5.; Health growth increased to 105 from 101.",
+      "gameplayImpact": "Corki is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Attack damage growth",
+              "before": "2",
+              "after": "2.8",
+              "note": "Attack damage growth increased to 2.8 from 2.5."
+            },
+            {
+              "label": "Health growth",
+              "before": "101",
+              "after": "105",
+              "note": "Health growth increased to 105 from 101."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "ksante",
+      "name": "K'Sante",
+      "type": "champion",
+      "assetKey": "KSante",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Innate: K'Sante's abilities mark enemies hit for 4 seconds. His basic attack against marked enemies are empowered to consume the mark to gain 25 bonus range and deal 10–25|physical damage (+ 1–2% of target's maximum h…",
+      "gameplayImpact": "K'Sante was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": "New champion",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Innate: K'Sante's abilities mark enemies hit for 4 seconds. His basic attack against marked enemies are empowered to consume the mark to gain 25 bonus range and deal 10–25|physical damage (+ 1–2% of target's maximum health) bonus physical damage."
+            },
+            {
+              "label": "Change",
+              "note": "All Out|All Out Bonus:}} Bonus damage dealt by consuming a mark is converted to true damage. Both the attack's damage and the mark damage are increased by 35% (+ 20% per 100 bonus armor) (+ 20% per 100 bonus magic resistance)."
+            },
+            {
+              "label": "Change",
+              "note": "Active: K'Sante slams his tonfa down in the target direction that deals 50–150 (+ 40% AD) (+ 30% bonus armor) (+ 30% bonus magic resistance) physical damage to enemies hit and slow them by 80% for 0.5 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "If this hits at least one enemy, K'Sante generates a stack for 6 seconds, stacking up to 2 times and refreshing on subsequent hits. At 2 stacks, the next Ntofo Strikes consumes them all to become empowered with a new effect."
+            },
+            {
+              "label": "Change",
+              "note": "Empowered Active: K'Sante fires a shockwave in the target direction that applies the same effects to enemies hit, but also airborne them towards him over 1 second and stun them for the same duration."
+            },
+            {
+              "label": "Change",
+              "note": "All Out|All Out Bonus:}} Ntofo Strikes's cooldown is by 1 second and it no longer slow targets hit."
+            },
+            {
+              "label": "Change",
+              "note": "Ntofo Strikes partially basic attack reset K'Sante's basic attack timer. While All Out}}, it fully resets the timer."
+            },
+            {
+              "label": "Change",
+              "note": "Mana Cost: 15."
+            },
+            {
+              "label": "Change",
+              "note": "Static Cooldown: 3.5–1.75 (over 0–250)"
+            },
+            {
+              "label": "Change",
+              "note": "Cast Time: 0.45–0.25 (over 0–1800) seconds, Range: er , Width: er / ."
+            },
+            {
+              "label": "Change",
+              "note": "Active: K'Sante channel for up to 1 second, during which he increases Path Maker's range, damage, and stun duration over the first 0.85 seconds of the channel and gains displacement immunity and 25% (+ 10% per 100 bonus armor) (+ 10% per 100 bonus magic resistance) (+ 1% per 100 bonus health) damage reduction."
+            },
+            {
+              "label": "Change",
+              "note": "Path Maker can be recast within the duration, and does so automatically afterwards. Path Maker's charge cannot be interrupt by crowd control."
+            },
+            {
+              "label": "Change",
+              "note": "Recast: K'Sante dash in the target direction, though not through terrain, dealing 4.25–5.25% of target's maximum health physical damage to enemies he passes through, airborne them alongside him, and stun them for 0.35–0.75 seconds. When charged, the damage goes up to 8.25–9.25% of target's maximum health and the stun goes up to 0.85–1.25 seconds. This damage is capped at 50–475 against monsters."
+            },
+            {
+              "label": "Change",
+              "note": "All Out|All Out Bonus:}} Path Maker no longer applies its airborne and stun, but it deals 25–65 (+ 50% AD) bonus physical damage and its damage reduction is increased to 30% (+ 12% per 100 bonus armor) (+ 12% per 100 bonus magic resistance) (+ 1.2% per 100 bonus health), as well as has doubled charge duration and dash speed. Upon going All Out, Path Maker's cooldown is refreshed. When charged, this bonus damage goes up to 110–350 (+ 50% AD)."
+            },
+            {
+              "label": "Change",
+              "note": "Ntofo Strikes}} and All Out}} can be cast during the dash. Path Maker's recast can be used while affected by cast-inhibiting crowd control."
+            },
+            {
+              "label": "Change",
+              "note": "Mana Cost: 75–95."
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Cast Time: None, Range: / , Speed: / / ."
+            },
+            {
+              "label": "Change",
+              "note": "Active: K'Sante dash to the target location, though not through terrain, and grants himself a shield for 45–125 (+ 15% bonus health) for 2 seconds. Footwork can be cast on allies to dash to them at an increased range. If the ally is a champion upon arrival, they receive the shield as well."
+            },
+            {
+              "label": "Change",
+              "note": "All Out|All Out Bonus:}} Footwork's dash speed and location range are increased, and it can dash through terrain."
+            },
+            {
+              "label": "Change",
+              "note": "K'Sante can cast any of his abilities during the dash. Footwork will cast at max range if cast beyond that."
+            },
+            {
+              "label": "Change",
+              "note": "Mana Cost: 45–65."
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: 9–7 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Cast Time: None, Range: / / , Speed: / ."
+            },
+            {
+              "label": "Change",
+              "note": "Active: K'Sante root the target enemy champion for 0.5 seconds and gains displacement immunity over the cast time, then shatters his tonfas to airborne and blink 175 units beyond their hitbox's edge at the end location. The target is dealt 35–105 (3 ranks) (+ 20% AD) physical damage near the end of the displacement and is stun for 0.25 seconds afterwards."
+            },
+            {
+              "label": "Change",
+              "note": "If the target collides with terrain during the displacement, they are knocked back through the terrain and are dealt the physical damage once they have gone past it. At the end of the displacement, K'Sante strikes the target to deal 150–350 (+ 20% AD) additional physical damage|physical damage and they remain airborne for 0.5 seconds, after which they are stun for 0.25 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "After K'Sante blink, he goes All Out for 20 seconds, and the ability can be recast after within the duration."
+            },
+            {
+              "label": "Change",
+              "note": "All Out: K'Sante's current health is reduced to 55% maximum health and he cannot exceed this threshold through heal nor . Additionally, his armor|base armor and mr|base magic resistance are reduced by 65% bonus armor and 65% bonus magic resistance, respectively. In return, he gains 5 and and empowers his basic abilities, which can be cast at no cost."
+            },
+            {
+              "label": "Change",
+              "note": "Recast: K'Sante ends All Out early."
+            },
+            {
+              "label": "Change",
+              "note": "K'Sante retains his maximum health and bonus resistances during All Out. Health lost from All Out is not restored after the effect ends. Upon going All Out, K'Sante is restored to 100% maximum mana which rapidly decays over the duration. His mana percentage prior to All Out is preserved and is gained back after the effect ends. If the target is knocked over terrain that is longer than units, K'Sante will vanish during their displacement and reappear near the end of it."
+            },
+            {
+              "label": "Change",
+              "note": "Mana Cost: 100."
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Cast Time: 0.4 seconds, Target Range: cr 350, Effect Radius: , Speed: ."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust",
+        "New champion"
+      ]
+    },
+    {
+      "id": "malzahar",
+      "name": "Malzahar",
+      "type": "champion",
+      "assetKey": "Malzahar",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Now executes minions below 15–45 health.",
+      "gameplayImpact": "Malzahar is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Malefic Visions",
+          "title": "Malefic Visions",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Now executes minions below 15–45 health."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "miss-fortune",
+      "name": "Miss Fortune",
+      "type": "champion",
+      "assetKey": "MissFortune",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Damage AP ratio increased to 120% AP from 100% AP.; Base slow reduced to 40% from 50%.",
+      "gameplayImpact": "Miss Fortune was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Make It Rain",
+          "title": "Make It Rain",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Damage AP ratio",
+              "before": "100% AP",
+              "after": "120% AP",
+              "note": "Damage AP ratio increased to 120% AP from 100% AP."
+            },
+            {
+              "label": "Base slow",
+              "before": "50%",
+              "after": "40%",
+              "note": "Base slow reduced to 40% from 50%."
+            },
+            {
+              "label": "Slow AP ratio",
+              "before": "4% per 100 AP",
+              "after": "6% per 100 AP",
+              "note": "Slow AP ratio increased to 6% per 100 AP from 4% per 100 AP."
+            }
+          ]
+        },
+        {
+          "ability": "Bullet Time",
+          "title": "Bullet Time",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AP ratio per wave",
+              "before": "20% AP",
+              "after": "25% AP",
+              "note": "AP ratio per wave increased to 25% AP from 20% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "ornn",
+      "name": "Ornn",
+      "type": "champion",
+      "assetKey": "Ornn",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "First cast slowing for the full amount, instead of ramping up from 10% at the maximum distance, is now considered the intended function.; This functionality was unintentionally changed to this in V9.1.",
+      "gameplayImpact": "Ornn was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Call of the Forge God",
+          "title": "Call of the Forge God",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "First cast slowing for the full amount, instead of ramping up from 10% at the maximum distance, is now considered the intended function."
+            },
+            {
+              "label": "Change",
+              "note": "This functionality was unintentionally changed to this in V9.1."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "xin-zhao",
+      "name": "Xin Zhao",
+      "type": "champion",
+      "assetKey": "XinZhao",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Bonus damage AD ratio increased to 15–60% AD from 15–45% (lv 1–16) AD.; Heal AP ratio increased to 65% AP from 55% AP.",
+      "gameplayImpact": "Xin Zhao is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Determination",
+          "title": "Determination",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus damage AD ratio",
+              "before": "15–45% (lv 1–16) AD",
+              "after": "15–60% AD",
+              "note": "Bonus damage AD ratio increased to 15–60% AD from 15–45% (lv 1–16) AD."
+            },
+            {
+              "label": "Heal AP ratio",
+              "before": "55% AP",
+              "after": "65% AP",
+              "note": "Heal AP ratio increased to 65% AP from 55% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Audacious Charge",
+          "title": "Audacious Charge",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "12",
+              "after": "11 seconds",
+              "note": "Cooldown reduced to 11 seconds from 12."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "items": [],
+  "systems": [],
+  "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-12-21-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V12.21"
+}

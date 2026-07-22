@@ -1,0 +1,1883 @@
+{
+  "slug": "rell",
+  "name": "Rell",
+  "assetKey": "Rell",
+  "entries": [
+    {
+      "patchId": "11.1",
+      "version": "11.1",
+      "releaseDate": "2021-01-06",
+      "change": {
+        "id": "rell",
+        "name": "Rell",
+        "type": "champion",
+        "assetKey": "Rell",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Base magic resistance reduced to 32 from 32.1.",
+        "gameplayImpact": "Rell loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base magic resistance",
+                "before": "32",
+                "after": "32",
+                "note": "Base magic resistance reduced to 32 from 32.1."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "11.3",
+      "version": "11.3",
+      "releaseDate": "2021-02-03",
+      "change": {
+        "id": "rell",
+        "name": "Rell",
+        "type": "champion",
+        "assetKey": "Rell",
+        "roles": [],
+        "direction": "buff",
+        "severity": 2,
+        "tldr": "AP ratio increased to 60% AP from 40% AP.; AP ratio increased to 40% AP from 30% AP.",
+        "gameplayImpact": "Rell is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Ferromancy: Crash Down",
+            "title": "Ferromancy: Crash Down",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "AP ratio",
+                "before": "40% AP",
+                "after": "60% AP",
+                "note": "AP ratio increased to 60% AP from 40% AP."
+              }
+            ]
+          },
+          {
+            "ability": "Ferromancy: Mount Up",
+            "title": "Ferromancy: Mount Up",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "AP ratio",
+                "before": "30% AP",
+                "after": "40% AP",
+                "note": "AP ratio increased to 40% AP from 30% AP."
+              }
+            ]
+          },
+          {
+            "ability": "Attract and Repel",
+            "title": "Attract and Repel",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Unbinding cooldown",
+                "before": "2",
+                "after": "1 second",
+                "note": "Unbinding cooldown reduced to 1 second from 2.75."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Fixed a bug where the cooldown was scaling non-linearly."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: When cast from very long ranges, now properly path towards the target until in range to cast it."
+              }
+            ]
+          },
+          {
+            "ability": "Magnet Storm",
+            "title": "Magnet Storm",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Total AP ratio",
+                "before": "70% AP",
+                "after": "110% AP",
+                "note": "Total AP ratio increased to 110% AP from 70% AP."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "11.5",
+      "version": "11.5",
+      "releaseDate": "2021-03-03",
+      "change": {
+        "id": "rell",
+        "name": "Rell",
+        "type": "champion",
+        "assetKey": "Rell",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 2,
+        "tldr": "Base armor reduced to 32 from 35.; Cooldown increased to 13 seconds from 11.",
+        "gameplayImpact": "Rell loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base armor",
+                "before": "35",
+                "after": "32",
+                "note": "Base armor reduced to 32 from 35."
+              }
+            ]
+          },
+          {
+            "ability": "Ferromancy: Crash Down",
+            "title": "Ferromancy: Crash Down",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Cooldown",
+                "before": "11",
+                "after": "13 seconds",
+                "note": "Cooldown increased to 13 seconds from 11."
+              }
+            ]
+          },
+          {
+            "ability": "Ferromancy: Mount Up",
+            "title": "Ferromancy: Mount Up",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Cooldown",
+                "before": "11",
+                "after": "13 seconds",
+                "note": "Cooldown increased to 13 seconds from 11."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "11.7",
+      "version": "11.7",
+      "releaseDate": "2021-03-31",
+      "change": {
+        "id": "rell",
+        "name": "Rell",
+        "type": "champion",
+        "assetKey": "Rell",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Stun duration reduced to 0.5 seconds from 0.75.",
+        "gameplayImpact": "Rell loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Attract and Repel",
+            "title": "Attract and Repel",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Stun duration",
+                "before": "0",
+                "after": "0.5 seconds",
+                "note": "Stun duration reduced to 0.5 seconds from 0.75."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "11.15",
+      "version": "11.15",
+      "releaseDate": "2021-07-21",
+      "change": {
+        "id": "rell",
+        "name": "Rell",
+        "type": "champion",
+        "assetKey": "Rell",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "Cooldown reduced to 11 seconds from 13.; Cooldown reduced to 11 seconds from 13.",
+        "gameplayImpact": "Rell is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Ferromancy: Crash Down",
+            "title": "Ferromancy: Crash Down",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Cooldown",
+                "before": "13",
+                "after": "11 seconds",
+                "note": "Cooldown reduced to 11 seconds from 13."
+              }
+            ]
+          },
+          {
+            "ability": "Ferromancy: Mount Up",
+            "title": "Ferromancy: Mount Up",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Cooldown",
+                "before": "13",
+                "after": "11 seconds",
+                "note": "Cooldown reduced to 11 seconds from 13."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "12.10",
+      "version": "12.10",
+      "releaseDate": "2022-05-25",
+      "change": {
+        "id": "rell",
+        "name": "Rell",
+        "type": "champion",
+        "assetKey": "Rell",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Base health increased to 610 from 540.; Health growth increased to 104 from 90.",
+        "gameplayImpact": "Rell was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base health",
+                "before": "540",
+                "after": "610",
+                "note": "Base health increased to 610 from 540."
+              },
+              {
+                "label": "Health growth",
+                "before": "90",
+                "after": "104",
+                "note": "Health growth increased to 104 from 90."
+              },
+              {
+                "label": "Armor growth",
+                "before": "3",
+                "after": "4.2",
+                "note": "Armor growth increased to 4.2 from 3."
+              },
+              {
+                "label": "Magic resistance growth",
+                "before": "1",
+                "after": "2.05",
+                "note": "Magic resistance growth increased to 2.05 from 1.25."
+              }
+            ]
+          },
+          {
+            "ability": "Shattering Strike",
+            "title": "Shattering Strike",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Heal health ratio",
+                "before": "5%|health",
+                "after": "4% missing health",
+                "note": "Heal health ratio reduced to 4% missing health from 5%|health."
+              }
+            ]
+          },
+          {
+            "ability": "Ferromancy: Crash Down",
+            "title": "Ferromancy: Crash Down",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base shield",
+                "before": "40–160",
+                "after": "35–135",
+                "note": "Base shield reduced to 35–135 from 40–160."
+              },
+              {
+                "label": "Shield health ratio",
+                "before": "13%|health",
+                "after": "12% maximum health",
+                "note": "Shield health ratio reduced to 12% maximum health from 13%|health."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "12.17",
+      "version": "12.17",
+      "releaseDate": "2022-09-08",
+      "change": {
+        "id": "rell",
+        "name": "Rell",
+        "type": "champion",
+        "assetKey": "Rell",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "Modified base movement speed increased to 280 from 250.; Cooldown changed to 13 seconds at all ranks from 18–11.",
+        "gameplayImpact": "Rell is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Ferromancy: Crash Down",
+            "title": "Ferromancy: Crash Down",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Modified base movement speed",
+                "before": "250",
+                "after": "280",
+                "note": "Modified base movement speed increased to 280 from 250."
+              }
+            ]
+          },
+          {
+            "ability": "Attract and Repel",
+            "title": "Attract and Repel",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Cooldown",
+                "before": "18–11",
+                "after": "13 seconds at all ranks",
+                "note": "Cooldown changed to 13 seconds at all ranks from 18–11."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "12.22",
+      "version": "12.22",
+      "releaseDate": "2022-11-16",
+      "change": {
+        "id": "rell",
+        "name": "Rell",
+        "type": "champion",
+        "assetKey": "Rell",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Base magic resistance reduced to 32 from 32.1.",
+        "gameplayImpact": "Rell loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base magic resistance",
+                "before": "32",
+                "after": "32",
+                "note": "Base magic resistance reduced to 32 from 32.1."
+              }
+            ]
+          },
+          {
+            "ability": "Magnet Storm",
+            "title": "Magnet Storm",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: No longer deals one less tick of damage."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "13.11",
+      "version": "13.11",
+      "releaseDate": "2023-06-01",
+      "change": {
+        "id": "rell",
+        "name": "Rell",
+        "type": "champion",
+        "assetKey": "Rell",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Updated ability icons.; Base attack speed increased to 0.625 from 0.55.",
+        "gameplayImpact": "Rell was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "General",
+            "title": null,
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Updated ability icons."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Walk animation no longer freezes when continuously transitioning from the walk animation to the idle animation."
+              }
+            ]
+          },
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Base attack speed",
+                "before": "0",
+                "after": "0.625",
+                "note": "Base attack speed increased to 0.625 from 0.55."
+              },
+              {
+                "label": "Attack speed ratio",
+                "before": "0",
+                "after": "0.625",
+                "note": "Attack speed ratio increased to 0.625 from 0.55."
+              },
+              {
+                "label": "Attack speed growth",
+                "before": "2%",
+                "after": "1.5%",
+                "note": "Attack speed growth reduced to 1.5% from 2%."
+              },
+              {
+                "label": "Armor growth",
+                "before": "4",
+                "after": "3",
+                "note": "Armor growth reduced to 3 from 4.2."
+              },
+              {
+                "label": "Magic resistance growth",
+                "before": "2",
+                "after": "1",
+                "note": "Magic resistance growth reduced to 1 from 2.05."
+              },
+              {
+                "label": "Base movement speed",
+                "before": "335",
+                "after": "330",
+                "note": "Base movement speed reduced to 330 from 335."
+              }
+            ]
+          },
+          {
+            "ability": "Break the Mold",
+            "title": "Break the Mold",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Resistance steal",
+                "before": "10%",
+                "after": "2.5%",
+                "note": "Resistance steal reduced to 2.5% from 10%."
+              },
+              {
+                "label": "Minimum resistance reduction",
+                "before": "5–12",
+                "after": "1.25–3",
+                "note": "Minimum resistance reduction reduced to 1.25–3 from 5–12."
+              },
+              {
+                "label": "Duration",
+                "before": "4",
+                "after": "5 seconds",
+                "note": "Duration increased to 5 seconds from 4."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: No longer steals 0.5–2 resistances from minions."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Resistance steal now stacks up to 5 times per target."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Abilities now apply one stack per target."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Gained resistances remain for the full duration even if a target dies."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: No longer deals 8–16 bonus magic damage on-hit and Break the Mold's bonus damage is no longer increased equal to the sum resistances reduced from all targets."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Damaging a new enemy champion no longer refreshes duration on all targets affected by Break the Mold's resistance stealing debuff."
+              }
+            ]
+          },
+          {
+            "ability": "Shattering Strike",
+            "title": "Shattering Strike",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "70–250",
+                "after": "60–200",
+                "note": "Base damage reduced to 60–200 from 70–250."
+              },
+              {
+                "label": "Damage against monsters",
+                "before": "100%",
+                "after": "250%",
+                "note": "Damage against monsters increased to 250% from 100%."
+              },
+              {
+                "label": "Cast time",
+                "before": "0",
+                "after": "0.5 seconds",
+                "note": "Cast time increased to 0.5 seconds from 0.35."
+              },
+              {
+                "label": "Forward range",
+                "before": "685",
+                "after": "520 units",
+                "note": "Forward range reduced to 520 units from 685."
+              },
+              {
+                "label": "Backward range",
+                "before": "150",
+                "after": "220 units",
+                "note": "Backward range increased to 220 units from 150."
+              },
+              {
+                "label": "Cooldown",
+                "before": "9–5",
+                "after": "11–9 seconds",
+                "note": "Cooldown increased to 11–9 seconds from 9–5."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now stuns targets hit for 0.75 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now lunge forward 100 units when casting."
+              },
+              {
+                "label": "Change",
+                "note": "Does not count as a movement spell."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Damage is no longer reduced to 50% against targets beyond the first."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: No longer heals herself or an ally tethered with Attract and Repel}} for 10–30 (+ 30% AP) (+ 4% of missing health) per champion hit."
+              }
+            ]
+          },
+          {
+            "ability": "Ferromancy: Crash Down",
+            "title": "Ferromancy: Crash Down",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Removed: While Rell is Mounted, no longer gains ms|5–15% bonus movement speed, which is only 20–40% as effective for 3 seconds when she takes damage from non-minions and is removed for 4 seconds when she becomes immobilize or polymorph."
+              },
+              {
+                "label": "Damage against monsters",
+                "before": "100%",
+                "after": "250%",
+                "note": "Damage against monsters increased to 250% from 100%."
+              },
+              {
+                "label": "Base damage",
+                "before": "70–210",
+                "after": "70–190",
+                "note": "Base damage reduced to 70–190 from 70–210."
+              },
+              {
+                "label": "Base shield",
+                "before": "35–135",
+                "after": "30–130",
+                "note": "Base shield reduced to 30–130 from 35–135."
+              },
+              {
+                "label": "Shield health ratio",
+                "before": "12%|health",
+                "after": "10% maximum health",
+                "note": "Shield health ratio reduced to 10% maximum health from 12%|health."
+              },
+              {
+                "label": "Slide distance",
+                "before": "375",
+                "after": "320 units",
+                "note": "Slide distance reduced to 320 units from 375."
+              },
+              {
+                "label": "Effect radius",
+                "before": "200",
+                "after": "180 units",
+                "note": "Effect radius reduced to 180 units from 200."
+              },
+              {
+                "label": "Dash range",
+                "before": "500",
+                "after": "400 units",
+                "note": "Dash range reduced to 400 units from 500."
+              },
+              {
+                "label": "Knock up duration",
+                "before": "1",
+                "after": "0.75 seconds",
+                "note": "Knock up duration reduced to 0.75 seconds from 1."
+              }
+            ]
+          },
+          {
+            "ability": "Ferromancy: Mount Up",
+            "title": "Ferromancy: Mount Up",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Now passively grants her 15–35% bonus attack speed and 75 bonus attack range while dismounted."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now reduces her movement speed by 15% while dismounted."
+              },
+              {
+                "label": "Bonus resistances",
+                "before": "10%",
+                "after": "12%",
+                "note": "Bonus resistances increased to 12% from 10%."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Base movement speed is no longer modified to 280 while dismounted."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Movement speed is no longer capped at 290–400 while dismounted."
+              },
+              {
+                "label": "Damage against monsters",
+                "before": "100%",
+                "after": "250%",
+                "note": "Damage against monsters increased to 250% from 100%."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Active now grants 30% bonus movement speed decaying over 2 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Active no longer grants 15% bonus movement speed for 3.5 seconds, increased to 25–45% while moving towards enemy champions."
+              },
+              {
+                "label": "Change",
+                "note": "Cost: 40 mana."
+              },
+              {
+                "label": "Change",
+                "note": "Cooldown: 15 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Range: 1200 units."
+              },
+              {
+                "label": "Change",
+                "note": "Passive - Mounted Alacrity: While Mounted, Rell gains 5–50 bonus movement speed, reduced to 50% effectiveness while in combat."
+              },
+              {
+                "label": "Change",
+                "note": "Active: Rell powers up herself and the target allied champion for 3 seconds, both gaining bonus movement speed that ramps up from 75% of the maximum value over the first 2 seconds, up to 15–25%, doubled to 30–50% while moving towards enemies or an empowered ally within 1200 units. Additionally, Rell's next basic attack or Shattering Strike}} within 5 seconds creates an explosion in a 300 unit radius, dealing 25–65 (+ 30% AP) (+ 2–4% of target's maximum health) magic damage, increased to 250% against monsters. Against structures, does not apply the damage based on the target's health."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "13.12",
+      "version": "13.12",
+      "releaseDate": "2023-06-14",
+      "change": {
+        "id": "rell",
+        "name": "Rell",
+        "type": "champion",
+        "assetKey": "Rell",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Default adaptive force changed to ability power from attack damage.; Cast time reduced to 0.4 seconds from 0.5.",
+        "gameplayImpact": "Rell was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "General",
+            "title": null,
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Default adaptive force",
+                "before": "attack damage",
+                "after": "ability power",
+                "note": "Default adaptive force changed to ability power from attack damage."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Critical strike on-hit VFX now properly lines up with her weapon while dismounted."
+              }
+            ]
+          },
+          {
+            "ability": "Break the Mold",
+            "title": "Break the Mold",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: Can no longer extend passive stacks from the same target."
+              }
+            ]
+          },
+          {
+            "ability": "Shattering Strike",
+            "title": "Shattering Strike",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Cast time",
+                "before": "0",
+                "after": "0.4 seconds",
+                "note": "Cast time reduced to 0.4 seconds from 0.5."
+              },
+              {
+                "label": "Base damage",
+                "before": "70–230",
+                "after": "60–220",
+                "note": "Base damage reduced to 60–220 from 70–230."
+              },
+              {
+                "label": "Damage against monsters",
+                "before": "300%",
+                "after": "100%",
+                "note": "Damage against monsters reduced to 100% from 300%."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now deals 150–430 bonus damage against monsters."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: No longer changes its targeting direction from using ."
+              }
+            ]
+          },
+          {
+            "ability": "Ferromancy: Crash Down",
+            "title": "Ferromancy: Crash Down",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "70–190",
+                "after": "60–180",
+                "note": "Base damage reduced to 60–180 from 70–190."
+              },
+              {
+                "label": "Damage against monsters",
+                "before": "300%",
+                "after": "100%",
+                "note": "Damage against monsters reduced to 100% from 300%."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now deals 125–225 bonus damage against monsters."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Now properly functions even while affected by crowd control."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Several visual issues no longer occur from spawning as dismounted."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Can no longer skip the animation from casting Full Tilt}}."
+              }
+            ]
+          },
+          {
+            "ability": "Ferromancy: Mount Up",
+            "title": "Ferromancy: Mount Up",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Damage against monsters",
+                "before": "300%",
+                "after": "100%",
+                "note": "Damage against monsters reduced to 100% from 300%."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now deals 55–275 bonus damage against monsters."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Now properly functions even while affected by crowd control."
+              }
+            ]
+          },
+          {
+            "ability": "Full Tilt",
+            "title": "Full Tilt",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "35–95",
+                "after": "25–65",
+                "note": "Base damage reduced to 25–65 from 35–95."
+              },
+              {
+                "label": "Health ratio",
+                "before": "4%|health",
+                "after": "3% of target's maximum health",
+                "note": "Health ratio reduced to 3% of target's maximum health from 4%|health."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Health ratio is now capped at 150 against monsters."
+              },
+              {
+                "label": "Damage against monsters",
+                "before": "250%",
+                "after": "100%",
+                "note": "Damage against monsters reduced to 100% from 250%."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now deals 100–280 bonus damage against monsters."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Now properly functions even while affected by crowd control."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: No longer has animation issues during the cast."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "13.13",
+      "version": "13.13",
+      "releaseDate": "2023-06-28",
+      "change": {
+        "id": "rell",
+        "name": "Rell",
+        "type": "champion",
+        "assetKey": "Rell",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Base health regeneration reduced to 7.5 from 8.5.; Base magic resistance reduced to 30 from 32.",
+        "gameplayImpact": "Rell was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base health regeneration",
+                "before": "8",
+                "after": "7.5",
+                "note": "Base health regeneration reduced to 7.5 from 8.5."
+              },
+              {
+                "label": "Base magic resistance",
+                "before": "32",
+                "after": "30",
+                "note": "Base magic resistance reduced to 30 from 32."
+              },
+              {
+                "label": "Magic resistance growth",
+                "before": "2",
+                "after": "1.85",
+                "note": "Magic resistance growth reduced to 1.85 from 2.05."
+              }
+            ]
+          },
+          {
+            "ability": "Shattering Strike",
+            "title": "Shattering Strike",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Bonus monster damage",
+                "before": "150–430",
+                "after": "170–470",
+                "note": "Bonus monster damage increased to 170–470 from 150–430."
+              }
+            ]
+          },
+          {
+            "ability": "Ferromancy: Crash Down",
+            "title": "Ferromancy: Crash Down",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base shield",
+                "before": "35–135",
+                "after": "15 (40 ranks)",
+                "note": "Base shield reduced to 15 (40 ranks) from 35–135."
+              }
+            ]
+          },
+          {
+            "ability": "Ferromancy: Mount Up",
+            "title": "Ferromancy: Mount Up",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Bonus attack speed",
+                "before": "15–35%",
+                "after": "30% at all ranks",
+                "note": "Bonus attack speed changed to 30% at all ranks from 15–35%."
+              }
+            ]
+          },
+          {
+            "ability": "Full Tilt",
+            "title": "Full Tilt",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Bonus monster damage",
+                "before": "100–280",
+                "after": "120–300",
+                "note": "Bonus monster damage increased to 120–300 from 100–280."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "13.14",
+      "version": "13.14",
+      "releaseDate": "2023-07-19",
+      "change": {
+        "id": "rell",
+        "name": "Rell",
+        "type": "champion",
+        "assetKey": "Rell",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 2,
+        "tldr": "Base armor reduced to 36 from 39.; Resistance steal per stack reduced to 2% from 3%.",
+        "gameplayImpact": "Rell loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base armor",
+                "before": "39",
+                "after": "36",
+                "note": "Base armor reduced to 36 from 39."
+              }
+            ]
+          },
+          {
+            "ability": "Break the Mold",
+            "title": "Break the Mold",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Resistance steal per stack",
+                "before": "3%",
+                "after": "2%",
+                "note": "Resistance steal per stack reduced to 2% from 3%."
+              },
+              {
+                "label": "Minimum resistance steal",
+                "before": "1",
+                "after": "0.8–2",
+                "note": "Minimum resistance steal reduced to 0.8–2 from 1.25–3."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "13.15",
+      "version": "13.15",
+      "releaseDate": "2023-08-02",
+      "change": {
+        "id": "rell",
+        "name": "Rell",
+        "type": "champion",
+        "assetKey": "Rell",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "Empowered attack dash speed has been increased.",
+        "gameplayImpact": "Rell is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Break the Mold",
+            "title": "Break the Mold",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: Q}}, Ferromancy: Crash Down}}, Ferromancy: Mount Up}}, and Magnet Storm}} no longer apply the resistances reduction before their damage."
+              }
+            ]
+          },
+          {
+            "ability": "Shattering Strike",
+            "title": "Shattering Strike",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: Targeting direction now remains absolute during the cast."
+              }
+            ]
+          },
+          {
+            "ability": "Ferromancy: Mount Up",
+            "title": "Ferromancy: Mount Up",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Empowered attack dash speed has been increased."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Now properly applies the bonus damage to epic monsters at all times."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Empowered attack no longer sometimes fails to trigger against the ."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Empowered attack now properly deals its damage to monsters."
+              }
+            ]
+          },
+          {
+            "ability": "Full Tilt",
+            "title": "Full Tilt",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: Now properly calculates resistances reduction for all stacks rather than excluding one of them."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "13.18",
+      "version": "13.18",
+      "releaseDate": "2023-09-13",
+      "change": {
+        "id": "rell",
+        "name": "Rell",
+        "type": "champion",
+        "assetKey": "Rell",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Bonus movement speed reduced to 12–20% from 15–25%.; Increased bonus movement speed reduced to 24–40% from 30–50%.",
+        "gameplayImpact": "Rell loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Full Tilt",
+            "title": "Full Tilt",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Bonus movement speed",
+                "before": "15–25%",
+                "after": "12–20%",
+                "note": "Bonus movement speed reduced to 12–20% from 15–25%."
+              },
+              {
+                "label": "Increased bonus movement speed",
+                "before": "30–50%",
+                "after": "24–40%",
+                "note": "Increased bonus movement speed reduced to 24–40% from 30–50%."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "14.4",
+      "version": "14.4",
+      "releaseDate": "2024-02-22",
+      "change": {
+        "id": "rell",
+        "name": "Rell",
+        "type": "champion",
+        "assetKey": "Rell",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Removed: No longer destroys shields against monsters.",
+        "gameplayImpact": "Rell loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Shattering Strike",
+            "title": "Shattering Strike",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Removed: No longer destroys shields against monsters."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "14.7",
+      "version": "14.7",
+      "releaseDate": "2024-04-03",
+      "change": {
+        "id": "rell",
+        "name": "Rell",
+        "type": "champion",
+        "assetKey": "Rell",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 2,
+        "tldr": "Magic resistance growth increased to 2.05 from 1.85.; Removed: No longer deals 170–470 bonus damage against monsters.",
+        "gameplayImpact": "Rell was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Magic resistance growth",
+                "before": "1",
+                "after": "2.05",
+                "note": "Magic resistance growth increased to 2.05 from 1.85."
+              }
+            ]
+          },
+          {
+            "ability": "Shattering Strike",
+            "title": "Shattering Strike",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Removed: No longer deals 170–470 bonus damage against monsters."
+              }
+            ]
+          },
+          {
+            "ability": "Ferromancy: Crash Down",
+            "title": "Ferromancy: Crash Down",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Removed: No longer deals 125–225 bonus damage against monsters."
+              }
+            ]
+          },
+          {
+            "ability": "Ferromancy: Mount Up",
+            "title": "Ferromancy: Mount Up",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Removed: No longer deals 55–275 bonus damage against monsters."
+              }
+            ]
+          },
+          {
+            "ability": "Full Tilt",
+            "title": "Full Tilt",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Removed: No longer deals 120–300 bonus damage against monsters."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "14.18",
+      "version": "14.18",
+      "releaseDate": "2024-09-11",
+      "change": {
+        "id": "rell",
+        "name": "Rell",
+        "type": "champion",
+        "assetKey": "Rell",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Bonus movement speed reduced to 12–16% from 12–20%.; Increased bonus movement speed reduced to 24–32% from 24–40%.",
+        "gameplayImpact": "Rell loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Full Tilt",
+            "title": "Full Tilt",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Bonus movement speed",
+                "before": "12–20%",
+                "after": "12–16%",
+                "note": "Bonus movement speed reduced to 12–16% from 12–20%."
+              },
+              {
+                "label": "Increased bonus movement speed",
+                "before": "24–40%",
+                "after": "24–32%",
+                "note": "Increased bonus movement speed reduced to 24–32% from 24–40%."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "14.23",
+      "version": "14.23",
+      "releaseDate": "2024-11-20",
+      "change": {
+        "id": "rell",
+        "name": "Rell",
+        "type": "champion",
+        "assetKey": "Rell",
+        "roles": [],
+        "direction": "rework",
+        "severity": 3,
+        "tldr": "Rell gameplay update: Base mana reduced to 320 from 350.; Mana growth reduced to 40 from 45.",
+        "gameplayImpact": "Rell plays differently after this update — relearn power spikes and matchups before grinding ranked.",
+        "context": "Gameplay Update",
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Base mana",
+                "before": "350",
+                "after": "320",
+                "note": "Base mana reduced to 320 from 350."
+              },
+              {
+                "label": "Mana growth",
+                "before": "45",
+                "after": "40",
+                "note": "Mana growth reduced to 40 from 45."
+              },
+              {
+                "label": "Base mana regeneration",
+                "before": "6",
+                "after": "7",
+                "note": "Base mana regeneration increased to 7 from 6."
+              },
+              {
+                "label": "Mana regeneration growth",
+                "before": "0",
+                "after": "0.7",
+                "note": "Mana regeneration growth increased to 0.7 from 0.35."
+              },
+              {
+                "label": "Base armor",
+                "before": "36",
+                "after": "30",
+                "note": "Base armor reduced to 30 from 36."
+              },
+              {
+                "label": "Armor growth",
+                "before": "4",
+                "after": "4.3",
+                "note": "Armor growth increased to 4.3 from 4.2."
+              },
+              {
+                "label": "Base magic resistance",
+                "before": "30",
+                "after": "28",
+                "note": "Base magic resistance reduced to 28 from 30."
+              },
+              {
+                "label": "Magic resistance growth",
+                "before": "2",
+                "after": "1.8",
+                "note": "Magic resistance growth reduced to 1.8 from 2.05."
+              },
+              {
+                "label": "Attack speed growth",
+                "before": "1",
+                "after": "2%",
+                "note": "Attack speed growth increased to 2% from 1.5%."
+              },
+              {
+                "label": "Attack windup",
+                "before": "100*0",
+                "after": "100*0.3/1.6%",
+                "note": "Attack windup reduced to 100*0.3/1.6% from 100*0.42/2%."
+              },
+              {
+                "label": "Change",
+                "note": "Attack windup time is no longer reduced by 100-(0.42 to 0.39)/0.42*100%."
+              },
+              {
+                "label": "Attack windup modifier",
+                "before": "0",
+                "after": "1 (default)",
+                "note": "Attack windup modifier increased to 1 (default) from 0.4."
+              },
+              {
+                "label": "Base movement speed",
+                "before": "330",
+                "after": "315",
+                "note": "Base movement speed reduced to 315 from 330."
+              }
+            ]
+          },
+          {
+            "ability": "Break the Mold",
+            "title": "Break the Mold",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Minimum resistance steal",
+                "before": "0",
+                "after": "1–2",
+                "note": "Minimum resistance steal increased to 1–2 from 0.8–2."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now deals on-hit magic damage equal to armor|5% total armor and mr|5% total magic resistance."
+              }
+            ]
+          },
+          {
+            "ability": "Shattering Strike",
+            "title": "Shattering Strike",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Stun duration",
+                "before": "0",
+                "after": "0.65 seconds",
+                "note": "Stun duration reduced to 0.65 seconds from 0.75."
+              }
+            ]
+          },
+          {
+            "ability": "Ferromancy: Crash Down",
+            "title": "Ferromancy: Crash Down",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Cooldown",
+                "before": "11",
+                "after": "10 seconds",
+                "note": "Cooldown reduced to 10 seconds from 11."
+              },
+              {
+                "label": "Knock up duration",
+                "before": "1",
+                "after": "0.4 seconds",
+                "note": "Knock up duration reduced to 0.4 seconds from 1."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now also stun for 0.8 seconds at the start of the displacement."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect - Mounted Alacrity: While Rell is mounted, she passively gains 20–40 bonus movement speed."
+              },
+              {
+                "label": "Base shield",
+                "before": "15 (40 ranks)",
+                "after": "15–115",
+                "note": "Base shield increased to 15–115 from 15 (40 ranks)."
+              }
+            ]
+          },
+          {
+            "ability": "Ferromancy: Mount Up",
+            "title": "Ferromancy: Mount Up",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Cooldown",
+                "before": "11",
+                "after": "10 seconds",
+                "note": "Cooldown reduced to 10 seconds from 11."
+              },
+              {
+                "label": "Stun duration",
+                "before": "1",
+                "after": "0.6 seconds",
+                "note": "Stun duration reduced to 0.6 seconds from 1."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Rell's movement speed is no longer reduced by 10% while dismounted."
+              },
+              {
+                "label": "Bonus resistances",
+                "before": "12%",
+                "after": "15%",
+                "note": "Bonus resistances increased to 15% from 12%."
+              },
+              {
+                "label": "Bonus attack speed",
+                "before": "30%",
+                "after": "20%",
+                "note": "Bonus attack speed reduced to 20% from 30%."
+              }
+            ]
+          },
+          {
+            "ability": "Full Tilt",
+            "title": "Full Tilt",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Cooldown",
+                "before": "15 at all ranks",
+                "after": "14–10 seconds",
+                "note": "Cooldown reduced to 14–10 seconds from 15 at all ranks."
+              },
+              {
+                "label": "Change",
+                "note": "Removed - Mounted Alacrity: Rell no longer passively gains 5–50 bonus movement speed while Mounted, reduced by 50% while in combat."
+              },
+              {
+                "label": "Change",
+                "note": "Effect name moved to Ferromancy: Crash Down}}."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Active movement speed no longer ramps up linearly from 75% of its maximum value over the first 2 seconds."
+              },
+              {
+                "label": "Base movement speed",
+                "before": "12–16%",
+                "after": "10%",
+                "note": "Base movement speed reduced to 10% from 12–16%."
+              },
+              {
+                "label": "Rally movement speed modifier",
+                "before": "200%",
+                "after": "250% of base",
+                "note": "Rally movement speed modifier increased to 250% of base from 200%."
+              },
+              {
+                "label": "Rally movement speed",
+                "before": "24–32%",
+                "after": "25%",
+                "note": "Rally movement speed changed to 25% from 24–32%."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: No longer has a base damage of 25–65."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Damage no longer scales with 50% AP."
+              },
+              {
+                "label": "Health ratio",
+                "before": "3%|hp at all ranks",
+                "after": "5–7% of target's maximum health",
+                "note": "Health ratio increased to 5–7% of target's maximum health from 3%|hp at all ranks."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Health ratio now scales with 3% per 100 AP."
+              },
+              {
+                "label": "Monster damage cap",
+                "before": "150 at all levels",
+                "after": "150–300",
+                "note": "Monster damage cap increased to 150–300 from 150 at all levels."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Damage based on the target's health now applies against structures."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Damage based on the target's health is now capped at 150–300 against structures."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "rework",
+          "Gameplay Update"
+        ]
+      }
+    },
+    {
+      "patchId": "14.24",
+      "version": "14.24",
+      "releaseDate": "2024-12-11",
+      "change": {
+        "id": "rell",
+        "name": "Rell",
+        "type": "champion",
+        "assetKey": "Rell",
+        "roles": [],
+        "direction": "buff",
+        "severity": 2,
+        "tldr": "Base health increased to 640 from 610.; Resistances reduction per stack increased to 3% from 2%.",
+        "gameplayImpact": "Rell is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base health",
+                "before": "610",
+                "after": "640",
+                "note": "Base health increased to 640 from 610."
+              }
+            ]
+          },
+          {
+            "ability": "Break the Mold",
+            "title": "Break the Mold",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Resistances reduction per stack",
+                "before": "2%",
+                "after": "3%",
+                "note": "Resistances reduction per stack increased to 3% from 2%."
+              },
+              {
+                "label": "Minimum resistances reduction",
+                "before": "1–2",
+                "after": "1.5–3",
+                "note": "Minimum resistances reduction increased to 1.5–3 from 1–2."
+              }
+            ]
+          },
+          {
+            "ability": "Ferromancy: Crash Down",
+            "title": "Ferromancy: Crash Down",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base shield",
+                "before": "15–115",
+                "after": "25–125",
+                "note": "Base shield increased to 25–125 from 15–115."
+              },
+              {
+                "label": "Shield health ratio",
+                "before": "12%|health",
+                "after": "13% maximum health",
+                "note": "Shield health ratio increased to 13% maximum health from 12%|health."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "25.S1.3",
+      "version": "25.S1.3",
+      "releaseDate": "2025-02-05",
+      "change": {
+        "id": "rell",
+        "name": "Rell",
+        "type": "champion",
+        "assetKey": "Rell",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Base health reduced to 620 from 640.; Armor growth reduced to 4 from 4.3.",
+        "gameplayImpact": "Rell loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base health",
+                "before": "640",
+                "after": "620",
+                "note": "Base health reduced to 620 from 640."
+              },
+              {
+                "label": "Armor growth",
+                "before": "4",
+                "after": "4",
+                "note": "Armor growth reduced to 4 from 4.3."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "25.15",
+      "version": "25.15",
+      "releaseDate": "2025-07-30",
+      "change": {
+        "id": "rell",
+        "name": "Rell",
+        "type": "champion",
+        "assetKey": "Rell",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Base shield reduced to 20–100 from 25–125.",
+        "gameplayImpact": "Rell loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Ferromancy: Crash Down",
+            "title": "Ferromancy: Crash Down",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base shield",
+                "before": "25–125",
+                "after": "20–100",
+                "note": "Base shield reduced to 20–100 from 25–125."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "25.16",
+      "version": "25.16",
+      "releaseDate": "2025-08-13",
+      "change": {
+        "id": "rell",
+        "name": "Rell",
+        "type": "champion",
+        "assetKey": "Rell",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Shield health ratio reduced to 11% maximum health from 13%|hp.",
+        "gameplayImpact": "Rell loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Ferromancy: Crash Down",
+            "title": "Ferromancy: Crash Down",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Shield health ratio",
+                "before": "13%|hp",
+                "after": "11% maximum health",
+                "note": "Shield health ratio reduced to 11% maximum health from 13%|hp."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "26.07",
+      "version": "26.07",
+      "releaseDate": "2026-04-01",
+      "change": {
+        "id": "rell",
+        "name": "Rell",
+        "type": "champion",
+        "assetKey": "Rell",
+        "roles": [],
+        "direction": "buff",
+        "severity": 2,
+        "tldr": "Bonus movement speed increased to 15% from 10%.; Increased bonus movement speed increased to 30% from 25%.",
+        "gameplayImpact": "Rell is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Full Tilt",
+            "title": "Full Tilt",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Bonus movement speed",
+                "before": "10%",
+                "after": "15%",
+                "note": "Bonus movement speed increased to 15% from 10%."
+              },
+              {
+                "label": "Increased bonus movement speed",
+                "before": "25%",
+                "after": "30%",
+                "note": "Increased bonus movement speed increased to 30% from 25%."
+              }
+            ]
+          },
+          {
+            "ability": "Magnet Storm",
+            "title": "Magnet Storm",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "120–280 (3 ranks)",
+                "after": "150–350 (3 ranks)",
+                "note": "Base damage increased to 150–350 (3 ranks) from 120–280 (3 ranks)."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    }
+  ]
+}

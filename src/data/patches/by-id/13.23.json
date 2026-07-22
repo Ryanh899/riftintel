@@ -1,0 +1,974 @@
+{
+  "id": "13.23",
+  "version": "13.23",
+  "title": "NO, NOT THE BEES, NOT THE BEES!",
+  "releaseDate": "2023-11-21",
+  "season": "13",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "NO, NOT THE BEES, NOT THE BEES!"
+    },
+    {
+      "title": "Champion balance",
+      "description": "4 champion buffs, 4 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "NO, NOT THE BEES, NOT THE BEES! Structured changes across 17 entities this patch.",
+  "champions": [
+    {
+      "id": "azir",
+      "name": "Azir",
+      "type": "champion",
+      "assetKey": "Azir",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Base damage reduced to 50–110 from 50–118.; Base damage per level reduced to 0–77 from 0–92.",
+      "gameplayImpact": "Azir was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Arise!",
+          "title": "Arise!",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "50–118",
+              "after": "50–110",
+              "note": "Base damage reduced to 50–110 from 50–118."
+            },
+            {
+              "label": "Base damage per level",
+              "before": "0–92",
+              "after": "0–77",
+              "note": "Base damage per level reduced to 0–77 from 0–92."
+            },
+            {
+              "label": "AP ratio",
+              "before": "60% AP",
+              "after": "55% AP",
+              "note": "AP ratio reduced to 55% AP from 60% AP."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Soldiers' attacks now apply and trigger on-hit and on-attack effects against the primary target at 50% effectiveness."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "briar",
+      "name": "Briar",
+      "type": "champion",
+      "assetKey": "Briar",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Base health reduced to 590 from 610.; Health ratio reduced to 9% of target's missing health from 10%|health.",
+      "gameplayImpact": "Briar loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base health",
+              "before": "610",
+              "after": "590",
+              "note": "Base health reduced to 590 from 610."
+            }
+          ]
+        },
+        {
+          "ability": "Snack Attack",
+          "title": "Snack Attack",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Health ratio",
+              "before": "10%|health",
+              "after": "9% of target's missing health",
+              "note": "Health ratio reduced to 9% of target's missing health from 10%|health."
+            },
+            {
+              "label": "Bonus AD ratio",
+              "before": "3",
+              "after": "2.5% per 100 bonus AD",
+              "note": "Bonus AD ratio reduced to 2.5% per 100 bonus AD from 3.5%|AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "corki",
+      "name": "Corki",
+      "type": "champion",
+      "assetKey": "Corki",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Now replaces Aftershock}} with Grasp of the Undying}}.; Now replaces Glacial Augment}} with First Strike}}.",
+      "gameplayImpact": "Corki was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Now replaces Aftershock}} with Grasp of the Undying}}."
+            },
+            {
+              "label": "Change",
+              "note": "Now replaces Glacial Augment}} with First Strike}}."
+            },
+            {
+              "label": "Change",
+              "note": "Now replaces Font of Life}} with Demolish}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "draven",
+      "name": "Draven",
+      "type": "champion",
+      "assetKey": "Draven",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Missiles now return to him even after he has died.",
+      "gameplayImpact": "Draven is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Whirling Death",
+          "title": "Whirling Death",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Missiles now return to him even after he has died."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "janna",
+      "name": "Janna",
+      "type": "champion",
+      "assetKey": "Janna",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Damage bonus movement speed ratio changed to 30% at all levels from 20–35%.; Cooldown reduced to 8–6 seconds from 9–7.",
+      "gameplayImpact": "Janna was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Tailwind",
+          "title": "Tailwind",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Damage bonus movement speed ratio",
+              "before": "20–35%",
+              "after": "30% at all levels",
+              "note": "Damage bonus movement speed ratio changed to 30% at all levels from 20–35%."
+            }
+          ]
+        },
+        {
+          "ability": "Zephyr",
+          "title": "Zephyr",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "9–7",
+              "after": "8–6 seconds",
+              "note": "Cooldown reduced to 8–6 seconds from 9–7."
+            },
+            {
+              "label": "Cast range",
+              "before": "675",
+              "after": "550 units",
+              "note": "Cast range reduced to 550 units from 675."
+            },
+            {
+              "label": "Cast range type",
+              "before": "edge",
+              "after": "center",
+              "note": "Cast range type changed to center from edge."
+            }
+          ]
+        },
+        {
+          "ability": "Monsoon",
+          "title": "Monsoon",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "150–120 (3 ranks)",
+              "after": "130–100 (3 ranks) seconds",
+              "note": "Cooldown reduced to 130–100 (3 ranks) seconds from 150–120 (3 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "jarvan-iv",
+      "name": "Jarvan IV",
+      "type": "champion",
+      "assetKey": "JarvanIV",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Cooldown increased to 10–8 seconds from 10–6.",
+      "gameplayImpact": "Jarvan IV loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Dragon Strike",
+          "title": "Dragon Strike",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "10–6",
+              "after": "10–8 seconds",
+              "note": "Cooldown increased to 10–8 seconds from 10–6."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "ksante",
+      "name": "K'Sante",
+      "type": "champion",
+      "assetKey": "KSante",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "All Out}} bonus mark damage changed to 30–78% (6–18) from 45 to 75 3%.; Base damage reduced to 30–130 from 30–150.",
+      "gameplayImpact": "K'Sante was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Dauntless Instinct",
+          "title": "Dauntless Instinct",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "All Out}} bonus mark damage",
+              "before": "45 to 75 3%",
+              "after": "30–78% (6–18)",
+              "note": "All Out}} bonus mark damage changed to 30–78% (6–18) from 45 to 75 3%."
+            }
+          ]
+        },
+        {
+          "ability": "Ntofo Strikes",
+          "title": "Ntofo Strikes",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "30–150",
+              "after": "30–130",
+              "note": "Base damage reduced to 30–130 from 30–150."
+            },
+            {
+              "label": "Mana cost",
+              "before": "15 at all ranks",
+              "after": "28–20",
+              "note": "Mana cost increased to 28–20 from 15 at all ranks."
+            }
+          ]
+        },
+        {
+          "ability": "Path Maker",
+          "title": "Path Maker",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Maximum range charge duration",
+              "before": "0",
+              "after": "0.66 seconds",
+              "note": "Maximum range charge duration reduced to 0.66 seconds from 0.75."
+            },
+            {
+              "label": "All Out}} maximum range charge duration",
+              "before": "0",
+              "after": "0.45 seconds",
+              "note": "All Out}} maximum range charge duration reduced to 0.45 seconds from 0.5."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: No longer automatically recasts the ability if the charge is cancelled."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Charge is no longer cancelled if the recast was used at the same time as ."
+            }
+          ]
+        },
+        {
+          "ability": "Footwork",
+          "title": "Footwork",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base shield",
+              "before": "45–125",
+              "after": "50–210",
+              "note": "Base shield increased to 50–210 from 45–125."
+            },
+            {
+              "label": "Shield health ratio",
+              "before": "15%|hp",
+              "after": "10% bonus health",
+              "note": "Shield health ratio reduced to 10% bonus health from 15%|hp."
+            }
+          ]
+        },
+        {
+          "ability": "All Out",
+          "title": "All Out",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Bonus attack damage",
+              "before": "15–45 (3 ranks)",
+              "after": "10–40 (3 ranks)",
+              "note": "Bonus attack damage reduced to 10–40 (3 ranks) from 15–45 (3 ranks)."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: No longer appears to behave improperly after performing certain ability combos during the buff."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "naafiri",
+      "name": "Naafiri",
+      "type": "champion",
+      "assetKey": "Naafiri",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Packmate base attack damage reduced to 5–25 from 6–29.8.; Flurry base damage reduced to 60–180 from 65–205.",
+      "gameplayImpact": "Naafiri loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "We Are More",
+          "title": "We Are More",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Packmate base attack damage",
+              "before": "6–29",
+              "after": "5–25",
+              "note": "Packmate base attack damage reduced to 5–25 from 6–29.8."
+            }
+          ]
+        },
+        {
+          "ability": "Eviscerate",
+          "title": "Eviscerate",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Flurry base damage",
+              "before": "65–205",
+              "after": "60–180",
+              "note": "Flurry base damage reduced to 60–180 from 65–205."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "riven",
+      "name": "Riven",
+      "type": "champion",
+      "assetKey": "Riven",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "AD ratio increased to 50–70% AD from 45–65% AD.; Bonus attack damage increased to 25% AD from 20% AD.",
+      "gameplayImpact": "Riven is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Broken Wings",
+          "title": "Broken Wings",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AD ratio",
+              "before": "45–65% AD",
+              "after": "50–70% AD",
+              "note": "AD ratio increased to 50–70% AD from 45–65% AD."
+            }
+          ]
+        },
+        {
+          "ability": "Blade of the Exile",
+          "title": "Blade of the Exile",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus attack damage",
+              "before": "20% AD",
+              "after": "25% AD",
+              "note": "Bonus attack damage increased to 25% AD from 20% AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "samira",
+      "name": "Samira",
+      "type": "champion",
+      "assetKey": "Samira",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Removed: No longer replaces Aftershock}} with Grasp of the Undying}}.; Removed: No longer replaces Glacial Augment}} with First Strike}}.",
+      "gameplayImpact": "Samira loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Removed: No longer replaces Aftershock}} with Grasp of the Undying}}."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: No longer replaces Glacial Augment}} with First Strike}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "trundle",
+      "name": "Trundle",
+      "type": "champion",
+      "assetKey": "Trundle",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Attack damage growth increased to 4 from 3.; Mana cost reduced to 20 from 30.",
+      "gameplayImpact": "Trundle is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Attack damage growth",
+              "before": "3",
+              "after": "4",
+              "note": "Attack damage growth increased to 4 from 3."
+            }
+          ]
+        },
+        {
+          "ability": "Chomp",
+          "title": "Chomp",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Mana cost",
+              "before": "30",
+              "after": "20",
+              "note": "Mana cost reduced to 20 from 30."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "yuumi",
+      "name": "Yuumi",
+      "type": "champion",
+      "assetKey": "Yuumi",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Now replaces Glacial Augment}} with First Strike}}.",
+      "gameplayImpact": "Yuumi was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Now replaces Glacial Augment}} with First Strike}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "velkoz",
+      "name": "Vel'Koz",
+      "type": "champion",
+      "assetKey": "Velkoz",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base true damage increased to 35–180 from 33–169.; AP ratio increased to 60% AP from 50% AP.",
+      "gameplayImpact": "Vel'Koz is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Organic Deconstruction",
+          "title": "Organic Deconstruction",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base true damage",
+              "before": "33–169",
+              "after": "35–180",
+              "note": "Base true damage increased to 35–180 from 33–169."
+            },
+            {
+              "label": "AP ratio",
+              "before": "50% AP",
+              "after": "60% AP",
+              "note": "AP ratio increased to 60% AP from 50% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "ziggs",
+      "name": "Ziggs",
+      "type": "champion",
+      "assetKey": "Ziggs",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Base attack damage increased to 55 from 54.; Base damage reduced to 85–285 from 95–295.",
+      "gameplayImpact": "Ziggs was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base attack damage",
+              "before": "54",
+              "after": "55",
+              "note": "Base attack damage increased to 55 from 54."
+            }
+          ]
+        },
+        {
+          "ability": "Bouncing Bomb",
+          "title": "Bouncing Bomb",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "95–295",
+              "after": "85–285",
+              "note": "Base damage reduced to 85–285 from 95–295."
+            }
+          ]
+        },
+        {
+          "ability": "Satchel Charge",
+          "title": "Satchel Charge",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "20–12",
+              "after": "24–12 seconds",
+              "note": "Cooldown increased to 24–12 seconds from 20–12."
+            },
+            {
+              "label": "Mana cost",
+              "before": "65",
+              "after": "80",
+              "note": "Mana cost increased to 80 from 65."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    }
+  ],
+  "items": [],
+  "systems": [
+    {
+      "id": "turrets",
+      "name": "Turrets",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Summoner's Rift; Mid Lane Inner Turret",
+      "gameplayImpact": "Turrets was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Summoner's Rift"
+            },
+            {
+              "label": "Change",
+              "note": "Mid Lane Inner Turret"
+            },
+            {
+              "label": "Change",
+              "note": "Local gold increased to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Global gold reduced to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Side Lane Inner Turret"
+            },
+            {
+              "label": "Change",
+              "note": "Local gold increased to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Global gold reduced to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Inhibitor Turret"
+            },
+            {
+              "label": "Change",
+              "note": "Local gold increased to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Global gold reduced to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Gold reward tooltips updated to show both local and global turret gold."
+            },
+            {
+              "label": "Change",
+              "note": "Updated formatting of other turret item tooltips."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "howling-abyss",
+      "name": "Howling Abyss",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Ashe}}; Ability haste changed to 0 from -30.",
+      "gameplayImpact": "Howling Abyss was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Ashe}}"
+            },
+            {
+              "label": "Ability haste",
+              "before": "-30",
+              "after": "0",
+              "note": "Ability haste changed to 0 from -30."
+            },
+            {
+              "label": "Change",
+              "note": "Volley}}"
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown changed to 18 seconds at all ranks."
+            },
+            {
+              "label": "Change",
+              "note": "Enchanted Crystal Arrow}}"
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown changed to 110–70 (3 ranks) seconds."
+            },
+            {
+              "label": "Change",
+              "note": "K'Sante}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-5%",
+              "after": "0%",
+              "note": "Incoming damage modifier changed to 0% from -5%."
+            },
+            {
+              "label": "Change",
+              "note": "Kassadin}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "0%",
+              "after": "-5%",
+              "note": "Incoming damage modifier changed to -5% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Nilah}}"
+            },
+            {
+              "label": "Healing modifier",
+              "before": "-10%",
+              "after": "0%",
+              "note": "Healing modifier changed to 0% from -10%."
+            },
+            {
+              "label": "Change",
+              "note": "Rumble}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-5%",
+              "after": "0%",
+              "note": "Incoming damage modifier changed to 0% from -5%."
+            },
+            {
+              "label": "Change",
+              "note": "Tahm Kench}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-5%",
+              "after": "0%",
+              "note": "Incoming damage modifier changed to 0% from -5%."
+            },
+            {
+              "label": "Change",
+              "note": "Xayah}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "0%",
+              "after": "+5%",
+              "note": "Outgoing damage modifier changed to +5% from 0%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "aram",
+      "name": "ARAM",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Ashe}}; Ability haste changed to 0 from -30.",
+      "gameplayImpact": "ARAM was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Ashe}}"
+            },
+            {
+              "label": "Ability haste",
+              "before": "-30",
+              "after": "0",
+              "note": "Ability haste changed to 0 from -30."
+            },
+            {
+              "label": "Change",
+              "note": "Volley}}"
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown changed to 18 seconds at all ranks."
+            },
+            {
+              "label": "Change",
+              "note": "Enchanted Crystal Arrow}}"
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown changed to 110–70 (3 ranks) seconds."
+            },
+            {
+              "label": "Change",
+              "note": "K'Sante}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-5%",
+              "after": "0%",
+              "note": "Incoming damage modifier changed to 0% from -5%."
+            },
+            {
+              "label": "Change",
+              "note": "Kassadin}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "0%",
+              "after": "-5%",
+              "note": "Incoming damage modifier changed to -5% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Nilah}}"
+            },
+            {
+              "label": "Healing modifier",
+              "before": "-10%",
+              "after": "0%",
+              "note": "Healing modifier changed to 0% from -10%."
+            },
+            {
+              "label": "Change",
+              "note": "Rumble}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-5%",
+              "after": "0%",
+              "note": "Incoming damage modifier changed to 0% from -5%."
+            },
+            {
+              "label": "Change",
+              "note": "Tahm Kench}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-5%",
+              "after": "0%",
+              "note": "Incoming damage modifier changed to 0% from -5%."
+            },
+            {
+              "label": "Change",
+              "note": "Xayah}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "0%",
+              "after": "+5%",
+              "note": "Outgoing damage modifier changed to +5% from 0%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-13-23-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V13.23"
+}

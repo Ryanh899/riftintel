@@ -1,0 +1,827 @@
+{
+  "id": "12.6",
+  "version": "12.6",
+  "title": "\"Commander Fortune reporting in: BB01 locked and loaded.\"",
+  "releaseDate": "2022-03-30",
+  "season": "12",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "\"Commander Fortune reporting in: BB01 locked and loaded.\""
+    },
+    {
+      "title": "Champion balance",
+      "description": "4 champion buffs, 3 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "\"Commander Fortune reporting in: BB01 locked and loaded.\" Structured changes across 17 entities this patch.",
+  "champions": [
+    {
+      "id": "azir",
+      "name": "Azir",
+      "type": "champion",
+      "assetKey": "Azir",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Health growth increased to 105 from 92.",
+      "gameplayImpact": "Azir is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Health growth",
+              "before": "92",
+              "after": "105",
+              "note": "Health growth increased to 105 from 92."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "darius",
+      "name": "Darius",
+      "type": "champion",
+      "assetKey": "Darius",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base damage increased to 125–375 (3 ranks) from 100–300 (3 ranks).",
+      "gameplayImpact": "Darius is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Noxian Guillotine",
+          "title": "Noxian Guillotine",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "100–300 (3 ranks)",
+              "after": "125–375 (3 ranks)",
+              "note": "Base damage increased to 125–375 (3 ranks) from 100–300 (3 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "jax",
+      "name": "Jax",
+      "type": "champion",
+      "assetKey": "Jax",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base health increased to 615 from 593.; Base damage increased to 50–190 from 40–180.",
+      "gameplayImpact": "Jax is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base health",
+              "before": "593",
+              "after": "615",
+              "note": "Base health increased to 615 from 593."
+            }
+          ]
+        },
+        {
+          "ability": "Empower",
+          "title": "Empower",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "40–180",
+              "after": "50–190",
+              "note": "Base damage increased to 50–190 from 40–180."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "hecarim",
+      "name": "Hecarim",
+      "type": "champion",
+      "assetKey": "Hecarim",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Base damage reduced to 60–180 from 60–208.; Minimum base damage reduced to 30–90 from 30–110.",
+      "gameplayImpact": "Hecarim loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Rampage",
+          "title": "Rampage",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "60–208",
+              "after": "60–180",
+              "note": "Base damage reduced to 60–180 from 60–208."
+            }
+          ]
+        },
+        {
+          "ability": "Devastating Charge",
+          "title": "Devastating Charge",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Minimum base damage",
+              "before": "30–110",
+              "after": "30–90",
+              "note": "Minimum base damage reduced to 30–90 from 30–110."
+            },
+            {
+              "label": "Maximum base damage",
+              "before": "60–220",
+              "after": "60–180",
+              "note": "Maximum base damage reduced to 60–180 from 60–220."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "illaoi",
+      "name": "Illaoi",
+      "type": "champion",
+      "assetKey": "Illaoi",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Removed: Tentacles no longer spawn near base gates on Summoner's Rift for both team's bases.; New Effect: Other spells can now be buffered during the empowered attack's windup.",
+      "gameplayImpact": "Illaoi was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Prophet of an Elder God",
+          "title": "Prophet of an Elder God",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Removed: Tentacles no longer spawn near base gates on Summoner's Rift for both team's bases."
+            }
+          ]
+        },
+        {
+          "ability": "Tentacle Smash",
+          "title": "Tentacle Smash",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Visual indicator is now visible to enemy champions when cast outside of their vision."
+            }
+          ]
+        },
+        {
+          "ability": "Harsh Lesson",
+          "title": "Harsh Lesson",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Other spells can now be buffered during the empowered attack's windup."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: If the empowered attack is used on a Vessel}}, nearby inactive Tentacles will no longer slam after a brief delay of becoming active. They will slam as soon as they are active again."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Visual indicator now properly displays the correct range of the empowered attack."
+            }
+          ]
+        },
+        {
+          "ability": "Test of Spirit",
+          "title": "Test of Spirit",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Removed: When a Vessel is killed or expires, it no longer contributes towards the caster's creep score."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Visual indicator is now visible to enemy champions when cast outside of their vision."
+            }
+          ]
+        },
+        {
+          "ability": "Leap of Faith",
+          "title": "Leap of Faith",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Caster now faces towards the cursor when being cast."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "nidalee",
+      "name": "Nidalee",
+      "type": "champion",
+      "assetKey": "Nidalee",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Mana cost reduced to 30–50 from 40–60.; Base cast effect radius increased to 200 units from 175.",
+      "gameplayImpact": "Nidalee is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Bushwhack",
+          "title": "Bushwhack",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Mana cost",
+              "before": "40–60",
+              "after": "30–50",
+              "note": "Mana cost reduced to 30–50 from 40–60."
+            }
+          ]
+        },
+        {
+          "ability": "Pounce",
+          "title": "Pounce",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base cast effect radius",
+              "before": "175",
+              "after": "200 units",
+              "note": "Base cast effect radius increased to 200 units from 175."
+            },
+            {
+              "label": "Empowered cast effect radius",
+              "before": "225",
+              "after": "250 units",
+              "note": "Empowered cast effect radius increased to 250 units from 225."
+            }
+          ]
+        },
+        {
+          "ability": "Primal Surge",
+          "title": "Primal Surge",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Target range",
+              "before": "600",
+              "after": "900 units",
+              "note": "Target range increased to 900 units from 600."
+            },
+            {
+              "label": "Mana cost",
+              "before": "50–90",
+              "after": "50–70",
+              "note": "Mana cost reduced to 50–70 from 50–90."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "rengar",
+      "name": "Rengar",
+      "type": "champion",
+      "assetKey": "Rengar",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Ferocity fall off timer increased to 10 seconds from 8.; Bonetooth takedown timer increased to 3 seconds from 1.5.",
+      "gameplayImpact": "Rengar was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Unseen Predator",
+          "title": "Unseen Predator",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Ferocity fall off timer",
+              "before": "8",
+              "after": "10 seconds",
+              "note": "Ferocity fall off timer increased to 10 seconds from 8."
+            },
+            {
+              "label": "Bonetooth takedown timer",
+              "before": "1",
+              "after": "3 seconds",
+              "note": "Bonetooth takedown timer increased to 3 seconds from 1.5."
+            },
+            {
+              "label": "Bonus attack range",
+              "before": "725",
+              "after": "745",
+              "note": "Bonus attack range increased to 745 from 725."
+            },
+            {
+              "label": "Bonus attack range linger duration",
+              "before": "varying between 0",
+              "after": "0.35 seconds",
+              "note": "Bonus attack range linger duration changed to 0.35 seconds from varying between 0.3 and 0.45."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: Leaping at 0 stacks of ferocity no longer grants 1 stack."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Whenever he reaches 0 stacks of ferocity, his next leap now generates 1 stack, regardless of current stacks."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Now has a Ferocity resource bar that indicates how much Ferocity he currently has."
+            },
+            {
+              "label": "Change",
+              "note": "Stacks generated by leaps now have a different color to indicate that the next leap will generate Ferocity."
+            }
+          ]
+        },
+        {
+          "ability": "Savagery",
+          "title": "Savagery",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: The first attack is now considered a critical strike."
+            },
+            {
+              "label": "Change",
+              "note": "The basic attack portion can no longer critically strike."
+            },
+            {
+              "label": "Change",
+              "note": "Can critically strike against structures."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Basic attack damage is now increased by 0–66% (0–100% crit)|critical chance."
+            },
+            {
+              "label": "Change",
+              "note": "With Infinity Edge}} this is increased to 59.4–99% (60–100% crit)|critical chance."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Bonus damage now applies against turrets."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Buff is no longer consumed while attacking jungle plants."
+            }
+          ]
+        },
+        {
+          "ability": "Bola Strike",
+          "title": "Bola Strike",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: No longer has a cast time when cast while leaping."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Now grants true sight of the enemy hit for 2 seconds and sight of a 150 unit radius around them for the same duration."
+            }
+          ]
+        },
+        {
+          "ability": "Thrill of the Hunt",
+          "title": "Thrill of the Hunt",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Now also grants sight of a 100 unit radius around the nearest enemy champion."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "tahm-kench",
+      "name": "Tahm Kench",
+      "type": "champion",
+      "assetKey": "TahmKench",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Removed: No longer renders the target vanish while they are swallowed.; It still grants them untargetability.",
+      "gameplayImpact": "Tahm Kench loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Devour",
+          "title": "Devour",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Removed: No longer renders the target vanish while they are swallowed."
+            },
+            {
+              "label": "Change",
+              "note": "It still grants them untargetability."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "tryndamere",
+      "name": "Tryndamere",
+      "type": "champion",
+      "assetKey": "Tryndamere",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Cooldown reduction reduced to 0.75 seconds from 1.; Cooldown reduction against champions reduced to 1.5 seconds from 2.",
+      "gameplayImpact": "Tryndamere loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Spinning Slash",
+          "title": "Spinning Slash",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Cooldown reduction",
+              "before": "1",
+              "after": "0.75 seconds",
+              "note": "Cooldown reduction reduced to 0.75 seconds from 1."
+            },
+            {
+              "label": "Cooldown reduction against champions",
+              "before": "2",
+              "after": "1.5 seconds",
+              "note": "Cooldown reduction against champions reduced to 1.5 seconds from 2."
+            }
+          ]
+        },
+        {
+          "ability": "Undying Rage",
+          "title": "Undying Rage",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "110–90 (3 ranks)",
+              "after": "130–90 (3 ranks) seconds",
+              "note": "Cooldown increased to 130–90 (3 ranks) seconds from 110–90 (3 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "blade-of-the-ruined-king",
+      "name": "Blade of the Ruined King",
+      "type": "item",
+      "assetKey": "3153",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Life steal reduced to 8% from 10%.",
+      "gameplayImpact": "Blade of the Ruined King loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Life steal",
+              "before": "10%",
+              "after": "8%",
+              "note": "Life steal reduced to 8% from 10%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "divine-sunderer",
+      "name": "Divine Sunderer",
+      "type": "item",
+      "assetKey": "6632",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Removed: No longer has a minimum heal of .",
+      "gameplayImpact": "Divine Sunderer loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Removed: No longer has a minimum heal of ."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "immortal-shieldbow",
+      "name": "Immortal Shieldbow",
+      "type": "item",
+      "assetKey": "6673",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Life steal reduced to 8% from 10%.; Lifeline shield increased to 275–700 from 275–650.",
+      "gameplayImpact": "Immortal Shieldbow was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Life steal",
+              "before": "10%",
+              "after": "8%",
+              "note": "Life steal reduced to 8% from 10%."
+            },
+            {
+              "label": "Lifeline shield",
+              "before": "275–650",
+              "after": "275–700",
+              "note": "Lifeline shield increased to 275–700 from 275–650."
+            },
+            {
+              "label": "Mythic passive health",
+              "before": "50",
+              "after": "70",
+              "note": "Mythic passive health increased to 70 from 50."
+            },
+            {
+              "label": "Bloodward}} life steal",
+              "before": "12%",
+              "after": "10%",
+              "note": "Bloodward}} life steal reduced to 10% from 12%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "vampiric-scepter",
+      "name": "Vampiric Scepter",
+      "type": "item",
+      "assetKey": "221053",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Life steal reduced to 8% from 10%.",
+      "gameplayImpact": "Vampiric Scepter loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Life steal",
+              "before": "10%",
+              "after": "8%",
+              "note": "Life steal reduced to 8% from 10%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "id": "fleet-footwork",
+      "name": "Fleet Footwork",
+      "type": "rune",
+      "assetKey": null,
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Bonus AD ratio reduced to 30% bonus AD from 40%|AD.; AP ratio reduced to 20% AP from 30% AP.",
+      "gameplayImpact": "Fleet Footwork loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Bonus AD ratio",
+              "before": "40%|AD",
+              "after": "30% bonus AD",
+              "note": "Bonus AD ratio reduced to 30% bonus AD from 40%|AD."
+            },
+            {
+              "label": "AP ratio",
+              "before": "30% AP",
+              "after": "20% AP",
+              "note": "AP ratio reduced to 20% AP from 30% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "legend-bloodline",
+      "name": "Legend: Bloodline",
+      "type": "rune",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Life steal per stack reduced to 0.4% from 0.6%.; Maximum life steal reduced to 6% from 9%.",
+      "gameplayImpact": "Legend: Bloodline was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Life steal per stack",
+              "before": "0",
+              "after": "0.4%",
+              "note": "Life steal per stack reduced to 0.4% from 0.6%."
+            },
+            {
+              "label": "Maximum life steal",
+              "before": "9%",
+              "after": "6%",
+              "note": "Maximum life steal reduced to 6% from 9%."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: At maximum Legend stacks, gain 100 bonus health."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "ravenous-hunter",
+      "name": "Ravenous Hunter",
+      "type": "rune",
+      "assetKey": null,
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Removed from the game.; Replaced by Treasure Hunter}}.",
+      "gameplayImpact": "Ravenous Hunter loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": "Removed",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Removed from the game."
+            },
+            {
+              "label": "Change",
+              "note": "Replaced by Treasure Hunter}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf",
+        "Removed"
+      ]
+    },
+    {
+      "id": "treasure-hunter",
+      "name": "Treasure Hunter",
+      "type": "rune",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Replaces Ravenous Hunter}}.; 20px|link=Domination Domination Slot 3 rune.",
+      "gameplayImpact": "Treasure Hunter was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": "New rune",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Replaces Ravenous Hunter}}."
+            },
+            {
+              "label": "Change",
+              "note": "20px|link=Domination Domination Slot 3 rune."
+            },
+            {
+              "label": "Change",
+              "note": "Passive: Gain (+ per Bounty Hunter stack) per unique takedown, up to at 5 unique takedowns."
+            },
+            {
+              "label": "Change",
+              "note": "1st unique takedown: , 2nd: , 3rd: , 4th: , 5th: ."
+            },
+            {
+              "label": "Change",
+              "note": "Earn a Bounty Hunter stack whenever scoring a takedown against an enemy champion, up to one per unique champion."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust",
+        "New rune"
+      ]
+    }
+  ],
+  "sourceUrl": "https://na.leagueoflegends.com/en-us/news/game-updates/patch-12-6-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V12.6"
+}

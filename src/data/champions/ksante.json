@@ -1,0 +1,1862 @@
+{
+  "slug": "ksante",
+  "name": "K'Sante",
+  "assetKey": "KSante",
+  "entries": [
+    {
+      "patchId": "12.21",
+      "version": "12.21",
+      "releaseDate": "2022-11-02",
+      "change": {
+        "id": "ksante",
+        "name": "K'Sante",
+        "type": "champion",
+        "assetKey": "KSante",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Innate: K'Sante's abilities mark enemies hit for 4 seconds. His basic attack against marked enemies are empowered to consume the mark to gain 25 bonus range and deal 10–25|physical damage (+ 1–2% of target's maximum h…",
+        "gameplayImpact": "K'Sante was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": "New champion",
+        "changes": [
+          {
+            "ability": "General",
+            "title": null,
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Innate: K'Sante's abilities mark enemies hit for 4 seconds. His basic attack against marked enemies are empowered to consume the mark to gain 25 bonus range and deal 10–25|physical damage (+ 1–2% of target's maximum health) bonus physical damage."
+              },
+              {
+                "label": "Change",
+                "note": "All Out|All Out Bonus:}} Bonus damage dealt by consuming a mark is converted to true damage. Both the attack's damage and the mark damage are increased by 35% (+ 20% per 100 bonus armor) (+ 20% per 100 bonus magic resistance)."
+              },
+              {
+                "label": "Change",
+                "note": "Active: K'Sante slams his tonfa down in the target direction that deals 50–150 (+ 40% AD) (+ 30% bonus armor) (+ 30% bonus magic resistance) physical damage to enemies hit and slow them by 80% for 0.5 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "If this hits at least one enemy, K'Sante generates a stack for 6 seconds, stacking up to 2 times and refreshing on subsequent hits. At 2 stacks, the next Ntofo Strikes consumes them all to become empowered with a new effect."
+              },
+              {
+                "label": "Change",
+                "note": "Empowered Active: K'Sante fires a shockwave in the target direction that applies the same effects to enemies hit, but also airborne them towards him over 1 second and stun them for the same duration."
+              },
+              {
+                "label": "Change",
+                "note": "All Out|All Out Bonus:}} Ntofo Strikes's cooldown is by 1 second and it no longer slow targets hit."
+              },
+              {
+                "label": "Change",
+                "note": "Ntofo Strikes partially basic attack reset K'Sante's basic attack timer. While All Out}}, it fully resets the timer."
+              },
+              {
+                "label": "Change",
+                "note": "Mana Cost: 15."
+              },
+              {
+                "label": "Change",
+                "note": "Static Cooldown: 3.5–1.75 (over 0–250)"
+              },
+              {
+                "label": "Change",
+                "note": "Cast Time: 0.45–0.25 (over 0–1800) seconds, Range: er , Width: er / ."
+              },
+              {
+                "label": "Change",
+                "note": "Active: K'Sante channel for up to 1 second, during which he increases Path Maker's range, damage, and stun duration over the first 0.85 seconds of the channel and gains displacement immunity and 25% (+ 10% per 100 bonus armor) (+ 10% per 100 bonus magic resistance) (+ 1% per 100 bonus health) damage reduction."
+              },
+              {
+                "label": "Change",
+                "note": "Path Maker can be recast within the duration, and does so automatically afterwards. Path Maker's charge cannot be interrupt by crowd control."
+              },
+              {
+                "label": "Change",
+                "note": "Recast: K'Sante dash in the target direction, though not through terrain, dealing 4.25–5.25% of target's maximum health physical damage to enemies he passes through, airborne them alongside him, and stun them for 0.35–0.75 seconds. When charged, the damage goes up to 8.25–9.25% of target's maximum health and the stun goes up to 0.85–1.25 seconds. This damage is capped at 50–475 against monsters."
+              },
+              {
+                "label": "Change",
+                "note": "All Out|All Out Bonus:}} Path Maker no longer applies its airborne and stun, but it deals 25–65 (+ 50% AD) bonus physical damage and its damage reduction is increased to 30% (+ 12% per 100 bonus armor) (+ 12% per 100 bonus magic resistance) (+ 1.2% per 100 bonus health), as well as has doubled charge duration and dash speed. Upon going All Out, Path Maker's cooldown is refreshed. When charged, this bonus damage goes up to 110–350 (+ 50% AD)."
+              },
+              {
+                "label": "Change",
+                "note": "Ntofo Strikes}} and All Out}} can be cast during the dash. Path Maker's recast can be used while affected by cast-inhibiting crowd control."
+              },
+              {
+                "label": "Change",
+                "note": "Mana Cost: 75–95."
+              },
+              {
+                "label": "Change",
+                "note": "Cooldown: seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Cast Time: None, Range: / , Speed: / / ."
+              },
+              {
+                "label": "Change",
+                "note": "Active: K'Sante dash to the target location, though not through terrain, and grants himself a shield for 45–125 (+ 15% bonus health) for 2 seconds. Footwork can be cast on allies to dash to them at an increased range. If the ally is a champion upon arrival, they receive the shield as well."
+              },
+              {
+                "label": "Change",
+                "note": "All Out|All Out Bonus:}} Footwork's dash speed and location range are increased, and it can dash through terrain."
+              },
+              {
+                "label": "Change",
+                "note": "K'Sante can cast any of his abilities during the dash. Footwork will cast at max range if cast beyond that."
+              },
+              {
+                "label": "Change",
+                "note": "Mana Cost: 45–65."
+              },
+              {
+                "label": "Change",
+                "note": "Cooldown: 9–7 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Cast Time: None, Range: / / , Speed: / ."
+              },
+              {
+                "label": "Change",
+                "note": "Active: K'Sante root the target enemy champion for 0.5 seconds and gains displacement immunity over the cast time, then shatters his tonfas to airborne and blink 175 units beyond their hitbox's edge at the end location. The target is dealt 35–105 (3 ranks) (+ 20% AD) physical damage near the end of the displacement and is stun for 0.25 seconds afterwards."
+              },
+              {
+                "label": "Change",
+                "note": "If the target collides with terrain during the displacement, they are knocked back through the terrain and are dealt the physical damage once they have gone past it. At the end of the displacement, K'Sante strikes the target to deal 150–350 (+ 20% AD) additional physical damage|physical damage and they remain airborne for 0.5 seconds, after which they are stun for 0.25 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "After K'Sante blink, he goes All Out for 20 seconds, and the ability can be recast after within the duration."
+              },
+              {
+                "label": "Change",
+                "note": "All Out: K'Sante's current health is reduced to 55% maximum health and he cannot exceed this threshold through heal nor . Additionally, his armor|base armor and mr|base magic resistance are reduced by 65% bonus armor and 65% bonus magic resistance, respectively. In return, he gains 5 and and empowers his basic abilities, which can be cast at no cost."
+              },
+              {
+                "label": "Change",
+                "note": "Recast: K'Sante ends All Out early."
+              },
+              {
+                "label": "Change",
+                "note": "K'Sante retains his maximum health and bonus resistances during All Out. Health lost from All Out is not restored after the effect ends. Upon going All Out, K'Sante is restored to 100% maximum mana which rapidly decays over the duration. His mana percentage prior to All Out is preserved and is gained back after the effect ends. If the target is knocked over terrain that is longer than units, K'Sante will vanish during their displacement and reappear near the end of it."
+              },
+              {
+                "label": "Change",
+                "note": "Mana Cost: 100."
+              },
+              {
+                "label": "Change",
+                "note": "Cooldown: seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Cast Time: 0.4 seconds, Target Range: cr 350, Effect Radius: , Speed: ."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust",
+          "New champion"
+        ]
+      }
+    },
+    {
+      "patchId": "12.22",
+      "version": "12.22",
+      "releaseDate": "2022-11-16",
+      "change": {
+        "id": "ksante",
+        "name": "K'Sante",
+        "type": "champion",
+        "assetKey": "KSante",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 1,
+        "tldr": "Removed: K'Sante can no longer use during the dash.; Dash speed towards allies increased to 1800 from 1600.",
+        "gameplayImpact": "K'Sante was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Path Maker",
+            "title": "Path Maker",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Removed: K'Sante can no longer use during the dash."
+              }
+            ]
+          },
+          {
+            "ability": "Footwork",
+            "title": "Footwork",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Dash speed towards allies",
+                "before": "1600",
+                "after": "1800",
+                "note": "Dash speed towards allies increased to 1800 from 1600."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Casting it now properly cancels the channel for ."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Casting it now properly triggers Sheen items."
+              }
+            ]
+          },
+          {
+            "ability": "All Out",
+            "title": "All Out",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: Bonus attack damage now properly scales with temporary armor and magic resistance bonuses from items and runes."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Gaining bonus health within the duration no longer increases the health threshold."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Now properly removes the immunity of Goes Where He Pleases (Dr. Mundo)}} after being resisted by it."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "12.23",
+      "version": "12.23",
+      "releaseDate": "2022-12-07",
+      "change": {
+        "id": "ksante",
+        "name": "K'Sante",
+        "type": "champion",
+        "assetKey": "KSante",
+        "roles": [],
+        "direction": "buff",
+        "severity": 2,
+        "tldr": "Base health regeneration increased to 9.5 from 8.5.; Health growth increased to 108 from 104.",
+        "gameplayImpact": "K'Sante is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base health regeneration",
+                "before": "8",
+                "after": "9.5",
+                "note": "Base health regeneration increased to 9.5 from 8.5."
+              },
+              {
+                "label": "Health growth",
+                "before": "104",
+                "after": "108",
+                "note": "Health growth increased to 108 from 104."
+              }
+            ]
+          },
+          {
+            "ability": "Ntofo Strikes",
+            "title": "Ntofo Strikes",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: Cooldown now properly scales down by the increased resistances from sources such as Boarding Party."
+              }
+            ]
+          },
+          {
+            "ability": "Footwork",
+            "title": "Footwork",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Now partially resets basic attacks in base form, and will be a full attack reset while in his All Out form."
+              },
+              {
+                "label": "Change",
+                "note": "Adjusted so that if he is very close to dashing through a wall he will now go through the wall."
+              }
+            ]
+          },
+          {
+            "ability": "All Out",
+            "title": "All Out",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: Can no longer be used to knock back targets outside of the boundaries of Realm of Death (Mordekaiser)}}."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Casting it no longer causes the increased resistances from Boarding Party to be temporarily lost."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "13.1",
+      "version": "13.1",
+      "releaseDate": "2023-01-11",
+      "change": {
+        "id": "ksante",
+        "name": "K'Sante",
+        "type": "champion",
+        "assetKey": "KSante",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 2,
+        "tldr": "Base movement speed reduced to 330 from 335.; Base damage reduced to 5–20 from 10–25.",
+        "gameplayImpact": "K'Sante loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base movement speed",
+                "before": "335",
+                "after": "330",
+                "note": "Base movement speed reduced to 330 from 335."
+              }
+            ]
+          },
+          {
+            "ability": "Dauntless Instinct",
+            "title": "Dauntless Instinct",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "10–25",
+                "after": "5–20",
+                "note": "Base damage reduced to 5–20 from 10–25."
+              }
+            ]
+          },
+          {
+            "ability": "Path Maker",
+            "title": "Path Maker",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Minimum damage health ratio",
+                "before": "4",
+                "after": "2–3% maximum health",
+                "note": "Minimum damage health ratio reduced to 2–3% maximum health from 4.25–5.25%|health."
+              },
+              {
+                "label": "Maximum damage health ratio",
+                "before": "8",
+                "after": "7–8% maximum health",
+                "note": "Maximum damage health ratio reduced to 7–8% maximum health from 8.25–9.25%|health."
+              }
+            ]
+          },
+          {
+            "ability": "All Out",
+            "title": "All Out",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: Animations are now properly played when cast against a champion performing Cease and Desist}}."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Target player's screen after being zoomed out now properly zooms back in after being knocked through terrain at a very long distance."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "13.3",
+      "version": "13.3",
+      "releaseDate": "2023-02-09",
+      "change": {
+        "id": "ksante",
+        "name": "K'Sante",
+        "type": "champion",
+        "assetKey": "KSante",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 2,
+        "tldr": "Knock up duration reduced to 0.65 seconds from 1.; Stun duration reduced to 1 second from varying between 1 to 1.25.",
+        "gameplayImpact": "K'Sante was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Ntofo Strikes",
+            "title": "Ntofo Strikes",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Knock up duration",
+                "before": "1",
+                "after": "0.65 seconds",
+                "note": "Knock up duration reduced to 0.65 seconds from 1."
+              },
+              {
+                "label": "Stun duration",
+                "before": "varying between 1 to 1",
+                "after": "1 second",
+                "note": "Stun duration reduced to 1 second from varying between 1 to 1.25."
+              }
+            ]
+          },
+          {
+            "ability": "Path Maker",
+            "title": "Path Maker",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Minimum stun duration",
+                "before": "0",
+                "after": "0.3–0.5 seconds",
+                "note": "Minimum stun duration reduced to 0.3–0.5 seconds from 0.35–0.75."
+              }
+            ]
+          },
+          {
+            "ability": "All Out",
+            "title": "All Out",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Resistance reduction",
+                "before": "65%",
+                "after": "85% bonus resistances",
+                "note": "Resistance reduction increased to 85% bonus resistances from 65%."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "13.12",
+      "version": "13.12",
+      "releaseDate": "2023-06-14",
+      "change": {
+        "id": "ksante",
+        "name": "K'Sante",
+        "type": "champion",
+        "assetKey": "KSante",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Cooldown increased to 10.5–8.5 seconds from 9–7.",
+        "gameplayImpact": "K'Sante loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Footwork",
+            "title": "Footwork",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Cooldown",
+                "before": "9–7",
+                "after": "10.5–8.5 seconds",
+                "note": "Cooldown increased to 10.5–8.5 seconds from 9–7."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "13.20",
+      "version": "13.20",
+      "releaseDate": "2023-10-11",
+      "change": {
+        "id": "ksante",
+        "name": "K'Sante",
+        "type": "champion",
+        "assetKey": "KSante",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Base health reduced to 570 from 610.; Health growth increased to 115 from 108.",
+        "gameplayImpact": "K'Sante was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Base health",
+                "before": "610",
+                "after": "570",
+                "note": "Base health reduced to 570 from 610."
+              },
+              {
+                "label": "Health growth",
+                "before": "108",
+                "after": "115",
+                "note": "Health growth increased to 115 from 108."
+              },
+              {
+                "label": "Armor growth",
+                "before": "4",
+                "after": "5.2",
+                "note": "Armor growth increased to 5.2 from 4.7."
+              }
+            ]
+          },
+          {
+            "ability": "Dauntless Instinct",
+            "title": "Dauntless Instinct",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Removed: Mark damage during All Out}} is no longer increased by 20% per 100 bonus armor and 20% per 100 bonus magic resistance."
+              }
+            ]
+          },
+          {
+            "ability": "Ntofo Strikes",
+            "title": "Ntofo Strikes",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "50–150",
+                "after": "30–150",
+                "note": "Base damage reduced to 30–150 from 50–150."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Extended tooltip now shows its current and maximum cast time and cooldown."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now also applies its slow during All Out}}."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Stacks are now reset after All Out}} is cast."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Cooldown is now refreshed after All Out}} is cast if he had two stacks."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Can no longer cast during the cast time of the third cast."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Casting it during All Out}} no longer fully resets the basic attack timer."
+              }
+            ]
+          },
+          {
+            "ability": "Path Maker",
+            "title": "Path Maker",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Damage health ratio",
+                "before": "2–3%|health",
+                "after": "6–10% of target's maximum health",
+                "note": "Damage health ratio increased to 6–10% of target's maximum health from 2–3%|health."
+              },
+              {
+                "label": "Damage reduction",
+                "before": "25% at all levels",
+                "after": "40–65%",
+                "note": "Damage reduction increased to 40–65% from 25% at all levels."
+              },
+              {
+                "label": "All Out}} damage reduction",
+                "before": "30% at all levels",
+                "after": "50–75%",
+                "note": "All Out}} damage reduction increased to 50–75% from 30% at all levels."
+              },
+              {
+                "label": "Stun duration",
+                "before": "0",
+                "after": "1.25 seconds at all ranks",
+                "note": "Stun duration increased to 1.25 seconds at all ranks from 0.3–0.5."
+              },
+              {
+                "label": "Charge time for maximum dash range",
+                "before": "0",
+                "after": "0.65 seconds",
+                "note": "Charge time for maximum dash range reduced to 0.65 seconds from 0.85 seconds."
+              },
+              {
+                "label": "Charge time for maximum dash range during All Out}}",
+                "before": "0",
+                "after": "0.5 seconds",
+                "note": "Charge time for maximum dash range during All Out}} increased to 0.5 seconds from 0.425 seconds."
+              },
+              {
+                "label": "Mana cost",
+                "before": "75–95",
+                "after": "60–80",
+                "note": "Mana cost reduced to 60–80 from 75–95."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now has a base damage of 20–100."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Damage now scales with 50% AD, 30% bonus armor, and 30% bonus magic resistance."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Channel now has a minimum charge time of 0.65 seconds, reduced to 0.5 seconds during All Out}}."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: All Out}} now reduces the total cooldown of the ability to 18–12 seconds from 24–16 at all times."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Damage health ratio no longer increases to up to 7–8% of the target's maximum health based on charge time."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: No longer deals 25–65 (+ 50% AD) to 110–350 (+ 50% AD) bonus damage based on charge time during All Out}}."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Damage reduction no longer scales with 10% per 100 bonus armor, 10% per 100 bonus magic resistance, and 1% per 100 bonus health, increased to 12% per 100 bonus armor, 12% per 100 bonus magic resistance, and 1.2% per 100 bonus health during All Out}}."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Stun duration no longer increases to up to 0.85–1.25 seconds based on charge time."
+              }
+            ]
+          },
+          {
+            "ability": "Footwork",
+            "title": "Footwork",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Removed: Casting it during All Out}} no longer fully resets the basic attack timer."
+              }
+            ]
+          },
+          {
+            "ability": "All Out",
+            "title": "All Out",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Damage type",
+                "before": "physical",
+                "after": "magic",
+                "note": "Damage type changed to magic from physical."
+              },
+              {
+                "label": "Base damage",
+                "before": "35–105 (3 ranks)",
+                "after": "70–150 (3 ranks)",
+                "note": "Base damage increased to 70–150 (3 ranks) from 35–105 (3 ranks)."
+              },
+              {
+                "label": "Wall base damage",
+                "before": "150–350 (3 ranks)",
+                "after": "70–150 (3 ranks)",
+                "note": "Wall base damage reduced to 70–150 (3 ranks) from 150–350 (3 ranks)."
+              },
+              {
+                "label": "Total base damage",
+                "before": "35+150–105+350 (3 ranks)",
+                "after": "140–300 (3 ranks)",
+                "note": "Total base damage reduced to 140–300 (3 ranks) from 35+150–105+350 (3 ranks)."
+              },
+              {
+                "label": "Health threshold",
+                "before": "55%|health",
+                "after": "65% maximum health",
+                "note": "Health threshold increased to 65% maximum health from 55%|health."
+              },
+              {
+                "label": "Bonus attack damage",
+                "before": "5 at all ranks",
+                "after": "15–45 (3 ranks)",
+                "note": "Bonus attack damage increased to 15–45 (3 ranks) from 5 at all ranks."
+              },
+              {
+                "label": "Bonus attack damage armor ratio",
+                "before": "32",
+                "after": "25%",
+                "note": "Bonus attack damage armor ratio reduced to 25% from 32.5%."
+              },
+              {
+                "label": "Bonus attack damage magic resistance ratio",
+                "before": "32",
+                "after": "25%",
+                "note": "Bonus attack damage magic resistance ratio reduced to 25% from 32.5%."
+              },
+              {
+                "label": "Minimum knock back distance",
+                "before": "350",
+                "after": "300 units",
+                "note": "Minimum knock back distance reduced to 300 units from 350."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Initial damage and wall damage now scale with 65% AP."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now grants 25–45 (3 ranks)% bonus attack speed throughout its duration."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now grants healing based on 10–20 (3 ranks)% of physical damage and true damage dealt to enemy champions during the effect."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Initial damage and wall damage no longer scale with 20% AD."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: No longer grants 10% (+ 0.75% per 100 bonus health) omnivamp."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "13.21",
+      "version": "13.21",
+      "releaseDate": "2023-10-25",
+      "change": {
+        "id": "ksante",
+        "name": "K'Sante",
+        "type": "champion",
+        "assetKey": "KSante",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "All Out}} bonus mark damage increased to 45 to 75 3% from 35% all levels.; Cast time reduced to 0.45–0.25 (over 0–1200) from 0.45–0.25 (over 0–1800). Formula changed.",
+        "gameplayImpact": "K'Sante was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Dauntless Instinct",
+            "title": "Dauntless Instinct",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "All Out}} bonus mark damage",
+                "before": "35% all levels",
+                "after": "45 to 75 3%",
+                "note": "All Out}} bonus mark damage increased to 45 to 75 3% from 35% all levels."
+              }
+            ]
+          },
+          {
+            "ability": "Ntofo Strikes",
+            "title": "Ntofo Strikes",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Cast time",
+                "before": "0",
+                "after": "0.45–0.25 (over 0–1200)",
+                "note": "Cast time reduced to 0.45–0.25 (over 0–1200) from 0.45–0.25 (over 0–1800). Formula changed."
+              },
+              {
+                "label": "Change",
+                "note": "Tooltip now always shows resists and health needed for cooldown and cast time reductions. All Out}} tooltip has been simplified and updated."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: is now properly locked out during the third cast at all times."
+              }
+            ]
+          },
+          {
+            "ability": "Path Maker",
+            "title": "Path Maker",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Maximum channel duration",
+                "before": "1",
+                "after": "1.5 seconds",
+                "note": "Maximum channel duration increased to 1.5 seconds from 1."
+              },
+              {
+                "label": "Change",
+                "note": "All Out}} tooltip has been simplified and updated."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: No longer interrupts dash upon cast."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Forced action effects no longer improperly interrupt the channel."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Channel during All Out}} is no longer cancellable by left click."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Can no longer be cast twice under certain conditions."
+              }
+            ]
+          },
+          {
+            "ability": "All Out",
+            "title": "All Out",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Healing based on damage to champions now affects magic damage dealt."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now resets his basic attack timer instantly after Ntofo Strikes}} or Footwork}} is cast instead of only after 0.1 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Attack damage and resistances scaling now properly update dynamically during the buff."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Healing based on damage dealt now properly applies even if the damage was mitigated by shields."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "13.23",
+      "version": "13.23",
+      "releaseDate": "2023-11-21",
+      "change": {
+        "id": "ksante",
+        "name": "K'Sante",
+        "type": "champion",
+        "assetKey": "KSante",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "All Out}} bonus mark damage changed to 30–78% (6–18) from 45 to 75 3%.; Base damage reduced to 30–130 from 30–150.",
+        "gameplayImpact": "K'Sante was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Dauntless Instinct",
+            "title": "Dauntless Instinct",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "All Out}} bonus mark damage",
+                "before": "45 to 75 3%",
+                "after": "30–78% (6–18)",
+                "note": "All Out}} bonus mark damage changed to 30–78% (6–18) from 45 to 75 3%."
+              }
+            ]
+          },
+          {
+            "ability": "Ntofo Strikes",
+            "title": "Ntofo Strikes",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "30–150",
+                "after": "30–130",
+                "note": "Base damage reduced to 30–130 from 30–150."
+              },
+              {
+                "label": "Mana cost",
+                "before": "15 at all ranks",
+                "after": "28–20",
+                "note": "Mana cost increased to 28–20 from 15 at all ranks."
+              }
+            ]
+          },
+          {
+            "ability": "Path Maker",
+            "title": "Path Maker",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Maximum range charge duration",
+                "before": "0",
+                "after": "0.66 seconds",
+                "note": "Maximum range charge duration reduced to 0.66 seconds from 0.75."
+              },
+              {
+                "label": "All Out}} maximum range charge duration",
+                "before": "0",
+                "after": "0.45 seconds",
+                "note": "All Out}} maximum range charge duration reduced to 0.45 seconds from 0.5."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: No longer automatically recasts the ability if the charge is cancelled."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Charge is no longer cancelled if the recast was used at the same time as ."
+              }
+            ]
+          },
+          {
+            "ability": "Footwork",
+            "title": "Footwork",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Base shield",
+                "before": "45–125",
+                "after": "50–210",
+                "note": "Base shield increased to 50–210 from 45–125."
+              },
+              {
+                "label": "Shield health ratio",
+                "before": "15%|hp",
+                "after": "10% bonus health",
+                "note": "Shield health ratio reduced to 10% bonus health from 15%|hp."
+              }
+            ]
+          },
+          {
+            "ability": "All Out",
+            "title": "All Out",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Bonus attack damage",
+                "before": "15–45 (3 ranks)",
+                "after": "10–40 (3 ranks)",
+                "note": "Bonus attack damage reduced to 10–40 (3 ranks) from 15–45 (3 ranks)."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: No longer appears to behave improperly after performing certain ability combos during the buff."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "13.24",
+      "version": "13.24",
+      "releaseDate": "2023-12-06",
+      "change": {
+        "id": "ksante",
+        "name": "K'Sante",
+        "type": "champion",
+        "assetKey": "KSante",
+        "roles": [],
+        "direction": "buff",
+        "severity": 2,
+        "tldr": "Mana cost reduced to 40–60 from 60–80.; Armor ratio increased to 50% bonus armor from 30%|armor.",
+        "gameplayImpact": "K'Sante is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Path Maker",
+            "title": "Path Maker",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Mana cost",
+                "before": "60–80",
+                "after": "40–60",
+                "note": "Mana cost reduced to 40–60 from 60–80."
+              },
+              {
+                "label": "Armor ratio",
+                "before": "30%|armor",
+                "after": "50% bonus armor",
+                "note": "Armor ratio increased to 50% bonus armor from 30%|armor."
+              },
+              {
+                "label": "Magic resistance ratio",
+                "before": "30%|mr",
+                "after": "50% bonus magic resistance",
+                "note": "Magic resistance ratio increased to 50% bonus magic resistance from 30%|mr."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "14.4",
+      "version": "14.4",
+      "releaseDate": "2024-02-22",
+      "change": {
+        "id": "ksante",
+        "name": "K'Sante",
+        "type": "champion",
+        "assetKey": "KSante",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Base health increased to 625 from 570.; Base mana increased to 320 from 290.",
+        "gameplayImpact": "K'Sante was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base health",
+                "before": "570",
+                "after": "625",
+                "note": "Base health increased to 625 from 570."
+              },
+              {
+                "label": "Base mana",
+                "before": "290",
+                "after": "320",
+                "note": "Base mana increased to 320 from 290."
+              }
+            ]
+          },
+          {
+            "ability": "Ntofo Strikes",
+            "title": "Ntofo Strikes",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Removed: No longer slow enemies while All Out}}."
+              }
+            ]
+          },
+          {
+            "ability": "Path Maker",
+            "title": "Path Maker",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Bonus armor ratio",
+                "before": "50%|armor",
+                "after": "85% bonus armor",
+                "note": "Bonus armor ratio increased to 85% bonus armor from 50%|armor."
+              },
+              {
+                "label": "Bonus magic resistance ratio",
+                "before": "50%|magic resistance",
+                "after": "85% bonus magic resistance",
+                "note": "Bonus magic resistance ratio increased to 85% bonus magic resistance from 50%|magic resistance."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Cooldown is no longer reduced to 18–12 seconds during All Out}}."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: All Out}} no longer reduces the minimum channel to 0.5 seconds."
+              }
+            ]
+          },
+          {
+            "ability": "Footwork",
+            "title": "Footwork",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Location-targeted dash speed",
+                "before": "1700",
+                "after": "900",
+                "note": "Location-targeted dash speed reduced to 900 from 1700."
+              },
+              {
+                "label": "Ally-targeted dash speed",
+                "before": "1800",
+                "after": "1100",
+                "note": "Ally-targeted dash speed reduced to 1100 from 1800."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Ally-targeted dash speed now scales with 100% movement speed."
+              },
+              {
+                "label": "All Out}} dash speed",
+                "before": "2100",
+                "after": "1450",
+                "note": "All Out}} dash speed reduced to 1450 from 2100."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "14.9",
+      "version": "14.9",
+      "releaseDate": "2024-05-01",
+      "change": {
+        "id": "ksante",
+        "name": "K'Sante",
+        "type": "champion",
+        "assetKey": "KSante",
+        "roles": [],
+        "direction": "buff",
+        "severity": 2,
+        "tldr": "Gameplay radius increased to 80 units from 65.; Pathing radius increased to 50 units from 35.",
+        "gameplayImpact": "K'Sante is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Gameplay radius",
+                "before": "65",
+                "after": "80 units",
+                "note": "Gameplay radius increased to 80 units from 65."
+              },
+              {
+                "label": "Pathing radius",
+                "before": "35",
+                "after": "50 units",
+                "note": "Pathing radius increased to 50 units from 35."
+              },
+              {
+                "label": "Selection radius",
+                "before": "102",
+                "after": "140 units",
+                "note": "Selection radius increased to 140 units from 102.77780151367188."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "14.10",
+      "version": "14.10",
+      "releaseDate": "2024-05-15",
+      "change": {
+        "id": "ksante",
+        "name": "K'Sante",
+        "type": "champion",
+        "assetKey": "KSante",
+        "roles": [],
+        "direction": "buff",
+        "severity": 2,
+        "tldr": "Health growth increased to 120 from 115.; Health regeneration growth increased to 1 from 0.85.",
+        "gameplayImpact": "K'Sante is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Health growth",
+                "before": "115",
+                "after": "120",
+                "note": "Health growth increased to 120 from 115."
+              },
+              {
+                "label": "Health regeneration growth",
+                "before": "0",
+                "after": "1",
+                "note": "Health regeneration growth increased to 1 from 0.85."
+              }
+            ]
+          },
+          {
+            "ability": "Footwork",
+            "title": "Footwork",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base shield",
+                "before": "50–210",
+                "after": "50–250",
+                "note": "Base shield increased to 50–250 from 50–210."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "14.11",
+      "version": "14.11",
+      "releaseDate": "2024-05-30",
+      "change": {
+        "id": "ksante",
+        "name": "K'Sante",
+        "type": "champion",
+        "assetKey": "KSante",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 2,
+        "tldr": "Mana cost reduced to 20 at all ranks from 28–20.; Maximum charge time reduced to 1 second from 1.5 seconds.",
+        "gameplayImpact": "K'Sante was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Ntofo Strikes",
+            "title": "Ntofo Strikes",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Mana cost",
+                "before": "28–20",
+                "after": "20 at all ranks",
+                "note": "Mana cost reduced to 20 at all ranks from 28–20."
+              }
+            ]
+          },
+          {
+            "ability": "Path Maker",
+            "title": "Path Maker",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Maximum charge time",
+                "before": "1",
+                "after": "1 second",
+                "note": "Maximum charge time reduced to 1 second from 1.5 seconds."
+              },
+              {
+                "label": "Damage reduction",
+                "before": "40–60%",
+                "after": "30% at all levels",
+                "note": "Damage reduction reduced to 30% at all levels from 40–60%."
+              },
+              {
+                "label": "All Out}} damage reduction",
+                "before": "50–75%",
+                "after": "60% at all levels",
+                "note": "All Out}} damage reduction changed to 60% at all levels from 50–75%."
+              }
+            ]
+          },
+          {
+            "ability": "All Out",
+            "title": "All Out",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Healing",
+                "before": "10–20 (3 ranks)%",
+                "after": "15–25 (3 ranks)% of damage dealt",
+                "note": "Healing increased to 15–25 (3 ranks)% of damage dealt from 10–20 (3 ranks)%."
+              },
+              {
+                "label": "Change",
+                "note": "Undocumented / New Effect: Cast now has a forgiveness radius of 50 units."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "14.19",
+      "version": "14.19",
+      "releaseDate": "2024-09-25",
+      "change": {
+        "id": "ksante",
+        "name": "K'Sante",
+        "type": "champion",
+        "assetKey": "KSante",
+        "roles": [],
+        "direction": "rework",
+        "severity": 3,
+        "tldr": "K'Sante gameplay update: Attack range reduced to 150 from 175.; Base damage increased to 20 at all levels from 5–20.",
+        "gameplayImpact": "K'Sante plays differently after this update — relearn power spikes and matchups before grinding ranked.",
+        "context": "Gameplay Update",
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Attack range",
+                "before": "175",
+                "after": "150",
+                "note": "Attack range reduced to 150 from 175."
+              }
+            ]
+          },
+          {
+            "ability": "Dauntless Instinct",
+            "title": "Dauntless Instinct",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "5–20",
+                "after": "20 at all levels",
+                "note": "Base damage increased to 20 at all levels from 5–20."
+              },
+              {
+                "label": "Health ratio",
+                "before": "1–2%|hp",
+                "after": "1–2% of target's maximum health",
+                "note": "Health ratio changed to 1–2% of target's maximum health from 1–2%|hp."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: No longer grants range|25 bonus attack range against a marked target."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Damage is no longer converted to true damage while All Out}}."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Damage is no longer increased by 30–78% (6–18) while All Out}}."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: While All Out}}, K'Sante's basic attacks and abilities now deal bonus physical damage equal to 1% ."
+              }
+            ]
+          },
+          {
+            "ability": "Ntofo Strikes",
+            "title": "Ntofo Strikes",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Width",
+                "before": "150",
+                "after": "100 units",
+                "note": "Width reduced to 100 units from 150."
+              },
+              {
+                "label": "Base damage",
+                "before": "30–130",
+                "after": "70–190",
+                "note": "Base damage increased to 70–190 from 30–130."
+              },
+              {
+                "label": "Damage armor ratio",
+                "before": "30%|armor",
+                "after": "35% bonus armor",
+                "note": "Damage armor ratio increased to 35% bonus armor from 30%|armor."
+              },
+              {
+                "label": "Damage magic resistance ratio",
+                "before": "30%|mr",
+                "after": "35% bonus magic resistance",
+                "note": "Damage magic resistance ratio increased to 35% bonus magic resistance from 30%|mr."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Damage no longer scales with 40% AD."
+              },
+              {
+                "label": "Cast time",
+                "before": "0",
+                "after": "0.45–0.35 (over 0–120)",
+                "note": "Cast time increased to 0.45–0.35 (over 0–120) from 0.45–0.25 (over 0–1600)."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Cast time is no longer reduced by 0.08 seconds while All Out}}."
+              },
+              {
+                "label": "Cooldown",
+                "before": "3",
+                "after": "3.5 to 2 by 0.1 (over 0–120)",
+                "note": "Cooldown increased to 3.5 to 2 by 0.1 (over 0–120) from 3.5–1.75 (over 0–250)."
+              },
+              {
+                "label": "All Out}} cooldown reduction",
+                "before": "25%",
+                "after": "33%",
+                "note": "All Out}} cooldown reduction increased to 33% from 25%."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: First cast no longer has a hitbox of 100 units around K'Sante."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: No longer refreshes the cooldown of the ability upon entering All Out}}."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now slow enemies while All Out}}."
+              }
+            ]
+          },
+          {
+            "ability": "Path Maker",
+            "title": "Path Maker",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Minimum charge time",
+                "before": "0",
+                "after": "0.4 seconds",
+                "note": "Minimum charge time reduced to 0.4 seconds from 0.66."
+              },
+              {
+                "label": "Maximum range charge duration",
+                "before": "0",
+                "after": "0.9 seconds",
+                "note": "Maximum range charge duration increased to 0.9 seconds from 0.66."
+              },
+              {
+                "label": "Base damage",
+                "before": "20–100",
+                "after": "40–120",
+                "note": "Base damage increased to 40–120 from 20–100."
+              },
+              {
+                "label": "Cooldown",
+                "before": "24–16",
+                "after": "14–10 seconds",
+                "note": "Cooldown reduced to 14–10 seconds from 24–16."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Damage no longer scales with 50% AD, 30% bonus armor, and 30% bonus magic resistance."
+              },
+              {
+                "label": "Damage health ratio",
+                "before": "6–10%|hp",
+                "after": "8% of target's maximum health at all ranks",
+                "note": "Damage health ratio changed to 8% of target's maximum health at all ranks from 6–10%|hp."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Health ratio now scales with 2% per 100 bonus armor and 2% per 100 bonus magic resistance."
+              },
+              {
+                "label": "Stun duration",
+                "before": "1",
+                "after": "0.5–1.5 seconds",
+                "note": "Stun duration changed to 0.5–1.5 seconds from 1.25 at all times."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now deals 10–100% of Path Maker's damage as bonus true damage during All Out}}."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: K'Sante can no longer change the charging direction of the recast during the initial cast's channel."
+              },
+              {
+                "label": "Change",
+                "note": "Recast now always dashes in the direction he targeted at the time of the initial cast."
+              },
+              {
+                "label": "All Out}} damage reduction",
+                "before": "60%",
+                "after": "75%",
+                "note": "All Out}} damage reduction increased to 75% from 60%."
+              },
+              {
+                "label": "Monster damage cap",
+                "before": "50–475",
+                "after": "180–500",
+                "note": "Monster damage cap changed to 180–500 from 50–475."
+              }
+            ]
+          },
+          {
+            "ability": "Footwork",
+            "title": "Footwork",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Location dash speed",
+                "before": "900",
+                "after": "500",
+                "note": "Location dash speed reduced to 500 from 900."
+              },
+              {
+                "label": "All Out}} location dash speed",
+                "before": "1450",
+                "after": "950",
+                "note": "All Out}} location dash speed reduced to 950 from 1450."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Location dash speed, including while All Out}}, is now increased by 100% movement speed."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: While All Out}}, the base dash speed to allies is now increased to 1400."
+              },
+              {
+                "label": "Cooldown",
+                "before": "10",
+                "after": "10–8 seconds",
+                "note": "Cooldown reduced to 10–8 seconds from 10.5–8.5."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Cooldown is now reduced by 50% during All Out}}."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Location dash can no longer cross terrain during All Out}}."
+              },
+              {
+                "label": "Change",
+                "note": "All Out}} ally dash unchanged."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Location dash range is no longer increased to 400 while All Out}}."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Cast no longer resets his basic attack timer."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Fixed an error on the cast animation."
+              }
+            ]
+          },
+          {
+            "ability": "All Out",
+            "title": "All Out",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Damage type",
+                "before": "magic",
+                "after": "physical",
+                "note": "Damage type changed to physical from magic."
+              },
+              {
+                "label": "Base damage",
+                "before": "70–150 (3 ranks)",
+                "after": "80–150 (3 ranks)",
+                "note": "Base damage increased to 80–150 (3 ranks) from 70–150 (3 ranks)."
+              },
+              {
+                "label": "Maximum base damage",
+                "before": "140–300 (3 ranks)",
+                "after": "160–300 (3 ranks)",
+                "note": "Maximum base damage increased to 160–300 (3 ranks) from 140–300 (3 ranks)."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Damage no longer scales with 65% AP."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Strike damage after pulling a target through a wall now scales with 5% of his bonus health."
+              },
+              {
+                "label": "Buff duration",
+                "before": "20",
+                "after": "15 seconds",
+                "note": "Buff duration reduced to 15 seconds from 20."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Can no longer be recast to end the effects of All Out early."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: No longer grants 10–40 (3 ranks) ."
+              },
+              {
+                "label": "Bonus attack speed",
+                "before": "25–45 (3 ranks)%",
+                "after": "40–80 (3 ranks)%",
+                "note": "Bonus attack speed increased to 40–80 (3 ranks)% from 25–45 (3 ranks)%."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: No longer heals K'Sante for 15–25 (3 ranks)% of damage dealt to champions for the duration."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now grants 20% omnivamp for the duration."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now grants lethality|50% for the duration."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Now properly reduces the bonus resistances granted by Voidborn Resilience."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "rework",
+          "Gameplay Update"
+        ]
+      }
+    },
+    {
+      "patchId": "14.22",
+      "version": "14.22",
+      "releaseDate": "2024-11-06",
+      "change": {
+        "id": "ksante",
+        "name": "K'Sante",
+        "type": "champion",
+        "assetKey": "KSante",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 1,
+        "tldr": "Base damage reduced to 70–190 from 80–200.; Location dash speed while All Out}} increased to 1250 from 950.",
+        "gameplayImpact": "K'Sante was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Ntofo Strikes",
+            "title": "Ntofo Strikes",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "80–200",
+                "after": "70–190",
+                "note": "Base damage reduced to 70–190 from 80–200."
+              }
+            ]
+          },
+          {
+            "ability": "Footwork",
+            "title": "Footwork",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Location dash speed while All Out}}",
+                "before": "950",
+                "after": "1250",
+                "note": "Location dash speed while All Out}} increased to 1250 from 950."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "25.05",
+      "version": "25.05",
+      "releaseDate": "2025-03-05",
+      "change": {
+        "id": "ksante",
+        "name": "K'Sante",
+        "type": "champion",
+        "assetKey": "KSante",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Mark base damage reduced to 12 from 20.; All Out}} bonus true damage reduced to 10–80% from 10–100%.",
+        "gameplayImpact": "K'Sante loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Dauntless Instinct",
+            "title": "Dauntless Instinct",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Mark base damage",
+                "before": "20",
+                "after": "12",
+                "note": "Mark base damage reduced to 12 from 20."
+              }
+            ]
+          },
+          {
+            "ability": "Path Maker",
+            "title": "Path Maker",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "All Out}} bonus true damage",
+                "before": "10–100%",
+                "after": "10–80%",
+                "note": "All Out}} bonus true damage reduced to 10–80% from 10–100%."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "25.09",
+      "version": "25.09",
+      "releaseDate": "2025-04-30",
+      "change": {
+        "id": "ksante",
+        "name": "K'Sante",
+        "type": "champion",
+        "assetKey": "KSante",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 1,
+        "tldr": "Updated recommended items. No longer incorrectly displays various Fighter items instead of Tank items.; Base damage increased to 45–165 from 40–120.",
+        "gameplayImpact": "K'Sante was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "General",
+            "title": null,
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Updated recommended items. No longer incorrectly displays various Fighter items instead of Tank items."
+              }
+            ]
+          },
+          {
+            "ability": "Path Maker",
+            "title": "Path Maker",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "40–120",
+                "after": "45–165",
+                "note": "Base damage increased to 45–165 from 40–120."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "26.13",
+      "version": "26.13",
+      "releaseDate": "2026-06-24",
+      "change": {
+        "id": "ksante",
+        "name": "K'Sante",
+        "type": "champion",
+        "assetKey": "KSante",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Base shield reduced to 70–240 from 80–240.; Bonus health ratio reduced to 13.5% bonus health from 15%|health.",
+        "gameplayImpact": "K'Sante loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Footwork",
+            "title": "Footwork",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base shield",
+                "before": "80–240",
+                "after": "70–240",
+                "note": "Base shield reduced to 70–240 from 80–240."
+              },
+              {
+                "label": "Bonus health ratio",
+                "before": "15%|health",
+                "after": "13.5% bonus health",
+                "note": "Bonus health ratio reduced to 13.5% bonus health from 15%|health."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    }
+  ]
+}

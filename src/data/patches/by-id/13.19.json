@@ -1,0 +1,1033 @@
+{
+  "id": "13.19",
+  "version": "13.19",
+  "title": "Welcome amigos... to the day of the dead.",
+  "releaseDate": "2023-09-27",
+  "season": "13",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "Welcome amigos... to the day of the dead."
+    },
+    {
+      "title": "Champion balance",
+      "description": "8 champion buffs, 3 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "Welcome amigos... to the day of the dead. Structured changes across 20 entities this patch.",
+  "champions": [
+    {
+      "id": "azir",
+      "name": "Azir",
+      "type": "champion",
+      "assetKey": "Azir",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Cooldown increased to 14–6 seconds from 12–6.",
+      "gameplayImpact": "Azir loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Conquering Sands",
+          "title": "Conquering Sands",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "12–6",
+              "after": "14–6 seconds",
+              "note": "Cooldown increased to 14–6 seconds from 12–6."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "briar",
+      "name": "Briar",
+      "type": "champion",
+      "assetKey": "Briar",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Recommended items and runes have been updated.; Attack speed growth reduced to 2.3% from 2.5%.",
+      "gameplayImpact": "Briar was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Recommended items and runes have been updated."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Transitions from her attack to idle animation now play correctly."
+            }
+          ]
+        },
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Attack speed growth",
+              "before": "2",
+              "after": "2.3%",
+              "note": "Attack speed growth reduced to 2.3% from 2.5%."
+            }
+          ]
+        },
+        {
+          "ability": "Crimson Curse",
+          "title": "Crimson Curse",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Spell shield now also blocks applications of bleed stacks from blocked spells when the first stack was already applied."
+            }
+          ]
+        },
+        {
+          "ability": "Head Rush",
+          "title": "Head Rush",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Now properly tagged as an attack reset for interactions like Hail of Blades}}."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Targeting an enemy over terrain now consistently causes her to dash to their location on the other side, rather than landing in front of the wall if the target was not far enough away from the wall on the other side."
+            }
+          ]
+        },
+        {
+          "ability": "Blood Frenzy",
+          "title": "Blood Frenzy",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Frenzy duration is now also displayed on her resource bar on the health bar, and color-coded."
+            },
+            {
+              "label": "Change",
+              "note": "Tooltip now clarifies that casting it does not remove or replace the empowered Blood Frenzy granted by Certain Death}}."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Dash no longer cancels existing movement commands."
+            }
+          ]
+        },
+        {
+          "ability": "Snack Attack",
+          "title": "Snack Attack",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Healing",
+              "before": "35–65%",
+              "after": "36–60%",
+              "note": "Healing changed to 36–60% from 35–65%."
+            },
+            {
+              "label": "Non-champion damage",
+              "before": "120%",
+              "after": "110%",
+              "note": "Non-champion damage reduced to 110% from 120%."
+            },
+            {
+              "label": "Monster health ratio damage cap",
+              "before": "500",
+              "after": "400",
+              "note": "Monster health ratio damage cap reduced to 400 from 500."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Percent health damage is no longer affected by critical strike modifiers."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Now has a brief cooldown after gaining Blood Frenzy}}."
+            }
+          ]
+        },
+        {
+          "ability": "Chilling Scream",
+          "title": "Chilling Scream",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Now makes displaced enemies collide with player-generated terrain more consistently."
+            }
+          ]
+        },
+        {
+          "ability": "Certain Death",
+          "title": "Certain Death",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Frenzy duration is now also displayed on her resource bar on the health bar, and color-coded."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Pinging the ability now tells teammates which enemies are within its cast range."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Berserk is now properly canceled if the the target dies during the cast time of the second cast."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: No longer creates the explosion around the target if the dash is interrupted by the summoner spell."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Now behaves properly when interacting with Devour (Tahm Kench)}} and Fate's Call (Kalista)}}."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: True sight debuff now properly expires if she enters a resurrection state during the berserk effect."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: VFX now properly plays even if cast at maximum range."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Yuumi}} is now properly revealed by the true sight debuff even while she is untargetable from You and Me!}}."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: No longer fails to enter the berserk state with Blood Frenzy}} upon reaching the target and consequently create two explosions under certain conditions."
+            },
+            {
+              "label": "Change",
+              "note": "Chilling Scream}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: SFX for the ability now plays correctly."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "galio",
+      "name": "Galio",
+      "type": "champion",
+      "assetKey": "Galio",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Cooldown reduced to 180–140 (3 ranks) seconds from 200–160 (3 ranks).",
+      "gameplayImpact": "Galio is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Hero's Entrance",
+          "title": "Hero's Entrance",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "200–160 (3 ranks)",
+              "after": "180–140 (3 ranks) seconds",
+              "note": "Cooldown reduced to 180–140 (3 ranks) seconds from 200–160 (3 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "gangplank",
+      "name": "Gangplank",
+      "type": "champion",
+      "assetKey": "Gangplank",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Cooldown reduced to 170–130 (3 ranks) seconds from 180–140 (3 ranks).; Death's Daughter}} slow increased to 75% from 60%.",
+      "gameplayImpact": "Gangplank is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Cannon Barrage",
+          "title": "Cannon Barrage",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "180–140 (3 ranks)",
+              "after": "170–130 (3 ranks) seconds",
+              "note": "Cooldown reduced to 170–130 (3 ranks) seconds from 180–140 (3 ranks)."
+            },
+            {
+              "label": "Death's Daughter}} slow",
+              "before": "60%",
+              "after": "75%",
+              "note": "Death's Daughter}} slow increased to 75% from 60%."
+            },
+            {
+              "label": "Raise Morale}} bonus movement speed",
+              "before": "30%",
+              "after": "40%",
+              "note": "Raise Morale}} bonus movement speed increased to 40% from 30%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "jhin",
+      "name": "Jhin",
+      "type": "champion",
+      "assetKey": "Jhin",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Minimum base damage increased to 64–244 (3 ranks) from 50–200 (3 ranks).",
+      "gameplayImpact": "Jhin is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Now plays the correct animation for his running instead of using the one for homeguard."
+            }
+          ]
+        },
+        {
+          "ability": "Curtain Call",
+          "title": "Curtain Call",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Minimum base damage",
+              "before": "50–200 (3 ranks)",
+              "after": "64–244 (3 ranks)",
+              "note": "Minimum base damage increased to 64–244 (3 ranks) from 50–200 (3 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "leblanc",
+      "name": "LeBlanc",
+      "type": "champion",
+      "assetKey": "Leblanc",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Attack speed ratio reduced to 0.4 from 0.625.; Attack speed growth increased to 2.2% from 1.4%.",
+      "gameplayImpact": "LeBlanc was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Attack speed ratio",
+              "before": "0",
+              "after": "0.4",
+              "note": "Attack speed ratio reduced to 0.4 from 0.625."
+            },
+            {
+              "label": "Attack speed growth",
+              "before": "1",
+              "after": "2.2%",
+              "note": "Attack speed growth increased to 2.2% from 1.4%."
+            },
+            {
+              "label": "Attack damage growth",
+              "before": "3",
+              "after": "2.7",
+              "note": "Attack damage growth reduced to 2.7 from 3.5."
+            },
+            {
+              "label": "Mana growth",
+              "before": "55",
+              "after": "25",
+              "note": "Mana growth reduced to 25 from 55."
+            },
+            {
+              "label": "Mana regeneration growth",
+              "before": "1",
+              "after": "0.8",
+              "note": "Mana regeneration growth reduced to 0.8 from 1."
+            }
+          ]
+        },
+        {
+          "ability": "Distortion",
+          "title": "Distortion",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "60% AP",
+              "after": "65% AP",
+              "note": "AP ratio increased to 65% AP from 60% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Ethereal Chains",
+          "title": "Ethereal Chains",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Initial AP ratio",
+              "before": "30% AP",
+              "after": "35% AP",
+              "note": "Initial AP ratio increased to 35% AP from 30% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "lee-sin",
+      "name": "Lee Sin",
+      "type": "champion",
+      "assetKey": "LeeSin",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Base armor increased to 36 from 34.; Life steal and spell vamp changed to 10–26% from 5–27%.",
+      "gameplayImpact": "Lee Sin was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base armor",
+              "before": "34",
+              "after": "36",
+              "note": "Base armor increased to 36 from 34."
+            }
+          ]
+        },
+        {
+          "ability": "Iron Will",
+          "title": "Iron Will",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Life steal and spell vamp",
+              "before": "5–27%",
+              "after": "10–26%",
+              "note": "Life steal and spell vamp changed to 10–26% from 5–27%."
+            }
+          ]
+        },
+        {
+          "ability": "Tempest",
+          "title": "Tempest",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "35–155",
+              "after": "35–135",
+              "note": "Base damage reduced to 35–135 from 35–155."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "lissandra",
+      "name": "Lissandra",
+      "type": "champion",
+      "assetKey": "Lissandra",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Root duration increased to 1.25–1.65 seconds from 1.1–1.5.",
+      "gameplayImpact": "Lissandra is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Ring of Frost",
+          "title": "Ring of Frost",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Root duration",
+              "before": "1",
+              "after": "1.25–1.65 seconds",
+              "note": "Root duration increased to 1.25–1.65 seconds from 1.1–1.5."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "nunu",
+      "name": "Nunu",
+      "type": "champion",
+      "assetKey": "Nunu",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "AP ratio per snowball increased to 15% AP from 10% AP.",
+      "gameplayImpact": "Nunu is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Snowball Barrage",
+          "title": "Snowball Barrage",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AP ratio per snowball",
+              "before": "10% AP",
+              "after": "15% AP",
+              "note": "AP ratio per snowball increased to 15% AP from 10% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "pyke",
+      "name": "Pyke",
+      "type": "champion",
+      "assetKey": "Pyke",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Health growth increased to 110 from 104.; Cooldown reduced to 12–8 seconds from 12–10.",
+      "gameplayImpact": "Pyke is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Health growth",
+              "before": "104",
+              "after": "110",
+              "note": "Health growth increased to 110 from 104."
+            }
+          ]
+        },
+        {
+          "ability": "Ghostwater Dive",
+          "title": "Ghostwater Dive",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "12–10",
+              "after": "12–8 seconds",
+              "note": "Cooldown reduced to 12–8 seconds from 12–10."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "reksai",
+      "name": "Rek'Sai",
+      "type": "champion",
+      "assetKey": "RekSai",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Maximum base heal reduced to 10 from 15–20.; Maximum heal health ratio changed to 2–10% maximum health from 2–2%|health.",
+      "gameplayImpact": "Rek'Sai was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Fury of the Xer'Sai",
+          "title": "Fury of the Xer'Sai",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Maximum base heal",
+              "before": "15–20",
+              "after": "10",
+              "note": "Maximum base heal reduced to 10 from 15–20."
+            },
+            {
+              "label": "Maximum heal health ratio",
+              "before": "2–2%|health",
+              "after": "2–10% maximum health",
+              "note": "Maximum heal health ratio changed to 2–10% maximum health from 2–2%|health."
+            }
+          ]
+        },
+        {
+          "ability": "Queen's Wrath",
+          "title": "Queen's Wrath",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "AD ratio",
+              "before": "34–50% AD",
+              "after": "30–50% AD",
+              "note": "AD ratio reduced to 30–50% AD from 34–50% AD."
+            }
+          ]
+        },
+        {
+          "ability": "Burrow",
+          "title": "Burrow",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Bonus movement speed",
+              "before": "15–30 (lv 1–16)",
+              "after": "5–15 (lv 1–11)",
+              "note": "Bonus movement speed reduced to 5–15 (lv 1–11) from 15–30 (lv 1–16)."
+            }
+          ]
+        },
+        {
+          "ability": "Unburrow",
+          "title": "Unburrow",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "50–110",
+              "after": "50–190",
+              "note": "Base damage increased to 50–190 from 50–110."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "renekton",
+      "name": "Renekton",
+      "type": "champion",
+      "assetKey": "Renekton",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base magic resistance reduced to 28 from 32.",
+      "gameplayImpact": "Renekton loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base magic resistance",
+              "before": "32",
+              "after": "28",
+              "note": "Base magic resistance reduced to 28 from 32."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "syndra",
+      "name": "Syndra",
+      "type": "champion",
+      "assetKey": "Syndra",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base damage increased to 75–215 from 70–210.",
+      "gameplayImpact": "Syndra is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Dark Sphere",
+          "title": "Dark Sphere",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "70–210",
+              "after": "75–215",
+              "note": "Base damage increased to 75–215 from 70–210."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "twitch",
+      "name": "Twitch",
+      "type": "champion",
+      "assetKey": "Twitch",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Missile speed increased to 5000 from 4000.",
+      "gameplayImpact": "Twitch is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Spray and Pray",
+          "title": "Spray and Pray",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Missile speed",
+              "before": "4000",
+              "after": "5000",
+              "note": "Missile speed increased to 5000 from 4000."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "zeri",
+      "name": "Zeri",
+      "type": "champion",
+      "assetKey": "Zeri",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base movement speed reduced to 330 from 335.",
+      "gameplayImpact": "Zeri loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base movement speed",
+              "before": "335",
+              "after": "330",
+              "note": "Base movement speed reduced to 330 from 335."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "randuins-omen",
+      "name": "Randuin's Omen",
+      "type": "item",
+      "assetKey": "3143",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Total cost reduced to from .; Combine cost reduced to from .",
+      "gameplayImpact": "Randuin's Omen is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Total cost reduced to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Combine cost reduced to from ."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "seekers-armguard",
+      "name": "Seeker's Armguard",
+      "type": "item",
+      "assetKey": "2420",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Armor increased to 20 from 15.",
+      "gameplayImpact": "Seeker's Armguard is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Armor",
+              "before": "15",
+              "after": "20",
+              "note": "Armor increased to 20 from 15."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "statikk-shiv",
+      "name": "Statikk Shiv",
+      "type": "item",
+      "assetKey": "3087",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Minion damage reduced to 150 from 200.",
+      "gameplayImpact": "Statikk Shiv loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Minion damage",
+              "before": "200",
+              "after": "150",
+              "note": "Minion damage reduced to 150 from 200."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "id": "howling-abyss",
+      "name": "Howling Abyss",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Briar}}; Outgoing damage modifier changed to +5% from 0%.",
+      "gameplayImpact": "Howling Abyss was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Briar}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "0%",
+              "after": "+5%",
+              "note": "Outgoing damage modifier changed to +5% from 0%."
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "0%",
+              "after": "-5%",
+              "note": "Incoming damage modifier changed to -5% from 0%."
+            },
+            {
+              "label": "Healing modifier",
+              "before": "0%",
+              "after": "+30%",
+              "note": "Healing modifier changed to +30% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Galio}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "-5%",
+              "after": "-10%",
+              "note": "Outgoing damage modifier changed to -10% from -5%."
+            },
+            {
+              "label": "Change",
+              "note": "Kennen}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-5%",
+              "after": "0%",
+              "note": "Incoming damage modifier changed to 0% from -5%."
+            },
+            {
+              "label": "Change",
+              "note": "Taliyah}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "+5%",
+              "after": "0%",
+              "note": "Outgoing damage modifier changed to 0% from +5%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "map",
+      "name": "Map",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Briar}}; Outgoing damage modifier changed to +5% from 0%.",
+      "gameplayImpact": "Map was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Briar}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "0%",
+              "after": "+5%",
+              "note": "Outgoing damage modifier changed to +5% from 0%."
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "0%",
+              "after": "-5%",
+              "note": "Incoming damage modifier changed to -5% from 0%."
+            },
+            {
+              "label": "Healing modifier",
+              "before": "0%",
+              "after": "+30%",
+              "note": "Healing modifier changed to +30% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Galio}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "-5%",
+              "after": "-10%",
+              "note": "Outgoing damage modifier changed to -10% from -5%."
+            },
+            {
+              "label": "Change",
+              "note": "Kennen}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-5%",
+              "after": "0%",
+              "note": "Incoming damage modifier changed to 0% from -5%."
+            },
+            {
+              "label": "Change",
+              "note": "Taliyah}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "+5%",
+              "after": "0%",
+              "note": "Outgoing damage modifier changed to 0% from +5%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-13-19-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V13.19"
+}

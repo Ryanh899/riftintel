@@ -1,0 +1,776 @@
+{
+  "id": "14.1",
+  "version": "14.1",
+  "title": "A new season is here, filled with magical dragon powers and spooky alien changes…",
+  "releaseDate": "2024-01-10",
+  "season": "14",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "A new season is here, filled with magical dragon powers and spooky alien changes!"
+    },
+    {
+      "title": "Champion balance",
+      "description": "3 champion buffs, 1 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "A new season is here, filled with magical dragon powers and spooky alien changes! Structured changes across 14 entities this patch.",
+  "champions": [
+    {
+      "id": "hwei",
+      "name": "Hwei",
+      "type": "champion",
+      "assetKey": "Hwei",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base armor increased to 21 from 18.",
+      "gameplayImpact": "Hwei is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base armor",
+              "before": "18",
+              "after": "21",
+              "note": "Base armor increased to 21 from 18."
+            }
+          ]
+        },
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: No longer sometimes casts a different ability from the same subject if his previous cast was interrupted by an item activation."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Basic abilities no longer go on cooldown from certain rapid button press combinations."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: No longer sometimes casts a different spell than the one he input while casting during movement."
+            }
+          ]
+        },
+        {
+          "ability": "Gaze of the Abyss",
+          "title": "Gaze of the Abyss",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: No longer expires before reaching a moving target."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "jarvan-iv",
+      "name": "Jarvan IV",
+      "type": "champion",
+      "assetKey": "JarvanIV",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Minimum recast time reduced to 0.75 seconds from 1.",
+      "gameplayImpact": "Jarvan IV loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Cataclysm",
+          "title": "Cataclysm",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Minimum recast time",
+              "before": "1",
+              "after": "0.75 seconds",
+              "note": "Minimum recast time reduced to 0.75 seconds from 1."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "ornn",
+      "name": "Ornn",
+      "type": "champion",
+      "assetKey": "Ornn",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "New Effect: Now prioritizes upgrading the first eligible item in the inventory based on its slot, starting from the first slot to the last.; New Effect: Can now upgrade Legendary items.",
+      "gameplayImpact": "Ornn was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Living Forge",
+          "title": "Living Forge",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Now prioritizes upgrading the first eligible item in the inventory based on its slot, starting from the first slot to the last."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Can now upgrade Legendary items."
+            },
+            {
+              "label": "Change",
+              "note": "New Masterwork items: Ataraxia}}, Daybreak}}, Certainty}}, Enmity of the Masses}}, Eye of the Storm}}, Force of Arms}}, Heavensfall}}, Hope Adrift}}, Obsidian Cleaver}}, Rabadon's Deathcrown}}, Shojin's Resolve}}, Swordnado}}, T.U.R.B.O.}}, The Baron's Gift}}, Wyrmfallen Sacrifice}}."
+            },
+            {
+              "label": "Change",
+              "note": "Removed Masterwork items: Caesura}}, Deicide}}, Draktharr's Shadowcarver}}, Equinox}}, Eternal Winter}}, Flicker}}, Typhoon}}, Ceaseless Hunger}}, Eye of Luden}}, Vespertide}}, Primordial Dawn}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "qiyana",
+      "name": "Qiyana",
+      "type": "champion",
+      "assetKey": "Qiyana",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Knockback duration increased slightly to reduce chances of it not overlapping with wall stun.",
+      "gameplayImpact": "Qiyana is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Terrashape",
+          "title": "Terrashape",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Terrashape into Edge of Ixtal}} fast buffer no longer sends Edge of Ixtal towards the 0,0,0 map coordinate."
+            }
+          ]
+        },
+        {
+          "ability": "Supreme Display of Talent",
+          "title": "Supreme Display of Talent",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Knockback duration increased slightly to reduce chances of it not overlapping with wall stun."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "shaco",
+      "name": "Shaco",
+      "type": "champion",
+      "assetKey": "Shaco",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Clone now mirrors spell animations and recall visuals.",
+      "gameplayImpact": "Shaco is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Hallucinate",
+          "title": "Hallucinate",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Clone now mirrors spell animations and recall visuals."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Now spawns with the same mana as Shaco and copy jungle mana regeneration (if he is a jungler)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "velkoz",
+      "name": "Vel'Koz",
+      "type": "champion",
+      "assetKey": "Velkoz",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Travel time reduced to 0.25–0.55 seconds from 0.55 seconds at all distances.; New Effect: Ground indicator now appears when the cast time has finished and not on-cast.",
+      "gameplayImpact": "Vel'Koz was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Tectonic Disruption",
+          "title": "Tectonic Disruption",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Travel time",
+              "before": "0",
+              "after": "0.25–0.55 seconds",
+              "note": "Travel time reduced to 0.25–0.55 seconds from 0.55 seconds at all distances."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Ground indicator now appears when the cast time has finished and not on-cast."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "eye-of-the-herald",
+      "name": "Eye of the Herald",
+      "type": "item",
+      "assetKey": "3513",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Updated icon.; New Effect: Upon picking up the Eye of the Herald}}, the holder and any of their allies who participated in slaying the pit gain an Charge. The charge is consumed once the next channel completes and las…",
+      "gameplayImpact": "Eye of the Herald was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Updated icon."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Upon picking up the Eye of the Herald}}, the holder and any of their allies who participated in slaying the pit gain an Charge. The charge is consumed once the next channel completes and lasts indefinitely otherwise."
+            },
+            {
+              "label": "Change",
+              "note": "No longer only grants an Charge to the holder."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: If the trinket expires before being used, it is automatically consumed to summon the after a 0.033-seconds delay."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: If the trinket expires while the user is dead, the is automatically summoned at their team's spawn."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: The now grants her kill credit to the champion who summoned her as well as the slayer's allies if they participated in her takedown as the pit ."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect - 20px|link= Rift Herald Rodeo: After summoning the , the user or one of their allied champions can the monster to immediately become untargetable, invulnerable, displacement immune, and lockout, and wind up for 0.75 seconds to attach themselves to the monster and \"ride\" it for up to 12.5 seconds. Once a champion starts the ride, the monster also starts winding up for 0.75 seconds, during which the player may issue a in order to select the charge's starting direction. After finishing the wind-up, the monster begins charging in the chosen direction. The rider can steer the monster in the direction of their cursor. Enemies in the path of the charge are dealt 250 true damage, and airborne and stun them for 1 second. The charge stops at the end of the duration or when the monster collides with an enemy structure or terrain, causing it to lose 66% of its current health and forcing the champion to detach and dash from its back at a distance of 200, increased to 700 if they charged into a targetable structure. The emerge distance increases by 75% of the champion's total attack range."
+            },
+            {
+              "label": "Change",
+              "note": "The starts its charge at 150 movement speed and ramps up non-linearly to a maximum of 600|ms over the first 5 seconds. This is increased by 75% while charging towards an enemy structure."
+            },
+            {
+              "label": "Change",
+              "note": "If a starting direction for the charge is not chosen, the charge will default to the monster's facing direction."
+            },
+            {
+              "label": "Change",
+              "note": "Hitting a targetable structure with the charge deals the same damage as if the would charge into it herself, summons 5 (+ 1 to 6 by 1) that attack the nearest structure, and grants the emerged champion a shield for 4 seconds that decays linearly to 50% of its value over the duration and absorbs 550 damage."
+            },
+            {
+              "label": "Change",
+              "note": "This effect cannot be used again until the has assisted in destroying an enemy turret."
+            },
+            {
+              "label": "Change",
+              "note": "The monster cannot be ridden if it is in combat with a structure."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "id": "perfect-timing",
+      "name": "Perfect Timing",
+      "type": "rune",
+      "assetKey": null,
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Removed from the game with the removal of Stopwatch}}.; Replaced by Triple Tonic}}.",
+      "gameplayImpact": "Perfect Timing loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": "Removed",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Removed from the game with the removal of Stopwatch}}."
+            },
+            {
+              "label": "Change",
+              "note": "Replaced by Triple Tonic}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf",
+        "Removed"
+      ]
+    },
+    {
+      "id": "triple-tonic",
+      "name": "Triple Tonic",
+      "type": "rune",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Replaces Perfect Timing}}.; 20px|link=Inspiration Inspiration Slot 1 rune.",
+      "gameplayImpact": "Triple Tonic was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": "New rune",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Replaces Perfect Timing}}."
+            },
+            {
+              "label": "Change",
+              "note": "20px|link=Inspiration Inspiration Slot 1 rune."
+            },
+            {
+              "label": "Change",
+              "note": "Passive: Gain an Elixir upon reaching each of the following levels:"
+            },
+            {
+              "label": "Change",
+              "note": "Level 3: Elixir of Avarice}}"
+            },
+            {
+              "label": "Change",
+              "note": "Level 6: Elixir of Force}}"
+            },
+            {
+              "label": "Change",
+              "note": "Level 9: Elixir of Skill}}"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust",
+        "New rune"
+      ]
+    },
+    {
+      "id": "monsters",
+      "name": "Monsters",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Model has been visually updated.; Updated unit icon.",
+      "gameplayImpact": "Monsters was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Model has been visually updated."
+            },
+            {
+              "label": "Change",
+              "note": "Updated unit icon."
+            },
+            {
+              "label": "Change",
+              "note": "Updated animations, visual effects, sound effects, tooltips and status icons."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Added an extended spawning animation that starts 20 seconds before spawning, during which he appears from the furthest point of the camp and wriggles under the bot-side river and toward his spawning location."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect - Corrupted Rift: Upon spawning for the first time, various terrain on the map becomes purple and fissured. In addition, newly-spawned or live non-Draconic , , and monsters become permanently corrupted by the Void. Corrupted monsters gain increased durability and greatly improved effects when slain. The and also lose their Draconic effects with the Corrupted monsters' respawn."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Now randomly spawns in one of three different forms: Hunting, Territorial, and All-Seeing. The Territorial and All-Seeing forms cause the terrain around the baron pit to permanently shift; the former adds a small wall in front of the pit, while the latter creates a long tunnel laterally. Each form also has a new ability that occurs 6 attacks after using his Acid Pool ability:"
+            },
+            {
+              "label": "Change",
+              "note": "Hunting Baron creates a pillar of lightning over all champions that strikes their location after 0.7 seconds for the and every 0.1 seconds thereafter for each next target. Each strike deals 15% of target's current health magic damage to champions hit, reduced by 50% for each subsequent hit in succession."
+            },
+            {
+              "label": "Change",
+              "note": "Territorial Baron leans forward with his limbs over 0.5 seconds, targeting the closest champion, then after 1 second airborne all enemies in a cone toward him over 0.33 seconds for 300 units, dealing 75 magic damage to all champions pulled."
+            },
+            {
+              "label": "Change",
+              "note": "All-Seeing Baron channels his eye to conjure a void rift toward the direction of the two furthest visible enemy champions within 2200 units. Each rift lasts for 3 seconds and deals"
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Upon becoming Draconic, killing the Blue Sentinel drops a wisp at the location of the camp. The wisp can be picked up by either the allied Jungle pet owner (Gustwalker Hatchling|icononly=true}}Mosstomper Seedling|icononly=true}}Scorchclaw Pup|icononly=true}}) or, if the killer is the Jungle pet owner themselves, at most one other ally. The wisp lasts for 60 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: After spawns, all newly-spawned or live non-Draconic Blue Sentinel monsters become permanently corrupted by the Void, transforming into voidborn with 30% increased health and granting the buff to the killer and all allies alive upon slaying it. The Blue Sentinel loses its Draconic effects with the Corrupted monster's respawn."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: No longer always drops a wisp lasting for 60 seconds at the location of the camp when a player on the team has equipped."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Upon becoming Draconic, killing the Red Brambleback drops a wisp at the location of the camp. The wisp can be picked up by either the allied Jungle pet owner (Gustwalker Hatchling|icononly=true}}Mosstomper Seedling|icononly=true}}Scorchclaw Pup|icononly=true}}) or, if the killer is the Jungle pet owner themselves, at most one other ally. The wisp lasts for 60 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: After spawns, all newly-spawned or live non-Draconic Red Brambleback monsters become permanently corrupted by the Void, transforming into voidborn with 30% increased health and granting the buff to the killer and all allies alive upon slaying it. The Red Brambleback loses its Draconic effects with the Corrupted monster's respawn."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: No longer always drops a wisp lasting for 60 seconds at the location of the camp when a player on the team has equipped."
+            },
+            {
+              "label": "Change",
+              "note": "Model has been visually updated."
+            },
+            {
+              "label": "Change",
+              "note": "Updated unit icon."
+            },
+            {
+              "label": "Spawn time",
+              "before": "8:00",
+              "after": "14:00",
+              "note": "Spawn time increased to 14:00 from 8:00."
+            },
+            {
+              "label": "Mercenary structure damage",
+              "before": "2000–2750 (6–12)",
+              "after": "1500–2250 (6–12)",
+              "note": "Mercenary structure damage reduced to 1500–2250 (6–12) from 2000–2750 (6–12)."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: No longer has a respawn time of 6 minutes."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect - Herald's Gaze: Now takes 50% reduced damage from the last enemy that it attacked for 8 seconds, refreshing with each attack. This may only affect one enemy at a time."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: After spawns, all newly-spawned or live Rift Scuttler monsters become permanently corrupted by the Void, transforming into voidborn with 30% increased health. When slain, it releases an aura of void energy around itself over 1.5 seconds, granting sight of the surrounding area as it travels and true sight enemies in its path. Enemy champions are revealed for 3 seconds, while non-champions are revealed for 12 seconds. The reveal duration refreshes if they remain in the area where the energy is still spreading. Revealed ward have their health reduced to 1. Once the energy has spread out completely, it continues to grant sight of the area for another 3 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Spawns in the baron pit as the Voidgrub camp at 5 minutes. All Voidgrubs despawn at 13:45 game time, or 13:55 if in combat."
+            },
+            {
+              "label": "Change",
+              "note": "The camp consists of three epic Voidgrubs. A group of 3 Voidgrubs can respawn once per game and each group has a shared respawn timer of 4 minutes that begins once all 3 has been slain; for a total of six in a given game. Killing a Voidgrub is displayed in the kill feed for the ally team. Killing the camp is announced to both teams and the killer(s) of each Voidgrub are simultaneously displayed in the kill feed for the enemy team. Epic Monster takedown rewards are distributed per spawn group killed, i.e. killing at least one of the first three spawned will award one epic monster takedown, and killing at least one of the second three spawned will award another epic monster takedown."
+            },
+            {
+              "label": "Change",
+              "note": "Every 12 seconds in combat, each Voidgrub also spawns four lesser ."
+            },
+            {
+              "label": "Change",
+              "note": "When a Voidgrub dies, the remaining ones gain a shield for 25% maximum health (+ 25% missing health), decaying linearly over 10 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Each Voidgrub killed grants a permanent stack of the 20px|link= Touch of the Void buff to all team members. This buff is not visible on enemies' status bar."
+            },
+            {
+              "label": "Change",
+              "note": "Touch of the Void: Your basic attacks against structures are empowered to apply a burn for 4 seconds that deals every 0.5 seconds, for a total of . The duration refreshes on subsequent attacks."
+            },
+            {
+              "label": "Change",
+              "note": "Additionally, gain a stack of the 20px|link= Hunger of the Void buff for each Touch of the Void stack after the fourth."
+            },
+            {
+              "label": "Change",
+              "note": "Hunger of the Void: While in combat with enemy structures, summon 1 allied for each stack of this buff (15 second cooldown)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "turrets",
+      "name": "Turrets",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Inner turret health increased to 4000 from 3000.; Inhibitor turret health increased to 3500 from 3300.",
+      "gameplayImpact": "Turrets is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Inner turret health",
+              "before": "3000",
+              "after": "4000",
+              "note": "Inner turret health increased to 4000 from 3000."
+            },
+            {
+              "label": "Inhibitor turret health",
+              "before": "3300",
+              "after": "3500",
+              "note": "Inhibitor turret health increased to 3500 from 3300."
+            },
+            {
+              "label": "Nexus turret health",
+              "before": "2700",
+              "after": "3000",
+              "note": "Nexus turret health increased to 3000 from 2700."
+            },
+            {
+              "label": "Backdoor damage reduction",
+              "before": "66",
+              "after": "80%",
+              "note": "Backdoor damage reduction increased to 80% from 66.666%."
+            },
+            {
+              "label": "Change",
+              "note": "Backdoor damage reduction now reduces true damage instead of nullifying it entirely."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "neutral-buffs",
+      "name": "Neutral buffs",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Health regeneration reduced to 0.5–3% maximum health from 0.5–5% maximum health.; Removed: If the buff was granted from a Corrupted , it no longer transfers to the killer.",
+      "gameplayImpact": "Neutral buffs loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Health regeneration",
+              "before": "0",
+              "after": "0.5–3% maximum health",
+              "note": "Health regeneration reduced to 0.5–3% maximum health from 0.5–5% maximum health."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: If the buff was granted from a Corrupted , it no longer transfers to the killer."
+            },
+            {
+              "label": "Ability haste",
+              "before": "5–20",
+              "after": "10 at all levels",
+              "note": "Ability haste changed to 10 at all levels from 5–20."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: If the buff was granted from a Corrupted , it no longer transfers to the killer."
+            },
+            {
+              "label": "Change",
+              "note": "Updated icon."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "summoners-rift",
+      "name": "Summoner's Rift",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "The river has been slightly widened at each sidelane end.; In the jungle, a wide wall opposite of the Dragon and Baron pits has been created, alongside the edge of the river. The banana brush, which was previously alo…",
+      "gameplayImpact": "Summoner's Rift was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "The river has been slightly widened at each sidelane end."
+            },
+            {
+              "label": "Change",
+              "note": "In the jungle, a wide wall opposite of the Dragon and Baron pits has been created, alongside the edge of the river. The banana brush, which was previously along the river end of the thick midlane wall, has been relocated to this wall's end that is closest to the midlane, and slightly extended into the river. The Blue Sentinel wall has been split."
+            },
+            {
+              "label": "Change",
+              "note": "In the top lane, the outer turret wall has been mirrored from blue onto red side. The blue side outer turret wall has been shrunk, creating more open area in the lane, and its long appendage into the jungle along the river has been shortened significantly."
+            },
+            {
+              "label": "Change",
+              "note": "In the middle lane, the midlane entrance brushes have been pushed further back into the river, and the walls have been spread further apart as well. The thick midlane entrance wall has been split. The wall closest to the outer turret (opposite of the Raptor camp) has been significantly shrunk, leaving only a crescent. The thin midlane entrance wall is unchanged."
+            },
+            {
+              "label": "Change",
+              "note": "In the bottom lane, the layout of the entire tri-bush area has been mirrored from blue side onto red side."
+            },
+            {
+              "label": "Change",
+              "note": "The river brushes along the wall at the toplane (blue side) and botlane (red side) entrances have been removed in exchange for a single pixel brush in the middle of each sidelane's river entrance."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: When Elemental Rift arrives, now causes all newly-spawned and live and monsters to become Draconic until newly-spawned ones eventually transform to their Corrupted form. Draconic monsters gain improved effects when slain."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: No longer burns up the patches of brush and sections of the walls surrounding the camps for the and ."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Now spawns Infernal Cinders (or simply cinders) around the map randomly and in clusters of 2–3 once every 14 seconds that each last for 3 minutes before despawning, with a higher chance of spawning on the losing team's half of the map, based on team gold. Cinders can be picked up by champions by moving over them, granting 150% bonus movement speed decaying over 2 seconds and a stack of 20px|link= Infernal Cinder. For each stack, gain 0.3 ability haste."
+            },
+            {
+              "label": "Change",
+              "note": "Upon death, champions can hold up to 5 Infernal Cinder stacks without dropping them. If the champion killed had more than 5 Infernal Cinder stacks, 50% of their remaining cinders are dropped near the location of their death in a ring, which allows other champions to pick them up after 0.85 seconds, while the rest of the stacks are lost. Dropped cinders last for 30 seconds before disappearing."
+            },
+            {
+              "label": "Change",
+              "note": "The movement speed granted by picked-up cinders cannot stack; the duration of the buff only refreshes with each one obtained."
+            },
+            {
+              "label": "Change",
+              "note": "For every 25 cinders collected, champions gain an increasingly bright glow."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: No longer forms a rock near the red-side Raptors."
+            },
+            {
+              "label": "Change",
+              "note": "near the middle lane have been relocated to account for the nearby terrain changes."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: No longer has a puddle underneath each of the near the middle lane."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "general",
+      "name": "General",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: When Elemental Rift arrives, now causes all newly-spawned and live and monsters to become Draconic until newly-spawned ones eventually transform to their Corrupted form. Draconic monsters gain improved eff…",
+      "gameplayImpact": "General is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: When Elemental Rift arrives, now causes all newly-spawned and live and monsters to become Draconic until newly-spawned ones eventually transform to their Corrupted form. Draconic monsters gain improved effects when slain."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-14-1-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V14.1"
+}

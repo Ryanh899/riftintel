@@ -1,0 +1,2074 @@
+{
+  "id": "11.13",
+  "version": "11.13",
+  "title": "More aliens... and they're evil now.",
+  "releaseDate": "2021-06-23",
+  "season": "11",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "More aliens... and they're evil now."
+    },
+    {
+      "title": "Champion balance",
+      "description": "3 champion buffs, 7 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "More aliens... and they're evil now. Structured changes across 25 entities this patch.",
+  "champions": [
+    {
+      "id": "aphelios",
+      "name": "Aphelios",
+      "type": "champion",
+      "assetKey": "Aphelios",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Bonus attack damage increased to 5–30 (6 ranks) from 4–24 (6 ranks).; Lethality increased to 4.5–27 (6 ranks) from 3.5–21 (6 ranks).",
+      "gameplayImpact": "Aphelios is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "The Hitman and the Seer",
+          "title": "The Hitman and the Seer",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus attack damage",
+              "before": "4–24 (6 ranks)",
+              "after": "5–30 (6 ranks)",
+              "note": "Bonus attack damage increased to 5–30 (6 ranks) from 4–24 (6 ranks)."
+            },
+            {
+              "label": "Lethality",
+              "before": "3",
+              "after": "4.5–27 (6 ranks)",
+              "note": "Lethality increased to 4.5–27 (6 ranks) from 3.5–21 (6 ranks)."
+            }
+          ]
+        },
+        {
+          "ability": "Moonlight Vigil",
+          "title": "Moonlight Vigil",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Fixed a bug where he would heal from spells instead of basic attacks when using it with Severum}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "cassiopeia",
+      "name": "Cassiopeia",
+      "type": "champion",
+      "assetKey": "Cassiopeia",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "This prevents the debuff from being briefly removed by cleanse even while the player remains in the AoE.; Bug: Because of this, Ragnarok (Olaf)}} fails to dispell and become immune to the effect for the remaining dura…",
+      "gameplayImpact": "Cassiopeia loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Miasma",
+          "title": "Miasma",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Grounded debuff is now non-dispellable."
+            },
+            {
+              "label": "Change",
+              "note": "This prevents the debuff from being briefly removed by cleanse even while the player remains in the AoE."
+            },
+            {
+              "label": "Change",
+              "note": "Bug: Because of this, Ragnarok (Olaf)}} fails to dispell and become immune to the effect for the remaining duration unless he leaves and reenters it."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "lee-sin",
+      "name": "Lee Sin",
+      "type": "champion",
+      "assetKey": "LeeSin",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base damage reduced to 100–220 from 100–260.",
+      "gameplayImpact": "Lee Sin loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Tempest",
+          "title": "Tempest",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "100–260",
+              "after": "100–220",
+              "note": "Base damage reduced to 100–220 from 100–260."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "olaf",
+      "name": "Olaf",
+      "type": "champion",
+      "assetKey": "Olaf",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Health growth increased to 100 from 93.; Base mana regeneration increased to 7.5 from 7.47.",
+      "gameplayImpact": "Olaf is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Health growth",
+              "before": "93",
+              "after": "100",
+              "note": "Health growth increased to 100 from 93."
+            },
+            {
+              "label": "Base mana regeneration",
+              "before": "7",
+              "after": "7.5",
+              "note": "Base mana regeneration increased to 7.5 from 7.47."
+            },
+            {
+              "label": "Mana regeneration growth",
+              "before": "0",
+              "after": "0.6",
+              "note": "Mana regeneration growth increased to 0.6 from 0.58."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "riven",
+      "name": "Riven",
+      "type": "champion",
+      "assetKey": "Riven",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base shield reduced to 85–205 from 95–215.",
+      "gameplayImpact": "Riven loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Valor",
+          "title": "Valor",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base shield",
+              "before": "95–215",
+              "after": "85–205",
+              "note": "Base shield reduced to 85–205 from 95–215."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "rumble",
+      "name": "Rumble",
+      "type": "champion",
+      "assetKey": "Rumble",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Cooldown increased to 7–6 seconds from 6 at all ranks.; Bonus movement speed reduced to 10–30% from 15–35%.",
+      "gameplayImpact": "Rumble loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Scrap Shield",
+          "title": "Scrap Shield",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "6 at all ranks",
+              "after": "7–6 seconds",
+              "note": "Cooldown increased to 7–6 seconds from 6 at all ranks."
+            },
+            {
+              "label": "Bonus movement speed",
+              "before": "15–35%",
+              "after": "10–30%",
+              "note": "Bonus movement speed reduced to 10–30% from 15–35%."
+            },
+            {
+              "label": "Danger Zone bonus movement speed",
+              "before": "22",
+              "after": "15–45%",
+              "note": "Danger Zone bonus movement speed reduced to 15–45% from 22.5–52.5%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "singed",
+      "name": "Singed",
+      "type": "champion",
+      "assetKey": "Singed",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "This prevents the debuff from being briefly removed by cleanse even while the player remains in the AoE.; Bug: Because of this, Ragnarok (Olaf)}} fails to dispell and become immune to the effect for the remaining dura…",
+      "gameplayImpact": "Singed loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Mega Adhesive",
+          "title": "Mega Adhesive",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Grounded debuff is now non-dispellable."
+            },
+            {
+              "label": "Change",
+              "note": "This prevents the debuff from being briefly removed by cleanse even while the player remains in the AoE."
+            },
+            {
+              "label": "Change",
+              "note": "Bug: Because of this, Ragnarok (Olaf)}} fails to dispell and become immune to the effect for the remaining duration unless he leaves and reenters it."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "sion",
+      "name": "Sion",
+      "type": "champion",
+      "assetKey": "Sion",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Blunt Force Trauma (Dr. Mundo)}} no longer pulls a vanished Sion from his respawn location.; Disdain (Urgot)}} no longer pulls respawned Sion if he is more than units away.",
+      "gameplayImpact": "Sion loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Glory in Death",
+          "title": "Glory in Death",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Fixed a bug where the respawned Sion could be knocked back to his previous location by certain abilities, if Glory in Death}} lasted longer than his death timer's duration."
+            },
+            {
+              "label": "Change",
+              "note": "Blunt Force Trauma (Dr. Mundo)}} no longer pulls a vanished Sion from his respawn location."
+            },
+            {
+              "label": "Change",
+              "note": "Disdain (Urgot)}} no longer pulls respawned Sion if he is more than units away."
+            },
+            {
+              "label": "Change",
+              "note": "Stretching Strikes (Zac)}} still has this issue."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "soraka",
+      "name": "Soraka",
+      "type": "champion",
+      "assetKey": "Soraka",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "This prevents the debuff from being briefly removed by cleanse even while the player remains in the AoE.; Bug: Because of this, Ragnarok (Olaf)}} fails to dispell and become immune to the effect for the remaining dura…",
+      "gameplayImpact": "Soraka loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Equinox",
+          "title": "Equinox",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Silence debuff is now non-dispellable."
+            },
+            {
+              "label": "Change",
+              "note": "This prevents the debuff from being briefly removed by cleanse even while the player remains in the AoE."
+            },
+            {
+              "label": "Change",
+              "note": "Bug: Because of this, Ragnarok (Olaf)}} fails to dispell and become immune to the effect for the remaining duration unless he leaves and reenters it."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "tahm-kench",
+      "name": "Tahm Kench",
+      "type": "champion",
+      "assetKey": "TahmKench",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Base health reduced to 570 from 600.; Health growth reduced to 95 from 100.",
+      "gameplayImpact": "Tahm Kench was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base health",
+              "before": "600",
+              "after": "570",
+              "note": "Base health reduced to 570 from 600."
+            },
+            {
+              "label": "Health growth",
+              "before": "100",
+              "after": "95",
+              "note": "Health growth reduced to 95 from 100."
+            },
+            {
+              "label": "Mana growth",
+              "before": "40",
+              "after": "50",
+              "note": "Mana growth increased to 50 from 40."
+            },
+            {
+              "label": "Base armor",
+              "before": "47",
+              "after": "42",
+              "note": "Base armor reduced to 42 from 47."
+            }
+          ]
+        },
+        {
+          "ability": "An Acquired Taste",
+          "title": "An Acquired Taste",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Health ratio",
+              "before": "4%|health",
+              "after": "2.5% maximum health",
+              "note": "Health ratio reduced to 2.5% maximum health from 4%|health."
+            }
+          ]
+        },
+        {
+          "ability": "Tongue Lash",
+          "title": "Tongue Lash",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "5 at all ranks",
+              "after": "7–5 seconds",
+              "note": "Cooldown increased to 7–5 seconds from 5 at all ranks."
+            },
+            {
+              "label": "Mana cost",
+              "before": "50 at all ranks",
+              "after": "50–34",
+              "note": "Mana cost reduced to 50–34 from 50 at all ranks."
+            },
+            {
+              "label": "Undocumented: Range",
+              "before": "930",
+              "after": "cr 900",
+              "note": "Undocumented: Range reduced to cr 900 from 930."
+            },
+            {
+              "label": "Slow",
+              "before": "30–70%",
+              "after": "40% at all ranks",
+              "note": "Slow changed to 40% at all ranks from 30–70%."
+            },
+            {
+              "label": "Slow duration",
+              "before": "3",
+              "after": "2 seconds",
+              "note": "Slow duration reduced to 2 seconds from 3."
+            },
+            {
+              "label": "Stun duration",
+              "before": "2",
+              "after": "1.5 seconds",
+              "note": "Stun duration reduced to 1.5 seconds from 2."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Now applies a stack of An Acquired Taste}} against champions."
+            },
+            {
+              "label": "Change",
+              "note": "Does not apply damage."
+            },
+            {
+              "label": "Change",
+              "note": "Hitting champions with 3 stacks still consumes all their stacks to stun them."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Range and missile speed now scales up with his size."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Now heals for 6–10% missing health upon hitting enemy champions."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Can now Devour}} enemy champions with three stacks of An Acquired Taste}} if Tongue Lash hits them."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: Can no longer activate Devour}} to eat minions or jungle monsters."
+            },
+            {
+              "label": "Change",
+              "note": "Swapped with Devour}}."
+            },
+            {
+              "label": "Change",
+              "note": "Renamed to Abyssal Dive from Abyssal Voyage."
+            },
+            {
+              "label": "Change",
+              "note": "Active: Tahm Kench channel for 1.35 seconds, and upon completion blink to the target location after a 0.15-second delay. Upon arrival, he deals 100–240 (+ 100% AP) magic damage to nearby enemies and airborne and stun them for 1 second. Hitting at least 1 enemy champion refunds 30% of the cooldown and mana cost."
+            },
+            {
+              "label": "Change",
+              "note": "Enemies can see the indicator of this ability after he has channeled for 0.75 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Allies may travel with Tahm if they are Devour|Devoured}}, but can still exit early at any time."
+            },
+            {
+              "label": "Change",
+              "note": "Tahm Kench is lockout for 0.65 seconds after the end of the channel."
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: 21–17 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Mana Cost: 60–120."
+            },
+            {
+              "label": "Change",
+              "note": "Cast Range: 1000–1200."
+            }
+          ]
+        },
+        {
+          "ability": "Thick Skin",
+          "title": "Thick Skin",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Grey health timer",
+              "before": "2",
+              "after": "4 seconds",
+              "note": "Grey health timer increased to 4 seconds from 2.5."
+            },
+            {
+              "label": "Shield duration",
+              "before": "2",
+              "after": "2.5 seconds",
+              "note": "Shield duration increased to 2.5 seconds from 2."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Grey health is now capped at 300% maximum health."
+            },
+            {
+              "label": "Healing",
+              "before": "12–209 (lv 1–18) per 0",
+              "after": "10% maximum health per",
+              "note": "Healing changed to 10% maximum health per from 12–209 (lv 1–18) per 0.8 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Swapped with Abyssal Voyage}}."
+            },
+            {
+              "label": "Change",
+              "note": "Active: Tahm Kench swallows the target champion for up to 3 seconds, rendering them vanish and lockout, as well as granting them displacement immunity for the duration. Devour can be recast after 1 second, and does so automatically at the end of the duration."
+            },
+            {
+              "label": "Change",
+              "note": "Devour will not automatically recast while Tahm Kench is performing Abyssal Dive}}, and will instead do so after he has finished."
+            },
+            {
+              "label": "Change",
+              "note": "If the target is an ally, they are granted a 300–600 (3 ranks) (+ 100% AP) shield for 2.5 seconds, refreshing after being spat out."
+            },
+            {
+              "label": "Change",
+              "note": "Allies can exit at will by inputting a movement command, unless they're immobilize or the recast is on cooldown."
+            },
+            {
+              "label": "Change",
+              "note": "Tahm Kench is unable to cast movement spells and is slow by 40–10 (3 ranks)% while an ally is swallowed, but may still cast Abyssal Dive}}."
+            },
+            {
+              "label": "Change",
+              "note": "Allies can see if this spell is ready next to his health bar."
+            },
+            {
+              "label": "Change",
+              "note": "If the target is an enemy, they are suppression for the duration and dealt 100–400 (3 ranks) (+ 15% magic damage after the displacement ends."
+            },
+            {
+              "label": "Change",
+              "note": "Devour can only be cast on enemies with 3 stacks of An Acquired Taste}}, consuming the stacks in the process."
+            },
+            {
+              "label": "Change",
+              "note": "Tahm Kench is ground and slow by 40% while an enemy is swallowed."
+            },
+            {
+              "label": "Change",
+              "note": "Recast: Tahm Kench airborne the target out in the target direction."
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: 120–80 (3 ranks) seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Mana Cost: 100."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "viego",
+      "name": "Viego",
+      "type": "champion",
+      "assetKey": "Viego",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Healing against minions reduced to 50% from 100%.; Bonus movement speed increased to 25–35% from 20–30%.",
+      "gameplayImpact": "Viego was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Sovereign's Domination",
+          "title": "Sovereign's Domination",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Undocumented / Bug: Can now use quick shop menu to forge items for his temporary inventory and waste his gold."
+            }
+          ]
+        },
+        {
+          "ability": "Blade of the Ruined King",
+          "title": "Blade of the Ruined King",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Healing against minions",
+              "before": "100%",
+              "after": "50%",
+              "note": "Healing against minions reduced to 50% from 100%."
+            }
+          ]
+        },
+        {
+          "ability": "Harrowed Path",
+          "title": "Harrowed Path",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus movement speed",
+              "before": "20–30%",
+              "after": "25–35%",
+              "note": "Bonus movement speed increased to 25–35% from 20–30%."
+            },
+            {
+              "label": "Initial missile range (for wall collision)",
+              "before": "700",
+              "after": "775",
+              "note": "Initial missile range (for wall collision) increased to 775 from 700."
+            },
+            {
+              "label": "Wall-spread missile speed",
+              "before": "1000",
+              "after": "1200",
+              "note": "Wall-spread missile speed increased to 1200 from 1000."
+            },
+            {
+              "label": "Undocumented: Wall spread distance cap (each direction)",
+              "before": "6000",
+              "after": "8000",
+              "note": "Undocumented: Wall spread distance cap (each direction) increased to 8000 from 6000."
+            },
+            {
+              "label": "Change",
+              "note": "Due to a bug, the changes to the wall-spread speed and distance were only applied to the counter-clockwise missile."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "xayah",
+      "name": "Xayah",
+      "type": "champion",
+      "assetKey": "Xayah",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base damage increased to 50–150 from 45–125.",
+      "gameplayImpact": "Xayah is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Double Daggers",
+          "title": "Double Daggers",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "45–125",
+              "after": "50–150",
+              "note": "Base damage increased to 50–150 from 45–125."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "anathemas-chains",
+      "name": "Anathema's Chains",
+      "type": "item",
+      "assetKey": "8001",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 3,
+      "tldr": "Recipe: Kindlegem}} + Giant's Belt}} + =; Stats: 650 health, 20 ability haste.",
+      "gameplayImpact": "Anathema's Chains loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": "New item",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Recipe: Kindlegem}} + Giant's Belt}} + ="
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 650 health, 20 ability haste."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Active - Vow: Designate an enemy champion as your Nemesis and gain 1 stack of Vendetta every 2 seconds over 60 seconds, up to 30 stacks (90 second cooldown). Can be cast while dead and at global range. Stacks reset upon choosing a new target. Cannot be cast for 15 seconds while in combat with champions."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Vendetta: Take 1% reduced damage per stack of Vendetta against your Nemesis, up to 30% reduced damage."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Vengeance: At maximum stacks, your Nemesis has 20% reduced tenacity while within cr 700 units of you."
+            },
+            {
+              "label": "Change",
+              "note": "Limited to 1 Anathema's Chains."
+            },
+            {
+              "label": "Change",
+              "note": "Caption: \"She swore to dedicate her life to his destruction. The gauntlets heard.\""
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf",
+        "New item"
+      ]
+    },
+    {
+      "id": "black-cleaver",
+      "name": "Black Cleaver",
+      "type": "item",
+      "assetKey": "3071",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Health increased to 450 from 400.; Bonus movement speed per stack reduced to 3 from 5.",
+      "gameplayImpact": "Black Cleaver was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Health",
+              "before": "400",
+              "after": "450",
+              "note": "Health increased to 450 from 400."
+            },
+            {
+              "label": "Bonus movement speed per stack",
+              "before": "5",
+              "after": "3",
+              "note": "Bonus movement speed per stack reduced to 3 from 5."
+            },
+            {
+              "label": "Maximum bonus movement speed",
+              "before": "30",
+              "after": "18",
+              "note": "Maximum bonus movement speed reduced to 18 from 30."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "cosmic-drive",
+      "name": "Cosmic Drive",
+      "type": "item",
+      "assetKey": "4629",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Ability power increased to 80 from 75.; Spelldance bonus movement speed changed to 20 at all levels from 10–30.",
+      "gameplayImpact": "Cosmic Drive is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Ability power",
+              "before": "75",
+              "after": "80",
+              "note": "Ability power increased to 80 from 75."
+            },
+            {
+              "label": "Spelldance bonus movement speed",
+              "before": "10–30",
+              "after": "20 at all levels",
+              "note": "Spelldance bonus movement speed changed to 20 at all levels from 10–30."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "dead-mans-plate",
+      "name": "Dead Man's Plate",
+      "type": "item",
+      "assetKey": "3742",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Momentum charge time reduced to 3.75 seconds from 5.; Stacks per tick (0.25 seconds) of movement increased to 7 from 5.",
+      "gameplayImpact": "Dead Man's Plate was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Momentum charge time",
+              "before": "5",
+              "after": "3.75 seconds",
+              "note": "Momentum charge time reduced to 3.75 seconds from 5."
+            },
+            {
+              "label": "Stacks per tick (0.25 seconds) of movement",
+              "before": "5",
+              "after": "7",
+              "note": "Stacks per tick (0.25 seconds) of movement increased to 7 from 5."
+            },
+            {
+              "label": "Shipwrecker maximum bonus movement speed",
+              "before": "60",
+              "after": "40",
+              "note": "Shipwrecker maximum bonus movement speed reduced to 40 from 60."
+            },
+            {
+              "label": "Shipwrecker damage per stack",
+              "before": "1",
+              "after": "0.4",
+              "note": "Shipwrecker damage per stack reduced to 0.4 from 1."
+            },
+            {
+              "label": "Shipwrecker maximum damage",
+              "before": "100",
+              "after": "40",
+              "note": "Shipwrecker maximum damage reduced to 40 from 100."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Shipwrecker damage now scales with 0–100% (over 0–100) base AD."
+            },
+            {
+              "label": "Shipwrecker damage type",
+              "before": "magic",
+              "after": "physical",
+              "note": "Shipwrecker damage type changed to physical from magic."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "deaths-dance",
+      "name": "Death's Dance",
+      "type": "item",
+      "assetKey": "6333",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Removed: Defy no longer grants 30% bonus movement speed for 2 seconds on takedowns.; Defy heal increased to 15% maximum health from 10%|health.",
+      "gameplayImpact": "Death's Dance was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Removed: Defy no longer grants 30% bonus movement speed for 2 seconds on takedowns."
+            },
+            {
+              "label": "Defy heal",
+              "before": "10%|health",
+              "after": "15% maximum health",
+              "note": "Defy heal increased to 15% maximum health from 10%|health."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "divine-sunderer",
+      "name": "Divine Sunderer",
+      "type": "item",
+      "assetKey": "6632",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Spellblade damage for ranged champions reduced to 9% of target's maximum health from 12%|health.; Spellblade healing for ranged champions reduced to 3.6% of target's maximum health from 4.8%|health.",
+      "gameplayImpact": "Divine Sunderer loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Spellblade damage for ranged champions",
+              "before": "12%|health",
+              "after": "9% of target's maximum health",
+              "note": "Spellblade damage for ranged champions reduced to 9% of target's maximum health from 12%|health."
+            },
+            {
+              "label": "Spellblade healing for ranged champions",
+              "before": "4",
+              "after": "3.6% of target's maximum health",
+              "note": "Spellblade healing for ranged champions reduced to 3.6% of target's maximum health from 4.8%|health."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "everfrost",
+      "name": "Everfrost",
+      "type": "item",
+      "assetKey": "6656",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Total cost reduced to from .; Combine cost reduced to from .",
+      "gameplayImpact": "Everfrost is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Total cost reduced to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Combine cost reduced to from ."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "galeforce",
+      "name": "Galeforce",
+      "type": "item",
+      "assetKey": "6671",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Mythic passive bonus movement speed reduced to 2% from 3%.",
+      "gameplayImpact": "Galeforce loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Mythic passive bonus movement speed",
+              "before": "3%",
+              "after": "2%",
+              "note": "Mythic passive bonus movement speed reduced to 2% from 3%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "giants-belt",
+      "name": "Giant's Belt",
+      "type": "item",
+      "assetKey": "221011",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Now builds into Anathema's Chains}}.",
+      "gameplayImpact": "Giant's Belt was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Now builds into Anathema's Chains}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "hullbreaker",
+      "name": "Hullbreaker",
+      "type": "item",
+      "assetKey": "3181",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Replaces Sanguine Blade}}.; Recipe: Pickaxe}} + Phage}} + = .",
+      "gameplayImpact": "Hullbreaker was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": "New item",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Replaces Sanguine Blade}}."
+            },
+            {
+              "label": "Change",
+              "note": "Recipe: Pickaxe}} + Phage}} + = ."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 50 attack damage, 300 health, 150% base health regeneration."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Boarding Party: While no allied champions are within cr 1400 units, gain 20–45 bonus armor and bonus magic resistance and deal 20% bonus damage against structures. Nearby large allied minions gain 60–135 bonus armor and bonus magic resistance and deal 200% bonus damage against structures."
+            },
+            {
+              "label": "Change",
+              "note": "Limited to 1 Hullbreaker."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust",
+        "New item"
+      ]
+    },
+    {
+      "id": "kindlegem",
+      "name": "Kindlegem",
+      "type": "item",
+      "assetKey": "3067",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Now builds into Anathema's Chains}}.",
+      "gameplayImpact": "Kindlegem was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Now builds into Anathema's Chains}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "liandrys-anguish",
+      "name": "Liandry's Anguish",
+      "type": "item",
+      "assetKey": "226653",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Total cost reduced to from .; Combine cost reduced to from .",
+      "gameplayImpact": "Liandry's Anguish is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Total cost reduced to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Combine cost reduced to from ."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "lich-bane",
+      "name": "Lich Bane",
+      "type": "item",
+      "assetKey": "3100",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Bonus movement speed reduced to 8% from 10%.; Ability power increased to 75 from 70.",
+      "gameplayImpact": "Lich Bane was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Bonus movement speed",
+              "before": "10%",
+              "after": "8%",
+              "note": "Bonus movement speed reduced to 8% from 10%."
+            },
+            {
+              "label": "Ability power",
+              "before": "70",
+              "after": "75",
+              "note": "Ability power increased to 75 from 70."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "ludens-tempest",
+      "name": "Luden's Tempest",
+      "type": "item",
+      "assetKey": null,
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Total cost reduced to from .; Combine cost reduced to from .",
+      "gameplayImpact": "Luden's Tempest is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Total cost reduced to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Combine cost reduced to from ."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "moonstone-renewer",
+      "name": "Moonstone Renewer",
+      "type": "item",
+      "assetKey": "6617",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Heal and shield power per stack increased to 7% from 6%.; Maximum heal and shield power increased to 35% from 30%.",
+      "gameplayImpact": "Moonstone Renewer is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Heal and shield power per stack",
+              "before": "6%",
+              "after": "7%",
+              "note": "Heal and shield power per stack increased to 7% from 6%."
+            },
+            {
+              "label": "Maximum heal and shield power",
+              "before": "30%",
+              "after": "35%",
+              "note": "Maximum heal and shield power increased to 35% from 30%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "phage",
+      "name": "Phage",
+      "type": "item",
+      "assetKey": "3044",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Now builds into Hullbreaker}}.",
+      "gameplayImpact": "Phage was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Now builds into Hullbreaker}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "pickaxe",
+      "name": "Pickaxe",
+      "type": "item",
+      "assetKey": "1037",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Now builds into Hullbreaker}}.",
+      "gameplayImpact": "Pickaxe was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Now builds into Hullbreaker}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "prowlers-claw",
+      "name": "Prowler's Claw",
+      "type": "item",
+      "assetKey": "6693",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Lethality reduced to 18 from 21.; Sandswipe cooldown increased to 90 seconds from 60.",
+      "gameplayImpact": "Prowler's Claw was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Lethality",
+              "before": "21",
+              "after": "18",
+              "note": "Lethality reduced to 18 from 21."
+            },
+            {
+              "label": "Sandswipe cooldown",
+              "before": "60",
+              "after": "90 seconds",
+              "note": "Sandswipe cooldown increased to 90 seconds from 60."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Sandswipe can now only target champions."
+            },
+            {
+              "label": "Sandshrike's Claw}} lethality",
+              "before": "29",
+              "after": "26",
+              "note": "Sandshrike's Claw}} lethality reduced to 26 from 29."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "sanguine-blade",
+      "name": "Sanguine Blade",
+      "type": "item",
+      "assetKey": "228006",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Removed from the game.; Replaced by Hullbreaker}}.",
+      "gameplayImpact": "Sanguine Blade loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": "Removed",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Removed from the game."
+            },
+            {
+              "label": "Change",
+              "note": "Replaced by Hullbreaker}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf",
+        "Removed"
+      ]
+    },
+    {
+      "id": "serrated-dirk",
+      "name": "Serrated Dirk",
+      "type": "item",
+      "assetKey": "3134",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "No longer builds into Sanguine Blade}}.",
+      "gameplayImpact": "Serrated Dirk loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "No longer builds into Sanguine Blade}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "shurelyas-battlesong",
+      "name": "Shurelya's Battlesong",
+      "type": "item",
+      "assetKey": "322065",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Inspire bonus movement speed reduced to 30% from 60%.; Removed: Inspire's bonus movement speed no longer decays to 30% over 2 seconds.",
+      "gameplayImpact": "Shurelya's Battlesong loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Inspire bonus movement speed",
+              "before": "60%",
+              "after": "30%",
+              "note": "Inspire bonus movement speed reduced to 30% from 60%."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: Inspire's bonus movement speed no longer decays to 30% over 2 seconds."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "stridebreaker",
+      "name": "Stridebreaker",
+      "type": "item",
+      "assetKey": "6631",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Unique Active - Halting Slash:; New Effect: Deal 100% AD physical damage to enemies in a cr 450 radius centered around you and slow them by 90% decaying to 40% over 3 seconds (15 second cooldown, reduced by ability ha…",
+      "gameplayImpact": "Stridebreaker was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Unique Active - Halting Slash:"
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Deal 100% AD physical damage to enemies in a cr 450 radius centered around you and slow them by 90% decaying to 40% over 3 seconds (15 second cooldown, reduced by ability haste). Can be cast while moving."
+            },
+            {
+              "label": "Change",
+              "note": "Old Effect: Dash up to 300 units to the target location, though not through terrain, and at the end of a cast time deal 75% AD physical damage to enemies in a cr 450 radius centered in front of you at your attack range value and slow them by 40% decaying over 2 seconds (20 second cooldown, reduced by ability haste)."
+            },
+            {
+              "label": "Attack damage",
+              "before": "45",
+              "after": "40",
+              "note": "Attack damage reduced to 40 from 45."
+            },
+            {
+              "label": "Health",
+              "before": "200",
+              "after": "400",
+              "note": "Health increased to 400 from 200."
+            },
+            {
+              "label": "Heroic Gait bonus movement speed",
+              "before": "30",
+              "after": "20",
+              "note": "Heroic Gait bonus movement speed reduced to 20 from 30."
+            },
+            {
+              "label": "Mythic passive bonus movement speed",
+              "before": "3%",
+              "after": "2%",
+              "note": "Mythic passive bonus movement speed reduced to 2% from 3%."
+            },
+            {
+              "label": "Dreamshatter}} attack damage",
+              "before": "55",
+              "after": "50",
+              "note": "Dreamshatter}} attack damage reduced to 50 from 55."
+            },
+            {
+              "label": "Dreamshatter}} health",
+              "before": "300",
+              "after": "500",
+              "note": "Dreamshatter}} health increased to 500 from 300."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "trinity-force",
+      "name": "Trinity Force",
+      "type": "item",
+      "assetKey": "3078",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Attack damage increased to 35 from 30.; Threefold Strike bonus movement speed reduced to 20 from 25.",
+      "gameplayImpact": "Trinity Force was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Attack damage",
+              "before": "30",
+              "after": "35",
+              "note": "Attack damage increased to 35 from 30."
+            },
+            {
+              "label": "Threefold Strike bonus movement speed",
+              "before": "25",
+              "after": "20",
+              "note": "Threefold Strike bonus movement speed reduced to 20 from 25."
+            },
+            {
+              "label": "Infinity Force}} attack damage",
+              "before": "40",
+              "after": "45",
+              "note": "Infinity Force}} attack damage increased to 45 from 40."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "vampiric-scepter",
+      "name": "Vampiric Scepter",
+      "type": "item",
+      "assetKey": "221053",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "No longer builds into Sanguine Blade}}.",
+      "gameplayImpact": "Vampiric Scepter loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "No longer builds into Sanguine Blade}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "warmogs-armor",
+      "name": "Warmog's Armor",
+      "type": "item",
+      "assetKey": "443083",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "ARAM champion damage cooldown increased to 8 seconds from 6.; ARAM non-champion damage cooldown increased to 4 seconds from 3.",
+      "gameplayImpact": "Warmog's Armor loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "ARAM champion damage cooldown",
+              "before": "6",
+              "after": "8 seconds",
+              "note": "ARAM champion damage cooldown increased to 8 seconds from 6."
+            },
+            {
+              "label": "ARAM non-champion damage cooldown",
+              "before": "3",
+              "after": "4 seconds",
+              "note": "ARAM non-champion damage cooldown increased to 4 seconds from 3."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "id": "ghost-poro",
+      "name": "Ghost Poro",
+      "type": "rune",
+      "assetKey": null,
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Poro duration increased to 90 seconds from 60.; Reveal duration increased to 6 seconds from 4.",
+      "gameplayImpact": "Ghost Poro is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Poro duration",
+              "before": "60",
+              "after": "90 seconds",
+              "note": "Poro duration increased to 90 seconds from 60."
+            },
+            {
+              "label": "Reveal duration",
+              "before": "4",
+              "after": "6 seconds",
+              "note": "Reveal duration increased to 6 seconds from 4."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "nimbus-cloak",
+      "name": "Nimbus Cloak",
+      "type": "rune",
+      "assetKey": null,
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Bonus movement speed reduced to 5–25% from 5–35%.",
+      "gameplayImpact": "Nimbus Cloak loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Bonus movement speed",
+              "before": "5–35%",
+              "after": "5–25%",
+              "note": "Bonus movement speed reduced to 5–25% from 5–35%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "howling-abyss",
+      "name": "Howling Abyss",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "nerf",
+      "severity": 3,
+      "tldr": "Akali}}; Outgoing damage modifier changed to +10% from +5%.",
+      "gameplayImpact": "Howling Abyss loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Akali}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "+5%",
+              "after": "+10%",
+              "note": "Outgoing damage modifier changed to +10% from +5%."
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-5%",
+              "after": "-10%",
+              "note": "Incoming damage modifier changed to -10% from -5%."
+            },
+            {
+              "label": "Change",
+              "note": "Camille}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-10%",
+              "after": "-5%",
+              "note": "Incoming damage modifier changed to -5% from -10%."
+            },
+            {
+              "label": "Change",
+              "note": "Dr. Mundo}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "0%",
+              "after": "+5%",
+              "note": "Incoming damage modifier changed to +5% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Gwen}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "0%",
+              "after": "+5%",
+              "note": "Outgoing damage modifier changed to +5% from 0%."
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "0%",
+              "after": "-5%",
+              "note": "Incoming damage modifier changed to -5% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Hecarim}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "5%",
+              "after": "+10%",
+              "note": "Outgoing damage modifier changed to +10% from 5%."
+            },
+            {
+              "label": "Change",
+              "note": "Qiyana}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "10%",
+              "after": "+15%",
+              "note": "Outgoing damage modifier changed to +15% from 10%."
+            },
+            {
+              "label": "Change",
+              "note": "Rammus}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "0%",
+              "after": "+5%",
+              "note": "Outgoing damage modifier changed to +5% from 0%."
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-5%",
+              "after": "-10%",
+              "note": "Incoming damage modifier changed to -10% from -5%."
+            },
+            {
+              "label": "Change",
+              "note": "Rek'Sai}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-12%",
+              "after": "-15%",
+              "note": "Incoming damage modifier changed to -15% from -12%."
+            },
+            {
+              "label": "Change",
+              "note": "Trundle}}"
+            },
+            {
+              "label": "Healing modifier",
+              "before": "0%",
+              "after": "-5%",
+              "note": "Healing modifier changed to -5% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Udyr}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-10%",
+              "after": "-15%",
+              "note": "Incoming damage modifier changed to -15% from -10%."
+            },
+            {
+              "label": "Change",
+              "note": "Zyra}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "-6%",
+              "after": "-10%",
+              "note": "Outgoing damage modifier changed to -10% from -6%."
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "+6%",
+              "after": "+5%",
+              "note": "Incoming damage modifier changed to +5% from +6%."
+            },
+            {
+              "label": "Change",
+              "note": "Warmog's Armor}}"
+            },
+            {
+              "label": "Champion damage cooldown",
+              "before": "6",
+              "after": "8 seconds",
+              "note": "Champion damage cooldown increased to 8 seconds from 6."
+            },
+            {
+              "label": "Non-champion damage cooldown",
+              "before": "3",
+              "after": "4 seconds",
+              "note": "Non-champion damage cooldown increased to 4 seconds from 3."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "map",
+      "name": "Map",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "nerf",
+      "severity": 3,
+      "tldr": "Akali}}; Outgoing damage modifier changed to +10% from +5%.",
+      "gameplayImpact": "Map loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Akali}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "+5%",
+              "after": "+10%",
+              "note": "Outgoing damage modifier changed to +10% from +5%."
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-5%",
+              "after": "-10%",
+              "note": "Incoming damage modifier changed to -10% from -5%."
+            },
+            {
+              "label": "Change",
+              "note": "Camille}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-10%",
+              "after": "-5%",
+              "note": "Incoming damage modifier changed to -5% from -10%."
+            },
+            {
+              "label": "Change",
+              "note": "Dr. Mundo}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "0%",
+              "after": "+5%",
+              "note": "Incoming damage modifier changed to +5% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Gwen}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "0%",
+              "after": "+5%",
+              "note": "Outgoing damage modifier changed to +5% from 0%."
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "0%",
+              "after": "-5%",
+              "note": "Incoming damage modifier changed to -5% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Hecarim}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "5%",
+              "after": "+10%",
+              "note": "Outgoing damage modifier changed to +10% from 5%."
+            },
+            {
+              "label": "Change",
+              "note": "Qiyana}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "10%",
+              "after": "+15%",
+              "note": "Outgoing damage modifier changed to +15% from 10%."
+            },
+            {
+              "label": "Change",
+              "note": "Rammus}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "0%",
+              "after": "+5%",
+              "note": "Outgoing damage modifier changed to +5% from 0%."
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-5%",
+              "after": "-10%",
+              "note": "Incoming damage modifier changed to -10% from -5%."
+            },
+            {
+              "label": "Change",
+              "note": "Rek'Sai}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-12%",
+              "after": "-15%",
+              "note": "Incoming damage modifier changed to -15% from -12%."
+            },
+            {
+              "label": "Change",
+              "note": "Trundle}}"
+            },
+            {
+              "label": "Healing modifier",
+              "before": "0%",
+              "after": "-5%",
+              "note": "Healing modifier changed to -5% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Udyr}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-10%",
+              "after": "-15%",
+              "note": "Incoming damage modifier changed to -15% from -10%."
+            },
+            {
+              "label": "Change",
+              "note": "Zyra}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "-6%",
+              "after": "-10%",
+              "note": "Outgoing damage modifier changed to -10% from -6%."
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "+6%",
+              "after": "+5%",
+              "note": "Incoming damage modifier changed to +5% from +6%."
+            },
+            {
+              "label": "Change",
+              "note": "Warmog's Armor}}"
+            },
+            {
+              "label": "Champion damage cooldown",
+              "before": "6",
+              "after": "8 seconds",
+              "note": "Champion damage cooldown increased to 8 seconds from 6."
+            },
+            {
+              "label": "Non-champion damage cooldown",
+              "before": "3",
+              "after": "4 seconds",
+              "note": "Non-champion damage cooldown increased to 4 seconds from 3."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    }
+  ],
+  "sourceUrl": "https://na.leagueoflegends.com/en-us/news/game-updates/patch-11-13-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V11.13"
+}

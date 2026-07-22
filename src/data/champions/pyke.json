@@ -1,0 +1,700 @@
+{
+  "slug": "pyke",
+  "name": "Pyke",
+  "assetKey": "Pyke",
+  "entries": [
+    {
+      "patchId": "11.5",
+      "version": "11.5",
+      "releaseDate": "2021-03-03",
+      "change": {
+        "id": "pyke",
+        "name": "Pyke",
+        "type": "champion",
+        "assetKey": "Pyke",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 1,
+        "tldr": "New Effect: Now stores 10% (+ 0.25% per 1 Lethality) of damage taken as Grey Health, increased to 35% (+ 0.5% per 1 Lethality) if there are two or more enemies nearby.; Removed: No longer stores 25–50% of damage taken…",
+        "gameplayImpact": "Pyke was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Gift of the Drowned Ones",
+            "title": "Gift of the Drowned Ones",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Now stores 10% (+ 0.25% per 1 Lethality) of damage taken as Grey Health, increased to 35% (+ 0.5% per 1 Lethality) if there are two or more enemies nearby."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: No longer stores 25–50% of damage taken as Grey Health."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "11.6",
+      "version": "11.6",
+      "releaseDate": "2021-03-17",
+      "change": {
+        "id": "pyke",
+        "name": "Pyke",
+        "type": "champion",
+        "assetKey": "Pyke",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "Cooldown reduced to 15–11 seconds from 15 at all ranks.",
+        "gameplayImpact": "Pyke is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Phantom Undertow",
+            "title": "Phantom Undertow",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Cooldown",
+                "before": "15 at all ranks",
+                "after": "15–11 seconds",
+                "note": "Cooldown reduced to 15–11 seconds from 15 at all ranks."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "12.4",
+      "version": "12.4",
+      "releaseDate": "2022-02-16",
+      "change": {
+        "id": "pyke",
+        "name": "Pyke",
+        "type": "champion",
+        "assetKey": "Pyke",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 1,
+        "tldr": "Ghostwater Dive}}; Warning SFX that is played for enemies below execution threshold has been adjusted for gameplay clarity.",
+        "gameplayImpact": "Pyke was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "General",
+            "title": null,
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Ghostwater Dive}}"
+              },
+              {
+                "label": "Change",
+                "note": "Warning SFX that is played for enemies below execution threshold has been adjusted for gameplay clarity."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "12.9",
+      "version": "12.9",
+      "releaseDate": "2022-05-11",
+      "change": {
+        "id": "pyke",
+        "name": "Pyke",
+        "type": "champion",
+        "assetKey": "Pyke",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Base damage stored near multiple enemies increased to 45% from 40%.; Mana cost increased to 74–90 from 50–70.",
+        "gameplayImpact": "Pyke was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Gift of the Drowned Ones",
+            "title": "Gift of the Drowned Ones",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base damage stored near multiple enemies",
+                "before": "40%",
+                "after": "45%",
+                "note": "Base damage stored near multiple enemies increased to 45% from 40%."
+              }
+            ]
+          },
+          {
+            "ability": "Bone Skewer",
+            "title": "Bone Skewer",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Mana cost",
+                "before": "50–70",
+                "after": "74–90",
+                "note": "Mana cost increased to 74–90 from 50–70."
+              },
+              {
+                "label": "Mana cost refund",
+                "before": "50%",
+                "after": "75%",
+                "note": "Mana cost refund increased to 75% from 50%."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Mana cost is now refunded if he hits an enemy champion."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Tooltip now properly notes tap casting also slows the target."
+              }
+            ]
+          },
+          {
+            "ability": "Death from Below",
+            "title": "Death from Below",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Cooldown",
+                "before": "120–80 (3 ranks)",
+                "after": "100–70 (3 ranks) seconds",
+                "note": "Cooldown reduced to 100–70 (3 ranks) seconds from 120–80 (3 ranks)."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: No longer grants Your Cut}} to himself if he executes an enemy."
+              },
+              {
+                "label": "Number of Your Cut|Your Cuts}} from assists",
+                "before": "2",
+                "after": "1",
+                "note": "Number of Your Cut|Your Cuts}} from assists reduced to 1 from 2."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "12.10",
+      "version": "12.10",
+      "releaseDate": "2022-05-25",
+      "change": {
+        "id": "pyke",
+        "name": "Pyke",
+        "type": "champion",
+        "assetKey": "Pyke",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Base health increased to 670 from 600.; Health growth increased to 104 from 90.",
+        "gameplayImpact": "Pyke was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base health",
+                "before": "600",
+                "after": "670",
+                "note": "Base health increased to 670 from 600."
+              },
+              {
+                "label": "Health growth",
+                "before": "90",
+                "after": "104",
+                "note": "Health growth increased to 104 from 90."
+              },
+              {
+                "label": "Armor growth",
+                "before": "3",
+                "after": "4.7",
+                "note": "Armor growth increased to 4.7 from 3.5."
+              },
+              {
+                "label": "Magic resistance growth",
+                "before": "1",
+                "after": "2.05",
+                "note": "Magic resistance growth increased to 2.05 from 1.25."
+              }
+            ]
+          },
+          {
+            "ability": "Gift of the Drowned Ones",
+            "title": "Gift of the Drowned Ones",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base damage stored",
+                "before": "10%",
+                "after": "9%",
+                "note": "Base damage stored reduced to 9% from 10%."
+              },
+              {
+                "label": "Damage stored per lethality",
+                "before": "0",
+                "after": "0.2%",
+                "note": "Damage stored per lethality reduced to 0.2% from 0.25%."
+              },
+              {
+                "label": "Base damage stored near multiple enemies",
+                "before": "45%",
+                "after": "40%",
+                "note": "Base damage stored near multiple enemies reduced to 40% from 45%."
+              },
+              {
+                "label": "Damage stored per lethality near multiple enemies",
+                "before": "0",
+                "after": "0.4%",
+                "note": "Damage stored per lethality near multiple enemies reduced to 0.4% from 0.5%."
+              },
+              {
+                "label": "Grey health upper cap",
+                "before": "60%|health",
+                "after": "55% maximum health",
+                "note": "Grey health upper cap reduced to 55% maximum health from 60%|health."
+              }
+            ]
+          },
+          {
+            "ability": "Ghostwater Dive",
+            "title": "Ghostwater Dive",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: Fixed a bug where casting and ending it during an a enemy Paranoia (Nocturne)}} would remove the red tint effect from your screen."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "12.23",
+      "version": "12.23",
+      "releaseDate": "2022-12-07",
+      "change": {
+        "id": "pyke",
+        "name": "Pyke",
+        "type": "champion",
+        "assetKey": "Pyke",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 1,
+        "tldr": "Death from Below}}; Distortion visual effects will now be disabled when Eye Candy is turned off in the game options.",
+        "gameplayImpact": "Pyke was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "General",
+            "title": null,
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Death from Below}}"
+              },
+              {
+                "label": "Change",
+                "note": "Distortion visual effects will now be disabled when Eye Candy is turned off in the game options."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "13.3",
+      "version": "13.3",
+      "releaseDate": "2023-02-09",
+      "change": {
+        "id": "pyke",
+        "name": "Pyke",
+        "type": "champion",
+        "assetKey": "Pyke",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "Base damage increased to 105–265 from 105–225.",
+        "gameplayImpact": "Pyke is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Gift of the Drowned Ones",
+            "title": "Gift of the Drowned Ones",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: Bonus health from Guiding Light is now properly converted to attack damage during the entire effect rather than only in the first 0.5 seconds of the duration."
+              }
+            ]
+          },
+          {
+            "ability": "Phantom Undertow",
+            "title": "Phantom Undertow",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "105–225",
+                "after": "105–265",
+                "note": "Base damage increased to 105–265 from 105–225."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "13.4",
+      "version": "13.4",
+      "releaseDate": "2023-02-23",
+      "change": {
+        "id": "pyke",
+        "name": "Pyke",
+        "type": "champion",
+        "assetKey": "Pyke",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "New Feature: Your Cut}} can now be sold in the shop for the amount of gold its worth.; [Note: This was falsely documented as Your Cut no longer displaying a sell price despite not being sellable.]",
+        "gameplayImpact": "Pyke loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Death from Below",
+            "title": "Death from Below",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Feature: Your Cut}} can now be sold in the shop for the amount of gold its worth."
+              },
+              {
+                "label": "Change",
+                "note": "[Note: This was falsely documented as Your Cut no longer displaying a sell price despite not being sellable.]"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "13.19",
+      "version": "13.19",
+      "releaseDate": "2023-09-27",
+      "change": {
+        "id": "pyke",
+        "name": "Pyke",
+        "type": "champion",
+        "assetKey": "Pyke",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "Health growth increased to 110 from 104.; Cooldown reduced to 12–8 seconds from 12–10.",
+        "gameplayImpact": "Pyke is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Health growth",
+                "before": "104",
+                "after": "110",
+                "note": "Health growth increased to 110 from 104."
+              }
+            ]
+          },
+          {
+            "ability": "Ghostwater Dive",
+            "title": "Ghostwater Dive",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Cooldown",
+                "before": "12–10",
+                "after": "12–8 seconds",
+                "note": "Cooldown reduced to 12–8 seconds from 12–10."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "14.3",
+      "version": "14.3",
+      "releaseDate": "2024-02-07",
+      "change": {
+        "id": "pyke",
+        "name": "Pyke",
+        "type": "champion",
+        "assetKey": "Pyke",
+        "roles": [],
+        "direction": "buff",
+        "severity": 3,
+        "tldr": "Base armor increased to 47 from 45.; Bonus AD ratio increased to 75% bonus AD from 60%|AD.",
+        "gameplayImpact": "Pyke is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base armor",
+                "before": "45",
+                "after": "47",
+                "note": "Base armor increased to 47 from 45."
+              }
+            ]
+          },
+          {
+            "ability": "Bone Skewer",
+            "title": "Bone Skewer",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Bonus AD ratio",
+                "before": "60%|AD",
+                "after": "75% bonus AD",
+                "note": "Bonus AD ratio increased to 75% bonus AD from 60%|AD."
+              },
+              {
+                "label": "Mana cost",
+                "before": "74–90",
+                "after": "70–90",
+                "note": "Mana cost reduced to 70–90 from 74–90."
+              }
+            ]
+          },
+          {
+            "ability": "Ghostwater Dive",
+            "title": "Ghostwater Dive",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base bonus movement speed",
+                "before": "40%",
+                "after": "45%",
+                "note": "Base bonus movement speed increased to 45% from 40%."
+              },
+              {
+                "label": "Movement speed lethality ratio",
+                "before": "1",
+                "after": "2% per 1 Lethality",
+                "note": "Movement speed lethality ratio increased to 2% per 1 Lethality from 1.5% per 1 Lethality."
+              }
+            ]
+          },
+          {
+            "ability": "Phantom Undertow",
+            "title": "Phantom Undertow",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "105–265",
+                "after": "100–300",
+                "note": "Base damage changed to 100–300 from 105–265."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "14.9",
+      "version": "14.9",
+      "releaseDate": "2024-05-01",
+      "change": {
+        "id": "pyke",
+        "name": "Pyke",
+        "type": "champion",
+        "assetKey": "Pyke",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Cooldown increased to 14–10 seconds from 12–8.; Mana cost increased to 65 from 50.",
+        "gameplayImpact": "Pyke loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Ghostwater Dive",
+            "title": "Ghostwater Dive",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Cooldown",
+                "before": "12–8",
+                "after": "14–10 seconds",
+                "note": "Cooldown increased to 14–10 seconds from 12–8."
+              },
+              {
+                "label": "Mana cost",
+                "before": "50",
+                "after": "65",
+                "note": "Mana cost increased to 65 from 50."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "14.17",
+      "version": "14.17",
+      "releaseDate": "2024-08-28",
+      "change": {
+        "id": "pyke",
+        "name": "Pyke",
+        "type": "champion",
+        "assetKey": "Pyke",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Base armor reduced to 43 from 47.",
+        "gameplayImpact": "Pyke loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base armor",
+                "before": "47",
+                "after": "43",
+                "note": "Base armor reduced to 43 from 47."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "25.S1.1",
+      "version": "25.S1.1",
+      "releaseDate": "2025-01-09",
+      "change": {
+        "id": "pyke",
+        "name": "Pyke",
+        "type": "champion",
+        "assetKey": "Pyke",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Removed: Your Cut}} no longer grants an additional if it was awarded from a kill that counted as First Blood.",
+        "gameplayImpact": "Pyke loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Death from Below",
+            "title": "Death from Below",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Removed: Your Cut}} no longer grants an additional if it was awarded from a kill that counted as First Blood."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "26.06",
+      "version": "26.06",
+      "releaseDate": "2026-03-18",
+      "change": {
+        "id": "pyke",
+        "name": "Pyke",
+        "type": "champion",
+        "assetKey": "Pyke",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Base armor reduced to 37 from 43.",
+        "gameplayImpact": "Pyke loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base armor",
+                "before": "43",
+                "after": "37",
+                "note": "Base armor reduced to 37 from 43."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    }
+  ]
+}

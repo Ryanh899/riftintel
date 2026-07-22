@@ -1,0 +1,1261 @@
+{
+  "id": "13.18",
+  "version": "13.18",
+  "title": "Time to vandalize those streets and new ability icons!",
+  "releaseDate": "2023-09-13",
+  "season": "13",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "Time to vandalize those streets and new ability icons!"
+    },
+    {
+      "title": "Champion balance",
+      "description": "6 champion buffs, 6 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "Time to vandalize those streets and new ability icons! Structured changes across 25 entities this patch.",
+  "champions": [
+    {
+      "id": "bard",
+      "name": "Bard",
+      "type": "champion",
+      "assetKey": "Bard",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Movement speed duration increased to 20 seconds from 7.; Maximum number of stacks increased to 10 from 5.",
+      "gameplayImpact": "Bard was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Traveler's Call",
+          "title": "Traveler's Call",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Movement speed duration",
+              "before": "7",
+              "after": "20 seconds",
+              "note": "Movement speed duration increased to 20 seconds from 7."
+            },
+            {
+              "label": "Maximum number of stacks",
+              "before": "5",
+              "after": "10",
+              "note": "Maximum number of stacks increased to 10 from 5."
+            }
+          ]
+        },
+        {
+          "ability": "Caretaker's Shrine",
+          "title": "Caretaker's Shrine",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Now stores 2 charges of the ability with an 18 second recharge timer."
+            },
+            {
+              "label": "Bonus movement speed",
+              "before": "30% at all ranks",
+              "after": "20–30%",
+              "note": "Bonus movement speed reduced to 20–30% from 30% at all ranks."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Bonus movement speed now scales with 5% per 100 AP."
+            },
+            {
+              "label": "Shrine charge timer",
+              "before": "10",
+              "after": "5 seconds",
+              "note": "Shrine charge timer reduced to 5 seconds from 10."
+            },
+            {
+              "label": "Cooldown",
+              "before": "14",
+              "after": "0 seconds",
+              "note": "Cooldown reduced to 0 seconds from 14."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "blitzcrank",
+      "name": "Blitzcrank",
+      "type": "champion",
+      "assetKey": "Blitzcrank",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Updated ability icons.",
+      "gameplayImpact": "Blitzcrank was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Updated ability icons."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "briar",
+      "name": "Briar",
+      "type": "champion",
+      "assetKey": "Briar",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 3,
+      "tldr": "Innate: Briar's basic attacks and abilities inflict a bleed against enemies for 5 seconds, refreshing on subsequent applications, stacking up to 9 times and dealing 25% damage for stacks beyond the first. The bleed de…",
+      "gameplayImpact": "Briar loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": "New champion",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Innate: Briar's basic attacks and abilities inflict a bleed against enemies for 5 seconds, refreshing on subsequent applications, stacking up to 9 times and dealing 25% damage for stacks beyond the first. The bleed dealsBriar heal herself equal to 25% of the dealt. If a target dies while bleeding, she will heal herself equal to 100% of the remaining bleed damage."
+            },
+            {
+              "label": "Change",
+              "note": "Briar has no health regeneration|base health regeneration, but she increases healing from all sources by 0–50% (over 0–100)|health."
+            },
+            {
+              "label": "Change",
+              "note": "Active: Briar dash to the target unit. If the target is an enemy, she deals 60–220 (+ 80% bonus AD) physical damage, stun them for 0.85 seconds, and inflicts them with 10–26%|armor armor penetration|armor reduction for 5 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Cost: 6% current health."
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: 13–9 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Cast Time: None, Target Range: cr 450."
+            },
+            {
+              "label": "Change",
+              "note": "Active: Briar dash to the target location. If there is a nearby enemy upon her arrival, she gains Blood Frenzy for 5 seconds, during which she can cast Snack Attack}}."
+            },
+            {
+              "label": "Change",
+              "note": "Blood Frenzy: Briar breaks free from her pillory, turning berserk against the nearest enemy. She standard sight the target and gains ghosting, 60–120% bonus attack speed and 24–60% bonus movement speed, as well as empowering her basic attacks to deal 60–100% AD physical damage to enemies surrounding her target. This damage is affected by critical strike modifiers."
+            },
+            {
+              "label": "Change",
+              "note": "Briar prioritizes attacking champions, then large monsters, and then minions."
+            },
+            {
+              "label": "Change",
+              "note": "Blood Frenzy ends early if there are no longer any nearby valid targets or Chilling Scream}} is cast. If Head Rush}} is cast on a non-champion, Briar will stop prioritizing champions during the frenzy. Blood Frenzy basic attack reset Briar's basic attack timer. Head Rush}} and Certain Death}} can be cast during the dash."
+            },
+            {
+              "label": "Change",
+              "note": "Cost: 6% current health."
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: 14–10 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Cast Time: None, Target Range: - / , Effect Radius: cr / , Speed: ."
+            },
+            {
+              "label": "Change",
+              "note": "Snack Attack}} - W"
+            },
+            {
+              "label": "Change",
+              "note": "Active: Briar empowers her next basic attack within 5 seconds during Blood Frenzy}} to take a bite out of the target enemy, having an uncancellable windup, gaining range|50 bonus range, dealing 5–65 (+ 105% AD) (+ 10% bonus physical damage and heal for 35–65% of the dealt."
+            },
+            {
+              "label": "Change",
+              "note": "Snack Attack deals 120% damage against minions and monsters, with the damage based on the target's health ratio being capped at 500."
+            },
+            {
+              "label": "Change",
+              "note": "Snack Attack basic attack reset Briar's basic attack timer."
+            },
+            {
+              "label": "Change",
+              "note": "Cast Time: None."
+            },
+            {
+              "label": "Change",
+              "note": "Active: Briar channel for up to 1 second, during which she increases Chilling Scream's damage and range, and gains 35% damage reduction and heal herself for 10/4 to 16/4% maximum health every 0.25 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Chilling Scream can be recast within the duration, and does so automatically afterwards. Chilling Scream's charge cannot be interrupt by crowd control."
+            },
+            {
+              "label": "Change",
+              "note": "Recast: Briar unleashes a scream in the target direction that deals 80–220 (+ 100% bonus AD) (+ 100% AP) magic damage to enemies hit and slow them by 80% for 0.5 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "If Chilling Scream was charged for its full duration, enemies hit are also airborne 575 units. If they collide with terrain, they will rebound to take 140–440 (+ 240% bonus AD) (+ 240% AP) and become airborne for 0.5 seconds and stun for 1.5 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Cost: 6% current health."
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: 18 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Cast Time: / , Range: er / cr 400–600 (by game time), Width: er 380, Speed: / ."
+            },
+            {
+              "label": "Change",
+              "note": "Active: Briar kicks a hemolith in the target direction that briefly grants sight of its as it and marks the first enemy champion hit as her prey, disrupt their ongoing channel and true sight them."
+            },
+            {
+              "label": "Change",
+              "note": "If a target is hit, Briar cleanse herself from all crowd control and destroys her pillory over a cast time, afterwards dash to them with displacement immunity. Upon arrival, she creates an explosion around the marked target that deals 150–500 (3 ranks) (+ 110% bonus AD) (+ 110% AP) physical damage to them and nearby enemies and flee all non-marked targets for 1.5 seconds. She then enters a state of Hematomania."
+            },
+            {
+              "label": "Change",
+              "note": "Hematomania: Briar gains all effects of Blood Frenzy}} against the marked target as well as bonus armor and bonus magic resistance equal to 20% AD, 10–20 (3 ranks)% life steal|life steal, and 10–30 (3 ranks)% ms|additional bonus movement speed|ms."
+            },
+            {
+              "label": "Change",
+              "note": "Hematomania lasts until the marked target dies. If the target becomes invalid, Briar will turn berserk against the nearest until her target becomes valid again."
+            },
+            {
+              "label": "Change",
+              "note": "Casting Chilling Scream}} ends Hematomania early."
+            },
+            {
+              "label": "Change",
+              "note": "Cost: 6% current health."
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: 120–80 (3 ranks) seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Cast Time: / , Range: cr , Effect Radius: / cr / er , Width: er , Speed: / ."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf",
+        "New champion"
+      ]
+    },
+    {
+      "id": "caitlyn",
+      "name": "Caitlyn",
+      "type": "champion",
+      "assetKey": "Caitlyn",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Critical strike ratio formula changed to (100% total crit damage x 81.25% total crit chance) from (62.5% total crit damage x 130% total crit chance).; Damage unchanged.",
+      "gameplayImpact": "Caitlyn was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Headshot",
+          "title": "Headshot",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Critical strike ratio formula",
+              "before": "(62",
+              "after": "(100% total crit damage x 81.25% total crit chance)",
+              "note": "Critical strike ratio formula changed to (100% total crit damage x 81.25% total crit chance) from (62.5% total crit damage x 130% total crit chance)."
+            },
+            {
+              "label": "Change",
+              "note": "Damage unchanged."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "graves",
+      "name": "Graves",
+      "type": "champion",
+      "assetKey": "Graves",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Updated ability icons.",
+      "gameplayImpact": "Graves was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Updated ability icons."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "gwen",
+      "name": "Gwen",
+      "type": "champion",
+      "assetKey": "Gwen",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Health growth increased to 115 to 106.; Maximum monster base damage increased to 10 from 6.",
+      "gameplayImpact": "Gwen is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Health growth increased to 115 to 106."
+            }
+          ]
+        },
+        {
+          "ability": "A Thousand Cuts",
+          "title": "A Thousand Cuts",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Maximum monster base damage",
+              "before": "6",
+              "after": "10",
+              "note": "Maximum monster base damage increased to 10 from 6."
+            },
+            {
+              "label": "Maximum monster AP ratio",
+              "before": "10% AP",
+              "after": "15% AP",
+              "note": "Maximum monster AP ratio increased to 15% AP from 10% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "irelia",
+      "name": "Irelia",
+      "type": "champion",
+      "assetKey": "Irelia",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Cooldown reduced to 125–85 (3 ranks) seconds from 140–100 (3 ranks).",
+      "gameplayImpact": "Irelia is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Vanguard's Edge",
+          "title": "Vanguard's Edge",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "140–100 (3 ranks)",
+              "after": "125–85 (3 ranks) seconds",
+              "note": "Cooldown reduced to 125–85 (3 ranks) seconds from 140–100 (3 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "janna",
+      "name": "Janna",
+      "type": "champion",
+      "assetKey": "Janna",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Updated ability icons.",
+      "gameplayImpact": "Janna was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Updated ability icons."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "jarvan-iv",
+      "name": "Jarvan IV",
+      "type": "champion",
+      "assetKey": "JarvanIV",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Updated ability icons.; Health ratio reduced to 6% of target's current health from 8%|health.",
+      "gameplayImpact": "Jarvan IV loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Updated ability icons."
+            }
+          ]
+        },
+        {
+          "ability": "Martial Cadence",
+          "title": "Martial Cadence",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Health ratio",
+              "before": "8%|health",
+              "after": "6% of target's current health",
+              "note": "Health ratio reduced to 6% of target's current health from 8%|health."
+            }
+          ]
+        },
+        {
+          "ability": "Cataclysm",
+          "title": "Cataclysm",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Summoned terrain now counts as a knockback and applies airborne to enemies knocked by being within the perimeter interval."
+            },
+            {
+              "label": "Change",
+              "note": "In particular, this means displacement immune dashes now properly resist the push, and are thereby no longer overridden by it."
+            },
+            {
+              "label": "Change",
+              "note": "This makes it consistent with similar spells such as Crystallize (Anivia)}} and Dark Procession (Yorick)}}."
+            },
+            {
+              "label": "Change",
+              "note": "The knockback is sourced from the wall segment that applied it, not Jarvan IV, meaning it does not trigger effects such as Aftershock}} or Glacial Augment}} for him."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "jayce",
+      "name": "Jayce",
+      "type": "champion",
+      "assetKey": "Jayce",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Updated ability icons.",
+      "gameplayImpact": "Jayce was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Updated ability icons."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "kassadin",
+      "name": "Kassadin",
+      "type": "champion",
+      "assetKey": "Kassadin",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "AP ratio increased to 60% AP from 40% AP.; This was changed in V13.15, but is only documented in this patch.",
+      "gameplayImpact": "Kassadin is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Riftwalk",
+          "title": "Riftwalk",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "40% AP",
+              "after": "60% AP",
+              "note": "AP ratio increased to 60% AP from 40% AP."
+            },
+            {
+              "label": "Change",
+              "note": "This was changed in V13.15, but is only documented in this patch."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "kayn",
+      "name": "Kayn",
+      "type": "champion",
+      "assetKey": "Kayn",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Darkin healing changed to 25% of damage dealt at all levels from 20–30%.; Darkin damage bonus AD ratio reduced to 10% per bonus AD from 13%|AD.",
+      "gameplayImpact": "Kayn loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "The Darkin Scythe",
+          "title": "The Darkin Scythe",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Darkin healing",
+              "before": "20–30%",
+              "after": "25% of damage dealt at all levels",
+              "note": "Darkin healing changed to 25% of damage dealt at all levels from 20–30%."
+            }
+          ]
+        },
+        {
+          "ability": "Umbral Trespass",
+          "title": "Umbral Trespass",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Darkin damage bonus AD ratio",
+              "before": "13%|AD",
+              "after": "10% per bonus AD",
+              "note": "Darkin damage bonus AD ratio reduced to 10% per bonus AD from 13%|AD."
+            },
+            {
+              "label": "Darkin heal bonus AD ratio",
+              "before": "8",
+              "after": "6.5% per 100 bonus AD",
+              "note": "Darkin heal bonus AD ratio reduced to 6.5% per 100 bonus AD from 8.45%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "kennen",
+      "name": "Kennen",
+      "type": "champion",
+      "assetKey": "Kennen",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Energy cost reduced to 80 at all ranks from 100–80.; Cooldown reduced to 120–80 (3 ranks) seconds from 120 at all ranks.",
+      "gameplayImpact": "Kennen is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Lightning Rush",
+          "title": "Lightning Rush",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Energy cost",
+              "before": "100–80",
+              "after": "80 at all ranks",
+              "note": "Energy cost reduced to 80 at all ranks from 100–80."
+            }
+          ]
+        },
+        {
+          "ability": "Slicing Maelstrom",
+          "title": "Slicing Maelstrom",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "120 at all ranks",
+              "after": "120–80 (3 ranks) seconds",
+              "note": "Cooldown reduced to 120–80 (3 ranks) seconds from 120 at all ranks."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "kogmaw",
+      "name": "Kog'Maw",
+      "type": "champion",
+      "assetKey": "KogMaw",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "No longer shows as having the maximum amount of attack speed while a corpse.",
+      "gameplayImpact": "Kog'Maw loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Icathian Surprise",
+          "title": "Icathian Surprise",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Character swap to the exploded Kog'Maw model is no longer partially overriding his champion statistics."
+            },
+            {
+              "label": "Change",
+              "note": "No longer shows as having the maximum amount of attack speed while a corpse."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "lee-sin",
+      "name": "Lee Sin",
+      "type": "champion",
+      "assetKey": "LeeSin",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Updated ability icons.",
+      "gameplayImpact": "Lee Sin was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Updated ability icons."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "leona",
+      "name": "Leona",
+      "type": "champion",
+      "assetKey": "Leona",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Updated ability icons.",
+      "gameplayImpact": "Leona was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Updated ability icons."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "malphite",
+      "name": "Malphite",
+      "type": "champion",
+      "assetKey": "Malphite",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Updated ability icons.",
+      "gameplayImpact": "Malphite was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Updated ability icons."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "nami",
+      "name": "Nami",
+      "type": "champion",
+      "assetKey": "Nami",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Updated ability icons.",
+      "gameplayImpact": "Nami was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Updated ability icons."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "olaf",
+      "name": "Olaf",
+      "type": "champion",
+      "assetKey": "Olaf",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Updated ability icons.",
+      "gameplayImpact": "Olaf was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Updated ability icons."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "rell",
+      "name": "Rell",
+      "type": "champion",
+      "assetKey": "Rell",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Bonus movement speed reduced to 12–20% from 15–25%.; Increased bonus movement speed reduced to 24–40% from 30–50%.",
+      "gameplayImpact": "Rell loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Full Tilt",
+          "title": "Full Tilt",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Bonus movement speed",
+              "before": "15–25%",
+              "after": "12–20%",
+              "note": "Bonus movement speed reduced to 12–20% from 15–25%."
+            },
+            {
+              "label": "Increased bonus movement speed",
+              "before": "30–50%",
+              "after": "24–40%",
+              "note": "Increased bonus movement speed reduced to 24–40% from 30–50%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "senna",
+      "name": "Senna",
+      "type": "champion",
+      "assetKey": "Senna",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Critical strike damage increased to 100% from 91.5%.; New Effect: Area of effect spread now applies a stack of Absolution|Mist}} to champions hit.",
+      "gameplayImpact": "Senna is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Basic Attack",
+          "title": "Basic Attack",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Critical strike damage",
+              "before": "91",
+              "after": "100%",
+              "note": "Critical strike damage increased to 100% from 91.5%."
+            }
+          ]
+        },
+        {
+          "ability": "Last Embrace",
+          "title": "Last Embrace",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Area of effect spread now applies a stack of Absolution|Mist}} to champions hit."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "thresh",
+      "name": "Thresh",
+      "type": "champion",
+      "assetKey": "Thresh",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Shield strength per soul increased to 2 from 1.5.",
+      "gameplayImpact": "Thresh is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Dark Passage",
+          "title": "Dark Passage",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Shield strength per soul",
+              "before": "1",
+              "after": "2",
+              "note": "Shield strength per soul increased to 2 from 1.5."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "tryndamere",
+      "name": "Tryndamere",
+      "type": "champion",
+      "assetKey": "Tryndamere",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base attack damage reduced to 66 from 68.; Health growth reduced to 108 from 115.",
+      "gameplayImpact": "Tryndamere loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base attack damage",
+              "before": "68",
+              "after": "66",
+              "note": "Base attack damage reduced to 66 from 68."
+            },
+            {
+              "label": "Health growth",
+              "before": "115",
+              "after": "108",
+              "note": "Health growth reduced to 108 from 115."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "varus",
+      "name": "Varus",
+      "type": "champion",
+      "assetKey": "Varus",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Updated ability icons.",
+      "gameplayImpact": "Varus was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Updated ability icons."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "vayne",
+      "name": "Vayne",
+      "type": "champion",
+      "assetKey": "Vayne",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Updated ability icons.",
+      "gameplayImpact": "Vayne was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Updated ability icons."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "xayah",
+      "name": "Xayah",
+      "type": "champion",
+      "assetKey": "Xayah",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Base health reduced to 630 from 660.; Health growth increased to 107 from 102.",
+      "gameplayImpact": "Xayah was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base health",
+              "before": "660",
+              "after": "630",
+              "note": "Base health reduced to 630 from 660."
+            },
+            {
+              "label": "Health growth",
+              "before": "102",
+              "after": "107",
+              "note": "Health growth increased to 107 from 102."
+            }
+          ]
+        },
+        {
+          "ability": "Bladecaller",
+          "title": "Bladecaller",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "11–9",
+              "after": "13–9 seconds",
+              "note": "Cooldown increased to 13–9 seconds from 11–9."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "zed",
+      "name": "Zed",
+      "type": "champion",
+      "assetKey": "Zed",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Updated ability icons.",
+      "gameplayImpact": "Zed was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Updated ability icons."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "crown-of-the-shattered-queen",
+      "name": "Crown of the Shattered Queen",
+      "type": "item",
+      "assetKey": "664644",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Ability power increased to 85 from 70.; Safeguard damage reduction reduced to 40% from 75%.",
+      "gameplayImpact": "Crown of the Shattered Queen was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Ability power",
+              "before": "70",
+              "after": "85",
+              "note": "Ability power increased to 85 from 70."
+            },
+            {
+              "label": "Safeguard damage reduction",
+              "before": "75%",
+              "after": "40%",
+              "note": "Safeguard damage reduction reduced to 40% from 75%."
+            },
+            {
+              "label": "Safeguard linger duration",
+              "before": "1",
+              "after": "2.5 seconds",
+              "note": "Safeguard linger duration increased to 2.5 seconds from 1.5."
+            },
+            {
+              "label": "Change",
+              "note": "Removed Unique Passive - Poise: While Safeguarded, gain 10–40 ability power, lingering for 3 seconds after Safeguard is deactivated."
+            },
+            {
+              "label": "Caesura}} ability power",
+              "before": "90",
+              "after": "105",
+              "note": "Caesura}} ability power increased to 105 from 90."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "spear-of-shojin",
+      "name": "Spear of Shojin",
+      "type": "item",
+      "assetKey": "3161",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Attack damage reduced to 55 from 60.",
+      "gameplayImpact": "Spear of Shojin loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Attack damage",
+              "before": "60",
+              "after": "55",
+              "note": "Attack damage reduced to 55 from 60."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "statikk-shiv",
+      "name": "Statikk Shiv",
+      "type": "item",
+      "assetKey": "3087",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Attack damage increased to 50 from 45.; Minion damage reduced to 200 at all levels from 250–350.",
+      "gameplayImpact": "Statikk Shiv was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Attack damage",
+              "before": "45",
+              "after": "50",
+              "note": "Attack damage increased to 50 from 45."
+            },
+            {
+              "label": "Minion damage",
+              "before": "250–350",
+              "after": "200 at all levels",
+              "note": "Minion damage reduced to 200 at all levels from 250–350."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "stormrazor",
+      "name": "Stormrazor",
+      "type": "item",
+      "assetKey": "3097",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Attack damage increased to 55 from 50.",
+      "gameplayImpact": "Stormrazor is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Attack damage",
+              "before": "50",
+              "after": "55",
+              "note": "Attack damage increased to 55 from 50."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "systems": [],
+  "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-13-18-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V13.18"
+}

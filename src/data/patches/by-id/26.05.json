@@ -1,0 +1,772 @@
+{
+  "id": "26.05",
+  "version": "26.05",
+  "title": "Arise my purple magic golems!",
+  "releaseDate": "2026-03-04",
+  "season": "26",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "Arise my purple magic golems!"
+    },
+    {
+      "title": "Champion balance",
+      "description": "4 champion buffs, 3 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "Arise my purple magic golems! Structured changes across 17 entities this patch.",
+  "champions": [
+    {
+      "id": "akali",
+      "name": "Akali",
+      "type": "champion",
+      "assetKey": "Akali",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Restealth timer changed to 1–0.625 from 1–0.625. Formula changed.",
+      "gameplayImpact": "Akali was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Twilight Shroud",
+          "title": "Twilight Shroud",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Restealth timer",
+              "before": "1–0",
+              "after": "1–0.625",
+              "note": "Restealth timer changed to 1–0.625 from 1–0.625. Formula changed."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "azir",
+      "name": "Azir",
+      "type": "champion",
+      "assetKey": "Azir",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Health growth reduced to 108 from 119.",
+      "gameplayImpact": "Azir loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Health growth",
+              "before": "119",
+              "after": "108",
+              "note": "Health growth reduced to 108 from 119."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "garen",
+      "name": "Garen",
+      "type": "champion",
+      "assetKey": "Garen",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Bonus movement speed duration increased to 1.4–3.6 seconds from 1–3.6.; AD ratio per spin increased to 40–52% AD from 38–50% AD.",
+      "gameplayImpact": "Garen is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Decisive Strike",
+          "title": "Decisive Strike",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus movement speed duration",
+              "before": "1–3",
+              "after": "1.4–3.6 seconds",
+              "note": "Bonus movement speed duration increased to 1.4–3.6 seconds from 1–3.6."
+            }
+          ]
+        },
+        {
+          "ability": "Judgment",
+          "title": "Judgment",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AD ratio per spin",
+              "before": "38–50% AD",
+              "after": "40–52% AD",
+              "note": "AD ratio per spin increased to 40–52% AD from 38–50% AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "khazix",
+      "name": "Kha'Zix",
+      "type": "champion",
+      "assetKey": "Khazix",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Movement speed reduced to 345 from 350.; Bonus AD ratio reduced to 105% bonus AD from 110%|AD.",
+      "gameplayImpact": "Kha'Zix loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Movement speed",
+              "before": "350",
+              "after": "345",
+              "note": "Movement speed reduced to 345 from 350."
+            }
+          ]
+        },
+        {
+          "ability": "Taste Their Fear",
+          "title": "Taste Their Fear",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Bonus AD ratio",
+              "before": "110%|AD",
+              "after": "105% bonus AD",
+              "note": "Bonus AD ratio reduced to 105% bonus AD from 110%|AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "lee-sin",
+      "name": "Lee Sin",
+      "type": "champion",
+      "assetKey": "LeeSin",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base damage increased to 65–185 from 60–180.; Minimum base damage increased to 65–185 from 60–180.",
+      "gameplayImpact": "Lee Sin is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Sonic Wave",
+          "title": "Sonic Wave",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "60–180",
+              "after": "65–185",
+              "note": "Base damage increased to 65–185 from 60–180."
+            }
+          ]
+        },
+        {
+          "ability": "Resonating Strike",
+          "title": "Resonating Strike",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Minimum base damage",
+              "before": "60–180",
+              "after": "65–185",
+              "note": "Minimum base damage increased to 65–185 from 60–180."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "lillia",
+      "name": "Lillia",
+      "type": "champion",
+      "assetKey": "Lillia",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Monster heal AP ratio increased to 15% AP from 9% AP.; AP ratio increased to 35% AP from 30% AP.",
+      "gameplayImpact": "Lillia was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Dream-Laden Bough",
+          "title": "Dream-Laden Bough",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Monster heal AP ratio",
+              "before": "9% AP",
+              "after": "15% AP",
+              "note": "Monster heal AP ratio increased to 15% AP from 9% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Blooming Blows",
+          "title": "Blooming Blows",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "30% AP",
+              "after": "35% AP",
+              "note": "AP ratio increased to 35% AP from 30% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Lilting Lullaby",
+          "title": "Lilting Lullaby",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "150–250 (3 ranks)",
+              "after": "100–200 (3 ranks)",
+              "note": "Base damage reduced to 100–200 (3 ranks) from 150–250 (3 ranks)."
+            },
+            {
+              "label": "AP ratio",
+              "before": "45% AP",
+              "after": "40% AP",
+              "note": "AP ratio reduced to 40% AP from 45% AP."
+            },
+            {
+              "label": "Cooldown",
+              "before": "140–100 (3 ranks)",
+              "after": "150–110 (3 ranks) seconds",
+              "note": "Cooldown increased to 150–110 (3 ranks) seconds from 140–100 (3 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "mel",
+      "name": "Mel",
+      "type": "champion",
+      "assetKey": "Mel",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Minion damage reduced to 50% from 60%.; Base damage per explosion increased to 5–13 from 5–9.",
+      "gameplayImpact": "Mel was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Searing Brilliance",
+          "title": "Searing Brilliance",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Minion damage",
+              "before": "60%",
+              "after": "50%",
+              "note": "Minion damage reduced to 50% from 60%."
+            }
+          ]
+        },
+        {
+          "ability": "Radiant Volley",
+          "title": "Radiant Volley",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage per explosion",
+              "before": "5–9",
+              "after": "5–13",
+              "note": "Base damage per explosion increased to 5–13 from 5–9."
+            }
+          ]
+        },
+        {
+          "ability": "Golden Eclipse",
+          "title": "Golden Eclipse",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "100–200 (3 ranks)",
+              "after": "125–275 (3 ranks)",
+              "note": "Base damage increased to 125–275 (3 ranks) from 100–200 (3 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "neeko",
+      "name": "Neeko",
+      "type": "champion",
+      "assetKey": "Neeko",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "New Effect: Cooldown now starts after clone expires.; Removed: Can no longer use Ctrl+5, which plays the joke expression for clone only.",
+      "gameplayImpact": "Neeko was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Shapesplitter",
+          "title": "Shapesplitter",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Cooldown now starts after clone expires."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: Can no longer use Ctrl+5, which plays the joke expression for clone only."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "nocturne",
+      "name": "Nocturne",
+      "type": "champion",
+      "assetKey": "Nocturne",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Cooldown reduced to 12 seconds from 13.; Bonus movement speed increased to 20–40% from 15–35%.",
+      "gameplayImpact": "Nocturne is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Umbra Blades",
+          "title": "Umbra Blades",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "13",
+              "after": "12 seconds",
+              "note": "Cooldown reduced to 12 seconds from 13."
+            }
+          ]
+        },
+        {
+          "ability": "Duskbringer",
+          "title": "Duskbringer",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus movement speed",
+              "before": "15–35%",
+              "after": "20–40%",
+              "note": "Bonus movement speed increased to 20–40% from 15–35%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "orianna",
+      "name": "Orianna",
+      "type": "champion",
+      "assetKey": "Orianna",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Cooldown increased to 7–3 seconds from 6–3.",
+      "gameplayImpact": "Orianna loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Command: Attack",
+          "title": "Command: Attack",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "6–3",
+              "after": "7–3 seconds",
+              "note": "Cooldown increased to 7–3 seconds from 6–3."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "samira",
+      "name": "Samira",
+      "type": "champion",
+      "assetKey": "Samira",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Now does multiple additional checks to see if there are units on both the right and left of her. If there are, and importantly if there are no units far in front of her, she will use Sword Q. If a unit is far in front…",
+      "gameplayImpact": "Samira was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Flair",
+          "title": "Flair",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Now does multiple additional checks to see if there are units on both the right and left of her. If there are, and importantly if there are no units far in front of her, she will use Sword Q. If a unit is far in front of her, she will still use Gun Q regardless of units on the right and left."
+            },
+            {
+              "label": "Change",
+              "note": "Is now properly sealed during her passive. This resolves a case where it can go on cooldown despite not being used if pressed during her passive's animation. This also applies to an instance where her ultimate was cast after her W."
+            },
+            {
+              "label": "Change",
+              "note": "Now does a check to see if the enemy is walking away from her and in the very last part of her Sword Q's range. If so, she will instead use Gun Q. This should resolve the extreme cases where champions can simply walk away from her Q at very low move speed. Higher move speeds will still likely be able to do so, rightfully."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "taliyah",
+      "name": "Taliyah",
+      "type": "champion",
+      "assetKey": "Taliyah",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Base damage reduced to 50–120 from 55–125.; Bonus monster damage increased to 23–43 from 20–40.",
+      "gameplayImpact": "Taliyah was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Threaded Volley",
+          "title": "Threaded Volley",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "55–125",
+              "after": "50–120",
+              "note": "Base damage reduced to 50–120 from 55–125."
+            },
+            {
+              "label": "Bonus monster damage",
+              "before": "20–40",
+              "after": "23–43",
+              "note": "Bonus monster damage increased to 23–43 from 20–40."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "varus",
+      "name": "Varus",
+      "type": "champion",
+      "assetKey": "Varus",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Maximum base damage reduced to 80–360 from 80–400.; Maximum bonus AD ratio changed to 150% bonus AD at all ranks from 130–170%|AD.",
+      "gameplayImpact": "Varus was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Piercing Arrow",
+          "title": "Piercing Arrow",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Maximum base damage",
+              "before": "80–400",
+              "after": "80–360",
+              "note": "Maximum base damage reduced to 80–360 from 80–400."
+            },
+            {
+              "label": "Maximum bonus AD ratio",
+              "before": "130–170%|AD",
+              "after": "150% bonus AD at all ranks",
+              "note": "Maximum bonus AD ratio changed to 150% bonus AD at all ranks from 130–170%|AD."
+            }
+          ]
+        },
+        {
+          "ability": "Blighted Quiver",
+          "title": "Blighted Quiver",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: On-hit damage now scales with 15% bonus AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "volibear",
+      "name": "Volibear",
+      "type": "champion",
+      "assetKey": "Volibear",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Bonus AD ratio increased to 160% bonus AD from 140%|AD.; Wounded bonus AD ratio increased to 25% per 100 bonus AD from 15%|AD.",
+      "gameplayImpact": "Volibear is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Thundering Smash",
+          "title": "Thundering Smash",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus AD ratio",
+              "before": "140%|AD",
+              "after": "160% bonus AD",
+              "note": "Bonus AD ratio increased to 160% bonus AD from 140%|AD."
+            }
+          ]
+        },
+        {
+          "ability": "Frenzied Maul",
+          "title": "Frenzied Maul",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Wounded bonus AD ratio",
+              "before": "15%|AD",
+              "after": "25% per 100 bonus AD",
+              "note": "Wounded bonus AD ratio increased to 25% per 100 bonus AD from 15%|AD."
+            },
+            {
+              "label": "Mana cost",
+              "before": "30–50",
+              "after": "20–40",
+              "note": "Mana cost reduced to 20–40 from 30–50."
+            }
+          ]
+        },
+        {
+          "ability": "Sky Splitter",
+          "title": "Sky Splitter",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Mana cost",
+              "before": "60",
+              "after": "50",
+              "note": "Mana cost reduced to 50 from 60."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "hubris",
+      "name": "Hubris",
+      "type": "item",
+      "assetKey": "6697",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Total cost reduced to from .; Combine cost reduced to from .",
+      "gameplayImpact": "Hubris is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Total cost reduced to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Combine cost reduced to from ."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "locket-of-the-iron-solari",
+      "name": "Locket of the Iron Solari",
+      "type": "item",
+      "assetKey": "323190",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Shield increased to 290–360 from 200–360.",
+      "gameplayImpact": "Locket of the Iron Solari is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Shield",
+              "before": "200–360",
+              "after": "290–360",
+              "note": "Shield increased to 290–360 from 200–360."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "id": "arena",
+      "name": "Arena",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "buff",
+      "severity": 3,
+      "tldr": "Guests of Honor; Mordekaiser Guest",
+      "gameplayImpact": "Arena is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Guests of Honor"
+            },
+            {
+              "label": "Change",
+              "note": "Mordekaiser Guest"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Fixed Mordekaiser Guest of Honor not working on occasions."
+            },
+            {
+              "label": "Change",
+              "note": "Cosmic Drive"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Fixed Cosmic Drive tooltip."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Fixed Cosmic Drive not giving the right amount of movement speed."
+            },
+            {
+              "label": "Change",
+              "note": "Aim for the Head"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Fixed Atma's Reckoning}} breaking the critical strike chance cap on Aim for the Head."
+            },
+            {
+              "label": "Change",
+              "note": "Buff Buddies"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Fixed Buff Buddies tooltip."
+            },
+            {
+              "label": "Change",
+              "note": "Multitool"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Fixed Multitool removing items unexpectedly when inventory is full."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Fixed Multitool removing items unexpectedly when it was moved around in your item slot in between rounds."
+            },
+            {
+              "label": "Change",
+              "note": "Righteous Fury"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Cleaned up Righteous Fury VFX between rounds."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-5-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V26.05"
+}

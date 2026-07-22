@@ -1,0 +1,1070 @@
+{
+  "id": "25.21",
+  "version": "25.21",
+  "title": "There's mayhem on the Howling Abyss!",
+  "releaseDate": "2025-10-22",
+  "season": "25",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "There's mayhem on the Howling Abyss!"
+    },
+    {
+      "title": "Champion balance",
+      "description": "4 champion buffs, 4 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "There's mayhem on the Howling Abyss! Structured changes across 22 entities this patch.",
+  "champions": [
+    {
+      "id": "bard",
+      "name": "Bard",
+      "type": "champion",
+      "assetKey": "Bard",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Minimum heal AP ratio increased to 40% AP from 30% AP.; Charged heal AP ratio increased to 70% AP from 60% AP.",
+      "gameplayImpact": "Bard is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Caretaker's Shrine",
+          "title": "Caretaker's Shrine",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Minimum heal AP ratio",
+              "before": "30% AP",
+              "after": "40% AP",
+              "note": "Minimum heal AP ratio increased to 40% AP from 30% AP."
+            },
+            {
+              "label": "Charged heal AP ratio",
+              "before": "60% AP",
+              "after": "70% AP",
+              "note": "Charged heal AP ratio increased to 70% AP from 60% AP."
+            },
+            {
+              "label": "Bonus movement speed AP ratio",
+              "before": "5% per 100 AP",
+              "after": "6% per 100 AP",
+              "note": "Bonus movement speed AP ratio increased to 6% per 100 AP from 5% per 100 AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "diana",
+      "name": "Diana",
+      "type": "champion",
+      "assetKey": "Diana",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Cleave monster damage reduced to 280% from 300%.",
+      "gameplayImpact": "Diana loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Moonsilver Blade",
+          "title": "Moonsilver Blade",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Cleave monster damage",
+              "before": "300%",
+              "after": "280%",
+              "note": "Cleave monster damage reduced to 280% from 300%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "dr-mundo",
+      "name": "Dr. Mundo",
+      "type": "champion",
+      "assetKey": "DrMundo",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Armor growth increased to 4.5 from 3.7.; Active minimum health ratio reduced to 5% bonus health from 7%|hp.",
+      "gameplayImpact": "Dr. Mundo was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Armor growth",
+              "before": "3",
+              "after": "4.5",
+              "note": "Armor growth increased to 4.5 from 3.7."
+            }
+          ]
+        },
+        {
+          "ability": "Blunt Force Trauma",
+          "title": "Blunt Force Trauma",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Active minimum health ratio",
+              "before": "7%|hp",
+              "after": "5% bonus health",
+              "note": "Active minimum health ratio reduced to 5% bonus health from 7%|hp."
+            },
+            {
+              "label": "Active maximum health ratio",
+              "before": "9",
+              "after": "7% bonus health",
+              "note": "Active maximum health ratio reduced to 7% bonus health from 9.8%|hp."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "ezreal",
+      "name": "Ezreal",
+      "type": "champion",
+      "assetKey": "Ezreal",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Attack damage growth increased to 3.25 from 2.75.",
+      "gameplayImpact": "Ezreal is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Attack damage growth",
+              "before": "2",
+              "after": "3.25",
+              "note": "Attack damage growth increased to 3.25 from 2.75."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "graves",
+      "name": "Graves",
+      "type": "champion",
+      "assetKey": "Graves",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Base magic resistance reduced to 30 from 32.; Magic resistance growth reduced to 1.3 from 2.05.",
+      "gameplayImpact": "Graves was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base magic resistance",
+              "before": "32",
+              "after": "30",
+              "note": "Base magic resistance reduced to 30 from 32."
+            },
+            {
+              "label": "Magic resistance growth",
+              "before": "2",
+              "after": "1.3",
+              "note": "Magic resistance growth reduced to 1.3 from 2.05."
+            }
+          ]
+        },
+        {
+          "ability": "Quickdraw",
+          "title": "Quickdraw",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: True Grit stacks now also grant bonus magic resistance equal to 50% of the bonus armor gained."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "gwen",
+      "name": "Gwen",
+      "type": "champion",
+      "assetKey": "Gwen",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Base health increased to 620 from 600.; Health growth increased to 115 from 110.",
+      "gameplayImpact": "Gwen was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base health",
+              "before": "600",
+              "after": "620",
+              "note": "Base health increased to 620 from 600."
+            },
+            {
+              "label": "Health growth",
+              "before": "110",
+              "after": "115",
+              "note": "Health growth increased to 115 from 110."
+            },
+            {
+              "label": "Base armor",
+              "before": "33",
+              "after": "39",
+              "note": "Base armor increased to 39 from 33."
+            },
+            {
+              "label": "Attack speed growth",
+              "before": "2",
+              "after": "2.25%",
+              "note": "Attack speed growth reduced to 2.25% from 2.5%."
+            }
+          ]
+        },
+        {
+          "ability": "A Thousand Cuts",
+          "title": "A Thousand Cuts",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Damage AP ratio",
+              "before": "0",
+              "after": "0.6% per 100 AP",
+              "note": "Damage AP ratio increased to 0.6% per 100 AP from 0.55% per 100 AP."
+            }
+          ]
+        },
+        {
+          "ability": "Snip Snip!",
+          "title": "Snip Snip!",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AP ratio per small snip",
+              "before": "2% AP",
+              "after": "5% AP",
+              "note": "AP ratio per small snip increased to 5% AP from 2% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Hallowed Mist",
+          "title": "Hallowed Mist",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base bonus resistances",
+              "before": "22 at all ranks",
+              "after": "22–30",
+              "note": "Base bonus resistances increased to 22–30 from 22 at all ranks."
+            },
+            {
+              "label": "Cooldown",
+              "before": "24–18",
+              "after": "22–18 seconds",
+              "note": "Cooldown reduced to 22–18 seconds from 24–18."
+            }
+          ]
+        },
+        {
+          "ability": "Skip 'n Slash",
+          "title": "Skip 'n Slash",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base on-hit damage",
+              "before": "8–20",
+              "after": "15 at all ranks",
+              "note": "Base on-hit damage changed to 15 at all ranks from 8–20."
+            },
+            {
+              "label": "On-hit AP ratio",
+              "before": "25% AP",
+              "after": "20% AP",
+              "note": "On-hit AP ratio reduced to 20% AP from 25% AP."
+            },
+            {
+              "label": "Cooldown",
+              "before": "12–8",
+              "after": "13–11 seconds",
+              "note": "Cooldown increased to 13–11 seconds from 12–8."
+            },
+            {
+              "label": "Cooldown refund",
+              "before": "50% at all ranks",
+              "after": "25–65%",
+              "note": "Cooldown refund changed to 25–65% from 50% at all ranks."
+            }
+          ]
+        },
+        {
+          "ability": "Needlework",
+          "title": "Needlework",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage per needle",
+              "before": "30–90 (3 ranks)",
+              "after": "35–95 (3 ranks)",
+              "note": "Base damage per needle increased to 35–95 (3 ranks) from 30–90 (3 ranks)."
+            },
+            {
+              "label": "AP ratio per needle",
+              "before": "8% AP",
+              "after": "10% AP",
+              "note": "AP ratio per needle increased to 10% AP from 8% AP."
+            },
+            {
+              "label": "Initial slow strength",
+              "before": "30–60 (3 ranks)%",
+              "after": "40–60 (3 ranks)%",
+              "note": "Initial slow strength increased to 40–60 (3 ranks)% from 30–60 (3 ranks)%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "kalista",
+      "name": "Kalista",
+      "type": "champion",
+      "assetKey": "Kalista",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Attack damage growth increased to 4.75 from 4.25.",
+      "gameplayImpact": "Kalista is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Attack damage growth",
+              "before": "4",
+              "after": "4.75",
+              "note": "Attack damage growth increased to 4.75 from 4.25."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "kogmaw",
+      "name": "Kog'Maw",
+      "type": "champion",
+      "assetKey": "KogMaw",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Bonus attack speed reduced to 5–25% from 10–30%.",
+      "gameplayImpact": "Kog'Maw loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Caustic Spittle",
+          "title": "Caustic Spittle",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Bonus attack speed",
+              "before": "10–30%",
+              "after": "5–25%",
+              "note": "Bonus attack speed reduced to 5–25% from 10–30%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "morgana",
+      "name": "Morgana",
+      "type": "champion",
+      "assetKey": "Morgana",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Armor growth reduced to 4.2 from 5.",
+      "gameplayImpact": "Morgana loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Armor growth",
+              "before": "5",
+              "after": "4.2",
+              "note": "Armor growth reduced to 4.2 from 5."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "qiyana",
+      "name": "Qiyana",
+      "type": "champion",
+      "assetKey": "Qiyana",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Health growth reduced to 121 from 124.; Bonus AD ratio reduced to 85% bonus AD from 90%|AD.",
+      "gameplayImpact": "Qiyana loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Health growth",
+              "before": "124",
+              "after": "121",
+              "note": "Health growth reduced to 121 from 124."
+            },
+            {
+              "label": "Bonus AD ratio",
+              "before": "90%|AD",
+              "after": "85% bonus AD",
+              "note": "Bonus AD ratio reduced to 85% bonus AD from 90%|AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "quinn",
+      "name": "Quinn",
+      "type": "champion",
+      "assetKey": "Quinn",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Bonus AD ratio reduced to 80–100% bonus AD from 80–120%|ad.; New Effect: Now deals 60–120 (3 ranks) base damage.",
+      "gameplayImpact": "Quinn was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Blinding Assault",
+          "title": "Blinding Assault",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Bonus AD ratio",
+              "before": "80–120%|ad",
+              "after": "80–100% bonus AD",
+              "note": "Bonus AD ratio reduced to 80–100% bonus AD from 80–120%|ad."
+            }
+          ]
+        },
+        {
+          "ability": "Skystrike",
+          "title": "Skystrike",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Now deals 60–120 (3 ranks) base damage."
+            },
+            {
+              "label": "AD ratio",
+              "before": "70% total AD",
+              "after": "35% bonus AD",
+              "note": "AD ratio changed to 35% bonus AD from 70% total AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "xin-zhao",
+      "name": "Xin Zhao",
+      "type": "champion",
+      "assetKey": "XinZhao",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Adjusted splash artwork for .",
+      "gameplayImpact": "Xin Zhao was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Adjusted splash artwork for ."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "yone",
+      "name": "Yone",
+      "type": "champion",
+      "assetKey": "Yone",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base attack damage increased to 62 from 60.",
+      "gameplayImpact": "Yone is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base attack damage",
+              "before": "60",
+              "after": "62",
+              "note": "Base attack damage increased to 62 from 60."
+            }
+          ]
+        },
+        {
+          "ability": "Spirit Cleave",
+          "title": "Spirit Cleave",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Buffering Mortal Steel}} or Soul Unbound}} while casting Spirit Cleave no longer causes them to be cast in Yone's facing direction."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "yunara",
+      "name": "Yunara",
+      "type": "champion",
+      "assetKey": "Yunara",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Impact base damage increased to 55–215 from 5–105.; Impact AD ratio changed to 85% bonus AD from 85% total AD.",
+      "gameplayImpact": "Yunara was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Cultivation of Spirit",
+          "title": "Cultivation of Spirit",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Stack counter is now visible to spectators in Spectator Mode."
+            }
+          ]
+        },
+        {
+          "ability": "Arc of Judgment",
+          "title": "Arc of Judgment",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Impact base damage",
+              "before": "5–105",
+              "after": "55–215",
+              "note": "Impact base damage increased to 55–215 from 5–105."
+            },
+            {
+              "label": "Impact AD ratio",
+              "before": "85% total AD",
+              "after": "85% bonus AD",
+              "note": "Impact AD ratio changed to 85% bonus AD from 85% total AD."
+            },
+            {
+              "label": "Change",
+              "note": "Linger damage is now 60% of impact damage instead of explicit."
+            },
+            {
+              "label": "Linger base damage per second",
+              "before": "5–65",
+              "after": "33–129",
+              "note": "Linger base damage per second increased to 33–129 from 5–65."
+            },
+            {
+              "label": "Linger AD ratio per second",
+              "before": "40% total AD",
+              "after": "51% bonus AD",
+              "note": "Linger AD ratio per second changed to 51% bonus AD from 40% total AD."
+            },
+            {
+              "label": "Linger AP ratio per second",
+              "before": "25% AP",
+              "after": "30% AP",
+              "note": "Linger AP ratio per second increased to 30% AP from 25% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Arc of Ruin",
+          "title": "Arc of Ruin",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "50–350 (lv 1–3)",
+              "after": "175–525 (lv 1–3)",
+              "note": "Base damage increased to 175–525 (lv 1–3) from 50–350 (lv 1–3)."
+            },
+            {
+              "label": "AD ratio",
+              "before": "175% total AD",
+              "after": "150% bonus AD",
+              "note": "AD ratio changed to 150% bonus AD from 175% total AD."
+            }
+          ]
+        },
+        {
+          "ability": "Kanmei's Steps",
+          "title": "Kanmei's Steps",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Removed: Bonus movement speed no longer decays over the duration."
+            },
+            {
+              "label": "Cooldown",
+              "before": "7",
+              "after": "9 seconds",
+              "note": "Cooldown increased to 9 seconds from 7.5."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Increased bonus movement speed when facing enemies is now properly removed upon turning away (and re-gained upon facing them again)."
+            }
+          ]
+        },
+        {
+          "ability": "Untouchable Shadow",
+          "title": "Untouchable Shadow",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "7",
+              "after": "9 seconds",
+              "note": "Cooldown increased to 9 seconds from 7.5."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "catalyst-of-aeons",
+      "name": "Catalyst of Aeons",
+      "type": "item",
+      "assetKey": "3803",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Health reduced to 300 from 350.",
+      "gameplayImpact": "Catalyst of Aeons loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Health",
+              "before": "350",
+              "after": "300",
+              "note": "Health reduced to 300 from 350."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "dorans-blade",
+      "name": "Doran's Blade",
+      "type": "item",
+      "assetKey": "1055",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Life steal reduced to 0% from 3%.; New Unique Passive - Life Draining: healing for 2.5% of damage dealt, reduced to 33.3% effectiveness for area of effect and pet damage spells.",
+      "gameplayImpact": "Doran's Blade loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Life steal",
+              "before": "3%",
+              "after": "0%",
+              "note": "Life steal reduced to 0% from 3%."
+            },
+            {
+              "label": "Change",
+              "note": "New Unique Passive - Life Draining: healing for 2.5% of damage dealt, reduced to 33.3% effectiveness for area of effect and pet damage spells."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "dorans-ring",
+      "name": "Doran's Ring",
+      "type": "item",
+      "assetKey": "1056",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Removed Unique Passive - Restoration: Restore 1.25 mana every second. If you cannot gain mana, healing 0.55 health instead.; New Unique Passive - Drain: Restore 1 mana every second. Dealing damage to an enemy champion…",
+      "gameplayImpact": "Doran's Ring loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Removed Unique Passive - Restoration: Restore 1.25 mana every second. If you cannot gain mana, healing 0.55 health instead."
+            },
+            {
+              "label": "Change",
+              "note": "New Unique Passive - Drain: Restore 1 mana every second. Dealing damage to an enemy champion increases the restoration to 2 mana for the next 5 seconds. If you cannot gain mana, healing for 45% of the value instead."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "dorans-shield",
+      "name": "Doran's Shield",
+      "type": "item",
+      "assetKey": "1054",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Enduring Focus health regeneration reduced to from .",
+      "gameplayImpact": "Doran's Shield loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Enduring Focus health regeneration reduced to from ."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "id": "second-wind",
+      "name": "Second Wind",
+      "type": "rune",
+      "assetKey": null,
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Removed: Flat 0.3 health regeneration.",
+      "gameplayImpact": "Second Wind loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Removed: Flat 0.3 health regeneration."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "aram",
+      "name": "ARAM",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Turrets; Outer Turret",
+      "gameplayImpact": "ARAM was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Turrets"
+            },
+            {
+              "label": "Change",
+              "note": "Outer Turret"
+            },
+            {
+              "label": "Base health",
+              "before": "1700",
+              "after": "1300",
+              "note": "Base health reduced to 1300 from 1700."
+            },
+            {
+              "label": "Change",
+              "note": "Inhibitor Turret"
+            },
+            {
+              "label": "Base health",
+              "before": "3500",
+              "after": "3900",
+              "note": "Base health increased to 3900 from 3500."
+            },
+            {
+              "label": "Base attack damage",
+              "before": "195",
+              "after": "205",
+              "note": "Base attack damage increased to 205 from 195."
+            },
+            {
+              "label": "Base armor",
+              "before": "60",
+              "after": "63",
+              "note": "Base armor increased to 63 from 60."
+            },
+            {
+              "label": "Base magic resistance",
+              "before": "60",
+              "after": "63",
+              "note": "Base magic resistance increased to 63 from 60."
+            },
+            {
+              "label": "Change",
+              "note": "Butcher's Bridge"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Corrected camera snapping behavior for Chaos side players."
+            },
+            {
+              "label": "Change",
+              "note": "ARAM: Mayhem is going live with this patch. ARAM Mayhem is just like the usual 5v5 single lane goodness but at the start of each match, you'll get to choose one of three augments to kick off your build, with another choice at levels 7, 11, and 15. Just like items, you can claim them on death! (Or if you're a \"cheater\" you might find an augment that allows you to back to base to shop and claim augments)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "general",
+      "name": "General",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Turrets; Outer Turret",
+      "gameplayImpact": "General was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Turrets"
+            },
+            {
+              "label": "Change",
+              "note": "Outer Turret"
+            },
+            {
+              "label": "Base health",
+              "before": "1700",
+              "after": "1300",
+              "note": "Base health reduced to 1300 from 1700."
+            },
+            {
+              "label": "Change",
+              "note": "Inhibitor Turret"
+            },
+            {
+              "label": "Base health",
+              "before": "3500",
+              "after": "3900",
+              "note": "Base health increased to 3900 from 3500."
+            },
+            {
+              "label": "Base attack damage",
+              "before": "195",
+              "after": "205",
+              "note": "Base attack damage increased to 205 from 195."
+            },
+            {
+              "label": "Base armor",
+              "before": "60",
+              "after": "63",
+              "note": "Base armor increased to 63 from 60."
+            },
+            {
+              "label": "Base magic resistance",
+              "before": "60",
+              "after": "63",
+              "note": "Base magic resistance increased to 63 from 60."
+            },
+            {
+              "label": "Change",
+              "note": "Butcher's Bridge"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Corrected camera snapping behavior for Chaos side players."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "aram-mayhem",
+      "name": "ARAM Mayhem",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "ARAM: Mayhem is going live with this patch. ARAM Mayhem is just like the usual 5v5 single lane goodness but at the start of each match, you'll get to choose one of three augments to kick off your build, with another c…",
+      "gameplayImpact": "ARAM Mayhem was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "ARAM: Mayhem is going live with this patch. ARAM Mayhem is just like the usual 5v5 single lane goodness but at the start of each match, you'll get to choose one of three augments to kick off your build, with another choice at levels 7, 11, and 15. Just like items, you can claim them on death! (Or if you're a \"cheater\" you might find an augment that allows you to back to base to shop and claim augments)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-25-21-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V25.21"
+}

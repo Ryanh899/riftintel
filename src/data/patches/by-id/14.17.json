@@ -1,0 +1,1906 @@
+{
+  "id": "14.17",
+  "version": "14.17",
+  "title": "Miss Fortune has started a new tournament, she invited two gods... that can't be…",
+  "releaseDate": "2024-08-28",
+  "season": "14",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "Miss Fortune has started a new tournament, she invited two gods... that can't be good."
+    },
+    {
+      "title": "Champion balance",
+      "description": "6 champion buffs, 12 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "Miss Fortune has started a new tournament, she invited two gods... that can't be good. Structured changes across 25 entities this patch.",
+  "champions": [
+    {
+      "id": "ashe",
+      "name": "Ashe",
+      "type": "champion",
+      "assetKey": "Ashe",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base health reduced to 610 from 640.",
+      "gameplayImpact": "Ashe loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base health",
+              "before": "640",
+              "after": "610",
+              "note": "Base health reduced to 610 from 640."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "aurora",
+      "name": "Aurora",
+      "type": "champion",
+      "assetKey": "Aurora",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base damage reduced to 175–375 (3 ranks) from 200–450 (3 ranks).",
+      "gameplayImpact": "Aurora loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Between Worlds",
+          "title": "Between Worlds",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "200–450 (3 ranks)",
+              "after": "175–375 (3 ranks)",
+              "note": "Base damage reduced to 175–375 (3 ranks) from 200–450 (3 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "brand",
+      "name": "Brand",
+      "type": "champion",
+      "assetKey": "Brand",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "New Effect: Ablaze damage per second against non-epic monsters is now capped at 30.; Ablaze damage cap against epic monsters unchanged.",
+      "gameplayImpact": "Brand was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Blaze",
+          "title": "Blaze",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Ablaze damage per second against non-epic monsters is now capped at 30."
+            },
+            {
+              "label": "Change",
+              "note": "Ablaze damage cap against epic monsters unchanged."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Explosion now deals a maximum of 250–475 damage to monsters."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: Explosion no longer deals 50% damage to epic monsters."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "caitlyn",
+      "name": "Caitlyn",
+      "type": "champion",
+      "assetKey": "Caitlyn",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Attack speed ratio increased to 0.61 from 0.594.; Recharge reduced to 26–10 seconds from 30 (24 ranks). Now scales linearly.",
+      "gameplayImpact": "Caitlyn was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Attack speed ratio",
+              "before": "0",
+              "after": "0.61",
+              "note": "Attack speed ratio increased to 0.61 from 0.594."
+            }
+          ]
+        },
+        {
+          "ability": "Yordle Snap Trap",
+          "title": "Yordle Snap Trap",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Recharge",
+              "before": "30 (24 ranks)",
+              "after": "26–10 seconds",
+              "note": "Recharge reduced to 26–10 seconds from 30 (24 ranks). Now scales linearly."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "ezreal",
+      "name": "Ezreal",
+      "type": "champion",
+      "assetKey": "Ezreal",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base attack damage reduced to 60 from 62.",
+      "gameplayImpact": "Ezreal loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base attack damage",
+              "before": "62",
+              "after": "60",
+              "note": "Base attack damage reduced to 60 from 62."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "graves",
+      "name": "Graves",
+      "type": "champion",
+      "assetKey": "Graves",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Cooldown reduced to 13–6 seconds from 13–7.; Initial base damage increased to 45–125 from 45–105.",
+      "gameplayImpact": "Graves is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "End of the Line",
+          "title": "End of the Line",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "13–7",
+              "after": "13–6 seconds",
+              "note": "Cooldown reduced to 13–6 seconds from 13–7."
+            },
+            {
+              "label": "Initial base damage",
+              "before": "45–105",
+              "after": "45–125",
+              "note": "Initial base damage increased to 45–125 from 45–105."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "katarina",
+      "name": "Katarina",
+      "type": "champion",
+      "assetKey": "Katarina",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base damage reduced to 80–220 from 80–240; AP ratio reduced to 40% AP from 45% AP.",
+      "gameplayImpact": "Katarina loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Bouncing Blade",
+          "title": "Bouncing Blade",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "80–240",
+              "after": "80–220",
+              "note": "Base damage reduced to 80–220 from 80–240"
+            },
+            {
+              "label": "AP ratio",
+              "before": "45% AP",
+              "after": "40% AP",
+              "note": "AP ratio reduced to 40% AP from 45% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "kennen",
+      "name": "Kennen",
+      "type": "champion",
+      "assetKey": "Kennen",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "AP ratio reduced to 75% AP from 85% AP.",
+      "gameplayImpact": "Kennen loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Thundering Shuriken",
+          "title": "Thundering Shuriken",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "85% AP",
+              "after": "75% AP",
+              "note": "AP ratio reduced to 75% AP from 85% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "kindred",
+      "name": "Kindred",
+      "type": "champion",
+      "assetKey": "Kindred",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Base bonus attack speed increased to 35% from 30%.; Cooldown reduced to 14–8 seconds from 14–10.",
+      "gameplayImpact": "Kindred is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Dance of Arrows",
+          "title": "Dance of Arrows",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base bonus attack speed",
+              "before": "30%",
+              "after": "35%",
+              "note": "Base bonus attack speed increased to 35% from 30%."
+            }
+          ]
+        },
+        {
+          "ability": "Mounting Dread",
+          "title": "Mounting Dread",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "14–10",
+              "after": "14–8 seconds",
+              "note": "Cooldown reduced to 14–8 seconds from 14–10."
+            },
+            {
+              "label": "Base damage",
+              "before": "80–160",
+              "after": "80–200",
+              "note": "Base damage increased to 80–200 from 80–160."
+            },
+            {
+              "label": "Bonus AD ratio",
+              "before": "80%|ad",
+              "after": "100% bonus AD",
+              "note": "Bonus AD ratio increased to 100% bonus AD from 80%|ad."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "leblanc",
+      "name": "LeBlanc",
+      "type": "champion",
+      "assetKey": "Leblanc",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "AP ratio reduced to 40% AP from 45% AP.; Total AP ratio reduced to 80% AP from 90% AP.",
+      "gameplayImpact": "LeBlanc loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Sigil of Malice",
+          "title": "Sigil of Malice",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "45% AP",
+              "after": "40% AP",
+              "note": "AP ratio reduced to 40% AP from 45% AP."
+            },
+            {
+              "label": "Total AP ratio",
+              "before": "90% AP",
+              "after": "80% AP",
+              "note": "Total AP ratio reduced to 80% AP from 90% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Distortion",
+          "title": "Distortion",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "75% AP",
+              "after": "70% AP",
+              "note": "AP ratio reduced to 70% AP from 75% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "lillia",
+      "name": "Lillia",
+      "type": "champion",
+      "assetKey": "Lillia",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Total damage cap against monsters reduced to 70–100 from 70–150.",
+      "gameplayImpact": "Lillia loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Dream-Laden Bough",
+          "title": "Dream-Laden Bough",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Total damage cap against monsters",
+              "before": "70–150",
+              "after": "70–100",
+              "note": "Total damage cap against monsters reduced to 70–100 from 70–150."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "lissandra",
+      "name": "Lissandra",
+      "type": "champion",
+      "assetKey": "Lissandra",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base damage increased to 80–220 from 80–200.; Slow increased to 45–75 (3 ranks)% from 30 (45 ranks)%.",
+      "gameplayImpact": "Lissandra is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Ice Shard",
+          "title": "Ice Shard",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "80–200",
+              "after": "80–220",
+              "note": "Base damage increased to 80–220 from 80–200."
+            }
+          ]
+        },
+        {
+          "ability": "Frozen Tomb",
+          "title": "Frozen Tomb",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Slow",
+              "before": "30 (45 ranks)%",
+              "after": "45–75 (3 ranks)%",
+              "note": "Slow increased to 45–75 (3 ranks)% from 30 (45 ranks)%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "miss-fortune",
+      "name": "Miss Fortune",
+      "type": "champion",
+      "assetKey": "MissFortune",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Updated ability visual effects.; The following skins are affected: , , , , , , , , .",
+      "gameplayImpact": "Miss Fortune was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Updated ability visual effects."
+            },
+            {
+              "label": "Change",
+              "note": "The following skins are affected: , , , , , , , , ."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "pyke",
+      "name": "Pyke",
+      "type": "champion",
+      "assetKey": "Pyke",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base armor reduced to 43 from 47.",
+      "gameplayImpact": "Pyke loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base armor",
+              "before": "47",
+              "after": "43",
+              "note": "Base armor reduced to 43 from 47."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "rumble",
+      "name": "Rumble",
+      "type": "champion",
+      "assetKey": "Rumble",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Damage health ratio reduced to 5% of target's maximum health from 6%|hp.",
+      "gameplayImpact": "Rumble loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Junkyard Titan",
+          "title": "Junkyard Titan",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Damage health ratio",
+              "before": "6%|hp",
+              "after": "5% of target's maximum health",
+              "note": "Damage health ratio reduced to 5% of target's maximum health from 6%|hp."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "ryze",
+      "name": "Ryze",
+      "type": "champion",
+      "assetKey": "Ryze",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base damage increased to 75–155 from 70–150.; Cooldown reduced to 180–140 (3 ranks) seconds from 210–150 (3 ranks).",
+      "gameplayImpact": "Ryze is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Overload",
+          "title": "Overload",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "70–150",
+              "after": "75–155",
+              "note": "Base damage increased to 75–155 from 70–150."
+            }
+          ]
+        },
+        {
+          "ability": "Realm Warp",
+          "title": "Realm Warp",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "210–150 (3 ranks)",
+              "after": "180–140 (3 ranks) seconds",
+              "note": "Cooldown reduced to 180–140 (3 ranks) seconds from 210–150 (3 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "senna",
+      "name": "Senna",
+      "type": "champion",
+      "assetKey": "Senna",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Base heal reduced to 40–100 from 40–120.; Heal AP ratio reduced to 60% AP from 80% AP.",
+      "gameplayImpact": "Senna loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Piercing Darkness",
+          "title": "Piercing Darkness",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base heal",
+              "before": "40–120",
+              "after": "40–100",
+              "note": "Base heal reduced to 40–100 from 40–120."
+            },
+            {
+              "label": "Heal AP ratio",
+              "before": "80% AP",
+              "after": "60% AP",
+              "note": "Heal AP ratio reduced to 60% AP from 80% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Dawning Shadow",
+          "title": "Dawning Shadow",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Shield AP ratio",
+              "before": "70% AP",
+              "after": "50% AP",
+              "note": "Shield AP ratio reduced to 50% AP from 70% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "seraphine",
+      "name": "Seraphine",
+      "type": "champion",
+      "assetKey": "Seraphine",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base shield reduced to 60–140 from 60–160.; Cooldown increased to 22 seconds at all ranks from 22–18.",
+      "gameplayImpact": "Seraphine loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Surround Sound",
+          "title": "Surround Sound",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base shield",
+              "before": "60–160",
+              "after": "60–140",
+              "note": "Base shield reduced to 60–140 from 60–160."
+            },
+            {
+              "label": "Cooldown",
+              "before": "22–18",
+              "after": "22 seconds at all ranks",
+              "note": "Cooldown increased to 22 seconds at all ranks from 22–18."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "sylas",
+      "name": "Sylas",
+      "type": "champion",
+      "assetKey": "Sylas",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Damage AP ratio reduced to 60% AP from 70% AP.",
+      "gameplayImpact": "Sylas loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Kingslayer",
+          "title": "Kingslayer",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Damage AP ratio",
+              "before": "70% AP",
+              "after": "60% AP",
+              "note": "Damage AP ratio reduced to 60% AP from 70% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "twisted-fate",
+      "name": "Twisted Fate",
+      "type": "champion",
+      "assetKey": "TwistedFate",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base damage increased to 60–240 from 60–220.",
+      "gameplayImpact": "Twisted Fate is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Wild Cards",
+          "title": "Wild Cards",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "60–220",
+              "after": "60–240",
+              "note": "Base damage increased to 60–240 from 60–220."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "varus",
+      "name": "Varus",
+      "type": "champion",
+      "assetKey": "Varus",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Minimum base damage increased to 90/1.5 to 370/1.5 from 15/1.5 to 235/1.5.; Maximum base damage increased to 90–370 from 15–235.",
+      "gameplayImpact": "Varus is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Piercing Arrow",
+          "title": "Piercing Arrow",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Minimum base damage",
+              "before": "15/1",
+              "after": "90/1.5 to 370/1.5",
+              "note": "Minimum base damage increased to 90/1.5 to 370/1.5 from 15/1.5 to 235/1.5."
+            },
+            {
+              "label": "Maximum base damage",
+              "before": "15–235",
+              "after": "90–370",
+              "note": "Maximum base damage increased to 90–370 from 15–235."
+            },
+            {
+              "label": "Minimum AD ratio",
+              "before": "125/1",
+              "after": "150/1.5 to 190/1.5% bonus AD",
+              "note": "Minimum AD ratio changed to 150/1.5 to 190/1.5% bonus AD from 125/1.5 to 145/1.5% total AD."
+            },
+            {
+              "label": "Maximum AD ratio",
+              "before": "125–145% total AD",
+              "after": "150–190% bonus AD",
+              "note": "Maximum AD ratio changed to 150–190% bonus AD from 125–145% total AD."
+            }
+          ]
+        },
+        {
+          "ability": "Hail of Arrows",
+          "title": "Hail of Arrows",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus AD ratio",
+              "before": "90%|ad",
+              "after": "110% bonus AD",
+              "note": "Bonus AD ratio increased to 110% bonus AD from 90%|ad."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "celestial-opposition",
+      "name": "Celestial Opposition",
+      "type": "item",
+      "assetKey": "3869",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Blessing of the Mountain slow reduced to 50% from 60%.; Blessing of the Mountain slow duration reduced to 1.5 seconds from 2.",
+      "gameplayImpact": "Celestial Opposition loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Blessing of the Mountain slow",
+              "before": "60%",
+              "after": "50%",
+              "note": "Blessing of the Mountain slow reduced to 50% from 60%."
+            },
+            {
+              "label": "Blessing of the Mountain slow duration",
+              "before": "2",
+              "after": "1.5 seconds",
+              "note": "Blessing of the Mountain slow duration reduced to 1.5 seconds from 2."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "warmogs-armor",
+      "name": "Warmog's Armor",
+      "type": "item",
+      "assetKey": "443083",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Total cost increased to from .; Combine cost increased to from .",
+      "gameplayImpact": "Warmog's Armor loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Total cost increased to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Combine cost increased to from ."
+            },
+            {
+              "label": "Warmog's Heart bonus movement speed",
+              "before": "10%",
+              "after": "5%",
+              "note": "Warmog's Heart bonus movement speed reduced to 5% from 10%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "id": "absorb-life",
+      "name": "Absorb Life",
+      "type": "rune",
+      "assetKey": null,
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Heal reduced to 1–23 from 1+(22/17)*(x-1)*(0.7025+0.0175*(x-1)). Formula changed.",
+      "gameplayImpact": "Absorb Life loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Heal",
+              "before": "1+(22/17)*(x-1)*(0",
+              "after": "1–23",
+              "note": "Heal reduced to 1–23 from 1+(22/17)*(x-1)*(0.7025+0.0175*(x-1)). Formula changed."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "cut-down",
+      "name": "Cut Down",
+      "type": "rune",
+      "assetKey": null,
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Health threshold increased to 60% of target's maximum health from 50%|hp.",
+      "gameplayImpact": "Cut Down is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Health threshold",
+              "before": "50%|hp",
+              "after": "60% of target's maximum health",
+              "note": "Health threshold increased to 60% of target's maximum health from 50%|hp."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "fleet-footwork",
+      "name": "Fleet Footwork",
+      "type": "rune",
+      "assetKey": null,
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Base heal reduced to 5+(95/17)*(x-1)*(0.7025+0.0175*(x-1)) from 5+(115/17)*(x-1)*(0.7025+0.0175*(x-1)).; Bonus movement speed reduced to 15% from 20%.",
+      "gameplayImpact": "Fleet Footwork loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base heal",
+              "before": "5+(115/17)*(x-1)*(0",
+              "after": "5+(95/17)*(x-1)*(0.7025+0.0175*(x-1))",
+              "note": "Base heal reduced to 5+(95/17)*(x-1)*(0.7025+0.0175*(x-1)) from 5+(115/17)*(x-1)*(0.7025+0.0175*(x-1))."
+            },
+            {
+              "label": "Bonus movement speed",
+              "before": "20%",
+              "after": "15%",
+              "note": "Bonus movement speed reduced to 15% from 20%."
+            },
+            {
+              "label": "Bonus movement speed duration",
+              "before": "1",
+              "after": "1 second",
+              "note": "Bonus movement speed duration reduced to 1 second from 1.25."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "howling-abyss",
+      "name": "Howling Abyss",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "buff",
+      "severity": 3,
+      "tldr": "Ashe}}; Attack speed scaling modifier changed to +3% from +2.5%.",
+      "gameplayImpact": "Howling Abyss is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Ashe}}"
+            },
+            {
+              "label": "Attack speed scaling modifier",
+              "before": "+2",
+              "after": "+3%",
+              "note": "Attack speed scaling modifier changed to +3% from +2.5%."
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "0%",
+              "after": "+5%",
+              "note": "Outgoing damage modifier changed to +5% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Jarvan IV}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-5%",
+              "after": "0%",
+              "note": "Incoming damage modifier changed to 0% from -5%."
+            },
+            {
+              "label": "Change",
+              "note": "Karma}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "-5%",
+              "after": "0%",
+              "note": "Outgoing damage modifier changed to 0% from -5%."
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-5%",
+              "after": "0%",
+              "note": "Incoming damage modifier changed to 0% from -5%."
+            },
+            {
+              "label": "Change",
+              "note": "Nocturne}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-15%",
+              "after": "-10%",
+              "note": "Incoming damage modifier changed to -10% from -15%."
+            },
+            {
+              "label": "Change",
+              "note": "Udyr}}"
+            },
+            {
+              "label": "Tenacity",
+              "before": "+20%",
+              "after": "0%",
+              "note": "Tenacity changed to 0% from +20%."
+            },
+            {
+              "label": "Change",
+              "note": "Varus}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "-5%",
+              "after": "-2%",
+              "note": "Outgoing damage modifier changed to -2% from -5%."
+            },
+            {
+              "label": "Change",
+              "note": "Yuumi}}"
+            },
+            {
+              "label": "Healing modifier",
+              "before": "+10%",
+              "after": "0%",
+              "note": "Healing modifier changed to 0% from +10%."
+            },
+            {
+              "label": "Change",
+              "note": "Arcane Comet}}"
+            },
+            {
+              "label": "Cooldown",
+              "before": "20–8",
+              "after": "15–8 seconds",
+              "note": "Cooldown changed to 15–8 seconds from 20–8."
+            },
+            {
+              "label": "Change",
+              "note": "Bone Plating}}"
+            },
+            {
+              "label": "Cooldown",
+              "before": "55",
+              "after": "40 seconds",
+              "note": "Cooldown changed to 40 seconds from 55."
+            },
+            {
+              "label": "Change",
+              "note": "Electrocute}}"
+            },
+            {
+              "label": "Bonus AD ratio",
+              "before": "10%|AD",
+              "after": "15% bonus AD",
+              "note": "Bonus AD ratio changed to 15% bonus AD from 10%|AD."
+            },
+            {
+              "label": "AP ratio",
+              "before": "5% AP",
+              "after": "10% AP",
+              "note": "AP ratio changed to 10% AP from 5% AP."
+            },
+            {
+              "label": "Change",
+              "note": "First Strike}}"
+            },
+            {
+              "label": "Change",
+              "note": "Base gold changed to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Damage to gold changed to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Guardian}}"
+            },
+            {
+              "label": "Cooldown",
+              "before": "90–40",
+              "after": "60–30 seconds",
+              "note": "Cooldown reduced to 60–30 seconds from 90–40."
+            },
+            {
+              "label": "Change",
+              "note": "Hail of Blades}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bonus attack speed changed to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Unsealed Spellbook}}"
+            },
+            {
+              "label": "Starting cooldown",
+              "before": "360",
+              "after": "180 seconds",
+              "note": "Starting cooldown changed to 180 seconds from 360."
+            },
+            {
+              "label": "Cooldown reduction per unique summoner spell",
+              "before": "25",
+              "after": "20 seconds",
+              "note": "Cooldown reduction per unique summoner spell changed to 20 seconds from 25."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "map",
+      "name": "Map",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "buff",
+      "severity": 3,
+      "tldr": "Ashe}}; Attack speed scaling modifier changed to +3% from +2.5%.",
+      "gameplayImpact": "Map is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Ashe}}"
+            },
+            {
+              "label": "Attack speed scaling modifier",
+              "before": "+2",
+              "after": "+3%",
+              "note": "Attack speed scaling modifier changed to +3% from +2.5%."
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "0%",
+              "after": "+5%",
+              "note": "Outgoing damage modifier changed to +5% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Jarvan IV}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-5%",
+              "after": "0%",
+              "note": "Incoming damage modifier changed to 0% from -5%."
+            },
+            {
+              "label": "Change",
+              "note": "Karma}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "-5%",
+              "after": "0%",
+              "note": "Outgoing damage modifier changed to 0% from -5%."
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-5%",
+              "after": "0%",
+              "note": "Incoming damage modifier changed to 0% from -5%."
+            },
+            {
+              "label": "Change",
+              "note": "Nocturne}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-15%",
+              "after": "-10%",
+              "note": "Incoming damage modifier changed to -10% from -15%."
+            },
+            {
+              "label": "Change",
+              "note": "Udyr}}"
+            },
+            {
+              "label": "Tenacity",
+              "before": "+20%",
+              "after": "0%",
+              "note": "Tenacity changed to 0% from +20%."
+            },
+            {
+              "label": "Change",
+              "note": "Varus}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "-5%",
+              "after": "-2%",
+              "note": "Outgoing damage modifier changed to -2% from -5%."
+            },
+            {
+              "label": "Change",
+              "note": "Yuumi}}"
+            },
+            {
+              "label": "Healing modifier",
+              "before": "+10%",
+              "after": "0%",
+              "note": "Healing modifier changed to 0% from +10%."
+            },
+            {
+              "label": "Change",
+              "note": "Arcane Comet}}"
+            },
+            {
+              "label": "Cooldown",
+              "before": "20–8",
+              "after": "15–8 seconds",
+              "note": "Cooldown changed to 15–8 seconds from 20–8."
+            },
+            {
+              "label": "Change",
+              "note": "Bone Plating}}"
+            },
+            {
+              "label": "Cooldown",
+              "before": "55",
+              "after": "40 seconds",
+              "note": "Cooldown changed to 40 seconds from 55."
+            },
+            {
+              "label": "Change",
+              "note": "Electrocute}}"
+            },
+            {
+              "label": "Bonus AD ratio",
+              "before": "10%|AD",
+              "after": "15% bonus AD",
+              "note": "Bonus AD ratio changed to 15% bonus AD from 10%|AD."
+            },
+            {
+              "label": "AP ratio",
+              "before": "5% AP",
+              "after": "10% AP",
+              "note": "AP ratio changed to 10% AP from 5% AP."
+            },
+            {
+              "label": "Change",
+              "note": "First Strike}}"
+            },
+            {
+              "label": "Change",
+              "note": "Base gold changed to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Damage to gold changed to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Guardian}}"
+            },
+            {
+              "label": "Cooldown",
+              "before": "90–40",
+              "after": "60–30 seconds",
+              "note": "Cooldown reduced to 60–30 seconds from 90–40."
+            },
+            {
+              "label": "Change",
+              "note": "Hail of Blades}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bonus attack speed changed to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Unsealed Spellbook}}"
+            },
+            {
+              "label": "Starting cooldown",
+              "before": "360",
+              "after": "180 seconds",
+              "note": "Starting cooldown changed to 180 seconds from 360."
+            },
+            {
+              "label": "Cooldown reduction per unique summoner spell",
+              "before": "25",
+              "after": "20 seconds",
+              "note": "Cooldown reduction per unique summoner spell changed to 20 seconds from 25."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "arena",
+      "name": "Arena",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "The player's reroll count now updates upon acquiring a Lucky Dice}} instead of after the item is consumed.; Adjusted Augment and Prismatic item offerings for various champions.",
+      "gameplayImpact": "Arena was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "The player's reroll count now updates upon acquiring a Lucky Dice}} instead of after the item is consumed."
+            },
+            {
+              "label": "Change",
+              "note": "Adjusted Augment and Prismatic item offerings for various champions."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Certain Augments and Prismatic items no longer count as ability damage, and are thus not affected by or trigger relevant ability effects."
+            },
+            {
+              "label": "Change",
+              "note": "Arena Stat Adjustments (buff)"
+            },
+            {
+              "label": "Change",
+              "note": "Removed: Bonus physical damage on-hit based on the target's current health."
+            },
+            {
+              "label": "Change",
+              "note": "Kayn}}"
+            },
+            {
+              "label": "Change",
+              "note": "Shadow Step}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: While the Bloom Bridge is closed, Kayn is now able to properly move inside Deep Water terrain."
+            },
+            {
+              "label": "Change",
+              "note": "Master Yi}}"
+            },
+            {
+              "label": "Change",
+              "note": "Meditate}}"
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown changed to 12 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Wuju Style}}"
+            },
+            {
+              "label": "Change",
+              "note": "Base damage changed to 15–35."
+            },
+            {
+              "label": "Change",
+              "note": "Orianna}}"
+            },
+            {
+              "label": "Change",
+              "note": "Command: Dissonance}}"
+            },
+            {
+              "label": "Change",
+              "note": "AP ratio changed to 60% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Command: Shockwave}}"
+            },
+            {
+              "label": "Cooldown",
+              "before": "60–40 (3 ranks)",
+              "after": "90–70 (3 ranks) seconds",
+              "note": "Cooldown increased to 90–70 (3 ranks) seconds from 60–40 (3 ranks)."
+            },
+            {
+              "label": "Change",
+              "note": "Talon}}"
+            },
+            {
+              "label": "Change",
+              "note": "Blade's End}}"
+            },
+            {
+              "label": "Bonus AD ratio",
+              "before": "300%|AD",
+              "after": "260% bonus AD",
+              "note": "Bonus AD ratio reduced to 260% bonus AD from 300%|AD."
+            },
+            {
+              "label": "Change",
+              "note": "Noxian Diplomacy}}"
+            },
+            {
+              "label": "Bonus AD ratio",
+              "before": "130%|AD",
+              "after": "115% bonus AD",
+              "note": "Bonus AD ratio reduced to 115% bonus AD from 130%|AD."
+            },
+            {
+              "label": "Change",
+              "note": "Urgot}}"
+            },
+            {
+              "label": "Change",
+              "note": "Fear Beyond Death}}"
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Fear Beyond Death 2|Mercy}} now always drags and kills enemies affected by Combo Breaker."
+            },
+            {
+              "label": "Change",
+              "note": "Veigar}}"
+            },
+            {
+              "label": "Change",
+              "note": "Baleful Strike}}"
+            },
+            {
+              "label": "Change",
+              "note": "AP ratio changed to 45–65% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Event Horizon}}"
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown changed to 23–17 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Volibear}}"
+            },
+            {
+              "label": "Change",
+              "note": "Thundering Smash}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Cooldown is now affected by Blur."
+            },
+            {
+              "label": "Change",
+              "note": "Stormbringer}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Cooldown is now affected by Blur."
+            },
+            {
+              "label": "Change",
+              "note": "Ziggs}}"
+            },
+            {
+              "label": "Change",
+              "note": "Hexplosive Minefield}}"
+            },
+            {
+              "label": "AP ratio per mine",
+              "before": "40% AP",
+              "after": "30% AP",
+              "note": "AP ratio per mine reduced to 30% AP from 40% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Mega Inferno Bomb}}"
+            },
+            {
+              "label": "Cooldown",
+              "before": "30",
+              "after": "70–50 (3 ranks) seconds",
+              "note": "Cooldown increased to 70–50 (3 ranks) seconds from 30."
+            },
+            {
+              "label": "Change",
+              "note": "Zilean}}"
+            },
+            {
+              "label": "Change",
+              "note": "Time Bomb}}"
+            },
+            {
+              "label": "Change",
+              "note": "AP ratio changed to 100% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Axiom Arc}}"
+            },
+            {
+              "label": "Lethality",
+              "before": "22",
+              "after": "18",
+              "note": "Lethality reduced to 18 from 22."
+            },
+            {
+              "label": "Change",
+              "note": "Black Hole Gauntlet}}"
+            },
+            {
+              "label": "Dark Star slow",
+              "before": "25%",
+              "after": "35%",
+              "note": "Dark Star slow increased to 35% from 25%."
+            },
+            {
+              "label": "Dark Star damage armor ratio per second",
+              "before": "60%|ar",
+              "after": "70% armor",
+              "note": "Dark Star damage armor ratio per second increased to 70% armor from 60%|ar."
+            },
+            {
+              "label": "Dark Star damage magic resistance ratio per second",
+              "before": "60%|mr",
+              "after": "70% magic resistance",
+              "note": "Dark Star damage magic resistance ratio per second increased to 70% magic resistance from 60%|mr."
+            },
+            {
+              "label": "Change",
+              "note": "Detonation Orb}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: The Bomb is now properly considered item damage for effects such as Vulnerability."
+            },
+            {
+              "label": "Change",
+              "note": "Flesheater}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Hack the Meat no longer fails to apply from certain damaging effects."
+            },
+            {
+              "label": "Change",
+              "note": "Ghostcrawlers}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: While the Bloom Bridge is closed, the user is now able to properly move inside Deep Water terrain."
+            },
+            {
+              "label": "Change",
+              "note": "Guardian's Amulet}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Manaless champions now properly gain Recovery's effect."
+            },
+            {
+              "label": "Change",
+              "note": "Guardian's Dirk}}"
+            },
+            {
+              "label": "Lethality",
+              "before": "13",
+              "after": "11",
+              "note": "Lethality reduced to 11 from 13."
+            },
+            {
+              "label": "Agricultural Reaper bonus",
+              "before": "25%",
+              "after": "20%",
+              "note": "Agricultural Reaper bonus reduced to 20% from 25%."
+            },
+            {
+              "label": "Change",
+              "note": "Kaenic Rookern}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Magebane shield VFX no longer fails to appear upon reapplication of the shield."
+            },
+            {
+              "label": "Change",
+              "note": "Lightning Rod}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: No longer incorrectly grants 75 bonus attack range."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Call Lightning now properly benefits from sources of item haste such as the Apex Inventor augment."
+            },
+            {
+              "label": "Change",
+              "note": "Luden's Companion}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Fire buff icon is no longer empty."
+            },
+            {
+              "label": "Change",
+              "note": "Pyromancer's Cloak}}"
+            },
+            {
+              "label": "Spark cooldown",
+              "before": "10",
+              "after": "5 seconds",
+              "note": "Spark cooldown reduced to 5 seconds from 10."
+            },
+            {
+              "label": "Cleansing Flame base damage per second",
+              "before": "75",
+              "after": "100",
+              "note": "Cleansing Flame base damage per second increased to 100 from 75."
+            },
+            {
+              "label": "Cleansing Flame additional blaze damage per Burn|buzzword3 source",
+              "before": "50",
+              "after": "60 per second",
+              "note": "Cleansing Flame additional blaze damage per Burn|buzzword3 source increased to 60 per second from 50."
+            },
+            {
+              "label": "Cleansing Flame omnivamp per Burn|buzzword3 source",
+              "before": "2%|omnivamp",
+              "after": "2.5%|omnivamp",
+              "note": "Cleansing Flame omnivamp per Burn|buzzword3 source increased to 2.5%|omnivamp from 2%|omnivamp."
+            },
+            {
+              "label": "Change",
+              "note": "Reaper's Toll}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Reap's first application against a new target no longer counts any stacks on the previous target to apply its effect."
+            },
+            {
+              "label": "Change",
+              "note": "Reverberation}}"
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Reverberation stacks' duration now additionally refreshes on-hit."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Several on-hit effects can no longer infinitely be triggered without further user input via Resonate after an initial application."
+            },
+            {
+              "label": "Change",
+              "note": "The Collector}}"
+            },
+            {
+              "label": "Lethality",
+              "before": "18",
+              "after": "12",
+              "note": "Lethality reduced to 12 from 18."
+            },
+            {
+              "label": "Change",
+              "note": "The Golden Spatula}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: On Fire! buff icon is no longer empty."
+            },
+            {
+              "label": "Change",
+              "note": "Trinity Force}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Quicken buff icon is no longer empty."
+            },
+            {
+              "label": "Change",
+              "note": "Back to Basics"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Now properly affects all user damage instead of only ability damage."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Is now properly removed from the selection pool if the user already has the It's Killing Time augment equipped."
+            },
+            {
+              "label": "Change",
+              "note": "Circle of Death"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Several cases of the effect dealing no damage have been resolved."
+            },
+            {
+              "label": "Change",
+              "note": "Clothesline"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Damage tracker no longer counts damage dealt to the Target Dummy."
+            },
+            {
+              "label": "Change",
+              "note": "Dual Wield"
+            },
+            {
+              "label": "Attack and on-hit modifier",
+              "before": "50%",
+              "after": "55%",
+              "note": "Attack and on-hit modifier increased to 55% from 50%."
+            },
+            {
+              "label": "Change",
+              "note": "Extendo-Arm"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Hook count tracker now functions."
+            },
+            {
+              "label": "Change",
+              "note": "Fan the Hammer"
+            },
+            {
+              "label": "Per-direction cooldown",
+              "before": "3",
+              "after": "5 seconds",
+              "note": "Per-direction cooldown increased to 5 seconds from 3."
+            },
+            {
+              "label": "Change",
+              "note": "Tooltip now includes a damage tracker."
+            },
+            {
+              "label": "Change",
+              "note": "Fire Sale"
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: No longer sells Heartsteel}} if the user has equipped the Quest: Steel Your Heart augment."
+            },
+            {
+              "label": "Change",
+              "note": "It's Killing Time"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Is now properly removed from the selection pool if the user already has the Back to Basics augment equipped."
+            },
+            {
+              "label": "Change",
+              "note": "Light Warden"
+            },
+            {
+              "label": "AP ratio",
+              "before": "40% AP",
+              "after": "30% AP",
+              "note": "AP ratio reduced to 30% AP from 40% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Magic Missile"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Damage over time effects no longer bypass the per-cast cooldown."
+            },
+            {
+              "label": "Change",
+              "note": "Orbital Laser"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Damage now correctly ticks every 0.25 seconds instead of 0.5. Previously, this caused the total damage dealt to be half of the intended value."
+            },
+            {
+              "label": "Change",
+              "note": "Quest: Wooglet's Witchcap"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Needlessly Large Rod}} now correctly sells for gold."
+            },
+            {
+              "label": "Change",
+              "note": "Phenomenal Evil"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Damage over time effects no longer bypass the per-cast cooldown."
+            },
+            {
+              "label": "Change",
+              "note": "Prismatic Egg"
+            },
+            {
+              "label": "Change",
+              "note": "Items granted by this augment are now grouped within items granted via Augments specifically."
+            },
+            {
+              "label": "Change",
+              "note": "Skilled Sniper"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: No longer resets the cooldown of ultimate abilities granted via Ultimate Roulette."
+            },
+            {
+              "label": "Change",
+              "note": "Ultimate Roulette"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Icons are no longer sometimes missing."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-14-17-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V14.17"
+}

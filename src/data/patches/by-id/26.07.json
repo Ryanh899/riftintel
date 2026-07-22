@@ -1,0 +1,374 @@
+{
+  "id": "26.07",
+  "version": "26.07",
+  "title": "The season of silly has returned, sponsored by Colonel Swain!",
+  "releaseDate": "2026-04-01",
+  "season": "26",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "The season of silly has returned, sponsored by Colonel Swain!"
+    },
+    {
+      "title": "Champion balance",
+      "description": "3 champion buffs, 5 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "The season of silly has returned, sponsored by Colonel Swain! Structured changes across 10 entities this patch.",
+  "champions": [
+    {
+      "id": "cassiopeia",
+      "name": "Cassiopeia",
+      "type": "champion",
+      "assetKey": "Cassiopeia",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base mana increased to 480 from 450.; Bonus base damage increased to 20–120 from 20–112.",
+      "gameplayImpact": "Cassiopeia is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base mana",
+              "before": "450",
+              "after": "480",
+              "note": "Base mana increased to 480 from 450."
+            }
+          ]
+        },
+        {
+          "ability": "Twin Fang",
+          "title": "Twin Fang",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus base damage",
+              "before": "20–112",
+              "after": "20–120",
+              "note": "Bonus base damage increased to 20–120 from 20–112."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "graves",
+      "name": "Graves",
+      "type": "champion",
+      "assetKey": "Graves",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base attack damage reduced to 66 from 68.",
+      "gameplayImpact": "Graves loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base attack damage",
+              "before": "68",
+              "after": "66",
+              "note": "Base attack damage reduced to 66 from 68."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "kalista",
+      "name": "Kalista",
+      "type": "champion",
+      "assetKey": "Kalista",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "AD ratio per subsequent spear increased to 20–50% AD from 20–40% AD.",
+      "gameplayImpact": "Kalista is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Rend",
+          "title": "Rend",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AD ratio per subsequent spear",
+              "before": "20–40% AD",
+              "after": "20–50% AD",
+              "note": "AD ratio per subsequent spear increased to 20–50% AD from 20–40% AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "karma",
+      "name": "Karma",
+      "type": "champion",
+      "assetKey": "Karma",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Bonus base shield reduced to 45–165 (4 ranks) from 50–200 (4 ranks).",
+      "gameplayImpact": "Karma loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Defiance",
+          "title": "Defiance",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Bonus base shield",
+              "before": "50–200 (4 ranks)",
+              "after": "45–165 (4 ranks)",
+              "note": "Bonus base shield reduced to 45–165 (4 ranks) from 50–200 (4 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "nami",
+      "name": "Nami",
+      "type": "champion",
+      "assetKey": "Nami",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Base bounce modifier reduced to -20% from -10%.; Bounce modifier AP ratio increased 15% per 100 AP from 10% per 100 AP.",
+      "gameplayImpact": "Nami was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Ebb and Flow",
+          "title": "Ebb and Flow",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base bounce modifier",
+              "before": "-10%",
+              "after": "-20%",
+              "note": "Base bounce modifier reduced to -20% from -10%."
+            },
+            {
+              "label": "Change",
+              "note": "Bounce modifier AP ratio increased 15% per 100 AP from 10% per 100 AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "ornn",
+      "name": "Ornn",
+      "type": "champion",
+      "assetKey": "Ornn",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Brittle health ratio reduced to 9–17% of target's maximum health from 10–18%|health.",
+      "gameplayImpact": "Ornn loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Living Forge",
+          "title": "Living Forge",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Brittle health ratio",
+              "before": "10–18%|health",
+              "after": "9–17% of target's maximum health",
+              "note": "Brittle health ratio reduced to 9–17% of target's maximum health from 10–18%|health."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "rell",
+      "name": "Rell",
+      "type": "champion",
+      "assetKey": "Rell",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Bonus movement speed increased to 15% from 10%.; Increased bonus movement speed increased to 30% from 25%.",
+      "gameplayImpact": "Rell is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Full Tilt",
+          "title": "Full Tilt",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus movement speed",
+              "before": "10%",
+              "after": "15%",
+              "note": "Bonus movement speed increased to 15% from 10%."
+            },
+            {
+              "label": "Increased bonus movement speed",
+              "before": "25%",
+              "after": "30%",
+              "note": "Increased bonus movement speed increased to 30% from 25%."
+            }
+          ]
+        },
+        {
+          "ability": "Magnet Storm",
+          "title": "Magnet Storm",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "120–280 (3 ranks)",
+              "after": "150–350 (3 ranks)",
+              "note": "Base damage increased to 150–350 (3 ranks) from 120–280 (3 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "shyvana",
+      "name": "Shyvana",
+      "type": "champion",
+      "assetKey": "Shyvana",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Removed: No longer gains 0.015 fury per second per 1 ultimate haste.; New Effect: Now gains 1% bonus fury generation per 1 ultimate haste.",
+      "gameplayImpact": "Shyvana was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Emberstrike",
+          "title": "Emberstrike",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Fixed a bug that caused her to lose SFX for all casts in both Human and Dragon form when using certain skins."
+            }
+          ]
+        },
+        {
+          "ability": "Dragon's Descent",
+          "title": "Dragon's Descent",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Removed: No longer gains 0.015 fury per second per 1 ultimate haste."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Now gains 1% bonus fury generation per 1 ultimate haste."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "singed",
+      "name": "Singed",
+      "type": "champion",
+      "assetKey": "Singed",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Bonus stats reduced to 25–85 (3 ranks) from 25–95 (3 ranks).",
+      "gameplayImpact": "Singed loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Insanity Potion",
+          "title": "Insanity Potion",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Bonus stats",
+              "before": "25–95 (3 ranks)",
+              "after": "25–85 (3 ranks)",
+              "note": "Bonus stats reduced to 25–85 (3 ranks) from 25–95 (3 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "veigar",
+      "name": "Veigar",
+      "type": "champion",
+      "assetKey": "Veigar",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Cooldown increased to 120–60 (3 ranks) seconds from 100–60 (3 ranks).",
+      "gameplayImpact": "Veigar loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Primordial Burst",
+          "title": "Primordial Burst",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "100–60 (3 ranks)",
+              "after": "120–60 (3 ranks) seconds",
+              "note": "Cooldown increased to 120–60 (3 ranks) seconds from 100–60 (3 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    }
+  ],
+  "items": [],
+  "systems": [],
+  "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-7-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V26.07"
+}

@@ -39,3 +39,20 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# ingest cache (re-fetchable)
+.cache/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# local temp fetch samples
+/patch-index.json
+/sample-patch.json
+/wiki-sample.json
+/wiki-pages.json
+/v1410.json
+/ahri-hist.json

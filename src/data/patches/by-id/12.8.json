@@ -1,0 +1,1039 @@
+{
+  "id": "12.8",
+  "version": "12.8",
+  "title": "\"And lo, in our wake, the ashes of our enemies burned in their zeal.\"",
+  "releaseDate": "2022-04-27",
+  "season": "12",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "\"And lo, in our wake, the ashes of our enemies burned in their zeal.\""
+    },
+    {
+      "title": "Champion balance",
+      "description": "13 champion buffs, 3 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "\"And lo, in our wake, the ashes of our enemies burned in their zeal.\" Structured changes across 21 entities this patch.",
+  "champions": [
+    {
+      "id": "bard",
+      "name": "Bard",
+      "type": "champion",
+      "assetKey": "Bard",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Base damage increased to 35 from 30.; Damage per 5 chimes increased to 14 from 12.",
+      "gameplayImpact": "Bard is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Traveler's Call",
+          "title": "Traveler's Call",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "30",
+              "after": "35",
+              "note": "Base damage increased to 35 from 30."
+            },
+            {
+              "label": "Damage per 5 chimes",
+              "before": "12",
+              "after": "14",
+              "note": "Damage per 5 chimes increased to 14 from 12."
+            }
+          ]
+        },
+        {
+          "ability": "Caretaker's Shrine",
+          "title": "Caretaker's Shrine",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Maximum base heal",
+              "before": "55–215",
+              "after": "60–240",
+              "note": "Maximum base heal increased to 60–240 from 55–215."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "ezreal",
+      "name": "Ezreal",
+      "type": "champion",
+      "assetKey": "Ezreal",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Cooldown reduced to 120–90 (3 ranks) seconds from 120 at all ranks.",
+      "gameplayImpact": "Ezreal is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Trueshot Barrage",
+          "title": "Trueshot Barrage",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "120 at all ranks",
+              "after": "120–90 (3 ranks) seconds",
+              "note": "Cooldown reduced to 120–90 (3 ranks) seconds from 120 at all ranks."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "fiddlesticks",
+      "name": "Fiddlesticks",
+      "type": "champion",
+      "assetKey": "Fiddlesticks",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Healing against champions increased to 30–70% from 30–50%.",
+      "gameplayImpact": "Fiddlesticks is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Bountiful Harvest",
+          "title": "Bountiful Harvest",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Healing against champions",
+              "before": "30–50%",
+              "after": "30–70%",
+              "note": "Healing against champions increased to 30–70% from 30–50%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "illaoi",
+      "name": "Illaoi",
+      "type": "champion",
+      "assetKey": "Illaoi",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Now grants assist credit even if the Vessel is killed and doesn't take any damage.",
+      "gameplayImpact": "Illaoi is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Tentacle Smash",
+          "title": "Tentacle Smash",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Casting it while locked out of abilities, such as while firing missile, no longer causes the caster to instantly face in the direction of the cursor."
+            }
+          ]
+        },
+        {
+          "ability": "Harsh Lesson",
+          "title": "Harsh Lesson",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Empowered basic attack now properly triggers nearby Prophet of an Elder God|Tentacles}} to perform their slam even if the target had a spell shield."
+            }
+          ]
+        },
+        {
+          "ability": "Test of Spirit",
+          "title": "Test of Spirit",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Now grants assist credit even if the Vessel is killed and doesn't take any damage."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Vessels spawned are no longer invisible if the tethered champion was camouflaged and being revealed by a Control Ward}}."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Vessels that expire no longer cause enemies to benefit from their omnivamp."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "jhin",
+      "name": "Jhin",
+      "type": "champion",
+      "assetKey": "Jhin",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Root duration increased to 1.25–2.25 seconds from 1–2.; Damage against monsters increased to 100% from 75%.",
+      "gameplayImpact": "Jhin was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Deadly Flourish",
+          "title": "Deadly Flourish",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Root duration",
+              "before": "1–2",
+              "after": "1.25–2.25 seconds",
+              "note": "Root duration increased to 1.25–2.25 seconds from 1–2."
+            },
+            {
+              "label": "Damage against monsters",
+              "before": "75%",
+              "after": "100%",
+              "note": "Damage against monsters increased to 100% from 75%."
+            }
+          ]
+        },
+        {
+          "ability": "Captive Audience",
+          "title": "Captive Audience",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Recharge timer",
+              "before": "26–16",
+              "after": "24–14 seconds",
+              "note": "Recharge timer reduced to 24–14 seconds from 26–16."
+            },
+            {
+              "label": "Damage against monsters",
+              "before": "65%",
+              "after": "100%",
+              "note": "Damage against monsters increased to 100% from 65%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "jinx",
+      "name": "Jinx",
+      "type": "champion",
+      "assetKey": "Jinx",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base health reduced to 560 from 610.",
+      "gameplayImpact": "Jinx loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base health",
+              "before": "610",
+              "after": "560",
+              "note": "Base health reduced to 560 from 610."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "kaisa",
+      "name": "Kai'Sa",
+      "type": "champion",
+      "assetKey": "Kaisa",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Detonation AP ratio increased to 5% per 100 AP from 2.5% per 100 AP.; AP ratio reduced to 45% AP from 70% AP.",
+      "gameplayImpact": "Kai'Sa was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Second Skin",
+          "title": "Second Skin",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Detonation AP ratio",
+              "before": "2",
+              "after": "5% per 100 AP",
+              "note": "Detonation AP ratio increased to 5% per 100 AP from 2.5% per 100 AP."
+            }
+          ]
+        },
+        {
+          "ability": "Void Seeker",
+          "title": "Void Seeker",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "70% AP",
+              "after": "45% AP",
+              "note": "AP ratio reduced to 45% AP from 70% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Killer Instinct",
+          "title": "Killer Instinct",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "75% AP",
+              "after": "100% AP",
+              "note": "AP ratio increased to 100% AP from 75% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "kassadin",
+      "name": "Kassadin",
+      "type": "champion",
+      "assetKey": "Kassadin",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Base shield increased to 60–180 from 40–160.; Shield AP ratio increased to 40% AP from 30% AP.",
+      "gameplayImpact": "Kassadin is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Null Sphere",
+          "title": "Null Sphere",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base shield",
+              "before": "40–160",
+              "after": "60–180",
+              "note": "Base shield increased to 60–180 from 40–160."
+            },
+            {
+              "label": "Shield AP ratio",
+              "before": "30% AP",
+              "after": "40% AP",
+              "note": "Shield AP ratio increased to 40% AP from 30% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Force Pulse",
+          "title": "Force Pulse",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "80% AP",
+              "after": "85% AP",
+              "note": "AP ratio increased to 85% AP from 80% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "mordekaiser",
+      "name": "Mordekaiser",
+      "type": "champion",
+      "assetKey": "Mordekaiser",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Bonus movement speed increased to 3 to 9 for% from 3% at all levels.",
+      "gameplayImpact": "Mordekaiser is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Darkness Rise",
+          "title": "Darkness Rise",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus movement speed",
+              "before": "3% at all levels",
+              "after": "3 to 9 for%",
+              "note": "Bonus movement speed increased to 3 to 9 for% from 3% at all levels."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "poppy",
+      "name": "Poppy",
+      "type": "champion",
+      "assetKey": "Poppy",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Cooldown reduced to 20–12 seconds from 24–16.; Knock up duration increased to 1 second from 0.75.",
+      "gameplayImpact": "Poppy was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Steadfast Presence",
+          "title": "Steadfast Presence",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "24–16",
+              "after": "20–12 seconds",
+              "note": "Cooldown reduced to 20–12 seconds from 24–16."
+            }
+          ]
+        },
+        {
+          "ability": "Keeper's Verdict",
+          "title": "Keeper's Verdict",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Knock up duration",
+              "before": "0",
+              "after": "1 second",
+              "note": "Knock up duration increased to 1 second from 0.75."
+            },
+            {
+              "label": "Missile speed",
+              "before": "2000",
+              "after": "2500",
+              "note": "Missile speed increased to 2500 from 2000."
+            },
+            {
+              "label": "Knock back distance",
+              "before": "2400",
+              "after": "3400 units",
+              "note": "Knock back distance increased to 3400 units from 2400."
+            },
+            {
+              "label": "Cooldown upon being cancelled",
+              "before": "30",
+              "after": "15 seconds",
+              "note": "Cooldown upon being cancelled reduced to 15 seconds from 30."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "sejuani",
+      "name": "Sejuani",
+      "type": "champion",
+      "assetKey": "Sejuani",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Cooldown reduced to 12–6 seconds from 12 at all levels.",
+      "gameplayImpact": "Sejuani is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Fury of the North",
+          "title": "Fury of the North",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "12 at all levels",
+              "after": "12–6 seconds",
+              "note": "Cooldown reduced to 12–6 seconds from 12 at all levels."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "soraka",
+      "name": "Soraka",
+      "type": "champion",
+      "assetKey": "Soraka",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base heal reduced to 100–220 from 100–240.; AP ratio reduced to 65% AP from 70% AP.",
+      "gameplayImpact": "Soraka loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Astral Infusion",
+          "title": "Astral Infusion",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base heal",
+              "before": "100–240",
+              "after": "100–220",
+              "note": "Base heal reduced to 100–220 from 100–240."
+            },
+            {
+              "label": "AP ratio",
+              "before": "70% AP",
+              "after": "65% AP",
+              "note": "AP ratio reduced to 65% AP from 70% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "swain",
+      "name": "Swain",
+      "type": "champion",
+      "assetKey": "Swain",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Removed Innate - Ravenous: Swain can target a immobilize enemy champion to rip out a Soul Fragment|buzzword3 from them, dealing 20–105|magic damage (+ 30% AP) magic damage and airborne them 290-units towards him over …",
+      "gameplayImpact": "Swain was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Ravenous Flock",
+          "title": "Ravenous Flock",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Removed Innate - Ravenous: Swain can target a immobilize enemy champion to rip out a Soul Fragment|buzzword3 from them, dealing 20–105|magic damage (+ 30% AP) magic damage and airborne them 290-units towards him over a 0.25-second cast time. If the target would be brought past Swain, they are instead airborne the excess distance. Swain cannot use Ravenous while unable to cast abilities."
+            },
+            {
+              "label": "Heal",
+              "before": "4–7% (lv 1–11)|health",
+              "after": "4–9% (lv 1–16) of his maximum health",
+              "note": "Heal increased to 4–9% (lv 1–16) of his maximum health from 4–7% (lv 1–11)|health."
+            },
+            {
+              "label": "Bonus health per Soul Fragment",
+              "before": "5",
+              "after": "12",
+              "note": "Bonus health per Soul Fragment increased to 12 from 5."
+            }
+          ]
+        },
+        {
+          "ability": "Death's Hand",
+          "title": "Death's Hand",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "9–3",
+              "after": "7–3 seconds",
+              "note": "Cooldown reduced to 7–3 seconds from 9–3."
+            },
+            {
+              "label": "Mana cost",
+              "before": "65–85",
+              "after": "45–65",
+              "note": "Mana cost reduced to 45–65 from 65–85."
+            },
+            {
+              "label": "Base damage",
+              "before": "55–135",
+              "after": "60–140",
+              "note": "Base damage increased to 60–140 from 55–135."
+            },
+            {
+              "label": "AP ratio",
+              "before": "40% AP",
+              "after": "38% AP",
+              "note": "AP ratio reduced to 38% AP from 40% AP."
+            },
+            {
+              "label": "Bonus bolt damage",
+              "before": "15–35% of bolt's damage",
+              "after": "12–52 (+ 8% AP)",
+              "note": "Bonus bolt damage changed to 12–52 (+ 8% AP) from 15–35% of bolt's damage."
+            },
+            {
+              "label": "Maximum base damage",
+              "before": "88–324",
+              "after": "108–348",
+              "note": "Maximum base damage increased to 108–348 from 88–324."
+            },
+            {
+              "label": "Maximum AP ratio",
+              "before": "64–96% AP",
+              "after": "70% AP at all ranks",
+              "note": "Maximum AP ratio changed to 70% AP at all ranks from 64–96% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Vision of Empire",
+          "title": "Vision of Empire",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Mana cost",
+              "before": "70–110",
+              "after": "60–80",
+              "note": "Mana cost reduced to 60–80 from 70–110."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Pinging the ability now displays all visible enemies within range in chat."
+            }
+          ]
+        },
+        {
+          "ability": "Nevermove",
+          "title": "Nevermove",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Can now be recast to airborne all champions rooted by it, gaining a Soul Fragment|buzzword3 for each target pulled."
+            },
+            {
+              "label": "Change",
+              "note": "If the targets would be brought past Swain, they are instead airborne the excess distance."
+            },
+            {
+              "label": "Change",
+              "note": "If the root is not applied to or is removed from all targets, the recast does not become available."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Now grants sight of all rooted targets."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Cooldown is now reduced by 20% during Demonic Ascension}}."
+            }
+          ]
+        },
+        {
+          "ability": "Demonic Ascension",
+          "title": "Demonic Ascension",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "New Effect: Upon casting, Swain generates 50 Demonic Energy. Demonic Ascension l",
+              "before": "at least one enemy champion, up to 50",
+              "after": "7.5 after 5 seconds have elapsed. Swain generates 10 Demonic Energy every 0.5 seconds while draining",
+              "note": null
+            },
+            {
+              "label": "Change",
+              "note": "Previous duration: 12 seconds."
+            },
+            {
+              "label": "Recast timer",
+              "before": "0",
+              "after": "2 seconds",
+              "note": "Recast timer increased to 2 seconds from 0.5 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Casting Demonflare}} no longer ends Demonic Ascension's effects early."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: No longer grants 125–275 (3 ranks) bonus health."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: No longer doubles the health gained from Soul Fragments|buzzword3."
+            },
+            {
+              "label": "Cooldown",
+              "before": "120 at all ranks",
+              "after": "100–60 (3 ranks) seconds",
+              "note": "Cooldown reduced to 100–60 (3 ranks) seconds from 120 at all ranks."
+            },
+            {
+              "label": "Base damage per second",
+              "before": "35–65 (3 ranks)",
+              "after": "20–60 (3 ranks)",
+              "note": "Base damage per second reduced to 20–60 (3 ranks) from 35–65 (3 ranks)."
+            },
+            {
+              "label": "Damage AP ratio per second",
+              "before": "14",
+              "after": "10% AP",
+              "note": "Damage AP ratio per second reduced to 10% AP from 14.167% AP."
+            },
+            {
+              "label": "Base heal per second",
+              "before": "20–50 (3 ranks)",
+              "after": "15–65 (3 ranks)",
+              "note": "Base heal per second changed to 15–65 (3 ranks) from 20–50 (3 ranks)."
+            },
+            {
+              "label": "Heal AP ratio per second",
+              "before": "16% AP",
+              "after": "25% AP",
+              "note": "Heal AP ratio per second increased to 25% AP from 16% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Demonflare",
+          "title": "Demonflare",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "100–200 (3 ranks)",
+              "after": "150–300 (3 ranks)",
+              "note": "Base damage increased to 150–300 (3 ranks) from 100–200 (3 ranks)."
+            },
+            {
+              "label": "AP ratio",
+              "before": "50% AP",
+              "after": "60% AP",
+              "note": "AP ratio increased to 60% AP from 50% AP."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Now slow enemies by 60%, decaying over 1.5 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Can now be cast once during Demonic Ascension}} without ending the duration prematurely."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: Damage is no longer increased by 37.5% of the health drained during Demonic Ascension}}, up to a damage of 200–400 (3 ranks) (+ 100% AP)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "sylas",
+      "name": "Sylas",
+      "type": "champion",
+      "assetKey": "Sylas",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Cooldown reduced to 80–30 (3 ranks) seconds from 100–40 (3 ranks).",
+      "gameplayImpact": "Sylas is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Hijack",
+          "title": "Hijack",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "100–40 (3 ranks)",
+              "after": "80–30 (3 ranks) seconds",
+              "note": "Cooldown reduced to 80–30 (3 ranks) seconds from 100–40 (3 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "tristana",
+      "name": "Tristana",
+      "type": "champion",
+      "assetKey": "Tristana",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Attack damage growth increased to 3.7 from 3.3.",
+      "gameplayImpact": "Tristana is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Attack damage growth",
+              "before": "3",
+              "after": "3.7",
+              "note": "Attack damage growth increased to 3.7 from 3.3."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "velkoz",
+      "name": "Vel'Koz",
+      "type": "champion",
+      "assetKey": "Velkoz",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "AP ratio increased to 90% AP from 80% AP.; Initial AP ratio increased to 20% AP from 15% AP.",
+      "gameplayImpact": "Vel'Koz is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Plasma Fission",
+          "title": "Plasma Fission",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "80% AP",
+              "after": "90% AP",
+              "note": "AP ratio increased to 90% AP from 80% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Void Rift",
+          "title": "Void Rift",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Initial AP ratio",
+              "before": "15% AP",
+              "after": "20% AP",
+              "note": "Initial AP ratio increased to 20% AP from 15% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "vladimir",
+      "name": "Vladimir",
+      "type": "champion",
+      "assetKey": "Vladimir",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Base armor increased to 27 from 23.",
+      "gameplayImpact": "Vladimir is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base armor",
+              "before": "23",
+              "after": "27",
+              "note": "Base armor increased to 27 from 23."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "xayah",
+      "name": "Xayah",
+      "type": "champion",
+      "assetKey": "Xayah",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base damage reduced to 45–105 from 45–125.; Cooldown increased to 10–8 seconds from 10–6.",
+      "gameplayImpact": "Xayah loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Double Daggers",
+          "title": "Double Daggers",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "45–125",
+              "after": "45–105",
+              "note": "Base damage reduced to 45–105 from 45–125."
+            },
+            {
+              "label": "Cooldown",
+              "before": "10–6",
+              "after": "10–8 seconds",
+              "note": "Cooldown increased to 10–8 seconds from 10–6."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "xerath",
+      "name": "Xerath",
+      "type": "champion",
+      "assetKey": "Xerath",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Stun duration increased to 0.75–2.25 (over 0–1050) from 0.5–2 (over 0–1050).",
+      "gameplayImpact": "Xerath is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Shocking Orb",
+          "title": "Shocking Orb",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Stun duration",
+              "before": "0",
+              "after": "0.75–2.25 (over 0–1050)",
+              "note": "Stun duration increased to 0.75–2.25 (over 0–1050) from 0.5–2 (over 0–1050)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "zoe",
+      "name": "Zoe",
+      "type": "champion",
+      "assetKey": "Zoe",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Mana cost reduced to 40–60 from 50–70.; Mana cost reduced to 40 from 50.",
+      "gameplayImpact": "Zoe is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Paddle Star!",
+          "title": "Paddle Star!",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Mana cost",
+              "before": "50–70",
+              "after": "40–60",
+              "note": "Mana cost reduced to 40–60 from 50–70."
+            }
+          ]
+        },
+        {
+          "ability": "Portal Jump",
+          "title": "Portal Jump",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Mana cost",
+              "before": "50",
+              "after": "40",
+              "note": "Mana cost reduced to 40 from 50."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "stopwatch",
+      "name": "Stopwatch",
+      "type": "item",
+      "assetKey": null,
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Can no longer be purchased while already owning Guardian Angel}} or Zhonya's Hourglass}}.",
+      "gameplayImpact": "Stopwatch loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Can no longer be purchased while already owning Guardian Angel}} or Zhonya's Hourglass}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    }
+  ],
+  "systems": [],
+  "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-12-8-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V12.8"
+}

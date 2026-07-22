@@ -1,0 +1,2553 @@
+{
+  "id": "11.23",
+  "version": "11.23",
+  "title": "\"I'm on the case... for croissants and coffee.\"",
+  "releaseDate": "2021-11-17",
+  "season": "11",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "\"I'm on the case... for croissants and coffee.\""
+    }
+  ],
+  "summary": "\"I'm on the case... for croissants and coffee.\" Structured changes across 25 entities this patch.",
+  "champions": [
+    {
+      "id": "caitlyn",
+      "name": "Caitlyn",
+      "type": "champion",
+      "assetKey": "Caitlyn",
+      "roles": [],
+      "direction": "rework",
+      "severity": 3,
+      "tldr": "Complete visual update across all skins.; New splash artwork for , , , , and .",
+      "gameplayImpact": "Caitlyn plays differently after this update — relearn power spikes and matchups before grinding ranked.",
+      "context": "Art & Sustainability Update",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Complete visual update across all skins."
+            },
+            {
+              "label": "Change",
+              "note": "New splash artwork for , , , , and ."
+            },
+            {
+              "label": "Change",
+              "note": "Adjusted splash artwork for , , , , , and ."
+            },
+            {
+              "label": "Change",
+              "note": "New lore."
+            },
+            {
+              "label": "Change",
+              "note": "New voice-over."
+            },
+            {
+              "label": "Change",
+              "note": "Updated sound effects."
+            },
+            {
+              "label": "Change",
+              "note": "Added ejected bullet when reloading her rifle."
+            }
+          ]
+        },
+        {
+          "ability": "Headshot",
+          "title": "Headshot",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Removed: Gaining an Empowered Headshot no longer allows Caitlyn to attack the trapped target ignoring an ongoing attack cooldown."
+            },
+            {
+              "label": "Change",
+              "note": "Undocumented/New: Because they are proper attacks now, Headshot attacks against trapped enemies also generate a stack towards Headshot}} now."
+            },
+            {
+              "label": "Change",
+              "note": "\"Passive Ready\" SFX adjusted for more of a Hextech feel. Added SFX that plays when Headshot is ready for use."
+            }
+          ]
+        },
+        {
+          "ability": "Piltover Peacemaker",
+          "title": "Piltover Peacemaker",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New meshes and particles made to look more Hextech. Initial on-hit SFX are now more impactful than subsequent hits."
+            }
+          ]
+        },
+        {
+          "ability": "Yordle Snap Trap",
+          "title": "Yordle Snap Trap",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Added indicator on traps and their activation VFXs. Trap SFXs adjusted to match new animation timing."
+            }
+          ]
+        },
+        {
+          "ability": "90 Caliber Net",
+          "title": "90 Caliber Net",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New range indicator. On-hit SFX are now more impactful."
+            }
+          ]
+        },
+        {
+          "ability": "Ace in the Hole",
+          "title": "Ace in the Hole",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New laser and Hextech imagery. On-cast SFX are now more impactful and have additional Hextech elements."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "rework",
+        "Art & Sustainability Update"
+      ]
+    },
+    {
+      "id": "fizz",
+      "name": "Fizz",
+      "type": "champion",
+      "assetKey": "Fizz",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Base voice lines have been remastered to sound clearer, cleaner, and smoother.",
+      "gameplayImpact": "Fizz was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Base voice lines have been remastered to sound clearer, cleaner, and smoother."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "abyssal-mask",
+      "name": "Abyssal Mask",
+      "type": "item",
+      "assetKey": "8020",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "New Recipe: Kindlegem}} + Spectre's Cowl}} + = .; Old Recipe: Giant's Belt}} + Negatron Cloak}} + = .",
+      "gameplayImpact": "Abyssal Mask was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Recipe: Kindlegem}} + Spectre's Cowl}} + = ."
+            },
+            {
+              "label": "Change",
+              "note": "Old Recipe: Giant's Belt}} + Negatron Cloak}} + = ."
+            },
+            {
+              "label": "Health",
+              "before": "400",
+              "after": "450",
+              "note": "Health increased to 450 from 400."
+            },
+            {
+              "label": "Magic resistance",
+              "before": "60",
+              "after": "30",
+              "note": "Magic resistance reduced to 30 from 60."
+            },
+            {
+              "label": "Ability haste",
+              "before": "0",
+              "after": "10",
+              "note": "Ability haste increased to 10 from 0."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Unmake:"
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Nearby enemy champions become cursed, reducing their magic resistance by 5 (+ 1% bonus health), capped at a reduction of 20 magic resistance. Gain 7 bonus magic resistance per cursed enemy. Champions can only be afflicted by one curse at a time, prioritizing the most potent curse."
+            },
+            {
+              "label": "Change",
+              "note": "Old Effect: immobilize enemy champions increases the damage they take by 15% for 5 seconds."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "aegis-of-the-legion",
+      "name": "Aegis of the Legion",
+      "type": "item",
+      "assetKey": "3105",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Total cost reduced to from .; Combine cost reduced from .",
+      "gameplayImpact": "Aegis of the Legion is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Total cost reduced to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Combine cost reduced from ."
+            },
+            {
+              "label": "Change",
+              "note": "Now builds into Evenshroud}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "aether-wisp",
+      "name": "Aether Wisp",
+      "type": "item",
+      "assetKey": "3113",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Now builds into Cosmic Drive}}.",
+      "gameplayImpact": "Aether Wisp was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Now builds into Cosmic Drive}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "amplifying-tome",
+      "name": "Amplifying Tome",
+      "type": "item",
+      "assetKey": "1052",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Now builds into Crown of the Shattered Queen}}, Everfrost}}, Hextech Rocketbelt}}, and Night Harvester}}.; No longer builds into Archangel's Staff}} and Cosmic Drive}}.",
+      "gameplayImpact": "Amplifying Tome loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Now builds into Crown of the Shattered Queen}}, Everfrost}}, Hextech Rocketbelt}}, and Night Harvester}}."
+            },
+            {
+              "label": "Change",
+              "note": "No longer builds into Archangel's Staff}} and Cosmic Drive}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "archangels-staff",
+      "name": "Archangel's Staff",
+      "type": "item",
+      "assetKey": "323003",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "New Recipe: Tear of the Goddess}} + Kindlegem}} + Blasting Wand}} + = .; Old Recipe: Tear of the Goddess}} + Amplifying Tome}} + Needlessly Large Rod}} + = .",
+      "gameplayImpact": "Archangel's Staff was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Recipe: Tear of the Goddess}} + Kindlegem}} + Blasting Wand}} + = ."
+            },
+            {
+              "label": "Change",
+              "note": "Old Recipe: Tear of the Goddess}} + Amplifying Tome}} + Needlessly Large Rod}} + = ."
+            },
+            {
+              "label": "Ability power",
+              "before": "65",
+              "after": "60",
+              "note": "Ability power reduced to 60 from 65."
+            },
+            {
+              "label": "Health",
+              "before": "0",
+              "after": "200",
+              "note": "Health increased to 200 from 0."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Awe:"
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Grants ability haste equal to 0.5% bonus mana."
+            },
+            {
+              "label": "Change",
+              "note": "Old Effect: Grants ability power equal to 3% bonus mana."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "axiom-arc",
+      "name": "Axiom Arc",
+      "type": "item",
+      "assetKey": "6696",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Recipe: Serrated Dirk}} + Caulfield's Warhammer}} + = .; Stats: 55 attack damage, 10 lethality, 25 ability haste.",
+      "gameplayImpact": "Axiom Arc was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": "New item",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Recipe: Serrated Dirk}} + Caulfield's Warhammer}} + = ."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 55 attack damage, 10 lethality, 25 ability haste."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Flux: Scoring a takedown against an enemy champion within 3 seconds of damaging them refunds 25% of your ultimate ability's total cooldown. Does not reduce cooldown below 0.5 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Limited to 1 Axiom Arc."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust",
+        "New item"
+      ]
+    },
+    {
+      "id": "bamis-cinder",
+      "name": "Bami's Cinder",
+      "type": "item",
+      "assetKey": "6660",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Immolate now executes minions that would be killed by one more tick of damage.",
+      "gameplayImpact": "Bami's Cinder is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Immolate now executes minions that would be killed by one more tick of damage."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "blasting-wand",
+      "name": "Blasting Wand",
+      "type": "item",
+      "assetKey": "221026",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Now builds into Archangel's Staff}}.; No longer builds into Everfrost}}.",
+      "gameplayImpact": "Blasting Wand loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Now builds into Archangel's Staff}}."
+            },
+            {
+              "label": "Change",
+              "note": "No longer builds into Everfrost}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "bloodthirster",
+      "name": "Bloodthirster",
+      "type": "item",
+      "assetKey": "3072",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Tooltip now tracks damage blocked by Blood Barrier.",
+      "gameplayImpact": "Bloodthirster is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Tooltip now tracks damage blocked by Blood Barrier."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "caulfields-warhammer",
+      "name": "Caulfield's Warhammer",
+      "type": "item",
+      "assetKey": "3133",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Now builds into Axiom Arc}}.",
+      "gameplayImpact": "Caulfield's Warhammer was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Now builds into Axiom Arc}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "cosmic-drive",
+      "name": "Cosmic Drive",
+      "type": "item",
+      "assetKey": "4629",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "New Recipe: Fiendish Codex}} + Aether Wisp}} + Ruby Crystal}} + = .; Old Recipe: Fiendish Codex}} + Kindlegem}} + Amplifying Tome}} + = .",
+      "gameplayImpact": "Cosmic Drive was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Recipe: Fiendish Codex}} + Aether Wisp}} + Ruby Crystal}} + = ."
+            },
+            {
+              "label": "Change",
+              "note": "Old Recipe: Fiendish Codex}} + Kindlegem}} + Amplifying Tome}} + = ."
+            },
+            {
+              "label": "Ability power",
+              "before": "80",
+              "after": "75",
+              "note": "Ability power reduced to 75 from 80."
+            },
+            {
+              "label": "Health",
+              "before": "200",
+              "after": "250",
+              "note": "Health increased to 250 from 200."
+            },
+            {
+              "label": "Ability haste",
+              "before": "20",
+              "after": "30",
+              "note": "Ability haste increased to 30 from 20."
+            },
+            {
+              "label": "Bonus movement speed",
+              "before": "0%",
+              "after": "5%",
+              "note": "Bonus movement speed increased to 5% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Spelldance:"
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: After damaging a champion with 3 separate basic attacks or abilities within 3 seconds, gain 20% bonus movement speed, decaying to 10%|ms over 2 seconds, and 40 ability power until exiting champion combat (5 seconds)."
+            },
+            {
+              "label": "Change",
+              "note": "Old Effect: If you have at least 160 ability power, gain 20 ability haste and 20 bonus movement speed."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "crown-of-the-shattered-queen",
+      "name": "Crown of the Shattered Queen",
+      "type": "item",
+      "assetKey": "664644",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Recipe: Kindlegem}} + Lost Chapter}} + Amplifying Tome}} + = .; Stats: 70 ability power, 250 health, 600 mana, 20 ability haste.",
+      "gameplayImpact": "Crown of the Shattered Queen was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": "New item",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Recipe: Kindlegem}} + Lost Chapter}} + Amplifying Tome}} + = ."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 70 ability power, 250 health, 600 mana, 20 ability haste."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Safeguard: Become Safeguarded and reduce incoming champion damage by 75%, lingering for 1.5 seconds after taking damage from a champion (40 second cooldown, restarting upon taking champion damage)."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Poise: While Safeguarded, gain 10–40 ability power, lingering for 3 seconds after Safeguard is deactivated."
+            },
+            {
+              "label": "Change",
+              "note": "Mythic Passive: Empowers your other Legendary items with 1% bonus movement speed and 8 ability power."
+            },
+            {
+              "label": "Change",
+              "note": "Limited to 1 Mythic item."
+            },
+            {
+              "label": "Change",
+              "note": "Living Forge (Ornn)|Masterwork}} item: Caesura}}."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 80 ability power, 350 health, 800 mana, 25 ability haste."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust",
+        "New item"
+      ]
+    },
+    {
+      "id": "demonic-embrace",
+      "name": "Demonic Embrace",
+      "type": "item",
+      "assetKey": "4637",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Ability power reduced to 60 from 70.; Health increased to 450 from 350.",
+      "gameplayImpact": "Demonic Embrace was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Ability power",
+              "before": "70",
+              "after": "60",
+              "note": "Ability power reduced to 60 from 70."
+            },
+            {
+              "label": "Health",
+              "before": "350",
+              "after": "450",
+              "note": "Health increased to 450 from 350."
+            },
+            {
+              "label": "Damage per second for melee champions",
+              "before": "1",
+              "after": "2% maximum health",
+              "note": "Damage per second for melee champions increased to 2% maximum health from 1.2%|health."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: No longer gain 10 bonus armor and 10 bonus magic resistance while champions within 1500 units are afflicted by Azakana's Gaze, increased by 2.5 for each additional champion affected."
+            },
+            {
+              "label": "Change",
+              "note": "New Unique Passive - Dark Pact: Gain ability power equal to 2% bonus health."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "dorans-ring",
+      "name": "Doran's Ring",
+      "type": "item",
+      "assetKey": "1056",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Unique Passive - Drain:; New Effect: Restore 0.75 mana every second, increased to 1.25|mana for 10 seconds when you damage an enemy champion. If you can't gain mana, heal 50% of this value instead.",
+      "gameplayImpact": "Doran's Ring was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Unique Passive - Drain:"
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Restore 0.75 mana every second, increased to 1.25|mana for 10 seconds when you damage an enemy champion. If you can't gain mana, heal 50% of this value instead."
+            },
+            {
+              "label": "Change",
+              "note": "Old Effect: Killing a unit no longer restores 6 mana, if you can't gain mana, restore 3 health instead."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "duskblade-of-draktharr",
+      "name": "Duskblade of Draktharr",
+      "type": "item",
+      "assetKey": "6691",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Total cost reduced to from .; Combine cost reduced to from .",
+      "gameplayImpact": "Duskblade of Draktharr was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Total cost reduced to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Combine cost reduced to from ."
+            },
+            {
+              "label": "Nightstalker base damage for melee champions",
+              "before": "65",
+              "after": "75",
+              "note": "Nightstalker base damage for melee champions increased to 75 from 65."
+            },
+            {
+              "label": "Nightstalker bonus AD ratio for melee champions",
+              "before": "25%|AD",
+              "after": "30% bonus AD",
+              "note": "Nightstalker bonus AD ratio for melee champions increased to 30% bonus AD from 25%|AD."
+            },
+            {
+              "label": "Nightstalker base damage for ranged champions",
+              "before": "65",
+              "after": "55",
+              "note": "Nightstalker base damage for ranged champions reduced to 55 from 65."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "eclipse",
+      "name": "Eclipse",
+      "type": "item",
+      "assetKey": "6692",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Total cost reduced to from .; Combine cost reduced to from .",
+      "gameplayImpact": "Eclipse was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Total cost reduced to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Combine cost reduced to from ."
+            },
+            {
+              "label": "Ever Rising Moon cooldown for melee champions",
+              "before": "8",
+              "after": "6 seconds",
+              "note": "Ever Rising Moon cooldown for melee champions reduced to 6 seconds from 8."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "evenshroud",
+      "name": "Evenshroud",
+      "type": "item",
+      "assetKey": "3001",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Recipe: Kindlegem}} + Aegis of the Legion}} + = .; Stats: 200 health, 20 ability haste, 30 armor, 30 magic resistance.",
+      "gameplayImpact": "Evenshroud was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": "New item",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Recipe: Kindlegem}} + Aegis of the Legion}} + = ."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 200 health, 20 ability haste, 30 armor, 30 magic resistance."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Coruscation: Becoming affected by or applying an immobilize effect to or from an enemy champion causes them and all nearby enemies to Repent, increasing the damage they take by 12% for 5 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Mythic Passive: Empowers your other Legendary items with 5 bonus armor and 5 bonus magic resistance."
+            },
+            {
+              "label": "Change",
+              "note": "Limited to 1 Mythic item."
+            },
+            {
+              "label": "Change",
+              "note": "Living Forge (Ornn)|Masterwork}} item: Equinox}}."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 400 health, 25 ability haste, 40 armor, 40 magic resistance"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust",
+        "New item"
+      ]
+    },
+    {
+      "id": "everfrost",
+      "name": "Everfrost",
+      "type": "item",
+      "assetKey": "6656",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "New Recipe: Kindlegem}} + Lost Chapter}} + Amplifying Tome}} + = .; Old Recipe: Lost Chapter}} + Kindlegem}} + Blasting Wand}} + = .",
+      "gameplayImpact": "Everfrost loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Recipe: Kindlegem}} + Lost Chapter}} + Amplifying Tome}} + = ."
+            },
+            {
+              "label": "Change",
+              "note": "Old Recipe: Lost Chapter}} + Kindlegem}} + Blasting Wand}} + = ."
+            },
+            {
+              "label": "Ability power",
+              "before": "80",
+              "after": "70",
+              "note": "Ability power reduced to 70 from 80."
+            },
+            {
+              "label": "Mythic passive ability power",
+              "before": "15",
+              "after": "10",
+              "note": "Mythic passive ability power reduced to 10 from 15."
+            },
+            {
+              "label": "Eternal Winter}} ability power",
+              "before": "100",
+              "after": "90",
+              "note": "Eternal Winter}} ability power reduced to 90 from 100."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "fiendish-codex",
+      "name": "Fiendish Codex",
+      "type": "item",
+      "assetKey": "3108",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Now builds into Horizon Focus}}.",
+      "gameplayImpact": "Fiendish Codex was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Now builds into Horizon Focus}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "fimbulwinter",
+      "name": "Fimbulwinter",
+      "type": "item",
+      "assetKey": "323121",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Automatically transforms from Winter's Approach}}.; Stats: 400 health, 860 mana, 15 ability haste.",
+      "gameplayImpact": "Fimbulwinter was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": "New item",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Automatically transforms from Winter's Approach}}."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 400 health, 860 mana, 15 ability haste."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Awe: Grants bonus health equal to 8% maximum mana."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Everlasting: immobilize, or slow if you are melee, an enemy champion consumes 3% current mana to grant a 100–200 (+ 5% current mana) shield for 3 seconds (8 second cooldown). The shield's strength is increasedif there is more than one enemy champion nearby. Can only activate if you have greater than 20% maximum mana."
+            },
+            {
+              "label": "Change",
+              "note": "Limited to 1 Mana Charge item."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust",
+        "New item"
+      ]
+    },
+    {
+      "id": "force-of-nature",
+      "name": "Force of Nature",
+      "type": "item",
+      "assetKey": "4401",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Magic resistance increased to 70 from 60.; Unique Passive - Absorb:",
+      "gameplayImpact": "Force of Nature is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Magic resistance",
+              "before": "60",
+              "after": "70",
+              "note": "Magic resistance increased to 70 from 60."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Absorb:"
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Taking magic damage from enemy champions grants a stack of Steadfast for 5 seconds, up to a maximum of 6. Becoming immobilize by an enemy champion grants 2 additional stacks. Spells can only grant 1 stack of Steadfast every 1 second."
+            },
+            {
+              "label": "Change",
+              "note": "Old Effect: Taking ability damage grants you 8 bonus movement speed and 4 bonus magic resistance for 5 seconds, stacking up to 5 times for a maximum of 40 bonus movement speed and 20 bonus magic resistance. Each unique ability gives 1 stack."
+            },
+            {
+              "label": "Change",
+              "note": "New Unique Passive - Dissipate: While at 6 stacks of Steadfast, gain 10% bonus movement speed and reduce all incoming magic damage by 20%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "frostfire-gauntlet",
+      "name": "Frostfire Gauntlet",
+      "type": "item",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Immolate base damage reduced to 12 at all levels from 12–30.; New Effect: Snowbind now deals (+ magic damage to all enemies within the area.",
+      "gameplayImpact": "Frostfire Gauntlet was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Immolate base damage",
+              "before": "12–30",
+              "after": "12 at all levels",
+              "note": "Immolate base damage reduced to 12 at all levels from 12–30."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Snowbind now deals (+ magic damage to all enemies within the area."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Immolate now executes minions that would be killed by one more tick of damage."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "gargoyle-stoneplate",
+      "name": "Gargoyle Stoneplate",
+      "type": "item",
+      "assetKey": "663193",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Total cost reduced to from .; Combine cost unchanged.",
+      "gameplayImpact": "Gargoyle Stoneplate is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Total cost reduced to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Combine cost unchanged."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Tooltip now tracks damage blocked by Monolith."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "giants-belt",
+      "name": "Giant's Belt",
+      "type": "item",
+      "assetKey": "221011",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "No longer builds into Abyssal Mask}}.",
+      "gameplayImpact": "Giant's Belt loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "No longer builds into Abyssal Mask}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "guardians-horn",
+      "name": "Guardian's Horn",
+      "type": "item",
+      "assetKey": "222051",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Tooltip now tracks damage blocked by passive.",
+      "gameplayImpact": "Guardian's Horn is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Tooltip now tracks damage blocked by passive."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "hextech-alternator",
+      "name": "Hextech Alternator",
+      "type": "item",
+      "assetKey": "3145",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "New Recipe: Amplifying Tome}} + Ruby Crystal}} + = .; Old Recipe: Amplifying Tome}} + Amplifying Tome}} + = .",
+      "gameplayImpact": "Hextech Alternator was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Recipe: Amplifying Tome}} + Ruby Crystal}} + = ."
+            },
+            {
+              "label": "Change",
+              "note": "Old Recipe: Amplifying Tome}} + Amplifying Tome}} + = ."
+            },
+            {
+              "label": "Ability power",
+              "before": "40",
+              "after": "25",
+              "note": "Ability power reduced to 25 from 40."
+            },
+            {
+              "label": "Health",
+              "before": "0",
+              "after": "150",
+              "note": "Health increased to 150 from 0."
+            },
+            {
+              "label": "Change",
+              "note": "Now builds into Shadowflame}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "hextech-rocketbelt",
+      "name": "Hextech Rocketbelt",
+      "type": "item",
+      "assetKey": "3152",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "New Recipe: Blasting Wand}} + Hextech Alternator}} + Amplifying Tome}} + = .; Old Recipe: Hextech Alternator}} + Ruby Crystal}} + Blasting Wand}} + = .",
+      "gameplayImpact": "Hextech Rocketbelt was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Recipe: Blasting Wand}} + Hextech Alternator}} + Amplifying Tome}} + = ."
+            },
+            {
+              "label": "Change",
+              "note": "Old Recipe: Hextech Alternator}} + Ruby Crystal}} + Blasting Wand}} + = ."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "horizon-focus",
+      "name": "Horizon Focus",
+      "type": "item",
+      "assetKey": "4628",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "New Recipe: Hextech Alternator}} + Fiendish Codex}} + = .; Old Recipe: Needlessly Large Rod}} + Hextech Alternator}} + = .",
+      "gameplayImpact": "Horizon Focus was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Recipe: Hextech Alternator}} + Fiendish Codex}} + = ."
+            },
+            {
+              "label": "Change",
+              "note": "Old Recipe: Needlessly Large Rod}} + Hextech Alternator}} + = ."
+            },
+            {
+              "label": "Ability power",
+              "before": "115",
+              "after": "85",
+              "note": "Ability power reduced to 85 from 115."
+            },
+            {
+              "label": "Ability haste",
+              "before": "0",
+              "after": "15",
+              "note": "Ability haste increased to 15 from 0."
+            },
+            {
+              "label": "Health",
+              "before": "0",
+              "after": "150",
+              "note": "Health increased to 150 from 0."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Slow can now trigger Hypershot."
+            },
+            {
+              "label": "Change",
+              "note": "Undocumented/Bug Fix: Passive is no longer named Focus Fire in the British English localization."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "kindlegem",
+      "name": "Kindlegem",
+      "type": "item",
+      "assetKey": "3067",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Now builds into Abyssal Mask}}, Archangel's Staff}}, Crown of the Shattered Queen}}, Evenshroud}}, and Winter's Approach}}.; No longer builds into Cosmic Drive}}.",
+      "gameplayImpact": "Kindlegem loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Now builds into Abyssal Mask}}, Archangel's Staff}}, Crown of the Shattered Queen}}, Evenshroud}}, and Winter's Approach}}."
+            },
+            {
+              "label": "Change",
+              "note": "No longer builds into Cosmic Drive}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "knights-vow",
+      "name": "Knight's Vow",
+      "type": "item",
+      "assetKey": "323109",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Health regeneration reduced to 150% from 300%.; Unique Passive - Sacrifice:",
+      "gameplayImpact": "Knight's Vow was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Health regeneration",
+              "before": "300%",
+              "after": "150%",
+              "note": "Health regeneration reduced to 150% from 300%."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Sacrifice:"
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: While your Worthy ally is nearby and you are above 30% of your maximum health, redirect 10% of the physical|physical damage and magic|magic damage damage they take to you as true damage and heal for 8% of the damage dealt by your Worthy ally to champions. If they are below 30% maximum health, the damage redirection is increased to 20%."
+            },
+            {
+              "label": "Change",
+              "note": "Old Effect: While your Worthy ally is nearby and you are above 30% of your maximum health, redirect 15% of the physical|physical damage and magic|magic damage damage they take to you as true damage. Additionally, if they are below 50% of their maximum health, gain 35% bonus movement speed while moving towards them."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "locket-of-the-iron-solari",
+      "name": "Locket of the Iron Solari",
+      "type": "item",
+      "assetKey": "323190",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Combine cost increased to from .; Total cost unchanged.",
+      "gameplayImpact": "Locket of the Iron Solari loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Combine cost increased to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Total cost unchanged."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "lord-dominiks-regards",
+      "name": "Lord Dominik's Regards",
+      "type": "item",
+      "assetKey": "3036",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Tooltip now tracks bonus damage from Giant's Slayer.",
+      "gameplayImpact": "Lord Dominik's Regards is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Giant Slayer no longer affects non-champions."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Tooltip now tracks bonus damage from Giant's Slayer."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "lost-chapter",
+      "name": "Lost Chapter",
+      "type": "item",
+      "assetKey": "3802",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Now builds into Crown of the Shattered Queen}}.",
+      "gameplayImpact": "Lost Chapter was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Now builds into Crown of the Shattered Queen}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "needlessly-large-rod",
+      "name": "Needlessly Large Rod",
+      "type": "item",
+      "assetKey": "221058",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Now builds into Shadowflame}}.; No longer builds into Archangel's Staff}} and Horizon Focus}}.",
+      "gameplayImpact": "Needlessly Large Rod loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Now builds into Shadowflame}}."
+            },
+            {
+              "label": "Change",
+              "note": "No longer builds into Archangel's Staff}} and Horizon Focus}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "negatron-cloak",
+      "name": "Negatron Cloak",
+      "type": "item",
+      "assetKey": "221057",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "No longer builds into Abyssal Mask}}.",
+      "gameplayImpact": "Negatron Cloak loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "No longer builds into Abyssal Mask}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "night-harvester",
+      "name": "Night Harvester",
+      "type": "item",
+      "assetKey": "4636",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "New Recipe: Blasting Wand}} + Hextech Alternator}} + Amplifying Tome}} + = .; Old Recipe: Hextech Alternator}} + Ruby Crystal}} + Blasting Wand}} + = .",
+      "gameplayImpact": "Night Harvester was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Recipe: Blasting Wand}} + Hextech Alternator}} + Amplifying Tome}} + = ."
+            },
+            {
+              "label": "Change",
+              "note": "Old Recipe: Hextech Alternator}} + Ruby Crystal}} + Blasting Wand}} + = ."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "prowlers-claw",
+      "name": "Prowler's Claw",
+      "type": "item",
+      "assetKey": "6693",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Total cost reduced to from .; Combine cost reduced to from .",
+      "gameplayImpact": "Prowler's Claw is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Total cost reduced to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Combine cost reduced to from ."
+            },
+            {
+              "label": "Sandswipe base damage",
+              "before": "65",
+              "after": "75",
+              "note": "Sandswipe base damage increased to 75 from 65."
+            },
+            {
+              "label": "Sandswipe bonus AD ratio",
+              "before": "25%|AD",
+              "after": "30% bonus AD",
+              "note": "Sandswipe bonus AD ratio increased to 30% bonus AD from 25%|AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "rapid-firecannon",
+      "name": "Rapid Firecannon",
+      "type": "item",
+      "assetKey": "3094",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Tooltip now tracks how many times extra range was utilized.",
+      "gameplayImpact": "Rapid Firecannon is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Tooltip now tracks how many times extra range was utilized."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "ruby-crystal",
+      "name": "Ruby Crystal",
+      "type": "item",
+      "assetKey": "1028",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Now builds into Cosmic Drive}}, Hextech Alternator}}, and Winter's Approach}}.; No longer builds into Hextech Rocketbelt}} and Night Harvester}}.",
+      "gameplayImpact": "Ruby Crystal loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Now builds into Cosmic Drive}}, Hextech Alternator}}, and Winter's Approach}}."
+            },
+            {
+              "label": "Change",
+              "note": "No longer builds into Hextech Rocketbelt}} and Night Harvester}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "seraphs-embrace",
+      "name": "Seraph's Embrace",
+      "type": "item",
+      "assetKey": "323040",
+      "roles": [],
+      "direction": "buff",
+      "severity": 3,
+      "tldr": "Ability power increased to 80 from 65.; Health increased to 250 from 0.",
+      "gameplayImpact": "Seraph's Embrace is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Ability power",
+              "before": "65",
+              "after": "80",
+              "note": "Ability power increased to 80 from 65."
+            },
+            {
+              "label": "Health",
+              "before": "0",
+              "after": "250",
+              "note": "Health increased to 250 from 0."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Awe:"
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Grants ability haste equal to 1.3% bonus mana."
+            },
+            {
+              "label": "Change",
+              "note": "Old Effect: Grants ability power equal to 5% bonus mana."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Empyrean:"
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Heal for 35% of mana spent, up to 25–50 (+ 10% AP) per cast. Toggle abilities can heal up to 25–50 (+ 10% AP) per second."
+            },
+            {
+              "label": "Change",
+              "note": "Old Effect: Increase your maximum mana by 5% (+ 2.5% per 100 AP)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "serrated-dirk",
+      "name": "Serrated Dirk",
+      "type": "item",
+      "assetKey": "3134",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Now builds into Axiom Arc}}.",
+      "gameplayImpact": "Serrated Dirk was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Now builds into Axiom Arc}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "shadowflame",
+      "name": "Shadowflame",
+      "type": "item",
+      "assetKey": "4645",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Recipe: Hextech Alternator}} + Needlessly Large Rod}} + = .; Stats: 100 ability power, 200 health.",
+      "gameplayImpact": "Shadowflame is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": "New item",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Recipe: Hextech Alternator}} + Needlessly Large Rod}} + = ."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 100 ability power, 200 health."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Cinderbloom: Damage against champions benefits from 10–20 (2500–1000) magic penetration, increased to maximum value if the target was affected by a shield within the last 5 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Limited to 1 Shadowflame."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff",
+        "New item"
+      ]
+    },
+    {
+      "id": "spectres-cowl",
+      "name": "Spectre's Cowl",
+      "type": "item",
+      "assetKey": "3211",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Now builds into Abyssal Mask}}.",
+      "gameplayImpact": "Spectre's Cowl was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Now builds into Abyssal Mask}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "spirit-visage",
+      "name": "Spirit Visage",
+      "type": "item",
+      "assetKey": "3065",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Tooltip now tracks bonus healing and shielding from Boundless Vitality.",
+      "gameplayImpact": "Spirit Visage is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Tooltip now tracks bonus healing and shielding from Boundless Vitality."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "stormrazor",
+      "name": "Stormrazor",
+      "type": "item",
+      "assetKey": "3097",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Tooltip now tracks champions slowed by Paralyze.",
+      "gameplayImpact": "Stormrazor is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Tooltip now tracks champions slowed by Paralyze."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "sunfire-aegis",
+      "name": "Sunfire Aegis",
+      "type": "item",
+      "assetKey": "3068",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Combine cost increased to from .; Total cost unchanged.",
+      "gameplayImpact": "Sunfire Aegis was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Combine cost increased to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Total cost unchanged."
+            },
+            {
+              "label": "Armor",
+              "before": "30",
+              "after": "35",
+              "note": "Armor increased to 35 from 30."
+            },
+            {
+              "label": "Magic resistance",
+              "before": "30",
+              "after": "35",
+              "note": "Magic resistance increased to 35 from 30."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Mythic passive now also grants 50 bonus health."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Immolate now executes minions that would be killed by one more tick of damage."
+            },
+            {
+              "label": "Forgefire Crest}} armor",
+              "before": "45",
+              "after": "50",
+              "note": "Forgefire Crest}} armor increased to 50 from 45."
+            },
+            {
+              "label": "Forgefire Crest}} magic resistance",
+              "before": "45",
+              "after": "50",
+              "note": "Forgefire Crest}} magic resistance increased to 50 from 45."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "tear-of-the-goddess",
+      "name": "Tear of the Goddess",
+      "type": "item",
+      "assetKey": "323070",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Now builds into Winter's Approach}}.",
+      "gameplayImpact": "Tear of the Goddess was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Now builds into Winter's Approach}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "turbo-chemtank",
+      "name": "Turbo Chemtank",
+      "type": "item",
+      "assetKey": "443079",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "New Unique Passive - Refuel: Moving and dealing damage fills up the Chemtank, gaining stacks. Gain 5 stacks per instance of damage dealt per cast instance and 1 stack for every 15 units travelled. At 100 stacks, your …",
+      "gameplayImpact": "Turbo Chemtank is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Unique Passive - Refuel: Moving and dealing damage fills up the Chemtank, gaining stacks. Gain 5 stacks per instance of damage dealt per cast instance and 1 stack for every 15 units travelled. At 100 stacks, your next basic attack deals 40–120|magic damage (+ 1% maximum health) (+ 3% movement speed) magic damage to all nearby enemies, increased by 25% against minions and 175% against monsters."
+            },
+            {
+              "label": "Change",
+              "note": "Removed Passive - Immolate: Taking or dealing damage no longer activates this passive for 3 seconds. Deal 12–30 every second to enemies within cr 325 (+ 100% bonus size) units, increased by 25% against minions and 150% against monsters."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Mythic passive now also grants 50 bonus health."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "void-staff",
+      "name": "Void Staff",
+      "type": "item",
+      "assetKey": "3135",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Total cost increased to from .; Combine cost increased to from .",
+      "gameplayImpact": "Void Staff was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Total cost increased to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Combine cost increased to from ."
+            },
+            {
+              "label": "Ability power",
+              "before": "70",
+              "after": "65",
+              "note": "Ability power reduced to 65 from 70."
+            },
+            {
+              "label": "Magic penetration",
+              "before": "40%",
+              "after": "45%",
+              "note": "Magic penetration increased to 45% from 40%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "youmuus-ghostblade",
+      "name": "Youmuu's Ghostblade",
+      "type": "item",
+      "assetKey": "3142",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Total cost increased to from .; Combine cost increased to from .",
+      "gameplayImpact": "Youmuu's Ghostblade loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Total cost increased to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Combine cost increased to from ."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "winters-approach",
+      "name": "Winter's Approach",
+      "type": "item",
+      "assetKey": "323119",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Recipe: Tear of the Goddess}} + Kindlegem}} + Ruby Crystal}} + = .; Stats: 400 health, 500 mana, 15 ability haste.",
+      "gameplayImpact": "Winter's Approach is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": "New item",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Recipe: Tear of the Goddess}} + Kindlegem}} + Ruby Crystal}} + = ."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 400 health, 500 mana, 15 ability haste."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Awe: Grants bonus health equal to 8% maximum mana."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Mana Charge: Grants a charge every 8 seconds, up to 4 charges. Affecting an enemy or ally with an attack or ability consumes a charge and grants 3 bonus mana, increased to 6|mana if it's a champion, up to maximum of 360 bonus mana. Transforms into Fimbulwinter}} at +360 mana."
+            },
+            {
+              "label": "Change",
+              "note": "Limited to 1 Mana Charge item."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff",
+        "New item"
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "id": "aftershock",
+      "name": "Aftershock",
+      "type": "rune",
+      "assetKey": null,
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Tooltip now tracks damage mitigated.",
+      "gameplayImpact": "Aftershock is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Tooltip now tracks damage mitigated."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "glacial-augment",
+      "name": "Glacial Augment",
+      "type": "rune",
+      "assetKey": null,
+      "roles": [],
+      "direction": "buff",
+      "severity": 3,
+      "tldr": "New Effect:; immobilize an enemy champion will cause 3 glacial rays to emanate from them towards you and other nearby enemy champions, creating icy zones that slow enemies within by 35% (+ 2% per 100 AP) (+ 2% per 100…",
+      "gameplayImpact": "Glacial Augment is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect:"
+            },
+            {
+              "label": "Change",
+              "note": "immobilize an enemy champion will cause 3 glacial rays to emanate from them towards you and other nearby enemy champions, creating icy zones that slow enemies within by 35% (+ 2% per 100 AP) (+ 2% per 100 bonus AD) (+ 5% per 10% heal and shield power) and reducing their damage by 15% against your allies, excluding yourself, for 3 (+ 100% of the immobilizing effect's duration) seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: 25 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Old Effect:"
+            },
+            {
+              "label": "Change",
+              "note": "Glacial Augment: Basic attacks on-hit slow enemy champions by for 2 seconds, which increases in effectiveness over the duration. This effect cannot occur on the same target more than once every few seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: 7–4 (lv 1–16) (per target) seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Freeze Ray: slow an enemy champion with an item active creates a -unit frozen line in their direction for 5 seconds, slow all enemies within by 60%. The Freeze Ray can fire upon any number of champions concurrently, and has no cooldown."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "first-strike",
+      "name": "First Strike",
+      "type": "rune",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Replaces Prototype: Omnistone}}.; 20px|link=Inspiration Inspiration Keystone rune.",
+      "gameplayImpact": "First Strike was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": "New keystone rune",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Replaces Prototype: Omnistone}}."
+            },
+            {
+              "label": "Change",
+              "note": "20px|link=Inspiration Inspiration Keystone rune."
+            },
+            {
+              "label": "Change",
+              "note": "Passive: Dealing damage or applying a crowd control effect to an enemy champion within the first 0.25 seconds of champion combat, grants and First Strike for 3 seconds, causing all of your dealt against champions to deal 10% bonus true damage. Afterwards, you are granted of all bonus damage dealt within the duration as gold."
+            },
+            {
+              "label": "Change",
+              "note": "First Strike will be placed on cooldown after being struck by an enemy champion before you strike them."
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: 25–15 seconds."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust",
+        "New keystone rune"
+      ]
+    },
+    {
+      "id": "lethal-tempo",
+      "name": "Lethal Tempo",
+      "type": "rune",
+      "assetKey": null,
+      "roles": [],
+      "direction": "buff",
+      "severity": 3,
+      "tldr": "New Effect:; Basic attacks on-attack against enemy champions grant a stack for 6 seconds, stacking up to 6 times. Gain for each stack, up to at maximum stacks. At maximum stacks, gain bonus attack range and increase t…",
+      "gameplayImpact": "Lethal Tempo is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect:"
+            },
+            {
+              "label": "Change",
+              "note": "Basic attacks on-attack against enemy champions grant a stack for 6 seconds, stacking up to 6 times. Gain for each stack, up to at maximum stacks. At maximum stacks, gain bonus attack range and increase the attack speed cap to 10. Stacks decay by 1 every 0.5 seconds upon expiring."
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: None."
+            },
+            {
+              "label": "Change",
+              "note": "Old Effect:"
+            },
+            {
+              "label": "Change",
+              "note": "After 1.5 seconds upon damaging an enemy champion you gain 40–110% bonus attack speed and your attack speed cap|attack speed is increased for 3 seconds. Attacking a champion while the effect is active extends the duration to 6 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown: 6 seconds, starts after the effect ends."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "prototype-omnistone",
+      "name": "Prototype: Omnistone",
+      "type": "rune",
+      "assetKey": null,
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Removed from the game.; Replaced by First Strike}}.",
+      "gameplayImpact": "Prototype: Omnistone loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": "Removed",
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Removed from the game."
+            },
+            {
+              "label": "Change",
+              "note": "Replaced by First Strike}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf",
+        "Removed"
+      ]
+    },
+    {
+      "id": "monsters",
+      "name": "Monsters",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "buff",
+      "severity": 3,
+      "tldr": "- New Elemental Drake; When the map transforms into the Chemtech Rift, summons foggy zones within each jungle quadrant. Units within these zones are empowered by 20px|link= Chemtech Fog, which grants them camouflage i…",
+      "gameplayImpact": "Monsters is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "- New Elemental Drake"
+            },
+            {
+              "label": "Change",
+              "note": "When the map transforms into the Chemtech Rift, summons foggy zones within each jungle quadrant. Units within these zones are empowered by 20px|link= Chemtech Fog, which grants them camouflage if they haven't declared an attack, casted an ability, or channel within the last 1.5 seconds, and up to 10% increased damage against enemies with 340–1020 greater current health than them."
+            },
+            {
+              "label": "Change",
+              "note": "Units cannot gain the camouflage while channeling."
+            },
+            {
+              "label": "Change",
+              "note": "- New Elemental Drake"
+            },
+            {
+              "label": "Change",
+              "note": "When the map transforms into the Hextech Rift, summons pairs of 20px|link= hex-gates within both team's bases and each jungle quadrant. Hex-gates can be interacted with by champions to channel for 0.75 seconds. Upon completion, they blink to the other side of the gate over 2.25 seconds while vanish. Pairs of hex-gates have a 30-second cooldown after being activated."
+            },
+            {
+              "label": "Change",
+              "note": "The channel can be interrupted by taking damage, performing another action, as well as becoming ground. If this occurs, the hex-gate is placed on a 1.5-second cooldown."
+            },
+            {
+              "label": "Change",
+              "note": "The channel cannot be started while unable to cast abilities or ground."
+            },
+            {
+              "label": "Change",
+              "note": "If no direction is chosen upon arrival, champions will always exit at the gate without blinking an additional time."
+            },
+            {
+              "label": "Change",
+              "note": "The gates that lead toward each team's base cannot be interacted with."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: The first Rift Scuttlers spawned now have 35% reduced health, 80% reduced experience and reduced size."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "elemental-dragons",
+      "name": "Elemental Dragons",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "buff",
+      "severity": 3,
+      "tldr": "- New Elemental Drake; When the map transforms into the Chemtech Rift, summons foggy zones within each jungle quadrant. Units within these zones are empowered by 20px|link= Chemtech Fog, which grants them camouflage i…",
+      "gameplayImpact": "Elemental Dragons is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "- New Elemental Drake"
+            },
+            {
+              "label": "Change",
+              "note": "When the map transforms into the Chemtech Rift, summons foggy zones within each jungle quadrant. Units within these zones are empowered by 20px|link= Chemtech Fog, which grants them camouflage if they haven't declared an attack, casted an ability, or channel within the last 1.5 seconds, and up to 10% increased damage against enemies with 340–1020 greater current health than them."
+            },
+            {
+              "label": "Change",
+              "note": "Units cannot gain the camouflage while channeling."
+            },
+            {
+              "label": "Change",
+              "note": "- New Elemental Drake"
+            },
+            {
+              "label": "Change",
+              "note": "When the map transforms into the Hextech Rift, summons pairs of 20px|link= hex-gates within both team's bases and each jungle quadrant. Hex-gates can be interacted with by champions to channel for 0.75 seconds. Upon completion, they blink to the other side of the gate over 2.25 seconds while vanish. Pairs of hex-gates have a 30-second cooldown after being activated."
+            },
+            {
+              "label": "Change",
+              "note": "The channel can be interrupted by taking damage, performing another action, as well as becoming ground. If this occurs, the hex-gate is placed on a 1.5-second cooldown."
+            },
+            {
+              "label": "Change",
+              "note": "The channel cannot be started while unable to cast abilities or ground."
+            },
+            {
+              "label": "Change",
+              "note": "If no direction is chosen upon arrival, champions will always exit at the gate without blinking an additional time."
+            },
+            {
+              "label": "Change",
+              "note": "This location cannot be over terrain."
+            },
+            {
+              "label": "Change",
+              "note": "The gates that lead toward each team's base cannot be interacted with."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "neutral-buffs",
+      "name": "Neutral buffs",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "- New stacking drake buff; + 20px% (5–20) increased damage against enemies with 340–1020 greater current health than you.",
+      "gameplayImpact": "Neutral buffs was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "- New stacking drake buff"
+            },
+            {
+              "label": "Change",
+              "note": "+ 20px% (5–20) increased damage against enemies with 340–1020 greater current health than you."
+            },
+            {
+              "label": "Change",
+              "note": "- New stacking drake buff"
+            },
+            {
+              "label": "Change",
+              "note": "+ 20px (5–20) ability haste and 20px% (5–20) bonus attack speed|as."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: + 20px% slow resist and out-of-combat bonus movement speed."
+            },
+            {
+              "label": "Change",
+              "note": "Old Effect: + 20px (12–12) ultimate haste."
+            },
+            {
+              "label": "Change",
+              "note": "- New Dragon Soul"
+            },
+            {
+              "label": "Change",
+              "note": "Upon taking lethal damage, enter resurrection for 2 seconds, and afterwards heal for 80% base health (+ 50% bonus health) and become a zombie state, during which you gain , reduce outgoing damage by 33% and incoming damage by 40%, and take true damage equal to a percentage of the amount of health started with that increases every 0.25 seconds. (300 second cooldown)."
+            },
+            {
+              "label": "Change",
+              "note": "- New Dragon Soul"
+            },
+            {
+              "label": "Change",
+              "note": "Damaging an enemy with an attack or ability causes them to be struck with lightning, dealing 25–75 bonus true damage and slow them by (+ 3% per 100 bonus AD) (+ 1% per 100 AP) (+ 0.5% per 100 bonus health) decaying over 2 seconds, while chaining the effect to up to 3 enemies (8 second cooldown)."
+            },
+            {
+              "label": "Change",
+              "note": "The slow can stack from multiple sources, and the decay rate is decreased against ranged champions."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    }
+  ],
+  "sourceUrl": "https://na.leagueoflegends.com/en-us/news/game-updates/patch-11-23-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V11.23"
+}

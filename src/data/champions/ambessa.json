@@ -1,0 +1,670 @@
+{
+  "slug": "ambessa",
+  "name": "Ambessa",
+  "assetKey": "Ambessa",
+  "entries": [
+    {
+      "patchId": "14.22",
+      "version": "14.22",
+      "releaseDate": "2024-11-06",
+      "change": {
+        "id": "ambessa",
+        "name": "Ambessa",
+        "type": "champion",
+        "assetKey": "Ambessa",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Innate: During the lockout of Ambessa's abilities, inputting an causes her to dash to or the target or location, respectively, after the lockout ends. This dash cannot pass through terrain. Ambessa cannot dash while i…",
+        "gameplayImpact": "Ambessa was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": "New Champion",
+        "changes": [
+          {
+            "ability": "General",
+            "title": null,
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Innate: During the lockout of Ambessa's abilities, inputting an causes her to dash to or the target or location, respectively, after the lockout ends. This dash cannot pass through terrain. Ambessa cannot dash while immobilize or ground."
+              },
+              {
+                "label": "Change",
+                "note": "Innate: Whenever Ambessa casts an ability, she generates a stack of Medarda Maxim after the ability's respective lockout for 4 seconds, refreshing with subsequent casts and stacking up to 3 times."
+              },
+              {
+                "label": "Change",
+                "note": "Medarda Maxim: Ambessa's next basic attack on-attack is empowered to have an uncancellable windup, gain 75 bonus range and 50% bonus attack speed, and consume a stack to deal 5–30|physical damage (+ 30% bonus AD) bonus physical damage and restore energy|40–70 energy."
+              },
+              {
+                "label": "Change",
+                "note": "Target Range: / , Speed: 770–950 + 100% movement speed."
+              },
+              {
+                "label": "Change",
+                "note": "Active: Ambessa enters a 0.225-second lockout, at the end of which she slashes with her twin drakehounds in a cone in the target direction, dealing 40/2 to 120/2 (+ 30% bonus AD) (+ 2/2 to 6/2% physical damage to enemies hit. The damage is against enemies hit by the outer edge."
+              },
+              {
+                "label": "Change",
+                "note": "dash may be buffered during the lockout or initiated within 0.275 seconds of the lockout ending, and Ambessa will perform the dash after her slash completes."
+              },
+              {
+                "label": "Change",
+                "note": "If this hits at least one enemy, Ambessa can cast Sundering Slam}} within the next 3.5 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Against monsters, Cunning Sweep deals 125 bonus physical damage and the damage based on their health ratio is capped at 100–300."
+              },
+              {
+                "label": "Change",
+                "note": "Cost: 70 energy."
+              },
+              {
+                "label": "Change",
+                "note": "Cooldown: 14–10 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Cast Time: None, Effect Radius: er / ."
+              },
+              {
+                "label": "Change",
+                "note": "Active: Ambessa enters a 0.225-second lockout, at the end of which she slams her twin drakehounds in a line in the target direction, dealing 50/2 to 150/2 (+ 45% bonus AD) (+ 2/2 to 6/2% physical damage to enemies hit. The damage is against the first enemy hit."
+              },
+              {
+                "label": "Change",
+                "note": "dash may be buffered during the lockout or initiated within 0.275 seconds of the lockout ending, and Ambessa will perform the dash after her slam completes."
+              },
+              {
+                "label": "Change",
+                "note": "Against monsters, Sundering Slam deals 125 bonus physical damage and the damage based on their health ratio is capped at 100–300."
+              },
+              {
+                "label": "Change",
+                "note": "Cost: 70 energy."
+              },
+              {
+                "label": "Change",
+                "note": "Cast Time: None, Range: er 650, Width: er 40."
+              },
+              {
+                "label": "Change",
+                "note": "Active: Ambessa braces herself for up to 0.5 seconds, during which in the first 0.225 seconds she is lockout. After Ambessa finishes bracing, she smashes the ground beneath her, dealing 50–150 (+ 50% bonus AD) physical damage to nearby enemies."
+              },
+              {
+                "label": "Change",
+                "note": "dash may be buffered during the lockout or initiated within 0.25 seconds of the lockout ending."
+              },
+              {
+                "label": "Change",
+                "note": "Ambessa additionally shield herself for 85–350 (+ 175% bonus AD) for 2 seconds upon cast. If the shield mitigates any amount of damage taken from champions, large monsters, or turret before Ambessa smashes the ground, Repudiation's damage is increased by 50%."
+              },
+              {
+                "label": "Change",
+                "note": "Ambessa will smash the ground at the end of dash if she would finish bracing during it, and otherwise always smashes the ground from wherever she is at the end of the bracing time."
+              },
+              {
+                "label": "Change",
+                "note": "Cost: 70 energy."
+              },
+              {
+                "label": "Change",
+                "note": "Cooldown: 18–14 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Cast Time: None, Effect Radius: er 325."
+              },
+              {
+                "label": "Change",
+                "note": "Active: Ambessa enters a 0.225-second lockout and spins her twin drakehounds around her to deal 40–140 (+ 40–80% bonus AD) physical damage to nearby enemies and slow them by 99% decaying over 1 second."
+              },
+              {
+                "label": "Change",
+                "note": "dash may be buffered during the lockout or initiated within 0.275 seconds of the lockout ending; in either case, she will spin a second time at the end of the dash to apply the same effects."
+              },
+              {
+                "label": "Change",
+                "note": "Cost: 70 energy."
+              },
+              {
+                "label": "Change",
+                "note": "Cooldown: 13–9 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Cast Time: None, Effect Radius: er 325."
+              },
+              {
+                "label": "Change",
+                "note": "Passive: Ambessa gains 10–30 (3 ranks)% armor penetration and heals herself for 10–15 (3 ranks)% (+ 50% life steal) of the she deals to enemies with her active abilities, reduced to 25% against minions and 40% versus monsters."
+              },
+              {
+                "label": "Change",
+                "note": "Active: Ambessa prepares a strike in a line in the target direction, then blinks behind the farthest enemy champion within the area and seizes them. If she successfully seizes the target, Ambessa attach them to herself and suppression them for 0.75 seconds, during which she true sight them and picks them up off the ground to afterwards crash them back down, dealing 150–350 (+ 80% bonus AD) physical damage and stun them for 0.4 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Ambessa is displacement immune and lockout during the cast time and while the target is suppressed, lingering for 0.1 seconds afterwards. dash may be buffered during the cast time or lockout, as well as initiated within 0.275 seconds of the lockout ending."
+              },
+              {
+                "label": "Change",
+                "note": "Cooldown: 130–100 (3 ranks) seconds."
+              },
+              {
+                "label": "Change",
+                "note": "Cast Time: 0.55 seconds, Range: er 1250, Width: er 65."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust",
+          "New Champion"
+        ]
+      }
+    },
+    {
+      "patchId": "14.23",
+      "version": "14.23",
+      "releaseDate": "2024-11-20",
+      "change": {
+        "id": "ambessa",
+        "name": "Ambessa",
+        "type": "champion",
+        "assetKey": "Ambessa",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "Recast time increased to 4 seconds from 3.5.; [Note: this does not affect any orders issued during the lockout.]",
+        "gameplayImpact": "Ambessa is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "General",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: Various VO events no longer fail to trigger."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Homeguard trail VFX now displays correctly."
+              }
+            ]
+          },
+          {
+            "ability": "Drakehound's Step",
+            "title": "Drakehound's Step",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: Dash pathfinding no longer ignores champion-generated terrain."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Using Supersonic during Drakehound's Step but after issuing a movement order no longer causes Ambessa's pathing speed to remain locked at the value of Supersonic's dash speed for the duration required to reach the movement order's destination, whatever distance that may have been (or otherwise until the order completes by any means, such as being canceled by the player, immobilizing crowd control, displacement, etc), thus illegally allowing her to move at an extraordinary speed.Youtube — Vandiril (14 November 2024) [https://www.youtube.com/watch?v=tCYBixnIJRM Rocketbelt Ambessa needs a fix...] [Note: Ambessa's actual movement speed statistic did not change during this interaction.]"
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Dash can now properly be buffered and cast during travel."
+              }
+            ]
+          },
+          {
+            "ability": "Sundering Slam",
+            "title": "Sundering Slam",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Recast time",
+                "before": "3",
+                "after": "4 seconds",
+                "note": "Recast time increased to 4 seconds from 3.5."
+              }
+            ]
+          },
+          {
+            "ability": "Public Execution",
+            "title": "Public Execution",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: If the cast is successful, all movement orders issued before seizing the target are now discarded upon the lockout ending (target being slammed onto the ground)."
+              },
+              {
+                "label": "Change",
+                "note": "[Note: this does not affect any orders issued during the lockout.]"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "14.24",
+      "version": "14.24",
+      "releaseDate": "2024-12-11",
+      "change": {
+        "id": "ambessa",
+        "name": "Ambessa",
+        "type": "champion",
+        "assetKey": "Ambessa",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 2,
+        "tldr": "Base shield reduced to 50–320 from 85–350.; Shield bonus AD ratio reduced to 150% bonus AD from 175%|ad.",
+        "gameplayImpact": "Ambessa loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Drakehound's Step",
+            "title": "Drakehound's Step",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: Dash pathfinding no longer ignores Emperor's Divide (Azir)}}."
+              }
+            ]
+          },
+          {
+            "ability": "Repudiation",
+            "title": "Repudiation",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base shield",
+                "before": "85–350",
+                "after": "50–320",
+                "note": "Base shield reduced to 50–320 from 85–350."
+              },
+              {
+                "label": "Shield bonus AD ratio",
+                "before": "175%|ad",
+                "after": "150% bonus AD",
+                "note": "Shield bonus AD ratio reduced to 150% bonus AD from 175%|ad."
+              },
+              {
+                "label": "Shield duration",
+                "before": "2",
+                "after": "1.5 seconds",
+                "note": "Shield duration reduced to 1.5 seconds from 2."
+              }
+            ]
+          },
+          {
+            "ability": "Lacerate",
+            "title": "Lacerate",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Bonus AD ratio",
+                "before": "40–80%|ad",
+                "after": "40–60% bonus AD",
+                "note": "Bonus AD ratio reduced to 40–60% bonus AD from 40–80%|ad."
+              },
+              {
+                "label": "Total bonus AD ratio",
+                "before": "80–160%|ad",
+                "after": "80–120% bonus AD",
+                "note": "Total bonus AD ratio reduced to 80–120% bonus AD from 80–160%|ad."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "25.S1.3",
+      "version": "25.S1.3",
+      "releaseDate": "2025-02-05",
+      "change": {
+        "id": "ambessa",
+        "name": "Ambessa",
+        "type": "champion",
+        "assetKey": "Ambessa",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "New Effect: If an Attack command has been queued during an ability lockout and both 1) the player issues a Hold (default J) or Stop (default S) command and 2) the acquired target is within Ambessa's attack range after…",
+        "gameplayImpact": "Ambessa is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "General",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: Voicelines that trigger from Mel}} are no longer missing their effect processing."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Non-unique-event voicelines that trigger from Mel}} no longer fail to play more lines than one per event."
+              }
+            ]
+          },
+          {
+            "ability": "Drakehound's Step",
+            "title": "Drakehound's Step",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: If an Attack command has been queued during an ability lockout and both 1) the player issues a Hold (default J) or Stop (default S) command and 2) the acquired target is within Ambessa's attack range after the end of the lockout, then Ambessa's dash will cancel."
+              },
+              {
+                "label": "Change",
+                "note": "Hold/Stop commands will now also properly invalidate the acquisition if the target is not within attack range under these conditions."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "25.05",
+      "version": "25.05",
+      "releaseDate": "2025-03-05",
+      "change": {
+        "id": "ambessa",
+        "name": "Ambessa",
+        "type": "champion",
+        "assetKey": "Ambessa",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Base damage per hit reduced to 40–120 from 40–140.",
+        "gameplayImpact": "Ambessa loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Lacerate",
+            "title": "Lacerate",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base damage per hit",
+                "before": "40–140",
+                "after": "40–120",
+                "note": "Base damage per hit reduced to 40–120 from 40–140."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "25.11",
+      "version": "25.11",
+      "releaseDate": "2025-05-29",
+      "change": {
+        "id": "ambessa",
+        "name": "Ambessa",
+        "type": "champion",
+        "assetKey": "Ambessa",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 1,
+        "tldr": "Updated recommended items.YouTube — [https://youtu.be/xzi4FI9NlH8 Riot Phreak: Patch 25.11 Garen PBE Preview]",
+        "gameplayImpact": "Ambessa was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "General",
+            "title": null,
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Updated recommended items.YouTube — [https://youtu.be/xzi4FI9NlH8 Riot Phreak: Patch 25.11 Garen PBE Preview]"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "25.23",
+      "version": "25.23",
+      "releaseDate": "2025-11-19",
+      "change": {
+        "id": "ambessa",
+        "name": "Ambessa",
+        "type": "champion",
+        "assetKey": "Ambessa",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 2,
+        "tldr": "[Note: As a consequence of this change, while Ambessa has only one stack of Medarda Maxim, casting Cunning Sweep}} and Sundering Slam}} during an attack windup will interrupt the attack, while still consuming the stac…",
+        "gameplayImpact": "Ambessa was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Drakehound's Step",
+            "title": "Drakehound's Step",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: Stacks of Medarda Maxim are now consumed at the start of the attack windup instead of on-hit, which means Ambessa no longer fails to consume a stack if the target dies during the attack windup."
+              },
+              {
+                "label": "Change",
+                "note": "[Note: As a consequence of this change, while Ambessa has only one stack of Medarda Maxim, casting Cunning Sweep}} and Sundering Slam}} during an attack windup will interrupt the attack, while still consuming the stack. Lacerate}} can no longer be buffered during an attack windup if Ambessa only has one stack of Medarda Maxim.]"
+              }
+            ]
+          },
+          {
+            "ability": "Cunning Sweep",
+            "title": "Cunning Sweep",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Bonus monster damage",
+                "before": "125",
+                "after": "150",
+                "note": "Bonus monster damage increased to 150 from 125."
+              }
+            ]
+          },
+          {
+            "ability": "Sundering Slam",
+            "title": "Sundering Slam",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Bonus monster damage",
+                "before": "125",
+                "after": "150",
+                "note": "Bonus monster damage increased to 150 from 125."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "26.04",
+      "version": "26.04",
+      "releaseDate": "2026-02-19",
+      "change": {
+        "id": "ambessa",
+        "name": "Ambessa",
+        "type": "champion",
+        "assetKey": "Ambessa",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Bonus monster damage reduced to 125 from 150.",
+        "gameplayImpact": "Ambessa loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Cunning Sweep",
+            "title": "Cunning Sweep",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Bonus monster damage",
+                "before": "150",
+                "after": "125",
+                "note": "Bonus monster damage reduced to 125 from 150."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "26.09",
+      "version": "26.09",
+      "releaseDate": "2026-04-29",
+      "change": {
+        "id": "ambessa",
+        "name": "Ambessa",
+        "type": "champion",
+        "assetKey": "Ambessa",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "Cast time increased to 0.7 seconds from 0.55.",
+        "gameplayImpact": "Ambessa is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Public Execution",
+            "title": "Public Execution",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Cast time",
+                "before": "0",
+                "after": "0.7 seconds",
+                "note": "Cast time increased to 0.7 seconds from 0.55."
+              },
+              {
+                "label": "Change",
+                "note": "Undocumented / Bug Fix: No longer interacts with spell shield."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "26.10",
+      "version": "26.10",
+      "releaseDate": "2026-05-13",
+      "change": {
+        "id": "ambessa",
+        "name": "Ambessa",
+        "type": "champion",
+        "assetKey": "Ambessa",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Target's health ratio increased to 2–3% of target's maximum health from 1–3%|health.; Bonus monster damage reduced to 75 from 125.",
+        "gameplayImpact": "Ambessa was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Cunning Sweep",
+            "title": "Cunning Sweep",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Target's health ratio",
+                "before": "1–3%|health",
+                "after": "2–3% of target's maximum health",
+                "note": "Target's health ratio increased to 2–3% of target's maximum health from 1–3%|health."
+              },
+              {
+                "label": "Bonus monster damage",
+                "before": "125",
+                "after": "75",
+                "note": "Bonus monster damage reduced to 75 from 125."
+              }
+            ]
+          },
+          {
+            "ability": "Sundering Slam",
+            "title": "Sundering Slam",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Target's health ratio",
+                "before": "1–3%|health",
+                "after": "2–3% of target's maximum health",
+                "note": "Target's health ratio increased to 2–3% of target's maximum health from 1–3%|health."
+              },
+              {
+                "label": "Bonus monster damage",
+                "before": "150",
+                "after": "75",
+                "note": "Bonus monster damage reduced to 75 from 150."
+              }
+            ]
+          },
+          {
+            "ability": "Public Execution",
+            "title": "Public Execution",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Ability healing",
+                "before": "10–15 (3 ranks)%",
+                "after": "15–20 (3 ranks)% of damage dealt",
+                "note": "Ability healing increased to 15–20 (3 ranks)% of damage dealt from 10–15 (3 ranks)%."
+              },
+              {
+                "label": "Monster healing",
+                "before": "40%",
+                "after": "25% of damage dealt",
+                "note": "Monster healing reduced to 25% of damage dealt from 40%."
+              },
+              {
+                "label": "Change",
+                "note": "Undocumented / Bug Fix: Once again interacts with spell shield."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    }
+  ]
+}

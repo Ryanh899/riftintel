@@ -1,0 +1,557 @@
+{
+  "id": "12.5",
+  "version": "12.5",
+  "title": "NOT THE BEES, NOT THE BEES AGAIN!!!",
+  "releaseDate": "2022-03-02",
+  "season": "12",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "NOT THE BEES, NOT THE BEES AGAIN!!!"
+    },
+    {
+      "title": "Champion balance",
+      "description": "3 champion buffs, 3 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "NOT THE BEES, NOT THE BEES AGAIN!!! Structured changes across 10 entities this patch.",
+  "champions": [
+    {
+      "id": "ahri",
+      "name": "Ahri",
+      "type": "champion",
+      "assetKey": "Ahri",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Mana cost increased to 30 from 25.; Base damage reduced to 50–150 from 60–160.",
+      "gameplayImpact": "Ahri loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Fox-Fire",
+          "title": "Fox-Fire",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Mana cost",
+              "before": "25",
+              "after": "30",
+              "note": "Mana cost increased to 30 from 25."
+            },
+            {
+              "label": "Base damage",
+              "before": "60–160",
+              "after": "50–150",
+              "note": "Base damage reduced to 50–150 from 60–160."
+            }
+          ]
+        },
+        {
+          "ability": "Charm",
+          "title": "Charm",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Mana cost",
+              "before": "50",
+              "after": "60",
+              "note": "Mana cost increased to 60 from 50."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "elise",
+      "name": "Elise",
+      "type": "champion",
+      "assetKey": "Elise",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Updated visual effects.; Complete overhaul.",
+      "gameplayImpact": "Elise was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Updated visual effects."
+            },
+            {
+              "label": "Change",
+              "note": "Complete overhaul."
+            },
+            {
+              "label": "Change",
+              "note": ", , ,"
+            },
+            {
+              "label": "Change",
+              "note": "Same as new base."
+            },
+            {
+              "label": "Change",
+              "note": "Minor changes."
+            },
+            {
+              "label": "Change",
+              "note": "Rappel}}"
+            },
+            {
+              "label": "Change",
+              "note": "New VFX."
+            },
+            {
+              "label": "Change",
+              "note": "Minor changes."
+            },
+            {
+              "label": "Change",
+              "note": "Minimal tweaks."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "gwen",
+      "name": "Gwen",
+      "type": "champion",
+      "assetKey": "Gwen",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Maximum AP ratio against monsters reduced to 15% AP from 25% AP.; Bonus attack range reduced to 50 from 100.",
+      "gameplayImpact": "Gwen loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "A Thousand Cuts",
+          "title": "A Thousand Cuts",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Maximum AP ratio against monsters",
+              "before": "25% AP",
+              "after": "15% AP",
+              "note": "Maximum AP ratio against monsters reduced to 15% AP from 25% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Skip 'n Slash",
+          "title": "Skip 'n Slash",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Bonus attack range",
+              "before": "100",
+              "after": "50",
+              "note": "Bonus attack range reduced to 50 from 100."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "kennen",
+      "name": "Kennen",
+      "type": "champion",
+      "assetKey": "Kennen",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "On-hit base damage increased to 35–75 from 20–60.; On-hit AP ratio increased to 35% AP from 25% AP.",
+      "gameplayImpact": "Kennen is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Electrical Surge",
+          "title": "Electrical Surge",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "On-hit base damage",
+              "before": "20–60",
+              "after": "35–75",
+              "note": "On-hit base damage increased to 35–75 from 20–60."
+            },
+            {
+              "label": "On-hit AP ratio",
+              "before": "25% AP",
+              "after": "35% AP",
+              "note": "On-hit AP ratio increased to 35% AP from 25% AP."
+            },
+            {
+              "label": "On-hit bonus AD ratio",
+              "before": "60–100%|AD",
+              "after": "80–120% bonus AD",
+              "note": "On-hit bonus AD ratio increased to 80–120% bonus AD from 60–100%|AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "master-yi",
+      "name": "Master Yi",
+      "type": "champion",
+      "assetKey": "MasterYi",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Base damage changed to 30–150 from 25–165.; AD ratio reduced to 60% AD from 90% AD.",
+      "gameplayImpact": "Master Yi was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Alpha Strike",
+          "title": "Alpha Strike",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "25–165",
+              "after": "30–150",
+              "note": "Base damage changed to 30–150 from 25–165."
+            },
+            {
+              "label": "AD ratio",
+              "before": "90% AD",
+              "after": "60% AD",
+              "note": "AD ratio reduced to 60% AD from 90% AD."
+            },
+            {
+              "label": "Bonus critical damage modifier",
+              "before": "60%",
+              "after": "50%",
+              "note": "Bonus critical damage modifier reduced to 50% from 60%."
+            },
+            {
+              "label": "Primary critical damage",
+              "before": "100+0",
+              "after": "100+0.5*75% (+ Infinity Edge|17.5%}})",
+              "note": "Primary critical damage reduced to 100+0.5*75% (+ Infinity Edge|17.5%}}) from 100+0.6*75% (+ Infinity Edge|21%}})."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Cooldown reduction per basic attack now scales down with ability haste."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Now applies on-hit effects, reduced to 25% for subsequent hits."
+            },
+            {
+              "label": "Change",
+              "note": "Does not apply cooldown reduction or stack Double Strike}}."
+            }
+          ]
+        },
+        {
+          "ability": "Wuju Style",
+          "title": "Wuju Style",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base bonus true damage",
+              "before": "30–70",
+              "after": "30–62",
+              "note": "Base bonus true damage reduced to 30–62 from 30–70."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Duration is now paused during Alpha Strike}}."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Can now be cast during Alpha Strike}}."
+            }
+          ]
+        },
+        {
+          "ability": "Highlander",
+          "title": "Highlander",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Duration is now paused during Alpha Strike}}."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Can now be cast during Alpha Strike}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "miss-fortune",
+      "name": "Miss Fortune",
+      "type": "champion",
+      "assetKey": "MissFortune",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Now gains the increased bonus movement speed upon respawning.",
+      "gameplayImpact": "Miss Fortune is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Strut",
+          "title": "Strut",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Now gains the increased bonus movement speed upon respawning."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "samira",
+      "name": "Samira",
+      "type": "champion",
+      "assetKey": "Samira",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Health growth increased to 94 from 88.; Armor growth increased to 3.5 from 3.",
+      "gameplayImpact": "Samira is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Health growth",
+              "before": "88",
+              "after": "94",
+              "note": "Health growth increased to 94 from 88."
+            },
+            {
+              "label": "Armor growth",
+              "before": "3",
+              "after": "3.5",
+              "note": "Armor growth increased to 3.5 from 3."
+            }
+          ]
+        },
+        {
+          "ability": "Inferno Trigger",
+          "title": "Inferno Trigger",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Static cooldown",
+              "before": "8",
+              "after": "5 seconds",
+              "note": "Static cooldown reduced to 5 seconds from 8."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "seraphine",
+      "name": "Seraphine",
+      "type": "champion",
+      "assetKey": "Seraphine",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Mana cost reduced to 50–90 from 50–130.; Cooldown changed to 28–20 seconds from 26–22.",
+      "gameplayImpact": "Seraphine was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Surround Sound",
+          "title": "Surround Sound",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Mana cost",
+              "before": "50–130",
+              "after": "50–90",
+              "note": "Mana cost reduced to 50–90 from 50–130."
+            },
+            {
+              "label": "Cooldown",
+              "before": "26–22",
+              "after": "28–20 seconds",
+              "note": "Cooldown changed to 28–20 seconds from 26–22."
+            },
+            {
+              "label": "Self base shield",
+              "before": "75–225",
+              "after": "60–140",
+              "note": "Self base shield changed to 60–140 from 75–225."
+            },
+            {
+              "label": "Self shield AP ratio",
+              "before": "45% AP",
+              "after": "40% AP",
+              "note": "Self shield AP ratio reduced to 40% AP from 45% AP."
+            },
+            {
+              "label": "Ally base shield",
+              "before": "50–150",
+              "after": "60–140",
+              "note": "Ally base shield changed to 60–140 from 50–150."
+            },
+            {
+              "label": "Ally shield AP ratio",
+              "before": "30% AP",
+              "after": "40% AP",
+              "note": "Ally shield AP ratio increased to 40% AP from 30% AP."
+            },
+            {
+              "label": "Base heal",
+              "before": "5%|health at all ranks",
+              "after": "5–7% missing health",
+              "note": "Base heal increased to 5–7% missing health from 5%|health at all ranks."
+            },
+            {
+              "label": "Heal AP ratio",
+              "before": "1",
+              "after": "0.75% per 100 AP",
+              "note": "Heal AP ratio reduced to 0.75% per 100 AP from 1.125% per 100 AP."
+            }
+          ]
+        },
+        {
+          "ability": "Beat Drop",
+          "title": "Beat Drop",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "13–9",
+              "after": "11–9 seconds",
+              "note": "Cooldown reduced to 11–9 seconds from 13–9."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "xin-zhao",
+      "name": "Xin Zhao",
+      "type": "champion",
+      "assetKey": "XinZhao",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Cooldown increased to 12 seconds from 11.; Duration reduced to 4 seconds from 5.",
+      "gameplayImpact": "Xin Zhao loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Audacious Charge",
+          "title": "Audacious Charge",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "11",
+              "after": "12 seconds",
+              "note": "Cooldown increased to 12 seconds from 11."
+            }
+          ]
+        },
+        {
+          "ability": "Crescent Guard",
+          "title": "Crescent Guard",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Duration",
+              "before": "5",
+              "after": "4 seconds",
+              "note": "Duration reduced to 4 seconds from 5."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "hullbreaker",
+      "name": "Hullbreaker",
+      "type": "item",
+      "assetKey": "3181",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Boarding Party bonus resistances for ranged champions reduced to 10–30 from 20–60.; Boarding Party minion bonus resistances for ranged champions reduced to 30–90 from 60–180.",
+      "gameplayImpact": "Hullbreaker loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Boarding Party bonus resistances for ranged champions",
+              "before": "20–60",
+              "after": "10–30",
+              "note": "Boarding Party bonus resistances for ranged champions reduced to 10–30 from 20–60."
+            },
+            {
+              "label": "Boarding Party minion bonus resistances for ranged champions",
+              "before": "60–180",
+              "after": "30–90",
+              "note": "Boarding Party minion bonus resistances for ranged champions reduced to 30–90 from 60–180."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    }
+  ],
+  "systems": [],
+  "sourceUrl": "https://na.leagueoflegends.com/en-us/news/game-updates/patch-12-5-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V12.5"
+}

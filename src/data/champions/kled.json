@@ -1,0 +1,824 @@
+{
+  "slug": "kled",
+  "name": "Kled",
+  "assetKey": "Kled",
+  "entries": [
+    {
+      "patchId": "11.24",
+      "version": "11.24",
+      "releaseDate": "2021-12-08",
+      "change": {
+        "id": "kled",
+        "name": "Kled",
+        "type": "champion",
+        "assetKey": "Kled",
+        "roles": [],
+        "direction": "buff",
+        "severity": 3,
+        "tldr": "Skaarl base health increased to 400–1550 from 400–1420.; New Effect: While unmounted, now checks whether Skaarl's Courage has been restored twice as often, reducing the time it takes for them to reunite when at max Co…",
+        "gameplayImpact": "Kled is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "General",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: Voice lines for several skins now play more consistently and accurately."
+              }
+            ]
+          },
+          {
+            "ability": "Skaarl the Cowardly Lizard",
+            "title": "Skaarl the Cowardly Lizard",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Skaarl base health",
+                "before": "400–1420",
+                "after": "400–1550",
+                "note": "Skaarl base health increased to 400–1550 from 400–1420."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: While unmounted, now checks whether Skaarl's Courage has been restored twice as often, reducing the time it takes for them to reunite when at max Courage."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Skaarl's base health now correctly counts as base health instead of bonus health."
+              },
+              {
+                "label": "Change",
+                "note": "Any health items that Kled purchases will add to Skaarl's health and count as bonus health."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Kled now spawns with full health."
+              },
+              {
+                "label": "Change",
+                "note": "Undocumented / Bug Fix: no longer fails to kill Kled if he remounts while in the zombie state."
+              }
+            ]
+          },
+          {
+            "ability": "Jousting",
+            "title": "Jousting",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Cooldown",
+                "before": "14–10",
+                "after": "13–9 seconds",
+                "note": "Cooldown reduced to 13–9 seconds from 14–10."
+              },
+              {
+                "label": "Bonus AD ratio",
+                "before": "60%|AD",
+                "after": "65% bonus AD",
+                "note": "Bonus AD ratio increased to 65% bonus AD from 60%|AD."
+              },
+              {
+                "label": "Maximum bonus AD ratio",
+                "before": "120%|AD",
+                "after": "130% bonus AD",
+                "note": "Maximum bonus AD ratio increased to 130% bonus AD from 120%|AD."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "12.3",
+      "version": "12.3",
+      "releaseDate": "2022-02-02",
+      "change": {
+        "id": "kled",
+        "name": "Kled",
+        "type": "champion",
+        "assetKey": "Kled",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "New Effect: Now cancels Kled's ongoing attack windup when the ability is leveled.",
+        "gameplayImpact": "Kled is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Dismounted Skaarl the Cowardly Lizard",
+            "title": "Dismounted Skaarl the Cowardly Lizard",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: Courage bar now properly displays correct values when Skaarl is lost."
+              }
+            ]
+          },
+          {
+            "ability": "Violent Tendencies",
+            "title": "Violent Tendencies",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Now cancels Kled's ongoing attack windup when the ability is leveled."
+              },
+              {
+                "label": "Change",
+                "note": "[Note: This is a bug fix for the additional damage of the fourth attack not applying if the ability was leveled during an attack windup.]"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "12.10",
+      "version": "12.10",
+      "releaseDate": "2022-05-25",
+      "change": {
+        "id": "kled",
+        "name": "Kled",
+        "type": "champion",
+        "assetKey": "Kled",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 3,
+        "tldr": "Base health increased to 410 from 340.; Health growth increased to 84 from 70.",
+        "gameplayImpact": "Kled was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Base health",
+                "before": "340",
+                "after": "410",
+                "note": "Base health increased to 410 from 340."
+              },
+              {
+                "label": "Health growth",
+                "before": "70",
+                "after": "84",
+                "note": "Health growth increased to 84 from 70."
+              },
+              {
+                "label": "Armor growth",
+                "before": "4",
+                "after": "5.2",
+                "note": "Armor growth increased to 5.2 from 4."
+              },
+              {
+                "label": "Magic resistance growth",
+                "before": "1",
+                "after": "2.05",
+                "note": "Magic resistance growth increased to 2.05 from 1.25."
+              }
+            ]
+          },
+          {
+            "ability": "Dismounted Skaarl the Cowardly Lizard",
+            "title": "Dismounted Skaarl the Cowardly Lizard",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Health upon remount",
+                "before": "50–80% (lv 1–16)|health",
+                "after": "45–75% (lv 1–16) of Skaarl's maximum health",
+                "note": "Health upon remount reduced to 45–75% (lv 1–16) of Skaarl's maximum health from 50–80% (lv 1–16)|health."
+              }
+            ]
+          },
+          {
+            "ability": "Bear Trap on a Rope",
+            "title": "Bear Trap on a Rope",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Grievous Wounds strength",
+                "before": "60%",
+                "after": "50%",
+                "note": "Grievous Wounds strength reduced to 50% from 60%."
+              }
+            ]
+          },
+          {
+            "ability": "Chaaaaaaaarge!!!",
+            "title": "Chaaaaaaaarge!!!",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: No longer causes his location to occasionally desync from the enemy's perspective."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "12.11",
+      "version": "12.11",
+      "releaseDate": "2022-06-08",
+      "change": {
+        "id": "kled",
+        "name": "Kled",
+        "type": "champion",
+        "assetKey": "Kled",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Grievous Wounds strength reduced to 40% from 50%.",
+        "gameplayImpact": "Kled loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Bear Trap on a Rope",
+            "title": "Bear Trap on a Rope",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Grievous Wounds strength",
+                "before": "50%",
+                "after": "40%",
+                "note": "Grievous Wounds strength reduced to 40% from 50%."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "12.13",
+      "version": "12.13",
+      "releaseDate": "2022-07-13",
+      "change": {
+        "id": "kled",
+        "name": "Kled",
+        "type": "champion",
+        "assetKey": "Kled",
+        "roles": [],
+        "direction": "buff",
+        "severity": 2,
+        "tldr": "Tether bonus AD ratio increased to 65% bonus AD from 60%|AD.; Pull bonus AD ratio increased to 130% bonus AD from 120%|AD.",
+        "gameplayImpact": "Kled is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Bear Trap on a Rope",
+            "title": "Bear Trap on a Rope",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Tether bonus AD ratio",
+                "before": "60%|AD",
+                "after": "65% bonus AD",
+                "note": "Tether bonus AD ratio increased to 65% bonus AD from 60%|AD."
+              },
+              {
+                "label": "Pull bonus AD ratio",
+                "before": "120%|AD",
+                "after": "130% bonus AD",
+                "note": "Pull bonus AD ratio increased to 130% bonus AD from 120%|AD."
+              }
+            ]
+          },
+          {
+            "ability": "Violent Tendencies",
+            "title": "Violent Tendencies",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Cooldown",
+                "before": "12–6",
+                "after": "11–5 seconds",
+                "note": "Cooldown reduced to 11–5 seconds from 12–6."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "13.8",
+      "version": "13.8",
+      "releaseDate": "2023-04-19",
+      "change": {
+        "id": "kled",
+        "name": "Kled",
+        "type": "champion",
+        "assetKey": "Kled",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Now no longer kills Mist Walkers and Plants in one hit.",
+        "gameplayImpact": "Kled loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Jousting",
+            "title": "Jousting",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Undocumented: No longer counts as single target damage to non-champions hit."
+              },
+              {
+                "label": "Change",
+                "note": "Now no longer kills Mist Walkers and Plants in one hit."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
+    },
+    {
+      "patchId": "14.4",
+      "version": "14.4",
+      "releaseDate": "2024-02-22",
+      "change": {
+        "id": "kled",
+        "name": "Kled",
+        "type": "champion",
+        "assetKey": "Kled",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 1,
+        "tldr": "Tether update cadence for valid range conditions has been updated to check every 0.05 seconds instead of every 0.25 seconds.",
+        "gameplayImpact": "Kled was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Bear Trap on a Rope",
+            "title": "Bear Trap on a Rope",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Tether update cadence for valid range conditions has been updated to check every 0.05 seconds instead of every 0.25 seconds."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
+    },
+    {
+      "patchId": "14.9",
+      "version": "14.9",
+      "releaseDate": "2024-05-01",
+      "change": {
+        "id": "kled",
+        "name": "Kled",
+        "type": "champion",
+        "assetKey": "Kled",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "New Effect: Now also does spell damage in addition to basic damage.",
+        "gameplayImpact": "Kled is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Violent Tendencies",
+            "title": "Violent Tendencies",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Now also does spell damage in addition to basic damage."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    },
+    {
+      "patchId": "25.14",
+      "version": "25.14",
+      "releaseDate": "2025-07-16",
+      "change": {
+        "id": "kled",
+        "name": "Kled",
+        "type": "champion",
+        "assetKey": "Kled",
+        "roles": [],
+        "direction": "rework",
+        "severity": 3,
+        "tldr": "Kled gameplay update: While out of combat, Skaarl will now tilt its head to look at nearby visible jungle monsters.; Resolved an error that sometimes caused players to have reduced performance when looking at Kled after he has re-mounted.",
+        "gameplayImpact": "Kled plays differently after this update — relearn power spikes and matchups before grinding ranked.",
+        "context": "Gameplay Update[https://www.youtube.com/watch?v=Wbvamgq6fog Kled Fighter Reshape Patch 25.14 Dev Preview]",
+        "changes": [
+          {
+            "ability": "General",
+            "title": null,
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "While out of combat, Skaarl will now tilt its head to look at nearby visible jungle monsters."
+              },
+              {
+                "label": "Change",
+                "note": "Resolved an error that sometimes caused players to have reduced performance when looking at Kled after he has re-mounted."
+              }
+            ]
+          },
+          {
+            "ability": "Skaarl the Cowardly Lizard",
+            "title": "Skaarl the Cowardly Lizard",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: Remount health is now granted instantly upon beginning to remount, rather than after 0.5 seconds."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Kled now gains bonus armor and bonus magic resistance equal to 1% of bonus health, increased by 20% per nearby enemy champion within cr 1400 units, up to a maximum of 2% bonus health."
+              },
+              {
+                "label": "Courage from minion kills",
+                "before": "4",
+                "after": "5",
+                "note": "Courage from minion kills increased to 5 from 4."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: Champion takedowns within 3 seconds of damaging them no longer grants 20 Courage."
+              },
+              {
+                "label": "Dismounted attack damage penalty",
+                "before": "20% at all levels",
+                "after": "15–0%",
+                "note": "Dismounted attack damage penalty reduced to 15–0% from 20% at all levels."
+              },
+              {
+                "label": "Dismounted movement speed penalty",
+                "before": "60",
+                "after": "40",
+                "note": "Dismounted movement speed penalty reduced to 40 from 60."
+              },
+              {
+                "label": "Dismounted bonus movement speed toward champions",
+                "before": "100–185",
+                "after": "70–155",
+                "note": "Dismounted bonus movement speed toward champions reduced to 70–155 from 100–185."
+              },
+              {
+                "label": "Dismounted bonus movement speed range",
+                "before": "1000",
+                "after": "1200 units",
+                "note": "Dismounted bonus movement speed range increased to 1200 units from 1000."
+              },
+              {
+                "label": "Skaarl base health",
+                "before": "400–1550",
+                "after": "400+(1000/17)*(x-1)*(0.7025+0.0175*(x-1))",
+                "note": "Skaarl base health reduced to 400+(1000/17)*(x-1)*(0.7025+0.0175*(x-1)) from 400–1550. Now uses stat growth instead of linear growth."
+              },
+              {
+                "label": "Remount health",
+                "before": "45–75% (lv 1–16)|health",
+                "after": "40–70% (lv 1–16) of Skaarl's maximum health",
+                "note": "Remount health reduced to 40–70% (lv 1–16) of Skaarl's maximum health from 45–75% (lv 1–16)|health."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Granted bonus movement speed while dismounted now updates on level-up."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Additional instances of damage applied by a spell that causes the dismount are now properly ignored upon dismounting instead of unintentionally affecting Kled."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Dismount dash and its accompanying lockout are now exactly 0.5 seconds instead of lasting up to 0.25 seconds more based on engine ticks (they are no longer \"fuzzy\")."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Allied projectiles are no longer destroyed by the untargetability while dismounting."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Courage bar now always turns yellow when equal to or above 50 Courage instead of only when at 50–59 Courage."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Kled's health no longer sometimes shows an incorrect amount after remounting."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Taking fatal damage while affected by Bailout (Renata Glasc)}} no longer breaks Kled's health bar for the rest of the game."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Skaarl's health is no longer unintentionally displayed while only Kled is affected by the protection of Bailout (Renata Glasc)}} after taking fatal damage."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Wild Growth (Lulu)}} no longer grants Kled more health than the intended health bonus based on Skaarl's base health."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Health regeneration is now properly calculated upon remounting and no longer uses incorrect numbers for up to 0.25 seconds after remounting (it is no longer \"fuzzy\")."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: No longer unintentionally loses a minuscule amount of attack damage while dismounted."
+              }
+            ]
+          },
+          {
+            "ability": "Bear Trap on a Rope",
+            "title": "Bear Trap on a Rope",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Tether bonus AD ratio",
+                "before": "65%|AD",
+                "after": "60% bonus AD",
+                "note": "Tether bonus AD ratio reduced to 60% bonus AD from 65%|AD."
+              },
+              {
+                "label": "Change",
+                "note": "Removed: No longer applies Grievous Wounds for 5 seconds after successfully pulling the target."
+              },
+              {
+                "label": "Slow",
+                "before": "40–60%",
+                "after": "30–50%",
+                "note": "Slow reduced to 30–50% from 40–60%."
+              },
+              {
+                "label": "Slow duration",
+                "before": "1",
+                "after": "2.5 seconds",
+                "note": "Slow duration increased to 2.5 seconds from 1.5."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Damage calculations now update again for the pull instead of using the values at the time of the tether connecting."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now checks for enemy units within a from the projectile's origin point, prioritizing the closest unit that can be affected by the tether."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Pull timer is now exactly 1.75 seconds instead of lasting slightly longer."
+              },
+              {
+                "label": "Change",
+                "note": "Undocumented / Removed: Entering stasis during the first 0.25 seconds of remounting no longer postpones the remount sequence until stasis ends."
+              }
+            ]
+          },
+          {
+            "ability": "Pocket Pistol",
+            "title": "Pocket Pistol",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Recharge timer",
+                "before": "20–7",
+                "after": "18–10 seconds",
+                "note": "Recharge timer changed to 18–10 seconds from 20–7.25."
+              },
+              {
+                "label": "Bonus AD ratio",
+                "before": "80%|AD",
+                "after": "65% bonus AD",
+                "note": "Bonus AD ratio reduced to 65% bonus AD from 80%|AD."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now checks for enemy champions within a from the projectiles' origin point."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now deals spell damage instead of area damage against champion targets."
+              }
+            ]
+          },
+          {
+            "ability": "Violent Tendencies",
+            "title": "Violent Tendencies",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Cooldown",
+                "before": "11–5",
+                "after": "13–9 seconds",
+                "note": "Cooldown increased to 13–9 seconds from 11–5."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Basic attacks now reduces its cooldown by 1.5 seconds, reduced to 0.5 against non-champions."
+              },
+              {
+                "label": "Bonus AD ratio",
+                "before": "5%|AD",
+                "after": "2% per 100 bonus AD",
+                "note": "Bonus AD ratio reduced to 2% per 100 bonus AD from 5%|AD."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Now scales with 0.4% per 100 bonus health."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Attacking wards now maintains bonus attack speed rather than consuming the effect."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: While dismounted, the fourth attack is no longer invalidated by silence and forced action effects."
+              }
+            ]
+          },
+          {
+            "ability": "Jousting",
+            "title": "Jousting",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Bonus AD ratio",
+                "before": "65%|AD",
+                "after": "55% bonus AD",
+                "note": "Bonus AD ratio reduced to 55% bonus AD from 65%|AD."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Recast timer is now tracked on the ability's icon in the HUD."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Recast now has a range indicator."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: No longer is able to hit units twice when they re-enter its area check during the dash."
+              }
+            ]
+          },
+          {
+            "ability": "Chaaaaaaaarge!!!",
+            "title": "Chaaaaaaaarge!!!",
+            "direction": "adjust",
+            "lines": [
+              {
+                "label": "Damage type",
+                "before": "physical",
+                "after": "magic",
+                "note": "Damage type changed to magic from physical."
+              },
+              {
+                "label": "Minimum base damage",
+                "before": "4–6 (3 ranks)%|health",
+                "after": "4–8 (3 ranks)% of target's maximum health",
+                "note": "Minimum base damage increased to 4–8 (3 ranks)% of target's maximum health from 4–6 (3 ranks)%|health."
+              },
+              {
+                "label": "Maximum base damage",
+                "before": "12–18 (3 ranks)%|health",
+                "after": "12–24 (3 ranks)% of target's maximum health",
+                "note": "Maximum base damage increased to 12–24 (3 ranks)% of target's maximum health from 12–18 (3 ranks)%|health"
+              },
+              {
+                "label": "Minimum damage bonus AD ratio",
+                "before": "4%|AD",
+                "after": "3% per 100 bonus AD",
+                "note": "Minimum damage bonus AD ratio reduced to 3% per 100 bonus AD from 4%|AD."
+              },
+              {
+                "label": "Maximum damage bonus AD ratio",
+                "before": "12%|AD",
+                "after": "9% per 100 bonus AD",
+                "note": "Maximum damage bonus AD ratio reduced to 9% per 100 bonus AD from 12%|AD."
+              },
+              {
+                "label": "Change",
+                "note": "Increased the cadence of checking for valid targets."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: Pinging the ability now shows targets within range in chat."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: CC-immunity is no longer unintentionally removed at the end point of the charge shortly before the dash to a target begins."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: No longer causes Kled to sometimes lose trail."
+              },
+              {
+                "label": "Change",
+                "note": "Rescripted the check for valid targets at the start of cast."
+              },
+              {
+                "label": "Change",
+                "note": "[Note: This was intended to prevent failure to detect valid targets in range at the start of the charge, but did not.]"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "rework",
+          "Gameplay Update[https://www.youtube.com/watch?v=Wbvamgq6fog Kled Fighter Reshape Patch 25.14 Dev Preview]"
+        ]
+      }
+    },
+    {
+      "patchId": "25.15",
+      "version": "25.15",
+      "releaseDate": "2025-07-30",
+      "change": {
+        "id": "kled",
+        "name": "Kled",
+        "type": "champion",
+        "assetKey": "Kled",
+        "roles": [],
+        "direction": "buff",
+        "severity": 2,
+        "tldr": "New Effect: While dismounted, Kled now also gains 4 bonus armor and magic resistance, increased for each nearby enemy champion.; Bonus resistances per nearby enemy increased to 30% from 20%.",
+        "gameplayImpact": "Kled is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Skaarl the Cowardly Lizard",
+            "title": "Skaarl the Cowardly Lizard",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: While dismounted, Kled now also gains 4 bonus armor and magic resistance, increased for each nearby enemy champion."
+              },
+              {
+                "label": "Bonus resistances per nearby enemy",
+                "before": "20%",
+                "after": "30%",
+                "note": "Bonus resistances per nearby enemy increased to 30% from 20%."
+              },
+              {
+                "label": "Maximum bonus resistances",
+                "before": "200%",
+                "after": "250% of the minimum",
+                "note": "Maximum bonus resistances increased to 250% of the minimum from 200%."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Refunding an item during the remount sequence no longer causes Kled to perform the remount sequence but without actually switching the player to the mounted ability set."
+              }
+            ]
+          },
+          {
+            "ability": "Bear Trap on a Rope",
+            "title": "Bear Trap on a Rope",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Undocumented / Bug Fix: Is no longer able to damage minion, small pet, and small monsters with its area check, resulting in double the intended damage in case both the projectile and area check hit the target."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
+    }
+  ]
+}

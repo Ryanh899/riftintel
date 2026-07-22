@@ -1,0 +1,3679 @@
+{
+  "id": "14.15",
+  "version": "14.15",
+  "title": "\"Primordians hide in the depths no longer. With legs and lungs we rise onto land…",
+  "releaseDate": "2024-07-31",
+  "season": "14",
+  "themes": [
+    {
+      "title": "Patch theme",
+      "description": "\"Primordians hide in the depths no longer. With legs and lungs we rise onto land, harbingers of Anima Squad's extinction.\""
+    },
+    {
+      "title": "Champion balance",
+      "description": "2 champion buffs, 3 nerfs in this patch (excluding pure bugfixes)."
+    }
+  ],
+  "summary": "\"Primordians hide in the depths no longer. With legs and lungs we rise onto land, harbingers of Anima Squad's extinction.\" Structured changes across 25 entities this patch.",
+  "champions": [
+    {
+      "id": "akali",
+      "name": "Akali",
+      "type": "champion",
+      "assetKey": "Akali",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Cooldown reduced to 20–16 seconds from 20 at all ranks.; First cast base damage changed to 110–330 (3 ranks) from 80–360 (3 ranks).",
+      "gameplayImpact": "Akali was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Twilight Shroud",
+          "title": "Twilight Shroud",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "20 at all ranks",
+              "after": "20–16 seconds",
+              "note": "Cooldown reduced to 20–16 seconds from 20 at all ranks."
+            }
+          ]
+        },
+        {
+          "ability": "Perfect Execution",
+          "title": "Perfect Execution",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "First cast base damage",
+              "before": "80–360 (3 ranks)",
+              "after": "110–330 (3 ranks)",
+              "note": "First cast base damage changed to 110–330 (3 ranks) from 80–360 (3 ranks)."
+            },
+            {
+              "label": "Second cast minimum base damage",
+              "before": "60–200 (3 ranks)",
+              "after": "70–210 (3 ranks)",
+              "note": "Second cast minimum base damage increased to 70–210 (3 ranks) from 60–200 (3 ranks)."
+            },
+            {
+              "label": "Second cast maximum base damage",
+              "before": "180–600 (3 ranks)",
+              "after": "210–630 (3 ranks)",
+              "note": "Second cast maximum base damage increased to 210–630 (3 ranks) from 180–600 (3 ranks)."
+            },
+            {
+              "label": "Cooldown",
+              "before": "100–60 (3 ranks)",
+              "after": "120–60 (3 ranks) seconds",
+              "note": "Cooldown increased to 120–60 (3 ranks) seconds from 100–60 (3 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "aurelion-sol",
+      "name": "Aurelion Sol",
+      "type": "champion",
+      "assetKey": "AurelionSol",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Initial mana cost increased to 35–55 from 30–50.; Mana cost per 0.25 seconds increased to 35/4 to 55/4 from 30/4 to 50/4.",
+      "gameplayImpact": "Aurelion Sol was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Breath of Light",
+          "title": "Breath of Light",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Initial mana cost",
+              "before": "30–50",
+              "after": "35–55",
+              "note": "Initial mana cost increased to 35–55 from 30–50."
+            },
+            {
+              "label": "Mana cost per 0.25 seconds",
+              "before": "30/4 to 50/4",
+              "after": "35/4 to 55/4",
+              "note": "Mana cost per 0.25 seconds increased to 35/4 to 55/4 from 30/4 to 50/4."
+            }
+          ]
+        },
+        {
+          "ability": "Astral Flight",
+          "title": "Astral Flight",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base range",
+              "before": "1500–1900",
+              "after": "1500 units at all ranks",
+              "note": "Base range reduced to 1500 units at all ranks from 1500–1900."
+            }
+          ]
+        },
+        {
+          "ability": "Singularity",
+          "title": "Singularity",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Mana cost",
+              "before": "80",
+              "after": "90",
+              "note": "Mana cost increased to 90 from 80."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "aurora",
+      "name": "Aurora",
+      "type": "champion",
+      "assetKey": "Aurora",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Base bonus movement speed reduced to 5 + 0.2*(x-1)% from 5 + 0.25*(x-1)%.; Bonus movement speed per spirit reduced to 2% from 5%.",
+      "gameplayImpact": "Aurora was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Bug Fix: Issues with recommended runes have been resolved."
+            }
+          ]
+        },
+        {
+          "ability": "Spirit Abjuration",
+          "title": "Spirit Abjuration",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base bonus movement speed",
+              "before": "5 + 0",
+              "after": "5 + 0.2*(x-1)%",
+              "note": "Base bonus movement speed reduced to 5 + 0.2*(x-1)% from 5 + 0.25*(x-1)%."
+            },
+            {
+              "label": "Bonus movement speed per spirit",
+              "before": "5%",
+              "after": "2%",
+              "note": "Bonus movement speed per spirit reduced to 2% from 5%."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Bonus movement speed per spirit now scales with 1.5% per 100 AP."
+            }
+          ]
+        },
+        {
+          "ability": "Twofold Hex",
+          "title": "Twofold Hex",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Recast timer",
+              "before": "0",
+              "after": "0.1 seconds",
+              "note": "Recast timer reduced to 0.1 seconds from 0.5."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Recast is no longer able to miss its target."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Recast now properly completes if the primary target dies."
+            }
+          ]
+        },
+        {
+          "ability": "Across the Veil",
+          "title": "Across the Veil",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "18–14",
+              "after": "22–18 seconds",
+              "note": "Cooldown increased to 22–18 seconds from 18–14."
+            },
+            {
+              "label": "Change",
+              "note": "Stealth is now broken from a basic attack at the completion of its windup, instead of at the start."
+            }
+          ]
+        },
+        {
+          "ability": "The Weirding",
+          "title": "The Weirding",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base dash speed",
+              "before": "800",
+              "after": "150",
+              "note": "Base dash speed reduced to 150 from 800."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Dash speed now scales with 200% movement speed."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Can now buffer attack and ability casts while dashing."
+            }
+          ]
+        },
+        {
+          "ability": "Between Worlds",
+          "title": "Between Worlds",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "250–500 (3 ranks)",
+              "after": "200–450 (3 ranks)",
+              "note": "Base damage reduced to 200–450 (3 ranks) from 250–500 (3 ranks)."
+            },
+            {
+              "label": "AP ratio",
+              "before": "65% AP",
+              "after": "60% AP",
+              "note": "AP ratio reduced to 60% AP from 65% AP."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Can now buffer attack and ability casts while dashing."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: Camera is no longer locked while dashing."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: While using maximum cast range clamping, buffering Between Worlds before blinking by any means no longer causes it to cast in the opposite direction from the one intended."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Supersonic's dash no longer overrides (and disables) Between Worlds' cast, causing Aurora to illegally gain displacement immunity from Supersonic."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Rift is no longer usable by Aurora within the Realm of Death (Mordekaiser)}} if created outside of it/before entering it."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Rift VFX are no longer visible across dimensions (Realm of Death (Mordekaiser)}})."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "cassiopeia",
+      "name": "Cassiopeia",
+      "type": "champion",
+      "assetKey": "Cassiopeia",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Base mana increased to 400 from 350.; Mana growth reduced to 40 from 60.",
+      "gameplayImpact": "Cassiopeia was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base mana",
+              "before": "350",
+              "after": "400",
+              "note": "Base mana increased to 400 from 350."
+            },
+            {
+              "label": "Mana growth",
+              "before": "60",
+              "after": "40",
+              "note": "Mana growth reduced to 40 from 60."
+            }
+          ]
+        },
+        {
+          "ability": "Noxious Blast",
+          "title": "Noxious Blast",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Mana cost",
+              "before": "50–90",
+              "after": "50–70",
+              "note": "Mana cost reduced to 50–70 from 50–90."
+            },
+            {
+              "label": "AP ratio per tick",
+              "before": "90/7% AP",
+              "after": "70/7% AP",
+              "note": "AP ratio per tick reduced to 70/7% AP from 90/7% AP."
+            },
+            {
+              "label": "Total AP ratio",
+              "before": "90% AP",
+              "after": "70% AP",
+              "note": "Total AP ratio reduced to 70% AP from 90% AP."
+            }
+          ]
+        },
+        {
+          "ability": "Miasma",
+          "title": "Miasma",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Mana cost",
+              "before": "70–110",
+              "after": "70–90",
+              "note": "Mana cost reduced to 70–90 from 70–110."
+            }
+          ]
+        },
+        {
+          "ability": "Twin Fang",
+          "title": "Twin Fang",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Mana cost",
+              "before": "50–42",
+              "after": "40 at all ranks",
+              "note": "Mana cost reduced to 40 at all ranks from 50–42."
+            },
+            {
+              "label": "Poison bonus AP ratio",
+              "before": "60% AP",
+              "after": "55% AP",
+              "note": "Poison bonus AP ratio reduced to 55% AP from 60% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "ezreal",
+      "name": "Ezreal",
+      "type": "champion",
+      "assetKey": "Ezreal",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "AD ratio reduced to 130% AD from 140% AD.",
+      "gameplayImpact": "Ezreal loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Mystic Shot",
+          "title": "Mystic Shot",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "AD ratio",
+              "before": "140% AD",
+              "after": "130% AD",
+              "note": "AD ratio reduced to 130% AD from 140% AD."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "irelia",
+      "name": "Irelia",
+      "type": "champion",
+      "assetKey": "Irelia",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Base health increased to 630 from 590.; Base health regeneration reduced to 6 from 8.5.",
+      "gameplayImpact": "Irelia was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base health",
+              "before": "590",
+              "after": "630",
+              "note": "Base health increased to 630 from 590."
+            },
+            {
+              "label": "Base health regeneration",
+              "before": "8",
+              "after": "6",
+              "note": "Base health regeneration reduced to 6 from 8.5."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "leona",
+      "name": "Leona",
+      "type": "champion",
+      "assetKey": "Leona",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Base damage reduced to 32–151 from 32–168.; Base damage reduced to 55–175 from 55–195.",
+      "gameplayImpact": "Leona loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Sunlight",
+          "title": "Sunlight",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "32–168",
+              "after": "32–151",
+              "note": "Base damage reduced to 32–151 from 32–168."
+            }
+          ]
+        },
+        {
+          "ability": "Eclipse",
+          "title": "Eclipse",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "55–195",
+              "after": "55–175",
+              "note": "Base damage reduced to 55–175 from 55–195."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "shyvana",
+      "name": "Shyvana",
+      "type": "champion",
+      "assetKey": "Shyvana",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Fireball base damage increased to 85–245 from 60–220.; Fireball AD ratio changed to 50% bonus AD from 40% total AD.",
+      "gameplayImpact": "Shyvana was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Flame Breath",
+          "title": "Flame Breath",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Fireball base damage",
+              "before": "60–220",
+              "after": "85–245",
+              "note": "Fireball base damage increased to 85–245 from 60–220."
+            },
+            {
+              "label": "Fireball AD ratio",
+              "before": "40% total AD",
+              "after": "50% bonus AD",
+              "note": "Fireball AD ratio changed to 50% bonus AD from 40% total AD."
+            },
+            {
+              "label": "Fireball AP ratio",
+              "before": "90% AP",
+              "after": "80% AP",
+              "note": "Fireball AP ratio reduced to 80% AP from 90% AP."
+            },
+            {
+              "label": "Dragon's Descent|Dragon Form}} fireball AD ratio",
+              "before": "70% total AD",
+              "after": "100% bonus AD",
+              "note": "Dragon's Descent|Dragon Form}} fireball AD ratio changed to 100% bonus AD from 70% total AD."
+            },
+            {
+              "label": "Dragon's Descent|Dragon Form}} fireball AP ratio",
+              "before": "90+30% AP",
+              "after": "80+20% AP",
+              "note": "Dragon's Descent|Dragon Form}} fireball AP ratio reduced to 80+20% AP from 90+30% AP."
+            },
+            {
+              "label": "Dragon's Descent|Dragon Form}} field AD ratio per tick",
+              "before": "5% total AD",
+              "after": "15% bonus AD",
+              "note": "Dragon's Descent|Dragon Form}} field AD ratio per tick changed to 15% bonus AD from 5% total AD."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Tooltip calculations for the scorched zone's DoT no longer incorrectly factor in an extra tick of damage (which never takes place in reality)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "skarner",
+      "name": "Skarner",
+      "type": "champion",
+      "assetKey": "Skarner",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Health growth increased to 110 from 105.; Mana cost reduced to 45 from 50.",
+      "gameplayImpact": "Skarner was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Health growth",
+              "before": "105",
+              "after": "110",
+              "note": "Health growth increased to 110 from 105."
+            }
+          ]
+        },
+        {
+          "ability": "Shattered Earth",
+          "title": "Shattered Earth",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Mana cost",
+              "before": "50",
+              "after": "45",
+              "note": "Mana cost reduced to 45 from 50."
+            },
+            {
+              "label": "Change",
+              "note": "First empowered attack after casting the ability now declares the automatic basic attack more quickly and smoothly."
+            }
+          ]
+        },
+        {
+          "ability": "Ixtal's Impact",
+          "title": "Ixtal's Impact",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Removed: Charge no longer collides with targets directly behind him."
+            },
+            {
+              "label": "Change",
+              "note": "Collision box is now offset significantly further in front of him."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Champions are no longer able to act during the beginning of the stun."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "sylas",
+      "name": "Sylas",
+      "type": "champion",
+      "assetKey": "Sylas",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Base armor increased to 29 from 27.; Explosion base damage reduced to 60–280 from 70–290.",
+      "gameplayImpact": "Sylas was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base armor",
+              "before": "27",
+              "after": "29",
+              "note": "Base armor increased to 29 from 27."
+            }
+          ]
+        },
+        {
+          "ability": "Chain Lash",
+          "title": "Chain Lash",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Explosion base damage",
+              "before": "70–290",
+              "after": "60–280",
+              "note": "Explosion base damage reduced to 60–280 from 70–290."
+            },
+            {
+              "label": "Explosion AP ratio",
+              "before": "90% AP",
+              "after": "80% AP",
+              "note": "Explosion AP ratio reduced to 80% AP from 90% AP."
+            },
+            {
+              "label": "Cooldown",
+              "before": "11–7",
+              "after": "10–6 seconds",
+              "note": "Cooldown reduced to 10–6 seconds from 11–7."
+            }
+          ]
+        },
+        {
+          "ability": "Kingslayer",
+          "title": "Kingslayer",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Damage AP ratio",
+              "before": "80% AP",
+              "after": "70% AP",
+              "note": "Damage AP ratio reduced to 70% AP from 80% AP."
+            },
+            {
+              "label": "Heal AP ratio",
+              "before": "35% AP",
+              "after": "20% AP",
+              "note": "Heal AP ratio reduced to 20% AP from 35% AP."
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Heal now scales with 5% of his bonus health."
+            }
+          ]
+        },
+        {
+          "ability": "Abduct",
+          "title": "Abduct",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "AP ratio",
+              "before": "100% AP",
+              "after": "80% AP",
+              "note": "AP ratio reduced to 80% AP from 100% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "talon",
+      "name": "Talon",
+      "type": "champion",
+      "assetKey": "Talon",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "New Effect: Now always dashes to the target within 150 units regardless of cast distance.",
+      "gameplayImpact": "Talon is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Noxian Diplomacy",
+          "title": "Noxian Diplomacy",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "New Effect: Now always dashes to the target within 150 units regardless of cast distance."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "varus",
+      "name": "Varus",
+      "type": "champion",
+      "assetKey": "Varus",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Base attack damage increased to 59 from 57.; Bonus attack speed increased to 10–20% from 10% at all levels.",
+      "gameplayImpact": "Varus was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base attack damage",
+              "before": "57",
+              "after": "59",
+              "note": "Base attack damage increased to 59 from 57."
+            }
+          ]
+        },
+        {
+          "ability": "Living Vengeance",
+          "title": "Living Vengeance",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Bonus attack speed",
+              "before": "10% at all levels",
+              "after": "10–20%",
+              "note": "Bonus attack speed increased to 10–20% from 10% at all levels."
+            },
+            {
+              "label": "Champion takedown bonus attack speed",
+              "before": "40%",
+              "after": "50%",
+              "note": "Champion takedown bonus attack speed increased to 50% from 40%."
+            },
+            {
+              "label": "Champion takedown bonus attack damage and ability power",
+              "before": "15%|attack speed",
+              "after": "25% bonus attack speed",
+              "note": "Champion takedown bonus attack damage and ability power increased to 25% bonus attack speed from 15%|attack speed."
+            },
+            {
+              "label": "Attack speed cap",
+              "before": "2",
+              "after": "3.0",
+              "note": "Attack speed cap increased to 3.0 from 2.7632."
+            }
+          ]
+        },
+        {
+          "ability": "Blighted Quiver",
+          "title": "Blighted Quiver",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "On-hit base damage",
+              "before": "7–35",
+              "after": "5–25",
+              "note": "On-hit base damage reduced to 5–25 from 7–35."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "yasuo",
+      "name": "Yasuo",
+      "type": "champion",
+      "assetKey": "Yasuo",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Base armor increased to 32 from 30.; Base damage increased to 70–130 from 60–100.",
+      "gameplayImpact": "Yasuo is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Base stats",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base armor",
+              "before": "30",
+              "after": "32",
+              "note": "Base armor increased to 32 from 30."
+            }
+          ]
+        },
+        {
+          "ability": "Sweeping Blade",
+          "title": "Sweeping Blade",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "60–100",
+              "after": "70–130",
+              "note": "Base damage increased to 70–130 from 60–100."
+            },
+            {
+              "label": "Bonus damage per stack",
+              "before": "15–25%",
+              "after": "25% at all levels",
+              "note": "Bonus damage per stack increased to 25% at all levels from 15–25%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "yone",
+      "name": "Yone",
+      "type": "champion",
+      "assetKey": "Yone",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Base damage increased to 20–120 from 20–100.; Cooldown increased to 120–80 (3 ranks) seconds from 120–60 (3 ranks).",
+      "gameplayImpact": "Yone was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Mortal Steel",
+          "title": "Mortal Steel",
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "20–100",
+              "after": "20–120",
+              "note": "Base damage increased to 20–120 from 20–100."
+            }
+          ]
+        },
+        {
+          "ability": "Fate Sealed",
+          "title": "Fate Sealed",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "120–60 (3 ranks)",
+              "after": "120–80 (3 ranks) seconds",
+              "note": "Cooldown increased to 120–80 (3 ranks) seconds from 120–60 (3 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "zed",
+      "name": "Zed",
+      "type": "champion",
+      "assetKey": "Zed",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Base damage increased to 80–240 from 80–220.; Subsequent target base damage increased to 48–144 from 48–132.",
+      "gameplayImpact": "Zed was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Razor Shuriken",
+          "title": "Razor Shuriken",
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base damage",
+              "before": "80–220",
+              "after": "80–240",
+              "note": "Base damage increased to 80–240 from 80–220."
+            },
+            {
+              "label": "Subsequent target base damage",
+              "before": "48–132",
+              "after": "48–144",
+              "note": "Subsequent target base damage increased to 48–144 from 48–132."
+            },
+            {
+              "label": "Bonus AD ratio",
+              "before": "110% bonus AD",
+              "after": "100% bonus AD",
+              "note": "Bonus AD ratio reduced to 100% bonus AD from 110% bonus AD."
+            },
+            {
+              "label": "Subsequent target bonus AD ratio",
+              "before": "66% bonus AD",
+              "after": "60% bonus AD",
+              "note": "Subsequent target bonus AD ratio reduced to 60% bonus AD from 66% bonus AD."
+            }
+          ]
+        },
+        {
+          "ability": "Death Mark",
+          "title": "Death Mark",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "120–80 (3 ranks)",
+              "after": "120–100 (3 ranks) seconds",
+              "note": "Cooldown increased to 120–100 (3 ranks) seconds from 120–80 (3 ranks)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "zyra",
+      "name": "Zyra",
+      "type": "champion",
+      "assetKey": "Zyra",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Cooldown increased to 13.6–9.05 seconds from 13.33–8.8.",
+      "gameplayImpact": "Zyra loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "Garden of Thorns",
+          "title": "Garden of Thorns",
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "13",
+              "after": "13.6–9.05 seconds",
+              "note": "Cooldown increased to 13.6–9.05 seconds from 13.33–8.8."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "abyssal-mask",
+      "name": "Abyssal Mask",
+      "type": "item",
+      "assetKey": "8020",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Total cost increased to from .; Combine cost increased to from .",
+      "gameplayImpact": "Abyssal Mask was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Total cost increased to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Combine cost increased to from ."
+            },
+            {
+              "label": "Unmake magic resistance reduction",
+              "before": "20%",
+              "after": "30%",
+              "note": "Unmake magic resistance reduction increased to 30% from 20%."
+            },
+            {
+              "label": "Unmake radius",
+              "before": "600",
+              "after": "700 units",
+              "note": "Unmake radius increased to 700 units from 600."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "berserkers-greaves",
+      "name": "Berserker's Greaves",
+      "type": "item",
+      "assetKey": "3006",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Attack speed reduced to 30% from 35%.",
+      "gameplayImpact": "Berserker's Greaves loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Attack speed",
+              "before": "35%",
+              "after": "30%",
+              "note": "Attack speed reduced to 30% from 35%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "boots-of-swiftness",
+      "name": "Boots of Swiftness",
+      "type": "item",
+      "assetKey": "3009",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Total cost increased to from .; Combine cost increased from .",
+      "gameplayImpact": "Boots of Swiftness loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Total cost increased to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Combine cost increased from ."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "cosmic-drive",
+      "name": "Cosmic Drive",
+      "type": "item",
+      "assetKey": "4629",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Health increased to 350 from 250.; Spelldance bonus movement speed increased to 40–60 from 25–60.",
+      "gameplayImpact": "Cosmic Drive is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Health",
+              "before": "250",
+              "after": "350",
+              "note": "Health increased to 350 from 250."
+            },
+            {
+              "label": "Spelldance bonus movement speed",
+              "before": "25–60",
+              "after": "40–60",
+              "note": "Spelldance bonus movement speed increased to 40–60 from 25–60."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "deaths-dance",
+      "name": "Death's Dance",
+      "type": "item",
+      "assetKey": "6333",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Armor increased to 50 from 40.",
+      "gameplayImpact": "Death's Dance is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Armor",
+              "before": "40",
+              "after": "50",
+              "note": "Armor increased to 50 from 40."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "hexdrinker",
+      "name": "Hexdrinker",
+      "type": "item",
+      "assetKey": "3155",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Combine cost increased to from .; Total cost unchanged.",
+      "gameplayImpact": "Hexdrinker loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Combine cost increased to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Total cost unchanged."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "hextech-rocketbelt",
+      "name": "Hextech Rocketbelt",
+      "type": "item",
+      "assetKey": "3152",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Health increased to 400 from 300.",
+      "gameplayImpact": "Hextech Rocketbelt is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Health",
+              "before": "300",
+              "after": "400",
+              "note": "Health increased to 400 from 300."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "ionian-boots-of-lucidity",
+      "name": "Ionian Boots of Lucidity",
+      "type": "item",
+      "assetKey": "3158",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Total cost increased to from .; Combine cost increased from .",
+      "gameplayImpact": "Ionian Boots of Lucidity loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Total cost increased to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Combine cost increased from ."
+            },
+            {
+              "label": "Summoner spell haste",
+              "before": "12",
+              "after": "10",
+              "note": "Summoner spell haste reduced to 10 from 12."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "kraken-slayer",
+      "name": "Kraken Slayer",
+      "type": "item",
+      "assetKey": "6672",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Bonus movement speed reduced to 5% from 7%; New Effect: Damage is now reduced to 80% for ranged champions.",
+      "gameplayImpact": "Kraken Slayer loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Bonus movement speed",
+              "before": "7%",
+              "after": "5%",
+              "note": "Bonus movement speed reduced to 5% from 7%"
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Damage is now reduced to 80% for ranged champions."
+            },
+            {
+              "label": "Change",
+              "note": "Bring It Down damage changed to from 140–310 for all users."
+            },
+            {
+              "label": "Change",
+              "note": "Bring It Down maximum damage changed to from 210–465 for all users."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "locket-of-the-iron-solari",
+      "name": "Locket of the Iron Solari",
+      "type": "item",
+      "assetKey": "323190",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Combine cost increased to from .; Total cost unchanged.",
+      "gameplayImpact": "Locket of the Iron Solari loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Combine cost increased to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Total cost unchanged."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "lord-dominiks-regards",
+      "name": "Lord Dominik's Regards",
+      "type": "item",
+      "assetKey": "3036",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Armor penetration reduced to 35% from 40%",
+      "gameplayImpact": "Lord Dominik's Regards loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Armor penetration",
+              "before": "40%",
+              "after": "35%",
+              "note": "Armor penetration reduced to 35% from 40%"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "mercurys-treads",
+      "name": "Mercury's Treads",
+      "type": "item",
+      "assetKey": "3111",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Total cost increased to from .; Combine cost increased from .",
+      "gameplayImpact": "Mercury's Treads loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Total cost increased to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Combine cost increased from ."
+            },
+            {
+              "label": "Magic resistance",
+              "before": "25",
+              "after": "20",
+              "note": "Magic resistance reduced to 20 from 25."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "mortal-reminder",
+      "name": "Mortal Reminder",
+      "type": "item",
+      "assetKey": "3033",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Attack damage reduced to 35 from 40.",
+      "gameplayImpact": "Mortal Reminder loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Attack damage",
+              "before": "40",
+              "after": "35",
+              "note": "Attack damage reduced to 35 from 40."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "negatron-cloak",
+      "name": "Negatron Cloak",
+      "type": "item",
+      "assetKey": "221057",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Combine cost increased to from .; Total cost unchanged.",
+      "gameplayImpact": "Negatron Cloak loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Combine cost increased to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Total cost unchanged."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "null-magic-mantle",
+      "name": "Null-Magic Mantle",
+      "type": "item",
+      "assetKey": "1033",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Cost reduced to from .; Magic resistance reduced to 20 from 25.",
+      "gameplayImpact": "Null-Magic Mantle was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Cost reduced to from ."
+            },
+            {
+              "label": "Magic resistance",
+              "before": "25",
+              "after": "20",
+              "note": "Magic resistance reduced to 20 from 25."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "plated-steelcaps",
+      "name": "Plated Steelcaps",
+      "type": "item",
+      "assetKey": "3047",
+      "roles": [],
+      "direction": "adjust",
+      "severity": 2,
+      "tldr": "Total cost increased to from .; Combine cost increased to from .",
+      "gameplayImpact": "Plated Steelcaps was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Total cost increased to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Combine cost increased to from ."
+            },
+            {
+              "label": "Plating damage reduction",
+              "before": "8%",
+              "after": "10%",
+              "note": "Plating damage reduction increased to 10% from 8%."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "quicksilver-sash",
+      "name": "Quicksilver Sash",
+      "type": "item",
+      "assetKey": "3140",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Combine cost increased to from .; Total cost unchanged.",
+      "gameplayImpact": "Quicksilver Sash loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Combine cost increased to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Total cost unchanged."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "sorcerers-shoes",
+      "name": "Sorcerer's Shoes",
+      "type": "item",
+      "assetKey": "3020",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Magic penetration reduced to 15 from 18.",
+      "gameplayImpact": "Sorcerer's Shoes loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Magic penetration",
+              "before": "18",
+              "after": "15",
+              "note": "Magic penetration reduced to 15 from 18."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "spectres-cowl",
+      "name": "Spectre's Cowl",
+      "type": "item",
+      "assetKey": "3211",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Combine cost increased to from .; Total cost unchanged.",
+      "gameplayImpact": "Spectre's Cowl loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Combine cost increased to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Total cost unchanged."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "statikk-shiv",
+      "name": "Statikk Shiv",
+      "type": "item",
+      "assetKey": "3087",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 2,
+      "tldr": "Total cost increased to from .; Combine cost increased to from .",
+      "gameplayImpact": "Statikk Shiv loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Total cost increased to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Combine cost increased to from ."
+            },
+            {
+              "label": "Bonus movement speed",
+              "before": "7%",
+              "after": "5%",
+              "note": "Bonus movement speed reduced to 5% from 7%"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "stormsurge",
+      "name": "Stormsurge",
+      "type": "item",
+      "assetKey": "4646",
+      "roles": [],
+      "direction": "buff",
+      "severity": 2,
+      "tldr": "Stormraider bonus movement speed increased to 35% from 25%.; Squall base damage for ranged champions increased to 126 from 105.",
+      "gameplayImpact": "Stormsurge is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Stormraider bonus movement speed",
+              "before": "25%",
+              "after": "35%",
+              "note": "Stormraider bonus movement speed increased to 35% from 25%."
+            },
+            {
+              "label": "Squall base damage for ranged champions",
+              "before": "105",
+              "after": "126",
+              "note": "Squall base damage for ranged champions increased to 126 from 105."
+            },
+            {
+              "label": "Squall AP ratio for ranged champions",
+              "before": "15% AP",
+              "after": "18% AP",
+              "note": "Squall AP ratio for ranged champions increased to 18% AP from 15% AP."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "verdant-barrier",
+      "name": "Verdant Barrier",
+      "type": "item",
+      "assetKey": "4632",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Combine cost increased to from .; Total cost unchanged.",
+      "gameplayImpact": "Verdant Barrier loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Combine cost increased to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Total cost unchanged."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    },
+    {
+      "id": "void-staff",
+      "name": "Void Staff",
+      "type": "item",
+      "assetKey": "3135",
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Ability power increased to 95 from 90.",
+      "gameplayImpact": "Void Staff is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Ability power",
+              "before": "90",
+              "after": "95",
+              "note": "Ability power increased to 95 from 90."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "zekes-convergence",
+      "name": "Zeke's Convergence",
+      "type": "item",
+      "assetKey": "323050",
+      "roles": [],
+      "direction": "nerf",
+      "severity": 1,
+      "tldr": "Combine cost increased to from .; Total cost unchanged.",
+      "gameplayImpact": "Zeke's Convergence loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "nerf",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Combine cost increased to from ."
+            },
+            {
+              "label": "Change",
+              "note": "Total cost unchanged."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "nerf"
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "id": "dark-harvest",
+      "name": "Dark Harvest",
+      "type": "rune",
+      "assetKey": null,
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Cooldown reduced to 35 seconds from 40.; Takedown cooldown reduced to 1 second from 1.5.",
+      "gameplayImpact": "Dark Harvest is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Cooldown",
+              "before": "40",
+              "after": "35 seconds",
+              "note": "Cooldown reduced to 35 seconds from 40."
+            },
+            {
+              "label": "Takedown cooldown",
+              "before": "1",
+              "after": "1 second",
+              "note": "Takedown cooldown reduced to 1 second from 1.5."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "fleet-footwork",
+      "name": "Fleet Footwork",
+      "type": "rune",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 1,
+      "tldr": "Base heal changed to 5+(115/17)*(x-1)*(0.7025+0.0175*(x-1)) from 8–110.",
+      "gameplayImpact": "Fleet Footwork was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Base heal",
+              "before": "8–110",
+              "after": "5+(115/17)*(x-1)*(0.7025+0.0175*(x-1))",
+              "note": "Base heal changed to 5+(115/17)*(x-1)*(0.7025+0.0175*(x-1)) from 8–110."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "howling-abyss",
+      "name": "Howling Abyss",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "buff",
+      "severity": 3,
+      "tldr": "Aphelios}}; Incoming damage modifier changed to 0% from -5%.",
+      "gameplayImpact": "Howling Abyss is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Aphelios}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-5%",
+              "after": "0%",
+              "note": "Incoming damage modifier changed to 0% from -5%."
+            },
+            {
+              "label": "Change",
+              "note": "Ashe}}"
+            },
+            {
+              "label": "Change",
+              "note": "Enchanted Crystal Arrow}}"
+            },
+            {
+              "label": "Cooldown",
+              "before": "110–70 (3 ranks)",
+              "after": "100–60 (3 ranks) seconds",
+              "note": "Cooldown reduced to 100–60 (3 ranks) seconds from 110–70 (3 ranks)."
+            },
+            {
+              "label": "Change",
+              "note": "Hwei}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "0%",
+              "after": "-5%",
+              "note": "Outgoing damage modifier changed to -5% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Signature of the Visionary}}"
+            },
+            {
+              "label": "Change",
+              "note": "Now deals 80% damage to minions."
+            },
+            {
+              "label": "Change",
+              "note": "Devastating Fire}}"
+            },
+            {
+              "label": "Change",
+              "note": "Now deals 80% damage to minions."
+            },
+            {
+              "label": "Change",
+              "note": "Severing Bolt}}"
+            },
+            {
+              "label": "Change",
+              "note": "Now deals 80% damage to minions."
+            },
+            {
+              "label": "Change",
+              "note": "Molten Fissure}}"
+            },
+            {
+              "label": "Change",
+              "note": "Now deals 80% damage to minions."
+            },
+            {
+              "label": "Change",
+              "note": "Stirring Lights}}"
+            },
+            {
+              "label": "Change",
+              "note": "Now deals 80% damage to minions."
+            },
+            {
+              "label": "Change",
+              "note": "Grim Visage}}"
+            },
+            {
+              "label": "Change",
+              "note": "Now deals 80% damage to minions."
+            },
+            {
+              "label": "Change",
+              "note": "Gaze of the Abyss}}"
+            },
+            {
+              "label": "Change",
+              "note": "Now deals 80% damage to minions."
+            },
+            {
+              "label": "Change",
+              "note": "Crushing Maw}}"
+            },
+            {
+              "label": "Change",
+              "note": "Now deals 80% damage to minions."
+            },
+            {
+              "label": "Change",
+              "note": "Spiraling Despair}}"
+            },
+            {
+              "label": "Change",
+              "note": "Now deals 80% damage to minions."
+            },
+            {
+              "label": "Change",
+              "note": "Milio}}"
+            },
+            {
+              "label": "Ability haste",
+              "before": "0",
+              "after": "-10",
+              "note": "Ability haste changed to -10 from 0."
+            },
+            {
+              "label": "Change",
+              "note": "Sejuani}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "+5%",
+              "after": "0%",
+              "note": "Outgoing damage modifier changed to 0% from +5%."
+            },
+            {
+              "label": "Change",
+              "note": "Sion}}"
+            },
+            {
+              "label": "Shielding modifier",
+              "before": "-20%",
+              "after": "0%",
+              "note": "Shielding modifier changed to 0% from -20%."
+            },
+            {
+              "label": "Tenacity",
+              "before": "-20%",
+              "after": "0%",
+              "note": "Tenacity changed to 0% from -20%."
+            },
+            {
+              "label": "Change",
+              "note": "Soul Furnace}}"
+            },
+            {
+              "label": "Change",
+              "note": "Health per lesser unit kill changed to 2."
+            },
+            {
+              "label": "Change",
+              "note": "Health per greater unit kill changed to 8."
+            },
+            {
+              "label": "Change",
+              "note": "Shield health ratio changed to 6–14% maximum health|hp."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "map",
+      "name": "Map",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "buff",
+      "severity": 3,
+      "tldr": "Aphelios}}; Incoming damage modifier changed to 0% from -5%.",
+      "gameplayImpact": "Map is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Aphelios}}"
+            },
+            {
+              "label": "Incoming damage modifier",
+              "before": "-5%",
+              "after": "0%",
+              "note": "Incoming damage modifier changed to 0% from -5%."
+            },
+            {
+              "label": "Change",
+              "note": "Ashe}}"
+            },
+            {
+              "label": "Change",
+              "note": "Enchanted Crystal Arrow}}"
+            },
+            {
+              "label": "Cooldown",
+              "before": "110–70 (3 ranks)",
+              "after": "100–60 (3 ranks) seconds",
+              "note": "Cooldown reduced to 100–60 (3 ranks) seconds from 110–70 (3 ranks)."
+            },
+            {
+              "label": "Change",
+              "note": "Hwei}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "0%",
+              "after": "-5%",
+              "note": "Outgoing damage modifier changed to -5% from 0%."
+            },
+            {
+              "label": "Change",
+              "note": "Signature of the Visionary}}"
+            },
+            {
+              "label": "Change",
+              "note": "Now deals 80% damage to minions."
+            },
+            {
+              "label": "Change",
+              "note": "Devastating Fire}}"
+            },
+            {
+              "label": "Change",
+              "note": "Now deals 80% damage to minions."
+            },
+            {
+              "label": "Change",
+              "note": "Severing Bolt}}"
+            },
+            {
+              "label": "Change",
+              "note": "Now deals 80% damage to minions."
+            },
+            {
+              "label": "Change",
+              "note": "Molten Fissure}}"
+            },
+            {
+              "label": "Change",
+              "note": "Now deals 80% damage to minions."
+            },
+            {
+              "label": "Change",
+              "note": "Stirring Lights}}"
+            },
+            {
+              "label": "Change",
+              "note": "Now deals 80% damage to minions."
+            },
+            {
+              "label": "Change",
+              "note": "Grim Visage}}"
+            },
+            {
+              "label": "Change",
+              "note": "Now deals 80% damage to minions."
+            },
+            {
+              "label": "Change",
+              "note": "Gaze of the Abyss}}"
+            },
+            {
+              "label": "Change",
+              "note": "Now deals 80% damage to minions."
+            },
+            {
+              "label": "Change",
+              "note": "Crushing Maw}}"
+            },
+            {
+              "label": "Change",
+              "note": "Now deals 80% damage to minions."
+            },
+            {
+              "label": "Change",
+              "note": "Spiraling Despair}}"
+            },
+            {
+              "label": "Change",
+              "note": "Now deals 80% damage to minions."
+            },
+            {
+              "label": "Change",
+              "note": "Milio}}"
+            },
+            {
+              "label": "Ability haste",
+              "before": "0",
+              "after": "-10",
+              "note": "Ability haste changed to -10 from 0."
+            },
+            {
+              "label": "Change",
+              "note": "Sejuani}}"
+            },
+            {
+              "label": "Outgoing damage modifier",
+              "before": "+5%",
+              "after": "0%",
+              "note": "Outgoing damage modifier changed to 0% from +5%."
+            },
+            {
+              "label": "Change",
+              "note": "Sion}}"
+            },
+            {
+              "label": "Shielding modifier",
+              "before": "-20%",
+              "after": "0%",
+              "note": "Shielding modifier changed to 0% from -20%."
+            },
+            {
+              "label": "Tenacity",
+              "before": "-20%",
+              "after": "0%",
+              "note": "Tenacity changed to 0% from -20%."
+            },
+            {
+              "label": "Change",
+              "note": "Soul Furnace}}"
+            },
+            {
+              "label": "Change",
+              "note": "Health per lesser unit kill changed to 2."
+            },
+            {
+              "label": "Change",
+              "note": "Health per greater unit kill changed to 8."
+            },
+            {
+              "label": "Change",
+              "note": "Shield health ratio changed to 6–14% maximum health|hp."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "arena",
+      "name": "Arena",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Koi Pond Adjustments; The following special rules now apply to this arena only:",
+      "gameplayImpact": "Arena was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "System",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Koi Pond Adjustments"
+            },
+            {
+              "label": "Change",
+              "note": "The following special rules now apply to this arena only:"
+            },
+            {
+              "label": "Change",
+              "note": "No team can now start the Combat Phase (spawn) on the southeast platform."
+            },
+            {
+              "label": "Change",
+              "note": "Hex-gates have a reduced cooldown of 8 seconds instead of 12."
+            },
+            {
+              "label": "Change",
+              "note": "The Ring of Fire spawns at 116% its radius on other arenas. This difference is gradually removed by the second time it moves (size beyond the 40th second of the round is unchanged)."
+            },
+            {
+              "label": "Change",
+              "note": "The Ring of Fire closes in on any of the three platforms instead of any (open) location, and it is most likely to close in on the southeast one."
+            },
+            {
+              "label": "Change",
+              "note": "Bloom Bridge"
+            },
+            {
+              "label": "Respawn timer",
+              "before": "6",
+              "after": "3.2 seconds",
+              "note": "Respawn timer reduced to 3.2 seconds from 6.6."
+            },
+            {
+              "label": "Close timer",
+              "before": "5",
+              "after": "10.8 seconds",
+              "note": "Close timer increased to 10.8 seconds from 5.4."
+            },
+            {
+              "label": "Change",
+              "note": "20px|link= Mutated Blast Cones"
+            },
+            {
+              "label": "Spawn time",
+              "before": "5",
+              "after": "10 seconds after combat phase starts",
+              "note": "Spawn time increased to 10 seconds after combat phase starts from 5."
+            },
+            {
+              "label": "Respawn time",
+              "before": "8",
+              "after": "16 seconds",
+              "note": "Respawn time increased to 16 seconds from 8."
+            },
+            {
+              "label": "Change",
+              "note": "North platform's Blast Cone has been moved slightly closer to the center of the platform, away from its boundary."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: Blast Cones no longer spawn immediately after combat ensues."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: Southeast platform no longer contains one."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Respawned Blast Cones beyond their first respective use in the round no longer sometimes lose their mutated/empowered effect for the rest of the round."
+            },
+            {
+              "label": "Change",
+              "note": "Miscellaneous"
+            },
+            {
+              "label": "Change",
+              "note": "More brush has been added around existing patches."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Issuing a move order on or beyond a closed Bloom Bridge and from a different platform than the one currently on no longer cancels movement."
+            },
+            {
+              "label": "Change",
+              "note": "The following augments have been added:"
+            },
+            {
+              "label": "Change",
+              "note": "Dual Wield, Fan the Hammer, Fire Sale, Fruits of Your Labor, Light Warden, Prismatic Egg, Slime Time, Stats!, Stats on Stats!, Stats on Stats on Stats!, Summoner Revolution, Trailblazer, Ultimate Roulette."
+            },
+            {
+              "label": "Change",
+              "note": "The following augments have been removed:"
+            },
+            {
+              "label": "Change",
+              "note": "Fully Automated."
+            },
+            {
+              "label": "Change",
+              "note": "Dual Wield"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Prismatic"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Gain 250% bonus attack speed, but your attacks and on-hit effects are modified to deal 50% damage."
+            },
+            {
+              "label": "Change",
+              "note": "Fan the Hammer"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Prismatic"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Your next basic attack in each cardinal direction within attack range|750 range additionally on-attack fires 5 bolts at the target that each deal 10–52.5|physical damage (+ 15% bonus AD) physical damage, for a total of 50–262.5|physical damage (+ 75% bonus AD) physical damage. Bolts' damage is increased by 0–50% (over 0–750) (3 second cooldown per direction). Each bolt can critically strike and applies on-hit effects at 20% effectiveness."
+            },
+            {
+              "label": "Change",
+              "note": "Fire Sale"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Silver"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Upon selecting this augment, automatically sells all of your items at the shop for 100% of their value (Starter Items & Boots: , Legendary Item: , Prismatic Item: ). Quest items and consumables will not be sold from this effect."
+            },
+            {
+              "label": "Change",
+              "note": "Fruits of Your Labor"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Gold"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Increase the effects of 20px|link= Power Flowers by 25%. Additionally, hitting a Power Flower now grants its effects to your ally if they are within 700 units of you, sharing the effects with them and also granting you both 40% bonus movement speed for 2 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Light Warden"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Gold"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Automatically casts a warding light towards your ally, which grants a shield for 40–100 (+ 10% bonus AD) (+ 40% AP) to you and your ally for 2.5 seconds upon coming into contact with it. After reaching maximum range, the light then homes back to you to grant the same shield again when it passes through you and your ally, stacking with the previous shield and refreshing its duration (8 second cooldown)."
+            },
+            {
+              "label": "Change",
+              "note": "Prismatic Egg"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Prismatic"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Scoring a champion takedown generates a stack, once per champion per round. Gain a free Prismatic Item|Prismatic Item Anvil}} at 5 stacks and every 7 stacks thereafter. The Prismatic Item|Prismatic Item Anvil}} is granted at the start of the shop phase after a combat phase where the stack requirement is achieved."
+            },
+            {
+              "label": "Change",
+              "note": "Slime Time"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Silver"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Automatically releases a burst of slime in a cr 450 radius around you, dealing 40–80|magic damage (+ 3–7% magic damage to enemies hit (7 second cooldown). Additionally, hitting a champion secretes a slime blob toward a nearby location. Both you and enemy champions can interact with the blob by moving over it; you may consume it to heal yourself for 3–6% of your maximum health, while an enemy may destroy it to deny the effect."
+            },
+            {
+              "label": "Change",
+              "note": "Stats!"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Silver"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Upon selecting this augment, gain 2 Stat Bonus|Stat Bonus Anvils}} for free."
+            },
+            {
+              "label": "Change",
+              "note": "Stats on Stats!"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Gold"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Upon selecting this augment, gain 3 Stat Bonus|Stat Bonus Anvils}} for free."
+            },
+            {
+              "label": "Change",
+              "note": "Stats on Stats on Stats!"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Prismatic"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Upon selecting this augment, gain 4 Stat Bonus|Stat Bonus Anvils}} for free."
+            },
+            {
+              "label": "Change",
+              "note": "Summoner Revolution"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Gold"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Using a summoner spell resets its cooldown immediately after its effect or has . This may occur only once per phase in a round. Additionally, resets every round."
+            },
+            {
+              "label": "Change",
+              "note": "Trailblazer"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Silver"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Dashing or blinking causes you to burn the nearest enemy champion within 650 units for 5 seconds, dealing magic damage every second equal to 0.8% of the target's maximum health over the duration. This burn stacks infinitely and refreshes with each application. The same cast instance cannot trigger this effect more than once every 1.5 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Ultimate Roulette"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Prismatic"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Replaces with a random champion's ultimate ability, available from a pool. After using the granted ultimate ability during the combat phase, replace the ultimate in the respective slot with another random one after the cooldown for this effect elapses (25–15 second , increased to 30–20 for Maximum Dosage (Dr. Mundo)}})."
+            },
+            {
+              "label": "Change",
+              "note": "Ultimate Ability Pool: Feast (Cho'Gath)}}, Maximum Dosage (Dr. Mundo)}}, Cannon Barrage (Gangplank)}}, Explosive Cask (Gragas)}}, The Culling (Lucian)}}, Final Spark (Lux)}}, Soul Shackles (Morgana)}}."
+            },
+            {
+              "label": "Change",
+              "note": "Black Hole Gauntlet}} - New item"
+            },
+            {
+              "label": "Change",
+              "note": "Obtained from Prismatic Item|Prismatic Item Anvils}}."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 800 health, 200% health regeneration, 25 ability haste."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Accretion: Basic attacks on-hit and immobilizing effects against enemy champions generate 1 and 5 stacks of Accretion, respectively, up to 50. For each Accretion stack, gain 1% size and 10% base health regeneration, up to 50% increased size and 500% base health regeneration at maximum stacks. Stacks are reset every round and between each phase in a round."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Active - Dark Star: Summon a black hole at the target location after a 0.5-second delay that lasts for 2 (+ 0.1 per 100 bonus health) seconds and has a radius of [cr / units]champion Size modifier (+ 0.1% per Accretion stack). Enemies within are dealt 20–60|magic damage (+ 50% armor) (+ 50% magic resistance) magic damage every second, slow by 25%, and kinematics inward until they reach the horizon at the center. Additionally, for each enemy champion inside the black hole, generate 1 stack of Accretion per second (30 second cooldown)."
+            },
+            {
+              "label": "Change",
+              "note": "Diamond-Tipped Spear}} - New item"
+            },
+            {
+              "label": "Change",
+              "note": "Obtained from Prismatic Item|Prismatic Item Anvils}}."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 75 adaptive force, 30% attack speed."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Reach Weapon: Gain attack range|75 attack range."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Sweet Spot: Basic attacks deal 0–30% (200–1000) increased damage and abilities deal 0–40% (200–1000) increased damage. The distance is calculated from your cr current position to the target's position when the triggering attack or ability hits them."
+            },
+            {
+              "label": "Change",
+              "note": "Hexbolt Companion}} - New item"
+            },
+            {
+              "label": "Change",
+              "note": "Obtained from Prismatic Item|Prismatic Item Anvils}}."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 500 health, 75% attack speed."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Covering Fire: While your ally is within , your basic attacks on-hit generate a stack. At 1 stack, your next basic attack consumes all stacks to cause your ally to fire a bolt at the target, dealing 20–60 physical damage and applying your ally's on-hit effects at 100% effectiveness."
+            },
+            {
+              "label": "Change",
+              "note": "Kinkou Jitte}} - New item"
+            },
+            {
+              "label": "Change",
+              "note": "Obtained from Prismatic Item|Prismatic Item Anvils}}."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 70 adaptive force, 30 ability haste, 12 lethality, 12 magic penetration."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Between the Ribs: You can now identify the Weakpoints of nearby enemy champions, marked as an arc around them and pointing towards a specific direction. Weakpoints on targets take 4 seconds to become exposed and linger for 11.25 seconds afterwards. Dealing damage in the direction of an exposed Weakpoint will consume it to deal bonus true damage equal to 2%|hp (+ 0.1% per 1 Lethality) (+ 0.1% per 1 flat magic penetration) of the target's maximum health and grant you 15–40% bonus movement speed for 1.5 seconds. Once a target's Weakpoint is consumed or expires, you identify a new Weakpoint on them."
+            },
+            {
+              "label": "Change",
+              "note": "Lightning Rod}} - New item"
+            },
+            {
+              "label": "Change",
+              "note": "Obtained from Prismatic Item|Prismatic Item Anvils}}."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 500 health, 30% attack speed, 30 armor, 30 magic resistance, 8% movement speed."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Call Lightning: Automatically summon a storm cloud above you, which strikes a lightning bolt at your current location after 1.5 seconds to deal 135–230|magic damage (+ 30% bonus AD) (+ 50% AP) (+ 10% of target's maximum health) magic damage to enemies within the area and slow them by 30% for 2 seconds. If you are within the lightning strike, gain a shield equal to 14% of your maximum health (+ 75% AP) for 2 seconds (14 second cooldown)."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Fully Automated: Automatic effects have their cooldown reduced by 1 second and now benefit from your ability haste."
+            },
+            {
+              "label": "Change",
+              "note": "Puppeteer}} - New item"
+            },
+            {
+              "label": "Change",
+              "note": "Obtained from Prismatic Item|Prismatic Item Anvils}}."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 30 ability power, 40 ability haste, 125% base mana regeneration, 15% heal and shield power."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Pull Their Strings: Basic attacks on-hit against enemy champions apply a Puppeteer stack for 5 seconds, stacking up to 4 times. The fourth stack against a target consumes them all to render the target berserk for 2 seconds, causing them to gain 50%|as (+ 150% of your heal and shield power) bonus attack speed and 40% bonus movement speed (45 second cooldown). If only one champion is alive on the enemy team, instead fear the target for the same duration. Granting yourself or an ally a heal, shield, or ability-sourced buff reduces the cooldown of Pull Their Strings by 5 seconds, once per cast."
+            },
+            {
+              "label": "Change",
+              "note": "Pyromancer's Cloak}} - New item"
+            },
+            {
+              "label": "Change",
+              "note": "Obtained from Prismatic Item|Prismatic Item Anvils}}."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 400 health, 85 adaptive force, 15 ability haste."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Spark: Basic attacks and ability hits against enemies inflicts them with a Burn that deals 200/12 to 450/12 magic damage every 0.25 seconds over 3 seconds, for a total of 200–450 magic damage."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Cleansing Flame: Inflicting an enemy champion with a Burn effect releases a fireball from the target, landing to a location near you after 0.5 seconds. Upon landing, a blaze is created at the impact area with a radius of 175 units, lasting for 5 seconds (3 second cooldown per target). While you are within the blaze, gain 20% bonus total movement speed, lingering for 0.75 seconds after exiting, and 5% omnivamp. While enemies are within the blaze, they are dealt 75 magic damage every second. Additionally, for each unique Burn effect source that you have, up to 10, increase the blaze's size by 40, and its strength by 4% bonus total movement speed and 2% omnivamp for the buff and 50 magic damage per tick for the enemy effect."
+            },
+            {
+              "label": "Change",
+              "note": "Reaper's Toll}} - New item"
+            },
+            {
+              "label": "Change",
+              "note": "Obtained from Prismatic Item|Prismatic Item Anvils}}."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 40 adaptive force, 50% attack speed, 10% movement speed."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Reap: Basic attacks on-hit apply a Reap stack to the target, stacking infinitely and lasting for the remainder of the combat phase, and deal bonus true damage equal to . Additionally, the target is inflicted a health threshold equal to 100% of their maximum health minus the total amount of bonus damage dealt against them, lasting until the end of the round and capped at a threshold of 50% of their maximum health."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Sow: Increases the attack speed gained from all sources by 25%."
+            },
+            {
+              "label": "Change",
+              "note": "Regicide}} - New item"
+            },
+            {
+              "label": "Change",
+              "note": "Obtained from Prismatic Item|Prismatic Item Anvils}}."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 60 attack damage, 15 lethality, 8% movement speed."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - End the Line: At the start of the combat phase in each round, declare the enemy champion with the lowest total maximum health as the Regent. Scoring a takedown against the Regent for the first time in the combat phase grants you 10 bonus attack damage permanently and resets the cooldown of your ultimate ability."
+            },
+            {
+              "label": "Change",
+              "note": "Reverberation}} - New item"
+            },
+            {
+              "label": "Change",
+              "note": "Obtained from Prismatic Item|Prismatic Item Anvils}}."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 40% attack speed, 35 armor, 35 magic resistance."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Reverberate: Gain 4 bonus health per 1% bonus attack speed."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Resonate: Basic attacks on-hit deal 10|magic damage (+ 1% of your bonus health) bonus magic damage. Additionally, upon taking damage from a basic attack or ability, generate 5 stacks of Reverberation for 6 seconds (3 second cooldown per enemy ability). Immobilize an enemy champion applies your on-hit effects to them 3 times and generates 25 stacks of Reverberation for 6 seconds. Reverberation stacks up to 100 times, at which you activate Rumble."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Rumble: While at 100 Reverberation stacks, automatically unleashes a wave around you that airborne in nearby enemies (8 second cooldown)."
+            },
+            {
+              "label": "Change",
+              "note": "Twilight's Edge}} - New item"
+            },
+            {
+              "label": "Change",
+              "note": "Obtained from Prismatic Item|Prismatic Item Anvils}}."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 100 ability power, 70 attack damage."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - The Path Between: If you have at least 130 bonus attack damage and 180 ability power, enter either the Material World or the Spirit World, determined randomly, at the start of the combat phase in each round:"
+            },
+            {
+              "label": "Change",
+              "note": "Material World: Increase your attack damage by 20% and gain 50–150% bonus attack speed."
+            },
+            {
+              "label": "Change",
+              "note": "Spirit World: Increase your ability power by 20% and gain 30–120 ability haste."
+            },
+            {
+              "label": "Change",
+              "note": "Twin Mask}} - New item"
+            },
+            {
+              "label": "Change",
+              "note": "Obtained from Prismatic Item|Prismatic Item Anvils}}."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Unanimity: Gain 15% of your teammate's attack damage, ability power, total attack speed, maximum health, armor, magic resistance, and ability haste, doubled to 30% if they also have Twin Mask and are alive."
+            },
+            {
+              "label": "Change",
+              "note": "Cappa Juice}}"
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Now removes all hats on death."
+            },
+            {
+              "label": "Change",
+              "note": "Alistar}}"
+            },
+            {
+              "label": "Change",
+              "note": "Trample}}"
+            },
+            {
+              "label": "Change",
+              "note": "AP ratio per tick changed to 100/10% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Aurora}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Is no longer missing recommended items."
+            },
+            {
+              "label": "Change",
+              "note": "Corki}}"
+            },
+            {
+              "label": "Change",
+              "note": "Valkyrie}}"
+            },
+            {
+              "label": "Change",
+              "note": "AP ratio per tick changed to 18% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Gragas}}"
+            },
+            {
+              "label": "Change",
+              "note": "Drunken Rage}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: No longer unintentionally deals more damage when Ethereal Weapons is equipped."
+            },
+            {
+              "label": "Change",
+              "note": "Jarvan IV}}"
+            },
+            {
+              "label": "Change",
+              "note": "Demacian Standard}}"
+            },
+            {
+              "label": "Change",
+              "note": "AP ratio changed to 100% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Leona}}"
+            },
+            {
+              "label": "Change",
+              "note": "Eclipse}}"
+            },
+            {
+              "label": "Change",
+              "note": "AP ratio changed to 70% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Solar Flare}}"
+            },
+            {
+              "label": "Change",
+              "note": "AP ratio changed to 100% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Malzahar}}"
+            },
+            {
+              "label": "Change",
+              "note": "Void Swarm}}"
+            },
+            {
+              "label": "Change",
+              "note": "Voidling AD ratio changed to 60% bonus AD."
+            },
+            {
+              "label": "Change",
+              "note": "Mordekaiser}}"
+            },
+            {
+              "label": "Change",
+              "note": "Realm of Death}}"
+            },
+            {
+              "label": "Change",
+              "note": "On-cast healing changed to 8%."
+            },
+            {
+              "label": "Change",
+              "note": "Stat reduction changed to 8%."
+            },
+            {
+              "label": "Change",
+              "note": "Morgana}}"
+            },
+            {
+              "label": "Change",
+              "note": "Dark Binding}}"
+            },
+            {
+              "label": "Change",
+              "note": "Cooldown changed to 12 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Olaf}}"
+            },
+            {
+              "label": "Change",
+              "note": "Ragnarok}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: No longer is usable during Raid Boss' lockout."
+            },
+            {
+              "label": "Change",
+              "note": "Singed}}"
+            },
+            {
+              "label": "Change",
+              "note": "Poison Trail}}"
+            },
+            {
+              "label": "Total AP ratio",
+              "before": "70% AP",
+              "after": "65% AP",
+              "note": "Total AP ratio reduced to 65% AP from 70% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Insanity Potion}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bonus stats changed to 30–80 (3 ranks)."
+            },
+            {
+              "label": "Change",
+              "note": "Taric}}"
+            },
+            {
+              "label": "Change",
+              "note": "Starlight's Touch}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: The ability no longer has a higher base recharge timer when his cooldowns are refreshed via Power Flowers' restoration, which would persist until all of Starlight's Touch's charges have been expended."
+            },
+            {
+              "label": "Change",
+              "note": "Volibear}}"
+            },
+            {
+              "label": "Change",
+              "note": "Frenzied Maul}}"
+            },
+            {
+              "label": "Change",
+              "note": "Damage health ratio changed to 5% user bonus health."
+            },
+            {
+              "label": "Heal health ratio",
+              "before": "6–18%|hp",
+              "after": "6–14% user missing health",
+              "note": "Heal health ratio reduced to 6–14% user missing health from 6–18%|hp."
+            },
+            {
+              "label": "Change",
+              "note": "Xin Zhao}}"
+            },
+            {
+              "label": "Change",
+              "note": "Determination}}"
+            },
+            {
+              "label": "Change",
+              "note": "Heal AP ratio changed to 85% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Audacious Charge}}"
+            },
+            {
+              "label": "Change",
+              "note": "AP ratio changed to 90% AP."
+            },
+            {
+              "label": "Change",
+              "note": "Blade of the Ruined King}}"
+            },
+            {
+              "label": "Mist's Edge health ratio on melee users",
+              "before": "9%|hp",
+              "after": "10% of target's current health",
+              "note": "Mist's Edge health ratio on melee users increased to 10% of target's current health from 9%|hp."
+            },
+            {
+              "label": "Change",
+              "note": "Flesheater}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Hack the Meat's debuff icon on the HUD has been restored."
+            },
+            {
+              "label": "Change",
+              "note": "Luden's Companion}}"
+            },
+            {
+              "label": "Ability haste",
+              "before": "20",
+              "after": "25",
+              "note": "Ability haste increased to 25 from 20."
+            },
+            {
+              "label": "Ability power",
+              "before": "80",
+              "after": "85",
+              "note": "Ability power increased to 85 from 80."
+            },
+            {
+              "label": "Change",
+              "note": "Kraken Slayer}}"
+            },
+            {
+              "label": "Change",
+              "note": "Bring It Down damage changed to 140–310."
+            },
+            {
+              "label": "Change",
+              "note": "Bonus damage modifier based on target's missing health unchanged at 0 to 50 by 5% (over 0–100)."
+            },
+            {
+              "label": "Change",
+              "note": "Trinity Force}}"
+            },
+            {
+              "label": "Ability haste",
+              "before": "15",
+              "after": "20",
+              "note": "Ability haste increased to 20 from 15."
+            },
+            {
+              "label": "Attack damage",
+              "before": "30",
+              "after": "35",
+              "note": "Attack damage increased to 35 from 30."
+            },
+            {
+              "label": "Change",
+              "note": "ADAPt"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: No longer sometimes grants negative ability power."
+            },
+            {
+              "label": "Change",
+              "note": "Heavy Hitter"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Damage tracker is no longer missing from the tooltip."
+            },
+            {
+              "label": "Change",
+              "note": "Marksmage"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: No longer tracks 100% AP damage every time a Blast Cone or Power Flower is hit."
+            },
+            {
+              "label": "Change",
+              "note": "Raid Boss"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Now properly zooms the camera back in at the start of the round when equipped."
+            },
+            {
+              "label": "Change",
+              "note": "Spellwake"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Random damage amount inconsistencies have been resolved."
+            },
+            {
+              "label": "Change",
+              "note": "Stackosaurus Rex"
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Stack count (champion-independent) is no longer shared between all users in the entire lobby."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: No longer incorrectly grants its bonus stacks twice."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "gameplay",
+      "name": "Gameplay",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "Koi Pond Adjustments; The following special rules now apply to this arena only:",
+      "gameplayImpact": "Gameplay was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Koi Pond Adjustments"
+            },
+            {
+              "label": "Change",
+              "note": "The following special rules now apply to this arena only:"
+            },
+            {
+              "label": "Change",
+              "note": "No team can now start the Combat Phase (spawn) on the southeast platform."
+            },
+            {
+              "label": "Change",
+              "note": "Hex-gates have a reduced cooldown of 8 seconds instead of 12."
+            },
+            {
+              "label": "Change",
+              "note": "The Ring of Fire spawns at 116% its radius on other arenas. This difference is gradually removed by the second time it moves (size beyond the 40th second of the round is unchanged)."
+            },
+            {
+              "label": "Change",
+              "note": "The Ring of Fire closes in on any of the three platforms instead of any (open) location, and it is most likely to close in on the southeast one."
+            },
+            {
+              "label": "Change",
+              "note": "Bloom Bridge"
+            },
+            {
+              "label": "Respawn timer",
+              "before": "6",
+              "after": "3.2 seconds",
+              "note": "Respawn timer reduced to 3.2 seconds from 6.6."
+            },
+            {
+              "label": "Close timer",
+              "before": "5",
+              "after": "10.8 seconds",
+              "note": "Close timer increased to 10.8 seconds from 5.4."
+            },
+            {
+              "label": "Change",
+              "note": "20px|link= Mutated Blast Cones"
+            },
+            {
+              "label": "Spawn time",
+              "before": "5",
+              "after": "10 seconds after combat phase starts",
+              "note": "Spawn time increased to 10 seconds after combat phase starts from 5."
+            },
+            {
+              "label": "Respawn time",
+              "before": "8",
+              "after": "16 seconds",
+              "note": "Respawn time increased to 16 seconds from 8."
+            },
+            {
+              "label": "Change",
+              "note": "North platform's Blast Cone has been moved slightly closer to the center of the platform, away from its boundary."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: Blast Cones no longer spawn immediately after combat ensues."
+            },
+            {
+              "label": "Change",
+              "note": "Removed: Southeast platform no longer contains one."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Respawned Blast Cones beyond their first respective use in the round no longer sometimes lose their mutated/empowered effect for the rest of the round."
+            },
+            {
+              "label": "Change",
+              "note": "Miscellaneous"
+            },
+            {
+              "label": "Change",
+              "note": "More brush has been added around existing patches."
+            },
+            {
+              "label": "Change",
+              "note": "Bug Fix: Issuing a move order on or beyond a closed Bloom Bridge and from a different platform than the one currently on no longer cancels movement."
+            },
+            {
+              "label": "Change",
+              "note": "Now correctly paths through traversable terrain (until stopping due to impassable terrain)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "augments",
+      "name": "Augments",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "adjust",
+      "severity": 3,
+      "tldr": "The following augments have been added:; Dual Wield, Fan the Hammer, Fire Sale, Fruits of Your Labor, Light Warden, Prismatic Egg, Slime Time, Stats!, Stats on Stats!, Stats on Stats on Stats!, Summoner Revolution, Tr…",
+      "gameplayImpact": "Augments was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "adjust",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "The following augments have been added:"
+            },
+            {
+              "label": "Change",
+              "note": "Dual Wield, Fan the Hammer, Fire Sale, Fruits of Your Labor, Light Warden, Prismatic Egg, Slime Time, Stats!, Stats on Stats!, Stats on Stats on Stats!, Summoner Revolution, Trailblazer, Ultimate Roulette."
+            },
+            {
+              "label": "Change",
+              "note": "The following augments have been removed:"
+            },
+            {
+              "label": "Change",
+              "note": "Fully Automated."
+            },
+            {
+              "label": "Change",
+              "note": "Dual Wield"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Prismatic"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Gain 250% bonus attack speed, but your attacks and on-hit effects are modified to deal 50% damage."
+            },
+            {
+              "label": "Change",
+              "note": "Fan the Hammer"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Prismatic"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Your next basic attack in each cardinal direction within attack range|750 range additionally on-attack fires 5 bolts at the target that each deal 10–52.5|physical damage (+ 15% bonus AD) physical damage, for a total of 50–262.5|physical damage (+ 75% bonus AD) physical damage. Bolts' damage is increased by 0–50% (over 0–750) (3 second cooldown per direction). Each bolt can critically strike and applies on-hit effects at 20% effectiveness."
+            },
+            {
+              "label": "Change",
+              "note": "Fire Sale"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Silver"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Upon selecting this augment, automatically sells all of your items at the shop for 100% of their value (Starter Items & Boots: , Legendary Item: , Prismatic Item: ). Quest items and consumables will not be sold from this effect."
+            },
+            {
+              "label": "Change",
+              "note": "Fruits of Your Labor"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Gold"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Increase the effects of 20px|link= Power Flowers by 25%. Additionally, hitting a Power Flower now grants its effects to your ally if they are within 700 units of you, sharing the effects with them and also granting you both 40% bonus movement speed for 2 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Light Warden"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Gold"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Automatically casts a warding light towards your ally, which grants a shield for 40–100 (+ 10% bonus AD) (+ 40% AP) to you and your ally for 2.5 seconds upon coming into contact with it. After reaching maximum range, the light then homes back to you to grant the same shield again when it passes through you and your ally, stacking with the previous shield and refreshing its duration (8 second cooldown)."
+            },
+            {
+              "label": "Change",
+              "note": "Prismatic Egg"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Prismatic"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Scoring a champion takedown generates a stack, once per champion per round. Gain a free Prismatic Item|Prismatic Item Anvil}} at 5 stacks and every 7 stacks thereafter. The Prismatic Item|Prismatic Item Anvil}} is granted at the start of the shop phase after a combat phase where the stack requirement is achieved."
+            },
+            {
+              "label": "Change",
+              "note": "Slime Time"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Silver"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Automatically releases a burst of slime in a cr 450 radius around you, dealing 40–80|magic damage (+ 3–7% magic damage to enemies hit (7 second cooldown). Additionally, hitting a champion secretes a slime blob toward a nearby location. Both you and enemy champions can interact with the blob by moving over it; you may consume it to heal yourself for 3–6% of your maximum health, while an enemy may destroy it to deny the effect."
+            },
+            {
+              "label": "Change",
+              "note": "Stats!"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Silver"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Upon selecting this augment, gain 2 Stat Bonus|Stat Bonus Anvils}} for free."
+            },
+            {
+              "label": "Change",
+              "note": "Stats on Stats!"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Gold"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Upon selecting this augment, gain 3 Stat Bonus|Stat Bonus Anvils}} for free."
+            },
+            {
+              "label": "Change",
+              "note": "Stats on Stats on Stats!"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Prismatic"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Upon selecting this augment, gain 4 Stat Bonus|Stat Bonus Anvils}} for free."
+            },
+            {
+              "label": "Change",
+              "note": "Summoner Revolution"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Gold"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Using a summoner spell resets its cooldown immediately after its effect or has . This may occur only once per phase in a round. Additionally, resets every round."
+            },
+            {
+              "label": "Change",
+              "note": "Trailblazer"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Silver"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Dashing or blinking causes you to burn the nearest enemy champion within 650 units for 5 seconds, dealing magic damage every second equal to 0.8% of the target's maximum health over the duration. This burn stacks infinitely and refreshes with each application. The same cast instance cannot trigger this effect more than once every 1.5 seconds."
+            },
+            {
+              "label": "Change",
+              "note": "Ultimate Roulette"
+            },
+            {
+              "label": "Change",
+              "note": "Tier: Prismatic"
+            },
+            {
+              "label": "Change",
+              "note": "Effect: Replaces with a random champion's ultimate ability, available from a pool. After using the granted ultimate ability during the combat phase, replace the ultimate in the respective slot with another random one after the cooldown for this effect elapses (25–15 second , increased to 30–20 for Maximum Dosage (Dr. Mundo)}})."
+            },
+            {
+              "label": "Change",
+              "note": "Ultimate Ability Pool: Feast (Cho'Gath)}}, Maximum Dosage (Dr. Mundo)}}, Cannon Barrage (Gangplank)}}, Explosive Cask (Gragas)}}, The Culling (Lucian)}}, Final Spark (Lux)}}, Soul Shackles (Morgana)}}."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "adjust"
+      ]
+    },
+    {
+      "id": "items",
+      "name": "Items",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "buff",
+      "severity": 3,
+      "tldr": "Black Hole Gauntlet}} - New item; Obtained from Prismatic Item|Prismatic Item Anvils}}.",
+      "gameplayImpact": "Items is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Black Hole Gauntlet}} - New item"
+            },
+            {
+              "label": "Change",
+              "note": "Obtained from Prismatic Item|Prismatic Item Anvils}}."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 800 health, 200% health regeneration, 25 ability haste."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Accretion: Basic attacks on-hit and immobilizing effects against enemy champions generate 1 and 5 stacks of Accretion, respectively, up to 50. For each Accretion stack, gain 1% size and 10% base health regeneration, up to 50% increased size and 500% base health regeneration at maximum stacks. Stacks are reset every round and between each phase in a round."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Active - Dark Star: Summon a black hole at the target location after a 0.5-second delay that lasts for 2 (+ 0.1 per 100 bonus health) seconds and has a radius of [cr / units]champion Size modifier (+ 0.1% per Accretion stack). Enemies within are dealt 20–60|magic damage (+ 50% armor) (+ 50% magic resistance) magic damage every second, slow by 25%, and kinematics inward until they reach the horizon at the center. Additionally, for each enemy champion inside the black hole, generate 1 stack of Accretion per second (30 second cooldown)."
+            },
+            {
+              "label": "Change",
+              "note": "Diamond-Tipped Spear}} - New item"
+            },
+            {
+              "label": "Change",
+              "note": "Obtained from Prismatic Item|Prismatic Item Anvils}}."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 75 adaptive force, 30% attack speed."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Reach Weapon: Gain attack range|75 attack range."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Sweet Spot: Basic attacks deal 0–30% (200–1000) increased damage and abilities deal 0–40% (200–1000) increased damage. The distance is calculated from your cr current position to the target's position when the triggering attack or ability hits them."
+            },
+            {
+              "label": "Change",
+              "note": "Hexbolt Companion}} - New item"
+            },
+            {
+              "label": "Change",
+              "note": "Obtained from Prismatic Item|Prismatic Item Anvils}}."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 500 health, 75% attack speed."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Covering Fire: While your ally is within , your basic attacks on-hit generate a stack. At 1 stack, your next basic attack consumes all stacks to cause your ally to fire a bolt at the target, dealing 20–60 physical damage and applying your ally's on-hit effects at 100% effectiveness."
+            },
+            {
+              "label": "Change",
+              "note": "Kinkou Jitte}} - New item"
+            },
+            {
+              "label": "Change",
+              "note": "Obtained from Prismatic Item|Prismatic Item Anvils}}."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 70 adaptive force, 30 ability haste, 12 lethality, 12 magic penetration."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Between the Ribs: You can now identify the Weakpoints of nearby enemy champions, marked as an arc around them and pointing towards a specific direction. Weakpoints on targets take 4 seconds to become exposed and linger for 11.25 seconds afterwards. Dealing damage in the direction of an exposed Weakpoint will consume it to deal bonus true damage equal to 2%|hp (+ 0.1% per 1 Lethality) (+ 0.1% per 1 flat magic penetration) of the target's maximum health and grant you 15–40% bonus movement speed for 1.5 seconds. Once a target's Weakpoint is consumed or expires, you identify a new Weakpoint on them."
+            },
+            {
+              "label": "Change",
+              "note": "Lightning Rod}} - New item"
+            },
+            {
+              "label": "Change",
+              "note": "Obtained from Prismatic Item|Prismatic Item Anvils}}."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 500 health, 30% attack speed, 30 armor, 30 magic resistance, 8% movement speed."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Call Lightning: Automatically summon a storm cloud above you, which strikes a lightning bolt at your current location after 1.5 seconds to deal 135–230|magic damage (+ 30% bonus AD) (+ 50% AP) (+ 10% of target's maximum health) magic damage to enemies within the area and slow them by 30% for 2 seconds. If you are within the lightning strike, gain a shield equal to 14% of your maximum health (+ 75% AP) for 2 seconds (14 second cooldown)."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Fully Automated: Automatic effects have their cooldown reduced by 1 second and now benefit from your ability haste."
+            },
+            {
+              "label": "Change",
+              "note": "Puppeteer}} - New item"
+            },
+            {
+              "label": "Change",
+              "note": "Obtained from Prismatic Item|Prismatic Item Anvils}}."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 30 ability power, 40 ability haste, 125% base mana regeneration, 15% heal and shield power."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Pull Their Strings: Basic attacks on-hit against enemy champions apply a Puppeteer stack for 5 seconds, stacking up to 4 times. The fourth stack against a target consumes them all to render the target berserk for 2 seconds, causing them to gain 50%|as (+ 150% of your heal and shield power) bonus attack speed and 40% bonus movement speed (45 second cooldown). If only one champion is alive on the enemy team, instead fear the target for the same duration. Granting yourself or an ally a heal, shield, or ability-sourced buff reduces the cooldown of Pull Their Strings by 5 seconds, once per cast."
+            },
+            {
+              "label": "Change",
+              "note": "Pyromancer's Cloak}} - New item"
+            },
+            {
+              "label": "Change",
+              "note": "Obtained from Prismatic Item|Prismatic Item Anvils}}."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 400 health, 85 adaptive force, 15 ability haste."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Spark: Basic attacks and ability hits against enemies inflicts them with a Burn that deals 200/12 to 450/12 magic damage every 0.25 seconds over 3 seconds, for a total of 200–450 magic damage."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Cleansing Flame: Inflicting an enemy champion with a Burn effect releases a fireball from the target, landing to a location near you after 0.5 seconds. Upon landing, a blaze is created at the impact area with a radius of 175 units, lasting for 5 seconds (3 second cooldown per target). While you are within the blaze, gain 20% bonus total movement speed, lingering for 0.75 seconds after exiting, and 5% omnivamp. While enemies are within the blaze, they are dealt 75 magic damage every second. Additionally, for each unique Burn effect source that you have, up to 10, increase the blaze's size by 40, and its strength by 4% bonus total movement speed and 2% omnivamp for the buff and 50 magic damage per tick for the enemy effect."
+            },
+            {
+              "label": "Change",
+              "note": "Reaper's Toll}} - New item"
+            },
+            {
+              "label": "Change",
+              "note": "Obtained from Prismatic Item|Prismatic Item Anvils}}."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 40 adaptive force, 50% attack speed, 10% movement speed."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Reap: Basic attacks on-hit apply a Reap stack to the target, stacking infinitely and lasting for the remainder of the combat phase, and deal bonus true damage equal to . Additionally, the target is inflicted a health threshold equal to 100% of their maximum health minus the total amount of bonus damage dealt against them, lasting until the end of the round and capped at a threshold of 50% of their maximum health."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Sow: Increases the attack speed gained from all sources by 25%."
+            },
+            {
+              "label": "Change",
+              "note": "Regicide}} - New item"
+            },
+            {
+              "label": "Change",
+              "note": "Obtained from Prismatic Item|Prismatic Item Anvils}}."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 60 attack damage, 15 lethality, 8% movement speed."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - End the Line: At the start of the combat phase in each round, declare the enemy champion with the lowest total maximum health as the Regent. Scoring a takedown against the Regent for the first time in the combat phase grants you 10 bonus attack damage permanently and resets the cooldown of your ultimate ability."
+            },
+            {
+              "label": "Change",
+              "note": "Reverberation}} - New item"
+            },
+            {
+              "label": "Change",
+              "note": "Obtained from Prismatic Item|Prismatic Item Anvils}}."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 40% attack speed, 35 armor, 35 magic resistance."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Reverberate: Gain 4 bonus health per 1% bonus attack speed."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Resonate: Basic attacks on-hit deal 10|magic damage (+ 1% of your bonus health) bonus magic damage. Additionally, upon taking damage from a basic attack or ability, generate 5 stacks of Reverberation for 6 seconds (3 second cooldown per enemy ability). Immobilize an enemy champion applies your on-hit effects to them 3 times and generates 25 stacks of Reverberation for 6 seconds. Reverberation stacks up to 100 times, at which you activate Rumble."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Rumble: While at 100 Reverberation stacks, automatically unleashes a wave around you that airborne in nearby enemies (8 second cooldown)."
+            },
+            {
+              "label": "Change",
+              "note": "Twilight's Edge}} - New item"
+            },
+            {
+              "label": "Change",
+              "note": "Obtained from Prismatic Item|Prismatic Item Anvils}}."
+            },
+            {
+              "label": "Change",
+              "note": "Stats: 100 ability power, 70 attack damage."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - The Path Between: If you have at least 130 bonus attack damage and 180 ability power, enter either the Material World or the Spirit World, determined randomly, at the start of the combat phase in each round:"
+            },
+            {
+              "label": "Change",
+              "note": "Material World: Increase your attack damage by 20% and gain 50–150% bonus attack speed."
+            },
+            {
+              "label": "Change",
+              "note": "Spirit World: Increase your ability power by 20% and gain 30–120 ability haste."
+            },
+            {
+              "label": "Change",
+              "note": "Twin Mask}} - New item"
+            },
+            {
+              "label": "Change",
+              "note": "Obtained from Prismatic Item|Prismatic Item Anvils}}."
+            },
+            {
+              "label": "Change",
+              "note": "Unique Passive - Unanimity: Gain 15% of your teammate's attack damage, ability power, total attack speed, maximum health, armor, magic resistance, and ability haste, doubled to 30% if they also have Twin Mask and are alive."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "id": "juices",
+      "name": "Juices",
+      "type": "system",
+      "assetKey": null,
+      "roles": [],
+      "direction": "buff",
+      "severity": 1,
+      "tldr": "Cappa Juice}}; New Effect: Now removes all hats on death.",
+      "gameplayImpact": "Juices is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+      "context": null,
+      "changes": [
+        {
+          "ability": "General",
+          "title": null,
+          "direction": "buff",
+          "lines": [
+            {
+              "label": "Change",
+              "note": "Cappa Juice}}"
+            },
+            {
+              "label": "Change",
+              "note": "New Effect: Now removes all hats on death."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-14-15-notes/",
+  "source": "league-wiki",
+  "wikiPage": "V14.15"
+}
