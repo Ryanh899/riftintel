@@ -73,6 +73,10 @@ import {
 } from "@/lib/calculator/patchReverse";
 import type { ChampionHistory } from "@/lib/types";
 import { resolveAbilityLabel } from "@/lib/abilities";
+import {
+  resolveChampionLink,
+  resolveCompareLink,
+} from "@/lib/calculator/deepLinks";
 
 type ListEntry = ChampionListEntry;
 
@@ -108,16 +112,7 @@ export function DamageCalculator({
   const urlFrom = searchParams.get("from"); // patch id when compare=before
 
   const initialChampId = useMemo(() => {
-    if (!urlChamp) return "Ahri";
-    const q = urlChamp.trim().toLowerCase();
-    const match = champions.find(
-      (c) =>
-        c.id.toLowerCase() === q ||
-        c.name.toLowerCase() === q ||
-        c.name.toLowerCase().replace(/[^a-z0-9]/g, "") ===
-          q.replace(/[^a-z0-9]/g, ""),
-    );
-    return match?.id ?? urlChamp;
+    return resolveChampionLink(urlChamp, champions);
   }, [urlChamp, champions]);
 
   const [champId, setChampId] = useState(initialChampId);
@@ -126,8 +121,10 @@ export function DamageCalculator({
   const [error, setError] = useState<string | null>(null);
   const [history, setHistory] = useState<ChampionHistory | null>(null);
   const [historyLoading, setHistoryLoading] = useState(false);
+  const [compareLinkError, setCompareLinkError] = useState<string | null>(null);
   const [comparePatchId, setComparePatchId] = useState<string | null>(null);
-  const urlCompareApplied = useRef(false);
+  const appliedCompareLink = useRef<string | null>(null);
+  const kitRequest = useRef(0);
   const [level, setLevel] = useState(3);
   const [ranks, setRanks] = useState<Record<string, number>>({
     Q: 1,
@@ -173,6 +170,7 @@ export function DamageCalculator({
   }, [kit]);
 
   const loadKit = useCallback(async (id: string) => {
+    const requestId = ++kitRequest.current;
     setLoading(true);
     setError(null);
     try {
@@ -181,6 +179,7 @@ export function DamageCalculator({
       );
       if (!res.ok) throw new Error(await res.text());
       const data: ChampionData = await res.json();
+      if (requestId !== kitRequest.current) return;
       setKit(data);
       const maxBy: Partial<Record<SkillKey, number>> = {};
       for (const ab of data.abilities) {
@@ -196,10 +195,11 @@ export function DamageCalculator({
       // Fresh champ: keep current level, start with 1 point in each available skill
       setRanks(startingRanksAtLevel(level, maxBy));
     } catch (e) {
+      if (requestId !== kitRequest.current) return;
       setError(e instanceof Error ? e.message : "Failed to load champion");
       setKit(null);
     } finally {
-      setLoading(false);
+      if (requestId === kitRequest.current) setLoading(false);
     }
   }, [level]);
 
@@ -209,7 +209,8 @@ export function DamageCalculator({
   useEffect(() => {
     if (initialChampId && initialChampId !== champId) {
       setChampId(initialChampId);
-      urlCompareApplied.current = false;
+      appliedCompareLink.current = null;
+      setCompareLinkError(null);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps -- only when URL champ changes
   }, [initialChampId]);
@@ -223,16 +224,31 @@ export function DamageCalculator({
   useEffect(() => {
     let cancelled = false;
     setHistoryLoading(true);
-    if (!urlCompare) setComparePatchId(null);
+    if (!urlCompare) {
+      setComparePatchId(null);
+      setCompareLinkError(null);
+    }
     setHistory(null);
     const name =
       champions.find((c) => c.id === champId)?.name ?? champId;
     void fetch(
       `/api/calculator/history?id=${encodeURIComponent(champId)}&name=${encodeURIComponent(name)}`,
     )
-      .then((r) => r.json())
+      .then(async (response) => {
+        if (!response.ok) throw new Error(await response.text());
+        return response.json();
+      })
       .then((data: ChampionHistory) => {
-        if (!cancelled) setHistory(data?.entries ? data : null);
+        if (!cancelled) {
+          const nextHistory = data?.entries?.length ? data : null;
+          setHistory(nextHistory);
+          if (urlCompare && !nextHistory) {
+            setComparePatchId(null);
+            setCompareLinkError(
+              "No verified balance history is available for this champion.",
+            );
+          }
+        }
       })
       .catch(() => {
         if (!cancelled) setHistory(null);
@@ -248,40 +264,18 @@ export function DamageCalculator({
   // Deep-link compare: ?compare=last | before&from=26.14 | 26.01
   useEffect(() => {
     if (!urlCompare || !history?.entries?.length) return;
-    if (urlCompareApplied.current) return;
+    const linkKey = `${champId}|${urlCompare}|${urlFrom ?? ""}`;
+    if (appliedCompareLink.current === linkKey) return;
 
-    const entries = history.entries; // oldest → newest
-    const newest = entries[entries.length - 1];
-    let targetId: string | null = null;
-
-    if (urlCompare === "last") {
-      targetId = newest?.patchId ?? null;
-    } else if (urlCompare === "before") {
-      const from = urlFrom || newest?.patchId;
-      const idx = entries.findIndex(
-        (e) => e.patchId === from || e.version === from,
-      );
-      if (idx > 0) {
-        targetId = entries[idx - 1]!.patchId;
-      } else if (entries.length >= 2) {
-        // from is newest or missing — use second-newest
-        targetId = entries[entries.length - 2]!.patchId;
-      } else {
-        targetId = newest?.patchId ?? null;
-      }
-    } else {
-      // raw patch id
-      const hit = entries.find(
-        (e) => e.patchId === urlCompare || e.version === urlCompare,
-      );
-      targetId = hit?.patchId ?? urlCompare;
-    }
-
-    if (targetId) {
-      setComparePatchId(targetId);
-      urlCompareApplied.current = true;
-    }
-  }, [urlCompare, urlFrom, history]);
+    const resolution = resolveCompareLink(
+      urlCompare,
+      urlFrom,
+      history.entries,
+    );
+    setComparePatchId(resolution.patchId);
+    setCompareLinkError(resolution.error);
+    appliedCompareLink.current = linkKey;
+  }, [champId, urlCompare, urlFrom, history]);
 
   useEffect(() => {
     setRanks((r) => clampRanksToLevel(r, level, abilityMaxByKey));
@@ -1334,13 +1328,24 @@ export function DamageCalculator({
               <PatchCompareControls
                 patches={champPatches}
                 value={comparePatchId}
-                onChange={setComparePatchId}
+                onChange={(patchId) => {
+                  setComparePatchId(patchId);
+                  setCompareLinkError(null);
+                }}
                 liveVersion={version}
                 champName={kit.name}
                 loading={historyLoading}
                 applied={reverse?.applied}
                 skipped={reverse?.skipped}
               />
+              {compareLinkError && (
+                <p
+                  role="alert"
+                  className="mb-3 border border-nerf/30 bg-nerf/5 px-2.5 py-2 font-data text-[11px] text-nerf"
+                >
+                  Comparison unavailable: {compareLinkError}
+                </p>
+              )}
 
               {/* Big skill damage strip — dual when compare on */}
               <div
