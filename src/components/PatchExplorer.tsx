@@ -93,13 +93,13 @@ export function PatchExplorer({ patch }: { patch: Patch }) {
               {filtered.length}/{allEntities(patch).length}
             </span>
           </p>
-          <div className="flex flex-wrap items-center gap-x-3 gap-y-1.5">
+          <div className="flex items-center gap-x-3 gap-y-1.5 overflow-x-auto pb-1 sm:flex-wrap sm:overflow-visible sm:pb-0">
             <input
               type="search"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               placeholder="name…"
-              className="w-28 border-0 border-b border-border bg-transparent py-0.5 font-data text-[12px] text-fg outline-none placeholder:text-[var(--fg-faint)] focus:border-accent sm:w-36"
+              className="w-28 shrink-0 border-0 border-b border-border bg-transparent py-0.5 font-data text-[12px] text-fg outline-none placeholder:text-[var(--fg-faint)] focus:border-accent sm:w-36"
             />
             <FilterGroup
               options={directions}
@@ -203,7 +203,7 @@ function FilterGroup<T extends string>({
   tone?: boolean;
 }) {
   return (
-    <div className="flex items-center gap-0.5">
+    <div className="flex shrink-0 items-center gap-0.5">
       {options.map((o) => {
         const active = value === o.value;
         const color =

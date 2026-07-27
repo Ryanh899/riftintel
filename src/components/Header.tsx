@@ -7,10 +7,10 @@ import { cn } from "@/lib/utils";
 import { BrandMark } from "./BrandMark";
 
 const nav = [
-  { href: "/", label: "Patch" },
+  { href: "/", label: "Latest" },
   { href: "/patches", label: "Patches" },
-  { href: "/champions", label: "Champs" },
-  { href: "/calculator", label: "Dmg" },
+  { href: "/champions", label: "Champions" },
+  { href: "/calculator", label: "Calculator" },
 ];
 
 export function Header() {

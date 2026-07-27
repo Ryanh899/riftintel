@@ -48,6 +48,7 @@ export function OverviewBoard({
                 <button
                   type="button"
                   onClick={() => scrollToEntity(entity)}
+                  aria-label={`${entity.name}: ${entity.direction}. Jump to details.`}
                   className={cn(
                     "group relative flex items-center gap-1.5 border border-transparent bg-panel/0 px-1 py-1 transition",
                     "hover:border-[var(--line-strong)] hover:bg-[var(--ink)]",
@@ -55,7 +56,7 @@ export function OverviewBoard({
                   )}
                 >
                   <EntityIcon entity={entity} size={36} className="!rounded-none" />
-                  <span className="hidden max-w-[72px] truncate text-left text-[11px] text-fg/90 sm:inline">
+                  <span className="max-w-[62px] truncate text-left text-[10px] text-fg/90 sm:max-w-[72px] sm:text-[11px]">
                     {entity.name}
                   </span>
                   <DirectionDot

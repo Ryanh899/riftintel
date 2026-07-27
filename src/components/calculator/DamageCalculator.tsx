@@ -124,12 +124,19 @@ export function DamageCalculator({
   const urlBuildB = searchParams.get("b");
   const urlRanks = searchParams.get("ranks");
   const urlRunes = searchParams.get("runes");
+  const sharedTargetParams = [
+    searchParams.get("armor"),
+    searchParams.get("mr"),
+    searchParams.get("hp"),
+  ];
   const sharedTarget = {
-    armor: Number(searchParams.get("armor")),
-    mr: Number(searchParams.get("mr")),
-    hp: Number(searchParams.get("hp")),
+    armor: Number(sharedTargetParams[0]),
+    mr: Number(sharedTargetParams[1]),
+    hp: Number(sharedTargetParams[2]),
   };
-  const hasSharedTarget = Object.values(sharedTarget).every(Number.isFinite);
+  const hasSharedTarget =
+    sharedTargetParams.every((value) => value !== null && value !== "") &&
+    Object.values(sharedTarget).every(Number.isFinite);
 
   const initialChampId = useMemo(() => {
     return resolveChampionLink(urlChamp, champions);
@@ -146,8 +153,9 @@ export function DamageCalculator({
   const appliedCompareLink = useRef<string | null>(null);
   const kitRequest = useRef(0);
   const [level, setLevel] = useState(() => {
-    const requested = Number(searchParams.get("level"));
-    return Number.isFinite(requested)
+    const levelParam = searchParams.get("level");
+    const requested = Number(levelParam);
+    return levelParam && Number.isFinite(requested)
       ? Math.min(18, Math.max(1, Math.round(requested)))
       : 3;
   });
@@ -187,8 +195,9 @@ export function DamageCalculator({
   const [targetLowHp, setTargetLowHp] = useState(false);
   const [champOpen, setChampOpen] = useState(false);
   const [champQuery, setChampQuery] = useState("");
+  const [showAdvanced, setShowAdvanced] = useState(false);
   /** Visible on load so values are clear; picking a preset collapses. */
-  const [showTargetSliders, setShowTargetSliders] = useState(true);
+  const [showTargetSliders, setShowTargetSliders] = useState(false);
   const champSearchRef = useRef<HTMLInputElement>(null);
   const slotCount = adcSeventh ? 7 : 6;
 
@@ -764,6 +773,23 @@ export function DamageCalculator({
             />
             <span className="w-5 font-semibold text-fg">{level}</span>
           </label>
+          <div className="flex items-center gap-1" aria-label="Quick level presets">
+            {[9, 18].map((preset) => (
+              <button
+                key={preset}
+                type="button"
+                onClick={() => setLevel(preset)}
+                className={cn(
+                  "border px-1.5 py-1 font-data text-[10px]",
+                  level === preset
+                    ? "border-accent text-accent"
+                    : "border-border text-muted hover:text-fg",
+                )}
+              >
+                lv {preset}
+              </button>
+            ))}
+          </div>
         </div>
 
         {champOpen && (
@@ -1157,8 +1183,24 @@ export function DamageCalculator({
             </div>
           </section>
 
-          {/* Runes — always open, keystone → tree combat → shards */}
-          <section className="border-b border-border py-3">
+          <div className="border-b border-border py-2">
+            <button
+              type="button"
+              onClick={() => setShowAdvanced((open) => !open)}
+              className="font-data text-[11px] text-accent hover:text-fg"
+              aria-expanded={showAdvanced}
+            >
+              {showAdvanced ? "Hide advanced controls" : "Advanced runes & effects"}
+            </button>
+          </div>
+
+          {/* Runes — advanced keystone, combat, and shard controls */}
+          <section
+            className={cn(
+              "border-b border-border py-3",
+              !showAdvanced && "hidden",
+            )}
+          >
             <div className="mb-2 flex items-baseline justify-between gap-2">
               <span className="label-micro">runes</span>
               <span className="label-hint">
