@@ -77,6 +77,12 @@ import {
   resolveChampionLink,
   resolveCompareLink,
 } from "@/lib/calculator/deepLinks";
+import {
+  abilityConfidence,
+  comparisonConfidence,
+  confidenceLabel,
+  type ConfidenceLevel,
+} from "@/lib/calculator/confidence";
 
 type ListEntry = ChampionListEntry;
 
@@ -475,6 +481,11 @@ export function DamageCalculator({
     0,
   );
   const totalBurst = comboPost + keystonePost + procsPost;
+  const resultConfidence: ConfidenceLevel = abilityResults.some(
+    (result) => abilityConfidence(result) === "unsupported",
+  )
+    ? "approximate"
+    : "modeled";
 
   const compareComboPost = compareAbilityResults
     .filter((a) => a.key !== "P" && (ranks[a.key] ?? 0) > 0)
@@ -554,7 +565,7 @@ export function DamageCalculator({
         </div>
         <div className="font-data text-right">
           <span className="label-hint">
-            full kit
+            modeled rotation
             {comparing ? ` · ${liveLabel}` : ""}
           </span>
           <div className="text-2xl font-bold tabular-nums text-buff">
@@ -1324,6 +1335,15 @@ export function DamageCalculator({
 
           {kit && !loading && (
             <div>
+              <CalculationAssumptions
+                confidence={resultConfidence}
+                comparing={comparing}
+                comparisonLevel={
+                  comparing
+                    ? comparisonConfidence(reverse?.applied, reverse?.skipped)
+                    : undefined
+                }
+              />
               {/* Quiet line when off; full compare chrome when a patch is selected */}
               <PatchCompareControls
                 patches={champPatches}
@@ -1595,6 +1615,58 @@ export function DamageCalculator({
   );
 }
 
+function CalculationAssumptions({
+  confidence,
+  comparing,
+  comparisonLevel,
+}: {
+  confidence: ConfidenceLevel;
+  comparing: boolean;
+  comparisonLevel?: ConfidenceLevel;
+}) {
+  const tone =
+    confidence === "unsupported"
+      ? "text-nerf"
+      : confidence === "approximate"
+        ? "text-adjust"
+        : "text-accent";
+  return (
+    <details className="mb-3 border border-border bg-[var(--ink)]/40 px-2.5 py-2">
+      <summary className="cursor-pointer list-none font-data text-[11px] text-muted">
+        <span className={cn("mr-2 font-semibold uppercase", tone)}>
+          {confidenceLabel(confidence)}
+        </span>
+        What this result includes
+      </summary>
+      <div className="mt-2 space-y-1.5 border-t border-border pt-2 font-data text-[10px] leading-relaxed text-muted">
+        <p>
+          One use of each learned Q/W/E/R primary damage line, selected rune
+          procs, current item stats, penetration, and target mitigation.
+        </p>
+        <p>
+          Autos, combo timing, repeated casts, crowd-control duration, and
+          champion-specific conditional mechanics are excluded unless they
+          appear as a listed damage line or proc.
+        </p>
+        <p>
+          Target presets and several rune/item passives are modeled estimates.
+          Open individual abilities to inspect the damage type and components.
+        </p>
+        {comparing && comparisonLevel && (
+          <p>
+            Historical kit:{" "}
+            <span className="font-semibold text-fg">
+              {confidenceLabel(comparisonLevel)}
+            </span>
+            . It is reconstructed from mapped patch-note values; skipped notes
+            are shown beside the comparison controls.
+          </p>
+        )}
+      </div>
+    </details>
+  );
+}
+
 /** Live build stats — pen, haste, AS, MS front and center */
 function StatsAnalysis({
   stats,
@@ -1731,6 +1803,9 @@ function AbilityDetail({
             {damageKindLabel(result.primaryKind)}
           </span>
         )}
+        <span className="font-data text-[9px] uppercase text-[var(--fg-faint)]">
+          {confidenceLabel(abilityConfidence(result))}
+        </span>
         <button
           type="button"
           onClick={() => setOpen((o) => !o)}
