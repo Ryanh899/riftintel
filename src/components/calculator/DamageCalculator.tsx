@@ -58,7 +58,7 @@ import { damageKindLabel } from "@/lib/calculator/pen";
 import { cn } from "@/lib/utils";
 import { AbilityMark } from "@/components/AbilityMark";
 import type { AbilitySlot } from "@/lib/abilities";
-import { ChevronDown, Loader2, Search, X } from "lucide-react";
+import { ChevronDown, Copy, Loader2, Search, X } from "lucide-react";
 import {
   AbilityCompareNotes,
   ComparePatchNotes,
@@ -83,6 +83,10 @@ import {
   confidenceLabel,
   type ConfidenceLevel,
 } from "@/lib/calculator/confidence";
+import {
+  buildComparisonParams,
+  slotsFromParam,
+} from "@/lib/calculator/shareBuild";
 
 type ListEntry = ChampionListEntry;
 
@@ -116,6 +120,16 @@ export function DamageCalculator({
   const urlChamp = searchParams.get("champ") || searchParams.get("id");
   const urlCompare = searchParams.get("compare"); // last | before | patchId
   const urlFrom = searchParams.get("from"); // patch id when compare=before
+  const urlBuildA = searchParams.get("a");
+  const urlBuildB = searchParams.get("b");
+  const urlRanks = searchParams.get("ranks");
+  const urlRunes = searchParams.get("runes");
+  const sharedTarget = {
+    armor: Number(searchParams.get("armor")),
+    mr: Number(searchParams.get("mr")),
+    hp: Number(searchParams.get("hp")),
+  };
+  const hasSharedTarget = Object.values(sharedTarget).every(Number.isFinite);
 
   const initialChampId = useMemo(() => {
     return resolveChampionLink(urlChamp, champions);
@@ -131,25 +145,45 @@ export function DamageCalculator({
   const [comparePatchId, setComparePatchId] = useState<string | null>(null);
   const appliedCompareLink = useRef<string | null>(null);
   const kitRequest = useRef(0);
-  const [level, setLevel] = useState(3);
-  const [ranks, setRanks] = useState<Record<string, number>>({
-    Q: 1,
-    W: 1,
-    E: 1,
-    R: 0,
+  const [level, setLevel] = useState(() => {
+    const requested = Number(searchParams.get("level"));
+    return Number.isFinite(requested)
+      ? Math.min(18, Math.max(1, Math.round(requested)))
+      : 3;
+  });
+  const [ranks, setRanks] = useState<Record<string, number>>(() => {
+    const values = (urlRanks ?? "").split(",").map(Number);
+    if (values.length === 4 && values.every(Number.isFinite)) {
+      return { Q: values[0]!, W: values[1]!, E: values[2]!, R: values[3]! };
+    }
+    return { Q: 1, W: 1, E: 1, R: 0 };
   });
   const [adcSeventh, setAdcSeventh] = useState(false);
-  const [slots, setSlots] = useState<(ItemData | null)[]>(Array(6).fill(null));
+  const [slots, setSlots] = useState<(ItemData | null)[]>(() =>
+    slotsFromParam(urlBuildB || urlBuildA, items),
+  );
+  const [buildASlots, setBuildASlots] = useState<(ItemData | null)[] | null>(
+    () => (urlBuildA ? slotsFromParam(urlBuildA, items) : null),
+  );
+  const [shareStatus, setShareStatus] = useState<string | null>(null);
   const [itemQuery, setItemQuery] = useState("");
   const [itemFilter, setItemFilter] = useState<ItemBrowseFilter>("all");
   const [activeSlot, setActiveSlot] = useState<number | null>(null);
-  const [runeIds, setRuneIds] = useState<string[]>([...DEFAULT_RUNES]);
+  const [runeIds, setRuneIds] = useState<string[]>(() => {
+    const requested = (urlRunes ?? "").split(",").filter((id) => getRune(id));
+    return requested.length ? requested : [...DEFAULT_RUNES];
+  });
   const [targetPreset, setTargetPreset] = useState<TargetPresetId | null>(
-    "squishy",
+    hasSharedTarget ? null : "squishy",
   );
-  const [target, setTarget] = useState<TargetConfig>(() =>
-    targetForPreset("squishy", 3),
-  );
+  const [target, setTarget] = useState<TargetConfig>(() => ({
+    ...(hasSharedTarget
+      ? {
+          ...sharedTarget,
+          currentHpRatio: 1,
+        }
+      : targetForPreset("squishy", 3)),
+  }));
   const [targetLowHp, setTargetLowHp] = useState(false);
   const [champOpen, setChampOpen] = useState(false);
   const [champQuery, setChampQuery] = useState("");
@@ -199,7 +233,7 @@ export function DamageCalculator({
         }
       }
       // Fresh champ: keep current level, start with 1 point in each available skill
-      setRanks(startingRanksAtLevel(level, maxBy));
+      if (!urlRanks) setRanks(startingRanksAtLevel(level, maxBy));
     } catch (e) {
       if (requestId !== kitRequest.current) return;
       setError(e instanceof Error ? e.message : "Failed to load champion");
@@ -207,7 +241,7 @@ export function DamageCalculator({
     } finally {
       if (requestId === kitRequest.current) setLoading(false);
     }
-  }, [level]);
+  }, [level, urlRanks]);
 
   /* Data loading + rank clamping: setState in effects is intentional here */
   /* eslint-disable react-hooks/set-state-in-effect */
@@ -324,6 +358,18 @@ export function DamageCalculator({
     });
   }, [kit, level, slots, runeIds, target, targetLowHp]);
 
+  const buildA = useMemo(() => {
+    if (!kit || !buildASlots) return null;
+    return computeBuildFixed({
+      champ: kit,
+      level,
+      items: buildASlots,
+      runeIds,
+      target,
+      targetLowHp,
+    });
+  }, [kit, level, buildASlots, runeIds, target, targetLowHp]);
+
   const champPatches = useMemo(
     () => patchesForChampion(history),
     [history],
@@ -360,6 +406,20 @@ export function DamageCalculator({
       }),
     );
   }, [kit, ranks, build, target, level]);
+
+  const buildAAbilityResults: AbilityResult[] = useMemo(() => {
+    if (!kit || !buildA) return [];
+    return evaluateAllAbilities(kit, ranks, buildA.stats, target, level).map(
+      (result) => ({
+        ...result,
+        primaryPost: result.primaryPost * buildA.damageMult,
+        lines: result.lines.map((line) => ({
+          ...line,
+          postMitigation: line.postMitigation * buildA.damageMult,
+        })),
+      }),
+    );
+  }, [kit, ranks, buildA, target, level]);
 
   const compareAbilityResults: AbilityResult[] = useMemo(() => {
     if (!reverse || !compareBuild) return [];
@@ -481,6 +541,17 @@ export function DamageCalculator({
     0,
   );
   const totalBurst = comboPost + keystonePost + procsPost;
+  const buildAComboPost = buildAAbilityResults
+    .filter((ability) => ability.key !== "P" && (ranks[ability.key] ?? 0) > 0)
+    .reduce((sum, ability) => sum + ability.primaryPost, 0);
+  const buildAKeystonePost = buildA?.keystone?.post
+    ? buildA.keystone.post * buildA.damageMult
+    : 0;
+  const buildAProcsPost = (buildA?.procs ?? []).reduce(
+    (sum, proc) => sum + proc.post * (buildA?.damageMult || 1),
+    0,
+  );
+  const buildATotal = buildAComboPost + buildAKeystonePost + buildAProcsPost;
   const resultConfidence: ConfidenceLevel = abilityResults.some(
     (result) => abilityConfidence(result) === "unsupported",
   )
@@ -531,6 +602,27 @@ export function DamageCalculator({
     setChampId(id);
     setChampOpen(false);
     setChampQuery("");
+  };
+
+  const shareBuildComparison = async () => {
+    if (!buildASlots) return;
+    const params = buildComparisonParams({
+      championId: champId,
+      level,
+      buildA: buildASlots,
+      buildB: slots,
+      runeIds,
+      ranks,
+      target,
+    });
+    const url = `${window.location.origin}/calculator?${params.toString()}`;
+    window.history.replaceState(null, "", url);
+    try {
+      await navigator.clipboard.writeText(url);
+      setShareStatus("Link copied");
+    } catch {
+      setShareStatus("Share link added to the address bar");
+    }
   };
 
   const setRank = (key: SkillKey, n: number) => {
@@ -875,6 +967,73 @@ export function DamageCalculator({
                       no items match
                     </p>
                   )}
+                </div>
+              </div>
+            )}
+            <div className="mt-2 flex flex-wrap items-center gap-2 border-t border-border/60 pt-2">
+              <button
+                type="button"
+                onClick={() => {
+                  setBuildASlots([...slots]);
+                  setShareStatus(null);
+                }}
+                className="border border-accent/40 bg-accent/10 px-2 py-1 font-data text-[11px] text-accent hover:bg-accent/15"
+              >
+                {buildASlots ? "Update Build A" : "Set current as Build A"}
+              </button>
+              {buildASlots && (
+                <>
+                  <span className="font-data text-[10px] text-muted">
+                    Edit items above as Build B
+                  </span>
+                  <button
+                    type="button"
+                    onClick={() => void shareBuildComparison()}
+                    className="inline-flex items-center gap-1 border border-border px-2 py-1 font-data text-[11px] text-fg hover:border-accent"
+                  >
+                    <Copy className="h-3 w-3" aria-hidden />
+                    Share A vs B
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setBuildASlots(null);
+                      setShareStatus(null);
+                    }}
+                    className="font-data text-[10px] text-muted hover:text-nerf"
+                  >
+                    clear
+                  </button>
+                </>
+              )}
+              {shareStatus && (
+                <span role="status" className="font-data text-[10px] text-buff">
+                  {shareStatus}
+                </span>
+              )}
+            </div>
+            {buildASlots && buildA && (
+              <div className="mt-2 grid grid-cols-2 gap-px bg-border font-data">
+                <div className="bg-[var(--ink)] px-2 py-1.5">
+                  <div className="text-[9px] uppercase text-accent">Build A</div>
+                  <div className="text-[16px] font-bold tabular-nums text-fg">
+                    {round(buildATotal, 0)}
+                  </div>
+                </div>
+                <div className="bg-[var(--ink)] px-2 py-1.5">
+                  <div className="text-[9px] uppercase text-buff">Build B</div>
+                  <div className="text-[16px] font-bold tabular-nums text-fg">
+                    {round(totalBurst, 0)}
+                    <span
+                      className={cn(
+                        "ml-1 text-[10px]",
+                        totalBurst >= buildATotal ? "text-buff" : "text-nerf",
+                      )}
+                    >
+                      {totalBurst - buildATotal >= 0 ? "+" : ""}
+                      {round(totalBurst - buildATotal, 0)}
+                    </span>
+                  </div>
                 </div>
               </div>
             )}

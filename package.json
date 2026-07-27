@@ -14,6 +14,7 @@
     "test:calculator-links": "tsx scripts/test-calculator-links.ts",
     "test:patch-reverse": "tsx scripts/test-patch-reverse.ts",
     "test:calculator-confidence": "tsx scripts/test-calculator-confidence.ts",
+    "test:build-sharing": "tsx scripts/test-build-sharing.ts",
     "prod:check": "npm run verify && npm run lint && npm run build",
     "ingest": "python scripts/ingest/run_ingest.py --years 5.5",
     "ingest:ai": "python scripts/ingest/run_ingest.py --years 5.5 --ai",
