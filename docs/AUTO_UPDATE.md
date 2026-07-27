@@ -69,6 +69,14 @@ Riot usually publishes a **season / mid-season schedule** and **patch notes 0–
 
 So: you don’t need the PC on the exact second of deploy — **on for the notes day + next morning** is enough if Actions already ingested structure overnight.
 
+## Quality gate
+
+Newly ingested patch data is untrusted until it passes the strict validation
+gate. Run `npm run data:audit:strict` before publishing. Files with missing,
+contradictory, or structurally invalid changes must remain quarantined rather
+than appearing in comparisons. AI enrichment can improve explanations, but it
+must never invent or repair numeric patch facts.
+
 ## Commands cheat sheet
 
 ```bash
@@ -86,5 +94,6 @@ python scripts/ingest/enrich_ai.py
 
 - GitHub Actions: free tier (public repo is easiest).  
 - Ollama: free on your hardware.  
-- Hosting: free hobby tiers until traffic grows.  
+- Hosting: use a free, noncommercial beta only while validating demand; choose
+  a documented commercial hosting path before enabling revenue.
 - No paid LLM APIs required.

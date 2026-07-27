@@ -101,9 +101,11 @@ export default function AboutPage() {
       <section className="space-y-2">
         <h2 className="label-micro">legal</h2>
         <p className="text-[12px] leading-relaxed text-muted">
-          Unofficial fan-made tool. Not endorsed by or affiliated with Riot
-          Games. League of Legends and Riot Games are trademarks or registered
-          trademarks of Riot Games, Inc.
+          RiftIntel is not endorsed by Riot Games and does not reflect the
+          views or opinions of Riot Games or anyone officially involved in
+          producing or managing Riot Games properties. Riot Games and all
+          associated properties are trademarks or registered trademarks of
+          Riot Games, Inc.
         </p>
       </section>
     </div>

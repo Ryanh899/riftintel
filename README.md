@@ -49,7 +49,7 @@ Details: [`docs/AUTO_UPDATE.md`](docs/AUTO_UPDATE.md).
 
 No paid APIs required. Static data + free CDNs. Optional local Ollama for ingest summaries (never per visitor).
 
-**Stay free:** keep Vercel on **Hobby** and set **Spend Management → $0** so traffic cannot bill you without your action. See [`docs/COST_SECURITY_MARKETING.md`](docs/COST_SECURITY_MARKETING.md).
+**Cost-safe beta:** Vercel Hobby may be used only for the free, noncommercial validation stage. It does not include Spend Management. Choose a documented commercial hosting path before enabling revenue. See [`docs/COST_SECURITY_MARKETING.md`](docs/COST_SECURITY_MARKETING.md).
 
 ## Analytics & SEO
 
@@ -60,4 +60,7 @@ No paid APIs required. Static data + free CDNs. Optional local Ollama for ingest
 
 ## Legal
 
-Not affiliated with Riot Games. League of Legends and related marks belong to Riot Games, Inc.
+RiftIntel is not endorsed by Riot Games and does not reflect the views or
+opinions of Riot Games or anyone officially involved in producing or managing
+Riot Games properties. Riot Games and all associated properties are trademarks
+or registered trademarks of Riot Games, Inc.

@@ -1,93 +1,131 @@
-# Cost, security, SEO & analytics (RiftIntel)
+# Cost, security, compliance, SEO, and analytics
 
-## Never get surprise charges
+Last reviewed: July 27, 2026.
 
-RiftIntel is designed for **Vercel Hobby (free)** + free data sources.
+## Non-negotiable cost rule
 
-### Required: lock spend at $0 on Vercel
+RiftIntel must never depend on an uncapped metered service. Do not attach a
+payment method, enable an add-on, or upgrade a hosting plan without recording
+the fixed cost, every metered resource, its hard-stop behavior, who checks
+usage, and the shutdown procedure.
 
-1. Open [Vercel Dashboard → Settings → Billing](https://vercel.com/account/billing)  
-2. Enable **Spend Management** / spending limit  
-3. Set limit to **$0** (or the lowest allowed + alerts at $1 if $0 isn’t offered)  
-4. Stay on **Hobby** — do **not** upgrade to Pro unless you choose to  
-5. Do **not** enable paid add-ons (commercial databases, paid AI, etc.)
+There are no paid APIs in the current application. Patch data is stored in Git,
+game assets come from community/Riot CDNs, and optional AI enrichment runs
+locally with Ollama.
 
-If traffic spikes on Hobby, Vercel typically **throttles / soft-limits** free projects rather than charging without a paid plan. With a **$0 spend cap**, you should not be billed unless **you** raise the cap or upgrade.
+## Hosting stages
 
-### What is free on this stack
+### Stage A — free, noncommercial validation
 
-| Thing | Cost |
-|--------|------|
-| Vercel Hobby hosting | $0 |
-| GitHub Actions (public repo) | $0 within free minutes |
-| Data Dragon / Meraki CDNs | $0 |
-| Vercel Web Analytics (basic) | $0 on Hobby |
-| Google Analytics 4 (optional) | $0 |
-| Local Ollama for ingest | $0 (your PC) |
+Vercel Hobby can host a personal, noncommercial beta. Current Vercel
+documentation says Hobby is restricted to noncommercial personal use. Hobby
+does **not** include Spend Management; it is paused when included limits are
+exceeded.
 
-### What would cost money (only if you opt in)
+- Do not enable advertising, subscriptions, sponsorship sales, or paid access.
+- Do not add a payment method for usage-based products.
+- Check the Vercel Usage page after launch posts and on patch days.
+- Treat a quota pause as the intended hard stop.
 
-- Vercel Pro / Team  
-- Raising the spend cap  
-- Paid analytics (Plausible Pro, etc.)  
-- Cloud LLM APIs (we do **not** use these in prod)
+Official references:
 
----
+- [Vercel Hobby plan](https://vercel.com/docs/plans/hobby)
+- [Vercel account plans](https://vercel.com/docs/plans)
+- [Vercel Spend Management](https://vercel.com/docs/spend-management)
 
-## Analytics (marketing experiments)
+### Stage B — before any monetization
 
-Already wired:
+Choose and document one of these paths:
 
-1. **Vercel Analytics** — page views in the Vercel project → Analytics tab  
-2. **Optional GA4** — set env `NEXT_PUBLIC_GA_MEASUREMENT_ID=G-...` in Vercel → redeploy  
+1. **Static-first Cloudflare Pages/Workers Free.** Prefer static JSON and assets;
+   avoid Pages Functions for ordinary visits. Current free limits include 500
+   Pages builds per month, 20,000 files, and a 100,000-request daily Workers
+   limit. Reconfirm the terms and limits immediately before migration.
+2. **Vercel Pro.** Accept the fixed subscription, enable Spend Management, and
+   enable automatic production pausing. Spend Management does not cover seats,
+   integrations, or separate add-ons, so audit those independently.
 
-Use Analytics to compare traffic before/after social posts, Reddit, etc.
+Official references:
 
-No analytics package bills you for “heavy traffic” the way paid AI would; still keep Hobby + spend cap.
+- [Cloudflare Pages limits](https://developers.cloudflare.com/pages/platform/limits/)
+- [Cloudflare Workers limits](https://developers.cloudflare.com/workers/platform/limits/)
 
----
+Do not monetize first and migrate later.
 
-## SEO (no design sacrifice)
+## Zero-surprise-charge checklist
 
-- `metadataBase` + Open Graph / Twitter  
-- `/sitemap.xml` — home, patches, champions, calculator  
-- `/robots.txt` — allow crawl, disallow `/api/`  
-- JSON-LD `WebSite` schema  
-- Semantic titles per route (existing)  
+- [ ] No hosted LLM or per-visitor AI request.
+- [ ] No production database until cross-device accounts are proven necessary.
+- [ ] No paid image transformation; use correctly sized/versioned CDN assets.
+- [ ] No paid analytics plan or marketplace integration.
+- [ ] Automated builds run only for meaningful changes.
+- [ ] Usage alerts are enabled wherever the platform supports them.
+- [ ] A traffic spike results in throttling/pausing, not an open-ended invoice.
+- [ ] Hosting terms are rechecked before enabling revenue.
 
-When you add a domain:
+## Riot compliance before revenue
 
-1. Add domain in Vercel  
-2. Set `NEXT_PUBLIC_SITE_URL=https://yourdomain.com`  
-3. Redeploy  
+Before advertising, subscriptions, donations, crowdfunding, or sponsorship:
 
----
+1. Read the current [League Developer Policy](https://developer.riotgames.com/docs/lol)
+   and [Riot Legal Jibber Jabber](https://www.riotgames.com/en/legal).
+2. Register the product through the Riot Developer Portal when required.
+3. Obtain an Approved or Acknowledged product status before monetization where
+   the League policy requires it.
+4. Keep a meaningful free tier.
+5. Charge only for transformative workflow features, never raw Riot facts.
+6. Preserve the required Riot notice in the product.
+7. Recheck policy before every new revenue model.
 
-## Security (baseline)
+This checklist is operational guidance, not legal advice.
 
-Already / now in place:
+## Data safety
 
-- HTTPS via Vercel  
-- `X-Content-Type-Options: nosniff`  
-- `X-Frame-Options: DENY`  
-- `Referrer-Policy: strict-origin-when-cross-origin`  
-- `Permissions-Policy` (camera/mic/geo off)  
-- `poweredByHeader: false`  
-- `/api/*` not for secret work (public data only)  
-- No secrets required for core app  
+New ingests pass `scripts/ingest/validate_patch.py` before publication.
+Malformed patches are written under `src/data/patches/quarantine/` and are not
+loaded by the application.
 
-Recommended:
+```bash
+npm run data:audit
+npm run test:ingest
+npm run verify
+```
 
-- Keep repo free of `.env` secrets (use Vercel env UI)  
-- Don’t paste API keys into client components  
-- Review GitHub Actions permissions (workflow only needs `contents: write` for data commits)
+Never bypass the quality gate to publish on patch day.
 
----
+## Security baseline
 
-## Feedback
+- HTTPS from the hosting provider.
+- `X-Content-Type-Options: nosniff`.
+- `X-Frame-Options: DENY`.
+- Strict referrer and permissions policies.
+- `poweredByHeader: false`.
+- No secrets required for core application behavior.
+- GitHub workflow permission limited to `contents: write`.
+- Production API routes expose public game data only.
 
-Footer + About link to GitHub Issues:
+Keep secrets out of the repository and client components. If a future Riot API
+key is introduced, keep it server-side and use one product per production key.
 
-`https://github.com/Ryanh899/riftintel/issues/new`
+## Analytics
 
-Change with `NEXT_PUBLIC_FEEDBACK_URL` if you switch to a form later.
+Use one free analytics system during validation. Track only the essential
+funnel: calculator selection, meaningful result viewed, Build A versus Build B
+created, comparison link copied, and confirmed data error reported.
+
+Do not install multiple trackers. Publish a privacy notice before collecting
+persistent identifiers or advertising data.
+
+## SEO
+
+The app already has route metadata, canonical configuration, social images,
+`/sitemap.xml`, `/robots.txt`, JSON-LD, and static patch/champion pages.
+
+When a domain is selected, set:
+
+```text
+NEXT_PUBLIC_SITE_URL=https://your-domain.example
+```
+
+Redeploy and submit the sitemap to Google Search Console and Bing Webmaster
+Tools.
