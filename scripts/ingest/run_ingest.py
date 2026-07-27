@@ -43,10 +43,12 @@ from summarize import (
     summarize_entity_local,
     summarize_patch_local,
 )
+from validate_patch import validate_patch, write_quarantine
 from wiki_client import WikiClient
 
 DATA = ROOT / "src" / "data"
 PATCH_OUT = DATA / "patches" / "by-id"
+QUARANTINE_OUT = DATA / "patches" / "quarantine"
 CACHE = ROOT / ".cache" / "wiki"
 MANIFEST = DATA / "patches" / "manifest.json"
 
@@ -540,8 +542,26 @@ def main() -> int:
             print("  skip (no structured balance changes)")
             continue
 
+        quality_issues = validate_patch(patch)
+        if quality_issues:
+            quarantine_path = write_quarantine(
+                patch,
+                quality_issues,
+                QUARANTINE_OUT,
+            )
+            print(
+                f"  quarantine ({len(quality_issues)} publication-blocking issue(s)) "
+                f"→ {quarantine_path}"
+            )
+            for issue in quality_issues[:5]:
+                print(f"    [{issue.code}] {issue.path}: {issue.message}")
+            continue
+
         out_path = PATCH_OUT / f"{patch['id']}.json"
         out_path.write_text(json.dumps(patch, ensure_ascii=False, indent=2), encoding="utf-8")
+        quarantine_path = QUARANTINE_OUT / f"{patch['id']}.json"
+        if quarantine_path.exists():
+            quarantine_path.unlink()
         print(
             f"  → {out_path.name}: {len(patch['champions'])} champs, "
             f"{len(patch['items'])} items, {len(patch['systems'])} systems"
