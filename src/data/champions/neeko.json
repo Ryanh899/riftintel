@@ -768,6 +768,71 @@
           "adjust"
         ]
       }
+    },
+    {
+      "patchId": "26.15",
+      "version": "26.15",
+      "releaseDate": "2026-07-29",
+      "change": {
+        "id": "neeko",
+        "name": "Neeko",
+        "type": "champion",
+        "assetKey": "Neeko",
+        "roles": [],
+        "direction": "buff",
+        "severity": 1,
+        "tldr": "New Effect: When disguising as a Voidborn Rift Scuttler, Neeko now adopts the Rift Scuttler's Voidborn model instead of its base model.; New Effect: When disguising as Nidalee in Aspect of the Cougar or Elise in Spide…",
+        "gameplayImpact": "Neeko is stronger on paper. Expect a higher presence until the meta adapts; good time to learn or re-pick them.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Shapesplitter",
+            "title": "Shapesplitter",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "New Effect: When disguising as a Voidborn Rift Scuttler, Neeko now adopts the Rift Scuttler's Voidborn model instead of its base model."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: When disguising as Lulu, the spawned Pix, Faerie Companion now uses a skin based on Lulu's skin ID instead of Neeko's skin ID."
+              },
+              {
+                "label": "Change",
+                "note": "New Effect: When disguising as Nidalee in Aspect of the Cougar or Elise in Spider Form, Neeko now adopts their current models instead of their base models, and becomes melee with 125 range."
+              },
+              {
+                "label": "Change",
+                "note": "Undocumented / Bug Fix: Neeko's movement speed is no longer reduced by 25 when disguising as Elise."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Fixed a bug that prevented her to disguise herself as DJ Sona Concussive and Ethereal Forms."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Fixed a bug where if she was disguised as DJ Sona Kinetic form the hair was missing."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: When disguising as Smolder, Neeko's horns will now reflect Smolder's current number of Dragon Practice stacks."
+              },
+              {
+                "label": "Change",
+                "note": "Undocumented / Bug Fix: While disguised as Bel'Veth, Neeko's attacks now deal the intended amount of damage instead of 0."
+              },
+              {
+                "label": "Change",
+                "note": "Undocumented / Bug Fix: Disrupting Neeko's leap no longer enables her to store stats across units."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "buff"
+        ]
+      }
     }
   ]
 }

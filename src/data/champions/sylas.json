@@ -975,6 +975,47 @@
           "buff"
         ]
       }
+    },
+    {
+      "patchId": "26.15",
+      "version": "26.15",
+      "releaseDate": "2026-07-29",
+      "change": {
+        "id": "sylas",
+        "name": "Sylas",
+        "type": "champion",
+        "assetKey": "Sylas",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "First lash base damage reduced to 40–120 from 40–140.; First lash AP ratio reduced to 40% AP from 45% AP.",
+        "gameplayImpact": "Sylas loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Chain Lash",
+            "title": "Chain Lash",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "First lash base damage",
+                "before": "40–140",
+                "after": "40–120",
+                "note": "First lash base damage reduced to 40–120 from 40–140."
+              },
+              {
+                "label": "First lash AP ratio",
+                "before": "45% AP",
+                "after": "40% AP",
+                "note": "First lash AP ratio reduced to 40% AP from 45% AP."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
     }
   ]
 }

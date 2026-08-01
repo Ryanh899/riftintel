@@ -882,6 +882,58 @@
           "buff"
         ]
       }
+    },
+    {
+      "patchId": "26.15",
+      "version": "26.15",
+      "releaseDate": "2026-07-29",
+      "change": {
+        "id": "mordekaiser",
+        "name": "Mordekaiser",
+        "type": "champion",
+        "assetKey": "Mordekaiser",
+        "roles": [],
+        "direction": "adjust",
+        "severity": 1,
+        "tldr": "Cooldown reduced to 16–8 seconds from 18–10.; Stolen stats reduced to 10% from 13%.",
+        "gameplayImpact": "Mordekaiser was adjusted in mixed directions. Net power depends on playstyle — read the numbers before assuming a free buff or hard nerf.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Death's Grasp",
+            "title": "Death's Grasp",
+            "direction": "buff",
+            "lines": [
+              {
+                "label": "Cooldown",
+                "before": "18–10",
+                "after": "16–8 seconds",
+                "note": "Cooldown reduced to 16–8 seconds from 18–10."
+              }
+            ]
+          },
+          {
+            "ability": "Realm of Death",
+            "title": "Realm of Death",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Stolen stats",
+                "before": "13%",
+                "after": "10%",
+                "note": "Stolen stats reduced to 10% from 13%."
+              },
+              {
+                "label": "Change",
+                "note": "Bug Fix: Inverted the order of operations for the maximum health reduction to prevent the ability from dealing up to double its intended damage to enemies whose current health exceeds their post-reduction maximum health."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "adjust"
+        ]
+      }
     }
   ]
 }

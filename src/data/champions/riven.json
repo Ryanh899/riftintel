@@ -553,6 +553,54 @@
           "nerf"
         ]
       }
+    },
+    {
+      "patchId": "26.15",
+      "version": "26.15",
+      "releaseDate": "2026-07-29",
+      "change": {
+        "id": "riven",
+        "name": "Riven",
+        "type": "champion",
+        "assetKey": "Riven",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Bonus attack damage ratio reduced to 20% bonus AD from 25%.; Bonus AD ratio reduced to 55% bonus AD from 60%.",
+        "gameplayImpact": "Riven loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Blade of the Exile",
+            "title": "Blade of the Exile",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Bonus attack damage ratio",
+                "before": "25%",
+                "after": "20% bonus AD",
+                "note": "Bonus attack damage ratio reduced to 20% bonus AD from 25%."
+              }
+            ]
+          },
+          {
+            "ability": "Wind Slash",
+            "title": "Wind Slash",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Bonus AD ratio",
+                "before": "60%",
+                "after": "55% bonus AD",
+                "note": "Bonus AD ratio reduced to 55% bonus AD from 60%."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
     }
   ]
 }

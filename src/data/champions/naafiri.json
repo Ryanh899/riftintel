@@ -1179,6 +1179,47 @@
           "nerf"
         ]
       }
+    },
+    {
+      "patchId": "26.15",
+      "version": "26.15",
+      "releaseDate": "2026-07-29",
+      "change": {
+        "id": "naafiri",
+        "name": "Naafiri",
+        "type": "champion",
+        "assetKey": "Naafiri",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 1,
+        "tldr": "Base damage reduced to 125–275 (3 ranks) from 150–300 (3 ranks).; Bonus AD ratio reduced to 100% bonus AD from 120%.",
+        "gameplayImpact": "Naafiri loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Hounds' Pursuit",
+            "title": "Hounds' Pursuit",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "150–300 (3 ranks)",
+                "after": "125–275 (3 ranks)",
+                "note": "Base damage reduced to 125–275 (3 ranks) from 150–300 (3 ranks)."
+              },
+              {
+                "label": "Bonus AD ratio",
+                "before": "120%",
+                "after": "100% bonus AD",
+                "note": "Bonus AD ratio reduced to 100% bonus AD from 120%."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
     }
   ]
 }

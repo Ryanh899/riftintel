@@ -37,17 +37,21 @@ class PatchMeta:
     source_url: str | None
 
 
-TEMPLATE_CI = re.compile(r"\{\{ci\|([^}|]+)")
-TEMPLATE_II = re.compile(r"\{\{ii\|([^}|]+)")
-TEMPLATE_RI = re.compile(r"\{\{ri\|([^}|]+)")
-TEMPLATE_AI = re.compile(r"\{\{ai\|([^}|]+)\|([^}|]+)")
-TEMPLATE_CSL = re.compile(r"\{\{csl\|")
+TEMPLATE_CI = re.compile(r"\{\{ci\|([^}|]+)(?:\|[^{}]*)?\}\}", re.I)
+TEMPLATE_II = re.compile(r"\{\{ii\|([^}|]+)(?:\|[^{}]*)?\}\}", re.I)
+TEMPLATE_RI = re.compile(r"\{\{ri\|([^}|]+)(?:\|[^{}]*)?\}\}", re.I)
+TEMPLATE_UI = re.compile(r"\{\{ui\|([^}|]+)(?:\|[^{}]*)?\}\}", re.I)
+TEMPLATE_AI = re.compile(r"\{\{ai\|([^}|]+)(?:\|[^{}]*)?\}\}", re.I)
+TEMPLATE_CSL = re.compile(r"\{\{csl\|([^}|]+)\|([^}|]+)(?:\|[^{}]*)?\}\}", re.I)
 SBC = re.compile(r"\{\{sbc\|([^}]+)\}\}", re.I)
 FD = re.compile(r"\{\{fd\|([^}]+)\}\}", re.I)
-AS_TMPL = re.compile(r"\{\{as\|([^}]+)\}\}", re.I)
-STI = re.compile(r"\{\{sti\|([^}]+)\}\}", re.I)
+AS_TMPL = re.compile(r"\{\{as\|([^}|]+)(?:\|[^{}]*)?\}\}", re.I)
+STI = re.compile(r"\{\{sti\|([^}|]+)(?:\|[^{}]*)?\}\}", re.I)
 TIP = re.compile(r"\{\{tip\|([^}|]+)(?:\|[^}]*)?\}\}", re.I)
-CAI = re.compile(r"\{\{cai\|([^}|]+)\|([^}|]+)")
+TT = re.compile(r"\{\{tt\|([^}|]+)(?:\|[^{}]*)?\}\}", re.I)
+GOLD = re.compile(r"\{\{g\|([^}|]+)(?:\|[^{}]*)?\}\}", re.I)
+RANGE_DISPLAY = re.compile(r"\{\{rd\|([^}|]+)(?:\|[^{}]*)?\}\}", re.I)
+CAI = re.compile(r"\{\{cai\|([^}|]+)\|([^}|]+)(?:\|[^{}]*)?\}\}", re.I)
 GENERIC_TMPL = re.compile(r"\{\{[^{}]*\}\}")
 LINK = re.compile(r"\[\[(?:[^|\]]*\|)?([^\]]+)\]\]")
 BOLD = re.compile(r"'{2,}")
@@ -254,10 +258,15 @@ def clean_wikitext(text: str) -> str:
     s = AS_TMPL.sub(r"\1", s)
     s = STI.sub(r"\1", s)
     s = TIP.sub(r"\1", s)
+    s = TT.sub(r"\1", s)
+    s = GOLD.sub(r"\1", s)
+    s = RANGE_DISPLAY.sub(r"\1", s)
+    s = TEMPLATE_CSL.sub(r"\2 \1", s)
     s = TEMPLATE_AI.sub(r"\1", s)
     s = TEMPLATE_CI.sub(r"\1", s)
     s = TEMPLATE_II.sub(r"\1", s)
     s = TEMPLATE_RI.sub(r"\1", s)
+    s = TEMPLATE_UI.sub(r"\1", s)
     s = CAI.sub(r"\1 (\2)", s)
 
     # Remaining simple templates
@@ -692,7 +701,7 @@ def parse_before_after(line: str) -> dict | None:
     """Extract 'X to Y from Z' patterns into structured before/after."""
     # "Base damage increased to 80 from 60"
     m = re.search(
-        r"(.+?)\s+(?:increased|reduced|decreased|changed)\s+to\s+(.+?)\s+from\s+(.+?)(?:\.|$)",
+        r"(.+?)\s+(?:increased|reduced|decreased|changed)\s+to\s+(.+?)\s+from\s+(.+?)(?:\.(?=\s|$)|$)",
         line,
         re.I,
     )

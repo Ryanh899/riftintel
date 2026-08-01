@@ -200,6 +200,90 @@
           "nerf"
         ]
       }
+    },
+    {
+      "patchId": "26.15",
+      "version": "26.15",
+      "releaseDate": "2026-07-29",
+      "change": {
+        "id": "locke",
+        "name": "Locke",
+        "type": "champion",
+        "assetKey": "Locke",
+        "roles": [],
+        "direction": "nerf",
+        "severity": 2,
+        "tldr": "Base health reduced to 620 from 655.; Base damage reduced to 40–72 from 50–82.",
+        "gameplayImpact": "Locke loses power in the listed areas. Mains should adjust builds/play patterns; counters get an easier time.",
+        "context": null,
+        "changes": [
+          {
+            "ability": "Base stats",
+            "title": null,
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base health",
+                "before": "655",
+                "after": "620",
+                "note": "Base health reduced to 620 from 655."
+              }
+            ]
+          },
+          {
+            "ability": "Ritual Nails",
+            "title": "Ritual Nails",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Base damage",
+                "before": "50–82",
+                "after": "40–72",
+                "note": "Base damage reduced to 40–72 from 50–82."
+              }
+            ]
+          },
+          {
+            "ability": "Soul Ignition",
+            "title": "Soul Ignition",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Bonus movement speed",
+                "before": "40–60%",
+                "after": "40% at all ranks",
+                "note": "Bonus movement speed reduced to 40% at all ranks from 40–60%."
+              },
+              {
+                "label": "Grey Health base value",
+                "before": "40–160",
+                "after": "40–120",
+                "note": "Grey Health base value reduced to 40–120 from 40–160."
+              },
+              {
+                "label": "Grey Health AP ratio",
+                "before": "120% AP",
+                "after": "100% AP",
+                "note": "Grey Health AP ratio reduced to 100% AP from 120% AP."
+              }
+            ]
+          },
+          {
+            "ability": "Purgatory",
+            "title": "Purgatory",
+            "direction": "nerf",
+            "lines": [
+              {
+                "label": "Change",
+                "note": "Bug Fix: Fixed a bug where it was not recolored when the artifact was reflected by Rebuttal (Mel)."
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "nerf"
+        ]
+      }
     }
   ]
 }
