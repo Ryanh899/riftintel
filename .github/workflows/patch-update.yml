@@ -58,7 +58,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/data/patches/by-id src/data/patches/manifest.json src/data/champions src/data/items
+          git add src/data/patches/by-id src/data/patches/manifest.json src/data/champions
           if git diff --staged --quiet; then
             echo "No patch data changes."
             exit 0
