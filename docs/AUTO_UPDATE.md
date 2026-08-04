@@ -7,7 +7,7 @@
 | New patch structure (numbers, champs, items) | **GitHub Actions** every 4h (and when you run local) | No |
 | Gameplay blurbs / nicer summaries | **Your PC + Ollama** | Yes, free |
 | Dmg calc champion list/items | Build-time Meraki/Data Dragon fetch | No AI |
-| Current champion kit | Visitor browser â†’ public Meraki CDN | No AI |
+| Current champion kit | Production build → Meraki/Riot public data → same-origin static JSON | No AI |
 
 If your PC is **off**, the site still gets **new patches** from Actions (heuristic summaries).  
 When the PC is **on**, local update **fills in Ollama** for any `aiEnriched: false` patches and pushes again.

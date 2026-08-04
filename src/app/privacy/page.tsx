@@ -17,7 +17,7 @@ export default function PrivacyPage() {
         The site uses Vercel Web Analytics to measure page views and low-cardinality product actions such as selecting a champion, sharing a result, or answering whether a page was useful. Optional Google Analytics may be enabled by the operator. Do not enter personal information into feedback events; the product does not intentionally collect names, email addresses, or in-game account identifiers.
       </Section>
       <Section title="Third-party requests">
-        Images and current public game data load from Riot Data Dragon, CommunityDragon, and Meraki Analytics. Those providers receive ordinary web request information such as IP address and browser headers under their own policies. Feedback and source links open external sites only when you choose them.
+        Champion and item images may load from Riot Data Dragon or CommunityDragon, so those providers can receive ordinary web request information such as IP address and browser headers under their own policies. Calculator data sourced from Riot and Meraki Analytics is packaged during the production build and served by RiftIntel. Feedback and source links open external sites only when you choose them.
       </Section>
       <Section title="Advertising and sales">
         The current public beta does not run targeted advertising or sell personal information. This notice will be updated before adding advertising, accounts, payments, or new persistent identifiers.

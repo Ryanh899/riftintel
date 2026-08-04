@@ -5,7 +5,7 @@ Last reviewed: August 4, 2026.
 ## What is production-ready in code
 
 - All public pages are prerendered; there are no visitor-triggered server functions.
-- Current calculator kits load directly from a public data CDN.
+- Current calculator kits are downloaded during the build and served as same-origin static JSON.
 - Only verified history is copied into calculator comparison assets.
 - Patch candidates are polled every four hours, directly probed, validated, and quarantined on failure.
 - A clean run performs ingestion tests, accuracy checks, lint, TypeScript, and the full static build before pushing data.

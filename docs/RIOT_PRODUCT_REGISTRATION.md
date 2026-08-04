@@ -32,7 +32,7 @@ RiftIntel is an unofficial League of Legends study tool focused on Summoner's Ri
 - No Riot API key is currently required.
 - No user accounts, summoner lookup, match history, or production database.
 - No hosted AI or per-visitor AI request. Optional explanation enrichment runs locally before publication.
-- Ordinary visits are fully static; current kit JSON is fetched by the visitor's browser from the public data CDN.
+- Ordinary visits are fully static; current kit JSON is downloaded during the production build and served as same-origin static assets.
 
 ## Accuracy and safety controls
 

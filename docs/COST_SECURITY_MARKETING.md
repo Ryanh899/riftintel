@@ -103,7 +103,7 @@ Never bypass the quality gate to publish on patch day.
 - No secrets required for core application behavior.
 - GitHub workflow permission limited to `contents: write`.
 - Public routes are static/SSG; there are no visitor-triggered server functions.
-- Calculator kit requests go directly from the browser to the public data CDN.
+- Calculator kits are downloaded at build time and served as same-origin static JSON.
 
 Keep secrets out of the repository and client components. If a future Riot API
 key is introduced, keep it server-side and use one product per production key.
