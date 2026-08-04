@@ -6,7 +6,8 @@
 |------|----------------|-----|
 | New patch structure (numbers, champs, items) | **GitHub Actions** every 4h (and when you run local) | No |
 | Gameplay blurbs / nicer summaries | **Your PC + Ollama** | Yes, free |
-| Dmg calc kits/items (live Meraki/DDragon) | Site fetch, ~hourly cache | No AI |
+| Dmg calc champion list/items | Build-time Meraki/Data Dragon fetch | No AI |
+| Current champion kit | Visitor browser â†’ public Meraki CDN | No AI |
 
 If your PC is **off**, the site still gets **new patches** from Actions (heuristic summaries).  
 When the PC is **on**, local update **fills in Ollama** for any `aiEnriched: false` patches and pushes again.
@@ -71,8 +72,9 @@ So: you don’t need the PC on the exact second of deploy — **on for the notes
 
 ## Quality gate
 
-Newly ingested patch data is untrusted until it passes the strict validation
-gate. Run `npm run data:audit:strict` before publishing. Files with missing,
+Newly ingested patch data is untrusted until it passes the candidate publication
+gate. The full archive audit intentionally reports older entries still under
+review. Files with missing,
 contradictory, or structurally invalid changes must remain quarantined rather
 than appearing in comparisons. AI enrichment can improve explanations, but it
 must never invent or repair numeric patch facts.
@@ -81,7 +83,7 @@ must never invent or repair numeric patch facts.
 
 ```bash
 # Cloud-style (no AI) — same as Actions
-python scripts/ingest/run_ingest.py --years 0.5 --only-new
+python scripts/ingest/run_ingest.py --years 0.5 --only-new --fail-on-quarantine
 
 # Local full loop
 python scripts/auto/local_update.py --push

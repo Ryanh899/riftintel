@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Patch } from "@/lib/types";
 import { allEntities, countByDirection, formatDate } from "@/lib/utils";
 import { cleanSummary } from "@/lib/text";
+import { DataQualityNotice } from "./DataQualityNotice";
 
 /** Compact patch identity strip — data, not a hero card */
 export function PatchHero({
@@ -21,7 +22,16 @@ export function PatchHero({
     <div className="space-y-3 border-b border-border pb-4">
       <div className="flex flex-wrap items-end justify-between gap-3">
         <div>
-          <p className="label-micro mb-1">current balance patch</p>
+          <div className="mb-1 flex flex-wrap items-center gap-2">
+            <p className="label-micro">Summoner&apos;s Rift balance patch</p>
+            {patch.dataQuality === "verified" ? (
+              <DataQualityNotice quality="verified" />
+            ) : (
+              <span className="inline-flex items-center border border-adjust/30 bg-adjust/10 px-1.5 py-0.5 font-data text-[9px] uppercase tracking-wide text-adjust">
+                archive review
+              </span>
+            )}
+          </div>
           <div className="flex flex-wrap items-baseline gap-3">
             <h1 className="font-data text-3xl font-semibold tracking-tight text-fg sm:text-4xl">
               {patch.version}
@@ -50,6 +60,13 @@ export function PatchHero({
         <p className="max-w-3xl text-[13px] leading-relaxed text-muted">
           {summary}
         </p>
+      )}
+
+      {patch.dataQuality !== "verified" && (
+        <DataQualityNotice
+          quality="archive-review"
+          sourceUrl={patch.sourceUrl}
+        />
       )}
 
       <div className="flex flex-wrap items-center gap-x-4 gap-y-1">

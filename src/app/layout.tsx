@@ -47,7 +47,9 @@ export const metadata: Metadata = {
   creator: SITE_NAME,
   robots: { index: true, follow: true },
   alternates: {
-    canonical: "/",
+    types: {
+      "application/rss+xml": "/feed.xml",
+    },
   },
   openGraph: {
     title: SITE_TITLE,

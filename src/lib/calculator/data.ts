@@ -1,5 +1,7 @@
 import type { AbilityData, ChampionData, ItemData } from "./types";
 import { filterShopItems } from "./items";
+import { readFileSync } from "fs";
+import path from "path";
 
 const DDRAGON_VERSIONS = "https://ddragon.leagueoflegends.com/api/versions.json";
 const MERAKI_CHAMP = (name: string) =>
@@ -8,7 +10,7 @@ const MERAKI_LIST =
   "https://cdn.merakianalytics.com/riot/lol/resources/latest/en-US/champions.json";
 
 export async function getLatestDdragonVersion(): Promise<string> {
-  const res = await fetch(DDRAGON_VERSIONS, { next: { revalidate: 3600 } });
+  const res = await fetch(DDRAGON_VERSIONS, { cache: "force-cache" });
   const versions: string[] = await res.json();
   return versions[0];
 }
@@ -20,6 +22,17 @@ export interface ChampionListEntry {
   icon: string;
 }
 
+export function readGeneratedChampionList(): ChampionListEntry[] {
+  const file = path.join(
+    process.cwd(),
+    "public",
+    "generated",
+    "kits",
+    "index.json",
+  );
+  return JSON.parse(readFileSync(file, "utf8")) as ChampionListEntry[];
+}
+
 /** Lightweight champion list for picker — uses Meraki index keys */
 export async function fetchChampionList(
   version: string,
@@ -27,7 +40,7 @@ export async function fetchChampionList(
   // Prefer Data Dragon champion.json for icons/keys (smaller than full Meraki dump)
   const res = await fetch(
     `https://ddragon.leagueoflegends.com/cdn/${version}/data/en_US/champion.json`,
-    { next: { revalidate: 3600 } },
+    { cache: "force-cache" },
   );
   const data = await res.json();
   return Object.values(data.data as Record<string, { id: string; key: string; name: string }>)
@@ -43,7 +56,7 @@ export async function fetchChampionList(
 export async function fetchItems(version: string): Promise<ItemData[]> {
   const res = await fetch(
     `https://ddragon.leagueoflegends.com/cdn/${version}/data/en_US/item.json`,
-    { next: { revalidate: 3600 } },
+    { cache: "force-cache" },
   );
   const data = await res.json();
   return filterShopItems(data.data, version);

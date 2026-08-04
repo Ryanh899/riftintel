@@ -35,6 +35,7 @@ from parse_wikitext import (
     parse_patch_page,
     severity_from_lines,
 )
+from patch_versions import next_patch_title_candidates
 from summarize import (
     DEFAULT_MODEL,
     batch_gameplay_impacts,
@@ -346,6 +347,8 @@ def build_patch_json(
         "summary": summary,
         # Cloud ingest sets false; local Ollama enrich flips to true
         "aiEnriched": bool(use_ai),
+        "dataQuality": "verified",
+        "mode": "summoners-rift",
         "champions": champions,
         "items": items,
         "systems": systems,
@@ -378,12 +381,22 @@ def write_manifest(patches: list[dict]) -> None:
                 "adjustCount": sum(
                     1 for e in ents if e["direction"] in ("adjust", "rework")
                 ),
+                "dataQuality": p.get("dataQuality", "archive-review"),
             }
         )
+    generated_at = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+    if MANIFEST.exists():
+        try:
+            previous = json.loads(MANIFEST.read_text(encoding="utf-8"))
+            if previous.get("patches") == entries and previous.get("generatedAt"):
+                generated_at = previous["generatedAt"]
+        except (json.JSONDecodeError, OSError):
+            pass
+
     MANIFEST.write_text(
         json.dumps(
             {
-                "generatedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+                "generatedAt": generated_at,
                 "patches": entries,
             },
             indent=2,
@@ -453,6 +466,11 @@ def main() -> int:
         action="store_true",
         help="Skip patch versions that already exist under by-id/",
     )
+    ap.add_argument(
+        "--fail-on-quarantine",
+        action="store_true",
+        help="Exit non-zero when a candidate patch fails the publication gate",
+    )
     args = ap.parse_args()
 
     PATCH_OUT.mkdir(parents=True, exist_ok=True)
@@ -483,13 +501,28 @@ def main() -> int:
                 titles.append("V" + p)
     else:
         print(f"Discovering patches (~{args.years} years)…")
-        titles = discover_patch_titles(client, int(args.years) + 1)
+        probe_titles = (
+            next_patch_title_candidates(
+                [path.stem for path in PATCH_OUT.glob("*.json")]
+            )
+            if args.only_new
+            else []
+        )
+        titles = probe_titles + [
+            title
+            for title in discover_patch_titles(client, int(args.years) + 1)
+            if title not in probe_titles
+        ]
+        if probe_titles:
+            print(f"  directly probing {', '.join(probe_titles)}")
         print(f"  found {len(titles)} candidate pages")
 
     if args.limit:
         titles = titles[: args.limit]
 
     patches_out: list[dict] = []
+    quarantined_count = 0
+    probe_title_set = set(probe_titles) if not args.patches else set()
     for i, title in enumerate(titles, 1):
         print(f"[{i}/{len(titles)}] {title}")
         # Early only-new check from title version
@@ -501,7 +534,10 @@ def main() -> int:
         if args.skip_fetch:
             # force read cache only by using client cache; if missing, fetch still happens
             pass
-        wikitext = client.parse_wikitext(title, use_cache=True)
+        wikitext = client.parse_wikitext(
+            title,
+            use_cache=title not in probe_title_set,
+        )
         if not wikitext:
             print(f"  skip (no wikitext)")
             continue
@@ -544,6 +580,7 @@ def main() -> int:
 
         quality_issues = validate_patch(patch)
         if quality_issues:
+            quarantined_count += 1
             quarantine_path = write_quarantine(
                 patch,
                 quality_issues,
@@ -581,6 +618,12 @@ def main() -> int:
     write_manifest(all_patches)
     rebuild_champion_histories(all_patches)
     print(f"Done. {len(all_patches)} patches ready.")
+    if args.fail_on_quarantine and quarantined_count:
+        print(
+            f"ERROR: {quarantined_count} candidate patch(es) were quarantined. "
+            "Review the workflow log before publishing."
+        )
+        return 1
     return 0
 
 

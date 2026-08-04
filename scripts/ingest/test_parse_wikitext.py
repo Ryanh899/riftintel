@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import unittest
 
-from parse_wikitext import clean_wikitext, parse_before_after
+from parse_wikitext import clean_wikitext, parse_before_after, parse_patch_page
 
 
 class CleanWikitextTests(unittest.TestCase):
@@ -37,6 +37,23 @@ class CleanWikitextTests(unittest.TestCase):
 
     def test_uses_scaling_template_value_not_metadata(self) -> None:
         self.assertEqual(clean_wikitext("{{as|12%|AD}}"), "12%")
+
+    def test_excludes_alternate_mode_sections_from_primary_patch(self) -> None:
+        source = """
+== League of Legends V26.16 ==
+=== Champions ===
+;{{ci|Ahri}}
+* {{ai|Orb of Deception|Ahri}}
+** Base damage increased to 90 from 80.
+=== Arena ===
+* Akali
+** Passive move speed increased to 85% from 60%.
+=== ARAM ===
+* Ahri damage dealt increased to 105% from 100%.
+"""
+        parsed = parse_patch_page(source, "V26.16")
+        self.assertEqual([champion.name for champion in parsed["champions"]], ["Ahri"])
+        self.assertEqual(parsed["systems"], [])
 
 
 if __name__ == "__main__":

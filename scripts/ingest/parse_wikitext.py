@@ -524,10 +524,6 @@ def parse_patch_page(wikitext: str, page_title: str) -> dict:
         "Dragon",
         "Baron",
         "Jungle",
-        "Howling Abyss",
-        "ARAM",
-        "Swiftplay",
-        "Arena",
         "Systems",
         "Objectives",
     ):

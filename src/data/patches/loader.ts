@@ -7,6 +7,10 @@ import type {
   PatchIndexEntry,
   PatchManifest,
 } from "@/lib/types";
+import {
+  EXCLUDED_ALTERNATE_MODE_IDS,
+  patchDataQuality,
+} from "@/lib/dataQuality";
 
 const DATA_ROOT = path.join(process.cwd(), "src", "data");
 const BY_ID = path.join(DATA_ROOT, "patches", "by-id");
@@ -25,6 +29,23 @@ import { patch_14_24 } from "./14.24";
 import { patch_14_23 } from "./14.23";
 
 const FALLBACK: Patch[] = [patch_15_1, patch_14_24, patch_14_23];
+
+function normalizePatch(patch: Patch): Patch {
+  const systems = patch.systems.filter(
+    (entity) => !EXCLUDED_ALTERNATE_MODE_IDS.has(entity.id),
+  );
+  const primaryEntityCount = patch.champions.length + patch.items.length + systems.length;
+  return {
+    ...patch,
+    summary: patch.summary.replace(
+      /Structured changes across \d+ entities/i,
+      `Structured changes across ${primaryEntityCount} entities`,
+    ),
+    dataQuality: patchDataQuality(patch.id, patch.dataQuality),
+    mode: "summoners-rift",
+    systems,
+  };
+}
 
 export function getManifest(): PatchManifest {
   const m = readJson<PatchManifest>(MANIFEST);
@@ -49,7 +70,10 @@ export function getManifest(): PatchManifest {
 }
 
 export function getPatchIndex(): PatchIndexEntry[] {
-  return getManifest().patches;
+  return getManifest().patches.map((patch) => ({
+    ...patch,
+    dataQuality: patchDataQuality(patch.id, patch.dataQuality),
+  }));
 }
 
 export function getLatestPatch(): Patch {
@@ -64,8 +88,9 @@ export function getLatestPatch(): Patch {
 export function getPatch(id: string): Patch | undefined {
   const file = path.join(BY_ID, `${id}.json`);
   const fromDisk = readJson<Patch>(file);
-  if (fromDisk) return fromDisk;
-  return FALLBACK.find((p) => p.id === id || p.version === id);
+  if (fromDisk) return normalizePatch(fromDisk);
+  const fallback = FALLBACK.find((p) => p.id === id || p.version === id);
+  return fallback ? normalizePatch(fallback) : undefined;
 }
 
 export function getAllPatches(): Patch[] {
@@ -75,12 +100,12 @@ export function getAllPatches(): Patch[] {
       const patches = files
         .map((f) => readJson<Patch>(path.join(BY_ID, f)))
         .filter((p): p is Patch => Boolean(p));
-      return patches.sort((a, b) =>
+      return patches.map(normalizePatch).sort((a, b) =>
         (b.releaseDate || "").localeCompare(a.releaseDate || ""),
       );
     }
   }
-  return FALLBACK;
+  return FALLBACK.map(normalizePatch);
 }
 
 export function getAllPatchIds(): string[] {
@@ -89,7 +114,9 @@ export function getAllPatchIds(): string[] {
 
 export function getChampionIndex(): ChampionIndexEntry[] {
   const idx = readJson<ChampionIndexEntry[]>(CHAMP_INDEX);
-  if (idx?.length) return idx;
+  if (idx?.length) {
+    return idx.filter((champion) => Boolean(champion.assetKey));
+  }
 
   // Fallback: derive from sample patches
   const map = new Map<string, ChampionIndexEntry>();

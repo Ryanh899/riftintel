@@ -17,6 +17,15 @@ export function Footer() {
           <Link href="/about" className="hover:text-muted">
             about
           </Link>
+          <Link href="/privacy" className="hover:text-muted">
+            privacy
+          </Link>
+          <Link href="/terms" className="hover:text-muted">
+            terms
+          </Link>
+          <a href="/feed.xml" className="hover:text-muted">
+            rss
+          </a>
           <a
             href={FEEDBACK_URL}
             target="_blank"

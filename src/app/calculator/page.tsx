@@ -1,12 +1,12 @@
 import { Suspense } from "react";
 import { DamageCalculator } from "@/components/calculator/DamageCalculator";
 import {
-  fetchChampionList,
   fetchItems,
   getLatestDdragonVersion,
+  readGeneratedChampionList,
 } from "@/lib/calculator/data";
 
-export const revalidate = 3600;
+export const dynamic = "error";
 
 export const metadata = {
   title: "Damage calculator",
@@ -16,10 +16,8 @@ export const metadata = {
 
 export default async function CalculatorPage() {
   const version = await getLatestDdragonVersion();
-  const [champions, items] = await Promise.all([
-    fetchChampionList(version),
-    fetchItems(version),
-  ]);
+  const champions = readGeneratedChampionList();
+  const items = await fetchItems(version);
 
   return (
     <Suspense

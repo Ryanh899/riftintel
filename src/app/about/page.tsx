@@ -84,6 +84,17 @@ export default function AboutPage() {
       </section>
 
       <section className="space-y-2">
+        <h2 className="label-micro">accuracy boundary</h2>
+        <p className="text-[12px] leading-relaxed text-muted">
+          New patches must pass automated publication checks before receiving a
+          verified label. Older imported pages remain visible for discovery but
+          are marked <span className="text-adjust">archive under review</span> when
+          exact values have not passed the current gate. The primary experience
+          covers Summoner&apos;s Rift; alternate-mode balance is excluded.
+        </p>
+      </section>
+
+      <section className="space-y-2">
         <h2 className="label-micro">feedback</h2>
         <p className="text-[12px] leading-relaxed text-muted">
           Found a wrong number, broken UI, or have an idea?{" "}

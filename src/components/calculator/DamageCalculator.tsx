@@ -58,7 +58,7 @@ import { damageKindLabel } from "@/lib/calculator/pen";
 import { cn } from "@/lib/utils";
 import { AbilityMark } from "@/components/AbilityMark";
 import type { AbilitySlot } from "@/lib/abilities";
-import { ChevronDown, Copy, Loader2, Search, X } from "lucide-react";
+import { ChevronDown, Copy, ImageDown, Loader2, Search, X } from "lucide-react";
 import {
   AbilityCompareNotes,
   ComparePatchNotes,
@@ -87,6 +87,13 @@ import {
   buildComparisonParams,
   slotsFromParam,
 } from "@/lib/calculator/shareBuild";
+import {
+  fetchChampionKitDirect,
+  fetchVerifiedChampionHistory,
+} from "@/lib/calculator/clientData";
+import { shareResultCard } from "@/lib/calculator/shareImage";
+import { trackEvent } from "@/lib/analytics";
+import { FeedbackPrompt } from "@/components/FeedbackPrompt";
 
 type ListEntry = ChampionListEntry;
 
@@ -124,6 +131,7 @@ export function DamageCalculator({
   const urlBuildB = searchParams.get("b");
   const urlRanks = searchParams.get("ranks");
   const urlRunes = searchParams.get("runes");
+  const urlCombo = searchParams.get("combo");
   const sharedTargetParams = [
     searchParams.get("armor"),
     searchParams.get("mr"),
@@ -174,6 +182,16 @@ export function DamageCalculator({
     () => (urlBuildA ? slotsFromParam(urlBuildA, items) : null),
   );
   const [shareStatus, setShareStatus] = useState<string | null>(null);
+  const initialCombo = (urlCombo ?? "1,1,1,1,0").split(",").map(Number);
+  const [rotationCounts, setRotationCounts] = useState<Record<SkillKey, number>>({
+    Q: Number.isFinite(initialCombo[0]) ? Math.min(5, Math.max(0, initialCombo[0]!)) : 1,
+    W: Number.isFinite(initialCombo[1]) ? Math.min(5, Math.max(0, initialCombo[1]!)) : 1,
+    E: Number.isFinite(initialCombo[2]) ? Math.min(5, Math.max(0, initialCombo[2]!)) : 1,
+    R: Number.isFinite(initialCombo[3]) ? Math.min(5, Math.max(0, initialCombo[3]!)) : 1,
+  });
+  const [autoAttacks, setAutoAttacks] = useState(
+    Number.isFinite(initialCombo[4]) ? Math.min(10, Math.max(0, initialCombo[4]!)) : 0,
+  );
   const [itemQuery, setItemQuery] = useState("");
   const [itemFilter, setItemFilter] = useState<ItemBrowseFilter>("all");
   const [activeSlot, setActiveSlot] = useState<number | null>(null);
@@ -218,16 +236,14 @@ export function DamageCalculator({
     return m;
   }, [kit]);
 
+  // State setters are stable; the callback intentionally follows level and shared rank input.
+  // eslint-disable-next-line react-hooks/preserve-manual-memoization
   const loadKit = useCallback(async (id: string) => {
     const requestId = ++kitRequest.current;
     setLoading(true);
     setError(null);
     try {
-      const res = await fetch(
-        `/api/calculator/champion?id=${encodeURIComponent(id)}`,
-      );
-      if (!res.ok) throw new Error(await res.text());
-      const data: ChampionData = await res.json();
+      const data = await fetchChampionKitDirect(id);
       if (requestId !== kitRequest.current) return;
       setKit(data);
       const maxBy: Partial<Record<SkillKey, number>> = {};
@@ -280,14 +296,8 @@ export function DamageCalculator({
     setHistory(null);
     const name =
       champions.find((c) => c.id === champId)?.name ?? champId;
-    void fetch(
-      `/api/calculator/history?id=${encodeURIComponent(champId)}&name=${encodeURIComponent(name)}`,
-    )
-      .then(async (response) => {
-        if (!response.ok) throw new Error(await response.text());
-        return response.json();
-      })
-      .then((data: ChampionHistory) => {
+    void fetchVerifiedChampionHistory(champId, name)
+      .then((data) => {
         if (!cancelled) {
           const nextHistory = data?.entries?.length ? data : null;
           setHistory(nextHistory);
@@ -540,8 +550,18 @@ export function DamageCalculator({
 
   const selectedChamp = champions.find((c) => c.id === champId);
   const comboPost = abilityResults
-    .filter((a) => a.key !== "P" && (ranks[a.key] ?? 0) > 0)
-    .reduce((s, a) => s + a.primaryPost, 0);
+    .filter((ability) => ability.key !== "P" && (ranks[ability.key] ?? 0) > 0)
+    .reduce(
+      (sum, ability) =>
+        sum + ability.primaryPost * (rotationCounts[ability.key as SkillKey] ?? 0),
+      0,
+    );
+  const autoAttackPost = build
+    ? build.stats.ad *
+      resistMultiplier(effectiveArmor(target.armor, build.stats, level)) *
+      build.damageMult *
+      autoAttacks
+    : 0;
   const keystonePost = build?.keystone?.post
     ? build.keystone.post * (build.damageMult || 1)
     : 0;
@@ -549,10 +569,20 @@ export function DamageCalculator({
     (s, p) => s + p.post * (build?.damageMult || 1),
     0,
   );
-  const totalBurst = comboPost + keystonePost + procsPost;
+  const totalBurst = comboPost + autoAttackPost + keystonePost + procsPost;
   const buildAComboPost = buildAAbilityResults
     .filter((ability) => ability.key !== "P" && (ranks[ability.key] ?? 0) > 0)
-    .reduce((sum, ability) => sum + ability.primaryPost, 0);
+    .reduce(
+      (sum, ability) =>
+        sum + ability.primaryPost * (rotationCounts[ability.key as SkillKey] ?? 0),
+      0,
+    );
+  const buildAAutoAttackPost = buildA
+    ? buildA.stats.ad *
+      resistMultiplier(effectiveArmor(target.armor, buildA.stats, level)) *
+      buildA.damageMult *
+      autoAttacks
+    : 0;
   const buildAKeystonePost = buildA?.keystone?.post
     ? buildA.keystone.post * buildA.damageMult
     : 0;
@@ -560,7 +590,8 @@ export function DamageCalculator({
     (sum, proc) => sum + proc.post * (buildA?.damageMult || 1),
     0,
   );
-  const buildATotal = buildAComboPost + buildAKeystonePost + buildAProcsPost;
+  const buildATotal =
+    buildAComboPost + buildAAutoAttackPost + buildAKeystonePost + buildAProcsPost;
   const resultConfidence: ConfidenceLevel = abilityResults.some(
     (result) => abilityConfidence(result) === "unsupported",
   )
@@ -569,7 +600,17 @@ export function DamageCalculator({
 
   const compareComboPost = compareAbilityResults
     .filter((a) => a.key !== "P" && (ranks[a.key] ?? 0) > 0)
-    .reduce((s, a) => s + a.primaryPost, 0);
+    .reduce(
+      (sum, ability) =>
+        sum + ability.primaryPost * (rotationCounts[ability.key as SkillKey] ?? 0),
+      0,
+    );
+  const compareAutoAttackPost = compareBuild
+    ? compareBuild.stats.ad *
+      resistMultiplier(effectiveArmor(target.armor, compareBuild.stats, level)) *
+      compareBuild.damageMult *
+      autoAttacks
+    : 0;
   const compareKeystonePost = compareBuild?.keystone?.post
     ? compareBuild.keystone.post * (compareBuild.damageMult || 1)
     : 0;
@@ -578,7 +619,7 @@ export function DamageCalculator({
     0,
   );
   const compareTotalBurst =
-    compareComboPost + compareKeystonePost + compareProcsPost;
+    compareComboPost + compareAutoAttackPost + compareKeystonePost + compareProcsPost;
 
   const pickKeystone = (rune: RuneOption) => {
     setRuneIds((ids) => {
@@ -611,6 +652,7 @@ export function DamageCalculator({
     setChampId(id);
     setChampOpen(false);
     setChampQuery("");
+    trackEvent("calculator_champion_selected", { champion: id });
   };
 
   const shareBuildComparison = async () => {
@@ -624,6 +666,10 @@ export function DamageCalculator({
       ranks,
       target,
     });
+    params.set(
+      "combo",
+      `${rotationCounts.Q},${rotationCounts.W},${rotationCounts.E},${rotationCounts.R},${autoAttacks}`,
+    );
     const url = `${window.location.origin}/calculator?${params.toString()}`;
     window.history.replaceState(null, "", url);
     try {
@@ -631,6 +677,35 @@ export function DamageCalculator({
       setShareStatus("Link copied");
     } catch {
       setShareStatus("Share link added to the address bar");
+    }
+    trackEvent("calculator_comparison_shared", { champion: champId, method: "link" });
+  };
+
+  const shareImage = async () => {
+    const combo = [
+      ...SKILL_KEYS.filter((key) => rotationCounts[key] > 0).map(
+        (key) => `${key}×${rotationCounts[key]}`,
+      ),
+      ...(autoAttacks ? [`AA×${autoAttacks}`] : []),
+    ].join(" · ") || "no attacks selected";
+    try {
+      const result = await shareResultCard({
+        champion: kit?.name ?? selectedChamp?.name ?? champId,
+        level,
+        total: totalBurst,
+        target: `${target.armor} armor · ${target.mr} MR · ${target.hp} HP`,
+        combo,
+        buildA: buildASlots ? buildATotal : null,
+        buildB: buildASlots ? totalBurst : null,
+        url: window.location.href,
+      });
+      setShareStatus(result === "copied" ? "Result image copied" : "Result image downloaded");
+      trackEvent("calculator_result_shared", {
+        champion: champId,
+        method: result === "copied" ? "image_clipboard" : "image_download",
+      });
+    } catch (shareError) {
+      setShareStatus(shareError instanceof Error ? shareError.message : "Image share failed");
     }
   };
 
@@ -699,7 +774,7 @@ export function DamageCalculator({
 
       {/* ── Champion — primary control, full roster via search ── */}
       <div className="relative border-b border-border py-3">
-        <div className="flex flex-wrap items-center gap-3">
+        <div className="grid grid-cols-1 gap-3 sm:flex sm:flex-wrap sm:items-center">
           <button
             type="button"
             onClick={() => setChampOpen((o) => !o)}
@@ -730,9 +805,9 @@ export function DamageCalculator({
             </div>
           </button>
 
-          <div className="flex flex-1 flex-col gap-1">
+          <div className="min-w-0 w-full sm:flex-1">
             <span className="label-hint">quick picks · open search for full list</span>
-            <div className="flex flex-wrap items-center gap-1">
+            <div className="mt-1 flex max-w-full items-center gap-1 overflow-x-auto pb-1 sm:flex-wrap sm:overflow-visible sm:pb-0">
               {popularChamps.map((c) => (
                 <button
                   key={c.id}
@@ -740,7 +815,7 @@ export function DamageCalculator({
                   onClick={() => pickChamp(c.id)}
                   title={c.name}
                   className={cn(
-                    "ring-1 transition",
+                    "shrink-0 ring-1 transition",
                     c.id === champId
                       ? "ring-accent"
                       : "ring-border opacity-70 hover:opacity-100",
@@ -753,7 +828,7 @@ export function DamageCalculator({
               <button
                 type="button"
                 onClick={() => setChampOpen(true)}
-                className="flex h-8 items-center gap-1 border border-dashed border-border px-2 font-data text-[11px] text-muted hover:border-accent hover:text-fg"
+                className="flex h-8 shrink-0 items-center gap-1 border border-dashed border-border px-2 font-data text-[11px] text-muted hover:border-accent hover:text-fg"
               >
                 <Search className="h-3 w-3" />
                 all
@@ -1002,6 +1077,7 @@ export function DamageCalculator({
                 onClick={() => {
                   setBuildASlots([...slots]);
                   setShareStatus(null);
+                  trackEvent("calculator_build_a_set", { champion: champId });
                 }}
                 className="border border-accent/40 bg-accent/10 px-2 py-1 font-data text-[11px] text-accent hover:bg-accent/15"
               >
@@ -1542,9 +1618,105 @@ export function DamageCalculator({
                 comparisonLevel={
                   comparing
                     ? comparisonConfidence(reverse?.applied, reverse?.skipped)
-                    : undefined
+                  : undefined
                 }
               />
+              <section className="mb-3 border border-border bg-[var(--ink)]/35 p-2.5">
+                <div className="flex flex-wrap items-start justify-between gap-2">
+                  <div>
+                    <h2 className="label-micro">combo builder</h2>
+                    <p className="mt-0.5 font-data text-[10px] text-[var(--fg-faint)]">
+                      Choose casts and basic attacks · rune/item procs count once
+                    </p>
+                  </div>
+                  <div className="text-right font-data">
+                    <div className="text-[9px] uppercase text-[var(--fg-faint)]">post-mitigation</div>
+                    <div className="text-xl font-bold tabular-nums text-buff">{round(totalBurst, 0)}</div>
+                  </div>
+                </div>
+
+                <div className="mt-2 flex flex-wrap gap-1.5">
+                  {SKILL_KEYS.map((key) => {
+                    const learned = (ranks[key] ?? 0) > 0;
+                    const count = learned ? rotationCounts[key] : 0;
+                    return (
+                      <div key={key} className="flex items-center border border-border bg-bg font-data text-[11px]">
+                        <span className="border-r border-border px-2 py-1 font-semibold text-accent">{key}</span>
+                        <button
+                          type="button"
+                          disabled={!learned || count === 0}
+                          onClick={() =>
+                            setRotationCounts((current) => ({
+                              ...current,
+                              [key]: Math.max(0, current[key] - 1),
+                            }))
+                          }
+                          className="px-2 py-1 text-muted hover:text-fg disabled:opacity-30"
+                          aria-label={`Remove one ${key} cast`}
+                        >
+                          −
+                        </button>
+                        <span className="w-5 text-center tabular-nums text-fg">{count}</span>
+                        <button
+                          type="button"
+                          disabled={!learned || count >= 5}
+                          onClick={() =>
+                            setRotationCounts((current) => ({
+                              ...current,
+                              [key]: Math.min(5, current[key] + 1),
+                            }))
+                          }
+                          className="px-2 py-1 text-muted hover:text-fg disabled:opacity-30"
+                          aria-label={`Add one ${key} cast`}
+                        >
+                          +
+                        </button>
+                      </div>
+                    );
+                  })}
+                  <div className="flex items-center border border-border bg-bg font-data text-[11px]">
+                    <span className="border-r border-border px-2 py-1 font-semibold text-adjust">AA</span>
+                    <button
+                      type="button"
+                      disabled={autoAttacks === 0}
+                      onClick={() => setAutoAttacks((count) => Math.max(0, count - 1))}
+                      className="px-2 py-1 text-muted hover:text-fg disabled:opacity-30"
+                      aria-label="Remove one basic attack"
+                    >
+                      −
+                    </button>
+                    <span className="w-5 text-center tabular-nums text-fg">{autoAttacks}</span>
+                    <button
+                      type="button"
+                      disabled={autoAttacks >= 10}
+                      onClick={() => setAutoAttacks((count) => Math.min(10, count + 1))}
+                      className="px-2 py-1 text-muted hover:text-fg disabled:opacity-30"
+                      aria-label="Add one basic attack"
+                    >
+                      +
+                    </button>
+                  </div>
+                </div>
+
+                <div className="mt-2 flex flex-wrap items-center justify-between gap-2 border-t border-border/60 pt-2 font-data text-[10px]">
+                  <span className={totalBurst >= target.hp ? "text-buff" : "text-muted"}>
+                    {totalBurst >= target.hp
+                      ? `lethal by ${round(totalBurst - target.hp, 0)}`
+                      : `${round(target.hp - totalBurst, 0)} target HP remains`}
+                  </span>
+                  <div className="flex flex-wrap items-center gap-2">
+                    {shareStatus && <span role="status" className="text-buff">{shareStatus}</span>}
+                    <button
+                      type="button"
+                      onClick={() => void shareImage()}
+                      className="inline-flex items-center gap-1 border border-border px-2 py-1 text-fg hover:border-accent"
+                    >
+                      <ImageDown className="h-3 w-3" aria-hidden />
+                      share result image
+                    </button>
+                  </div>
+                </div>
+              </section>
               {/* Quiet line when off; full compare chrome when a patch is selected */}
               <PatchCompareControls
                 patches={champPatches}
@@ -1812,6 +1984,7 @@ export function DamageCalculator({
           )}
         </div>
       </div>
+      <FeedbackPrompt context="calculator" />
     </div>
   );
 }

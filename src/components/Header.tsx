@@ -11,6 +11,7 @@ const nav = [
   { href: "/patches", label: "Patches" },
   { href: "/champions", label: "Champions" },
   { href: "/calculator", label: "Calculator" },
+  { href: "/worlds", label: "Worlds" },
 ];
 
 export function Header() {

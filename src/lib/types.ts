@@ -12,6 +12,8 @@ export type EntityType = "champion" | "item" | "system" | "rune";
 
 export type Severity = 1 | 2 | 3;
 
+export type DataQuality = "verified" | "archive-review";
+
 export interface StatLine {
   label: string;
   before?: string;
@@ -61,6 +63,9 @@ export interface Patch {
   sourceUrl?: string;
   source?: string;
   wikiPage?: string;
+  aiEnriched?: boolean;
+  dataQuality?: DataQuality;
+  mode?: "summoners-rift";
 }
 
 export interface PatchIndexEntry {
@@ -73,6 +78,7 @@ export interface PatchIndexEntry {
   buffCount: number;
   nerfCount: number;
   adjustCount: number;
+  dataQuality?: DataQuality;
 }
 
 export interface PatchManifest {
@@ -94,6 +100,7 @@ export interface ChampionHistoryEntry {
   version: string;
   releaseDate: string;
   change: EntityChange;
+  dataQuality?: DataQuality;
 }
 
 export interface ChampionHistory {

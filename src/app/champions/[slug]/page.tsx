@@ -8,6 +8,7 @@ import { JumpLink } from "@/components/JumpLink";
 import { getChampionHistory, getChampionIndex } from "@/data/patches";
 import { cn, directionSolid, formatDate } from "@/lib/utils";
 import { ArrowLeft } from "lucide-react";
+import { DataQualityNotice } from "@/components/DataQualityNotice";
 
 export function generateStaticParams() {
   return getChampionIndex().map((c) => ({ slug: c.slug }));
@@ -88,6 +89,8 @@ export default async function ChampionHistoryPage({
           </div>
         </div>
       </header>
+
+      <DataQualityNotice quality="archive-review" history />
 
       {/* Compact jump strip — version + direction only */}
       <section>

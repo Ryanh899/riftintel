@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predev": "node scripts/build-public-data.mjs",
     "dev": "next dev",
+    "prebuild": "node scripts/build-public-data.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
@@ -15,7 +17,8 @@
     "test:patch-reverse": "tsx scripts/test-patch-reverse.ts",
     "test:calculator-confidence": "tsx scripts/test-calculator-confidence.ts",
     "test:build-sharing": "tsx scripts/test-build-sharing.ts",
-    "prod:check": "npm run verify && npm run lint && npm run build",
+    "test:calculator": "npm run test:calculator-links && npm run test:patch-reverse && npm run test:calculator-confidence && npm run test:build-sharing",
+    "prod:check": "npm run verify && npm run test:calculator && npm run lint && npm run build",
     "ingest": "python scripts/ingest/run_ingest.py --years 5.5",
     "ingest:ai": "python scripts/ingest/run_ingest.py --years 5.5 --ai",
     "ingest:test": "python scripts/ingest/run_ingest.py --patches \"26.14,14.10\" --ai",
@@ -30,7 +33,7 @@
     "@vercel/analytics": "^2.0.1",
     "clsx": "^2.1.1",
     "lucide-react": "^1.25.0",
-    "next": "16.2.11",
+    "next": "^16.3.0",
     "react": "19.2.4",
     "react-dom": "19.2.4"
   },
@@ -40,7 +43,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "16.2.11",
+    "eslint-config-next": "^16.3.0",
     "tailwindcss": "^4",
     "tsx": "^4.23.1",
     "typescript": "^5"

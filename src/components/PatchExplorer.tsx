@@ -3,7 +3,6 @@
 import { useMemo, useState } from "react";
 import type {
   FilterDirection,
-  FilterRole,
   FilterType,
   Patch,
 } from "@/lib/types";
@@ -30,29 +29,19 @@ const types: { value: FilterType; label: string }[] = [
   { value: "system", label: "sys" },
 ];
 
-const roles: { value: FilterRole; label: string }[] = [
-  { value: "all", label: "role" },
-  { value: "top", label: "top" },
-  { value: "jungle", label: "jg" },
-  { value: "mid", label: "mid" },
-  { value: "bot", label: "bot" },
-  { value: "support", label: "sup" },
-];
-
 export function PatchExplorer({ patch }: { patch: Patch }) {
   const [direction, setDirection] = useState<FilterDirection>("all");
-  const [role, setRole] = useState<FilterRole>("all");
   const [type, setType] = useState<FilterType>("all");
   const [query, setQuery] = useState("");
 
   const filtered = useMemo(
     () =>
-      filterEntities(allEntities(patch), { direction, role, type, query }),
-    [patch, direction, role, type, query],
+      filterEntities(allEntities(patch), { direction, type, query }),
+    [patch, direction, type, query],
   );
 
   const hasFilters =
-    direction !== "all" || role !== "all" || type !== "all" || query.trim();
+    direction !== "all" || type !== "all" || query.trim();
 
   return (
     <div className="grid gap-6 lg:grid-cols-[1fr_160px]">
@@ -66,7 +55,7 @@ export function PatchExplorer({ patch }: { patch: Patch }) {
           <OverviewBoard
             champions={
               type === "all" || type === "champion"
-                ? filterEntities(patch.champions, { direction, role, query })
+                ? filterEntities(patch.champions, { direction, query })
                 : []
             }
             items={
@@ -108,13 +97,11 @@ export function PatchExplorer({ patch }: { patch: Patch }) {
               tone
             />
             <FilterGroup options={types} value={type} onChange={setType} />
-            <FilterGroup options={roles} value={role} onChange={setRole} />
             {hasFilters && (
               <button
                 type="button"
                 onClick={() => {
                   setDirection("all");
-                  setRole("all");
                   setType("all");
                   setQuery("");
                 }}
@@ -141,6 +128,7 @@ export function PatchExplorer({ patch }: { patch: Patch }) {
                   key={entityAnchorId(entity)}
                   entity={entity}
                   patchId={patch.id}
+                  showGameplayImpact={patch.aiEnriched === true}
                 />
               ))}
             </div>

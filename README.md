@@ -24,6 +24,8 @@ history, and build damage. Free unofficial fan tool.
 | `/champions` | Per-champion change timelines |
 | `/calculator` | Ability damage (items, ranks, runes, pen) |
 | `/compare` | Diff two patches |
+| `/worlds` | Worlds countdown and patch watch |
+| `/feed.xml` | Patch RSS feed |
 
 ## Local development
 
@@ -56,6 +58,7 @@ No paid APIs required. Static data + free CDNs. Optional local Ollama for ingest
 - Vercel Web Analytics (built-in after deploy)
 - Optional GA4: `NEXT_PUBLIC_GA_MEASUREMENT_ID`
 - Sitemap `/sitemap.xml`, robots, Open Graph, JSON-LD
+- Privacy `/privacy`, terms `/terms`, and product-event feedback
 - When you add a domain: set `NEXT_PUBLIC_SITE_URL=https://your.domain`
 
 ## Legal

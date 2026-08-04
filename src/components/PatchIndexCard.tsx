@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import type { ChangeDirection } from "@/lib/types";
+import type { ChangeDirection, DataQuality } from "@/lib/types";
 import { formatDate } from "@/lib/utils";
 import { HoverCard } from "./HoverCard";
 import { PatchPreviewContent } from "./ChangePreview";
@@ -21,6 +21,7 @@ export interface PatchCardData {
   adjustCount: number;
   highlights?: { name: string; direction: ChangeDirection; tldr: string }[];
   isLatest?: boolean;
+  dataQuality?: DataQuality;
 }
 
 /** Patch history row — table-like, not a card */
@@ -49,6 +50,11 @@ export function PatchIndexCard({ patch }: { patch: PatchCardData }) {
           {patch.version}
           {patch.isLatest && (
             <span className="ml-1 text-[9px] font-normal text-accent">now</span>
+          )}
+          {patch.dataQuality !== "verified" && (
+            <span className="ml-1 text-[8px] font-normal uppercase text-adjust">
+              review
+            </span>
           )}
         </span>
 

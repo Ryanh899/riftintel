@@ -14,10 +14,12 @@ export function ChangeCard({
   entity,
   patchId,
   showHistoryLink = true,
+  showGameplayImpact = false,
 }: {
   entity: EntityChange;
   patchId?: string;
   showHistoryLink?: boolean;
+  showGameplayImpact?: boolean;
   compact?: boolean;
 }) {
   const slug = slugify(entity.name);
@@ -40,6 +42,7 @@ export function ChangeCard({
   const tldr = cleanTldr(entity.tldr, 200);
   const impact = cleanTldr(entity.gameplayImpact, 160);
   const showImpact =
+    showGameplayImpact &&
     impact &&
     impact.toLowerCase() !== tldr.toLowerCase() &&
     !tldr.toLowerCase().includes(impact.slice(0, 40).toLowerCase());

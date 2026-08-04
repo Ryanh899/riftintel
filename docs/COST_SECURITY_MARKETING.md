@@ -1,6 +1,6 @@
 # Cost, security, compliance, SEO, and analytics
 
-Last reviewed: July 27, 2026.
+Last reviewed: August 4, 2026.
 
 ## Non-negotiable cost rule
 
@@ -102,7 +102,8 @@ Never bypass the quality gate to publish on patch day.
 - `poweredByHeader: false`.
 - No secrets required for core application behavior.
 - GitHub workflow permission limited to `contents: write`.
-- Production API routes expose public game data only.
+- Public routes are static/SSG; there are no visitor-triggered server functions.
+- Calculator kit requests go directly from the browser to the public data CDN.
 
 Keep secrets out of the repository and client components. If a future Riot API
 key is introduced, keep it server-side and use one product per production key.

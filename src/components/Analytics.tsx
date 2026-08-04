@@ -5,12 +5,12 @@ import { Analytics as VercelAnalytics } from "@vercel/analytics/react";
 import { GA_MEASUREMENT_ID } from "@/lib/site";
 
 /**
- * Free traffic analytics for marketing experiments.
- * - Vercel Web Analytics: free on Hobby (page views; no card required for free tier)
+ * Privacy-light traffic analytics for product and marketing experiments.
+ * - Vercel Web Analytics: page views and low-cardinality product events
  * - Optional GA4: set NEXT_PUBLIC_GA_MEASUREMENT_ID in Vercel env (Google free tier)
  *
- * Neither bills you automatically for traffic on free plans. Keep Vercel Hobby +
- * spend cap $0 so usage never upgrades without your action.
+ * Hosting plan and usage safeguards are documented separately because commercial
+ * availability and billing controls can change independently of this code.
  */
 export function Analytics() {
   const ga = GA_MEASUREMENT_ID;

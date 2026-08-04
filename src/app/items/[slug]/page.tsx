@@ -11,6 +11,7 @@ import {
   slugify,
 } from "@/lib/utils";
 import { ArrowLeft } from "lucide-react";
+import { DataQualityNotice } from "@/components/DataQualityNotice";
 
 export function generateStaticParams() {
   const slugs = new Set<string>();
@@ -74,6 +75,8 @@ export default async function ItemHistoryPage({
           </p>
         </div>
       </header>
+
+      <DataQualityNotice quality="archive-review" history />
 
       <section className="rounded-2xl border border-border bg-surface/40 p-4">
         <div className="flex flex-wrap gap-2">
